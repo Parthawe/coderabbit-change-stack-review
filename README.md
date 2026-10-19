@@ -2,11 +2,11 @@
 
 Independent design assignment by Parth Pawar. This repository contains the working browser prototype, four visual explorations, Paper design references, and a separate comparison of product approaches.
 
-- [Working prototype](https://coderabbit-review-parth.pawar-d-parth.chatgpt.site/)
+- [Working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [Editable product approach walkthroughs in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0)
 - [Twelve walkthrough screens and comparison board](design/approach-walkthroughs/README.md)
 - [Product approach alternatives](docs/approaches.md)
-- [Visual exploration gallery](https://coderabbit-review-parth.pawar-d-parth.chatgpt.site/directions)
+- [Visual exploration gallery](https://parthawe.github.io/coderabbit-change-stack-review/directions.html)
 - [Editable baseline in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0)
 - [Editable visual explorations in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-2-0)
 - [One-page rationale](dist/rationale.pdf)
