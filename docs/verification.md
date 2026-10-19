@@ -27,3 +27,10 @@ Checked October 19, 2026, in the Codex in-app Chromium browser. Tests used the r
 ## Limits
 
 This is a desktop design prototype, not a complete PR client. Only one source screenshot file excerpt is reproduced. Other tools are explicitly labeled previews. No developer usability study or speed measurement was conducted. Signed-out access to the published URL is checked separately after deployment.
+
+
+## Approach comparison viewer
+
+The public gallery now shows the twelve Paper walkthrough states. Checked at 1440 × 1000 and 390 × 844. Shared stage selection, individual approach filtering, enlarged-view progression, actual-size reading, Home/End stage keys, Escape and focus restoration passed. The unavailable-image state was tested by temporarily withholding an asset; Retry restored the image after the asset was returned. The old directions route redirects to the comparison and retains valid journey hashes. Skip to walkthroughs preserves the selected journey and stage while moving focus to the gallery. The independent finish review passed after that skip-link fix.
+
+The viewer controls are functional. Product controls inside the images remain illustrative.

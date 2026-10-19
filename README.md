@@ -1,12 +1,12 @@
 # CodeRabbit Change Stack Review
 
-Independent design assignment by Parth Pawar. This repository contains the working browser prototype, four visual explorations, Paper design references, and a separate comparison of product approaches.
+Independent design assignment by Parth Pawar. This repository contains the working browser prototype, twelve approach walkthroughs, Paper design references, and the design rationale.
 
 - [Working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [Editable product approach walkthroughs in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0)
 - [Twelve walkthrough screens and comparison board](design/approach-walkthroughs/README.md)
 - [Product approach alternatives](docs/approaches.md)
-- [Visual exploration gallery](https://parthawe.github.io/coderabbit-change-stack-review/directions.html)
+- [Compare four product approach walkthroughs](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html)
 - [Editable baseline in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0)
 - [Editable visual explorations in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-2-0)
 - [One-page rationale](dist/rationale.pdf)
@@ -31,7 +31,7 @@ The Source notes & states control demonstrates loading, unavailable, and no-comm
 
 The assignment screenshots show coderabbitai/mono #22041 with two layers and three files. The supplied live link points to a different Formbricks PR and was rate limited during inspection. The prototype uses one visible UserListPaginated.tsx excerpt from the supplied screenshots. Missing files, hidden code, and original comment text are labeled as unavailable. Summary wording is condensed; line wrapping is normalized.
 
-The four gallery screens are editable design explorations. Their depicted controls are proposed interactions. The product approaches in `docs/approaches.md` now have twelve editable Paper states and a comparison board in `design/approach-walkthroughs/`. These are static walkthroughs; the depicted controls are not connected browser prototypes. The working prototype is the baseline three-region review workspace.
+The previous visual explorations remain in the source archive and Paper. The public gallery now compares the four product approaches through twelve Paper screens. The product approaches in `docs/approaches.md` now have twelve editable Paper states and a comparison board in `design/approach-walkthroughs/`. These are static walkthroughs; the depicted controls are not connected browser prototypes. The working prototype is the baseline three-region review workspace.
 
 This is an independent exercise. Review submission sends nothing to CodeRabbit or GitHub. No analytics or backend integration is included. The reference screenshot is included as assignment comparison material.
 
@@ -39,7 +39,7 @@ This is an independent exercise. Review submission sends nothing to CodeRabbit o
 
 | Path | Contents |
 | --- | --- |
-| `dist/` | Buildless HTML, CSS, JavaScript, excerpt JSON, fonts, rationale, comparison view, and four-direction gallery |
+| `dist/` | Buildless HTML, CSS, JavaScript, excerpt JSON, fonts, rationale, comparison view, and approach comparison viewer |
 | `docs/approaches.md` | Alternatives for how the product helps someone reach a review decision |
 | `docs/DESIGN.md` | Baseline design values and behavior |
 | `docs/verification.md` | Recorded browser checks and known limits |
