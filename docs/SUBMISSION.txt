@@ -1,0 +1,21 @@
+CodeRabbit Change Stack review redesign
+Parth Pawar
+
+I redesigned the reviewing screen in Paper, then built a browser prototype to demonstrate the interactions.
+
+1. Paper design and process
+https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
+
+Start with “00 · Start here · Paper to prototype.” It connects four diagnosed problems to the design decisions. The editable main screen and supporting focus, review-decision, and unavailable-source states follow on the same page.
+
+2. Working prototype
+https://parthawe.github.io/coderabbit-change-stack-review/
+
+Try summary-to-code highlighting, J/K layer navigation, Z focus mode, reversible viewed progress, and simulated review submission. I used Paper’s exported structure and computed styles as implementation references, then added the interaction state in static HTML, CSS, and JavaScript.
+
+The design keeps layer-based review and separates navigation, code, and context. It consolidates file actions, connects explanations to code, and separates file progress from the final review decision. The visual system follows CodeRabbit’s official logo, orange/mauve palette, Geist, and Hack.
+
+Source coverage is limited to one visible file excerpt from the supplied screenshot because the linked live review was rate limited. Missing content is disclosed, secondary tools are labeled previews, and nothing is sent externally. Four additional product approaches are retained as optional exploration.
+
+Access: Paper is set to “Anyone with the link can access,” but currently asks signed-out reviewers to sign in. The prototype is public and opens without a login.
+

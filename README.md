@@ -4,7 +4,7 @@ Independent design assignment by Parth Pawar. This repository contains the worki
 
 - [Primary working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [One-page rationale](dist/rationale.pdf)
-- [Editable primary submission in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0)
+- [Editable primary submission in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0)
 - [Requirement and brand cross-check](docs/REQUIREMENT-AUDIT.md)
 - [Optional approach walkthroughs](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html)
 - [Editable optional explorations in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0)
@@ -20,6 +20,10 @@ python3 -m http.server 4317 --directory dist
 ```
 
 Open http://localhost:4317. The prototype loads its excerpt from JSON, so use an HTTP server. No package installation or build step is required.
+
+## Review order
+
+Start in Paper with “00 · Start here · Paper to prototype,” then inspect the editable main screen and supporting states. Follow the working prototype link to try those interactions. [Submission note](docs/SUBMISSION.txt) contains both links and the source limits. Paper is set to anyone with the link, but currently requires reviewers to sign in; the prototype is public without a login.
 
 ## Submission scope
 
