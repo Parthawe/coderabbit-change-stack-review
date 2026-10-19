@@ -1,0 +1,77 @@
+{
+  "paperFile": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-2-0",
+  "status": "Editable design concepts; interactions are proposed, not four implemented prototypes.",
+  "baseline": "https://coderabbit-review-parth.pawar-d-parth.chatgpt.site",
+  "source": "One supplied screenshot excerpt from coderabbitai/mono #22041. Same source content used across all four directions. Missing files, code, and original comments are not reconstructed.",
+  "concepts": [
+    {
+      "key": "A",
+      "slug": "a-focus-desk",
+      "name": "Focus Desk",
+      "idea": "Full-width code with an explanation dock.",
+      "interaction": "Move between layers above the diff; choose a summary in the bottom dock. Collapse the dock for uninterrupted code reading.",
+      "strength": "Keeps more code visible during sustained inspection.",
+      "tradeoff": "Explanations sit farther from the selected lines.",
+      "palette": [
+        "#17191D",
+        "#1C1E22",
+        "#34363D",
+        "#F0F1F2",
+        "#A9AFBA",
+        "#DAB772"
+      ]
+    },
+    {
+      "key": "B",
+      "slug": "b-review-notebook",
+      "name": "Review Notebook",
+      "idea": "Read the explanation, then its code, with comments in the margin.",
+      "interaction": "Each explanation precedes its source excerpt. Expand the full diff when you need more context; keep notes beside the relevant section.",
+      "strength": "Makes the reasoning and evidence easy to follow in sequence.",
+      "tradeoff": "Adds vertical reading and can become long on large PRs.",
+      "palette": [
+        "#F3F0E8",
+        "#FBFAF6",
+        "#D2CEC2",
+        "#2B302E",
+        "#62675F",
+        "#244B66"
+      ],
+      "recommended": true
+    },
+    {
+      "key": "C",
+      "slug": "c-dependency-lens",
+      "name": "Dependency Lens",
+      "idea": "Use the relationship between layers as the review navigation.",
+      "interaction": "Select a layer in the dependency view to inspect its code. The connector shows the known depends-on relationship.",
+      "strength": "Makes cross-layer reasoning explicit.",
+      "tradeoff": "A map needs enough verified relationship data to earn its space.",
+      "palette": [
+        "#F0F2EC",
+        "#E4E9DF",
+        "#C5CEC0",
+        "#27382B",
+        "#53634F",
+        "#294A3A"
+      ]
+    },
+    {
+      "key": "D",
+      "slug": "d-evidence-queue",
+      "name": "Evidence Queue",
+      "idea": "Select one change, inspect its evidence, and move to the next.",
+      "interaction": "The change list drives a single evidence pane. N/P moves between changes; J/K retains layer navigation. File viewed status stays separate.",
+      "strength": "Provides a deliberate, guided pass through the change.",
+      "tradeoff": "A checklist can obscure the wider file context unless the full diff remains accessible.",
+      "palette": [
+        "#F3F5F8",
+        "#FFFFFF",
+        "#D5DDE7",
+        "#17263B",
+        "#5D6B7E",
+        "#234FBA"
+      ]
+    }
+  ]
+}

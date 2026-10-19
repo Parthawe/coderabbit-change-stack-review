@@ -1,0 +1,115 @@
+[
+  {
+    "fold": "45 unchanged lines · imports",
+    "id": "imports"
+  },
+  {
+    "old": 49,
+    "text": "import { buildFilterValuesPayload, buildMembersPaginatedInput } from \"../utils\"",
+    "kind": "del"
+  },
+  {
+    "new": 49,
+    "text": "import {",
+    "kind": "add"
+  },
+  {
+    "new": 50,
+    "text": "  buildFilterValuesPayload,",
+    "kind": "add"
+  },
+  {
+    "new": 51,
+    "text": "  buildMembersPaginatedInput,",
+    "kind": "add"
+  },
+  {
+    "new": 52,
+    "text": "  syncSelectedUsersAcrossPages,",
+    "kind": "add"
+  },
+  {
+    "new": 53,
+    "text": "} from \"../utils\"",
+    "kind": "add"
+  },
+  {
+    "fold": "663 unchanged lines · selection state",
+    "id": "cache"
+  },
+  {
+    "old": 715,
+    "new": 719,
+    "text": "const [rowSelection, setRowSelection] = useState<RowSelectionState>({})",
+    "kind": "context"
+  },
+  {
+    "new": 720,
+    "text": "// Full records of the selected users accumulated across pages — the table",
+    "kind": "add",
+    "highlight": true
+  },
+  {
+    "new": 721,
+    "text": "// is server-paginated, so rowSelection ids alone can't be resolved against",
+    "kind": "add",
+    "highlight": true
+  },
+  {
+    "new": 722,
+    "text": "// the current page once the selection spans pages (see",
+    "kind": "add",
+    "highlight": true
+  },
+  {
+    "new": 723,
+    "text": "// syncSelectedUsersAcrossPages in ../utils).",
+    "kind": "add",
+    "highlight": true
+  },
+  {
+    "new": 724,
+    "text": "const selectedUsersCacheRef = useRef(new Map<string, UserData>())",
+    "kind": "add",
+    "highlight": true
+  },
+  {
+    "fold": "19 unchanged lines · reset selection",
+    "id": "reset"
+  },
+  {
+    "old": 735,
+    "new": 744,
+    "text": "const resetSelection = () => {",
+    "kind": "context"
+  },
+  {
+    "old": 736,
+    "new": 745,
+    "text": "  setSelectionMode(null)",
+    "kind": "context"
+  },
+  {
+    "old": 737,
+    "new": 746,
+    "text": "  setRowSelection({})",
+    "kind": "context"
+  },
+  {
+    "new": 747,
+    "text": "  selectedUsersCacheRef.current.clear()",
+    "kind": "add"
+  },
+  {
+    "old": 738,
+    "new": 748,
+    "text": "  setLastClickedRowIndex(null)",
+    "kind": "context"
+  },
+  {
+    "old": 739,
+    "new": 749,
+    "text": "}",
+    "kind": "context"
+  }
+]

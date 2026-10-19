@@ -1,0 +1,319 @@
+(
+    <div style={{ backgroundColor: '#F3F5F8', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', height: '960px', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+      <div style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderBottomColor: '#D5DDE7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '72px', justifyContent: 'space-between', minHeight: '72px', paddingInline: '28px' }}>
+        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
+            CodeRabbit
+          </div>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              coderabbitai / mono #22041
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+              Keep seat selection cumulative across pages
+            </div>
+          </div>
+        </div>
+        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+            0 / 1 excerpt files viewed
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+            Review tools
+          </div>
+          <div style={{ backgroundColor: '#234FBA', borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '10px', paddingInline: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#FFFFFF', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '16px' }}>
+              Submit review
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '852px', minHeight: '852px', width: '1440px' }}>
+        <div style={{ backgroundColor: '#F3F5F8', borderRightColor: '#D5DDE7', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '852px', minWidth: '380px', width: '380px' }}>
+          <div style={{ borderBottomColor: '#D5DDE7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: '106px', minHeight: '106px', paddingBottom: '24px', paddingInline: '28px', paddingTop: '28px' }}>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+              <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '22px', fontWeight: 500, letterSpacing: '-0.02em', lineHeight: '28px' }}>
+                Changes in this file
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                4
+              </div>
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              Select a change to inspect its evidence.
+            </div>
+          </div>
+          <div style={{ alignItems: 'center', backgroundColor: '#F3F5F8', borderBottomColor: '#D5DDE7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '124px', justifyContent: 'space-between', minHeight: '124px', paddingBlock: '20px', paddingInline: '28px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                Lines 49–53
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '16px', fontWeight: 500, lineHeight: '20px' }}>
+                Import the selection helper
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+                Add the cross-page selection helper.
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ width: '16px', height: '16px', flexShrink: '0', display: 'inline-block' }}>
+              <path d="M6 4L10 8L6 12" fill="none" stroke="#8290A2" strokeWidth="1.5" />
+            </svg>
+          </div>
+          <div style={{ alignItems: 'center', backgroundColor: '#E5EDFC', borderBottomColor: '#D5DDE7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '124px', justifyContent: 'space-between', minHeight: '124px', paddingBlock: '20px', paddingInline: '28px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#234FBA', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                Lines 720–724
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#1D449E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '16px', fontWeight: 500, lineHeight: '20px' }}>
+                Keep selection across pages
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#3C5F9D', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+                Retain the full selected-user records.
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ width: '16px', height: '16px', flexShrink: '0', display: 'inline-block' }}>
+              <path d="M6 4L10 8L6 12" fill="none" stroke="#234FBA" strokeWidth="1.5" />
+            </svg>
+          </div>
+          <div style={{ alignItems: 'center', backgroundColor: '#F3F5F8', borderBottomColor: '#D5DDE7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '124px', justifyContent: 'space-between', minHeight: '124px', paddingBlock: '20px', paddingInline: '28px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                Lines 747–769
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '16px', fontWeight: 500, lineHeight: '20px' }}>
+                Reset when scope changes
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+                Clear cached users when scope changes.
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ width: '16px', height: '16px', flexShrink: '0', display: 'inline-block' }}>
+              <path d="M6 4L10 8L6 12" fill="none" stroke="#8290A2" strokeWidth="1.5" />
+            </svg>
+          </div>
+          <div style={{ alignItems: 'center', backgroundColor: '#F3F5F8', borderBottomColor: '#D5DDE7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '124px', justifyContent: 'space-between', minHeight: '124px', paddingBlock: '20px', paddingInline: '28px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                Lines 939–945
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '16px', fontWeight: 500, lineHeight: '20px' }}>
+                Resolve the selected users
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+                Summary available · code outside excerpt.
+              </div>
+            </div>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ width: '16px', height: '16px', flexShrink: '0', display: 'inline-block' }}>
+              <path d="M6 4L10 8L6 12" fill="none" stroke="#8290A2" strokeWidth="1.5" />
+            </svg>
+          </div>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', justifyContent: 'end', padding: '28px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+              Layer 2 of 2
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '18px' }}>
+              Paginated list integration
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '20px', whiteSpace: 'pre-wrap' }}>
+              Depends on Selection cache utility<br />2 files in dependency · source unavailable
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#234FBA', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              Switch layer · J / K
+            </div>
+          </div>
+        </div>
+        <div style={{ backgroundColor: '#FFFFFF', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '852px', width: '1060px' }}>
+          <div style={{ alignItems: 'center', borderBottomColor: '#D5DDE7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '120px', justifyContent: 'space-between', minHeight: '120px', paddingBlock: '24px', paddingInline: '40px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '28px', fontWeight: 500, letterSpacing: '-0.025em', lineHeight: '34px' }}>
+                Keep selection across pages
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                UserListPaginated.tsx · Lines 720–724 · +35 / −11 in file
+              </div>
+            </div>
+            <div style={{ borderColor: '#A8B6CA', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '8px', paddingInline: '12px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                Mark file viewed
+              </div>
+            </div>
+          </div>
+          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '92px', minHeight: '92px', paddingBlock: '24px', paddingInline: '40px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#465A76', display: 'flex', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+              Adds selectedUsersCacheRef to retain full user records across server-side pagination. The selected item and its code stay together as you move through the queue.
+            </div>
+          </div>
+          <div style={{ alignItems: 'center', backgroundColor: '#F7F9FC', borderBottomColor: '#D5DDE7', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderTopColor: '#D5DDE7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '48px', justifyContent: 'space-between', minHeight: '48px', paddingInline: '40px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              Selection state · 663 unchanged lines collapsed
+            </div>
+            <div style={{ boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#234FBA', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                Unified
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                Split
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                Surrounding diff
+              </div>
+            </div>
+          </div>
+          <div style={{ backgroundColor: '#FFFFFF', borderBottomColor: '#D5DDE7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '232px', minHeight: '232px', overflow: 'clip', paddingBlock: '32px', width: '1060px' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#FFFFFF', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', minHeight: '28px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '64px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  715
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '50px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  719
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'center', width: '34px' }}>
+                <div style={{ boxSizing: 'border-box' }} />
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#465A76', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                const [rowSelection, setRowSelection] = useState<RowSelectionState>({})
+              </div>
+            </div>
+            <div style={{ alignItems: 'center', backgroundColor: '#EDF5ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', minHeight: '28px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '64px' }}>
+                <div style={{ boxSizing: 'border-box' }} />
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '50px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  720
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'center', width: '34px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#285638', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  +
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#285638', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                // Full records of the selected users accumulated across pages — the table
+              </div>
+            </div>
+            <div style={{ alignItems: 'center', backgroundColor: '#EDF5ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', minHeight: '28px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '64px' }}>
+                <div style={{ boxSizing: 'border-box' }} />
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '50px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  721
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'center', width: '34px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#285638', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  +
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#285638', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                // is server-paginated, so rowSelection ids alone can't be resolved against
+              </div>
+            </div>
+            <div style={{ alignItems: 'center', backgroundColor: '#EDF5ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', minHeight: '28px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '64px' }}>
+                <div style={{ boxSizing: 'border-box' }} />
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '50px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  722
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'center', width: '34px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#285638', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  +
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#285638', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                // the current page once the selection spans pages (see
+              </div>
+            </div>
+            <div style={{ alignItems: 'center', backgroundColor: '#EDF5ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', minHeight: '28px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '64px' }}>
+                <div style={{ boxSizing: 'border-box' }} />
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '50px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  723
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'center', width: '34px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#285638', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  +
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#285638', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                // syncSelectedUsersAcrossPages in ../utils).
+              </div>
+            </div>
+            <div style={{ alignItems: 'center', backgroundColor: '#EDF5ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', minHeight: '28px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '64px' }}>
+                <div style={{ boxSizing: 'border-box' }} />
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'end', width: '50px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  724
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'center', width: '34px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#285638', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                  +
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#285638', fontFamily: '"IBM Plex Mono", system-ui, sans-serif', fontSize: '13px', lineHeight: '28px', width: 'max-content' }}>
+                const selectedUsersCacheRef = useRef(new Map<string, UserData>())
+              </div>
+            </div>
+          </div>
+          <div style={{ alignItems: 'center', backgroundColor: '#E5EDFC', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '80px', justifyContent: 'space-between', minHeight: '80px', paddingBlock: '20px', paddingInline: '40px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#234FBA', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+              Previous change
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#3C5F9D', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              Change 2 of 4 · N / P
+            </div>
+            <div style={{ backgroundColor: '#234FBA', borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '10px', paddingInline: '16px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#FFFFFF', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '13px', fontWeight: 500, lineHeight: '16px' }}>
+                Next change
+              </div>
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', paddingBlock: '28px', paddingInline: '40px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+              <div style={{ boxSizing: 'border-box', color: '#17263B', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '14px', fontWeight: 500, lineHeight: '18px' }}>
+                Local review note
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                1 thread elsewhere · R747–749
+              </div>
+            </div>
+            <div style={{ backgroundColor: '#FCFDFF', borderColor: '#C2CDDC', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '76px', paddingBlock: '14px', paddingInline: '16px', width: '980px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                Write a note about this change…
+              </div>
+            </div>
+            <div style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+              <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                Draft only · no external submission
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#234FBA', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                Save local draft
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ alignItems: 'center', borderTopColor: '#D5DDE7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '36px', justifyContent: 'space-between', minHeight: '36px', paddingInline: '28px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+          D · Evidence Queue · Concept exploration · Proposed change-by-change review
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#5D6B7E', fontFamily: '"IBM Plex Sans", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+          Pick a change · Inspect evidence · Move to the next
+        </div>
+      </div>
+    </div>
+  )

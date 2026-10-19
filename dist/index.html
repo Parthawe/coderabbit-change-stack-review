@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Change Stack — CodeRabbit design prototype</title>
+  <meta name="description" content="An independent CodeRabbit review workspace prototype by Parth Pawar. Explore layer navigation, connected summaries, focus mode, and review progress.">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#diff">Skip to code</a>
+  <header class="global-header">
+    <a class="wordmark" href="#" data-action="overview">CodeRabbit</a>
+    <div class="pr-identity"><div class="repo">coderabbitai / mono <span>#22041</span></div><h1>Keep seat selection cumulative across pages</h1></div>
+    <div class="global-actions"><span id="progress">0 / 1 excerpt files viewed</span><button class="primary" id="submit-review">Submit review</button></div>
+  </header>
+  <div class="workspace">
+    <nav class="navigation" aria-label="Review navigation">
+      <div class="overview-links"><button data-preview="Overview">Overview</button><button data-preview="Blast radius">Blast radius</button><button data-preview="Architecture impact">Architecture impact</button></div>
+      <div class="nav-label"><span>Review layers</span><span>2 layers</span></div>
+      <div class="layer-group">
+        <button class="layer" data-layer="0" aria-expanded="false"><span class="layer-number">1</span><span class="layer-copy"><strong>Selection cache utility</strong><small>2 files · source unavailable</small></span><svg class="chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></button>
+        <div id="layer-0-files" class="layer-files" hidden><p class="source-gap">File names and source aren’t included in the screenshot.</p></div>
+      </div>
+      <div class="layer-group">
+        <button class="layer selected" data-layer="1" aria-current="true" aria-expanded="true"><span class="layer-number">2</span><span class="layer-copy"><strong>Paginated list integration</strong><small>1 file · reviewing</small></span><svg class="chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></button>
+        <div id="layer-1-files" class="layer-files"><button id="file-nav" class="file-nav" aria-current="true"><span class="viewed-box" aria-hidden="true"></span><span>UserListPaginated.tsx</span></button></div>
+      </div>
+      <div class="nav-bottom"><div class="nav-label">Review tools</div><button data-preview="Review history">Review history</button><button data-preview="Follow review">Follow review</button><button data-preview="Agent">Agent</button><div class="keyboard-hints"><div><kbd>J</kbd> / <kbd>K</kbd> Navigate layers</div><div><kbd>Z</kbd> Focus on code</div></div></div>
+    </nav>
+    <main class="code-workspace" id="main">
+      <section class="layer-heading" aria-labelledby="layer-title"><div class="heading-row"><h2 id="layer-title">Paginated list integration</h2><span id="layer-position">Layer 2 of 2</span></div><button class="summary-toggle" id="summary-toggle" aria-expanded="true">Hide summary <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 10 4-4 4 4"/></svg></button><div id="layer-description"><p>Keep selected users when moving between pages. Clear the cache when the member scope changes.</p><p class="dependency">Depends on <button id="dependency">Selection cache utility</button></p></div></section>
+      <section class="file-toolbar" aria-label="File controls"><div class="file-identity"><div class="file-path" title="coderabbit-ui/src/pages/Settings/AccountOverview/TeamManagement/components/UserListPaginated.tsx">… / TeamManagement / components</div><div class="filename"><strong>UserListPaginated.tsx</strong><span class="add-count">+35</span><span class="del-count">−11</span></div></div><div class="file-actions"><div class="segmented" aria-label="Diff layout"><button id="unified" aria-pressed="true">Unified</button><button id="split" aria-pressed="false">Split</button></div><button id="focus" aria-pressed="false">Focus <kbd>Z</kbd></button><button id="viewed" aria-pressed="false">Mark viewed</button><button id="context-toggle" aria-expanded="false">Context</button></div></section>
+      <div class="diff-scroll" id="diff" tabindex="0" aria-label="Code changes"><div class="loading" role="status">Loading screenshot excerpt…</div></div>
+      <section class="unavailable" id="unavailable" hidden><h3>This layer’s source isn’t included</h3><p>The supplied screenshot names this layer but does not show its file names or code. This prototype keeps its place in the review without inventing those details.</p><div class="recovery"><button class="primary" id="return-file">Return to available file</button><button id="retry-source">Retry source</button></div><p class="retry-result" id="retry-result" role="status"></p></section>
+    </main>
+    <aside class="context-panel" id="context" aria-label="Change context"><div class="context-heading"><h2>Change context</h2><span>This file</span><button class="close-context" id="close-context" aria-label="Close context">Close</button></div><div class="tabs" role="tablist" aria-label="File context"><button role="tab" id="summaries-tab" aria-selected="true" aria-controls="summaries-panel">Summaries <span>4</span></button><button role="tab" id="comments-tab" aria-selected="false" aria-controls="comments-panel" tabindex="-1">Comments <span>1</span></button></div><section id="summaries-panel" role="tabpanel" aria-labelledby="summaries-tab"><p class="context-hint">Select a summary to reveal its code.</p><div id="summary-list"></div><p class="context-footnote">Summary wording condensed from the supplied screenshot.</p><button class="text-link" data-preview="Source & prototype notes">View source &amp; prototype notes</button></section><section id="comments-panel" role="tabpanel" aria-labelledby="comments-tab" hidden></section></aside>
+  </div>
+  <footer class="prototype-footer"><span>Independent design prototype · supplied screenshot excerpt · 1 of 3 files reproduced</span><button id="notes">Source notes &amp; states</button></footer>
+  <div class="toast" role="status" id="toast" hidden></div>
+  <dialog id="dialog" aria-labelledby="dialog-title"><form method="dialog" id="dialog-form"><div class="dialog-heading"><h2 id="dialog-title"></h2><button class="quiet" value="cancel" aria-label="Close dialog">Close</button></div><div id="dialog-content"></div></form></dialog>
+  <script src="app.js" defer></script>
+</body>
+</html>

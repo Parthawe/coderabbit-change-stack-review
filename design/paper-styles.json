@@ -1,0 +1,86 @@
+{
+  "styles": {
+    "1-0": {
+      "display": "flex",
+      "overflow": "clip",
+      "width": "1440px",
+      "height": "960px",
+      "left": "-720px",
+      "top": "-480px",
+      "flexDirection": "column",
+      "position": "absolute",
+      "backgroundColor": "#F4F6F8"
+    },
+    "2-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "space-between",
+      "width": "1440px",
+      "height": "72px",
+      "flexShrink": "0",
+      "paddingInline": "24px",
+      "backgroundColor": "#FFFFFF",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#DCE2E8"
+    },
+    "G-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "width": "240px",
+      "height": "852px",
+      "flexShrink": "0",
+      "paddingBlock": "24px",
+      "paddingInline": "16px",
+      "gap": "8px",
+      "backgroundColor": "#F4F6F8",
+      "borderRightWidth": "1px",
+      "borderRightStyle": "solid",
+      "borderRightColor": "#DCE2E8"
+    },
+    "I-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "width": "880px",
+      "height": "852px",
+      "flexShrink": "0",
+      "backgroundColor": "#FFFFFF"
+    },
+    "K-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "width": "320px",
+      "height": "852px",
+      "flexShrink": "0",
+      "paddingBlock": "24px",
+      "paddingInline": "20px",
+      "gap": "16px",
+      "backgroundColor": "#F8FAFC",
+      "borderLeftWidth": "1px",
+      "borderLeftStyle": "solid",
+      "borderLeftColor": "#DCE2E8"
+    },
+    "1N-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "paddingTop": "24px",
+      "paddingBottom": "20px",
+      "gap": "8px",
+      "paddingInline": "28px",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#DCE2E8"
+    },
+    "B4-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "space-between",
+      "paddingBlock": "16px",
+      "paddingInline": "20px",
+      "gap": "16px",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#DCE2E8"
+    }
+  }
+}
