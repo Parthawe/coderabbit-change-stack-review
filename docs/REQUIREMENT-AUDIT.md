@@ -1,53 +1,46 @@
-# Original brief and brand cross-check
+# Assignment cross-check
 
-Reviewed October 19, 2026 against the supplied three-page assignment PDF, its attached screenshot, the current prototype, and CodeRabbit’s official brand page.
+Reviewed October 19, 2026 against the full three-page challenge, the exact assigned [review run](https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b), and the resulting Paper and browser artifacts.
 
-The primary layer-based prototype is close to the assignment. The four later product approaches are substantial extensions and belong in an optional appendix. Brand matching was explicitly not a grading criterion in the assignment; it was added here at the user’s request.
+The primary submission remains one main layer-based reviewing screen. The newly accessible Formbricks evidence replaces the earlier screenshot fallback in the primary Paper page, prototype, comparison, and rationale. The four product approaches remain optional explorations using their original screenshot case.
 
-## Requirement check
-
-| Original requirement | Current evidence | Assessment |
+| Challenge | Result | Boundary |
 | --- | --- | --- |
-| Understand the linked live review | Rechecked the original Formbricks session; it still reports temporary public-repository rate limiting. | Limited access |
-| Diagnose 3–5 parsing problems | Four diagnoses map to hierarchy, navigation, summary linking, and review progress decisions in the rationale. | Covered |
-| Redesign one main reviewing screen | The primary page retains the layer, file, diff, summary, comment, viewed, and review-decision structure. | Covered |
-| Improve visual hierarchy and micro-interactions | J/K, Z, linked summary highlights, split/unified views, reversible viewed state, shortcut guards, draft entry, and simulated review work locally. | Covered within the excerpt |
-| Keep existing capability | Core review interactions work. History, Agent, follow review, diagrams, search/filter, settings, impact analysis, and full-PR scope are placement previews. | Partial |
-| Make the same information easier to scan | Main locations and actions are clearer. Historical open/blocker context is restored and labeled. Latest-change and complexity values are not reconstructed. | Partial fidelity |
-| Inspect the 52-file/seven-layer live reference | The brief names this PR as the product reference; it does not require recreating every file. The live session was rate limited, so the supplied screenshot was used. Full-scale behavior remains unverified. | Limited inspection; no all-file deliverable required |
-| Prototype with view access plus one-page explanation | Public GitHub Pages prototype, editable Paper, and one-page rationale are provided. | Covered |
-| One strong screen within a 1–2 hour exercise | Core prototype fits that deliverable shape; twelve alternative product states exceed the original scope. | Keep explorations optional |
+| Understand the assigned review | Exact run initially loaded. Seven named layers, nine layer-1 files, summaries, filters, hidden resolved comments, and stale history were inspected. | Access became intermittent and rate limited; all 52 diffs were not inspected. |
+| Diagnose 3–5 parsing problems | Four observations concern competing toolbars, separated navigation, summary scope/linking, and three progress signals. | Design hypotheses, without measured reviewer-speed claims. |
+| Redesign one main reviewing screen | Native editable Paper main screen with supporting focus, decision, and recovery states. | Supporting frames explain the same screen, not a larger product redesign. |
+| Retain capability | Navigation, file selection, diff layout, range selection, comment entry, viewed status, seen progress, and review decision have destinations. | Some secondary workflows are labeled previews; complete capability parity is not demonstrated. |
+| Same information easier to scan | Both source and redesign use Formbricks #8650, layer 1, access.ts, and captured summary ranges. | Original screenshot starts at imports; redesign starts at line 49. Different visible positions are disclosed. |
+| Interaction polish | Keyboard navigation, focus preservation, local progress, comment filtering, and dialog focus are implemented. | Prototype state is local; no remote writes. |
+| Viewable design or prototype + one-pager/video | Public prototype and one-page rationale, plus editable Paper with process boards. | Paper currently prompts signed-out reviewers to sign in. |
+| Focused 1–2 hour exercise | Main screen and four diagnoses remain the primary deliverable shape. | Later exploration and implementation extend the original exercise; no claim of completing all work in two hours. |
 
-## Drift decisions
+The challenge asks to inspect a 52-file, seven-layer reference. It does not ask for every file to be rebuilt. Seven verified added files provide a focused browser path; nine layer-1 paths and all seven layer names/counts preserve orientation. Missing patches and summaries are explicitly disclosed.
 
-- Behavior-first adds an expectation and evidence model. It is a future product hypothesis.
-- Counterexamples adds scenario investigation and result classification. It is a future workflow.
-- Impact-first is closest to existing blast-radius and architecture capabilities, but its coverage ledger is a proposed addition.
-- Author handoff introduces author input and collaboration. It is the largest departure from the original reviewing-screen task.
+## Capability destinations
 
-These concepts remain available because the user requested exploration. They are now labeled optional in the browser and Paper. The recommendation to replace the primary submission with approach A has been removed.
+| Source capability | Design/prototype destination |
+| --- | --- |
+| Layers, files, J/K | Layer rail and nine-file picker; outside-fixture layers keep verified metadata. |
+| PR search | Labeled Search control; the demonstrated search filters nine known paths. Full-PR search remains outside scope. |
+| Sidebar resizing/collapse | Fixed 240px rail; Z focus mode provides collapse. Drag resizing is not implemented. |
+| Overview | Labeled metadata preview. |
+| Security blast radius | Disabled, matching repository unavailability in the source. |
+| Security architecture impact | Labeled Architecture impact preview; uncaptured analysis is not fabricated. |
+| History and Settings | Labeled previews. History preserves stale/out-of-date snapshot status. |
+| Files/Diagram | File workspace retained. Diagram is described in Tools; source control was disabled. |
+| Previous/next file | Nine-file position control opens direct selection; separate arrows are consolidated. |
+| View settings, full file, collapse | Unified/Split, Tools full-file/ranges toggle, and collapse-current-diff. No unchanged code exists in the seven added files. |
+| Mark layer files viewed | Tools marks only seven included diffs viewed; never all 52. |
+| Semantic outline/diff | Captured range outline and full-file/range view; complete semantic-diff engine remains a preview. |
+| Copy path, file/line comments | Path shown; per-line local drafts work. Dedicated path-copy and file-level thread workflows are not implemented. |
+| Layer context, complexity, follow code | File-scoped context with explicit layer counts. All/High/Medium filter captured summaries; Low and automatic follow-code are labeled previews. |
+| Summary seen progress | Explicit Mark seen, independent of file viewed and final decision. |
+| Resolved/outdated filters | Captured resolved thread starts hidden. Show resolved works; full outdated-filter workflow remains outside fixture. |
+| Final review | Separate decision dialog with explicitly simulated confirmation. |
 
-## Applied brand alignment
+## Brand and scope
 
-Authoritative source: [CodeRabbit brand guidelines](https://www.coderabbit.ai/brand). Supporting product reference: [Change Stack](https://www.coderabbit.ai/change-stack).
+Brand matching was not graded in the challenge; it was added at the user's request. The design uses the intact official orange logo, CR Orange `#FF570A`, light mauve neutrals, Geist, and Hack from the [official brand reference](https://www.coderabbit.ai/brand). Small links use dark orange `#582D1D`; diff red/green remains semantic. No claim of full brand certification or usability validation is made.
 
-- Approved orange logotype is used intact, with its proportions preserved. The prior text recreation is replaced.
-- CR Orange `#FF570A` is the principal action accent. Dark foreground `#211F24` on orange has approximately 5.15:1 contrast.
-- Light Carrot UI mauve values are taken from the official site’s stylesheet: base `#FDFDFE`, secondary surface `#FAF8FB`, line `#E3E0E7`, muted text `#65616A`, and primary text `#211F24`.
-- Selection uses the official orange-family surface `#FFEAD5` and dark orange-family text `#582D1D`. Bright orange is not used for small reading text.
-- Geist supplies interface reading text and headings; Hack supplies code and technical utility. Font files are self-hosted with their licenses. The editable Paper code also uses Hack.
-- Semantic red/green diff signs and fills remain distinct from brand selection. Mint and cobalt are not added as decoration.
-
-The main Paper screen, supporting states, all twelve optional approach states, browser prototype, comparison view, and rationale are aligned. Archived visual explorations are retained as history rather than represented as the current direction.
-
-## What remains unverified
-
-A real developer usability study, measured scan/review speed, full seven-layer navigation at the supplied PR’s scale, complete secondary workflows, live GitHub review synchronization, original comment contents, and missing source ranges have not been established. Prototype checks do not establish these outcomes.
-
-## Submission recommendation
-
-Submit the [primary prototype](https://parthawe.github.io/coderabbit-change-stack-review/), the [one-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf), and the [primary Paper page](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0). Keep the [four approach walkthroughs](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html) as optional exploration.
-
-## Exact-brief clarification
-
-The challenge accepts a Figma file or a viewable prototype plus a one-page explanation or video. Paper is the chosen editable design workspace; the public browser prototype meets the prototype format. The one-page rationale is now linked directly from the Paper starting board and submission note. The primary deliverable remains one main reviewing screen; supporting state frames explain its interactions. Brand alignment and the four optional product explorations are additions requested later, not grading requirements. No claim is made that all source information or secondary functionality is fully reproduced.
+The optional Behavior-first, Counterexamples, Impact-first, and Author handoff concepts introduce new workflows. They stay outside the recommended primary submission. The main screen, Paper process, and rationale are what reviewers should assess first.

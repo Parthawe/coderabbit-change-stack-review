@@ -1,23 +1,23 @@
 (
     <div style={{ backgroundColor: '#FDFDFE', borderColor: '#E3E0E7', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '20px', height: '520px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '640px' }}>
       <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '24px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '30px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '30px' }}>
           Submit review
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
           Close
         </div>
       </div>
-      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
         Choose a review decision. This prototype simulates submission and does not send anything to CodeRabbit or GitHub.
       </div>
-      <div style={{ alignItems: 'center', backgroundColor: '#EFF4FF', borderColor: '#A9C1EC', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px', paddingInline: '16px' }}>
+      <div style={{ alignItems: 'center', backgroundColor: '#FFEAD5', borderColor: '#E57340', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px', paddingInline: '16px' }}>
         <div style={{ backgroundColor: '#FF570A', borderColor: '#FF570A', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '16px', width: '16px' }} />
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
             Comment
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
             Share feedback without a decision.
           </div>
         </div>
@@ -25,10 +25,10 @@
       <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderColor: '#E3E0E7', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px', paddingInline: '16px' }}>
         <div style={{ backgroundColor: '#FDFDFE', borderColor: '#8C9BAB', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '16px', width: '16px' }} />
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
             Approve
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
             Approve the pull request.
           </div>
         </div>
@@ -36,22 +36,22 @@
       <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderColor: '#E3E0E7', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '12px', paddingInline: '16px' }}>
         <div style={{ backgroundColor: '#FDFDFE', borderColor: '#8C9BAB', borderRadius: '8px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '16px', width: '16px' }} />
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
             Request changes
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
             Ask for changes before merging.
           </div>
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', gap: '12px', justifyContent: 'end', paddingTop: '8px' }}>
         <div style={{ borderColor: '#E3E0E7', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '10px', paddingInline: '16px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
             Cancel
           </div>
         </div>
         <div style={{ backgroundColor: '#FF570A', borderRadius: '5px', boxSizing: 'border-box', paddingBlock: '10px', paddingInline: '16px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
             Simulate submission
           </div>
         </div>

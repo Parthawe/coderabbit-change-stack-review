@@ -1,57 +1,37 @@
 # Prototype verification
 
-Checked October 19, 2026, in the Codex in-app Chromium browser. Tests used the running static site rather than a component mock.
+Checked October 19, 2026 in the Codex in-app Chromium browser against the running static site. This record applies to the migrated Formbricks fixture. Earlier screenshot-based results do not establish behavior of this version.
 
-| Check | Result |
+| Check | Observed result |
 | --- | --- |
-| 1440 × 960 layout | Pass. Navigation 240 px, code workspace 880 px, context 320 px. No document overflow. |
-| 1280 × 800 layout | Pass. Controls remain visible; long code scrolls inside the diff. |
-| 1100 × 800 context | Pass. Context opens as a fixed overlay and closes back to its trigger. |
-| Layer navigation | Pass. K opens the unavailable source layer; J returns to the reproduced file. Viewed progress persists across this navigation. |
-| Summary selection | Pass. Selection highlights the corresponding code range. Enter and Space preserve focus on the activated summary. |
-| Split diff | Pass. Both panes are visible at 1280 px with independent scrolling. The blank before-side row aligns with added line 747; unchanged lines stay paired. |
-| Focus mode | Pass. Stable scroll position was 136.5 px before, during, and after toggling Z. File identity is retained. |
-| Typing shortcut guard | Pass. Typing j, k, and z into the comment textarea inserts text without changing layer or focus mode. |
-| Viewed progress | Pass. Mark viewed updates both the file indicator and the reproduced-file count; it can be reversed. |
-| Review simulation | Pass. Approve completes with an explicit simulated confirmation. Dialog closes and focus returns to Submit review. No review API is called. |
-| Dialog Escape | Pass. Escape closes the dialog and returns focus to Submit review. |
-| Comment handling | Pass. The source thread marker opens with missing original content disclosed. Local drafts stay in this tab. |
-| Loading and recovery | Pass. Loading preview renders; Load available excerpt restores code. Retry for the unavailable layer reports the unchanged source limitation. |
-| No-comments state | Pass. Demonstration is labeled and can return to the source thread. |
-| Browser errors | No console errors or warnings observed during the local interaction checks. |
-| Mechanical design detector | Original baseline: no findings. Brand pass: seven font/token advisories, documented below. |
-| Independent finish review | Pass after fixing split pairing, split container width, and summary focus preservation. No open material findings in the reviewed scope. |
-| Rationale | One PDF page, rendered and visually inspected. |
-| Paper | Seven boards: reading guide, source diagnosis, editable main workspace, interaction/capability map, focus mode, review dialog, and unavailable layer. Native PNG/JSX exports and representative computed styles are retained in `design/paper-submission/`. |
+| Source identity | Exact assigned URL initially loaded without sign-in. Seven layer names/counts, nine layer-1 paths, 37 summaries, 15 resolved messages, and stale history captured. Later requests became rate limited. |
+| Fixture integrity | Seven layer counts sum to 52. Nine file paths, seven complete added files, 14 valid summary ranges, 37 total summaries, and 15 comment messages pass consistency checks. Added-source line counts match source additions. |
+| 1440 × 960 layout | No document horizontal overflow. Navigation, code, and context are readable. Main and supporting Paper boards visually inspected. |
+| 1280 × 800 layout | Document width remains 1280. Toolbar controls do not overlap; long source lines scroll inside the diff. The navigation scrolls vertically to retain all tools. |
+| 1100 × 800 context | Context opens as an overlay. Escape closes it and restores focus to the Context trigger. No document horizontal overflow. |
+| Layer keys | J selects Feedback record operations; K returns to layer 1. Detailed content outside the fixture is labeled. |
+| Summary selection | Selecting the second access.ts summary highlights exactly lines 156–186 (31 rows), scrolls to them, and preserves focus. |
+| Complexity | High filters to the captured high-complexity summary. Low opens an explicit uncaptured-content preview rather than claiming no source summaries. |
+| File picker | Filtering serializers.ts opens its complete 132-line added file. A modified file opens a coverage notice with Mark viewed disabled; Return to access.ts recovers. |
+| Independent progress | Mark seen gives 1/37; marking two included files gives 2/52. Both persist through J/K navigation. Unmarking a file reduces viewed to 1/52 without changing seen progress. Opening files alone does not mark them viewed. |
+| Focus mode | Scroll position is 1152px before, during, and after Z. Z can also exit focus after navigating to an outside-fixture layer. |
+| Split | Added-file split view contains 194 blank before rows and 194 added after rows for access.ts. |
+| Comments | Three resolved access.ts messages initially hidden. Show resolved reveals the historical root thread, marked Major and Resolved, at R75–90. Two replies are disclosed as not reproduced. |
+| Typing | Typing j/k/z in a local comment inserts text without changing layer or focus mode. Local save explicitly sends nothing. |
+| Review dialog | Escape returns focus to Submit review. Approve completes with “Simulated approval complete. Nothing was sent.” No review API is used. |
+| Recovery previews | Loading skeleton restores pinned source. Observed-source-error retry shows its explanatory result inside the dialog. No-comments state is explicitly labeled. |
+| Reduced motion | The implementation checks prefers-reduced-motion before smooth scrolling; reduced-motion CSS disables animation. No user preference was changed during checking. |
+| PDF | Exactly one page; rendered through Poppler and visually inspected for readable type, table wrapping, and no clipping. |
+| Source syntax | JavaScript syntax and git diff whitespace checks pass. |
+| Design detector | One bounded pass on changed HTML/CSS produced three documentation advisories: selection border, input border, and compact 11px labels. Existing brand values and dense metadata use are documented; no new visual system was introduced. |
+| Paper source | Seven current native PNG and raw JSX exports plus representative computed styles are saved in design/paper-submission. Earlier screenshot work is archived separately. |
 
 ## Limits
 
-This is a desktop design prototype, not a complete PR client. Only one source screenshot file excerpt is reproduced. Other tools are explicitly labeled previews. No developer usability study or speed measurement was conducted. Signed-out access to the published URL is checked separately after deployment.
+The source is an out-of-date snapshot. Historical resolved findings do not establish current bugs. This is a focused desktop prototype with seven complete added-file diffs, not a 52-file PR client. Modified patches, other layers' detailed content, uncaptured summaries, replies, and several secondary workflows remain outside the fixture. No backend review, full capability parity, developer usability study, or measured speed improvement is claimed.
 
+Paper is set to anyone with the link but currently prompts signed-out reviewers to sign in. The public browser prototype is the login-free deliverable accepted by the challenge. Cookie-free published asset checks are recorded after deployment.
 
-## Approach comparison viewer
+## Optional earlier explorations
 
-The public gallery now shows the twelve Paper walkthrough states. Checked at 1440 × 1000 and 390 × 844. Shared stage selection, individual approach filtering, enlarged-view progression, actual-size reading, Home/End stage keys, Escape and focus restoration passed. The unavailable-image state was tested by temporarily withholding an asset; Retry restored the image after the asset was returned. The old directions route redirects to the comparison and retains valid journey hashes. Skip to walkthroughs preserves the selected journey and stage while moving focus to the gallery. The independent finish review passed after that skip-link fix.
-
-The viewer controls are functional. Product controls inside the images remain illustrative.
-
-
-## Requirement and brand alignment pass
-
-Cross-checked the original three-page assignment and its attached screenshot. The original Formbricks live session still returned “Review is unavailable” and temporary public-repository rate limiting. No sign-in was attempted. See [the requirement audit](REQUIREMENT-AUDIT.md) for covered, partial, and undemonstrated requirements.
-
-Applied the official CodeRabbit orange typemark, orange/mauve colors, Geist interface type, and Hack code type. All twelve optional Paper states and the primary Paper screen/supporting states were refreshed. The primary prototype and rationale are the recommended submission; the four approach walkthroughs are optional explorations beyond the brief.
-
-The brand pass was rendered at 1440 × 960 and 1280 × 960 for the prototype, and at 1440 and 390 px wide for the gallery. No document horizontal overflow was observed. A navigation subtitle overflow introduced by the Hack override was corrected by keeping reading/navigation subtitles in Geist. The left navigation then measured 239 px client width and 239 px scroll width at 1280. Approved logo proportions are retained, with spacing before the header separator. Semantic red/green diff colors remain distinct from orange selection.
-
-The one detector pass returned seven advisories: the overused-Geist warning is an intentional official-brand exception; the two font, one color, one radius, and two small-text-size advisories were documentation drift and are recorded in the refreshed design documents. The detector does not establish usability or full accessibility compliance.
-
-The refreshed PDF remains one page and was rendered and visually inspected. JavaScript syntax checks and git diff whitespace checks passed. Earlier interaction results above remain applicable; brand changes did not replace their handlers.
-
-The full 52-file/seven-layer PR, secondary workflows, live sync, and measured reviewer performance remain unverified. One excerpt and placement previews do not establish capability parity.
-
-Independent finish review disposition: ship for the narrow brand alignment and scope presentation. No material fixes remained in that reviewed scope. This does not resolve the full-PR and secondary-workflow limits above.
-
-## Paper submission coherence
-
-The primary Paper page now reads in two rows: 00–02 introduce the method, source evidence, and main design; 03–06 explain the review flow and supporting states. The optional approach page follows, with archived visual drafts last. The source screenshot is explicitly raster reference material; redesigned UI and rationale use native editable nodes. Tools, Hide summary, and explicit unavailable-range notices were added to the main/focus Paper states to close gaps with the prototype. Screenshot checks confirmed readable labels, aligned rows, source coverage disclosures, and no clipping after using fit-content for the flow board. No browser interaction handlers changed in this pass.
+The twelve-screen approach gallery retains the supplied mono screenshot case. Its existing filters, stage navigation, image dialog, image recovery, and narrow viewer layout were checked in the earlier gallery pass. The current change only clarifies that the primary submission now uses Formbricks; the product controls inside those images remain illustrative.

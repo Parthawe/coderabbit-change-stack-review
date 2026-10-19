@@ -1,6 +1,6 @@
 ---
 name: CodeRabbit Change Stack prototype
-description: Screenshot-based code review workspace for an independent take-home.
+description: Pinned Formbricks code review workspace for an independent take-home.
 colors:
   surface: "#faf8fb"
   paper: "#fdfdfe"
@@ -10,6 +10,8 @@ colors:
   brand: "#ff570a"
   blue: "#582d1d"
   selected: "#ffead5"
+  selection-border: "#e57340"
+  input-border: "#bdb9c2"
   green: "#175c3c"
   red: "#8e3540"
   context: "#faf8fb"
@@ -35,6 +37,10 @@ typography:
     fontSize: "14px"
     fontWeight: 400
     lineHeight: 1.5
+  compact-metadata:
+    fontFamily: "Geist, system-ui, sans-serif"
+    fontSize: "11px"
+    fontWeight: 400
   label:
     fontFamily: "Geist, system-ui, sans-serif"
     fontSize: "12px"
@@ -81,9 +87,9 @@ components:
 
 ## Overview
 
-This is the implemented visual system for Parth Pawar’s independent CodeRabbit take-home. It gives reviewers a layer list, a code excerpt, and connected summaries in one desktop workspace. Compact typography, flat panels, and restrained state colors keep the code readable.
+This is the implemented visual system for Parth Pawar’s independent CodeRabbit take-home. It gives reviewers a layer list, complete added-file diffs, and connected summaries in one desktop workspace. Compact typography, flat panels, and restrained state colors keep the code readable.
 
-The working HTML/CSS/JavaScript in `dist/` governs browser behavior. `brand.css`, loaded after `styles.css`, supplies the applied brand overrides. The primary Paper screen and its three supporting states use the same direction. The main layer-review screen and one-page rationale remain the submission; the four approach walkthroughs are optional product explorations. Paper is ordered Main submission, Optional approaches, then Archive. The primary page includes the reading guide, source diagnosis, main screen, flow specification, and supporting states.
+The working HTML/CSS/JavaScript in `dist/` governs browser behavior. `brand.css`, loaded after `styles.css`, supplies the applied brand overrides. The primary Paper screen and its three supporting states use the same direction. The main layer-review screen and one-page rationale remain the submission; the four approach walkthroughs are optional product explorations. Paper is ordered Main submission, screenshot-reference explorations, screenshot-study archive, then visual archive. The primary page includes the reading guide, source diagnosis, main screen, flow specification, and supporting states.
 
 Brand authority is the [official CodeRabbit brand page](https://www.coderabbit.ai/brand). Orange and light Carrot UI mauve values were extracted from the official site stylesheet. The original black/orange typemark SVG is used intact, with its proportions preserved. This records the applied choices and their provenance; it is not a certification of complete brand compliance.
 
@@ -113,7 +119,7 @@ The main layer heading uses the headline token. Context headings use the title t
 
 The viewport is a vertical shell with a 72px header and 36px prototype footer. Between them, navigation is 240px wide, the code workspace flexes, and context is 320px wide. At 1440px the main workspace is 880px wide. Navigation, code, and context scroll independently; the code area supports horizontal overflow without wrapping source lines.
 
-Panel padding follows the spacing tokens: navigation uses 24px by 16px, context uses 24px by 20px, and the layer heading uses 24px 28px 20px. The file toolbar uses 16px by 20px. At widths below 1440px, file controls tighten and heading side padding becomes 24px.
+Panel padding follows the spacing tokens: navigation uses 16px padding, context uses 24px by 20px, and the layer heading uses 24px 28px 20px. The file toolbar uses 16px by 20px. At widths below 1440px, file controls tighten and heading side padding becomes 24px.
 
 Below 1280px, context leaves the column layout and opens through the Context control as a 360px overlay between header and footer. The close control and Escape dismiss it. Navigation remains 240px. The body has an 880px minimum width; this is a desktop prototype, with no mobile composition. Heights below 800px reduce vertical padding in navigation, headings, context, and summaries.
 
@@ -129,19 +135,19 @@ Buttons use the control radius. Summaries, textareas, comment containers, decisi
 
 - **Navigation:** layers contain a number, title, file count, and disclosure arrow. Selection uses the pale orange fill, dark orange-family text, a tinted border, and semibold title. Clicking the current layer toggles its file list; J/K changes layers. Unavailable source retains a labeled place in navigation.
 - **Buttons and fields:** primary actions use orange with dark text; secondary buttons use the near-white base with a neutral border; quiet buttons remove the visible border. Hover and pressed states change the fill. Textareas retain 5px corners and body type. Disabled buttons reduce opacity and suppress the pointer cursor.
-- **Summaries:** each button shows a mono line range, title, and short explanation. Selecting one updates `aria-pressed`, selects its code range, and scrolls that range into view. The final summary points to a labeled source gap because its code is outside the screenshot.
-- **Diff:** Unified and Split are pressed-state controls. Split pairs before/after rows, with independent overflow inside each half. Fold controls expose an explanation of the omitted source rather than fabricated code. Line comment controls appear on hover or keyboard focus.
+- **Summaries:** each button shows a mono line range, title, and short explanation. Selecting one updates `aria-pressed`, selects its code range, and scrolls that range into view. Each file discloses captured versus total summary counts. Mark seen is a separate control.
+- **Diff:** Unified and Split are pressed-state controls. Split shows a blank before side for these new files and the complete added source on the right. Tools can collapse the file or show only captured summary ranges. Line comment controls appear on hover or keyboard focus.
 - **Focus mode:** Z or the Focus control hides navigation and context and gives the code the available width. Entering and leaving preserves the file and saved scroll position; the control indicates its pressed state.
-- **Progress and reviews:** Mark viewed applies only to the one reproduced file. Review decisions open in a native modal dialog and submission is explicitly simulated. History, Agent, follow review, diagrams, search/filter, settings, impact analysis, and full-PR scope are explicitly labeled placement previews; their complete workflows are not implemented.
+- **Progress and reviews:** Mark viewed applies only to seven included added-file diffs; progress is displayed against 52 source files. Summary seen is tracked separately against 37 layer summaries. Review decisions open in a native modal dialog and submission is explicitly simulated. History, settings, impact analysis, and uncaptured workflows are labeled previews. The file picker filters nine verified paths; three complexity choices filter captured summaries.
 - **Accessibility:** retain the skip link, labeled navigation and code region, semantic tabs with arrow/Home/End handling, pressed and expanded states, status announcements, and native dialog containment. Closing a dialog restores focus to its trigger. Interactive controls receive a 2px dark orange-family focus outline with a 3px offset. Shortcuts ignore typing, modified keys, and open dialogs. Reduced-motion preferences disable smooth scrolling and animation.
-- **Historical PR context:** “Open · screenshot state” and “Screenshot: not mergeable · 1 blocker” restore the supplied screenshot’s context. They are not current GitHub status or a recomputed mergeability check.
+- **Historical PR context:** the exact review run is marked out of date at commit 23cdac2. Its captured access-control thread is resolved. No current mergeability or defect status is inferred.
 - **Source states:** normal loading announces status; the explicit loading preview shows skeleton rows. Unavailable source has retry and return actions. The comments view distinguishes an absent thread from missing original comment text and local drafts.
 
 ## Do's and Don'ts
 
 - Do keep selection, review progress, keyboard focus, and diff meaning visually distinct.
 - Do retain line numbers, signs, labels, and state attributes alongside color.
-- Do preserve the source boundary: one visible `UserListPaginated.tsx` excerpt from `coderabbitai/mono #22041`, with two layers and three source files identified by the screenshots.
-- Do label the public Formbricks PR as a different example. Its 52-file, seven-layer scope does not supply code for this excerpt. The original linked session was rechecked during the audit and remained rate limited.
+- Do preserve the source boundary: Formbricks #8650 at the exact assigned run, seven layers, nine layer-1 paths, seven complete added files, fourteen condensed summary ranges, and one paraphrased resolved thread.
+- Do keep earlier mono screenshot explorations separate from the current Formbricks study. Access to the assigned run was intermittent; pinned source remains available in the fixture.
 - Don’t reconstruct hidden lines, other files, original comment authors or text, or backend analysis.
 - Don’t imply that viewed state covers the whole PR or that simulated reviews reach CodeRabbit or GitHub. Drafts and viewed state live in tab memory and reset on reload.

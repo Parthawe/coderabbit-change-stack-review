@@ -23,7 +23,7 @@
             Source evidence and diagnosis
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '24px' }}>
-            Board 01 pairs the supplied screen with four observations and the limits of the available evidence.
+            Board 01 pairs the assigned PR’s live review with four observations and the boundaries of the captured snapshot.
           </div>
         </div>
         <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
@@ -97,10 +97,10 @@
           Evidence and boundaries
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Uses one visible file excerpt from the supplied coderabbitai/mono #22041 screenshot. The separate 52-file Formbricks session was rate limited. Missing code and comment text remain unavailable; secondary tools are placement previews. Review submission is simulated. No reviewer-speed improvement is claimed.
+          Uses the exact Formbricks #8650 review run at commit 23cdac2. Seven layer names/counts and the first layer’s nine-file inventory are verified. Seven added files use complete pinned GitHub source. Other diffs and uncaptured summaries remain explicitly outside this focused prototype.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          The Optional approaches page contains four later product explorations. The Archive page preserves earlier visual drafts.
+          The earlier screenshot-based main study is preserved in its Archive page. The four product explorations also retain their original screenshot reference.
         </div>
       </div>
     </div>

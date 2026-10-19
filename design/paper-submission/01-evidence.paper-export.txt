@@ -1,18 +1,18 @@
 (
-    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: '1120px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '40px' }}>
-          Start with the supplied screen.
+          The assigned PR, at the pinned review run.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '25px' }}>
-          The task is to make the review easier to parse while keeping its layer-based model. These four observations are the basis of the redesign; expected benefits still need developer testing.
+          The exact link loaded without sign-in. It exposes 52 files across seven layers; the selected snapshot is out of date. Access later became rate limited, so the captured run and pinned source are retained.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '976px' }}>
-          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/6VH0YWMKVCE7Z46C55A9BS8PC6.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '597px', width: '976px' }} />
+          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/0C1C72BG4F6A4Z8WRPSQ4FEPGH.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '549px', width: '976px' }} />
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px', whiteSpace: 'pre-wrap' }}>
-            Original assignment screenshot · coderabbitai/mono #22041 · Paginated list integration<br />The original screen is raster reference material. The redesigned screen and state frames are editable Paper nodes.
+            Original live review · formbricks/formbricks #8650 · 23cdac2 · captured October 19, 2026<br />This image is reference material. Redesigned UI, reasoning, and state frames are native editable Paper nodes.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '24px', width: '360px' }}>
@@ -21,7 +21,7 @@
               01 · Toolbar competition
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-              PR actions, latest changes, file/diagram controls, and file actions occupy separate rows above the diff. Consolidate their hierarchy around the current file.
+              Layer controls, per-file semantic controls, and context controls crowd the code. Consolidate frequent file actions and group secondary tools behind clear labels.
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -29,23 +29,23 @@
               02 · Separated navigation
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-              Layers and Files use separate navigation modes. Put expandable files directly under each layer so location remains visible.
+              Seven layers and a nine-file first layer require a stable location. Keep the selected layer, filename, and file-list entry together; disclose the rest on demand.
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
             <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-              03 · Detached explanation
+              03 · Summary scope and linking
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-              Summaries identify ranges in a separate panel. Give the selected explanation and code the same highlight, and expose unavailable ranges.
+              The layer has 37 summaries; access.ts has six. Make file versus layer scope explicit while preserving complexity filters and linked code selection.
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
             <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-              04 · Two completion decisions
+              04 · Three progress signals
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-              Mark viewed and Submit review are both present. Give each a distinct scope: file progress in the toolbar; final decision in the PR header.
+              Summary seen, file viewed, and the review decision are separate states. Label each action and count independently; selecting content alone does not complete the review.
             </div>
           </div>
         </div>
@@ -56,7 +56,7 @@
             What the evidence supports
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            Two named layers, three source files, one visible file excerpt, four summaries, and one comment marker. Code is transcribed with normalized wrapping. Summary wording is condensed.
+            Seven named layers and counts; nine file paths in layer 1; 37 layer summaries; 15 resolved comment messages. Seven added files are available as complete source at the pinned commit. One resolved access-control thread is captured.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
@@ -64,7 +64,7 @@
             What stays unknown
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            Missing files and code, original comment text, and live review status. The assignment’s Formbricks PR has 52 files and seven layers; its rate-limited session is a separate example. This design does not prove that scale.
+            The full set of 52 diffs and all summary/thread bodies are not reproduced. Some source loads are rate limited. A stale snapshot and a resolved historical finding do not establish a current defect. No review is sent.
           </div>
         </div>
       </div>
