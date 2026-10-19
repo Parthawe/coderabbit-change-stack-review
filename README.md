@@ -2,14 +2,14 @@
 
 Independent design assignment by Parth Pawar. This repository contains the working browser prototype, twelve approach walkthroughs, Paper design references, and the design rationale.
 
-- [Working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
-- [Editable product approach walkthroughs in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0)
-- [Twelve walkthrough screens and comparison board](design/approach-walkthroughs/README.md)
-- [Product approach alternatives](docs/approaches.md)
-- [Compare four product approach walkthroughs](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html)
-- [Editable baseline in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0)
-- [Editable visual explorations in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-2-0)
+- [Primary working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [One-page rationale](dist/rationale.pdf)
+- [Editable primary submission in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0)
+- [Requirement and brand cross-check](docs/REQUIREMENT-AUDIT.md)
+- [Optional approach walkthroughs](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html)
+- [Editable optional explorations in Paper](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0)
+- [Walkthrough source and exports](design/approach-walkthroughs/README.md)
+
 
 ## Run locally
 
@@ -20,6 +20,10 @@ python3 -m http.server 4317 --directory dist
 ```
 
 Open http://localhost:4317. The prototype loads its excerpt from JSON, so use an HTTP server. No package installation or build step is required.
+
+## Submission scope
+
+The primary submission is the layer-based reviewing screen and its one-page rationale. The four product approaches are optional explorations beyond the original brief. See the [requirement and brand cross-check](docs/REQUIREMENT-AUDIT.md) for coverage and remaining gaps.
 
 ## Try the prototype
 
@@ -51,6 +55,6 @@ Raw `*.paper-export.txt` files preserve Paper output for reference. They contain
 
 The baseline was checked at 1440, 1280, and 1100 px, including keyboard navigation, focus restoration, summary highlights, progress, split diff, and simulated submission. The gallery was checked for image loading, filtering, enlarged views, Escape, focus restoration, and a narrow layout. See the verification record for details and limitations.
 
-IBM Plex fonts are self-hosted under the SIL Open Font License in `dist/fonts/OFL.txt`. Public repository visibility does not grant a separate license to CodeRabbit branding, assignment reference material, or third-party source excerpts.
+The current design uses CodeRabbit’s approved logo, orange/mauve palette, Geist, and Hack. Sources and font licenses are recorded in [the brand cross-check](docs/REQUIREMENT-AUDIT.md) and `dist/fonts/`. Earlier IBM Plex files remain for archived source references. Public repository visibility does not grant a separate license to CodeRabbit branding, assignment reference material, or third-party source excerpts.
 
-![Four visual explorations](dist/direction-assets/overview.png)
+![Primary reviewing screen](dist/prototype.png)

@@ -52,9 +52,9 @@ This could help with ambiguous or architectural changes where the patch cannot e
 
 Small demonstration: an empty handoff with prompts for intent, tradeoffs, and requested scrutiny; the reviewer adds a local question linked to the excerpt. External communication stays outside the demonstration.
 
-## Recommended next experiment
+## Optional future experiment
 
-Develop approach 1, review by intended behavior, first. It gives the review a completion criterion while retaining layers and code as evidence. It also fits a focused demonstration without needing a complete impact graph or an author collaboration backend.
+For a future product experiment, consider approach 1, review by intended behavior. The assignment submission remains the layer-based reviewing screen. Behavior-first could give the review a completion criterion while retaining layers and code as evidence. It also fits a focused demonstration without needing a complete impact graph or an author collaboration backend.
 
 Use one author-confirmed expectation and the same supplied excerpt. Compare it with the existing baseline by asking reviewers to describe the intended behavior, locate supporting code, and name what remains unverified. Record confusion and unsupported conclusions before making claims about improvement.
 

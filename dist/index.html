@@ -5,18 +5,18 @@
   <title>Change Stack — CodeRabbit design prototype</title>
   <meta name="description" content="An independent CodeRabbit review workspace prototype by Parth Pawar. Explore layer navigation, connected summaries, focus mode, and review progress.">
   <meta name="robots" content="noindex,nofollow">
-  <link rel="stylesheet" href="styles.css">
-</head>
+  <link rel="stylesheet" href="styles.css?v=brand-20261019">
+<link rel="stylesheet" href="brand.css?v=brand-20261019"></head>
 <body>
   <a class="skip-link" href="#diff">Skip to code</a>
   <header class="global-header">
-    <a class="wordmark" href="#" data-action="overview">CodeRabbit</a>
-    <div class="pr-identity"><div class="repo">coderabbitai / mono <span>#22041</span></div><h1>Keep seat selection cumulative across pages</h1></div>
+    <a class="wordmark" href="#" data-action="overview"><img src="brand/orange-typemark.svg" width="124" height="18" alt="CodeRabbit"></a>
+    <div class="pr-identity"><div class="repo">coderabbitai / mono <span>#22041</span><span class="source-open">Open · screenshot state</span></div><h1>Keep seat selection cumulative across pages</h1></div>
     <div class="global-actions"><span id="progress">0 / 1 excerpt files viewed</span><button class="primary" id="submit-review">Submit review</button></div>
   </header>
   <div class="workspace">
     <nav class="navigation" aria-label="Review navigation">
-      <div class="overview-links"><button data-preview="Overview">Overview</button><button data-preview="Blast radius">Blast radius</button><button data-preview="Architecture impact">Architecture impact</button></div>
+      <div class="overview-links"><button data-preview="Overview">Overview<span class="source-snapshot">Screenshot: not mergeable · 1 blocker</span></button><button data-preview="Blast radius">Blast radius</button><button data-preview="Architecture impact">Architecture impact</button></div>
       <div class="nav-label"><span>Review layers</span><span>2 layers</span></div>
       <div class="layer-group">
         <button class="layer" data-layer="0" aria-expanded="false"><span class="layer-number">1</span><span class="layer-copy"><strong>Selection cache utility</strong><small>2 files · source unavailable</small></span><svg class="chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></button>
@@ -36,9 +36,9 @@
     </main>
     <aside class="context-panel" id="context" aria-label="Change context"><div class="context-heading"><h2>Change context</h2><span>This file</span><button class="close-context" id="close-context" aria-label="Close context">Close</button></div><div class="tabs" role="tablist" aria-label="File context"><button role="tab" id="summaries-tab" aria-selected="true" aria-controls="summaries-panel">Summaries <span>4</span></button><button role="tab" id="comments-tab" aria-selected="false" aria-controls="comments-panel" tabindex="-1">Comments <span>1</span></button></div><section id="summaries-panel" role="tabpanel" aria-labelledby="summaries-tab"><p class="context-hint">Select a summary to reveal its code.</p><div id="summary-list"></div><p class="context-footnote">Summary wording condensed from the supplied screenshot.</p><button class="text-link" data-preview="Source & prototype notes">View source &amp; prototype notes</button></section><section id="comments-panel" role="tabpanel" aria-labelledby="comments-tab" hidden></section></aside>
   </div>
-  <footer class="prototype-footer"><span>Independent design prototype · supplied screenshot excerpt · 1 of 3 files reproduced</span><a href="approaches.html">Compare four approaches</a><button id="notes">Source notes &amp; states</button></footer>
+  <footer class="prototype-footer"><span>Independent design prototype · supplied screenshot excerpt · 1 of 3 files reproduced</span><a href="approaches.html">Optional approach explorations</a><button id="notes">Source notes &amp; states</button></footer>
   <div class="toast" role="status" id="toast" hidden></div>
   <dialog id="dialog" aria-labelledby="dialog-title"><form method="dialog" id="dialog-form"><div class="dialog-heading"><h2 id="dialog-title"></h2><button class="quiet" value="cancel" aria-label="Close dialog">Close</button></div><div id="dialog-content"></div></form></dialog>
-  <script src="app.js" defer></script>
+  <script src="app.js?v=brand-20261019" defer></script>
 </body>
 </html>

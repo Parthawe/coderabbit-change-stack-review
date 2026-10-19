@@ -9,7 +9,7 @@
       "top": "-480px",
       "flexDirection": "column",
       "position": "absolute",
-      "backgroundColor": "#F4F6F8"
+      "backgroundColor": "#FAF8FB"
     },
     "2-0": {
       "display": "flex",
@@ -19,10 +19,84 @@
       "height": "72px",
       "flexShrink": "0",
       "paddingInline": "24px",
-      "backgroundColor": "#FFFFFF",
+      "backgroundColor": "#FDFDFE",
       "borderBottomWidth": "1px",
       "borderBottomStyle": "solid",
-      "borderBottomColor": "#DCE2E8"
+      "borderBottomColor": "#E3E0E7"
+    },
+    "3-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "gap": "20px"
+    },
+    "1XC-0": {
+      "width": "124px",
+      "height": "19px",
+      "flexShrink": "0",
+      "backgroundImage": "url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/6FMVGR1TS2QQPCF7JSV11ZM5C4.svg)",
+      "backgroundSize": "contain",
+      "backgroundPosition": "50%",
+      "backgroundRepeat": "no-repeat"
+    },
+    "5-0": {
+      "width": "1px",
+      "height": "24px",
+      "flexShrink": "0",
+      "backgroundColor": "#E3E0E7"
+    },
+    "6-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "3px"
+    },
+    "7-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "8-0": {
+      "fontSize": "15px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#211F24"
+    },
+    "9-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "gap": "16px"
+    },
+    "A-0": {
+      "fontSize": "13px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "B-0": {
+      "paddingBlock": "10px",
+      "paddingInline": "16px",
+      "borderRadius": "5px",
+      "backgroundColor": "#FF570A"
+    },
+    "C-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#211F24"
+    },
+    "E-0": {
+      "display": "flex",
+      "width": "1440px",
+      "height": "852px",
+      "flexShrink": "0"
     },
     "G-0": {
       "display": "flex",
@@ -33,10 +107,245 @@
       "paddingBlock": "24px",
       "paddingInline": "16px",
       "gap": "8px",
-      "backgroundColor": "#F4F6F8",
+      "backgroundColor": "#FAF8FB",
       "borderRightWidth": "1px",
       "borderRightStyle": "solid",
-      "borderRightColor": "#DCE2E8"
+      "borderRightColor": "#E3E0E7"
+    },
+    "M-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "36px",
+      "paddingInline": "12px",
+      "flexShrink": "0"
+    },
+    "N-0": {
+      "display": "flex",
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#465466"
+    },
+    "P-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "36px",
+      "paddingInline": "12px",
+      "flexShrink": "0"
+    },
+    "Q-0": {
+      "display": "flex",
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#465466"
+    },
+    "S-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "36px",
+      "paddingInline": "12px",
+      "flexShrink": "0"
+    },
+    "T-0": {
+      "display": "flex",
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#465466"
+    },
+    "V-0": {
+      "display": "flex",
+      "justifyContent": "space-between",
+      "paddingTop": "24px",
+      "paddingBottom": "8px",
+      "paddingInline": "12px"
+    },
+    "W-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "X-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "Z-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "paddingBlock": "12px",
+      "paddingInline": "10px",
+      "borderRadius": "5px",
+      "gap": "12px",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#E3E0E7"
+    },
+    "10-0": {
+      "width": "20px",
+      "fontSize": "12px",
+      "flexShrink": "0",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "11-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "4px"
+    },
+    "12-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#211F24"
+    },
+    "13-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "15-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "paddingBlock": "12px",
+      "paddingInline": "10px",
+      "borderRadius": "5px",
+      "gap": "12px",
+      "backgroundColor": "#FFEAD5",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#C6D6F5"
+    },
+    "16-0": {
+      "width": "20px",
+      "fontSize": "12px",
+      "flexShrink": "0",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#582D1D"
+    },
+    "17-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "4px"
+    },
+    "18-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 600,
+      "lineHeight": "18px",
+      "color": "#582D1D"
+    },
+    "19-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#582D1D"
+    },
+    "1B-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "paddingRight": "8px",
+      "paddingLeft": "30px",
+      "gap": "8px",
+      "paddingBlock": "10px"
+    },
+    "1C-0": {
+      "width": "12px",
+      "height": "12px",
+      "flexShrink": "0",
+      "borderRadius": "2px",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#7C8CA1"
+    },
+    "1D-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#582D1D"
+    },
+    "1F-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "12px",
+      "flexGrow": "1",
+      "flexBasis": "0%",
+      "justifyContent": "end",
+      "minHeight": "0px",
+      "paddingBlock": "0px",
+      "paddingInline": "12px"
+    },
+    "1G-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "1H-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#211F24"
+    },
+    "1I-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#211F24"
+    },
+    "1J-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#211F24"
+    },
+    "1K-0": {
+      "paddingTop": "20px"
+    },
+    "1L-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
     },
     "I-0": {
       "display": "flex",
@@ -44,7 +353,1238 @@
       "width": "880px",
       "height": "852px",
       "flexShrink": "0",
-      "backgroundColor": "#FFFFFF"
+      "backgroundColor": "#FDFDFE"
+    },
+    "1N-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "paddingTop": "24px",
+      "paddingBottom": "20px",
+      "gap": "8px",
+      "paddingInline": "28px",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#E3E0E7"
+    },
+    "1O-0": {
+      "display": "flex",
+      "justifyContent": "space-between",
+      "alignItems": "center"
+    },
+    "1P-0": {
+      "fontSize": "22px",
+      "letterSpacing": "-0.025em",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 600,
+      "lineHeight": "28px",
+      "color": "#211F24"
+    },
+    "1Q-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "1R-0": {
+      "fontSize": "14px",
+      "lineHeight": "21px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "1S-0": {
+      "paddingTop": "4px"
+    },
+    "1T-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#582D1D"
+    },
+    "B4-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "space-between",
+      "paddingBlock": "16px",
+      "paddingInline": "20px",
+      "gap": "16px",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#E3E0E7"
+    },
+    "B5-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "gap": "4px"
+    },
+    "B6-0": {
+      "fontSize": "11px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "14px",
+      "color": "#65616A"
+    },
+    "B7-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "gap": "12px"
+    },
+    "B8-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#211F24"
+    },
+    "B9-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#176B45"
+    },
+    "BA-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#A63E45"
+    },
+    "BB-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "gap": "8px"
+    },
+    "BC-0": {
+      "paddingBlock": "7px",
+      "paddingInline": "10px",
+      "borderRadius": "4px",
+      "backgroundColor": "#FFEAD5"
+    },
+    "BD-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#582D1D"
+    },
+    "BE-0": {
+      "paddingBlock": "7px",
+      "paddingInline": "8px"
+    },
+    "BF-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "BG-0": {
+      "paddingBlock": "7px",
+      "paddingInline": "10px",
+      "borderRadius": "4px",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#E3E0E7"
+    },
+    "BH-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#211F24"
+    },
+    "BI-0": {
+      "paddingBlock": "7px",
+      "paddingInline": "10px",
+      "borderRadius": "4px",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#A8B6C6"
+    },
+    "BJ-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#211F24"
+    },
+    "29-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "flexGrow": "1",
+      "flexBasis": "0%",
+      "overflow": "clip"
+    },
+    "39-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "34px",
+      "minHeight": "34px",
+      "paddingInline": "24px",
+      "gap": "12px",
+      "flexShrink": "0",
+      "backgroundColor": "#FAF8FB",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#E7EBEF"
+    },
+    "3A-0": {
+      "display": "flex",
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "6M-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FCEEEF"
+    },
+    "6N-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "6O-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "6P-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "6Q-0": {},
+    "6R-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "6S-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#8E3540"
+    },
+    "6T-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#8E3540"
+    },
+    "6V-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#ECF7F0"
+    },
+    "6W-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "6X-0": {},
+    "6Y-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "6Z-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "70-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "71-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "72-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "74-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#ECF7F0"
+    },
+    "75-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "76-0": {},
+    "77-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "78-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "79-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "7A-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "7B-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "7D-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#ECF7F0"
+    },
+    "7E-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "7F-0": {},
+    "7G-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "7H-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "7I-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "7J-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "7K-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "7M-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#ECF7F0"
+    },
+    "7N-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "7O-0": {},
+    "7P-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "7Q-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "7R-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "7S-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "7T-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "7V-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#ECF7F0"
+    },
+    "7W-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "7X-0": {},
+    "7Y-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "7Z-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "80-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "81-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "82-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "4C-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "34px",
+      "minHeight": "34px",
+      "paddingInline": "24px",
+      "gap": "12px",
+      "flexShrink": "0",
+      "backgroundColor": "#FAF8FB",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#E7EBEF"
+    },
+    "4D-0": {
+      "display": "flex",
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "84-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FDFDFE"
+    },
+    "85-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "86-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "87-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "88-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "89-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "8A-0": {},
+    "8B-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#211F24"
+    },
+    "8D-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FFF7ED"
+    },
+    "8E-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "8F-0": {},
+    "8G-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "8H-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "8I-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "8J-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "8K-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "8M-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FFF7ED"
+    },
+    "8N-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "8O-0": {},
+    "8P-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "8Q-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "8R-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "8S-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "8T-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "8V-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FFF7ED"
+    },
+    "8W-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "8X-0": {},
+    "8Y-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "8Z-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "90-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "91-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "92-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "94-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FFF7ED"
+    },
+    "95-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "96-0": {},
+    "97-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "98-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "99-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "9A-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "9B-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "9D-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FFF7ED"
+    },
+    "9E-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "9F-0": {},
+    "9G-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "9H-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "9I-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "9J-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "9K-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "5F-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "34px",
+      "minHeight": "34px",
+      "paddingInline": "24px",
+      "gap": "12px",
+      "flexShrink": "0",
+      "backgroundColor": "#FAF8FB",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#E7EBEF"
+    },
+    "5G-0": {
+      "display": "flex",
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "9M-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FDFDFE"
+    },
+    "9N-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "9O-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "9P-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "9Q-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "9R-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "9S-0": {},
+    "9T-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#211F24"
+    },
+    "9V-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FDFDFE"
+    },
+    "9W-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "9X-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "9Y-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "9Z-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "A0-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "A1-0": {},
+    "A2-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#211F24"
+    },
+    "A4-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FDFDFE"
+    },
+    "A5-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "A6-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "A7-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "A8-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "A9-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "AA-0": {},
+    "AB-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#211F24"
+    },
+    "AD-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#ECF7F0"
+    },
+    "AE-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "AF-0": {},
+    "AG-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "AH-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "AI-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "AJ-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "AK-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#175C3C"
+    },
+    "AM-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FDFDFE"
+    },
+    "AN-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "AO-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "AP-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "AQ-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "AR-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "AS-0": {},
+    "AT-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#211F24"
+    },
+    "AV-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "height": "24px",
+      "minHeight": "24px",
+      "overflow": "clip",
+      "flexShrink": "0",
+      "backgroundColor": "#FDFDFE"
+    },
+    "AW-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "AX-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "AY-0": {
+      "display": "flex",
+      "justifyContent": "end",
+      "width": "42px",
+      "flexShrink": "0"
+    },
+    "AZ-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "B0-0": {
+      "display": "flex",
+      "justifyContent": "center",
+      "width": "28px",
+      "flexShrink": "0"
+    },
+    "B1-0": {},
+    "B2-0": {
+      "fontSize": "13px",
+      "lineHeight": "24px",
+      "width": "max-content",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "\"Hack-Regular\", \"Hack\", system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#211F24"
     },
     "K-0": {
       "display": "flex",
@@ -58,29 +1598,254 @@
       "backgroundColor": "#F8FAFC",
       "borderLeftWidth": "1px",
       "borderLeftStyle": "solid",
-      "borderLeftColor": "#DCE2E8"
+      "borderLeftColor": "#E3E0E7"
     },
-    "1N-0": {
+    "2B-0": {
       "display": "flex",
-      "flexDirection": "column",
-      "paddingTop": "24px",
-      "paddingBottom": "20px",
-      "gap": "8px",
-      "paddingInline": "28px",
+      "alignItems": "center",
+      "justifyContent": "space-between"
+    },
+    "2C-0": {
+      "fontSize": "16px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 600,
+      "lineHeight": "20px",
+      "color": "#211F24"
+    },
+    "2D-0": {
+      "fontSize": "12px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "2F-0": {
+      "display": "flex",
+      "paddingTop": "4px",
+      "paddingBottom": "12px",
+      "gap": "20px",
       "borderBottomWidth": "1px",
       "borderBottomStyle": "solid",
-      "borderBottomColor": "#DCE2E8"
+      "borderBottomColor": "#E3E0E7"
     },
-    "B4-0": {
+    "2G-0": {
+      "fontSize": "13px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#582D1D"
+    },
+    "2H-0": {
+      "fontSize": "13px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "16px",
+      "color": "#65616A"
+    },
+    "2J-0": {
+      "fontSize": "12px",
+      "lineHeight": "18px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "2L-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "paddingBlock": "16px",
+      "paddingInline": "12px",
+      "borderRadius": "5px",
+      "gap": "8px",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#E3E0E7"
+    },
+    "2M-0": {
+      "fontSize": "11px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "14px",
+      "color": "#65616A"
+    },
+    "2N-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#211F24"
+    },
+    "2O-0": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "2Q-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "paddingBlock": "16px",
+      "paddingInline": "12px",
+      "borderRadius": "5px",
+      "gap": "8px",
+      "backgroundColor": "#FFEAD5",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#C6D6F5"
+    },
+    "2R-0": {
+      "fontSize": "11px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "14px",
+      "color": "#582D1D"
+    },
+    "2S-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#582D1D"
+    },
+    "2T-0": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "2V-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "paddingBlock": "16px",
+      "paddingInline": "12px",
+      "borderRadius": "5px",
+      "gap": "8px",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#E3E0E7"
+    },
+    "2W-0": {
+      "fontSize": "11px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "14px",
+      "color": "#65616A"
+    },
+    "2X-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#211F24"
+    },
+    "2Y-0": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "30-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "paddingBlock": "16px",
+      "paddingInline": "12px",
+      "borderRadius": "5px",
+      "gap": "8px",
+      "borderBottomWidth": "1px",
+      "borderBottomStyle": "solid",
+      "borderBottomColor": "#E3E0E7"
+    },
+    "31-0": {
+      "fontSize": "11px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "14px",
+      "color": "#65616A"
+    },
+    "32-0": {
+      "fontSize": "14px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "18px",
+      "color": "#211F24"
+    },
+    "33-0": {
+      "fontSize": "13px",
+      "lineHeight": "20px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "35-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "paddingBlock": "12px",
+      "gap": "8px"
+    },
+    "36-0": {
+      "fontSize": "12px",
+      "lineHeight": "18px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#65616A"
+    },
+    "37-0": {
+      "fontSize": "12px",
+      "lineHeight": "18px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "color": "#582D1D"
+    },
+    "6I-0": {
       "display": "flex",
       "alignItems": "center",
       "justifyContent": "space-between",
-      "paddingBlock": "16px",
+      "width": "1440px",
+      "height": "36px",
+      "minHeight": "36px",
       "paddingInline": "20px",
-      "gap": "16px",
-      "borderBottomWidth": "1px",
-      "borderBottomStyle": "solid",
-      "borderBottomColor": "#DCE2E8"
+      "flexShrink": "0",
+      "backgroundColor": "#EEF1F5",
+      "borderTopWidth": "1px",
+      "borderTopStyle": "solid",
+      "borderTopColor": "#E3E0E7"
+    },
+    "6J-0": {
+      "fontSize": "11px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "14px",
+      "color": "#65616A"
+    },
+    "6K-0": {
+      "fontSize": "11px",
+      "whiteSpace": "pre-wrap",
+      "fontFamily": "system-ui, sans-serif",
+      "fontWeight": 400,
+      "lineHeight": "14px",
+      "color": "#65616A"
     }
   }
 }
