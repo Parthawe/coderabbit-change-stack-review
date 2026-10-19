@@ -12,7 +12,7 @@
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
         <div style={{ boxSizing: 'border-box', paddingBottom: '12px' }}>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '28px' }}>
-            Four problems, four decisions
+            Read the design in this order
           </div>
         </div>
         <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
@@ -20,10 +20,10 @@
             01
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px', width: '330px' }}>
-            Several toolbars compete with the diff.
+            Source evidence and diagnosis
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '24px' }}>
-            Put the final review action in the PR header and consolidate file actions into one toolbar.
+            Board 01 pairs the supplied screen with four observations and the limits of the available evidence.
           </div>
         </div>
         <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
@@ -31,10 +31,10 @@
             02
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px', width: '330px' }}>
-            Layer and file navigation are separated.
+            Main reviewing screen
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '24px' }}>
-            Nest files under their layer and keep the selected layer, file, and dependency visible together.
+            Board 02 is the editable desktop design. Navigation, code, and context have distinct roles.
           </div>
         </div>
         <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
@@ -42,10 +42,10 @@
             03
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px', width: '330px' }}>
-            Summaries are detached from their code.
+            Review flow and capability map
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '24px' }}>
-            Connect each summary to a code range with a shared selection highlight.
+            Board 03 shows summary linking and viewed progress, then specifies transitions and secondary destinations.
           </div>
         </div>
         <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
@@ -53,10 +53,10 @@
             04
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px', width: '330px' }}>
-            File completion and review decisions compete.
+            Supporting states, then prototype
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '24px' }}>
-            Separate Mark viewed from Submit review, and preserve position when entering focus mode.
+            Boards 04–06 show focus, review decision, and unavailable source. Follow the prototype link to try them.
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@
           Review the designs, then try the same flow
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          Read this board, then inspect screens 01–04 to the right. In the prototype: select a summary, toggle Z, mark the file viewed, use K/J to navigate, and simulate a review.
+          Read 01–02 across the first row, then 03–06 across the second. In the prototype: select a summary, toggle Z, mark the file viewed, use K/J to navigate, and simulate a review.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/
@@ -97,7 +97,7 @@
           Uses one visible file excerpt from the supplied coderabbitai/mono #22041 screenshot. The separate 52-file Formbricks session was rate limited. Missing code and comment text remain unavailable; secondary tools are placement previews. Review submission is simulated. No reviewer-speed improvement is claimed.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          The four product approaches on page 03 are optional explorations beyond the main assignment.
+          The Optional approaches page contains four later product explorations. The Archive page preserves earlier visual drafts.
         </div>
       </div>
     </div>

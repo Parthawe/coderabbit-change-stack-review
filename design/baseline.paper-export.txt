@@ -114,9 +114,12 @@
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
               Keep selected users when moving between pages. Clear the cache when the member scope changes.
             </div>
-            <div style={{ boxSizing: 'border-box', paddingTop: '4px' }}>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '20px', justifyContent: 'space-between', paddingTop: '4px' }}>
               <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                 Depends on Selection cache utility
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '20px' }}>
+                Hide summary
               </div>
             </div>
           </div>
@@ -156,6 +159,11 @@
               <div style={{ borderColor: '#A8B6C6', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '10px' }}>
                 <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Mark viewed
+                </div>
+              </div>
+              <div style={{ alignItems: 'center', borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', justifyContent: 'center', paddingInline: '10px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  Tools
                 </div>
               </div>
             </div>
@@ -498,6 +506,14 @@
               </div>
               <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
                 }
+              </div>
+            </div>
+            <div style={{ backgroundColor: '#FAF8FB', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '14px', paddingInline: '24px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                Source boundary · code outside the supplied screenshot
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                The reset summary extends to line 769; only 747–749 are visible here. Code for 939–945 is unavailable.
               </div>
             </div>
           </div>

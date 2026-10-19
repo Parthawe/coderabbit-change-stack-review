@@ -1,0 +1,134 @@
+{
+  "styles": {
+    "1YS-0": {
+      "display": "flex",
+      "overflow": "clip",
+      "width": "1080px",
+      "height": "fit-content",
+      "left": "0px",
+      "top": "0px",
+      "flexDirection": "column",
+      "padding": "40px",
+      "gap": "24px",
+      "position": "absolute",
+      "backgroundColor": "#FDFDFE"
+    },
+    "20M-0": {
+      "display": "flex",
+      "overflow": "clip",
+      "width": "1440px",
+      "height": "1120px",
+      "left": "1160px",
+      "top": "0px",
+      "flexDirection": "column",
+      "padding": "40px",
+      "gap": "24px",
+      "position": "absolute",
+      "backgroundColor": "#FDFDFE"
+    },
+    "20N-0": {
+      "display": "flex",
+      "overflow": "clip",
+      "width": "1080px",
+      "height": "fit-content",
+      "left": "0px",
+      "top": "1250px",
+      "flexDirection": "column",
+      "padding": "40px",
+      "gap": "24px",
+      "position": "absolute",
+      "backgroundColor": "#FDFDFE"
+    },
+    "1-0": {
+      "display": "flex",
+      "overflow": "clip",
+      "width": "1440px",
+      "height": "960px",
+      "left": "2680px",
+      "top": "0px",
+      "flexDirection": "column",
+      "position": "absolute",
+      "backgroundColor": "#FAF8FB"
+    },
+    "BL-0": {
+      "display": "flex",
+      "overflow": "clip",
+      "width": "1440px",
+      "height": "960px",
+      "left": "1160px",
+      "top": "1250px",
+      "flexDirection": "column",
+      "position": "absolute",
+      "backgroundColor": "#FDFDFE"
+    },
+    "BM-0": {
+      "display": "flex",
+      "overflow": "clip",
+      "width": "640px",
+      "height": "520px",
+      "left": "2680px",
+      "top": "1250px",
+      "flexDirection": "column",
+      "padding": "32px",
+      "borderRadius": "8px",
+      "gap": "20px",
+      "position": "absolute",
+      "backgroundColor": "#FDFDFE",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#E3E0E7"
+    },
+    "BN-0": {
+      "display": "flex",
+      "overflow": "clip",
+      "width": "880px",
+      "height": "500px",
+      "left": "3400px",
+      "top": "1250px",
+      "flexDirection": "column",
+      "padding": "40px",
+      "gap": "20px",
+      "position": "absolute",
+      "backgroundColor": "#FDFDFE",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#E3E0E7"
+    },
+    "BB-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "gap": "8px"
+    },
+    "204-0": {
+      "display": "flex",
+      "alignItems": "center",
+      "justifyContent": "center",
+      "height": "32px",
+      "flexShrink": "0",
+      "paddingInline": "10px",
+      "borderRadius": "4px",
+      "borderWidth": "1px",
+      "borderStyle": "solid",
+      "borderColor": "#BDB9C2"
+    },
+    "1S-0": {
+      "paddingTop": "4px",
+      "display": "flex",
+      "justifyContent": "space-between",
+      "alignItems": "center",
+      "height": "20px",
+      "flexShrink": "0"
+    },
+    "20E-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "paddingBlock": "14px",
+      "paddingInline": "24px",
+      "gap": "6px",
+      "backgroundColor": "#FAF8FB",
+      "borderTopWidth": "1px",
+      "borderTopStyle": "solid",
+      "borderTopColor": "#E3E0E7"
+    }
+  }
+}

@@ -6,7 +6,7 @@ I redesigned the reviewing screen in Paper, then built a browser prototype to de
 1. Paper design and process
 https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
 
-Start with “00 · Start here · Paper to prototype.” It connects four diagnosed problems to the design decisions. The editable main screen and supporting focus, review-decision, and unavailable-source states follow on the same page.
+Start with “00 · Start here · Paper to prototype.” Follow board 01 for the supplied screen and four diagnoses, board 02 for the editable main screen, and board 03 for the interaction and capability map. Boards 04–06 show focus, review decision, and unavailable-source states. The design file explains the reasoning and evidence boundaries before the prototype.
 
 2. Working prototype
 https://parthawe.github.io/coderabbit-change-stack-review/

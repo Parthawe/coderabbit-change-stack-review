@@ -23,7 +23,7 @@ Open http://localhost:4317. The prototype loads its excerpt from JSON, so use an
 
 ## Review order
 
-Start in Paper with “00 · Start here · Paper to prototype,” then inspect the editable main screen and supporting states. Follow the working prototype link to try those interactions. [Submission note](docs/SUBMISSION.txt) contains both links and the source limits. Paper is set to anyone with the link, but currently requires reviewers to sign in; the prototype is public without a login.
+Start in Paper with “00 · Start here · Paper to prototype,” then follow the source diagnosis, main screen, interaction map, and supporting states in order. Native exports are saved in `design/paper-submission/`. Follow the working prototype link to try those interactions. [Submission note](docs/SUBMISSION.txt) contains both links and the source limits. Paper is set to anyone with the link, but currently requires reviewers to sign in; the prototype is public without a login.
 
 ## Submission scope
 

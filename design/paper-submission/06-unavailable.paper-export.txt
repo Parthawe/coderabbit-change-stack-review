@@ -1,0 +1,30 @@
+(
+    <div style={{ backgroundColor: '#FDFDFE', borderColor: '#E3E0E7', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '20px', height: '500px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '880px' }}>
+      <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '28px' }}>
+        Selection cache utility
+      </div>
+      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+        Layer 1 of 2 · 2 files in the source screenshot
+      </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingBlock: '48px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '24px' }}>
+          This layer’s source isn’t included
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', maxWidth: '550px' }}>
+          The supplied screenshot names this layer but does not show its file names or code. The prototype keeps its place in the review without inventing those details.
+        </div>
+      </div>
+      <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
+        <div style={{ backgroundColor: '#FF570A', borderRadius: '5px', boxSizing: 'border-box', paddingBlock: '10px', paddingInline: '16px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+            Return to available file
+          </div>
+        </div>
+        <div style={{ borderColor: '#E3E0E7', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '10px', paddingInline: '16px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+            Retry source
+          </div>
+        </div>
+      </div>
+    </div>
+  )

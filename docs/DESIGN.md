@@ -83,7 +83,7 @@ components:
 
 This is the implemented visual system for Parth Pawar’s independent CodeRabbit take-home. It gives reviewers a layer list, a code excerpt, and connected summaries in one desktop workspace. Compact typography, flat panels, and restrained state colors keep the code readable.
 
-The working HTML/CSS/JavaScript in `dist/` governs browser behavior. `brand.css`, loaded after `styles.css`, supplies the applied brand overrides. The primary Paper screen and its three supporting states use the same direction. The main layer-review screen and one-page rationale remain the submission; the four approach walkthroughs are optional product explorations. Paper page 1 holds the primary submission, page 2 archives earlier explorations, and page 3 holds the optional approaches.
+The working HTML/CSS/JavaScript in `dist/` governs browser behavior. `brand.css`, loaded after `styles.css`, supplies the applied brand overrides. The primary Paper screen and its three supporting states use the same direction. The main layer-review screen and one-page rationale remain the submission; the four approach walkthroughs are optional product explorations. Paper is ordered Main submission, Optional approaches, then Archive. The primary page includes the reading guide, source diagnosis, main screen, flow specification, and supporting states.
 
 Brand authority is the [official CodeRabbit brand page](https://www.coderabbit.ai/brand). Orange and light Carrot UI mauve values were extracted from the official site stylesheet. The original black/orange typemark SVG is used intact, with its proportions preserved. This records the applied choices and their provenance; it is not a certification of complete brand compliance.
 

@@ -1,0 +1,22 @@
+{
+  "paper": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0",
+  "prototype": "https://parthawe.github.io/coderabbit-change-stack-review/",
+  "reading_order": [
+    "00-start",
+    "01-evidence",
+    "02-main",
+    "03-flow",
+    "04-focus",
+    "05-review",
+    "06-unavailable"
+  ],
+  "canvas": "First row: 00, 01, 02. Second row: 03, 04, 05, 06.",
+  "editability": "Redesigned screen, states, and rationale are native Paper nodes; original source screenshot is raster reference material.",
+  "source_format": "Raw Paper JSX references are not runnable React components.",
+  "pages": [
+    "Main submission",
+    "Optional approaches",
+    "Archive"
+  ],
+  "limits": "One supplied screenshot file excerpt; secondary workflows are placement previews; reviews are simulated. Paper currently requires sign-in."
+}

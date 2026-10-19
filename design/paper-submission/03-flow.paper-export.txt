@@ -1,0 +1,143 @@
+(
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '40px' }}>
+          How the review moves forward.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '25px' }}>
+          Paper specifies the interaction and its result. The browser prototype makes the demonstrated path interactive. Use the same file and summary throughout.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
+          Select an explanation. Reveal its evidence.
+        </div>
+        <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              UserListPaginated.tsx · selected line 724
+            </div>
+            <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', padding: '16px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
+                724 + const selectedUsersCacheRef = useRef(new Map<string, UserData>())
+              </div>
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+              Choose “Keep selection across pages.” The diff scrolls to 720–724 and highlights that range. A range outside the excerpt opens a source-boundary notice.
+            </div>
+          </div>
+          <div style={{ backgroundColor: '#FFEAD5', borderColor: '#C6D6F5', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', paddingBlock: '16px', paddingInline: '12px', width: '279px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+              Lines 720–724
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+              Keep selection across pages
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+              Adds selectedUsersCacheRef to retain full user records across server-side pagination.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
+          Record file progress. Keep the review decision separate.
+        </div>
+        <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', gap: '24px', padding: '16px' }}>
+          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexGrow: '1', gap: '8px' }}>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
+              <rect x="1" y="1" width="14" height="14" rx="2" fill="#582D1D" />
+              <path d="m4 8 3 3 5-6" fill="none" stroke="#FDFDFE" strokeWidth="1.5" />
+            </svg>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+              UserListPaginated.tsx
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+            1 / 1 excerpt files viewed
+          </div>
+          <div style={{ borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '6px', paddingInline: '10px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+              Viewed
+            </div>
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          Mark viewed changes both the file indicator and excerpt count. It survives layer navigation and is reversible. Opening a file alone does not mark it viewed. Submit review opens a separate decision dialog.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', paddingBottom: '12px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
+            Transitions and recovery
+          </div>
+        </div>
+        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
+            J / K · change layer
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            K opens the source-unavailable layer; J returns to the reproduced file. Viewed state persists.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
+            State 06 · Unavailable
+          </div>
+        </div>
+        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
+            Z · focus on code
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            Hide navigation and context, keep file and scroll position, then restore both. Ignore shortcuts while typing.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
+            State 04 · Focus
+          </div>
+        </div>
+        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
+            Comments · inspect thread
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            Open the supplied comment marker with its unavailable text disclosed. Add a local draft; send nothing.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
+            Prototype · Comments
+          </div>
+        </div>
+        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
+            Submit review · decide
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            Open a decision dialog; Cancel or Escape returns focus. Completion is explicitly simulated.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
+            State 05 · Decision
+          </div>
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
+          Where the other capabilities live
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          Overview, Blast radius, Architecture impact, history, Follow review, and Agent remain labeled navigation destinations. Diagrams, Search & filter, Settings, and Full pull request are grouped in Tools. These are explanatory placement previews; full capability parity is not demonstrated.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          Source notes & states exposes loading, unavailable-with-retry, and no-comments demonstrations. Below 1280 px, context becomes an overlay. Mobile product redesign is outside the assignment.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
+          Design source, implementation, and checks
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          Paper’s native layers, exported structure, and computed styles provide implementation references. The prototype adds state in HTML, CSS, and JavaScript. Desktop layout, keyboard behavior, focus restoration, progress, and recovery were checked. Developer usability and full-PR scale remain untested.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', whiteSpace: 'pre-wrap' }}>
+          Brand reference: coderabbit.ai/brand · Geist 400/600 · Hack 400/700 · CR Orange #FF570A · mauve neutrals<br />Red/green remain diff semantics. Orange links use a darker reading color for contrast.
+        </div>
+      </div>
+    </div>
+  )

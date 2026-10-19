@@ -22,7 +22,7 @@ Checked October 19, 2026, in the Codex in-app Chromium browser. Tests used the r
 | Mechanical design detector | Original baseline: no findings. Brand pass: seven font/token advisories, documented below. |
 | Independent finish review | Pass after fixing split pairing, split container width, and summary focus preservation. No open material findings in the reviewed scope. |
 | Rationale | One PDF page, rendered and visually inspected. |
-| Paper | Four editable artboards: main workspace, focus mode, review dialog, unavailable layer. Exported JSX and computed styles retained. |
+| Paper | Seven boards: reading guide, source diagnosis, editable main workspace, interaction/capability map, focus mode, review dialog, and unavailable layer. Native PNG/JSX exports and representative computed styles are retained in `design/paper-submission/`. |
 
 ## Limits
 
@@ -51,3 +51,7 @@ The refreshed PDF remains one page and was rendered and visually inspected. Java
 The full 52-file/seven-layer PR, secondary workflows, live sync, and measured reviewer performance remain unverified. One excerpt and placement previews do not establish capability parity.
 
 Independent finish review disposition: ship for the narrow brand alignment and scope presentation. No material fixes remained in that reviewed scope. This does not resolve the full-PR and secondary-workflow limits above.
+
+## Paper submission coherence
+
+The primary Paper page now reads in two rows: 00–02 introduce the method, source evidence, and main design; 03–06 explain the review flow and supporting states. The optional approach page follows, with archived visual drafts last. The source screenshot is explicitly raster reference material; redesigned UI and rationale use native editable nodes. Tools, Hide summary, and explicit unavailable-range notices were added to the main/focus Paper states to close gaps with the prototype. Screenshot checks confirmed readable labels, aligned rows, source coverage disclosures, and no clipping after using fit-content for the flow board. No browser interaction handlers changed in this pass.
