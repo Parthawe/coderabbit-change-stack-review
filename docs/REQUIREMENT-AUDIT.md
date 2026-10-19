@@ -14,7 +14,7 @@ The primary layer-based prototype is close to the assignment. The four later pro
 | Improve visual hierarchy and micro-interactions | J/K, Z, linked summary highlights, split/unified views, reversible viewed state, shortcut guards, draft entry, and simulated review work locally. | Covered within the excerpt |
 | Keep existing capability | Core review interactions work. History, Agent, follow review, diagrams, search/filter, settings, impact analysis, and full-PR scope are placement previews. | Partial |
 | Make the same information easier to scan | Main locations and actions are clearer. Historical open/blocker context is restored and labeled. Latest-change and complexity values are not reconstructed. | Partial fidelity |
-| Show 52 files across seven layers | The linked PR differs from the screenshot example. One visible screenshot file from a two-layer, three-file PR is reproduced. | Not demonstrated |
+| Inspect the 52-file/seven-layer live reference | The brief names this PR as the product reference; it does not require recreating every file. The live session was rate limited, so the supplied screenshot was used. Full-scale behavior remains unverified. | Limited inspection; no all-file deliverable required |
 | Prototype with view access plus one-page explanation | Public GitHub Pages prototype, editable Paper, and one-page rationale are provided. | Covered |
 | One strong screen within a 1–2 hour exercise | Core prototype fits that deliverable shape; twelve alternative product states exceed the original scope. | Keep explorations optional |
 
@@ -47,3 +47,7 @@ A real developer usability study, measured scan/review speed, full seven-layer n
 ## Submission recommendation
 
 Submit the [primary prototype](https://parthawe.github.io/coderabbit-change-stack-review/), the [one-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf), and the [primary Paper page](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0). Keep the [four approach walkthroughs](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html) as optional exploration.
+
+## Exact-brief clarification
+
+The challenge accepts a Figma file or a viewable prototype plus a one-page explanation or video. Paper is the chosen editable design workspace; the public browser prototype meets the prototype format. The one-page rationale is now linked directly from the Paper starting board and submission note. The primary deliverable remains one main reviewing screen; supporting state frames explain its interactions. Brand alignment and the four optional product explorations are additions requested later, not grading requirements. No claim is made that all source information or secondary functionality is fully reproduced.

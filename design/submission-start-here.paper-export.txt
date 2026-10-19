@@ -3,10 +3,10 @@
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px' }}>
         <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/5DC9VRSYDYWFW1BTMZJH0PD2R0.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '23px', width: '154px' }} />
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '36px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '42px', whiteSpace: 'pre-wrap' }}>
-          Design in Paper.<br />Test in the browser.
+          Change Stack<br />review redesign.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
-          Change Stack review redesign · Parth Pawar<br />Keep the layer model. Make the current change, its evidence, and the next action easier to find.
+          Product Designer Take-Home · Parth Pawar<br />Goal: make the main PR review screen easier to parse and interact with, while preserving its capability.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
@@ -87,6 +87,9 @@
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          Required one-page rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
