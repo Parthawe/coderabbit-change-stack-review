@@ -1,0 +1,152 @@
+{
+  "paper": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0",
+  "status": "Static editable walkthroughs; depicted controls are not connected prototypes. No external actions.",
+  "source": "Supplied coderabbitai/mono #22041 screenshot excerpt. Same PR in every state.",
+  "order": "Read each A\u2013D journey left to right, states 1\u20133.",
+  "screens": [
+    {
+      "key": "A1",
+      "title": "Review by intended behavior",
+      "step": 0,
+      "steps": [
+        "Frame the expectation",
+        "Inspect evidence",
+        "Record a decision"
+      ],
+      "caption": "Select the first expectation. Its source, uncertainty, and evidence links appear before you inspect code.",
+      "action": "Next: inspect cache evidence"
+    },
+    {
+      "key": "A2",
+      "title": "Review by intended behavior",
+      "step": 1,
+      "steps": [
+        "Frame the expectation",
+        "Inspect evidence",
+        "Record a decision"
+      ],
+      "caption": "Choose the cache link. Review the source, then attach a note that says what it supports and what is still unknown.",
+      "action": "Next: record evidence and open question"
+    },
+    {
+      "key": "A3",
+      "title": "Review by intended behavior",
+      "step": 2,
+      "steps": [
+        "Frame the expectation",
+        "Inspect evidence",
+        "Record a decision"
+      ],
+      "caption": "Attaching code updates the evidence ledger. The review keeps the unresolved behavior question visible.",
+      "action": "Outcome: a review grounded in an explicit expectation"
+    },
+    {
+      "key": "B1",
+      "title": "Review through counterexamples",
+      "step": 0,
+      "steps": [
+        "Choose a scenario",
+        "Trace the sequence",
+        "Keep the result honest"
+      ],
+      "caption": "Choose the reset step in a proposed sequence. Start from a possible failure condition rather than a file list.",
+      "action": "Next: inspect what reset actually does"
+    },
+    {
+      "key": "B2",
+      "title": "Review through counterexamples",
+      "step": 1,
+      "steps": [
+        "Choose a scenario",
+        "Trace the sequence",
+        "Keep the result honest"
+      ],
+      "caption": "Inspect the reset handler. Capture a supported observation and keep the missing trigger path explicit.",
+      "action": "Next: classify the scenario result"
+    },
+    {
+      "key": "B3",
+      "title": "Review through counterexamples",
+      "step": 2,
+      "steps": [
+        "Choose a scenario",
+        "Trace the sequence",
+        "Keep the result honest"
+      ],
+      "caption": "The investigation ends with an inconclusive result and a precise request for evidence, not an invented bug.",
+      "action": "Outcome: a focused challenge with a traceable result"
+    },
+    {
+      "key": "C1",
+      "title": "Review from impact outward",
+      "step": 0,
+      "steps": [
+        "Choose an impact path",
+        "Inspect the boundary",
+        "Record coverage gaps"
+      ],
+      "caption": "Start at the dependency boundary. Choose what to inspect because its relationship is known and its evidence is incomplete.",
+      "action": "Next: inspect the caller and missing dependency"
+    },
+    {
+      "key": "C2",
+      "title": "Review from impact outward",
+      "step": 1,
+      "steps": [
+        "Choose an impact path",
+        "Inspect the boundary",
+        "Record coverage gaps"
+      ],
+      "caption": "Inspect the integration code and try opening the utility. Unavailable source remains a gap in the review path.",
+      "action": "Next: record what this impact path covers"
+    },
+    {
+      "key": "C3",
+      "title": "Review from impact outward",
+      "step": 2,
+      "steps": [
+        "Choose an impact path",
+        "Inspect the boundary",
+        "Record coverage gaps"
+      ],
+      "caption": "The path ends with named coverage gaps. Review progress describes the inspected boundary rather than counting files.",
+      "action": "Outcome: a defensible review scope and a request for source"
+    },
+    {
+      "key": "D1",
+      "title": "Review as an author handoff",
+      "step": 0,
+      "steps": [
+        "Request the handoff",
+        "Link author intent",
+        "Challenge the handoff"
+      ],
+      "caption": "The handoff begins empty. Continue into a clearly labeled sample to demonstrate the author-to-reviewer exchange.",
+      "action": "Next: show an illustrative author handoff"
+    },
+    {
+      "key": "D2",
+      "title": "Review as an author handoff",
+      "step": 1,
+      "steps": [
+        "Request the handoff",
+        "Link author intent",
+        "Challenge the handoff"
+      ],
+      "caption": "Author-supplied statements become anchors for review. CodeRabbit proposes links; the reviewer checks those links and the claims.",
+      "action": "Next: challenge one handoff claim"
+    },
+    {
+      "key": "D3",
+      "title": "Review as an author handoff",
+      "step": 2,
+      "steps": [
+        "Request the handoff",
+        "Link author intent",
+        "Challenge the handoff"
+      ],
+      "caption": "The reviewer challenges the author\u2019s account using the code. The source-linked question stays in an unsent local draft.",
+      "action": "Outcome: an explicit handoff with a source-linked question"
+    }
+  ]
+}
