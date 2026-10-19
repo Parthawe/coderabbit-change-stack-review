@@ -1,0 +1,54 @@
+{
+  "url": "https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b",
+  "title": "Feedback records MCP integration",
+  "repository": "formbricks/formbricks",
+  "pr": 8650,
+  "files": 52,
+  "commit": "23cdac2d791cf1a0f25d80d82bc02a1f3922793c",
+  "snapshotStatus": "Out of date",
+  "observed": "October 19, 2026",
+  "access": "Exact run initially loaded without sign-in. Layer 2 diff subsequently reported rate limiting; reloading layer 1 later also reported rate limiting. Saved evidence and pinned public GitHub source were retained.",
+  "layers": [
+    {
+      "name": "API contracts and access controls",
+      "files": 9,
+      "findings": 3
+    },
+    {
+      "name": "Feedback record operations",
+      "files": 2,
+      "findings": 1
+    },
+    {
+      "name": "Hub feedback-record support",
+      "files": 5,
+      "findings": 0
+    },
+    {
+      "name": "MCP feedback-record tools",
+      "files": 3,
+      "findings": 1
+    },
+    {
+      "name": "MCP authorization and registration",
+      "files": 7,
+      "findings": 0
+    },
+    {
+      "name": "OAuth metadata and documentation",
+      "files": 10,
+      "findings": 2
+    },
+    {
+      "name": "Additional changes",
+      "files": 16,
+      "findings": 0
+    }
+  ],
+  "layer1Summary": "Defines feedback-record schemas, serializers, entitlement checks, tenant ownership guards, and controlled problem responses.",
+  "layer1Summaries": 37,
+  "layer1Comments": 15,
+  "resolvedComments": 15,
+  "fileCoverage": "Seven added files have complete pinned source. Two modified files have verified names and counts but no reconstructed diff. Other layers retain verified names and counts only.",
+  "sourceNotice": "Code and summary ranges are pinned to the supplied run. Source threads may show later resolution; a resolved historical finding is not a claim of a current bug."
+}
