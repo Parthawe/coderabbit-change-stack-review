@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"file\": {\n    \"id\": \"01M5AQACJZP42ZGTRX7GF9ERE7\",\n    \"name\": \"CodeRabbit \u2014 Change Stack Review\"\n  },\n  \"contentHash\": {\n    \"tokens\": \"811c9dc5\"\n  }\n}"
+    },
+    {
+      "type": "text",
+      "text": "{\n  \"styles\": {\n    \"3J4-0\": {\n      \"display\": \"flex\",\n      \"flexDirection\": \"column\",\n      \"width\": \"96px\",\n      \"flexShrink\": \"0\",\n      \"backgroundColor\": \"#FAF8FB\",\n      \"borderRightWidth\": \"1px\",\n      \"borderRightStyle\": \"solid\",\n      \"borderRightColor\": \"#E3E0E7\"\n    },\n    \"3J5-0\": {\n      \"display\": \"flex\",\n      \"flexGrow\": \"1\",\n      \"flexBasis\": \"0%\",\n      \"minWidth\": \"0px\",\n      \"flexDirection\": \"column\",\n      \"overflow\": \"clip\",\n      \"backgroundColor\": \"#ECF7F0\"\n    },\n    \"3BV-0\": {\n      \"display\": \"flex\",\n      \"alignItems\": \"center\",\n      \"justifyContent\": \"space-between\",\n      \"padding\": \"8px\",\n      \"borderRadius\": \"4px\",\n      \"gap\": \"8px\",\n      \"backgroundColor\": \"#FDFDFE\",\n      \"borderWidth\": \"1px\",\n      \"borderStyle\": \"solid\",\n      \"borderColor\": \"#BDB9C2\"\n    },\n    \"2LN-0\": {\n      \"display\": \"flex\",\n      \"width\": \"100%\",\n      \"height\": \"24px\",\n      \"flexShrink\": \"0\",\n      \"backgroundColor\": \"#FFF7ED\"\n    },\n    \"3EX-0\": {\n      \"fontSize\": \"13px\",\n      \"lineHeight\": \"24px\",\n      \"minWidth\": \"0px\",\n      \"flexGrow\": \"1\",\n      \"flexBasis\": \"0%\",\n      \"overflowWrap\": \"anywhere\",\n      \"whiteSpace\": \"pre-wrap\",\n      \"fontFamily\": \"\\\"Hack-Regular\\\", \\\"Hack\\\", system-ui, sans-serif\",\n      \"fontWeight\": 400,\n      \"color\": \"#175C3C\"\n    },\n    \"3EW-0\": {\n      \"display\": \"flex\",\n      \"width\": \"100%\",\n      \"height\": \"fit-content\",\n      \"flexShrink\": \"0\",\n      \"minHeight\": \"24px\",\n      \"backgroundColor\": \"#FFF7ED\"\n    }\n  }\n}"
+    }
+  ]
+}

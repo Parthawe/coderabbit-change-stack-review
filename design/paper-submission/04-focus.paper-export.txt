@@ -136,229 +136,225 @@
                 <path d="m6 10 4-4M5 9l-1 1a2.8 2.8 0 0 0 4 4l2-2M11 7l1-1a2.8 2.8 0 0 0-4-4L6 4" fill="none" stroke="#582D1D" strokeWidth="1.5" strokeLinecap="round" />
               </svg>
               <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: 'max-content' }}>
-                Linked · L49–130
+                Evidence · L75
               </div>
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              49
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
-              +
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
-              export async function resolveWorkspaceFeedbackTenant({
-            </div>
-          </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
-            <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
-            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              50
+              68
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'  '}authentication,
+              {'  '}const { workspaceId: resolvedWorkspaceId, organizationId } = authResult;
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              51
+              69
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+              +
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }} />
+          </div>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+            <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+              70
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'  '}workspaceId,
+              {'  '}const directories = await getFeedbackDirectoriesByWorkspaceId(resolvedWorkspaceId);
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              52
+              71
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'  '}minPermission,
+              {'  '}// Normalised once, here: the Hub uses `tenant_id` verbatim — in SQL filters and, for semantic search, in
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              53
+              72
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'  '}requestId,
+              {'  '}// the vector query — with no trimming of its own, so a stray space silently matches nothing instead of
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              54
+              73
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'  '}instance,
+              {'  '}// failing. Doing it at the source means every consumer gets a usable value; doing it per call site meant
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              55
+              74
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'  '}datasetId,
+              {'  '}// whichever site was written last got it right.
             </div>
           </div>
           <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              56
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
-              +
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
-              }: TResolveParams): Promise<TResolveResult> {
-            </div>
-          </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
-            <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
-            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              57
+              75
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'  '}const authResult = await requireUnifyFeedbackWorkspaceAccess(
+              {'  '}const allowedTenantIds = directories.map((directory) => directory.id.trim());
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              58
+              76
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+              +
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }} />
+          </div>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+            <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+              77
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'    '}authentication,
+              {'  '}if (datasetId) {
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              59
+              78
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'    '}workspaceId,
+              {'    '}const requested = directories.find((directory) => directory.id === datasetId);
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              60
+              79
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'    '}minPermission,
+              {'    '}if (!requested) {
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              61
+              80
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'    '}requestId,
+              {'      '}return {
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              62
+              81
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'    '}instance
+              {'        '}ok: false,
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              63
+              82
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'  '});
+              {'        '}response: problemForbidden(
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              64
+              83
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'  '}if (authResult instanceof Response) {
+              {'          '}requestId,
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              65
+              84
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'    '}return { ok: false, response: authResult };
+              {'          '}"You are not authorized to access this feedback dataset",
             </div>
           </div>
-          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
             <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
-              66
+              85
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
             <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
-              {'  '}}
+              {'          '}instance
             </div>
           </div>
           <div style={{ backgroundColor: '#FAF8FB', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '16px', paddingInline: '24px' }}>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-              Showing lines 49–66 of access.ts · complete 194-line file in the prototype
+              Lines 68–85 · statement at L75 · full 194-line file in the prototype
             </div>
             <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
               The source run is out of date. Resolved historical findings do not establish a current defect.

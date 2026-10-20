@@ -37,7 +37,7 @@
           What is included
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          The submission is this editable design, the working prototype, and the one-page rationale. It uses the old Formbricks #8650 snapshot at 23cdac2 and includes seven of 52 diffs. Reviews are simulated. 07 explains recovery; 08 contains optional future sketches; 09 records the AI critique. Earlier approaches are archived.
+          The submission is this editable design, the working prototype, and the one-page rationale. It uses Formbricks #8650 at the old 23cdac2 snapshot and includes seven of 52 diffs. Reviews are simulated. 07 covers recovery; 08 records next tests; 09 records AI critique; 10 shows Split. Earlier approaches are archived.
         </div>
       </div>
     </div>

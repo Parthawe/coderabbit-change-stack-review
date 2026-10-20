@@ -10,7 +10,7 @@ Send these three links. Paper contains the original diagnosis, matched compariso
 - [Working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
 
-[Walk through the final submission](docs/submission-walkthrough.md). The final direction keeps file-by-file review. Earlier approaches are archived. [Before and after](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html) and [future sketches](https://parthawe.github.io/coderabbit-change-stack-review/next.html) are supporting links inside the prototype. [Ten review perspectives](docs/ten-perspective-review.md) records the AI critiques and decisions; it is process evidence, not a required attachment or developer research.
+[Walk through the final submission](docs/submission-walkthrough.md). The final direction keeps file-by-file review. Earlier approaches are archived. [Before and after](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html) and [next tests and sketches](https://parthawe.github.io/coderabbit-change-stack-review/next.html) are supporting links inside the prototype. [Ten review perspectives](docs/ten-perspective-review.md) records the AI critiques and decisions; it is process evidence, not a required attachment or developer research.
 
 ## Design argument
 
@@ -18,7 +18,7 @@ I wanted to keep the file, explanation, and review progress connected. I kept fi
 
 ## Try it
 
-Select a summary to reveal its linked code range. Use Previous and Next beside the filename, or open the position to search all nine paths. Each file keeps its code and context position. Comments has a separate index for local file/line notes. Toggle Mark viewed and try Undo after switching files. Move between layers with J/K, use Z to focus, then open Submit review. The confirmation stays open until dismissed; decisions are simulated and nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
+Select a summary, then use Inspect code to choose a specific statement in access.ts. Go to summary start keeps its full context reachable. Split compacts the empty Before side of an added file and wraps long lines; Equal panes restores 50/50. Use Previous and Next beside the filename, or open the position to search all nine paths. Each file keeps its code and context position. Comments has a separate index for local file/line notes. Toggle Mark viewed and try Undo after switching files. Move between layers with J/K, use Z to focus, then open Submit review. The confirmation stays open until dismissed; decisions are simulated and nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
 
 ## Scope
 

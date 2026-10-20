@@ -14,7 +14,8 @@
     "06-unavailable",
     "07-recovery",
     "08-next-experiments",
-    "09-critical-review"
+    "09-critical-review",
+    "10-split"
   ],
   "canvas": "Original, matched comparison, main screen and rationale run left to right. Supporting states, recovery, next experiments and ten review perspectives sit below.",
   "editability": "Redesigned screen, states, and rationale are native Paper nodes; original source screenshot is raster reference material.",
@@ -60,7 +61,7 @@
   },
   "file_switching": "Previous/Next, searchable position, disabled boundaries, per-file selected summary and reading position, no automatic viewed state.",
   "file_progress": "PR count retains 52 files. A separate seven-file demo count shows reachable progress. Seen summaries remain separate.",
-  "next_experiments": "Statement anchors, paired caller/guard inspection, and private questions are native editable Paper concepts, not prototype features.",
+  "next_experiments": "Statement anchors for the two access.ts summaries are implemented and still need developer testing. Paired inspection and private questions remain Paper concepts.",
   "submission_packet": {
     "required_links": [
       "paper",
@@ -71,5 +72,8 @@
     "supporting": "Matched comparison, interaction states and optional future sketches.",
     "process_record": "Ten independent AI critiques; not developer usability research or a required submission attachment.",
     "send_status": "Prepared for Parth to send Thursday. No message sent to CodeRabbit."
-  }
+  },
+  "summary_selection": "Nine manually mapped anchors across two captured access.ts summaries; other summaries highlight their start. Full summary scope and source text remain available.",
+  "split": "Added-file Before panel is 96px by default. After receives the remaining width with 13px code and wrapping. Equal panes restores 50/50. This does not demonstrate modified-file patches.",
+  "split_state": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/3C0-0"
 }

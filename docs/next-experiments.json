@@ -1,15 +1,16 @@
 {
   "title": "What I'd test next",
   "intro": "I chose this direction because a reviewer can still read the PR file by file and check each explanation against the diff. The other approaches changed the reading order. I'd test that before making it the default.",
-  "boundary": "Design experiments using the same Formbricks snapshot. These interactions are sketched in Paper; they are not implemented in the prototype.",
+  "boundary": "The access.ts anchors now work in the prototype. Paired-file inspection and a review-wide private question queue remain Paper concepts. All use the same Formbricks snapshot.",
   "experiments": [
     {
       "id": "statement",
       "title": "Check one statement against its code",
-      "hypothesis": "An 82-line highlight is still broad. I'd link the trimming statement to line 75, while keeping the whole function one click away.",
+      "hypothesis": "I linked the captured trimming statement to line 75. Inspect code offers specific anchors for both access.ts summaries; the full summary scope and its start remain reachable.",
       "tradeoff": "A precise anchor can make one line look sufficient when the behavior depends on the flow around it.",
       "test": "Ask a developer to find the code supporting the trimming statement and explain what is normalized. Watch wrong destinations and extra searching.",
-      "boundary": "Manually verified statement-to-code anchors. No automatic mapping or correctness verdict."
+      "boundary": "Implemented for the two captured access.ts summaries. Manually verified anchors; no automatic mapping or correctness verdict.",
+      "status": "implemented"
     },
     {
       "id": "paired",

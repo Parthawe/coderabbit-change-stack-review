@@ -48,7 +48,7 @@ I kept M as the final submission. A developer can read file by file and check ea
 | Capability-preservation wording overstated the prototype. | Fixed in the audit: global Files rail mode, full command palette, path copy, file-level threads, resizing and uncaptured filters are explicitly outside the implementation. |
 | The story described lower density without explaining the final choice. | Fixed: start, Paper rationale, README and one-page rationale explain the connection between file, explanation and progress, why M stays file-based, and what I would test next. |
 
-## What still feels weak
+## Weaknesses recorded before the anchor/Split follow-up
 
 The summary-to-code link still covers 82 lines. It gives a clear destination, but does not tell us whether a developer can verify each statement. The right panel takes code width, especially in Split; Focus and Wrap are useful controls, but their availability does not prove the default is comfortable. Local notes add a review state alongside source comments, seen, viewed and submitted. Their labels and return path are clearer, but developers may still find the bookkeeping unnecessary.
 
@@ -73,3 +73,9 @@ Layout was inspected at 1440px, 1280px and an 1100px context-overlay breakpoint.
 The next useful validation is with developers using the assigned content: find a file, verify a summary statement, leave a question, switch files, resume, and explain what remains. No measured speed improvement or exhaustive absence of bugs is claimed.
 
 Raw review reports are saved in `docs/reviews/`. Their findings describe the saved baseline; the table above records the changes afterward.
+
+## Anchor and Split follow-up
+
+After the ten reviews, Parth requested fixes for the broad highlight and cramped Split. Paper was updated first. The two captured access.ts summaries now have nine manually verified anchors; the trimming example selects only L75, while the full scope and start remain available. Other summaries highlight their start rather than filling the whole range. Split compacts the empty Before panel to 96px and wraps long lines; Equal panes restores 50/50. These changes remain within final direction M.
+
+The historical critique above remains a record of its saved baseline. Current uncertainty concerns whether developers understand each anchored statement and find the compact reading layout comfortable. Automatic mapping, modified-file diffs and developer validation are not claimed. Paired inspection and the private queue remain concepts.

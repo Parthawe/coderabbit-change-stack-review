@@ -11,7 +11,7 @@
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '32px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-          Next experiments · not implemented
+          Next tests · anchors implemented · other flows are concepts
         </div>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '34px', fontWeight: 600, lineHeight: '42px' }}>
           What I'd test next
@@ -20,7 +20,7 @@
           I chose this direction because a reviewer can still read the PR file by file and check each explanation against the diff. The other approaches changed the reading order. I'd test that before making it the default.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-          Design experiments using the same Formbricks snapshot. These interactions are sketched in Paper; they are not implemented in the prototype.
+          The access.ts anchors now work in the prototype. Paired-file inspection and a review-wide private question queue remain Paper concepts. All use the same Formbricks snapshot.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '28px' }}>
@@ -29,7 +29,7 @@
             01 · Check one statement against its code
           </div>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            An 82-line highlight is still broad. I'd link the trimming statement to line 75, while keeping the whole function one click away.
+            I linked the captured trimming statement to line 75. Inspect code offers specific anchors for both access.ts summaries; the full summary scope and its start remain reachable.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
             Tradeoff · A precise anchor can make one line look sufficient when the behavior depends on the flow around it.
@@ -38,7 +38,7 @@
             Test · Ask a developer to find the code supporting the trimming statement and explain what is normalized. Watch wrong destinations and extra searching.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
-            Manually verified statement-to-code anchors. No automatic mapping or correctness verdict.
+            Implemented for the two captured access.ts summaries. Manually verified anchors; no automatic mapping or correctness verdict.
           </div>
         </div>
         <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '24px', width: '720px' }}>
@@ -56,7 +56,7 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
-            Show whole function · L49–130
+            Go to summary start · L49 · scope L49–130
           </div>
         </div>
       </div>

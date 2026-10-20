@@ -119,7 +119,7 @@ The main layer heading uses the headline token. Context headings use the title t
 
 ## Layout
 
-The viewport is a vertical shell with a 72px header and 36px prototype footer. Between them, navigation is 240px wide, the code workspace flexes, and context is 320px wide. At 1440px the main workspace is 880px wide. Navigation, code, and context scroll independently; the code area supports horizontal overflow; Tools can wrap long lines without shrinking type. Split uses continuous before/after panes with synchronized vertical scrolling.
+The viewport is a vertical shell with a 72px header and 36px prototype footer. Between them, navigation is 240px wide, the code workspace flexes, and context is 320px wide. At 1440px the main workspace is 880px wide. Navigation, code, and context scroll independently; the code area supports horizontal overflow; Tools can wrap long lines without shrinking type. Split uses a compact empty Before rail and a continuous After pane with a continuous added-code scroll region.
 
 Panel padding follows the spacing tokens: navigation uses 16px padding, context uses 24px by 20px, and the layer heading uses 24px 28px 20px. The file toolbar uses 12px by 20px. At widths below 1440px, file controls tighten and heading side padding becomes 24px.
 
@@ -172,10 +172,16 @@ Focus mode keeps the position reached while reading when the side panels return.
 
 ## Same-content comparison
 
-The untouched 1280 × 720 original capture and editable Paper checkpoint use access.ts imports at lines 1–7, the full six-point summary for lines 49–130, file 1 of 9 unviewed, nine layer files left, and two of 37 layer summaries seen. The checkpoint header uses layer progress because the original does not establish other layers’ viewed state. The working prototype starts with zero local file and summary progress. The main Paper screen demonstrates the next step, jumping from the summary to line 49. All seven imports wrap in the matched Paper checkpoint. The prototype offers both wrapped and horizontal reading. The comparison page also exposes the shared text for inspection.
+The untouched 1280 × 720 original capture and editable Paper checkpoint use access.ts imports at lines 1–7, the full six-point summary for lines 49–130, file 1 of 9 unviewed, nine layer files left, and two of 37 layer summaries seen. The checkpoint header uses layer progress because the original does not establish other layers’ viewed state. The working prototype starts with zero local file and summary progress. The main Paper screen demonstrates the next step, inspecting the trimming statement at line 75, with its summary start at line 49 still reachable. All seven imports wrap in the matched Paper checkpoint. The prototype offers both wrapped and horizontal reading. The comparison page also exposes the shared text for inspection.
 
 ## Critical review follow-up
 
 The recovery board specifies file/line note discovery, one roving comment action, F6 and a working Skip to context link between code and context, and overlay Escape even from a textarea. Selecting an outline item switches to Summaries and removes the previous note editor. Active note ranges stay visible in ranges-only mode. Full source disclosures retain their open state. Loading gates unavailable actions until the fixture returns; retry requests are coalesced.
 
 The optional next-experiments board sketches statement anchors, paired caller/guard inspection and private questions with the same Formbricks evidence. Each states a tradeoff and test. They are not working prototype features. The ten-perspective review records independent AI critiques of a shared baseline and the resulting decisions; it is not usability research.
+
+## Specific evidence and compact Split
+
+The selected summary keeps its complete scope label. `Inspect code` chooses a manually verified statement or branch, with a narrow highlight and an Evidence line label. The captured workspace-tenant summary has six anchors corresponding to its six source points; the ownership summary has three. Other summaries land at their start, explicitly labeled Summary start. Go to summary start retains the full function context without filling the entire range. The original fixture text and source summaries are unchanged.
+
+All seven included diffs are added files. Split therefore keeps a 96px Before rail stating File added / No previous version, and gives the remaining width to After. Equal panes explicitly restores 50/50; Compact before reverses it. Split wraps by default at the existing 13px/24px code size. Its wrap preference is separate from Unified; file navigation, pane sizing and Focus retain the visible code line. Modified-file behavior remains outside this fixture.

@@ -109,3 +109,11 @@ The independent review is documented in docs/second-review.txt. No email or mess
 Paper’s start board now leads with the three submission links. Future sketches and AI critiques are explicitly supporting material. The rationale removes the unexplained M label; the private question concept is distinguished from the implemented per-file note index. Native Paper sources, PNGs, the one-page PDF/HTML and README were refreshed together. No new layout direction was added.
 
 The context skip link now calls the same focus handoff as Context and F6. Keyboard checks at 1100px confirmed it opens the overlay and focuses the selected tab; Escape closes it and returns to Context. At 1440px it focuses the tab without page overflow. Browser warning/error logs were empty. JS syntax, whitespace and local-link checks passed. The rendered rationale remains one page and was visually inspected.
+
+## Specific evidence and compact added-file Split · October 20, 2026
+
+Paper was updated first. The main and Focus states now show access.ts lines 68–85 with L75 selected alone. A native supporting Split state uses a 96px empty Before rail, a full-width After pane and wrapped 13px code. Source, flow, rationale and next-test status were refreshed from Paper exports.
+
+All nine manually mapped access.ts anchors were exercised in the browser. Highlighted line bounds matched each chosen option, including only L75 for trimming and L179–183 for the tenant check. Go to summary start selected L49 alone. Expanded source-summary links worked and kept the disclosure open. Other summaries select their explicitly labeled start. The original fixture and captured source text are unchanged.
+
+Compact/Equal panes switching retained the first visible code line; returning to access.ts restored its anchor. At 1440px and 1280px, Split stayed at 13px with wrapping and no page overflow. At 1100px, the overlay dropdown kept focus, Escape restored Context, and code remained readable. Unified and Split retain separate wrap choices. Active local notes remained visible in ranges-only mode, outline selection removed the old editor, and viewed Undo survived a summary-progress notice. Simulated submission and Reset passed. Browser warning/error logs were empty. The rationale remains one rendered and visually checked page. These are implementation checks, not developer usability results.

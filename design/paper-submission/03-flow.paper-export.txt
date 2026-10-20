@@ -24,15 +24,15 @@
         <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
           <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px' }}>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-              Linked · access.ts · L49–130
+              Evidence · access.ts · L75
             </div>
             <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', padding: '16px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
                 75 + const allowedTenantIds = directories.map((directory) => directory.id.trim());
               </div>
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-              Clicking a summary jumps to its range. The first line briefly brightens so you can see where you landed. With reduced motion, the jump is instant.
+              Inspect code selects a specific statement or branch. Surrounding code stays readable; Go to summary start keeps the full scope reachable. Reduced motion uses an instant jump.
             </div>
           </div>
           <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E57340', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', paddingBlock: '16px', paddingInline: '12px', width: '279px' }}>

@@ -6,7 +6,7 @@ The final direction is the file-by-file review workspace previously labeled M. I
 
 Paper 01 points to four source problems: several rows of controls above the diff, a weak connection between layer and file position, unclear file/layer summary counts, and progress signals that mean different things. These are the problems I chose to address; their effect on developer performance remains a hypothesis.
 
-Paper 01b compares the same access.ts imports at lines 1–7, the complete workspace-tenant summary, file position and captured layer progress. All imports wrap so their tokens remain visible. Paper 02 then shows the next action: following that summary to line 49. The comparison checks content and hierarchy; it is not a measured speed result.
+Paper 01b compares the same access.ts imports at lines 1–7, the complete workspace-tenant summary, file position and captured layer progress. All imports wrap so their tokens remain visible. Paper 02 then shows the next action: following its trimming statement to line 75, with the summary start at line 49 still reachable. The comparison checks content and hierarchy; it is not a measured speed result.
 
 ## What changed after the ten reviews
 
@@ -21,9 +21,9 @@ Paper 07 shows recovery and keyboard behavior. Paper 09 records ten independent 
 
 ## What still feels weak
 
-The workspace summary still selects 82 lines. A clear destination does not establish whether someone can verify each statement. Context takes code width, especially in Split. Local notes add another state alongside source comments and progress. Seven added-file diffs cannot establish how this works across the whole 52-file PR or a changing review run.
+The two access.ts summaries now offer manually mapped code anchors. A precise highlight still does not prove that someone understands the behavior. Split gives added code more width by compacting its empty Before panel, but modified-file patches are outside this fixture. Local notes add another state alongside source comments and progress. Seven added-file diffs cannot establish how this works across the whole 52-file PR or a changing review run.
 
-Paper 08 sketches three separate tests: anchor the trimming statement to line 75 while retaining the whole function; inspect the verified access guard beside its caller; and try a review-wide private question queue for resuming after an interruption. The current note index stays within a file. The proposed queue spans the review. Each sketch states its tradeoff; none is implemented in the prototype.
+Paper 08 now distinguishes the implemented anchors from the two remaining concepts: paired caller/guard inspection and a review-wide private question queue. The next anchor test asks developers to explain the trimming behavior, with the full function still available. The current note index stays within a file. The proposed queue spans the review. Each concept states its tradeoff. The anchor controls work; paired inspection and the queue remain unimplemented.
 
 ## What to send to CodeRabbit
 

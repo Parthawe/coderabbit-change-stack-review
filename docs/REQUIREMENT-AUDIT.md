@@ -10,7 +10,7 @@ The primary submission remains one main layer-based reviewing screen. The newly 
 | Diagnose 3–5 parsing problems | Four observations concern competing toolbars, separated navigation, summary scope/linking, and three progress signals. | Design hypotheses, without measured reviewer-speed claims. |
 | Redesign one main reviewing screen | Native editable Paper main screen with supporting focus, decision, and recovery states. | Supporting frames explain the same screen, not a larger product redesign. |
 | Retain capability | Navigation, file selection, diff layout, range selection, comment entry, viewed status, seen progress, and review decision have destinations. | Some secondary workflows are labeled previews; complete capability parity is not demonstrated. |
-| Same information easier to scan | Both source and redesign use Formbricks #8650, layer 1, access.ts, and captured summary ranges. | The matched checkpoint shows imports 1–7, the full workspace-tenant summary, and the same captured progress. Wrap is on so every token remains visible. The main screen then follows the summary to line 49. |
+| Same information easier to scan | Both source and redesign use Formbricks #8650, layer 1, access.ts, and captured summary ranges. | The matched checkpoint shows imports 1–7, the full workspace-tenant summary, and the same captured progress. Wrap is on so every token remains visible. The main screen follows the trimming statement to L75; the summary start at L49 remains reachable. |
 | Interaction polish | Keyboard navigation, focus preservation, local progress, comment filtering, and dialog focus are implemented. | Prototype state is local; no remote writes. |
 | Viewable design or prototype + one-pager/video | Public prototype and one-page rationale, plus editable Paper with process boards. | Paper currently prompts signed-out reviewers to sign in. |
 | Focused 1–2 hour exercise | Main screen and four diagnoses remain the primary deliverable shape. | Later exploration and implementation extend the original exercise; no claim of completing all work in two hours. |
@@ -58,3 +58,7 @@ Ten independent AI review passes used the same saved baseline (`fc06a01`); they 
 ## Submission walkthrough
 
 The final handoff is three links: editable Paper, the public prototype, and the one-page rationale. Paper leads with diagnosis, a matched-content comparison and the final screen. Supporting states explain implemented behavior. The future-sketch board is optional and explicitly unimplemented; the ten-review board records AI critique. Neither replaces the design argument or establishes developer usability. Earlier approaches remain archived. The rationale uses the direction’s descriptive name rather than the internal M label.
+
+## Anchor and Split refinement
+
+M stays final. Summary scope is distinct from its selected evidence: two access.ts summaries expose manually mapped anchors; other summaries land at their start. All captured code and the full source summary remain available. Added-file Split compacts the empty Before side, wraps by default and retains a reversible Equal panes control. Paper includes a native supporting Split state. These improvements do not claim automatic statement mapping or modified-file patch coverage.

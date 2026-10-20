@@ -1,0 +1,64 @@
+{
+  "source": "Formbricks #8650 at 23cdac2",
+  "method": "Manually mapped to the existing captured code. These are navigation anchors, not new findings or automatic mapping.",
+  "anchors": {
+    "0-49": [
+      {
+        "key": "access",
+        "label": "Require workspace access",
+        "start": 57,
+        "end": 65
+      },
+      {
+        "key": "directories",
+        "label": "Load feedback directories",
+        "start": 70,
+        "end": 70
+      },
+      {
+        "key": "normalize",
+        "label": "Normalize tenant IDs",
+        "start": 75,
+        "end": 75
+      },
+      {
+        "key": "dataset",
+        "label": "Check dataset membership",
+        "start": 77,
+        "end": 97
+      },
+      {
+        "key": "configuration",
+        "label": "Reject missing or ambiguous datasets",
+        "start": 99,
+        "end": 120
+      },
+      {
+        "key": "context",
+        "label": "Return tenant context",
+        "start": 122,
+        "end": 129
+      }
+    ],
+    "0-156": [
+      {
+        "key": "hub",
+        "label": "Handle Hub failures",
+        "start": 164,
+        "end": 175
+      },
+      {
+        "key": "ownership",
+        "label": "Check permitted tenant",
+        "start": 179,
+        "end": 183
+      },
+      {
+        "key": "result",
+        "label": "Return the permitted record",
+        "start": 185,
+        "end": 185
+      }
+    ]
+  }
+}

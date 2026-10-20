@@ -41,7 +41,7 @@
           Make the summary counts clear
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          37 summaries belong to the layer; six belong to access.ts. I labeled both counts and kept the summary-to-code link. Matching highlights connect them. The full captured summary expands when you need the detail.
+          37 summaries belong to the layer; six belong to access.ts. The summary keeps its full scope, while Inspect code highlights a specific statement or branch. The two captured access.ts summaries have manually mapped anchors. The full source summary stays available.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -54,10 +54,10 @@
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          The right panel takes space
+          Give added code the room
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Keeping context beside code reduces line width. Z hides both side panels and condenses the layer heading while keeping the reading position. Below 1280px, context opens over the code. I’d still test whether developers can find a file, connect a summary, and tell what’s left.
+          Split compacts the empty Before side of an added file to 96 px, wraps long lines, and keeps the code at 13 px. Equal panes restores 50 / 50. Z still hides side panels and keeps your place. This fixture does not demonstrate modified-file patches.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>
@@ -65,7 +65,7 @@
           Compare the same content
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '23px' }}>
-          The matched screen uses all seven original imports and the full workspace-tenant summary. Wrap is on, so no tokens are clipped. The file is unviewed, nine layer files remain, and two of 37 summaries are seen in both. The main screen follows that summary to line 49.
+          The matched screen keeps the original seven imports, full workspace-tenant summary, unviewed file, nine remaining layer files, and two of 37 summaries seen. The main screen shows a later step: inspecting the trimming statement at line 75.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>
@@ -73,7 +73,7 @@
           Why this direction, and what comes next
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          I kept file-by-file review so each explanation can be checked against the diff. The other approaches changed the reading order. In 08, I sketched tighter statement anchors, paired-file inspection, and a review-wide private question queue. Each has a test and tradeoff; none is part of the working prototype.
+          I kept file-by-file review. Specific code anchors and compact added-file Split are now part of the prototype. I’d test whether the anchors help developers explain the behavior. Paired-file inspection and the review-wide private question queue remain sketches.
         </div>
       </div>
     </div>

@@ -137,7 +137,7 @@
           Still worth challenging
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          The 82-line summary range is broad. A right panel costs code width. Notes add another review state. Seven diffs cannot show behavior across a full 52-file review. These are reasons to test the next sketches with developers, not claims the redesign has already solved them.
+          The broad fill is now replaced by manually mapped access.ts anchors, and Split compacts its empty Before panel. Developers still need to test the anchors’ usefulness. Notes add another state, and seven added files cannot show behavior across the full PR.
         </div>
       </div>
     </div>
