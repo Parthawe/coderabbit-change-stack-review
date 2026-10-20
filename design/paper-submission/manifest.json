@@ -60,5 +60,16 @@
   },
   "file_switching": "Previous/Next, searchable position, disabled boundaries, per-file selected summary and reading position, no automatic viewed state.",
   "file_progress": "PR count retains 52 files. A separate seven-file demo count shows reachable progress. Seen summaries remain separate.",
-  "next_experiments": "Statement anchors, paired caller/guard inspection, and private questions are native editable Paper concepts, not prototype features."
+  "next_experiments": "Statement anchors, paired caller/guard inspection, and private questions are native editable Paper concepts, not prototype features.",
+  "submission_packet": {
+    "required_links": [
+      "paper",
+      "prototype",
+      "rationale"
+    ],
+    "primary_direction": "Final file-by-file reviewing workspace, previously labeled M during exploration.",
+    "supporting": "Matched comparison, interaction states and optional future sketches.",
+    "process_record": "Ten independent AI critiques; not developer usability research or a required submission attachment.",
+    "send_status": "Prepared for Parth to send Thursday. No message sent to CodeRabbit."
+  }
 }

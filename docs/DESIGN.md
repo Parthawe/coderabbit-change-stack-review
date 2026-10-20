@@ -176,6 +176,6 @@ The untouched 1280 × 720 original capture and editable Paper checkpoint use acc
 
 ## Critical review follow-up
 
-The recovery board specifies file/line note discovery, one roving comment action, F6 between code and context, and overlay Escape even from a textarea. Selecting an outline item switches to Summaries and removes the previous note editor. Active note ranges stay visible in ranges-only mode. Full source disclosures retain their open state. Loading gates unavailable actions until the fixture returns; retry requests are coalesced.
+The recovery board specifies file/line note discovery, one roving comment action, F6 and a working Skip to context link between code and context, and overlay Escape even from a textarea. Selecting an outline item switches to Summaries and removes the previous note editor. Active note ranges stay visible in ranges-only mode. Full source disclosures retain their open state. Loading gates unavailable actions until the fixture returns; retry requests are coalesced.
 
 The optional next-experiments board sketches statement anchors, paired caller/guard inspection and private questions with the same Formbricks evidence. Each states a tradeoff and test. They are not working prototype features. The ten-perspective review records independent AI critiques of a shared baseline and the resulting decisions; it is not usability research.

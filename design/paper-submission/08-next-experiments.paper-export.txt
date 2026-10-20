@@ -106,7 +106,7 @@
             03 · Return to a question left open
           </div>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            Viewed is too coarse to remember an unanswered question. I'd try a private queue that returns to the file and line without changing viewed state.
+            Viewed is too coarse to remember an unanswered question. I'd try a review-wide private queue that returns to the file and line without changing viewed state.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
             Tradeoff · Another review state adds bookkeeping. It earns a place only if it reduces the work of resuming.

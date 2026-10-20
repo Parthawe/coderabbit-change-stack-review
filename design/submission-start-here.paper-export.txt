@@ -20,10 +20,10 @@
       </div>
       <div style={{ backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '20px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '26px' }}>
-          Start with the original screen
+          Final submission · start here
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          01 marks the four problems. 01b compares the same content, then 02 shows the final screen. Try Previous/Next, a summary, Z, and Mark viewed in the prototype. 07 covers recovery; 08 shows what I’d test next.
+          Read 01 for the four source problems, 01b for the matched comparison, and 02 for the final screen. Then try file switching, a summary, Z, Mark viewed, and Undo in the prototype. The one-page rationale explains the decisions.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/
@@ -34,10 +34,10 @@
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Scope
+          What is included
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          I used the old Formbricks #8650 snapshot at 23cdac2. The prototype includes seven of 52 file diffs; other content is labeled as preview. Review submission is simulated. I designed it in Paper, then built the browser prototype.
+          The submission is this editable design, the working prototype, and the one-page rationale. It uses the old Formbricks #8650 snapshot at 23cdac2 and includes seven of 52 diffs. Reviews are simulated. 07 explains recovery; 08 contains optional future sketches; 09 records the AI critique. Earlier approaches are archived.
         </div>
       </div>
     </div>

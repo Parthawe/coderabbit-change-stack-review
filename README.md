@@ -2,12 +2,15 @@
 
 Design exercise by Parth Pawar for the assigned Formbricks PR #8650.
 
-- [Paper design](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0)
+## What to send
+
+Send these three links. Paper contains the original diagnosis, matched comparison, final screen and supporting states. The browser demonstrates the interactions; the one-page rationale explains the choices.
+
+- [Editable Paper design](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0)
 - [Working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
-- [Next experiments](https://parthawe.github.io/coderabbit-change-stack-review/next.html)
-- [Ten review perspectives](docs/ten-perspective-review.md)
-- [Original and redesign](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html)
+
+[Walk through the final submission](docs/submission-walkthrough.md). The final direction keeps file-by-file review. Earlier approaches are archived. [Before and after](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html) and [future sketches](https://parthawe.github.io/coderabbit-change-stack-review/next.html) are supporting links inside the prototype. [Ten review perspectives](docs/ten-perspective-review.md) records the AI critiques and decisions; it is process evidence, not a required attachment or developer research.
 
 ## Design argument
 

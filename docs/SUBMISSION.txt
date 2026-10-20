@@ -1,16 +1,16 @@
-Draft for Parth to send. Nothing has been sent to CodeRabbit.
+Draft for Parth to send Thursday. Nothing has been sent to CodeRabbit.
 
 Hi CodeRabbit team,
 
-I’ve finished the Change Stack assignment using the Formbricks PR. I worked through the design in Paper, then built the prototype to check the interactions.
+I worked through the Change Stack assignment in Paper, then built a prototype using the Formbricks PR.
 
-I kept file-by-file review and focused on keeping the file, explanation, and progress connected. The redesign brings file controls together, links summaries to their code, and keeps viewed status separate from the final review decision. The before-and-after uses the same content. I’ve also sketched three things I’d test next, with the tradeoff behind each.
+I kept file-by-file review and focused on keeping the file, explanation, and progress connected. The redesign brings file controls together, links summaries to their code, and keeps viewed status separate from submitting a review. The before-and-after uses the same imports and full summary. I’ve included the tradeoffs and a few things I’d test next.
 
-Paper and diagnosis: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
-Prototype: https://parthawe.github.io/coderabbit-change-stack-review/
+Paper design and diagnosis: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
+Working prototype: https://parthawe.github.io/coderabbit-change-stack-review/
 One-page rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
 
-The prototype includes seven of 52 diffs. Submission is simulated. Paper may ask you to sign in; the prototype and rationale are public.
+The prototype includes seven of 52 diffs, and review submission is simulated. Paper may ask you to sign in; the other two links are public.
 
 Thanks,
 Parth

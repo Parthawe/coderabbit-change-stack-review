@@ -29,5 +29,5 @@
   "validation": "The comparison keeps all seven imports, the full source summary, and captured layer progress. I checked file switching, linked ranges, draft recovery, Undo, keyboard access, and dialog focus. I haven’t measured a speed improvement or tested this with developers.",
   "scope": "This uses the out-of-date Formbricks #8650 snapshot at 23cdac2. Seven of 52 diffs are included. Other content is labeled as a preview; not every source workflow is implemented. Submitting a review is simulated and sends nothing.",
   "next_title": "What I’d test next",
-  "next": "I kept M because each explanation can be checked against the diff. Other approaches change the reading order. In Paper, I sketched tighter statement anchors, paired-file inspection, and a private question queue, each with a test and tradeoff."
+  "next": "I’d test tighter statement anchors, paired-file inspection, and a review-wide private question queue separately. Each sketch uses this PR and states its tradeoff. None is part of the working prototype."
 }

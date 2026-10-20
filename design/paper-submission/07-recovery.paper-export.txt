@@ -74,7 +74,7 @@
           Keyboard movement follows the work
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Tab enters code and one line-comment action. Up/Down moves that action between lines; Enter opens the note. F6 switches between code and context. Escape closes the context overlay even while typing and keeps the draft.
+          Tab enters code and one line-comment action. Up/Down moves that action; Enter opens the note. F6 or Skip to context moves into context, opening the overlay when needed. Escape closes the overlay even while typing and keeps the draft.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
           Z gives code more width and height. Leaving focus mode restores the control you came from when it is still available. Layer changes keep focus on the selected layer and announce its name.

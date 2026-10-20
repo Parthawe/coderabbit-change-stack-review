@@ -103,3 +103,9 @@ Parth authorized publishing the prepared focus-position and file/line-note fixes
 Live browser checks confirmed immediate saved A/B values, empty notes for a different file or line, restored saved and unsaved notes, clearing the saved block, and keyboard focus retained on Save. The rationale now explicitly describes current reading position and file/line ownership, and still compiles to one visually checked page. The Paper flow wording and native exports match. The design detector reported only existing editorial font sizes in rationale.html; those are intentional reading-page sizes, not a product UI change.
 
 The independent review is documented in docs/second-review.txt. No email or message to CodeRabbit was sent. Publication and final public verification are recorded in the Thursday handoff.
+
+## Final walkthrough and handoff alignment · October 20, 2026
+
+Paper’s start board now leads with the three submission links. Future sketches and AI critiques are explicitly supporting material. The rationale removes the unexplained M label; the private question concept is distinguished from the implemented per-file note index. Native Paper sources, PNGs, the one-page PDF/HTML and README were refreshed together. No new layout direction was added.
+
+The context skip link now calls the same focus handoff as Context and F6. Keyboard checks at 1100px confirmed it opens the overlay and focuses the selected tab; Escape closes it and returns to Context. At 1440px it focuses the tab without page overflow. Browser warning/error logs were empty. JS syntax, whitespace and local-link checks passed. The rendered rationale remains one page and was visually inspected.

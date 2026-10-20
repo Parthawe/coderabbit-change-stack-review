@@ -22,7 +22,7 @@
     {
       "id": "question",
       "title": "Return to a question left open",
-      "hypothesis": "Viewed is too coarse to remember an unanswered question. I'd try a private queue that returns to the file and line without changing viewed state.",
+      "hypothesis": "Viewed is too coarse to remember an unanswered question. I'd try a review-wide private queue that returns to the file and line without changing viewed state.",
       "tradeoff": "Another review state adds bookkeeping. It earns a place only if it reduces the work of resuming.",
       "test": "Interrupt a review after someone parks a question. Check whether they return to the intended code and distinguish their question from a source finding.",
       "boundary": "Hypothetical personal question flow. No shared tasks, notifications, author messages, or generated findings."

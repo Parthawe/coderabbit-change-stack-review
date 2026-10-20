@@ -73,7 +73,7 @@
           Why this direction, and what comes next
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          I kept file-by-file review so developers can check each explanation against the diff. The other approaches changed the reading order. In 08, I sketched tighter statement anchors, paired-file inspection, and a private question queue. Each needs a separate test before joining this screen.
+          I kept file-by-file review so each explanation can be checked against the diff. The other approaches changed the reading order. In 08, I sketched tighter statement anchors, paired-file inspection, and a review-wide private question queue. Each has a test and tradeoff; none is part of the working prototype.
         </div>
       </div>
     </div>

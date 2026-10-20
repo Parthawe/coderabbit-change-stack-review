@@ -54,3 +54,7 @@ The final handoff focuses on the main-screen redesign and rationale. Earlier Aâ€
 ## October 20 critical review
 
 Ten independent AI review passes used the same saved baseline (`fc06a01`); they are not user research or human moderator feedback. Findings and dispositions are in [the review report](ten-perspective-review.md). Recovery and keyboard behavior now have a dedicated Paper board. Three next experiments use verified Formbricks code but remain design concepts: statement-level anchors, paired caller/guard inspection, and a private question queue. Each has a tradeoff and a test.
+
+## Submission walkthrough
+
+The final handoff is three links: editable Paper, the public prototype, and the one-page rationale. Paper leads with diagnosis, a matched-content comparison and the final screen. Supporting states explain implemented behavior. The future-sketch board is optional and explicitly unimplemented; the ten-review board records AI critique. Neither replaces the design argument or establishes developer usability. Earlier approaches remain archived. The rationale uses the directionâ€™s descriptive name rather than the internal M label.
