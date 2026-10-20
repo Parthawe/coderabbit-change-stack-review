@@ -165,3 +165,5 @@ The existing diff metadata row stays above the scrolling code. Its chain icon an
 Mark viewed updates the toolbar check, navigation indicator, and 52-file count together. Its toast offers Undo for eight seconds and pauses dismissal while hovered or keyboard focused. Undo restores that file’s prior state even after navigation, without changing the current file. Summary seen stays independent.
 
 Simulate submission changes the open decision dialog into a persistent confirmation. The dialog identifies the selected decision and states that nothing was sent. Return to review restores focus to Submit review. Dialogs fade in over 160ms, toast feedback over 140ms, and the viewed fill changes over 140ms. Reduced motion removes all fades, destination emphasis, and smooth scrolling while preserving labels and state changes.
+
+Context tabs restore the code range belonging to their visible content. Summaries restores the selected explanation; Comments restores the open historical thread or local note. Hiding resolved threads clears their range and returns to the selected summary. Draft text remains in tab memory.

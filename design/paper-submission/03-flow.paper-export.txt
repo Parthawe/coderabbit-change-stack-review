@@ -113,7 +113,7 @@
             Comments · inspect thread
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            Resolved comments start hidden, matching the live view. Show resolved reveals the captured access.ts thread; its two reply bodies are not reproduced. Drafts stay local.
+            Resolved threads start hidden. Tabs restore the selected summary or comment range. Local drafts persist; two source replies are not reproduced.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             Prototype · Comments

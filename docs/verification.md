@@ -69,3 +69,13 @@ Approval and request-for-changes simulations produced persistent confirmations. 
 At 1440×960, 1280×800, and 1100×800, no document horizontal overflow or new control overlap was observed. At 1100px, the context overlay starts at the header’s 109px lower edge. Emulating reduced motion produced no row animation and an immediate landing at the selected range; the emulation was then removed. Browser warning/error logs were empty.
 
 One mechanical design-detector pass flagged a temporary three-pixel arrival stripe; it was removed, leaving only a short background emphasis. Other advisories concern existing palette/type values; the viewed border and surface now have documented tokens. JavaScript syntax and whitespace checks pass. These are implementation checks, not usability measurements.
+
+## Final handoff review · October 20, 2026
+
+Re-read the original three-page assignment and the one-page rationale. The final submission remains one reviewing screen with four source diagnoses and supporting interaction states. The editable Paper page has nine artboards; product explorations remain archived. The source is the same pinned Formbricks PR.
+
+The public path passed summary linking (31 rows at 156–186), file Undo after navigation, J/K, focus position preservation (3712px before/during/after), historical comments, persistent approval simulation, and Escape focus restoration. At 1280px the toolbar had 24px between identity and actions with no document overflow; at 1100px the context overlay began exactly below the header. The explicit loading state recovered correctly.
+
+Found and fixed one misleading state: returning from an open comment to Summaries previously left the comment’s code range selected. After the fix, tab switches restore 156–186 for the selected summary and 75–90 for the historical thread. Hiding resolved comments restores the summary range. A local note restored its single-line range and retained its draft through both tabs. The Paper flow specification now records this behavior and was visually checked without clipping.
+
+JavaScript syntax, whitespace checks, and one scoped mechanical detector pass passed. The rationale is one page. A fresh unsigned-in Paper browser redirected to sign-in; the public prototype and rationale are the access-free review path. This check does not establish full capability parity or measured usability improvement.
