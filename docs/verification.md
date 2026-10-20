@@ -24,7 +24,7 @@ Checked October 19, 2026 in the Codex in-app Chromium browser against the runnin
 | PDF | Exactly one page; rendered through Poppler and visually inspected for readable type, table wrapping, and no clipping. |
 | Source syntax | JavaScript syntax and git diff whitespace checks pass. |
 | Design detector | One bounded pass on changed HTML/CSS produced three documentation advisories: selection border, input border, and compact 11px labels. Existing brand values and dense metadata use are documented; no new visual system was introduced. |
-| Paper source | Seven current native PNG and raw JSX exports plus representative computed styles are saved in design/paper-submission. Earlier screenshot work is archived separately. |
+| Paper source | Eight current native PNG and raw JSX exports plus representative computed styles are saved in design/paper-submission. Earlier screenshot work is archived separately. |
 
 ## Limits
 
@@ -34,4 +34,10 @@ Paper is set to anyone with the link but currently prompts signed-out reviewers 
 
 ## Optional earlier explorations
 
-The twelve-screen approach gallery retains the supplied mono screenshot case. Its existing filters, stage navigation, image dialog, image recovery, and narrow viewer layout were checked in the earlier gallery pass. The current change only clarifies that the primary submission now uses Formbricks; the product controls inside those images remain illustrative.
+The twelve-screen approach gallery now uses the same Formbricks PR, pinned file, and guard excerpt as the main prototype. Five adjacent Paper rationales and matching browser disclosures were added. Static product controls remain illustrative; public viewer controls are functional. Earlier gallery checks remain historical and current checks are recorded below.
+
+## Same-PR approach comparison pass
+
+All twelve full-size Paper states, five native rationale panels, and the refreshed overview were visually inspected. No clipping or overlap was observed. Text searches on the comparison page found no mono PR, UserList, cache, reset, or old line-747 references. Exact code excerpts are checked against the pinned fixture. The verified layer dependency was cross-checked against the saved source accessibility capture. The old screenshot study remains in archive pages. Browser layout, stage controls, disclosures, and published assets are checked as part of this release; no measured usability claim is made.
+
+Current comparison checks: at 1440×1000 and 390×844, no document horizontal overflow was observed. All four Inspect images loaded at their native 1160px width. Stage navigation, single-approach filtering, expanded reasoning persistence, main-workspace disclosure, viewer progression, Escape, and trigger-focus restoration passed. All 24 native Paper code lines matched the pinned fixture. JavaScript syntax and whitespace checks passed. One design-detector pass returned no findings for the changed comparison page. The updated rationale PDF remains one page and was rendered and visually inspected.

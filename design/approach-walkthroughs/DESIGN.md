@@ -46,13 +46,13 @@ rounded:
 
 ## Overview
 
-The twelve static, editable Paper screens now use CodeRabbit orange, light mauve surfaces, Geist UI text, and Hack code in place of the previous blue/slate Plex direction. These four product approaches remain optional explorations; the main layer-review screen and rationale remain the assignment submission. Each approach has three successive states. Shared chrome keeps the pull request and layer visible while the review task changes.
+The twelve static, editable Formbricks Paper screens use CodeRabbit orange, light mauve surfaces, Geist UI text, and Hack code in place of the previous blue/slate Plex direction. These four product approaches remain optional explorations; the main layer-review screen and rationale remain the assignment submission. Each approach has three successive states. Shared chrome keeps the pull request and layer visible while the review task changes.
 
-[Editable Paper page](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0). The PNGs `a1.png` through `d3.png` record the built states. This document applies to these walkthroughs; it does not replace the incumbent prototype’s design system. Frontmatter records observed values, with no claim of bound Paper variables or shared runtime tokens. The [official brand page](https://www.coderabbit.ai/brand) and its extracted light Carrot UI stylesheet values supplied the palette; the original black/orange typemark SVG remains intact. This records applied brand choices without certifying complete brand compliance. Paper separates the main submission, screenshot-reference explorations, and archives.
+[Editable Paper page](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0). The PNGs `a1.png` through `d3.png` record the built states. This document applies to these walkthroughs; it does not replace the incumbent prototype’s design system. Frontmatter records observed values, with no claim of bound Paper variables or shared runtime tokens. The [official brand page](https://www.coderabbit.ai/brand) and its extracted light Carrot UI stylesheet values supplied the palette; the original black/orange typemark SVG remains intact. This records applied brand choices without certifying complete brand compliance. Paper separates the main submission, Formbricks approach comparison, and archives.
 
 ## Colors
 
-Orange fills primary actions. Dark orange-family text identifies the current stage, links, and state labels. Selected rows add a pale orange fill; their written status still describes the underlying item. D2 selects **Reset handler** through this fill while both entries remain suggested links.
+Orange fills primary actions. Dark orange-family text identifies the current stage, links, and state labels. Selected rows add a pale orange fill; their written status still describes the underlying item. D2 selects **Enforce record ownership** through this fill while both entries remain suggested links.
 
 Ink and muted text separate the task from explanatory context. The near-white base holds the main workspace; secondary mauve backs supporting notes and the layer strip. Thin neutral lines divide rows and regions. Green text, a pale green background, and a plus sign identify added source lines. A selected row does not signify verified behavior or a passing test.
 
@@ -78,14 +78,14 @@ Rows and large regions use straight boundaries. Buttons, notes, and fields share
 
 ## Components
 
-- **Shared context:** retain `coderabbitai/mono #22041`, the supplied PR title, `Layers 2 / 2`, `Paginated list integration`, and `UserListPaginated.tsx` across states.
+- **Shared context:** retain Formbricks #8650, Feedback records MCP integration, layer 1 of 7, API contracts and access controls, access.ts, commit 23cdac2, and out-of-date snapshot status across states.
 - **Stage progression:** dark orange-family text marks the current numbered stage. The three screens depict successive states; the controls are editable visual elements.
 - **Task rows and ledgers:** rows combine a title, context, and written status. Ledgers keep inspected evidence, missing evidence, and the review decision separate.
-- **Evidence panels:** code includes the filename, source range, line numbers, change signs, and a transcription boundary note. Only `UserListPaginated.tsx` lines 719–724 and 744–749 are reproduced.
+- **Evidence panels:** code includes filename, source range, exact line numbers, addition signs, and pinned-source attribution. A2, B2, C2, and D3 reproduce identical access.ts lines 178–183 from the complete 194-line added file.
 - **Buttons and fields:** primary actions use orange with dark text; secondary actions use the near-white base, a neutral border, and dark orange-family text. Fields display empty prompts or labeled illustrative text. These static states do not establish hover, focus, persistence, or submission behavior.
 - **A, intended behavior:** a proposed expectation leads to attached evidence and a review decision. The expectation stays open when author confirmation, call sites, or tests are missing. File viewed status remains independent.
 - **B, counterexamples:** a proposed scenario leads to static code inspection and an inconclusive result. The scenario is not executed and has no pass/fail result or established defect.
-- **C, impact:** the known dependency leads to boundary inspection and a coverage ledger. `Paginated list integration` depends on `Selection cache utility`; the latter’s two files are unavailable. Other consumers and test coverage remain unknown.
+- **C, impact:** the known dependency leads to boundary inspection and a coverage ledger. Feedback record operations depends on API contracts and access controls. This is a verified layer edge; specific callers, other consumers, and execution coverage remain unverified.
 - **D, author handoff:** missing author input leads to clearly labeled illustrative author input, then independent inspection and a source-linked reviewer question. D2 selects the Reset handler. D3 shows an unsent local draft awaiting reviewer action; no question or review has been sent.
 
 ## Do's and Don'ts
@@ -96,3 +96,7 @@ Rows and large regions use straight boundaries. Buttons, notes, and fields share
 - Don’t reconstruct hidden source, utility contracts, tests, author statements, other consumers, risk scores, or repository coverage.
 - Don’t treat an attached excerpt, selected row, viewed file, or author explanation as proof of correct behavior.
 - Don’t import content from the separate 52-file, seven-layer Formbricks example, which remained rate limited when rechecked, or imply that these static screens perform backend writes.
+
+## Rationale panels
+
+Each approach has a 640px-wide native editable rationale at an 80px gap after its final state. The main rationale sits beside the main reviewing screen on page 01. Panels use 32px padding, 24px section gaps, Geist 28/34 for titles, 17/24 semibold for criteria, and 15/23 for body text. Their height fits content. The five panels answer problem diagnosis, polish, scanability, and reasoning, then state tradeoffs and evidence boundaries. These are design hypotheses without measured usability claims.

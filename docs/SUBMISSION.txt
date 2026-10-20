@@ -18,6 +18,6 @@ https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
 
 The primary study uses the assigned Formbricks #8650 review at commit 23cdac2. All seven layer names/counts and nine first-layer paths are verified. Seven complete added files and fourteen summary ranges support the demonstrated path. Other diffs and uncaptured content are labeled. The review snapshot is out of date; one reproduced historical thread is resolved. Nothing is sent externally.
 
-The earlier screenshot-based study is archived. Four optional product approaches keep that earlier screenshot case and are not part of the primary submission.
+The earlier screenshot study is archived. Four optional product approaches now use the same Formbricks file and pinned code. All five approaches have adjacent design rationales in Paper; the main workspace remains the primary submission.
 
 Paper is set to anyone with the link, but currently prompts signed-out reviewers to sign in. The prototype and rationale are public without login.

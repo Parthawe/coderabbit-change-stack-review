@@ -1,0 +1,150 @@
+(
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased' }}>
+      <div style={{ alignItems: 'center', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '64px', justifyContent: 'space-between', paddingBlock: '16px', paddingInline: '24px', width: '1160px' }}>
+        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
+          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/6FMVGR1TS2QQPCF7JSV11ZM5C4.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '19px', width: '124px' }} />
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+            formbricks / formbricks #8650 · 23cdac2 · out of date
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          Review tools · Submit review
+        </div>
+      </div>
+      <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '24px', height: '48px', paddingBlock: '12px', paddingInline: '24px', width: '1160px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+          Feedback records MCP integration
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+          Layer 1 / 7 · API contracts and access controls
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+          access.ts
+        </div>
+      </div>
+      <div style={{ alignItems: 'center', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '24px', height: '88px', justifyContent: 'space-between', paddingBlock: '20px', paddingInline: '24px', width: '1160px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '23px', fontWeight: 600, lineHeight: '30px' }}>
+          Review by intended behavior
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+            1. Frame the expectation
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+            2. Inspect evidence
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+            3. Record a decision
+          </div>
+        </div>
+      </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '24px', height: '700px', padding: '24px', width: '1160px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '14px', height: '652px', width: '500px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '8px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '25px' }}>
+              Behavior to review
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              Review an explicit outcome, with layers and code supplying evidence.
+            </div>
+          </div>
+          <div style={{ backgroundColor: '#FFEAD5', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', padding: '18px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '23px' }}>
+              Keep record access within permitted tenants
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              Proposed expectation
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+              Needs author confirmation
+            </div>
+          </div>
+          <div style={{ backgroundColor: '#FDFDFE', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', padding: '18px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '23px' }}>
+              Reject records outside the allowed tenant set
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              Proposed expectation
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+              Needs inspection
+            </div>
+          </div>
+          <div style={{ backgroundColor: '#FDFDFE', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', padding: '18px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '23px' }}>
+              Resolve workspace and dataset access
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              Captured summary · access.ts 49–130
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+              Source included · inspect next
+            </div>
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', height: '652px', width: '588px' }}>
+          <div style={{ backgroundColor: '#FAF8FB', borderRadius: '5px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', padding: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              Proposed expectation
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              A feedback-record request should only return a record in its permitted tenant set. This is a proposed review expectation; author confirmation is still needed.
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '8px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '25px' }}>
+              What would support it?
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              Inspect tenant resolution and record ownership together. A visible guard alone does not establish every route or an execution result.
+            </div>
+          </div>
+          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '190px' }}>
+              Source
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              Captured summaries and pinned access.ts
+            </div>
+          </div>
+          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '190px' }}>
+              Related layer
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              API contracts and access controls
+            </div>
+          </div>
+          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '190px' }}>
+              Candidate evidence
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              Tenant resolution 49–130 · ownership 156–186
+            </div>
+          </div>
+          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '16px', paddingBlock: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '190px' }}>
+              Test evidence
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              No execution evidence captured
+            </div>
+          </div>
+          <div style={{ alignItems: 'center', backgroundColor: '#FF570A', borderColor: '#FF570A', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '10px', justifyContent: 'center', paddingBlock: '9px', paddingInline: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+              Use as a review question
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ backgroundColor: '#F1EFF3', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '7px', height: '100px', paddingBlock: '18px', paddingInline: '24px', width: '1160px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          Select the first expectation. Its source, uncertainty, and evidence links appear before you inspect code.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+          A1 → A2 · Next: inspect tenant-membership evidence · Static walkthrough, no external actions
+        </div>
+      </div>
+    </div>
+  )

@@ -1,61 +1,131 @@
-# Alternatives for the review experience
+# Five approaches to the same Formbricks review
 
-The goal is to help a developer understand a change, inspect evidence, and decide what still needs attention. The alternatives below change the unit of review and the role of CodeRabbit. They are product hypotheses, not implemented features or findings about the supplied PR.
+[Editable Paper comparison](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0/1VE-0) · [Public comparison](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html)
 
-The existing prototype organizes review around layers, files, and linked summaries. The four visual explorations rearrange that material. A different product approach needs to change how someone reaches a decision.
+All five approaches use Formbricks #8650 at commit 23cdac2 and the file apps/web/app/api/v3/feedbackRecords/lib/access.ts. The common review question is whether feedback-record access stays within the permitted tenant. Four inspection states reproduce the same exact pinned lines 178–183. The main prototype includes the complete 194-line added file; select Enforce record ownership to inspect the same code.
 
-## 1. Review by intended behavior
+The main workspace is the primary submission and has a working browser prototype. A–D are three-state editable Paper walkthroughs. Their pictured product controls remain illustrative; the browser viewer's stage, filter, image-dialog, and reasoning-disclosure controls work.
 
-Start with a concise statement of what should work after the change. Organize the review around behavioral expectations, each linked to the relevant layers, code, and any available tests. The reviewer records evidence or an open question against each expectation.
+The primary rationale is beside the main screen on page 01. On page 02, each row has start, inspect, and decide states, followed by its rationale at the right. The overview includes the main workspace and all twelve exploration states. Original screenshot work remains in archive pages.
 
-For the supplied excerpt, the visible cache and reset code could support a proposed question: “What should happen to selected users when the page or selection scope changes?” The intended answer must come from the author or verified requirements. Code alone does not establish that intent.
+The review snapshot is out of date. No PR requests or tests were executed. Scenario expectations are proposed, sample author input is synthetic, and operation call-site coverage remains outside this fixture. A verified layer dependency does not establish a complete call graph or a current defect.
 
-Flow: confirm intended behavior → inspect the relevant code → check available evidence → record unresolved expectations → submit a review.
+## M · Main workspace
 
-This approach makes completion about understood behavior. It needs reliable intent and must leave unsupported expectations open. An expectation with a viewed excerpt is not automatically verified.
+Review unit: Layers, files, and linked explanations. Primary assignment submission · working browser prototype.
 
-Small demonstration: one editable expectation, links to the cache and reset excerpts, and three evidence states: needs inspection, evidence recorded, open question. Test whether reviewers can explain the behavior and identify uncertainty without treating AI wording as a requirement.
+**Problems addressed**
 
-## 2. Review through counterexamples
+I prioritized competing toolbars, separated layer/file navigation, unclear summary scope, and three progress signals. These affect where a reviewer looks, what a control acts on, and what completion means.
 
-Start with situations that could challenge the implementation. CodeRabbit proposes questions, and the reviewer follows each question into the relevant code or test evidence. The reviewer can dismiss an irrelevant scenario with a reason or keep a question open.
+**Visual and interaction decisions**
 
-An illustrative scenario for this excerpt is selecting users on one page, moving to another page, then resetting the selection. This is a proposed review scenario, not a reproduced bug, original comment, or executed test.
+I gave navigation, code, and context distinct regions. One file toolbar groups frequent actions. Linked highlights, J/K, Z with scroll preservation, reversible progress, filtered comments, and focus-restoring dialogs make the path predictable.
 
-Flow: choose a scenario → state the expected result → inspect the implementation → attach available evidence → keep or resolve the question.
+**Scanability**
 
-This approach helps someone investigate whether the change holds up under a specific sequence of actions. The main risk is plausible AI scenarios sounding like discovered defects. Every proposed scenario needs a clear status and source; unsupported answers stay unknown.
+The selected layer, filename, path, and explanation remain visible together. File and layer counts are explicit. The original already links summaries to code; matching selection makes that connection easier to follow.
 
-Small demonstration: one scenario with its steps, a source-linked inspection path, and an explicit “not executed” status. Test whether reviewers can distinguish a suggestion, a supported finding, and a test result.
+**Reasoning**
 
-## 3. Review from impact outward
+The layout follows the task: locate the change, inspect evidence, understand its explanation, then record a judgment. Seen, viewed, and submitted remain distinct states.
 
-Start by asking what depends on the changed behavior. Navigate from a changed layer through verified consumers, contracts, or affected surfaces. Inspect the highest-consequence unknown first, then expand into the implementation.
+**Tradeoff and evidence boundary**
 
-The supplied material establishes one layer dependency. It does not establish a complete consumer graph, production impact, or numerical risk score. A demonstration can show that known edge and disclose the missing coverage.
+Closest fit to the brief. Seven added-file diffs support the browser path; several secondary workflows remain previews. No measured speed gain or complete capability parity is claimed.
 
-Flow: inspect known relationships → choose an impact question → follow it to code and available tests → review connected layers → record coverage gaps.
+## A · Behavior-first
 
-This approach gives reviewers a reason for their review order. It requires dependable dependency data and can mislead if a sparse graph appears complete. Unknown relationships must remain visible as a limitation.
+Review unit: A proposed intended outcome. Optional product exploration · three editable static states.
 
-Small demonstration: the verified two-layer relationship, an impact question, and the linked excerpt. Test whether reviewers understand what the map does and does not cover and can explain why they inspected one layer first.
+**Problems addressed**
 
-## 4. Review as an author-to-reviewer handoff
+I explored how a reviewer decides what the change should accomplish. Layers identify where code lives, but an explicit outcome gives the reviewer a question to evaluate. The tenant-isolation expectation is proposed and needs confirmation.
 
-Start with the author's explanation of why the change exists, what tradeoffs they made, and where they want scrutiny. CodeRabbit structures that explanation and links it to the patch. The reviewer builds a list of questions and decisions while reading.
+**Visual and interaction decisions**
 
-This approach depends on author input. The supplied excerpt does not contain an author handoff, so a prototype must ask for it or show it as missing. It must not generate a handoff and attribute it to the author.
+The expectation stays beside its source links. Selecting tenant membership reveals the same pinned guard. Attaching a note records evidence while leaving the expectation open; missing call sites and execution remain visible.
 
-Flow: author records intent and concerns → CodeRabbit links those statements to code → reviewer inspects and asks questions → author addresses them → reviewer decides.
+**Scanability**
 
-This could help with ambiguous or architectural changes where the patch cannot explain the tradeoffs by itself. It adds work for the author and can anchor the reviewer too strongly to the author's framing. Reviewers need a separate inspection pass and a way to challenge the handoff.
+Tenant resolution and record ownership are grouped around one outcome. The reviewer can distinguish the visible guard from missing caller coverage. The expectation and evidence ledger are additions to the existing review model.
 
-Small demonstration: an empty handoff with prompts for intent, tradeoffs, and requested scrutiny; the reviewer adds a local question linked to the excerpt. External communication stays outside the demonstration.
+**Reasoning**
 
-## Optional future experiment
+Connecting an outcome to supporting code could make the reason for each inspection clearer. Evidence recorded should never silently become behavior verified.
 
-For a future product experiment, consider approach 1, review by intended behavior. The assignment submission remains the layer-based reviewing screen. Behavior-first could give the review a completion criterion while retaining layers and code as evidence. It also fits a focused demonstration without needing a complete impact graph or an author collaboration backend.
+**Tradeoff and evidence boundary**
 
-Use one author-confirmed expectation and the same supplied excerpt. Compare it with the existing baseline by asking reviewers to describe the intended behavior, locate supporting code, and name what remains unverified. Record confusion and unsupported conclusions before making claims about improvement.
+Broader than the main-screen brief. Needs reliable intent and developer testing; plausible AI wording must not become an assumed requirement.
 
-Approach 2 is the stronger alternative if the assignment should emphasize investigation and critical thinking. Approach 3 needs more verified repository context. Approach 4 needs an author handoff to demonstrate its main value.
+## B · Counterexamples
+
+Review unit: A proposed cross-tenant scenario. Optional product exploration · three editable static states.
+
+**Problems addressed**
+
+I explored how a reviewer challenges a change after reading its summary. The proposed sequence uses a permitted context with a record from another tenant, then inspects the ownership guard. It is not a discovered bug or an executed test.
+
+**Visual and interaction decisions**
+
+Scenario steps sit beside the relevant code. Selection distinguishes the allowed tenant set from the denial branch. The result separates supported observation, verified defect, dismissal, and an inconclusive investigation.
+
+**Scanability**
+
+The same access.ts guard answers a concrete question. Lines 179–182 show tenant-set selection and the forbidden branch. Caller coverage and runtime results remain explicit unknowns.
+
+**Reasoning**
+
+A specific scenario gives the reviewer a reason to inspect those lines. Separate suggestion, observation, and execution states help prevent unsupported findings.
+
+**Tradeoff and evidence boundary**
+
+Useful investigative direction, but scenario quality can create noise. No requests were executed and no vulnerability or pass/fail result is claimed.
+
+## C · Impact-first
+
+Review unit: A verified layer dependency. Optional product exploration · three editable static states.
+
+**Problems addressed**
+
+I explored how a reviewer chooses an inspection order across connected layers. The captured source says Feedback record operations depends on API contracts and access controls. That relationship gives a concrete starting point.
+
+**Visual and interaction decisions**
+
+The dependency, selected guard, and coverage gap stay together. The path ends with an explicit ledger of inspected source, missing operation callers, unknown consumers, and uncaptured execution evidence.
+
+**Scanability**
+
+The same guard is read in relation to layer 2. A reviewed guard and verified layer edge are kept separate from an unverified call graph. The map does not imply complete repository coverage.
+
+**Reasoning**
+
+Code can satisfy a local condition while callers fail to enforce it. Naming the boundary helps reviewers explain why they inspected it and what evidence they still need.
+
+**Tradeoff and evidence boundary**
+
+Fits existing impact capabilities, but this demonstration has one verified layer relationship. It adds no numerical risk score and does not establish every caller.
+
+## D · Author handoff
+
+Review unit: An explicitly sourced author account. Optional product exploration · three editable static states.
+
+**Problems addressed**
+
+I explored context the patch may not explain: intent, tradeoffs, and requested scrutiny. No author handoff was captured. The walkthrough starts empty and labels its later sample as synthetic demonstration input.
+
+**Visual and interaction decisions**
+
+Three prompts organize the handoff. Suggested links to tenant resolution and ownership sit beside the claims. The reviewer can inspect the same guard and prepare a source-linked question with an unsent status.
+
+**Scanability**
+
+Intent and proposed code links appear together, making each claim easier to inspect. Author input adds information beyond the original review screen, so the benefit depends on useful and accurate input.
+
+**Reasoning**
+
+The author can explain constraints behind the implementation. Independent inspection and questions remain available so their framing can be challenged.
+
+**Tradeoff and evidence boundary**
+
+Largest departure from the brief. Adds author effort and a collaboration workflow; sample input is not attributed to the PR author and no message is sent.

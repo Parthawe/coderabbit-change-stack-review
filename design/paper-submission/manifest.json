@@ -5,17 +5,18 @@
     "00-start",
     "01-evidence",
     "02-main",
+    "02b-rationale",
     "03-flow",
     "04-focus",
     "05-review",
     "06-unavailable"
   ],
-  "canvas": "First row: 00, 01, 02. Second row: 03, 04, 05, 06.",
+  "canvas": "Main rationale is beside board 02. On the comparison page each A\u2013D row has three states followed by its rationale.",
   "editability": "Redesigned screen, states, and rationale are native Paper nodes; original source screenshot is raster reference material.",
   "source_format": "Raw Paper JSX references are not runnable React components.",
   "pages": [
     "01 \u00b7 Main submission",
-    "Explorations \u00b7 Screenshot reference",
+    "02 \u00b7 Formbricks approach comparison",
     "Archive \u00b7 Screenshot-based study",
     "Archive \u00b7 Visual explorations"
   ],

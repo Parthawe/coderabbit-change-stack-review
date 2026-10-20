@@ -2,7 +2,7 @@
 
 Reviewed October 19, 2026 against the full three-page challenge, the exact assigned [review run](https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b), and the resulting Paper and browser artifacts.
 
-The primary submission remains one main layer-based reviewing screen. The newly accessible Formbricks evidence replaces the earlier screenshot fallback in the primary Paper page, prototype, comparison, and rationale. The four product approaches remain optional explorations using their original screenshot case.
+The primary submission remains one main layer-based reviewing screen. The newly accessible Formbricks evidence replaces the earlier screenshot fallback in the primary Paper page, prototype, comparison, and rationale. The four product approaches remain optional explorations and now use the same Formbricks PR, file, and pinned code as the main workspace. Each of the five approaches has a rationale beside it in Paper.
 
 | Challenge | Result | Boundary |
 | --- | --- | --- |
@@ -44,3 +44,5 @@ The challenge asks to inspect a 52-file, seven-layer reference. It does not ask 
 Brand matching was not graded in the challenge; it was added at the user's request. The design uses the intact official orange logo, CR Orange `#FF570A`, light mauve neutrals, Geist, and Hack from the [official brand reference](https://www.coderabbit.ai/brand). Small links use dark orange `#582D1D`; diff red/green remains semantic. No claim of full brand certification or usability validation is made.
 
 The optional Behavior-first, Counterexamples, Impact-first, and Author handoff concepts introduce new workflows. They stay outside the recommended primary submission. The main screen, Paper process, and rationale are what reviewers should assess first.
+
+The four exploration inspection states now reproduce exact access.ts lines 178–183. This removes the previous cross-PR comparison problem. The main screen includes the same function through its ownership summary; its default visible position remains at the workspace summary. No controlled usability comparison was conducted.

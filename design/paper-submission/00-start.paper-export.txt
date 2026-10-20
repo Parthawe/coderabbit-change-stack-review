@@ -83,7 +83,7 @@
           Review the designs, then try the same flow
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          Read 01–02 across the first row, then 03–06 across the second. In the prototype: select a summary, toggle Z, mark the file viewed, use K/J to navigate, and simulate a review.
+          Read 01–02 and the adjacent design rationale across the first row, then 03–06 across the second. In the prototype: select a summary, toggle Z, mark viewed, navigate with J/K, and simulate a review.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/
@@ -100,7 +100,7 @@
           Uses the exact Formbricks #8650 review run at commit 23cdac2. Seven layer names/counts and the first layer’s nine-file inventory are verified. Seven added files use complete pinned GitHub source. Other diffs and uncaptured summaries remain explicitly outside this focused prototype.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          The earlier screenshot-based main study is preserved in its Archive page. The four product explorations also retain their original screenshot reference.
+          The earlier screenshot-based main study is preserved in its Archive page. All four optional product explorations now use the same Formbricks PR and access.ts; each has a rationale beside its walkthrough.
         </div>
       </div>
     </div>

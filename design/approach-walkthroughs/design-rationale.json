@@ -1,0 +1,52 @@
+{
+  "M": {
+    "title": "Main workspace",
+    "unit": "Layers, files, and linked explanations",
+    "fit": "Primary assignment submission \u00b7 working browser prototype",
+    "problems": "I prioritized competing toolbars, separated layer/file navigation, unclear summary scope, and three progress signals. These affect where a reviewer looks, what a control acts on, and what completion means.",
+    "polish": "I gave navigation, code, and context distinct regions. One file toolbar groups frequent actions. Linked highlights, J/K, Z with scroll preservation, reversible progress, filtered comments, and focus-restoring dialogs make the path predictable.",
+    "scan": "The selected layer, filename, path, and explanation remain visible together. File and layer counts are explicit. The original already links summaries to code; matching selection makes that connection easier to follow.",
+    "why": "The layout follows the task: locate the change, inspect evidence, understand its explanation, then record a judgment. Seen, viewed, and submitted remain distinct states.",
+    "tradeoff": "Closest fit to the brief. Seven added-file diffs support the browser path; several secondary workflows remain previews. No measured speed gain or complete capability parity is claimed."
+  },
+  "A": {
+    "title": "Behavior-first",
+    "unit": "A proposed intended outcome",
+    "fit": "Optional product exploration \u00b7 three editable static states",
+    "problems": "I explored how a reviewer decides what the change should accomplish. Layers identify where code lives, but an explicit outcome gives the reviewer a question to evaluate. The tenant-isolation expectation is proposed and needs confirmation.",
+    "polish": "The expectation stays beside its source links. Selecting tenant membership reveals the same pinned guard. Attaching a note records evidence while leaving the expectation open; missing call sites and execution remain visible.",
+    "scan": "Tenant resolution and record ownership are grouped around one outcome. The reviewer can distinguish the visible guard from missing caller coverage. The expectation and evidence ledger are additions to the existing review model.",
+    "why": "Connecting an outcome to supporting code could make the reason for each inspection clearer. Evidence recorded should never silently become behavior verified.",
+    "tradeoff": "Broader than the main-screen brief. Needs reliable intent and developer testing; plausible AI wording must not become an assumed requirement."
+  },
+  "B": {
+    "title": "Counterexamples",
+    "unit": "A proposed cross-tenant scenario",
+    "fit": "Optional product exploration \u00b7 three editable static states",
+    "problems": "I explored how a reviewer challenges a change after reading its summary. The proposed sequence uses a permitted context with a record from another tenant, then inspects the ownership guard. It is not a discovered bug or an executed test.",
+    "polish": "Scenario steps sit beside the relevant code. Selection distinguishes the allowed tenant set from the denial branch. The result separates supported observation, verified defect, dismissal, and an inconclusive investigation.",
+    "scan": "The same access.ts guard answers a concrete question. Lines 179\u2013182 show tenant-set selection and the forbidden branch. Caller coverage and runtime results remain explicit unknowns.",
+    "why": "A specific scenario gives the reviewer a reason to inspect those lines. Separate suggestion, observation, and execution states help prevent unsupported findings.",
+    "tradeoff": "Useful investigative direction, but scenario quality can create noise. No requests were executed and no vulnerability or pass/fail result is claimed."
+  },
+  "C": {
+    "title": "Impact-first",
+    "unit": "A verified layer dependency",
+    "fit": "Optional product exploration \u00b7 three editable static states",
+    "problems": "I explored how a reviewer chooses an inspection order across connected layers. The captured source says Feedback record operations depends on API contracts and access controls. That relationship gives a concrete starting point.",
+    "polish": "The dependency, selected guard, and coverage gap stay together. The path ends with an explicit ledger of inspected source, missing operation callers, unknown consumers, and uncaptured execution evidence.",
+    "scan": "The same guard is read in relation to layer 2. A reviewed guard and verified layer edge are kept separate from an unverified call graph. The map does not imply complete repository coverage.",
+    "why": "Code can satisfy a local condition while callers fail to enforce it. Naming the boundary helps reviewers explain why they inspected it and what evidence they still need.",
+    "tradeoff": "Fits existing impact capabilities, but this demonstration has one verified layer relationship. It adds no numerical risk score and does not establish every caller."
+  },
+  "D": {
+    "title": "Author handoff",
+    "unit": "An explicitly sourced author account",
+    "fit": "Optional product exploration \u00b7 three editable static states",
+    "problems": "I explored context the patch may not explain: intent, tradeoffs, and requested scrutiny. No author handoff was captured. The walkthrough starts empty and labels its later sample as synthetic demonstration input.",
+    "polish": "Three prompts organize the handoff. Suggested links to tenant resolution and ownership sit beside the claims. The reviewer can inspect the same guard and prepare a source-linked question with an unsent status.",
+    "scan": "Intent and proposed code links appear together, making each claim easier to inspect. Author input adds information beyond the original review screen, so the benefit depends on useful and accurate input.",
+    "why": "The author can explain constraints behind the implementation. Independent inspection and questions remain available so their framing can be challenged.",
+    "tradeoff": "Largest departure from the brief. Adds author effort and a collaboration workflow; sample input is not attributed to the PR author and no message is sent."
+  }
+}

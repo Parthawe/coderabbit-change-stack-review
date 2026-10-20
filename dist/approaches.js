@@ -4,7 +4,7 @@ const $=selector=>document.querySelector(selector);
 const labels=['Start','Inspect','Decide'];
 let filter='all',stage=0,viewerKey=null,focusBack=null;
 const cards=new Map();
-function imagePath(key,index){return 'approach-assets/'+key.toLowerCase()+(index+1)+'.png?v=brand-20261019'}
+function imagePath(key,index){return 'approach-assets/'+key.toLowerCase()+(index+1)+'.png?v=formbricks-approaches-20261019'}
 function bindImage(img,loading,error,button){
  const loaded=()=>{loading.hidden=true;error.hidden=true;if(button)button.disabled=false};
  const failed=()=>{loading.hidden=true;error.hidden=false;if(button)button.disabled=true};
@@ -13,7 +13,7 @@ function bindImage(img,loading,error,button){
 }
 for(const c of concepts){
  const article=document.createElement('article');article.className='concept';article.dataset.key=c.key;
- article.innerHTML=`<div class="concept-heading"><h2>${c.key} · ${c.name}</h2><button class="journey-button">Follow this approach</button></div><p class="unit">Review unit: ${c.unit.toLowerCase()}</p><p class="description">${c.description}</p><div class="step-name"><h3></h3><span></span></div><div class="preview"><button class="screen"><img src="${imagePath(c.key,0)}" width="1160" height="1000" alt="${c.name} walkthrough"></button><div class="image-loading" aria-hidden="true">Loading screen…</div><div class="image-error" hidden><p>This screen could not load.</p><button>Retry screen</button></div></div><p class="caption"></p><p class="outcome">Result: ${c.result}</p><div class="screen-footer"><span>Paper walkthrough · illustrative screen</span><button class="enlarge">Enlarge screen</button></div>`;
+ article.innerHTML=`<div class="concept-heading"><h2>${c.key} · ${c.name}</h2><button class="journey-button">Follow this approach</button></div><p class="unit">Review unit: ${c.unit.toLowerCase()}</p><p class="description">${c.description}</p><div class="step-name"><h3></h3><span></span></div><div class="preview"><button class="screen"><img src="${imagePath(c.key,0)}" width="1160" height="1000" alt="${c.name} walkthrough"></button><div class="image-loading" aria-hidden="true">Loading screen…</div><div class="image-error" hidden><p>This screen could not load.</p><button>Retry screen</button></div></div><p class="caption"></p><p class="outcome">Result: ${c.result}</p><details class="design-rationale"><summary>Design rationale · four judging criteria</summary>${c.rationaleHtml}</details><div class="screen-footer"><span>Paper walkthrough · illustrative screen</span><button class="enlarge">Enlarge screen</button></div>`;
  const img=article.querySelector('img'),imageButton=article.querySelector('.screen');
  const binding=bindImage(img,article.querySelector('.image-loading'),article.querySelector('.image-error'),imageButton);
  article.querySelector('.image-error button').addEventListener('click',()=>binding.retry());

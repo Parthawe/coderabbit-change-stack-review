@@ -1,8 +1,8 @@
 {
-  "paper": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0",
+  "paper": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0/1VE-0",
   "status": "Static editable walkthroughs; depicted controls are not connected prototypes. No external actions.",
-  "source": "Supplied coderabbitai/mono #22041 screenshot excerpt. Same PR in every state.",
-  "order": "Read each A\u2013D journey left to right, states 1\u20133.",
+  "source": "Assigned Formbricks #8650 review at commit 23cdac2. All approaches use access.ts; four inspection states reproduce the same exact lines 178\u2013183.",
+  "order": "Main workspace on page 01 with rationale beside it. On page 02, read each A\u2013D row left to right: three states, then its rationale.",
   "screens": [
     {
       "key": "A1",
@@ -14,7 +14,7 @@
         "Record a decision"
       ],
       "caption": "Select the first expectation. Its source, uncertainty, and evidence links appear before you inspect code.",
-      "action": "Next: inspect cache evidence"
+      "action": "Next: inspect tenant-membership evidence"
     },
     {
       "key": "A2",
@@ -25,7 +25,7 @@
         "Inspect evidence",
         "Record a decision"
       ],
-      "caption": "Choose the cache link. Review the source, then attach a note that says what it supports and what is still unknown.",
+      "caption": "Choose tenant membership. Inspect the pinned guard and attach what it supports, while keeping route coverage and execution unknown.",
       "action": "Next: record evidence and open question"
     },
     {
@@ -49,8 +49,8 @@
         "Trace the sequence",
         "Keep the result honest"
       ],
-      "caption": "Choose the reset step in a proposed sequence. Start from a possible failure condition rather than a file list.",
-      "action": "Next: inspect what reset actually does"
+      "caption": "Choose the ownership-check step in the proposed cross-tenant scenario. No exploit, defect, or execution result is claimed.",
+      "action": "Next: inspect the tenant-membership guard"
     },
     {
       "key": "B2",
@@ -61,7 +61,7 @@
         "Trace the sequence",
         "Keep the result honest"
       ],
-      "caption": "Inspect the reset handler. Capture a supported observation and keep the missing trigger path explicit.",
+      "caption": "Inspect the same tenant-membership guard. Record the supported branch and keep missing caller coverage explicit.",
       "action": "Next: classify the scenario result"
     },
     {
@@ -85,8 +85,8 @@
         "Inspect the boundary",
         "Record coverage gaps"
       ],
-      "caption": "Start at the dependency boundary. Choose what to inspect because its relationship is known and its evidence is incomplete.",
-      "action": "Next: inspect the caller and missing dependency"
+      "caption": "Start with the verified layer dependency. Inspect the same ownership guard, then identify the missing operation call sites.",
+      "action": "Next: inspect the guard and caller-coverage gap"
     },
     {
       "key": "C2",
@@ -97,7 +97,7 @@
         "Inspect the boundary",
         "Record coverage gaps"
       ],
-      "caption": "Inspect the integration code and try opening the utility. Unavailable source remains a gap in the review path.",
+      "caption": "Inspect the guard and its verified layer relationship. Operation call sites remain an explicit coverage gap.",
       "action": "Next: record what this impact path covers"
     },
     {
@@ -148,5 +148,16 @@
       "caption": "The reviewer challenges the author\u2019s account using the code. The source-linked question stays in an unsent local draft.",
       "action": "Outcome: an explicit handoff with a source-linked question"
     }
-  ]
+  ],
+  "source_url": "https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b",
+  "common_question": "Does feedback-record access stay within the permitted tenant?",
+  "source_file": "apps/web/app/api/v3/feedbackRecords/lib/access.ts",
+  "snapshot_status": "Out of date",
+  "rationale_boards": {
+    "M": "2RV-0",
+    "A": "2SL-0",
+    "B": "2TB-0",
+    "C": "2U1-0",
+    "D": "2UR-0"
+  }
 }

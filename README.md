@@ -27,7 +27,7 @@ The exact assigned link initially loaded without sign-in. Later layer loads and 
 
 Seven added files use complete source retrieved from the exact pinned GitHub commit. The other two layer-1 files are modified files whose patches were not captured. Their diffs, the other six layers' detailed content, and uncaptured summaries are labeled coverage limits. A stale snapshot and resolved finding do not establish a current defect.
 
-The earlier screenshot study and four product approaches use `coderabbitai/mono #22041`. They remain in clearly labeled Paper archive/exploration pages and the [optional gallery](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html). They are not evidence about Formbricks and do not replace the primary submission.
+The main workspace and all four product approaches now use the same Formbricks PR and access.ts. Each has a rationale answering the judging criteria. The four inspection views show identical lines 178–183; proposed scenarios and synthetic author input remain labeled. The [comparison gallery](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html) mirrors Paper. Earlier mono screenshot work remains archived.
 
 ## Run locally
 

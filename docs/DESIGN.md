@@ -89,7 +89,7 @@ components:
 
 This is the implemented visual system for Parth Pawar’s independent CodeRabbit take-home. It gives reviewers a layer list, complete added-file diffs, and connected summaries in one desktop workspace. Compact typography, flat panels, and restrained state colors keep the code readable.
 
-The working HTML/CSS/JavaScript in `dist/` governs browser behavior. `brand.css`, loaded after `styles.css`, supplies the applied brand overrides. The primary Paper screen and its three supporting states use the same direction. The main layer-review screen and one-page rationale remain the submission; the four approach walkthroughs are optional product explorations. Paper is ordered Main submission, screenshot-reference explorations, screenshot-study archive, then visual archive. The primary page includes the reading guide, source diagnosis, main screen, flow specification, and supporting states.
+The working HTML/CSS/JavaScript in `dist/` governs browser behavior. `brand.css`, loaded after `styles.css`, supplies the applied brand overrides. The primary Paper screen and its three supporting states use the same direction. The main layer-review screen and one-page rationale remain the submission; the four approach walkthroughs are optional product explorations. Paper is ordered Main submission, Formbricks approach comparison, screenshot-study archive, then visual archive. The primary page includes the reading guide, source diagnosis, main screen, flow specification, and supporting states.
 
 Brand authority is the [official CodeRabbit brand page](https://www.coderabbit.ai/brand). Orange and light Carrot UI mauve values were extracted from the official site stylesheet. The original black/orange typemark SVG is used intact, with its proportions preserved. This records the applied choices and their provenance; it is not a certification of complete brand compliance.
 
@@ -148,6 +148,6 @@ Buttons use the control radius. Summaries, textareas, comment containers, decisi
 - Do keep selection, review progress, keyboard focus, and diff meaning visually distinct.
 - Do retain line numbers, signs, labels, and state attributes alongside color.
 - Do preserve the source boundary: Formbricks #8650 at the exact assigned run, seven layers, nine layer-1 paths, seven complete added files, fourteen condensed summary ranges, and one paraphrased resolved thread.
-- Do keep earlier mono screenshot explorations separate from the current Formbricks study. Access to the assigned run was intermittent; pinned source remains available in the fixture.
+- Do compare the main workspace and four optional approaches with the same pinned Formbricks file. Keep the older mono screenshot study archived. Access to the assigned run was intermittent; pinned source remains in the fixture.
 - Don’t reconstruct hidden lines, other files, original comment authors or text, or backend analysis.
 - Don’t imply that viewed state covers the whole PR or that simulated reviews reach CodeRabbit or GitHub. Drafts and viewed state live in tab memory and reset on reload.
