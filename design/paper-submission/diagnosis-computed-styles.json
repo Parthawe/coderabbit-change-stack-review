@@ -1,0 +1,80 @@
+{
+  "styles": {
+    "20M-0": {
+      "display": "flex",
+      "overflow": "clip",
+      "width": "1440px",
+      "height": "fit-content",
+      "left": "1160px",
+      "top": "0px",
+      "flexDirection": "column",
+      "padding": "40px",
+      "gap": "24px",
+      "position": "absolute",
+      "backgroundColor": "#FDFDFE"
+    },
+    "20S-0": {
+      "display": "flex",
+      "alignItems": "start",
+      "width": "1360px",
+      "height": "710px",
+      "flexShrink": "0",
+      "flexDirection": "column",
+      "position": "relative"
+    },
+    "20T-0": {
+      "display": "flex",
+      "flexDirection": "column",
+      "width": "1120px",
+      "flexShrink": "0",
+      "gap": "8px",
+      "position": "absolute",
+      "left": "120px",
+      "top": "40px"
+    },
+    "20U-0": {
+      "width": "1120px",
+      "height": "630px",
+      "flexShrink": "0",
+      "backgroundImage": "url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/0C1C72BG4F6A4Z8WRPSQ4FEPGH.png)",
+      "backgroundSize": "contain",
+      "backgroundPosition": "50%",
+      "backgroundRepeat": "no-repeat"
+    },
+    "20Y-0": {
+      "display": "flex",
+      "width": "1360px",
+      "flexShrink": "0",
+      "gap": "24px",
+      "alignItems": "start"
+    },
+    "2X1-0": {
+      "position": "absolute",
+      "left": "346px",
+      "top": "120px",
+      "display": "inline-block",
+      "overflow": "visible"
+    },
+    "2X7-0": {
+      "position": "absolute",
+      "left": "74px",
+      "top": "225px",
+      "display": "inline-block",
+      "overflow": "visible"
+    },
+    "2XD-0": {
+      "position": "absolute",
+      "left": "948px",
+      "top": "123px",
+      "display": "inline-block",
+      "overflow": "visible"
+    },
+    "2XJ-0": {
+      "position": "absolute",
+      "left": "907px",
+      "top": "0px",
+      "display": "inline-block",
+      "overflow": "visible"
+    }
+  }
+}

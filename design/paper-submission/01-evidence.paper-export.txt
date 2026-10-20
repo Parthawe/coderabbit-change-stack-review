@@ -1,70 +1,104 @@
 (
-    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '40px' }}>
-          The assigned PR, at the pinned review run.
+          Four friction points in the original review
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '25px' }}>
-          The exact link loaded without sign-in. It exposes 52 files across seven layers; the selected snapshot is out of date. Access later became rate limited, so the captured run and pinned source are retained.
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          The numbered callouts connect each diagnosis to the captured screen. The redesign addresses these same four problems.
         </div>
       </div>
-      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '976px' }}>
-          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/0C1C72BG4F6A4Z8WRPSQ4FEPGH.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '549px', width: '976px' }} />
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px', whiteSpace: 'pre-wrap' }}>
-            Original live review · formbricks/formbricks #8650 · 23cdac2 · captured October 19, 2026<br />This image is reference material. Redesigned UI, reasoning, and state frames are native editable Paper nodes.
+      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '710px', position: 'relative', width: '1360px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', left: '120px', position: 'absolute', top: '40px', width: '1120px' }}>
+          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/0C1C72BG4F6A4Z8WRPSQ4FEPGH.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '630px', width: '1120px' }} />
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+            Captured original · Formbricks #8650 · 23cdac2 (out of date) · October 19, 2026
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '24px', width: '360px' }}>
-          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-              01 · Toolbar competition
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-              Layer controls, per-file semantic controls, and context controls crowd the code. Consolidate frequent file actions and group secondary tools behind clear labels.
-            </div>
+        <svg width="596" height="152" viewBox="0 0 596 152" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '346px', top: '120px', display: 'inline-block', overflow: 'visible' }}>
+          <rect x="2" y="2" width="592" height="72" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <path d="M154 120 V84 M148 84 L154 76 L160 84" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="154" cy="134" r="14" fill="#FF570A" />
+          <text x="154" y="139.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
+            1
+          </text>
+        </svg>
+        <svg width="268" height="62" viewBox="0 0 268 62" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '74px', top: '225px', display: 'inline-block', overflow: 'visible' }}>
+          <rect x="56" y="4" width="210" height="54" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <path d="M28 31 H46 M46 25 L54 31 L46 37" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="14" cy="31" r="14" fill="#FF570A" />
+          <text x="14" y="36.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
+            2
+          </text>
+        </svg>
+        <svg width="344" height="32" viewBox="0 0 344 32" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '948px', top: '123px', display: 'inline-block', overflow: 'visible' }}>
+          <rect x="1" y="3" width="278" height="26" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <path d="M314 16 H289 M289 10 L281 16 L289 22" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="328" cy="16" r="14" fill="#FF570A" />
+          <text x="328" y="21.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
+            3
+          </text>
+        </svg>
+        <svg width="328" height="192" viewBox="0 0 328 192" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '907px', top: '0px', display: 'inline-block', overflow: 'visible' }}>
+          <rect x="210" y="46" width="114" height="28" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <path d="M267 28 V36 M261 36 L267 44 L273 36" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="267" cy="14" r="14" fill="#FF570A" />
+          <text x="267" y="19.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
+            4
+          </text>
+          <rect x="1" y="167" width="22" height="22" rx="3" fill="none" stroke="#FF570A" strokeWidth="2" strokeDasharray="4 3" />
+          <rect x="46" y="158" width="92" height="22" rx="3" fill="none" stroke="#FF570A" strokeWidth="2" strokeDasharray="4 3" />
+        </svg>
+      </div>
+      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '24px', width: '1360px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
+            01 · Competing controls
           </div>
-          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-              02 · Separated navigation
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-              Seven layers and a nine-file first layer require a stable location. Keep the selected layer, filename, and file-list entry together; disclose the rest on demand.
-            </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            Layer and file controls occupy several rows. Group frequent file actions; keep secondary tools labeled.
           </div>
-          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-              03 · Summary scope and linking
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-              The layer has 37 summaries; access.ts has six. Make file versus layer scope explicit while preserving complexity filters and linked code selection.
-            </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
+            02 · Location is split
           </div>
-          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-              04 · Three progress signals
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-              Summary seen, file viewed, and the review decision are separate states. Label each action and count independently; selecting content alone does not complete the review.
-            </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            The selected layer sits apart from the file path and position. Keep layer, file, and path together.
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
+            03 · Summary scope
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            37 summaries belong to the layer; six belong to access.ts. Make both scopes explicit and preserve the code link.
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
+            04 · Separate progress
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            Summary seen, file viewed, and Submit review mean different things. Separate their actions and counts.
           </div>
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
-            What the evidence supports
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+            Source
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            Seven named layers and counts; nine file paths in layer 1; 37 layer summaries; 15 resolved comment messages. Seven added files are available as complete source at the pinned commit. One resolved access-control thread is captured.
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            Exact assigned review: seven layers, 52 files, and nine paths in layer 1. The original capture is retained as evidence.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
-            What stays unknown
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+            Limit
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            The full set of 52 diffs and all summary/thread bodies are not reproduced. Some source loads are rate limited. A stale snapshot and a resolved historical finding do not establish a current defect. No review is sent.
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            These are design diagnoses, not measured usability results. The snapshot is out of date; current defects are not inferred.
           </div>
         </div>
       </div>
