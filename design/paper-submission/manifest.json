@@ -9,6 +9,7 @@
     "03-flow",
     "04-focus",
     "05-review",
+    "05b-confirmation",
     "06-unavailable"
   ],
   "canvas": "Main rationale is beside board 02. On the comparison page each A–D row has three states followed by its rationale.",
@@ -30,5 +31,6 @@
     "rationale": "https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf"
   },
   "explorations": "Archived outside the deployed submission.",
-  "submission_scope": "One final reviewing screen, supporting states, and one-page rationale. Product explorations are archived."
+  "submission_scope": "One final reviewing screen, supporting states, and one-page rationale. Product explorations are archived.",
+  "interaction_feedback": "Linked-range labels, a one-time destination emphasis, reversible viewed feedback, and a persistent simulated review confirmation. Motion respects reduced-motion preferences."
 }

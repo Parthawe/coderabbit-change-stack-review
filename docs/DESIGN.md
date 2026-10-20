@@ -12,6 +12,8 @@ colors:
   selected: "#ffead5"
   selection-border: "#e57340"
   input-border: "#bdb9c2"
+  viewed-border: "#8db39e"
+  viewed-surface: "#e9f4ed"
   green: "#175c3c"
   red: "#8e3540"
   context: "#faf8fb"
@@ -155,3 +157,11 @@ Buttons use the control radius. Summaries, textareas, comment containers, decisi
 ## Submission reading path
 
 The published handoff presents one final reviewing screen, Paper, and the one-page rationale. Product explorations are archived outside dist and linked only from source records. The editorial rationale retains its 32px reading title and 18px section headings, separate from the compact product UI type ramp.
+
+## Interaction feedback
+
+The existing diff metadata row stays above the scrolling code. Its chain icon and linked line range match the selected summary’s “Linked to code” label. Selecting a summary scrolls to the start of its range and brightens that first line once for 600ms after arrival. A new selection cancels pending arrival feedback. The remaining linked rows retain their stable selection fill. No chart or dependency diagram is inferred from incomplete source data.
+
+Mark viewed updates the toolbar check, navigation indicator, and 52-file count together. Its toast offers Undo for eight seconds and pauses dismissal while hovered or keyboard focused. Undo restores that file’s prior state even after navigation, without changing the current file. Summary seen stays independent.
+
+Simulate submission changes the open decision dialog into a persistent confirmation. The dialog identifies the selected decision and states that nothing was sent. Return to review restores focus to Submit review. Dialogs fade in over 160ms, toast feedback over 140ms, and the viewed fill changes over 140ms. Reduced motion removes all fades, destination emphasis, and smooth scrolling while preserving labels and state changes.

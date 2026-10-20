@@ -55,3 +55,17 @@ Rebuilt the rationale as one visually checked page with observation-to-decision 
 ## Annotated diagnosis board
 
 Board 01 now ties the four existing diagnoses to the exact captured original through editable SVG outlines, numbered markers, and short arrows. The original screenshot remains unchanged. Notes sit beneath the image. Progress controls use secondary dashed outlines to connect the three distinct states. The larger original and all annotations were visually checked for alignment, contrast, text coverage, and artboard fit; board height is 1136px with sufficient separation from the next row. No new usability or defect claim was added.
+
+## Interaction feedback pass · October 20, 2026
+
+Designed the linked-range label, viewed check/Undo toast, and persistent simulated confirmation in Paper before implementing them. Main, flow, focus, and confirmation exports were refreshed from native nodes; exact styles are saved in feedback-computed-styles.json. The focus state was checked for spacing, type, contrast, alignment, and fit; no clipping was observed.
+
+In the local Chromium preview, selecting the second summary selected exactly 31 rows (156–186) and landed line 156 eight pixels below the diff viewport edge. Rapidly selecting the second then first summary settled at line 49 with the matching range label. Focus mode retained the 1144px scroll position. The metadata row stays visible while code scrolls.
+
+Mark viewed and its inverse both support keyboard Undo. Undo after switching files restored the original file’s count without changing the selected file. Undo from an outside-fixture layer restored the count and focused that layer’s control. This focus fallback was fixed after the initial check. Opening a file still does not mark it viewed.
+
+Approval and request-for-changes simulations produced persistent confirmations. Return and Escape restored focus to Submit review. No review API or external mutation was added. The dialog contains the keyboard focus and displays the explicit no-send statement.
+
+At 1440×960, 1280×800, and 1100×800, no document horizontal overflow or new control overlap was observed. At 1100px, the context overlay starts at the header’s 109px lower edge. Emulating reduced motion produced no row animation and an immediate landing at the selected range; the emulation was then removed. Browser warning/error logs were empty.
+
+One mechanical design-detector pass flagged a temporary three-pixel arrival stripe; it was removed, leaving only a short background emphasis. Other advisories concern existing palette/type values; the viewed border and surface now have documented tokens. JavaScript syntax and whitespace checks pass. These are implementation checks, not usability measurements.

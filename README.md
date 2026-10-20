@@ -13,7 +13,7 @@ Keep the current change in view. The final screen retains layer-based review, gr
 
 ## Try it
 
-Select a summary to reveal its code. Toggle Mark viewed, move between layers with J/K, use Z to focus, then open Submit review. Decisions are simulated; nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
+Select a summary to reveal its linked code range. Toggle Mark viewed and try Undo after switching files. Move between layers with J/K, use Z to focus, then open Submit review. The confirmation stays open until dismissed; decisions are simulated and nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
 
 ## Scope
 

@@ -9,3 +9,26 @@
 @media(max-width:1279px){.context-panel{display:none;position:fixed;top:72px;bottom:36px;right:0;z-index:15;width:360px;box-shadow:-8px 0 24px #19232f1a}.context-panel.is-open{display:block}.context-heading>span{display:none}.close-context,#context-toggle{display:block}.close-context{font-size:12px;padding:4px 8px}.global-actions>span{font-size:12px}.navigation{width:240px}.summary-toggle{font-size:10px}.global-header{gap:16px}.pr-identity{max-width:430px}}
 @media(max-height:800px){.navigation{padding-top:16px;padding-bottom:16px}.nav-bottom{padding-top:16px}.keyboard-hints{padding-top:16px}.nav-label{padding-top:12px}.layer-heading{padding-top:18px;padding-bottom:16px}.summary-toggle{bottom:15px}.context-panel{padding-top:18px}.summary-item{margin-bottom:8px;padding-top:12px;padding-bottom:12px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+/* Feedback states exported from Paper: linked range, reversible viewed action, review confirmation. */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.diff-status{position:static;min-width:0;flex-shrink:0;justify-content:space-between;height:34px;white-space:nowrap}
+.linked-range,.summary-linked{display:inline-flex;align-items:center;gap:6px;color:#582d1d;font:12px/18px var(--sans)}
+.linked-range svg,.summary-linked svg,#viewed svg{width:14px;height:14px}
+#viewed{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-width:94px;transition:background-color 140ms ease,border-color 140ms ease}
+.range-arrival{animation:range-arrival 600ms ease-out}
+@keyframes range-arrival{from{background:#ffead5}to{background:#fff7ed}}
+.toast{display:flex;align-items:center;justify-content:space-between;gap:24px;min-width:360px;animation:feedback-fade 140ms ease-out}
+.toast button{padding:0;border:0;background:transparent;color:white;text-decoration:underline;text-underline-offset:3px;font-size:13px}
+.toast button:hover{color:#ffdcc3}.toast button:focus-visible{outline-color:white}
+dialog[open]{animation:feedback-fade 160ms ease-out}dialog[open]::backdrop{animation:feedback-fade 160ms ease-out}
+@keyframes feedback-fade{from{opacity:0}to{opacity:1}}
+.is-confirmed .dialog-heading>button{display:none}
+.is-confirmed #dialog-title{display:flex;align-items:center;gap:12px;line-height:30px}
+.confirmation-check{display:flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:50%;background:#ffead5;color:#582d1d}
+.confirmation-check svg{width:18px;height:18px}
+.confirmation-body{display:flex;flex-direction:column;gap:8px;animation:feedback-fade 160ms ease-out}
+.confirmation-body p{margin:0;font-size:14px;line-height:22px}.confirmation-body p:first-child{color:#211f24}
+.is-confirmed .dialog-actions{margin-top:24px}.is-confirmed .dialog-actions button{padding:10px 16px;border-radius:4px}
+@media(max-width:1279px){.context-panel{top:109px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}

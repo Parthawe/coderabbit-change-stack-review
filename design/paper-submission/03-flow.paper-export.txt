@@ -15,7 +15,7 @@
         <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
           <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px' }}>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-              access.ts · selected summary 49–130
+              Linked · access.ts · L49–130
             </div>
             <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', padding: '16px' }}>
               <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
@@ -23,7 +23,7 @@
               </div>
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-              Choose “Resolve workspace tenant.” The diff reveals 49–130 and highlights the range. Summary seen is a separate action with its own local count.
+              Selecting the summary reveals its range. The first linked line briefly brightens on arrival; reduced motion keeps the change instant.
             </div>
           </div>
           <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E57340', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', paddingBlock: '16px', paddingInline: '12px', width: '279px' }}>
@@ -59,14 +59,25 @@
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
             1 / 52 files viewed
           </div>
-          <div style={{ borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '6px', paddingInline: '10px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          <div style={{ alignItems: 'center', backgroundColor: '#E9F4ED', borderColor: '#8DB39E', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '6px', paddingInline: '10px' }}>
+            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
+              <path d="m3 8 3 3 7-7" fill="none" stroke="#175C3C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
               Viewed
             </div>
           </div>
         </div>
+        <div style={{ alignItems: 'center', alignSelf: 'end', backgroundColor: '#211F24', borderRadius: '5px', boxSizing: 'border-box', display: 'flex', gap: '24px', justifyContent: 'space-between', paddingBlock: '12px', paddingInline: '18px', width: '360px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#FDFDFE', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+            access.ts marked viewed
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#FDFDFE', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+            Undo
+          </div>
+        </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Mark viewed updates the file indicator and PR count. It is reversible and survives layer navigation. It does not mark a summary seen or submit a review.
+          The check, file indicator, and PR count update together. Undo restores that file’s previous state, even after navigating away. Summary seen and the review decision stay separate.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingTop: '20px' }}>

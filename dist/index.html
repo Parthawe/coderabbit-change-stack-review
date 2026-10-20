@@ -5,8 +5,8 @@
   <title>CodeRabbit Change Stack · Review redesign</title>
   <meta name="description" content="An independent CodeRabbit review workspace prototype by Parth Pawar. Explore layer navigation, connected summaries, focus mode, and review progress.">
   <meta name="robots" content="noindex,nofollow">
-  <link rel="stylesheet" href="styles.css?v=focused-20261020">
-<link rel="stylesheet" href="brand.css?v=focused-20261020"><link rel="stylesheet" href="live.css?v=focused-20261020"></head>
+  <link rel="stylesheet" href="styles.css?v=feedback-20261020">
+<link rel="stylesheet" href="brand.css?v=feedback-20261020"><link rel="stylesheet" href="live.css?v=feedback-20261020"></head>
 <body>
   <a class="skip-link" href="#diff">Skip to code</a>
   <section class="submission-bar" aria-label="Design assignment submission">
@@ -28,14 +28,16 @@
     <main class="code-workspace" id="main">
       <section class="layer-heading" aria-labelledby="layer-title"><div class="heading-row"><h2 id="layer-title">API contracts and access controls</h2><span id="layer-position">Layer 1 of 7</span></div><button class="summary-toggle" id="summary-toggle" aria-expanded="true">Hide summary <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 10 4-4 4 4"/></svg></button><div id="layer-description"><p>Schemas, serializers, entitlement checks, tenant ownership, and controlled problem responses.</p><p class="dependency" id="layer-meta">9 files · 37 layer summaries · snapshot 23cdac2</p></div></section>
       <section class="file-toolbar" aria-label="File controls"><div class="file-identity"><div class="file-path" title="apps/web/app/api/v3/feedbackRecords/lib/access.ts">apps / web / app / api / v3 / feedbackRecords / lib</div><div class="filename"><strong>access.ts</strong><span class="add-count">+194</span><span class="del-count">−0</span><button class="text-link" id="file-position" data-action="files" title="Open file list">1 / 9</button></div></div><div class="file-actions"><div class="segmented" aria-label="Diff layout"><button id="unified" aria-pressed="true">Unified</button><button id="split" aria-pressed="false">Split</button></div><button id="focus" aria-pressed="false">Focus <kbd>Z</kbd></button><button id="viewed" aria-pressed="false">Mark viewed</button><button id="file-tools">Tools</button><button id="context-toggle" aria-expanded="false">Context</button></div></section>
+      <div id="diff-status" class="hunk diff-status" hidden></div>
       <div class="diff-scroll" id="diff" tabindex="0" aria-label="Code changes"><div class="loading" role="status">Loading pinned review fixture…</div></div>
       <section class="unavailable" id="unavailable" hidden><h3>This layer’s detailed content is outside the fixture</h3><p>Its name and file count were verified in the assigned review. This focused prototype includes seven added-file diffs in layer 1; other layers are not reconstructed.</p><div class="recovery"><button class="primary" id="return-file">Return to available file</button><button data-preview="Source snapshot & coverage">Coverage notes</button></div><p class="retry-result" id="coverage-result" role="status"></p></section>
     </main>
     <aside class="context-panel" id="context" aria-label="Change context"><div class="context-heading"><h2>Change context</h2><span>This file</span><button class="close-context" id="close-context" aria-label="Close context">Close</button></div><div class="tabs" role="tablist" aria-label="File context"><button role="tab" id="summaries-tab" aria-selected="true" aria-controls="summaries-panel">Summaries <span>2</span></button><button role="tab" id="comments-tab" aria-selected="false" aria-controls="comments-panel" tabindex="-1">Comments <span>3</span></button></div><section id="summaries-panel" role="tabpanel" aria-labelledby="summaries-tab"><p class="context-hint">2 of 6 file summaries · 37 in this layer</p><p id="summary-progress" class="summary-progress">0 / 37 summaries seen · local</p><div id="complexity-controls" class="complexity-controls" role="group" aria-label="Summary complexity"><button data-complexity="All" aria-pressed="true">All</button><button data-complexity="High" aria-pressed="false">High</button><button data-complexity="Medium" aria-pressed="false">Medium</button><button data-complexity="Low" aria-pressed="false" title="Uncaptured low-complexity summary preview">Low</button></div><div id="summary-list"></div><p class="context-footnote">Summaries condensed from the exact run. Uncaptured low-complexity summaries remain a labeled preview.</p><button class="text-link" data-preview="Source & prototype notes">View source &amp; prototype notes</button></section><section id="comments-panel" role="tabpanel" aria-labelledby="comments-tab" hidden></section></aside>
   </div>
   <footer class="prototype-footer"><span>Independent prototype · exact Formbricks run · 7 of 52 file diffs · local review state</span><button id="notes">Source notes &amp; states</button></footer>
+  <div class="sr-only" id="interaction-status" role="status" aria-live="polite"></div>
   <div class="toast" role="status" id="toast" hidden></div>
   <dialog id="dialog" aria-labelledby="dialog-title"><form method="dialog" id="dialog-form"><div class="dialog-heading"><h2 id="dialog-title"></h2><button class="quiet" value="cancel" aria-label="Close dialog">Close</button></div><div id="dialog-content"></div></form></dialog>
-  <script src="app.js?v=focused-20261020" defer></script>
+  <script src="app.js?v=feedback-20261020" defer></script>
 </body>
 </html>
