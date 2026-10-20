@@ -1,0 +1,31 @@
+{
+  "title": "What I'd test next",
+  "intro": "I chose this direction because a reviewer can still read the PR file by file and check each explanation against the diff. The other approaches changed the reading order. I'd test that before making it the default.",
+  "boundary": "Design experiments using the same Formbricks snapshot. These interactions are sketched in Paper; they are not implemented in the prototype.",
+  "experiments": [
+    {
+      "id": "statement",
+      "title": "Check one statement against its code",
+      "hypothesis": "An 82-line highlight is still broad. I'd link the trimming statement to line 75, while keeping the whole function one click away.",
+      "tradeoff": "A precise anchor can make one line look sufficient when the behavior depends on the flow around it.",
+      "test": "Ask a developer to find the code supporting the trimming statement and explain what is normalized. Watch wrong destinations and extra searching.",
+      "boundary": "Manually verified statement-to-code anchors. No automatic mapping or correctness verdict."
+    },
+    {
+      "id": "paired",
+      "title": "Keep the caller while opening the guard",
+      "hypothesis": "access.ts calls an access gate in feedback-access.ts. I'd let a reviewer inspect that definition without losing the caller.",
+      "tradeoff": "Two code panes reduce line width and introduce another place to navigate. Keep this view optional.",
+      "test": "Ask where the workspace gate is enforced and what access.ts checks afterward. Compare paired inspection with ordinary file switching.",
+      "boundary": "One verified call and definition. No inferred dependency graph or project-wide impact analysis."
+    },
+    {
+      "id": "question",
+      "title": "Return to a question left open",
+      "hypothesis": "Viewed is too coarse to remember an unanswered question. I'd try a private queue that returns to the file and line without changing viewed state.",
+      "tradeoff": "Another review state adds bookkeeping. It earns a place only if it reduces the work of resuming.",
+      "test": "Interrupt a review after someone parks a question. Check whether they return to the intended code and distinguish their question from a source finding.",
+      "boundary": "Hypothetical personal question flow. No shared tasks, notifications, author messages, or generated findings."
+    }
+  ]
+}

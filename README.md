@@ -5,15 +5,17 @@ Design exercise by Parth Pawar for the assigned Formbricks PR #8650.
 - [Paper design](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0)
 - [Working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
+- [Next experiments](https://parthawe.github.io/coderabbit-change-stack-review/next.html)
+- [Ten review perspectives](docs/ten-perspective-review.md)
 - [Original and redesign](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html)
 
 ## Design argument
 
-The original has a lot competing with the code. I kept the layers, brought the frequent file controls together, and made the link between a summary and its code clearer. The header shows viewed files and how many remain. Summary seen stays inside context, separate from file progress and the review decision. Paper shows the original screen, what I changed, and why.
+I wanted to keep the file, explanation, and review progress connected. I kept file-by-file review so each explanation can be checked against the diff, then brought the frequent controls together. The header separates PR progress from the seven included demo files. Summary seen stays inside context, separate from file progress and the review decision. Paper shows the original screen, what I changed, and why.
 
 ## Try it
 
-Select a summary to reveal its linked code range. Use Previous and Next beside the filename, or open the position to search all nine paths. Each file keeps its reading position. Toggle Mark viewed and try Undo after switching files. Move between layers with J/K, use Z to focus, then open Submit review. The confirmation stays open until dismissed; decisions are simulated and nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
+Select a summary to reveal its linked code range. Use Previous and Next beside the filename, or open the position to search all nine paths. Each file keeps its code and context position. Comments has a separate index for local file/line notes. Toggle Mark viewed and try Undo after switching files. Move between layers with J/K, use Z to focus, then open Submit review. The confirmation stays open until dismissed; decisions are simulated and nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
 
 ## Scope
 

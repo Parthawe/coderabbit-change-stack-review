@@ -1,3 +1,12 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -6,7 +15,7 @@
           Change Stack<br />review workspace
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
-          Product Designer Take-Home · Parth Pawar<br />I kept the layers and worked on making the code easier to follow.
+          Product Designer Take-Home · Parth Pawar<br />I kept the file, explanation, and review progress connected.
         </div>
       </div>
       <div style={{ backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '20px' }}>
@@ -14,7 +23,7 @@
           Start with the original screen
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          01 marks the four problems. 01b compares the same content, then 02 shows the final screen. In the prototype, try Previous/Next, a summary, Z, Mark viewed, and Submit review.
+          01 marks the four problems. 01b compares the same content, then 02 shows the final screen. Try Previous/Next, a summary, Z, and Mark viewed in the prototype. 07 covers recovery; 08 shows what I’d test next.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/

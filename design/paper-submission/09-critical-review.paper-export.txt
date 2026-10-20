@@ -1,0 +1,144 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
+(
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
+      <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingBottom: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+          09 · Critical review · 20 October 2026
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '28px', fontWeight: 600, lineHeight: '34px' }}>
+          What the ten passes changed
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          Ten independent AI reviews looked at the same saved version. Their findings were checked against the files and working prototype. This is critique, not developer usability research.
+        </div>
+      </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+            01 · Assignment fit
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+            Can the comparison support the design argument?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            All seven imports now wrap. Source and matched redesign keep the same summary and progress.
+          </div>
+        </div>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+            02 · Developer workflow
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+            Can someone leave and return to evidence?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            Notes have a file/line index. Code and context positions return with the file.
+          </div>
+        </div>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+            03 · First use
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+            Is the current scope obvious?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            PR and demo counts are separate. Search says which paths it covers; the checkbox actually toggles viewed.
+          </div>
+        </div>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+            04 · Visual craft
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+            Do states keep their meaning?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            Selection keeps green addition text. Tabs have an underline. Focus removes the tall synopsis.
+          </div>
+        </div>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+            05 · Keyboard access
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+            Can the reviewer get through the screen?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            One line-comment tab stop, arrow navigation, F6 context switch, and Escape from the overlay.
+          </div>
+        </div>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+            06 · Recovery
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+            What happens after a failure or wrong action?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            Retry has a busy state; viewed Undo survives unrelated notices. Returning from a gap restores the last file.
+          </div>
+        </div>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+            07 · State integrity
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+            Can two controls contradict each other?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            Outline selection clears the old editor. Ranges mode keeps an active note. Reset removes stale Undo.
+          </div>
+        </div>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+            08 · Evidence
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+            Are counts, code, and claims supported?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            Missing captured findings restored in Paper. Stale audit rows corrected; omitted workflows named.
+          </div>
+        </div>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+            09 · Feasibility
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+            Does the implementation support the design?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            Split now scrolls continuously. Layout changes preserve the visible code line; no framework needed.
+          </div>
+        </div>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+            10 · Design judgment
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+            Why M, and where would I take it?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            Keep file-by-file verification. Separately test statement anchors, paired inspection, and parked questions.
+          </div>
+        </div>
+      </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+          Still worth challenging
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          The 82-line summary range is broad. A right panel costs code width. Notes add another review state. Seven diffs cannot show behavior across a full 52-file review. These are reasons to test the next sketches with developers, not claims the redesign has already solved them.
+        </div>
+      </div>
+    </div>
+  )

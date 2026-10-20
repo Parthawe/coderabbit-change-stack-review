@@ -1,3 +1,12 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
 (
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased' }}>
       <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '72px', justifyContent: 'space-between', paddingInline: '24px', width: '1280px' }}>
@@ -116,7 +125,7 @@
                 MCP feedback-record tools
               </div>
               <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
-                3 files
+                3 files · 1 finding
               </div>
             </div>
           </div>
@@ -142,7 +151,7 @@
                 OAuth metadata and documentation
               </div>
               <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
-                10 files
+                10 files · 2 findings
               </div>
             </div>
           </div>
@@ -275,7 +284,7 @@
                 </div>
               </div>
             </div>
-            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
               <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 1
@@ -283,11 +292,11 @@
               <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', paddingLeft: '8px', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', height: 'fit-content', lineHeight: '24px', maxWidth: '600px', overflowWrap: 'anywhere', paddingLeft: '8px', width: '600px' }}>
                 import "server-only";
               </div>
             </div>
-            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
               <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 2
@@ -295,11 +304,11 @@
               <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', paddingLeft: '8px', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', height: 'fit-content', lineHeight: '24px', maxWidth: '600px', overflowWrap: 'anywhere', paddingLeft: '8px', width: '600px' }}>
                 import type { logger } from "@formbricks/logger";
               </div>
             </div>
-            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
               <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 3
@@ -307,11 +316,11 @@
               <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', paddingLeft: '8px', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', height: 'fit-content', lineHeight: '24px', maxWidth: '600px', overflowWrap: 'anywhere', paddingLeft: '8px', width: '600px' }}>
                 import { requireUnifyFeedbackWorkspaceAccess } from "@/app/api/v3/lib/feedback-access";
               </div>
             </div>
-            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
               <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 4
@@ -319,11 +328,11 @@
               <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', paddingLeft: '8px', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', height: 'fit-content', lineHeight: '24px', maxWidth: '600px', overflowWrap: 'anywhere', paddingLeft: '8px', width: '600px' }}>
                 import { problemBadRequest, problemForbidden, problemUnprocessableContent } from "@/app/api/v3/lib/response";
               </div>
             </div>
-            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
               <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 5
@@ -331,11 +340,11 @@
               <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', paddingLeft: '8px', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', height: 'fit-content', lineHeight: '24px', maxWidth: '600px', overflowWrap: 'anywhere', paddingLeft: '8px', width: '600px' }}>
                 import type { TV3Authentication } from "@/app/api/v3/lib/types";
               </div>
             </div>
-            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
               <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 6
@@ -343,11 +352,11 @@
               <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', paddingLeft: '8px', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', height: 'fit-content', lineHeight: '24px', maxWidth: '600px', overflowWrap: 'anywhere', paddingLeft: '8px', width: '600px' }}>
                 import { getFeedbackDirectoriesByWorkspaceId } from "@/modules/ee/feedback-directory/lib/feedback-directory";
               </div>
             </div>
-            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '24px', width: '100%' }}>
+            <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
               <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 7
@@ -355,7 +364,7 @@
               <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', paddingLeft: '8px', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', height: 'fit-content', lineHeight: '24px', maxWidth: '600px', overflowWrap: 'anywhere', paddingLeft: '8px', width: '600px' }}>
                 import { retrieveFeedbackRecord } from "@/modules/hub/service";
               </div>
             </div>
@@ -491,7 +500,7 @@
             </div>
             <div style={{ backgroundColor: '#FAF8FB', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', paddingBlock: '16px', paddingInline: '24px' }}>
               <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                Comparison excerpt · lines 1–7, as in the captured original. The working prototype contains all 194 lines.
+                Same seven imports · Wrap long lines on. The prototype offers this in File tools.
               </div>
               <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
                 The source run is out of date. Resolved historical findings do not establish a current defect.
@@ -508,9 +517,11 @@
               This file
             </div>
           </div>
-          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBottom: '12px', paddingTop: '4px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
-              Summaries 6
+          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingTop: '4px' }}>
+            <div style={{ borderBottomColor: '#FF570A', borderBottomStyle: 'solid', borderBottomWidth: '2px', boxSizing: 'border-box', display: 'flex', paddingBottom: '10px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '18px' }}>
+                Summaries 6
+              </div>
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
               Comments 3

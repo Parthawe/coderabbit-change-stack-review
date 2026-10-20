@@ -1,4 +1,6 @@
-# Prototype verification
+# Prototype verification history
+
+This is a chronological record of earlier releases. Some behaviors below were replaced during the ten-perspective review. The current checks and remaining limitations are in [the October 20 review report](ten-perspective-review.md). In particular, Low now filters, Split uses continuous panes, hidden threads clear their range, and the current Paper page has 13 artboards.
 
 Checked October 19, 2026 in the Codex in-app Chromium browser against the running static site. This record applies to the migrated Formbricks fixture. Earlier screenshot-based results do not establish behavior of this version.
 

@@ -11,9 +11,12 @@
     "04-focus",
     "05-review",
     "05b-confirmation",
-    "06-unavailable"
+    "06-unavailable",
+    "07-recovery",
+    "08-next-experiments",
+    "09-critical-review"
   ],
-  "canvas": "Original diagnosis, matched-content checkpoint, final main screen, and rationale run left to right. Supporting interaction states sit below.",
+  "canvas": "Original, matched comparison, main screen and rationale run left to right. Supporting states, recovery, next experiments and ten review perspectives sit below.",
   "editability": "Redesigned screen, states, and rationale are native Paper nodes; original source screenshot is raster reference material.",
   "source_format": "Raw Paper JSX references are not runnable React components.",
   "pages": [
@@ -35,7 +38,7 @@
   "submission_scope": "One final reviewing screen, supporting states, and one-page rationale. Product explorations are archived.",
   "interaction_feedback": "Linked-range labels, a one-time destination emphasis, reversible viewed feedback, and a persistent simulated review confirmation. Motion respects reduced-motion preferences.",
   "reasoning_copy": "Final submission notes and one-page rationale rewritten in direct first-person language; source facts and interaction behavior retained.",
-  "review_feedback": "Independent second-agent review completed; focus retains current reading position, notes belong to file and line, and saved-note feedback updates immediately.",
+  "review_feedback": "Ten independent AI reviews inspected baseline fc06a01. Findings and dispositions are documented; this is not developer usability research.",
   "matched_comparison": {
     "nodeId": "2Z6-0",
     "url": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/2Z6-0",
@@ -52,8 +55,10 @@
       49,
       130
     ],
-    "verified_state": "File 1 of 9 unviewed; nine layer files left; two of 37 layer summaries seen. Other layers’ viewed state is not inferred."
+    "verified_state": "File 1 of 9 unviewed; nine layer files left; two of 37 layer summaries seen. Other layers’ viewed state is not inferred.",
+    "wrapping": "All seven imports wrap without clipping or shrinking type."
   },
   "file_switching": "Previous/Next, searchable position, disabled boundaries, per-file selected summary and reading position, no automatic viewed state.",
-  "file_progress": "Primary header count and remaining files with a 3px bar. Summary seen remains secondary within context."
+  "file_progress": "PR count retains 52 files. A separate seven-file demo count shows reachable progress. Seen summaries remain separate.",
+  "next_experiments": "Statement anchors, paired caller/guard inspection, and private questions are native editable Paper concepts, not prototype features."
 }

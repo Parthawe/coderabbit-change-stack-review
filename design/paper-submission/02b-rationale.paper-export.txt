@@ -1,3 +1,12 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '640px' }}>
       <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '20px' }}>
@@ -8,7 +17,7 @@
           Why I changed it
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          I kept the layers and focused on the places where the controls, counts, and code were hard to connect.
+          I wanted to keep the file, explanation, and review progress connected. I kept file-by-file review and changed how you move between those things.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -40,7 +49,7 @@
           Marking a file viewed is its own action
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          File progress leads in the header: viewed and left to check. Summary seen stays in the context panel as a reading aid. Opening a file doesn't mark it viewed; Undo corrects that choice. Submit review remains a separate decision.
+          File progress leads in the header. The demo’s seven included diffs have a separate count, so 52 PR files never implies a finishable demo. Opening a file doesn’t mark it viewed. Undo corrects that choice; summary seen and Submit review stay separate.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -48,7 +57,7 @@
           The right panel takes space
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Keeping context beside the code makes the code area narrower. Z hides both side panels, and below 1280px context opens over the code. I checked the interactions; I'd still test whether developers can find a file, connect a summary, and tell what's left to review.
+          Keeping context beside code reduces line width. Z hides both side panels and condenses the layer heading while keeping the reading position. Below 1280px, context opens over the code. I’d still test whether developers can find a file, connect a summary, and tell what’s left.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>
@@ -56,7 +65,15 @@
           Compare the same content
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '23px' }}>
-          The matched screen uses the original imports at lines 1–7 and the full workspace-tenant summary. The file is unviewed, nine files remain in the layer, and two of 37 summaries are seen in both. The main screen shows the next step: following that summary to line 49.
+          The matched screen uses all seven original imports and the full workspace-tenant summary. Wrap is on, so no tokens are clipped. The file is unviewed, nine layer files remain, and two of 37 summaries are seen in both. The main screen follows that summary to line 49.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+          Why this direction, and what comes next
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          I kept file-by-file review so developers can check each explanation against the diff. The other approaches changed the reading order. In 08, I sketched tighter statement anchors, paired-file inspection, and a private question queue. Each needs a separate test before joining this screen.
         </div>
       </div>
     </div>

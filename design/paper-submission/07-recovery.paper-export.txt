@@ -1,0 +1,95 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
+(
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+          Supporting interaction state · implemented in the prototype
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '30px', fontWeight: 600, lineHeight: '38px' }}>
+          Come back to the same evidence
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          A saved note needs a way back. Local notes stay separate from captured source comments, and changing context clears an editor that no longer belongs to the selected code.
+        </div>
+      </div>
+      <div style={{ backgroundColor: '#FAF8FB', borderColor: '#E3E0E7', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', padding: '24px', width: '640px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+            access.ts · local note at line 75
+          </div>
+          <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', gap: '12px', padding: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
+              75 +
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
+              const allowedTenantIds = directories.map((directory) => directory.id.trim());
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+            Save a local note → switch files → open Local notes → return to line 75. The note, tab, and reading position return together.
+          </div>
+        </div>
+        <div style={{ backgroundColor: '#FDFDFE', borderLeftColor: '#E3E0E7', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '20px', width: '374px' }}>
+          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
+            <div style={{ boxSizing: 'border-box', paddingBottom: '10px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+                Summaries 6
+              </div>
+            </div>
+            <div style={{ borderBottomColor: '#FF570A', borderBottomStyle: 'solid', borderBottomWidth: '2px', boxSizing: 'border-box', paddingBottom: '10px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '18px' }}>
+                Comments 3
+              </div>
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+            Local notes in this file · 1
+          </div>
+          <div style={{ borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', padding: '10px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+              Line 75 · Saved locally
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+            Example local draft: “Check the workspace access guard.” This is prototype text, not a source finding.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+            3 resolved source messages are hidden.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+            Show resolved comments
+          </div>
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+          Keyboard movement follows the work
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          Tab enters code and one line-comment action. Up/Down moves that action between lines; Enter opens the note. F6 switches between code and context. Escape closes the context overlay even while typing and keeps the draft.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          Z gives code more width and height. Leaving focus mode restores the control you came from when it is still available. Layer changes keep focus on the selected layer and announce its name.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+          A retry and a reset should be predictable
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          Loading disables review actions and announces that the pinned review is loading. A failure offers Retry; an active retry cannot be started twice. Returning from a coverage gap restores the last file, not a hardcoded first file.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          Viewed Undo survives unrelated save and summary messages. Reset clears pending Undo as well as notes and progress. A range-only view keeps the active note line visible. Full-summary disclosures stay open when marked seen.
+        </div>
+      </div>
+    </div>
+  )

@@ -1,4 +1,6 @@
-# Final usability pass · October 20, 2026
+# Earlier implementation pass · October 20, 2026
+
+This records the release before the ten-perspective review. See [current findings and checks](ten-perspective-review.md) for the subsequent fixes. Despite the earlier filename, these are implementation checks, not a developer usability study.
 
 Paper was updated before the browser implementation. The original capture is unchanged.
 

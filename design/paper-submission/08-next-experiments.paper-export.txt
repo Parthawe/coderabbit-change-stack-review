@@ -1,0 +1,143 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
+(
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '32px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+          Next experiments · not implemented
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '34px', fontWeight: 600, lineHeight: '42px' }}>
+          What I'd test next
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px', maxWidth: '1120px' }}>
+          I chose this direction because a reviewer can still read the PR file by file and check each explanation against the diff. The other approaches changed the reading order. I'd test that before making it the default.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          Design experiments using the same Formbricks snapshot. These interactions are sketched in Paper; they are not implemented in the prototype.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '28px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '14px', width: '600px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
+            01 · Check one statement against its code
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+            An 82-line highlight is still broad. I'd link the trimming statement to line 75, while keeping the whole function one click away.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+            Tradeoff · A precise anchor can make one line look sufficient when the behavior depends on the flow around it.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+            Test · Ask a developer to find the code supporting the trimming statement and explain what is normalized. Watch wrong destinations and extra searching.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+            Manually verified statement-to-code anchors. No automatic mapping or correctness verdict.
+          </div>
+        </div>
+        <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '24px', width: '720px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+            Full source summary · L49–130
+          </div>
+          <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E57340', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+              trims directory IDs to normalize Hub tenant_id matching
+            </div>
+          </div>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
+              75 + const allowedTenantIds = directories.map((directory) => directory.id.trim());
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+            Show whole function · L49–130
+          </div>
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '28px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '14px', width: '600px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
+            02 · Keep the caller while opening the guard
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+            access.ts calls an access gate in feedback-access.ts. I'd let a reviewer inspect that definition without losing the caller.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+            Tradeoff · Two code panes reduce line width and introduce another place to navigate. Keep this view optional.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+            Test · Ask where the workspace gate is enforced and what access.ts checks afterward. Compare paired inspection with ordinary file switching.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+            One verified call and definition. No inferred dependency graph or project-wide impact analysis.
+          </div>
+        </div>
+        <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '24px', width: '720px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+            Verified caller · access.ts
+          </div>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
+              57 + const authResult = await requireUnifyFeedbackWorkspaceAccess(
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+            Open definition beside caller
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+            Verified definition · feedback-access.ts
+          </div>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap' }}>
+              20 + export async function requireUnifyFeedbackWorkspaceAccess(<br />27 +{'   '}const context = await requireV3WorkspaceAccess(
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '28px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '14px', width: '600px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
+            03 · Return to a question left open
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+            Viewed is too coarse to remember an unanswered question. I'd try a private queue that returns to the file and line without changing viewed state.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+            Tradeoff · Another review state adds bookkeeping. It earns a place only if it reduces the work of resuming.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+            Test · Interrupt a review after someone parks a question. Check whether they return to the intended code and distinguish their question from a source finding.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+            Hypothetical personal question flow. No shared tasks, notifications, author messages, or generated findings.
+          </div>
+        </div>
+        <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '24px', width: '720px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+            Concept only · private question at access.ts:L75
+          </div>
+          <div style={{ borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', fontSizeAdjust: 'none', minHeight: '80px', padding: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+              What still needs to be checked?
+            </div>
+          </div>
+          <div style={{ backgroundColor: '#FF570A', borderRadius: '4px', boxSizing: 'border-box', fontSizeAdjust: 'none', paddingBlock: '10px', paddingInline: '14px', width: 'fit-content' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+              Park question
+            </div>
+          </div>
+          <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+              Private queue → return to access.ts:L75 Viewed state stays unchanged.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
