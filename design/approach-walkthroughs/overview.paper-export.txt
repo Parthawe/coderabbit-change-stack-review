@@ -2,27 +2,27 @@
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', width: '1840px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '42px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '50px' }}>
-          Five approaches, one Formbricks change
+          Final submission M + four explorations
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '27px' }}>
           Formbricks #8650 · commit 23cdac2 · access.ts · Common question: does record access stay within the permitted tenant?
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          Main workspace first, then four optional journeys. Read each row left to right: start, inspect, decide. Rationale panels answer the four judging criteria.
+          M is the final submission. A–D are optional product explorations; read each row left to right, then its rationale.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', width: '1840px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', gap: '24px', justifyContent: 'space-between' }}>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
-            M · Main reviewing workspace
+            M · Final submission
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            Primary submission · working prototype · native design and rationale on page 01
+            Final direction · working prototype · editable screen and rationale on page 01
           </div>
         </div>
         <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
           <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/5YQPR6YPK9VG5XCXB8MW983X13.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '773px', width: '1160px' }} />
-          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/3PXZW8JAP3VGYZWDV0A496PS45.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '826px', width: '640px' }} />
+          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/3VP8TKRBXP57G66YHXMKBNXW88.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '826px', width: '640px' }} />
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', width: '1840px' }}>
@@ -87,7 +87,7 @@
       </div>
       <div style={{ borderTopColor: '#DBD7DF', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '20px', width: '1840px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '27px', width: '900px' }}>
-          Primary submission: the existing layer-based review screen. These four models are optional product explorations beyond the assignment.
+          Submit M: the layer-based reviewing workspace, working prototype, and one-page rationale. A–D remain optional explorations beyond the main-screen brief.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '900px' }}>
           Static editable Paper walkthroughs. Code and layer metadata use the assigned pinned run. Scenarios and sample author input are proposed. No PR tests were executed and no review or message is sent.

@@ -1,6 +1,6 @@
-# CodeRabbit Change Stack Review
+# CodeRabbit Change Stack Review · Final submission M
 
-Independent design exercise by Parth Pawar. The primary submission redesigns one reviewing screen using the assigned Formbricks #8650 review run, commit `23cdac2`.
+Independent design exercise by Parth Pawar. **M · Main reviewing workspace is the final submission.** It redesigns one reviewing screen using the assigned Formbricks #8650 review run, commit `23cdac2`.
 
 - [Editable Paper design and process](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0)
 - [Public working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
@@ -8,6 +8,8 @@ Independent design exercise by Parth Pawar. The primary submission redesigns one
 - [Original and redesign](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html)
 - [Requirement audit](docs/REQUIREMENT-AUDIT.md)
 - [Verification and limits](docs/verification.md)
+
+A–D are optional product explorations, kept on a separate Paper page and in the [exploration appendix](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html). They do not replace M.
 
 ## Review order
 

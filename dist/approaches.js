@@ -4,7 +4,7 @@ const $=selector=>document.querySelector(selector);
 const labels=['Start','Inspect','Decide'];
 let filter='all',stage=0,viewerKey=null,focusBack=null;
 const cards=new Map();
-function imagePath(key,index){return 'approach-assets/'+key.toLowerCase()+(index+1)+'.png?v=formbricks-approaches-20261019'}
+function imagePath(key,index){return 'approach-assets/'+key.toLowerCase()+(index+1)+'.png?v=final-m-20261020'}
 function bindImage(img,loading,error,button){
  const loaded=()=>{loading.hidden=true;error.hidden=true;if(button)button.disabled=false};
  const failed=()=>{loading.hidden=true;error.hidden=false;if(button)button.disabled=true};

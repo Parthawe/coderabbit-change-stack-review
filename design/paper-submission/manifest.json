@@ -11,16 +11,24 @@
     "05-review",
     "06-unavailable"
   ],
-  "canvas": "Main rationale is beside board 02. On the comparison page each A\u2013D row has three states followed by its rationale.",
+  "canvas": "Main rationale is beside board 02. On the comparison page each A–D row has three states followed by its rationale.",
   "editability": "Redesigned screen, states, and rationale are native Paper nodes; original source screenshot is raster reference material.",
   "source_format": "Raw Paper JSX references are not runnable React components.",
   "pages": [
-    "01 \u00b7 Main submission",
-    "02 \u00b7 Formbricks approach comparison",
-    "Archive \u00b7 Screenshot-based study",
-    "Archive \u00b7 Visual explorations"
+    "01 · FINAL · M workspace",
+    "02 · Explorations · A–D",
+    "Archive · Screenshot-based study",
+    "Archive · Visual explorations"
   ],
   "limits": "Other detailed diffs, uncaptured summaries, and reply bodies are outside the fixture. The source is stale and access intermittent. Reviews are simulated. Paper currently requires sign-in.",
   "source": "https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b",
-  "coverage": "Seven layer names/counts; nine layer-1 paths; seven full added files; fourteen summary ranges; one resolved root thread paraphrased."
+  "coverage": "Seven layer names/counts; nine layer-1 paths; seven full added files; fourteen summary ranges; one resolved root thread paraphrased.",
+  "final_submission": {
+    "key": "M",
+    "title": "Main reviewing workspace",
+    "paper": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0",
+    "prototype": "https://parthawe.github.io/coderabbit-change-stack-review/",
+    "rationale": "https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf"
+  },
+  "explorations": "A–D are optional product explorations using the same pinned Formbricks PR."
 }

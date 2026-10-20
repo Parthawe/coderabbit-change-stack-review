@@ -2,10 +2,10 @@
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '640px' }}>
       <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '20px' }}>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-          DESIGN RATIONALE · Primary assignment submission · working browser prototype
+          DESIGN RATIONALE · FINAL SUBMISSION M · working browser prototype
         </div>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '28px', fontWeight: 600, lineHeight: '34px' }}>
-          Main workspace
+          M · Main workspace
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px', whiteSpace: 'pre-wrap' }}>
           Review unit: Layers, files, and linked explanations.<br />Formbricks #8650 · access.ts · 23cdac2

@@ -1,8 +1,8 @@
 {
   "paper": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0/1VE-0",
   "status": "Static editable walkthroughs; depicted controls are not connected prototypes. No external actions.",
-  "source": "Assigned Formbricks #8650 review at commit 23cdac2. All approaches use access.ts; four inspection states reproduce the same exact lines 178\u2013183.",
-  "order": "Main workspace on page 01 with rationale beside it. On page 02, read each A\u2013D row left to right: three states, then its rationale.",
+  "source": "Assigned Formbricks #8650 review at commit 23cdac2. All approaches use access.ts; four inspection states reproduce the same exact lines 178–183.",
+  "order": "Main workspace on page 01 with rationale beside it. On page 02, read each A–D row left to right: three states, then its rationale.",
   "screens": [
     {
       "key": "A1",
@@ -145,7 +145,7 @@
         "Link author intent",
         "Challenge the handoff"
       ],
-      "caption": "The reviewer challenges the author\u2019s account using the code. The source-linked question stays in an unsent local draft.",
+      "caption": "The reviewer challenges the author’s account using the code. The source-linked question stays in an unsent local draft.",
       "action": "Outcome: an explicit handoff with a source-linked question"
     }
   ],
@@ -159,5 +159,13 @@
     "B": "2TB-0",
     "C": "2U1-0",
     "D": "2UR-0"
-  }
+  },
+  "final_submission": {
+    "key": "M",
+    "title": "Main reviewing workspace",
+    "paper": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0",
+    "prototype": "https://parthawe.github.io/coderabbit-change-stack-review/",
+    "rationale": "https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf"
+  },
+  "explorations": "A–D are optional product explorations using the same pinned Formbricks PR."
 }

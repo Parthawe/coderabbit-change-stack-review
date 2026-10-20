@@ -1,23 +1,14 @@
-CodeRabbit Change Stack review redesign
+Hi CodeRabbit team,
+
+Here’s my Change Stack redesign for the assigned Formbricks PR #8650. I designed it in Paper, then built a working browser prototype.
+
+M, the main reviewing workspace, is my final submission. It keeps the layer-based model and makes the selected layer, file, explanation, and review progress easier to follow. The Paper file includes the original-screen diagnosis, design decisions, and supporting states. A–D are optional explorations of other review approaches using the same PR.
+
+Paper design and process: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
+Working prototype: https://parthawe.github.io/coderabbit-change-stack-review/
+One-page rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
+
+The prototype includes seven detailed file diffs from the pinned review snapshot; coverage limits are labeled and review submission is simulated. Paper may require sign-in. The prototype and rationale are public without login.
+
+Thanks,
 Parth Pawar
-
-I redesigned the main reviewing screen in Paper, then built a browser prototype from its exported structure and computed values.
-
-1. Editable Paper design and process
-https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
-
-Start at board 00. Board 01 shows the assigned PR and four diagnoses; board 02 is the editable main screen; board 03 explains interactions and capability destinations. Boards 04–06 show focus, review decision, and recovery states.
-
-2. Working prototype
-https://parthawe.github.io/coderabbit-change-stack-review/
-
-Try summary-to-code selection, separate summary-seen and file-viewed progress, J/K layer navigation, Z focus mode, the nine-file picker, resolved-comment filtering, and simulated review submission.
-
-One-page rationale
-https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
-
-The primary study uses the assigned Formbricks #8650 review at commit 23cdac2. All seven layer names/counts and nine first-layer paths are verified. Seven complete added files and fourteen summary ranges support the demonstrated path. Other diffs and uncaptured content are labeled. The review snapshot is out of date; one reproduced historical thread is resolved. Nothing is sent externally.
-
-The earlier screenshot study is archived. Four optional product approaches now use the same Formbricks file and pinned code. All five approaches have adjacent design rationales in Paper; the main workspace remains the primary submission.
-
-Paper is set to anyone with the link, but currently prompts signed-out reviewers to sign in. The prototype and rationale are public without login.

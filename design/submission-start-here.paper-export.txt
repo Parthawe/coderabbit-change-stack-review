@@ -3,16 +3,16 @@
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px' }}>
         <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/5DC9VRSYDYWFW1BTMZJH0PD2R0.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '23px', width: '154px' }} />
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '36px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '42px', whiteSpace: 'pre-wrap' }}>
-          Change Stack<br />review redesign.
+          Final submission<br />M · Main workspace
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
-          Product Designer Take-Home · Parth Pawar<br />Goal: make the main PR review screen easier to parse and interact with, while preserving its capability.
+          Product Designer Take-Home · Parth Pawar<br />Final direction: a clearer layer-based review workspace for the assigned Formbricks PR.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
         <div style={{ boxSizing: 'border-box', paddingBottom: '12px' }}>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '28px' }}>
-            Read the design in this order
+            Review the final submission in this order
           </div>
         </div>
         <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
@@ -31,10 +31,10 @@
             02
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px', width: '330px' }}>
-            Main reviewing screen
+            M · Final reviewing workspace
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '24px' }}>
-            Board 02 is the editable desktop design. Navigation, code, and context have distinct roles.
+            Board 02 is the final editable desktop screen. Its adjacent rationale explains the four diagnosed problems and the design decisions.
           </div>
         </div>
         <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
@@ -80,10 +80,10 @@
       </div>
       <div style={{ backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '20px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '26px' }}>
-          Review the designs, then try the same flow
+          Final submission · Paper design, working prototype, one-page rationale
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          Read 01–02 and the adjacent design rationale across the first row, then 03–06 across the second. In the prototype: select a summary, toggle Z, mark viewed, navigate with J/K, and simulate a review.
+          Read the diagnosis, M screen, and adjacent rationale, then try the prototype: select an explanation, use Z, mark viewed, navigate with J/K, and simulate a review. A–D on page 02 are optional explorations.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/
@@ -100,7 +100,7 @@
           Uses the exact Formbricks #8650 review run at commit 23cdac2. Seven layer names/counts and the first layer’s nine-file inventory are verified. Seven added files use complete pinned GitHub source. Other diffs and uncaptured summaries remain explicitly outside this focused prototype.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          The earlier screenshot-based main study is preserved in its Archive page. All four optional product explorations now use the same Formbricks PR and access.ts; each has a rationale beside its walkthrough.
+          Page 02 keeps A–D as optional product explorations using the same Formbricks PR and access.ts. Each has a rationale beside its three-state walkthrough. M is the final submission. Earlier studies remain archived.
         </div>
       </div>
     </div>
