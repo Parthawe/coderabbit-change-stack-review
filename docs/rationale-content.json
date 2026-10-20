@@ -1,0 +1,31 @@
+{
+  "title": "What I changed in Change Stack",
+  "intro": "The original has a lot competing with the code. I kept the layer structure and focused on making it easier to see which file you're reviewing, how a summary relates to its code, and what you've finished.",
+  "rows": [
+    [
+      "What got in the way",
+      "What I changed"
+    ],
+    [
+      "The layer, file path, and file position are spread across the screen.",
+      "I kept the selected layer, file, and path together. The full nine-file list opens when you need it, so the left rail stays short."
+    ],
+    [
+      "Several rows of file controls compete with the diff.",
+      "I put the frequent file actions in one toolbar and left Submit review in the PR header. The other tools are still available by name."
+    ],
+    [
+      "The 37-summary count belongs to the layer. access.ts has six.",
+      "I labeled both counts and kept the summary-to-code link. Matching highlights and a brief emphasis at the destination help you follow the jump."
+    ],
+    [
+      "Seen summaries, viewed files, and a submitted review mean different things.",
+      "I separated those actions and counts. Opening a file doesn't mark it viewed. Mark viewed has Undo, and submitting a review requires a separate decision."
+    ]
+  ],
+  "tradeoff_title": "The right panel takes space",
+  "tradeoff": "The right panel leaves less room for code. Z hides the side panels without losing your place. Below 1280px, context opens as an overlay.",
+  "validation_title": "What I checked",
+  "validation": "I checked summary jumps, Undo after switching files, J/K, Z, and dialog focus. I'd still test this with developers: can they find a file, follow a summary to code, and explain what's left to review? I haven't measured a speed improvement.",
+  "scope": "This uses the out-of-date Formbricks #8650 snapshot at 23cdac2. Seven of 52 diffs are included. Other content is labeled as a preview; not every source workflow is implemented. Submitting a review is simulated and sends nothing."
+}

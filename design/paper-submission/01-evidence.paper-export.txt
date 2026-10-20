@@ -2,10 +2,10 @@
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '40px' }}>
-          Four friction points in the original review
+          What got in the way
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          The numbered callouts connect each diagnosis to the captured screen. The redesign addresses these same four problems.
+          I marked four places where the controls, counts, and code are hard to connect. The notes below explain what I changed.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '710px', position: 'relative', width: '1360px' }}>
@@ -53,34 +53,34 @@
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '24px', width: '1360px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-            01 · Competing controls
+            01 · Too many control rows
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            Layer and file controls occupy several rows. Group frequent file actions; keep secondary tools labeled.
+            File controls take up several rows above the code. I put the frequent actions together and moved secondary actions into Tools.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-            02 · Location is split
+            02 · Layer and file are apart
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            The selected layer sits apart from the file path and position. Keep layer, file, and path together.
+            The layer and file path sit apart. I kept them together so you can check where you are in the PR.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-            03 · Summary scope
+            03 · The summary count is unclear
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            37 summaries belong to the layer; six belong to access.ts. Make both scopes explicit and preserve the code link.
+            The layer has 37 summaries; access.ts has six. I labeled both counts and made the selected code range easier to follow.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-            04 · Separate progress
+            04 · Three kinds of progress
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            Summary seen, file viewed, and Submit review mean different things. Separate their actions and counts.
+            Seen, viewed, and Submit review mean different things. I separated their actions and counts so it's clear what each one does.
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@
             Source
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
-            Exact assigned review: seven layers, 52 files, and nine paths in layer 1. The original capture is retained as evidence.
+            I used the assigned Formbricks PR: seven layers, 52 files, and nine paths in the first layer. This is the captured original screen.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
@@ -98,7 +98,7 @@
             Limit
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
-            These are design diagnoses, not measured usability results. The snapshot is out of date; current defects are not inferred.
+            These are the problems I chose to address. I haven't tested usability gains with developers, and the old snapshot doesn't tell us about current bugs.
           </div>
         </div>
       </div>

@@ -79,3 +79,9 @@ The public path passed summary linking (31 rows at 156–186), file Undo after n
 Found and fixed one misleading state: returning from an open comment to Summaries previously left the comment’s code range selected. After the fix, tab switches restore 156–186 for the selected summary and 75–90 for the historical thread. Hiding resolved comments restores the summary range. A local note restored its single-line range and retained its draft through both tabs. The Paper flow specification now records this behavior and was visually checked without clipping.
 
 JavaScript syntax, whitespace checks, and one scoped mechanical detector pass passed. The rationale is one page. A fresh unsigned-in Paper browser redirected to sign-in; the public prototype and rationale are the access-free review path. This check does not establish full capability parity or measured usability improvement.
+
+## Reasoning copy pass · October 20, 2026
+
+Rewrote the final Paper page’s introduction, source diagnoses, design reasoning, interaction notes, and source-error explanation in the same direct, first-person tone as the submission message. Product labels, exact source content, PR counts, and behavior were kept. Archived explorations were outside this copy pass.
+
+The five changed Paper boards were visually inspected for wrapping and fit, then exported as current native PNGs and raw JSX. The rationale PDF and HTML use the same source copy in rationale-content.json. The PDF remains one page; its rendered page was checked for readable type, table wrapping, spacing, and clipping. The HTML was inspected at 1280px and checked at 880px with no document overflow. The wording retains the code-width tradeoff, limited content coverage, simulated submission, and the need for developer usability testing.

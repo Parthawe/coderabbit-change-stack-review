@@ -11,7 +11,7 @@
           Layer diff did not load
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', maxWidth: '550px' }}>
-          This state was observed in the live session: public-repository checks became rate limited. Metadata and comments could remain available. The focused prototype keeps coverage limits separate from source failures.
+          The live review showed this error when public-repository checks were rate limited. The prototype keeps that source failure separate from files I haven't included.
         </div>
       </div>
       <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px' }}>

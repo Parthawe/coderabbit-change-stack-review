@@ -5,50 +5,50 @@
           Final reviewing screen · Formbricks #8650
         </div>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '28px', fontWeight: 600, lineHeight: '34px' }}>
-          Design decisions
+          Why I changed it
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Make the same review easier to follow while keeping its existing capabilities reachable.
+          I kept the layers and focused on the places where the controls, counts, and code were hard to connect.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Keep the current change in view
+          Keep the file and layer together
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Seven layers and nine files in the first layer make location easy to lose. Keep the selected layer, file, and path together; disclose the full file list on demand.
+          There are seven layers and nine files in the first. I kept the selected layer, file, and path together so you can check where you are. The full file list opens when you need it.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Reduce toolbar competition
+          Put the file actions in one place
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          The original spreads controls across several toolbars. Group frequent file actions in one sticky toolbar and keep Submit review in the PR header. Z gives code the available width without losing position.
+          The original spreads file controls across several rows. I brought the frequent actions into one toolbar and kept Submit review in the header. Z gives the code more room without losing your place.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Make explanation scope explicit
+          Make the summary counts clear
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          The layer has 37 summaries; access.ts has six. Label that scope. Preserve the existing summary-to-code link and use matching selection to make the active range clear.
+          37 summaries belong to the layer; six belong to access.ts. I labeled both counts and kept the summary-to-code link. The selected summary and code share a highlight so you can see what belongs together.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Keep progress and judgment separate
+          Marking a file viewed is its own action
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Summary seen, file viewed, and review submission mean different things. Give each a distinct action. Opening a file does not mark it viewed; Cancel and Escape restore focus.
+          Reading a summary, viewing a file, and submitting a review mean different things. I gave each its own action and count. Opening a file doesn't mark it viewed, and Undo lets you correct that choice.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Tradeoff and validation
+          The right panel takes space
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Persistent context costs code width, so Z hides it and narrower screens use an overlay. Test whether developers can locate a file, connect a summary, and explain progress. The prototype checks interaction behavior; usability gains and complete capability parity remain unverified.
+          Keeping context beside the code makes the code area narrower. Z hides both side panels, and below 1280px context opens over the code. I checked the interactions; I'd still test whether developers can find a file, connect a summary, and tell what's left to review.
         </div>
       </div>
     </div>

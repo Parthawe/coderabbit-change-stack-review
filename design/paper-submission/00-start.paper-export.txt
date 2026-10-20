@@ -6,15 +6,15 @@
           Change Stack<br />review workspace
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
-          Product Designer Take-Home · Parth Pawar<br />Make the current change, its explanation, and the next review action easier to follow.
+          Product Designer Take-Home · Parth Pawar<br />I kept the layers and worked on making the code easier to follow.
         </div>
       </div>
       <div style={{ backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '20px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '26px' }}>
-          Review the design, then try the prototype
+          Start with the original screen
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          Read the source diagnosis, final screen, and adjacent design decisions. Supporting states show focus, review decisions, and recovery. In the prototype, select an explanation, use Z, mark a file viewed, and open Submit review.
+          The marked-up screenshot shows the four problems I focused on. The final screen and notes sit beside it. In the prototype, try a summary, Z, Mark viewed, and Submit review.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/
@@ -28,7 +28,7 @@
           Scope
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Formbricks #8650 · pinned, out-of-date snapshot 23cdac2. Seven of 52 file diffs are included. Other content is labeled as preview. Review decisions are simulated; nothing is sent. Designed in Paper, then implemented as a browser prototype.
+          I used the old Formbricks #8650 snapshot at 23cdac2. The prototype includes seven of 52 file diffs; other content is labeled as preview. Review submission is simulated. I designed it in Paper, then built the browser prototype.
         </div>
       </div>
     </div>

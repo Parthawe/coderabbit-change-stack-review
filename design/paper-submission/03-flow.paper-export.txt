@@ -2,15 +2,15 @@
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '40px' }}>
-          How the review moves forward.
+          Try the review flow
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '25px' }}>
-          Select an explanation, inspect its code, mark the file viewed, then choose a review decision. Each action has its own feedback.
+          Choose a summary, check its code, mark the file viewed, then open Submit review. Each action gives its own feedback.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
-          Select an explanation. Reveal its evidence.
+          Follow a summary to its code
         </div>
         <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
           <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px' }}>
@@ -23,7 +23,7 @@
               </div>
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-              Selecting the summary reveals its range. The first linked line briefly brightens on arrival; reduced motion keeps the change instant.
+              Clicking a summary jumps to its range. The first line briefly brightens so you can see where you landed. With reduced motion, the jump is instant.
             </div>
           </div>
           <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E57340', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', paddingBlock: '16px', paddingInline: '12px', width: '279px' }}>
@@ -44,7 +44,7 @@
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
-          Record file progress. Keep the review decision separate.
+          Mark a file viewed when you're done
         </div>
         <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', gap: '24px', padding: '16px' }}>
           <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexGrow: '1', gap: '8px' }}>
@@ -77,13 +77,13 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          The check, file indicator, and PR count update together. Undo restores that file’s previous state, even after navigating away. Summary seen and the review decision stay separate.
+          Mark viewed updates the file check and PR count. Undo works even after you switch files. Summary seen and the review decision stay separate.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingTop: '20px' }}>
         <div style={{ boxSizing: 'border-box', paddingBottom: '12px' }}>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
-            Transitions and recovery
+            Moving around and getting back
           </div>
         </div>
         <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
@@ -91,7 +91,7 @@
             J / K · change layer
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            J moves to the next of seven layers; K moves back. Layer names/counts are verified. Diffs outside the focused fixture are clearly labeled.
+            J moves to the next layer; K moves back. All seven layer names and counts come from the assigned PR. Other layers' diffs are outside this prototype.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             State 06 · Unavailable
@@ -102,7 +102,7 @@
             Z · focus on code
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            Hide navigation and context, keep file and scroll position, then restore both. Ignore shortcuts while typing.
+            Press Z to hide the side panels and give the code more room. Press it again to return to the same file and scroll position. Shortcuts ignore typing.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             State 04 · Focus
@@ -113,7 +113,7 @@
             Comments · inspect thread
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            Resolved threads start hidden. Tabs restore the selected summary or comment range. Local drafts persist; two source replies are not reproduced.
+            Tabs bring back the summary or comment range you selected. Resolved threads start hidden. Local drafts stay in this tab; two source replies aren't shown.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             Prototype · Comments
@@ -124,7 +124,7 @@
             Submit review · decide
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            Open a decision dialog; Cancel or Escape returns focus. Completion is explicitly simulated.
+            Choose Comment, Approve, or Request changes. Cancel or Escape returns focus. The confirmation says the review was simulated and nothing was sent.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             State 05 · Decision
@@ -133,13 +133,13 @@
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '20px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
-          Where the other capabilities live
+          Other tools are still reachable
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Overview, Architecture impact, history, Settings, and Search keep labeled destinations. The source disables Security blast radius for this repository. Tools groups secondary file actions; unsupported workflows open previews.
+          The navigation still includes Overview, Architecture impact, history, Settings, and Search. Tools holds the less frequent file actions. Security blast radius stays disabled, as it is in the source. Unsupported actions open previews.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Complexity filters, summary-seen state, and comments remain reachable. Below 1280 px, context becomes an overlay. Loading, unavailable-source, and no-comments states are included.
+          You can still filter summaries, mark them seen, and open comments. Below 1280px, context opens as an overlay. Loading, retry, and no-comments states are included.
         </div>
       </div>
     </div>

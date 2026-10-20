@@ -9,7 +9,7 @@ Design exercise by Parth Pawar for the assigned Formbricks PR #8650.
 
 ## Design argument
 
-Keep the current change in view. The final screen retains layer-based review, groups file actions, makes summary scope explicit, and separates seen/viewed progress from the review decision. Paper contains the source diagnosis, final screen, design decisions, and interaction states.
+The original has a lot competing with the code. I kept the layers, brought the frequent file controls together, and made the link between a summary and its code clearer. Marking a file viewed stays separate from submitting a review. Paper shows the original screen, what I changed, and why.
 
 ## Try it
 
