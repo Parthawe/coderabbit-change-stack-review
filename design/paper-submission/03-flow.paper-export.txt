@@ -5,7 +5,7 @@
           How the review moves forward.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '25px' }}>
-          Paper specifies the interaction and its result. The browser prototype makes the demonstrated path interactive. Use the same file and summary throughout.
+          Select an explanation, inspect its code, mark the file viewed, then choose a review decision. Each action has its own feedback.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
@@ -66,7 +66,7 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Mark viewed updates the file indicator and PR-wide count. It survives layer navigation and is reversible. It does not mark a summary seen or submit a review.
+          Mark viewed updates the file indicator and PR count. It is reversible and survives layer navigation. It does not mark a summary seen or submit a review.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingTop: '20px' }}>
@@ -125,21 +125,10 @@
           Where the other capabilities live
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Overview, Architecture impact, review history, Settings, and Search remain labeled destinations. Security blast radius is disabled because the source says it is unavailable for this repository. Tools retains semantic outline, full-file context, bulk viewed, and collapse controls; unsupported workflows are labeled previews.
+          Overview, Architecture impact, history, Settings, and Search keep labeled destinations. The source disables Security blast radius for this repository. Tools groups secondary file actions; unsupported workflows open previews.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Complexity filters and summary seen remain separate from file progress. Source notes expose loading, observed rate-limit error, and no-comments demonstrations. Below 1280 px, context becomes an overlay. Mobile redesign remains outside scope.
-        </div>
-      </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '20px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
-          Design source, implementation, and checks
-        </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Paper’s native layers and computed styles provide implementation references. The static browser prototype adds state using pinned Formbricks source. Layout, keyboard, focus, progress, resolved-comment filters, and recovery are checked before publishing. Real reviewer usability and complete PR coverage remain untested.
-        </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', whiteSpace: 'pre-wrap' }}>
-          Brand reference: coderabbit.ai/brand · Geist 400/600 · Hack 400/700 · CR Orange #FF570A · mauve neutrals<br />Red/green remain diff semantics. Orange links use a darker reading color for contrast.
+          Complexity filters, summary-seen state, and comments remain reachable. Below 1280 px, context becomes an overlay. Loading, unavailable-source, and no-comments states are included.
         </div>
       </div>
     </div>

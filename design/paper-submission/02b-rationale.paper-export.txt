@@ -2,53 +2,53 @@
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '640px' }}>
       <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '20px' }}>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-          DESIGN RATIONALE · FINAL SUBMISSION M · working browser prototype
+          Final reviewing screen · Formbricks #8650
         </div>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '28px', fontWeight: 600, lineHeight: '34px' }}>
-          M · Main workspace
+          Design decisions
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px', whiteSpace: 'pre-wrap' }}>
-          Review unit: Layers, files, and linked explanations.<br />Formbricks #8650 · access.ts · 23cdac2
-        </div>
-      </div>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          1 · Did I identify the right problems?
-        </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          I prioritized competing toolbars, separated layer/file navigation, unclear summary scope, and three progress signals. These affect where a reviewer looks, what a control acts on, and what completion means.
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          Make the same review easier to follow while keeping its existing capabilities reachable.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          2 · How does the polish help?
+          Keep the current change in view
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          I gave navigation, code, and context distinct regions. One file toolbar groups frequent actions. Linked highlights, J/K, Z with scroll preservation, reversible progress, filtered comments, and focus-restoring dialogs make the path predictable.
+          Seven layers and nine files in the first layer make location easy to lose. Keep the selected layer, file, and path together; disclose the full file list on demand.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          3 · Is the same information easier to scan?
+          Reduce toolbar competition
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          The selected layer, filename, path, and explanation remain visible together. File and layer counts are explicit. The original already links summaries to code; matching selection makes that connection easier to follow.
+          The original spreads controls across several toolbars. Group frequent file actions in one sticky toolbar and keep Submit review in the PR header. Z gives code the available width without losing position.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          4 · Why this approach?
+          Make explanation scope explicit
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          The layout follows the task: locate the change, inspect evidence, understand its explanation, then record a judgment. Seen, viewed, and submitted remain distinct states.
+          The layer has 37 summaries; access.ts has six. Label that scope. Preserve the existing summary-to-code link and use matching selection to make the active range clear.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Tradeoff and evidence boundary
+          Keep progress and judgment separate
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Closest fit to the brief. Seven added-file diffs support the browser path; several secondary workflows remain previews. No measured speed gain or complete capability parity is claimed.
+          Summary seen, file viewed, and review submission mean different things. Give each a distinct action. Opening a file does not mark it viewed; Cancel and Escape restore focus.
+        </div>
+      </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+          Tradeoff and validation
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          Persistent context costs code width, so Z hides it and narrower screens use an overlay. Test whether developers can locate a file, connect a summary, and explain progress. The prototype checks interaction behavior; usability gains and complete capability parity remain unverified.
         </div>
       </div>
     </div>

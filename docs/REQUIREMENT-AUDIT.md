@@ -46,3 +46,7 @@ Brand matching was not graded in the challenge; it was added at the user's reque
 The optional Behavior-first, Counterexamples, Impact-first, and Author handoff concepts introduce new workflows. They stay outside the recommended primary submission. The main screen, Paper process, and rationale are what reviewers should assess first.
 
 The four exploration inspection states now reproduce exact access.ts lines 178–183. This removes the previous cross-PR comparison problem. The main screen includes the same function through its ownership summary; its default visible position remains at the workspace summary. No controlled usability comparison was conducted.
+
+## Final scope reduction
+
+The final handoff focuses on the main-screen redesign and rationale. Earlier A–D concepts remain in the Paper archive and repository archive; they are removed from the public review path. Existing product capabilities remain reachable through the main prototype's labeled controls and previews. The scope reduction removes presentation overhead, not the original review model.

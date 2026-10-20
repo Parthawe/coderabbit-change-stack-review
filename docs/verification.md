@@ -45,3 +45,9 @@ Current comparison checks: at 1440×1000 and 390×844, no document horizontal ov
 ## Final submission M handoff
 
 M is explicitly final on Paper page 01 and its start/rationale boards. Page 02 retains A–D as optional explorations using the same pinned PR. The public prototype has submission links outside the simulated workspace; the exploration gallery opens with M and its rationale visible. The final site was inspected at 1440 and 1280 pixels, with no new overlap or page overflow. Summary navigation, reversible file progress, focus restoration, and all four exploration inspection states were checked. Submission and sharing limits remain labeled.
+
+## Focused submission cleanup
+
+Removed exploration links and the gallery from the deployed path; earlier gallery assets remain in archive/site-explorations. Legacy approaches/directions URLs redirect to the final prototype. Paper keeps A–D on an archive page. Removed the duplicated reading guide and implementation explanation from the primary Paper page; retained the original diagnosis, final screen, four design decisions, capability destinations, and interaction/recovery states.
+
+Rebuilt the rationale as one visually checked page with observation-to-decision mapping, code-width tradeoff, a proposed usability test, and coverage limits. Inspected the prototype at 1440 and 1280 px and the rationale down to 880 px; no new page overflow or overlap was observed. Source notes retain all four demonstration controls. All relative HTML links and assets resolve; app.js passes syntax checking. The mechanical design detector reported only pre-existing reading-page type sizes outside the product UI ramp; those editorial sizes are intentional.

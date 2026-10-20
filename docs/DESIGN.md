@@ -151,3 +151,7 @@ Buttons use the control radius. Summaries, textareas, comment containers, decisi
 - Do compare the main workspace and four optional approaches with the same pinned Formbricks file. Keep the older mono screenshot study archived. Access to the assigned run was intermittent; pinned source remains in the fixture.
 - Don’t reconstruct hidden lines, other files, original comment authors or text, or backend analysis.
 - Don’t imply that viewed state covers the whole PR or that simulated reviews reach CodeRabbit or GitHub. Drafts and viewed state live in tab memory and reset on reload.
+
+## Submission reading path
+
+The published handoff presents one final reviewing screen, Paper, and the one-page rationale. Product explorations are archived outside dist and linked only from source records. The editorial rationale retains its 32px reading title and 18px section headings, separate from the compact product UI type ramp.

@@ -1,50 +1,26 @@
-# CodeRabbit Change Stack Review · Final submission M
+# CodeRabbit Change Stack review redesign
 
-Independent design exercise by Parth Pawar. **M · Main reviewing workspace is the final submission.** It redesigns one reviewing screen using the assigned Formbricks #8650 review run, commit `23cdac2`.
+Design exercise by Parth Pawar for the assigned Formbricks PR #8650.
 
-- [Editable Paper design and process](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0)
-- [Public working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
+- [Paper design](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0)
+- [Working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
 - [Original and redesign](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html)
-- [Requirement audit](docs/REQUIREMENT-AUDIT.md)
-- [Verification and limits](docs/verification.md)
 
-A–D are optional product explorations, kept on a separate Paper page and in the [exploration appendix](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html). They do not replace M.
+## Design argument
 
-## Review order
-
-Start in Paper at board 00. Board 01 records the original screen and four diagnoses; board 02 is the editable main design; board 03 maps interactions and retained capabilities. Boards 04–06 cover focus, review decisions, and source failure. Then use the browser prototype to try the same flow. Paper's exported structure and computed styles provided implementation references; static HTML, CSS, and JavaScript add interaction state.
-
-Paper is set to anyone with the link, but signed-out reviewers currently encounter sign-in. The public prototype provides login-free access. The challenge accepts a viewable prototype plus a one-page explanation; Paper is the additional editable design deliverable.
+Keep the current change in view. The final screen retains layer-based review, groups file actions, makes summary scope explicit, and separates seen/viewed progress from the review decision. Paper contains the source diagnosis, final screen, design decisions, and interaction states.
 
 ## Try it
 
-Choose a summary to reveal its exact code range. Mark the summary seen and the file viewed separately. J moves to the next layer; K moves back. Z hides surrounding panels and preserves scroll position. The file-position control opens nine verified file paths, seven with complete added-file diffs. Comments begin with resolved messages hidden; Show resolved reveals the captured historical thread. Submit review opens a simulated decision dialog. No review or message is sent.
+Select a summary to reveal its code. Toggle Mark viewed, move between layers with J/K, use Z to focus, then open Submit review. Decisions are simulated; nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
 
-Source notes expose loading, observed rate-limit, no-comments, and reset demonstrations. Shortcuts ignore typing. State stays in tab memory and resets on reload.
+## Scope
 
-## Evidence coverage
+Pinned, out-of-date snapshot 23cdac2. Seven of 52 file diffs and fourteen condensed summaries support the demonstration. Other content is labeled as preview. Complete capability parity and measured usability improvement are unverified. Paper may require sign-in; the prototype and rationale are public.
 
-The exact assigned link initially loaded without sign-in. Later layer loads and reloads became rate limited. Captured evidence verifies all seven layer names and counts (52 files total), the first layer's nine file paths, 37 layer summaries, and 15 resolved comment messages. Fourteen summary ranges are reproduced in condensed wording. One resolved access-control root thread is paraphrased; its two reply bodies are not reproduced.
+Serve locally with `python3 -m http.server 4317 --directory dist`. No build step is required.
 
-Seven added files use complete source retrieved from the exact pinned GitHub commit. The other two layer-1 files are modified files whose patches were not captured. Their diffs, the other six layers' detailed content, and uncaptured summaries are labeled coverage limits. A stale snapshot and resolved finding do not establish a current defect.
+`dist/` is the submission. `design/paper-submission/` contains Paper exports; `docs/` holds evidence and checks. Earlier concepts remain in `archive/` and Paper's archive pages. Their controls are outside the final submission.
 
-The main workspace and all four product approaches now use the same Formbricks PR and access.ts. Each has a rationale answering the judging criteria. The four inspection views show identical lines 178–183; proposed scenarios and synthetic author input remain labeled. The [comparison gallery](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html) mirrors Paper. Earlier mono screenshot work remains archived.
-
-## Run locally
-
-Requires Python 3; no package install or build step.
-
-```sh
-python3 -m http.server 4317 --directory dist
-```
-
-Open `http://localhost:4317`. Use HTTP because the prototype fetches `review-data.json`.
-
-## Files and attribution
-
-`dist/` contains the runnable site, pinned fixture, rationale, and comparison. `design/paper-submission/` contains native Paper PNG exports, raw composition references, computed values, and a manifest. Raw `.paper-export.txt` files are design references, not runnable React components. `design/evidence/` records source evidence. `docs/` explains design decisions, scope, and checks.
-
-The visual system follows CodeRabbit's [official brand guidelines](https://www.coderabbit.ai/brand): intact approved logo, orange/mauve palette, Geist, and Hack. Font licenses are included. Formbricks source is attributed to Formbricks at the pinned commit; its license is retained in `dist/FORMBRICKS-LICENSE.txt`. Public repository access does not grant a separate license to CodeRabbit branding or assignment reference material.
-
-![Editable main Paper screen](dist/prototype.png)
+CodeRabbit branding follows the [official brand reference](https://www.coderabbit.ai/brand). Formbricks source and bundled fonts retain their licenses. Raw Paper exports are composition references, not runnable React components.

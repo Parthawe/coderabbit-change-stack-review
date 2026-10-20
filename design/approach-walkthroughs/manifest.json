@@ -161,11 +161,11 @@
     "D": "2UR-0"
   },
   "final_submission": {
-    "key": "M",
-    "title": "Main reviewing workspace",
+    "title": "Reviewing workspace",
     "paper": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0",
     "prototype": "https://parthawe.github.io/coderabbit-change-stack-review/",
     "rationale": "https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf"
   },
-  "explorations": "A–D are optional product explorations using the same pinned Formbricks PR."
+  "explorations": "Archived outside the deployed submission.",
+  "submission_scope": "One final reviewing screen, supporting states, and one-page rationale. Product explorations are archived."
 }

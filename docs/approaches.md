@@ -1,3 +1,5 @@
+> Archived exploration record. The published submission now focuses on the final reviewing screen. Earlier gallery source is in `archive/site-explorations/`; its public URL redirects to the prototype.
+
 # Five approaches to the same Formbricks review
 
 [Editable Paper comparison](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-3-0/1VE-0) · [Public comparison](https://parthawe.github.io/coderabbit-change-stack-review/approaches.html)

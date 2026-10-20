@@ -1,14 +1,14 @@
 Hi CodeRabbit team,
 
-Here’s my Change Stack redesign for the assigned Formbricks PR #8650. I designed it in Paper, then built a working browser prototype.
+Here’s my Change Stack redesign for the assigned Formbricks PR #8650. I designed it in Paper, then built a working prototype.
 
-M, the main reviewing workspace, is my final submission. It keeps the layer-based model and makes the selected layer, file, explanation, and review progress easier to follow. The Paper file includes the original-screen diagnosis, design decisions, and supporting states. A–D are optional explorations of other review approaches using the same PR.
+The design keeps layer-based review and clarifies the current file, summary-to-code connection, and review progress. Paper includes the original-screen diagnosis, key decisions, tradeoffs, and interaction states.
 
-Paper design and process: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
-Working prototype: https://parthawe.github.io/coderabbit-change-stack-review/
+Paper: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
+Prototype: https://parthawe.github.io/coderabbit-change-stack-review/
 One-page rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
 
-The prototype includes seven detailed file diffs from the pinned review snapshot; coverage limits are labeled and review submission is simulated. Paper may require sign-in. The prototype and rationale are public without login.
+The prototype labels its limited content coverage and simulates review submission. Paper may require sign-in; the prototype and rationale are public.
 
 Thanks,
 Parth Pawar

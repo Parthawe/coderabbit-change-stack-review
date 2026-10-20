@@ -3,104 +3,32 @@
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px' }}>
         <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/5DC9VRSYDYWFW1BTMZJH0PD2R0.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '23px', width: '154px' }} />
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '36px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '42px', whiteSpace: 'pre-wrap' }}>
-          Final submission<br />M · Main workspace
+          Change Stack<br />review workspace
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
-          Product Designer Take-Home · Parth Pawar<br />Final direction: a clearer layer-based review workspace for the assigned Formbricks PR.
-        </div>
-      </div>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-        <div style={{ boxSizing: 'border-box', paddingBottom: '12px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '28px' }}>
-            Review the final submission in this order
-          </div>
-        </div>
-        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '24px', width: '36px' }}>
-            01
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px', width: '330px' }}>
-            Source evidence and diagnosis
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '24px' }}>
-            Board 01 pairs the assigned PR’s live review with four observations and the boundaries of the captured snapshot.
-          </div>
-        </div>
-        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '24px', width: '36px' }}>
-            02
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px', width: '330px' }}>
-            M · Final reviewing workspace
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '24px' }}>
-            Board 02 is the final editable desktop screen. Its adjacent rationale explains the four diagnosed problems and the design decisions.
-          </div>
-        </div>
-        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '24px', width: '36px' }}>
-            03
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px', width: '330px' }}>
-            Review flow and capability map
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '24px' }}>
-            Board 03 shows summary linking and viewed progress, then specifies transitions and secondary destinations.
-          </div>
-        </div>
-        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingBlock: '16px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '24px', width: '36px' }}>
-            04
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px', width: '330px' }}>
-            Supporting states, then prototype
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '24px' }}>
-            Boards 04–06 show focus, review decision, and unavailable source. Follow the prototype link to try them.
-          </div>
-        </div>
-      </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '24px' }}>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '28px' }}>
-            1. Design in Paper
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            Translate the source-screen diagnoses into a three-region workspace. Design the main screen, focus mode, review decision, and unavailable-source state. Apply CodeRabbit’s official logo, palette, Geist, and Hack.
-          </div>
-        </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '28px' }}>
-            2. Build the prototype
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            Use Paper’s exported structure and computed styles as implementation references. Add state and keyboard behavior in static HTML, CSS, and JavaScript, then check layout, focus, progress, and recovery.
-          </div>
+          Product Designer Take-Home · Parth Pawar<br />Make the current change, its explanation, and the next review action easier to follow.
         </div>
       </div>
       <div style={{ backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '20px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '26px' }}>
-          Final submission · Paper design, working prototype, one-page rationale
+          Review the design, then try the prototype
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          Read the diagnosis, M screen, and adjacent rationale, then try the prototype: select an explanation, use Z, mark viewed, navigate with J/K, and simulate a review. A–D on page 02 are optional explorations.
+          Read the source diagnosis, final screen, and adjacent design decisions. Supporting states show focus, review decisions, and recovery. In the prototype, select an explanation, use Z, mark a file viewed, and open Submit review.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Required one-page rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
+          One-page rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Evidence and boundaries
+          Scope
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Uses the exact Formbricks #8650 review run at commit 23cdac2. Seven layer names/counts and the first layer’s nine-file inventory are verified. Seven added files use complete pinned GitHub source. Other diffs and uncaptured summaries remain explicitly outside this focused prototype.
-        </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Page 02 keeps A–D as optional product explorations using the same Formbricks PR and access.ts. Each has a rationale beside its three-state walkthrough. M is the final submission. Earlier studies remain archived.
+          Formbricks #8650 · pinned, out-of-date snapshot 23cdac2. Seven of 52 file diffs are included. Other content is labeled as preview. Review decisions are simulated; nothing is sent. Designed in Paper, then implemented as a browser prototype.
         </div>
       </div>
     </div>
