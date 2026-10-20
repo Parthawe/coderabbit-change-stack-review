@@ -9,15 +9,15 @@ Design exercise by Parth Pawar for the assigned Formbricks PR #8650.
 
 ## Design argument
 
-The original has a lot competing with the code. I kept the layers, brought the frequent file controls together, and made the link between a summary and its code clearer. Marking a file viewed stays separate from submitting a review. Paper shows the original screen, what I changed, and why.
+The original has a lot competing with the code. I kept the layers, brought the frequent file controls together, and made the link between a summary and its code clearer. The header shows viewed files and how many remain. Summary seen stays inside context, separate from file progress and the review decision. Paper shows the original screen, what I changed, and why.
 
 ## Try it
 
-Select a summary to reveal its linked code range. Toggle Mark viewed and try Undo after switching files. Move between layers with J/K, use Z to focus, then open Submit review. The confirmation stays open until dismissed; decisions are simulated and nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
+Select a summary to reveal its linked code range. Use Previous and Next beside the filename, or open the position to search all nine paths. Each file keeps its reading position. Toggle Mark viewed and try Undo after switching files. Move between layers with J/K, use Z to focus, then open Submit review. The confirmation stays open until dismissed; decisions are simulated and nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
 
 ## Scope
 
-Pinned, out-of-date snapshot 23cdac2. Seven of 52 file diffs and fourteen condensed summaries support the demonstration. Other content is labeled as preview. Complete capability parity and measured usability improvement are unverified. Paper may require sign-in; the prototype and rationale are public.
+Pinned, out-of-date snapshot 23cdac2. Seven of 52 file diffs and fourteen short summaries support the demonstration; the full captured workspace-tenant summary can be expanded. Other content is labeled as preview. Complete capability parity and measured usability improvement are unverified. Paper may require sign-in; the prototype and rationale are public.
 
 Serve locally with `python3 -m http.server 4317 --directory dist`. No build step is required.
 

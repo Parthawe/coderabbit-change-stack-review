@@ -64,7 +64,7 @@
             02 · Layer and file are apart
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            The layer and file path sit apart. I kept them together so you can check where you are in the PR.
+            The layer and file path sit apart. I kept them together and added direct Previous and Next controls beside the file position.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
@@ -80,7 +80,7 @@
             04 · Three kinds of progress
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            Seen, viewed, and Submit review mean different things. I separated their actions and counts so it's clear what each one does.
+            File progress leads in the header, with the remaining count. Summary seen stays inside context as a reading aid; Submit review opens a separate decision.
           </div>
         </div>
       </div>
@@ -100,6 +100,14 @@
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             These are the problems I chose to address. I haven't tested usability gains with developers, and the old snapshot doesn't tell us about current bugs.
           </div>
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontSizeAdjust: 'none', fontWeight: 600, lineHeight: '25px' }}>
+          Same-content checkpoint → 01b
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
+          01b keeps the same imports (lines 1–7), full workspace-tenant summary, file position, and captured layer progress. The original is an untouched capture; 01b is an editable redesign of that state. The main screen then demonstrates the summary jump to line 49.
         </div>
       </div>
     </div>

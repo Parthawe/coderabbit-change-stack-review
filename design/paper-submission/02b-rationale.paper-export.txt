@@ -16,7 +16,7 @@
           Keep the file and layer together
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          There are seven layers and nine files in the first. I kept the selected layer, file, and path together so you can check where you are. The full file list opens when you need it.
+          I kept the selected layer, file, and path together. Previous and Next switch files directly; the position opens all nine paths. You don't need to reopen the list for every file.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -32,7 +32,7 @@
           Make the summary counts clear
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          37 summaries belong to the layer; six belong to access.ts. I labeled both counts and kept the summary-to-code link. The selected summary and code share a highlight so you can see what belongs together.
+          37 summaries belong to the layer; six belong to access.ts. I labeled both counts and kept the summary-to-code link. Matching highlights connect them. The full captured summary expands when you need the detail.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -40,7 +40,7 @@
           Marking a file viewed is its own action
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Reading a summary, viewing a file, and submitting a review mean different things. I gave each its own action and count. Opening a file doesn't mark it viewed, and Undo lets you correct that choice.
+          File progress leads in the header: viewed and left to check. Summary seen stays in the context panel as a reading aid. Opening a file doesn't mark it viewed; Undo corrects that choice. Submit review remains a separate decision.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -49,6 +49,14 @@
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
           Keeping context beside the code makes the code area narrower. Z hides both side panels, and below 1280px context opens over the code. I checked the interactions; I'd still test whether developers can find a file, connect a summary, and tell what's left to review.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontSizeAdjust: 'none', fontWeight: 600, lineHeight: '24px' }}>
+          Compare the same content
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '23px' }}>
+          The matched screen uses the original imports at lines 1–7 and the full workspace-tenant summary. The file is unviewed, nine files remain in the layer, and two of 37 summaries are seen in both. The main screen shows the next step: following that summary to line 49.
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@
     ],
     [
       "The layer, file path, and file position are spread across the screen.",
-      "I kept the selected layer, file, and path together. The full nine-file list opens when you need it, so the left rail stays short."
+      "I kept the layer, file, and path together. Previous and Next switch files directly; the position opens the searchable nine-file list. Each file keeps its reading position."
     ],
     [
       "Several rows of file controls compete with the diff.",
@@ -16,16 +16,16 @@
     ],
     [
       "The 37-summary count belongs to the layer. access.ts has six.",
-      "I labeled both counts and kept the summary-to-code link. Matching highlights and a brief emphasis at the destination help you follow the jump."
+      "I labeled both counts and kept the summary-to-code link. Matching highlights help you follow the jump. The full captured summary expands when you need the detail."
     ],
     [
       "Seen summaries, viewed files, and a submitted review mean different things.",
-      "I separated those actions and counts. Opening a file doesn't mark it viewed. Mark viewed has Undo, and submitting a review requires a separate decision."
+      "File progress leads in the header: viewed and left to check. Summary seen stays in context as a reading aid. Opening a file doesn't mark it viewed. Undo corrects that choice; Submit review remains separate."
     ]
   ],
   "tradeoff_title": "The right panel takes space",
   "tradeoff": "The right panel leaves less room for code. Z hides the side panels and keeps your current reading position when they return. Below 1280px, context opens as an overlay.",
   "validation_title": "What I checked",
-  "validation": "I checked summary jumps, Undo, keyboard controls, and dialog focus. Focus mode keeps where you've read to, and notes stay with their file and line. I'd still test whether developers can find a file, follow a summary, and tell what's left to review. I haven't measured a speed improvement.",
+  "validation": "The comparison keeps the original imports, full workspace-tenant summary, and captured layer progress. I checked file switching, summary jumps, Undo, keyboard controls, and dialog focus. Reading positions and file/line notes survive navigation. I'd still test whether developers can find a file and tell what's left. I haven't measured a speed improvement.",
   "scope": "This uses the out-of-date Formbricks #8650 snapshot at 23cdac2. Seven of 52 diffs are included. Other content is labeled as a preview; not every source workflow is implemented. Submitting a review is simulated and sends nothing."
 }

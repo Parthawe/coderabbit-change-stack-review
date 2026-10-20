@@ -1,0 +1,487 @@
+Browser tab: 7, Title: "Feedback records MCP integration · CodeRabbit", URL: "https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b".
+0 AXWebArea Feedback records MCP integration · CodeRabbit, URL: app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b
+	1 container
+		5 container root
+			6 container
+				7 text Feedback records MCP integration
+				8 link (collapsed) Description: formbricks #8650: View pull request on GitHub, Help: View pull request on GitHub, Value: github.com/formbricks/formbricks/pull/8650, ID: base-ui-_r_2_, Secondary Actions: Expand
+				9 text 52
+				10 text files
+				11 button Continue with GitHub
+					12 text Continue with GitHub
+				13 pop up button (collapsed) Description: Submit review, Help: Submit a GitHub review without inline comments, Secondary Actions: Expand
+					14 text Submit review
+			15 container
+				16 container Layer navigation
+					17 container
+						18 splitter Description: Collapse sidebar, Help: Drag to resize · click to toggle, Value: 260
+						19 Rail mode
+							20 radio button Layers, Value: 1
+							21 radio button Files, Value: 0
+						22 pop up button (collapsed) Description: About Layers and Files, ID: base-ui-_r_h_, Secondary Actions: Expand
+						23 button Description: Search pull request, ID: base-ui-_r_k_
+						24 button (expanded) Description: Collapse sidebar, Secondary Actions: Collapse
+						25 container
+							26 pop up button (collapsed) Description: Pull request overview, ID: base-ui-_r_o_, Secondary Actions: Expand
+							27 button (disabled) Description: Security blast radius, ID: base-ui-_r_52_
+								28 text Security blast radius isn’t available for this repository yet.
+								29 text Security blast radius
+							30 pop up button (collapsed) Description: Security architecture impact, ID: base-ui-_r_10_, Secondary Actions: Expand
+							31 pop up button (collapsed) ID: base-ui-_r_14_, Secondary Actions: Expand, Description: Layer 1: API contracts and access controls. 9 files touched. 3 findings. 1120 lines added, 11 removed. 1 major finding, 1 minor finding
+								32 text 1
+								33 text API contracts and access controls
+								34 text 9
+								35 text files
+								36 text  touched
+							37 pop up button (collapsed) ID: base-ui-_r_17_, Secondary Actions: Expand, Description: Layer 2: Feedback record operations. 2 files touched. 1 finding. 2446 lines added, 0 removed. 1 major finding
+								38 text 2
+								39 text Feedback record operations
+								40 text 2
+								41 text files
+								42 text  touched
+							43 pop up button (collapsed) Description: Layer 3: Hub feedback-record support. 5 files touched. 342 lines added, 13 removed, ID: base-ui-_r_1a_, Secondary Actions: Expand
+								44 text 3
+								45 text Hub feedback-record support
+								46 text 5
+								47 text files
+								48 text  touched
+							49 pop up button (collapsed) ID: base-ui-_r_1d_, Secondary Actions: Expand, Description: Layer 4: MCP feedback-record tools. 3 files touched. 1 finding. 1034 lines added, 0 removed. 1 trivial finding
+								50 text 4
+								51 text MCP feedback-record tools
+								52 text 3
+								53 text files
+								54 text  touched
+							55 pop up button (collapsed) Description: Layer 5: MCP authorization and registration. 7 files touched. 138 lines added, 22 removed, ID: base-ui-_r_1g_, Secondary Actions: Expand
+								56 text 5
+								57 text MCP authorization and registration
+								58 text 7
+								59 text files
+								60 text  touched
+							61 pop up button (collapsed) ID: base-ui-_r_1j_, Secondary Actions: Expand, Description: Layer 6: OAuth metadata and documentation. 10 files touched. 2 findings. 610 lines added, 81 removed. 1 minor finding, 1 trivial finding
+								62 text 6
+								63 text OAuth metadata and documentation
+								64 text 10
+								65 text files
+								66 text  touched
+							67 pop up button (collapsed) Description: Layer 7: Additional changes. 16 files touched. 32 lines added, 0 removed, ID: base-ui-_r_1m_, Secondary Actions: Expand
+								68 text 7
+								69 text Additional changes
+								70 text 16
+								71 text files
+								72 text  touched
+						73 button Scroll down
+						74 text Review Tools
+						75 pop up button (collapsed) ID: base-ui-_r_1q_, Secondary Actions: Expand, Description: Review history. Latest review: Feedback records MCP integration · Out of date. Commit 23cdac2. Select review snapshot
+							76 text Review history
+							77 text Stale
+							78 text  · 
+							79 text 23cdac2
+						80 pop up button (collapsed) Description: Settings. Display settings, ID: base-ui-_r_1v_, Secondary Actions: Expand
+							81 text Settings
+				155 container
+					156 pop up button (collapsed) Description: Layer details: API contracts and access controls, ID: base-ui-_r_27_, Secondary Actions: Expand
+					157 text API contracts and access controls Defines feedback-record schemas, serializers, entitlement checks, tenant ownership guards, and controlled problem responses.
+				158 container
+					159 container Content view
+						160 checkbox Files, Value: 1
+							161 text Files
+						162 checkbox (disabled) Description: Diagrams, Value: 0
+							163 text Diagram
+					164 container File navigation
+						165 pop up button (collapsed) Description: Show files in this layer (9 files, 9 not viewed), ID: base-ui-_r_46_, Secondary Actions: Expand
+							166 text 1 of 9
+							167 container
+								168 text 9  left
+						169 button (disabled) Description: Previous file, ID: base-ui-_r_4a_
+						170 button Description: Next file, ID: base-ui-_r_4d_
+					171 container
+						172 container Review controls
+							173 pop up button (collapsed) Description: View settings, ID: base-ui-_r_4i_, Secondary Actions: Expand
+							174 button Description: Mark all files in this layer viewed, ID: base-ui-_r_4m_
+							175 button Description: Collapse all files, ID: base-ui-_r_4p_
+							176 button Description: Enter focus mode, ID: base-ui-_r_4s_
+						177 button (expanded) Description: Hide review controls, ID: base-ui-_r_4v_, Secondary Actions: Collapse
+					178 container
+						179 button (expanded) Description: Collapse apps/web/app/api/v3/feedbackRecords/lib/access.ts, Help: Collapse · Alt+click toggles every file in this layer, Secondary Actions: Collapse
+							180 container Description: Added, ID: base-ui-_r_56_
+							181 text apps/web/app/api/v3/feedbackRecords/lib/access.ts
+							182 button Description: Copy file path apps/web/app/api/v3/feedbackRecords/lib/access.ts, Help: Copy file path
+							183 container 194 additions and 0 deletions
+								184 text + 194
+							185 button Description: Add file comment on apps/web/app/api/v3/feedbackRecords/lib/access.ts, Help: Add file comment
+							186 pop up button (collapsed) Description: Semantic outline with 6 changed entities, Help: Semantic outline, ID: base-ui-_r_5a_, Secondary Actions: Expand
+							187 container
+								188 checkbox Description: Compact semantic diff, Value: 0
+								189 checkbox Description: Semantic diff with context, Value: 1
+							190 checkbox Description: Mark file as viewed in this layer, Value: 0, ID: base-ui-_r_5f_
+						191 text This added file has more lines outside this layer.
+						192 checkbox Description: Show full added file, Help: Show the full added file for context, Value: 0
+							193 text Full file
+						558 container
+							559 text 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 import "server-only" ; import type { logger } from "@formbricks/logger" ; import { requireUnifyFeedbackWorkspaceAccess } from "@/app/api/v3/lib/feedback-access" ; import { problemBadRequest , problemForbidden , problemUnprocessableContent } from "@/app/api/v3/lib/response" ; import type { TV3Authentication } from "@/app/api/v3/lib/types" ; import { getFeedbackDirectoriesByWorkspaceId } from "@/modules/ee/feedback-directory/lib/feedback-directory" ; import { retrieveFeedbackRecord } from "@/modules/hub/service" ; import type { FeedbackRecordData } from "@/modules/hub/types" ; import { hubErrorToProblemResponse } from "./errors" ; /** * Tenant isolation for the feedback-records surface. Two guards live here, and every operation goes * through at least one of them: * * - `resolveWorkspaceFeedbackTenant` — the workspace → dataset → Hub tenant choke point. * - `requireOwnedFeedbackRecord` — the per-record ownership check for the Hub endpoints that take a bare *   record id and derive the tenant from the record itself.
+						560 image
+				200 container
+					201 button (expanded) Description: Collapse right sidebar, Secondary Actions: Collapse
+					202 text Layer context
+					203 container
+						204 checkbox Summaries 37, Value: 1
+						205 checkbox Comments 15, Value: 0
+						206 container Summary 1 of 37, 2 of 37 summaries seen
+							207 container Summary 1 of 37
+								208 text 1 / 37
+							209 text 2/37
+						210 button Description: Reset progress and return to top, ID: base-ui-_r_5t_
+						211 checkbox Description: Pause following code, Help: Follow code, Value: 1
+						212 text Complexity
+						213 container Summary complexity filters
+							214 checkbox Description: Show all complexity summaries, Value: 1
+								215 text All
+							216 checkbox Description: Show high complexity summaries, Value: 0
+								217 text High
+							218 checkbox Description: Show medium complexity summaries, Value: 0
+								219 text Medium
+							220 checkbox Description: Show low complexity summaries, Value: 0
+								221 text Low
+						222 checkbox Description: Collapse all visible summaries, Value: 0
+						223 container
+							224 text apps/web/app/api/v3/feedbackRecords/lib/access.ts
+							225 container
+								226 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_69_, Secondary Actions: Expand
+								227 text Introduces a server-only access-control module and wires in required dependencies for workspace access resolution, feedback-directory lookup, Hub record…
+								228 container Low complexity
+									229 text Low
+							230 container
+								231 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_6g_, Secondary Actions: Expand
+								232 text Defines the exported resolved-tenant contract (TResolvedFeedbackTenant) plus internal resolve parameter/result types used by the tenant-resolution guard.
+								233 container Low complexity
+									234 text Low
+							235 container
+								236 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_6n_, Secondary Actions: Collapse
+								237 text 49 – 130 · 82 lines
+								238 container Medium complexity
+									239 text Medium
+								240 button Mark summary as seen
+								241 container Collapse summary, ID: base-ui-_r_6m_
+									242 container
+										243 text Adds  resolveWorkspaceFeedbackTenant , which:
+									244 content list
+										245 container
+											246 AXListMarker • 
+											247 text requires workspace access via  requireUnifyFeedbackWorkspaceAccess ,
+										248 container
+											249 AXListMarker • 
+											250 text loads feedback directories for the workspace,
+										251 container
+											252 AXListMarker • 
+											253 text trims directory IDs to normalize Hub  tenant_id  matching,
+										254 container
+											255 AXListMarker • 
+											256 text optionally enforces access to a specific dataset ( datasetId ) with a forbidden response when not permitted,
+										257 container
+											258 AXListMarker • 
+											259 text rejects misconfiguration states (no datasets assigned; multiple datasets without an explicit  datasetId ),
+										260 container
+											261 AXListMarker • 
+											262 text returns a single resolved tenant/dataset context plus the full allowed tenant set.
+									263 button Comment
+										264 text Comment
+							265 container
+								266 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_6v_, Secondary Actions: Expand
+								267 text Defines the internal parameter/result shapes for the per-record ownership guard, including required logging/context and optional pinned dataset enforcement.
+								268 container Low complexity
+									269 text Low
+							270 container
+								271 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_76_, Secondary Actions: Collapse
+								272 text 156 – 186 · 31 lines
+								273 container High complexity
+									274 text High
+								275 button Mark summary as seen
+								276 container Collapse summary, ID: base-ui-_r_75_
+									277 container
+										278 text Adds  requireOwnedFeedbackRecord , which:
+									279 content list
+										280 container
+											281 AXListMarker • 
+											282 text retrieves the record by ID from the Hub,
+										283 container
+											284 AXListMarker • 
+											285 text handles Hub errors/missing records by returning a generic forbidden response for 404 (with explicit logging),
+										286 container
+											287 AXListMarker • 
+											288 text otherwise converts Hub failures via  hubErrorToProblemResponse ,
+										289 container
+											290 AXListMarker • 
+											291 text enforces tenant ownership by checking the record’s stored  tenant_id  against either the pinned dataset tenant or the workspace’s allowed tenant set,
+										292 container
+											293 AXListMarker • 
+											294 text returns the record on success.
+									295 button Comment
+										296 text Comment
+							297 container
+								298 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_7e_, Secondary Actions: Expand
+								299 text Exports forbidFeedbackRecord, a single helper that produces the standardized forbidden response body used by the ownership and missing-record paths.
+								300 container Low complexity
+									301 text Low
+						302 container
+							303 text apps/web/app/api/v3/feedbackRecords/lib/errors.ts
+							304 container
+								305 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_7l_, Secondary Actions: Expand
+								306 text Adds server-only error-mapping utilities’ dependencies and defines disclosure bounds used to truncate relayed Hub details (max invalid-params count and max…
+								307 container Low complexity
+									308 text Low
+							309 container
+								310 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_7s_, Secondary Actions: Expand
+								311 text Exports embedding-related static detail strings and declares the set of Hub HTTP statuses allowed to contribute relayable problemDetail content to v3 responses.
+								312 container Low complexity
+									313 text Low
+							314 container
+								315 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_83_, Secondary Actions: Expand
+								316 text Introduces relayableHubDetail, which conditionally selects between a provided fallback message and a truncated Hub problemDetail based on status eligibility…
+								317 container Low complexity
+									318 text Low
+							319 container
+								320 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_8a_, Secondary Actions: Collapse
+								321 text 79 – 128 · 50 lines
+								322 container High complexity
+									323 text High
+								324 button Mark summary as seen
+								325 container Collapse summary, ID: base-ui-_r_89_
+									326 container
+										327 text Implements  hubErrorToProblemResponse  with explicit branching by Hub HTTP status: maps 429/409/413/503 to corresponding v3 problems, maps 400/422 to bad request vs unprocessable content while translating and truncating  invalidParams , relays bounded Hub detail text, and defaults all other cases to a generic bad gateway response.
+									328 button Comment
+										329 text Comment
+							330 container
+								331 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_8i_, Secondary Actions: Collapse
+								332 text 130 – 146 · 17 lines
+								333 container Medium complexity
+									334 text Medium
+								335 button Mark summary as seen
+								336 container Collapse summary, ID: base-ui-_r_8h_
+									337 container
+										338 text Adds  handleUnexpectedError  to map  ResourceNotFoundError  to forbidden and  DatabaseError /other unknowns to internal-error responses, with corresponding warning/error logging including status codes and the caught error object.
+									339 button Comment
+										340 text Comment
+							341 container
+								342 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_8q_, Secondary Actions: Expand
+								343 text Exports toInvalidParams to convert zod issues into the shared InvalidParam[] format using the issue path joined by dots and the issue message as the reason.
+								344 container Low complexity
+									345 text Low
+						346 container
+							347 text apps/web/app/api/v3/feedbackRecords/lib/schemas.ts
+							348 container
+								349 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_91_, Secondary Actions: Expand
+								350 text Adds the core v3 filter schema for listing/counting feedback records, including shared optional equality filters (source/sourceId/fieldType/fieldId/etc.) plus…
+								351 container Low complexity
+									352 text Low
+							353 container
+								354 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_98_, Secondary Actions: Expand
+								355 text Extends the shared filter schema with list-specific keyset pagination parameters (limit with 1–1000 bounds and cursor), and defines…
+								356 container Low complexity
+									357 text Low
+							358 container
+								359 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_9f_, Secondary Actions: Collapse
+								360 text 81 – 138 · 58 lines
+								361 container Medium complexity
+									362 text Medium
+								363 button Mark summary as seen
+								364 container Collapse summary, ID: base-ui-_r_9e_
+									365 container
+										366 text Defines similarity search parameterization: exported defaults/maxima for limit and minimum score, a similarity filters schema ( limit ,  cursor ,  minScore ), and a search-text schema that adds a bounded  query  string; defines corresponding inferred types.
+									367 button Comment
+										368 text Comment
+							369 container
+								370 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_9n_, Secondary Actions: Expand
+								371 text Introduces the internal mapping (VALUE_FIELD_BY_TYPE) that specifies which value_ field(s) are acceptable/required for each field_type.
+								372 container Low complexity
+									373 text Low
+							374 container
+								375 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_9u_, Secondary Actions: Collapse
+								376 text 163 – 235 · 73 lines
+								377 container High complexity
+									378 text High
+								379 button Mark summary as seen
+								380 container Collapse summary, ID: base-ui-_r_9t_
+									381 container
+										382 text Adds the create-body field schema and its refined variant: enforces bounds for provenance identifiers and response fields; constrains  metadata  by UTF-8 byte-length via  refine ; and adds a  superRefine  rule requiring that at least one of the  value_*  fields implied by  field_type  is present (with a targeted issue path/message).
+									383 button Comment
+										384 text Comment
+							385 container
+								386 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_a6_, Secondary Actions: Collapse
+								387 text 238 – 274 · 37 lines
+								388 container Medium complexity
+									389 text Medium
+								390 button Mark summary as seen
+								391 container Collapse summary, ID: base-ui-_r_a5_
+									392 container
+										393 text Defines the update-body schemas as a mutable subset of the create fields (picked fields only), adds a refinement requiring at least one updatable field to be present, and provides both a refined update schema and a plain “raw fields” shape for  inputSchema  use.
+									394 button Comment
+										395 text Comment
+							396 container
+								397 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_ae_, Secondary Actions: Collapse
+								398 text 275 – 294 · 20 lines
+								399 container Medium complexity
+									400 text Medium
+								401 button Mark summary as seen
+								402 container Collapse summary, ID: base-ui-_r_ad_
+									403 container
+										404 text Introduces batch-create constraints: exports  MAX_FEEDBACK_RECORDS_PER_BATCH = 50  and defines a batch body schema containing a bounded  records  array of validated create bodies, plus the inferred batch type.
+									405 button Comment
+										406 text Comment
+						407 container
+							408 text apps/web/app/api/v3/feedbackRecords/lib/serializers.ts
+							409 container
+								410 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_am_, Secondary Actions: Collapse
+								411 text 1 – 99 · 99 lines
+								412 container Medium complexity
+									413 text Medium
+								414 button Mark summary as seen
+								415 container Collapse summary, ID: base-ui-_r_al_
+									416 container
+										417 text Introduces  TV3FeedbackRecord  plus the core serializer  serializeV3FeedbackRecord . The serializer builds a DTO starting with  id , renames Hub  tenant_id  to outward  dataset_id  only when  tenant_id  is defined, and then copies a fixed allowlist of optional fields from the source (including explicit null values) into the DTO, ensuring the output shape is restricted to documented fields.
+									418 button Comment
+										419 text Comment
+							420 container
+								421 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_au_, Secondary Actions: Expand
+								422 text Adds TV3FeedbackRecordMatch and serializeV3FeedbackRecordMatch, mapping a similarity-search “hit” row into a minimal match DTO containing feedback_record_id,…
+								423 container Low complexity
+									424 text Low
+							425 container
+								426 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_b5_, Secondary Actions: Expand
+								427 text Adds TV3FeedbackDataset and serializeV3FeedbackDataset, mapping an input { id, name } object into the dataset DTO.
+								428 container Low complexity
+									429 text Low
+						430 container
+							431 text apps/web/app/api/v3/feedbackRecords/lib/serializers.test.ts
+							432 container
+								433 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_bc_, Secondary Actions: Expand
+								434 text Introduces the new Vitest test module, importing serializer functions and asserting/constructing a full FeedbackRecordData fixture used to validate complete…
+								435 container Low complexity
+									436 text Low
+							437 container
+								438 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_bj_, Secondary Actions: Collapse
+								439 text 43 – 115 · 73 lines
+								440 container Medium complexity
+									441 text Medium
+								442 button Mark summary as seen
+								443 container Collapse summary, ID: base-ui-_r_bi_
+									444 container
+										445 text Adds a test suite for  serializeV3FeedbackRecord  that pins the exact emitted field set, verifies tenant-to- dataset_id  renaming while never emitting  tenant_id , ensures extras outside the allowlist are dropped, confirms absent fields are omitted (but explicit  null  values are retained), and checks  dataset_id  is omitted when the input contains no tenant.
+									446 button Comment
+										447 text Comment
+							448 container
+								449 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_br_, Secondary Actions: Collapse
+								450 text 117 – 145 · 29 lines
+								451 container Medium complexity
+									452 text Medium
+								453 button Mark summary as seen
+								454 container Collapse summary, ID: base-ui-_r_bq_
+									455 container
+										456 text Adds tests for  serializeV3FeedbackRecordMatch  confirming it emits exactly the four specified match fields and excludes any additional properties provided by the input.
+									457 button Comment
+										458 text Comment
+							459 container
+								460 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_c3_, Secondary Actions: Expand
+								461 text Adds a test for serializeV3FeedbackDataset verifying the output is limited to only id and name.
+								462 container Low complexity
+									463 text Low
+						464 container
+							465 text apps/web/app/api/v3/lib/feedback-access.ts
+							466 container
+								467 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_ca_, Secondary Actions: Expand
+								468 text Introduces server-only access gating module imports, including the feedback entitlement checker, workspace/team permission types, the v3 workspace access…
+								469 container Low complexity
+									470 text Low
+							471 container
+								472 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_ch_, Secondary Actions: Expand
+								473 text Adds documentation describing that this gate combines v3 workspace access (via requireV3WorkspaceAccess) with the feedbackDirectories entitlement requirement…
+								474 container Low complexity
+									475 text Low
+							476 container
+								477 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_co_, Secondary Actions: Collapse
+								478 text 20 – 49 · 30 lines
+								479 container High complexity
+									480 text High
+								481 button Mark summary as seen
+								482 container Collapse summary, ID: base-ui-_r_cn_
+									483 container
+										484 text Implements  requireUnifyFeedbackWorkspaceAccess : resolves workspace access using  requireV3WorkspaceAccess , short-circuits by returning a  Response  if access fails, then checks  getIsFeedbackDirectoriesEnabled  and returns a standardized forbidden  Response  when the entitlement is missing; otherwise returns the resolved  V3WorkspaceContext .
+									485 button Comment
+										486 text Comment
+						487 container
+							488 text apps/web/app/api/v3/lib/response.ts
+							489 container
+								490 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_d0_, Secondary Actions: Expand
+								491 text Adds the exported problemConflict helper, returning a 409 Problem Details response with title: "Conflict" and code: "conflict", passing through detail,…
+								492 container Low complexity
+									493 text Low
+							494 container
+								495 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_d7_, Secondary Actions: Expand
+								496 text Repositions the existing exported problemBadGateway helper in the file; its signature and problemResponse(502, ..., code: "bad_gateway") behavior remain the…
+								497 container Low complexity
+									498 text Low
+							499 container
+								500 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_de_, Secondary Actions: Expand
+								501 text Adds documentation and the exported problemServiceUnavailable helper, returning a 503 Problem Details response with title: "Service Unavailable" and code:…
+								502 container Low complexity
+									503 text Low
+						504 container
+							505 text apps/web/app/api/v3/unify-feedback/taxonomy/lib/access.ts
+							506 container
+								507 checkbox (collapsed) Description: Expand summary and jump to code, Value: 0, ID: base-ui-_r_dl_, Secondary Actions: Expand
+								508 text Reworked imports and the function’s documentation/legacy-guard description to switch from requireV3WorkspaceAccess to requireUnifyFeedbackWorkspaceAccess, and…
+								509 container Low complexity
+									510 text Low
+							511 container
+								512 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_ds_, Secondary Actions: Collapse
+								513 text 27 – 27 · 1 line
+								514 container High complexity
+									515 text High
+								516 button Mark summary as seen
+								517 container Collapse summary, ID: base-ui-_r_dr_
+									518 container
+										519 text In  requireUnifyDirectoryAccess , replaced the authorization call from  requireV3WorkspaceAccess(...)  to  requireUnifyFeedbackWorkspaceAccess(...) , with the same parameter wiring.
+									520 button Comment
+										521 text Comment
+							522 container
+								523 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_e4_, Secondary Actions: Collapse
+								524 text 37 – 38 · 2 lines
+								525 container High complexity
+									526 text High
+								527 button Mark summary as seen
+								528 container Collapse summary, ID: base-ui-_r_e3_
+									529 container
+										530 text Removed the explicit organization “feedback directories enabled” check ( getIsFeedbackDirectoriesEnabled(...)  +  problemForbidden(...) ) so execution flows directly from the workspace access result to fetching directories and validating directory membership.
+									531 button Comment
+										532 text Comment
+						533 container
+							534 text apps/web/app/api/v3/feedbackRecords/lib/errors.test.ts
+							535 container
+								536 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_ec_, Secondary Actions: Collapse
+								537 text 1 – 94 · 94 lines
+								538 container Medium complexity
+									539 text Medium
+								540 button Mark summary as seen
+								541 container Collapse summary, ID: base-ui-_r_eb_
+									542 container
+										543 text Adds  hubErrorToProblemResponse  test coverage verifying status mapping and strict response-body constraints: truncation of relayed 4xx details, capping and truncating  invalid_params , never relaying upstream 5xx details, suppressing sensitive details for Hub 401/403/404, mapping  null  to a generic 502 with a fixed message, and mapping 503 to a specific actionable configuration message rather than the generic unavailable behavior.
+									544 button Comment
+										545 text Comment
+							546 container
+								547 checkbox (expanded) Description: Collapse summary, Help: Collapse summary and actions, Value: 0, ID: base-ui-_r_ek_, Secondary Actions: Collapse
+								548 text 96 – 123 · 28 lines
+								549 container Medium complexity
+									550 text Medium
+								551 button Mark summary as seen
+								552 container Collapse summary, ID: base-ui-_r_ej_
+									553 container
+										554 text Adds  handleUnexpectedError  tests verifying exception-to-response mapping:  ResourceNotFoundError  becomes 403 without leaking the resource type/id,  DatabaseError  becomes a generic 500 with a fixed detail string, and an unknown  Error  becomes a generic 500 without echoing the original message.
+									555 button Comment
+										556 text Comment
+				557 splitter Description: Resize panel, Value: 340
+			151 button Description: Open command palette, Help: Open command palette (⌘+K)
+				152 container Command
+					153 text ⌘
+				154 text K
+		4 container Notifications
+
+The focused UI element is 0 AXWebArea Feedback records MCP integration · CodeRabbit, URL: app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b
