@@ -1,0 +1,17 @@
+Independent second-agent release review · October 20, 2026
+
+Verdict: no remaining blocker in the bounded review after the saved-note display fix.
+
+The reviewer found one P2 issue: saving an edited note updated the stored value but left the old saved text visible until navigation. The fix updates a stable saved-text node without rebuilding the editor. The reviewer rechecked it against the current code.
+
+Independent deterministic checks passed: first save immediately shows its text; saving A then B replaces A; clearing hides the old text; the editor DOM remains intact; notes remain separate by file and line; focus mode retains the current vertical and horizontal reading position; JavaScript syntax passes.
+
+Design judgment against the assignment:
+- The four diagnoses are anchored to numbered callouts on the original screen.
+- The toolbar, linked selection, brief destination emphasis, Undo, and review dialog demonstrate useful interaction polish.
+- The final screen distinguishes the current file/layer, summary counts, and progress actions.
+- The first-person rationale connects observations to decisions, explains the code-width tradeoff, and retains seven-of-52 and simulated-submission limits.
+
+Paper screenshots and the rendered one-page rationale were readable and unclipped. Fixture counts agreed with the claims; the Paper line-75 example matched the fixture.
+
+This was an independent agent review of static code, deterministic checks, Paper screenshots, and the rendered rationale. It was not a human usability study or an external CodeRabbit review. Live browser regressions and published asset checks are the primary agent's separate release verification. No external reviewer was contacted.

@@ -85,3 +85,19 @@ JavaScript syntax, whitespace checks, and one scoped mechanical detector pass pa
 Rewrote the final Paper page’s introduction, source diagnoses, design reasoning, interaction notes, and source-error explanation in the same direct, first-person tone as the submission message. Product labels, exact source content, PR counts, and behavior were kept. Archived explorations were outside this copy pass.
 
 The five changed Paper boards were visually inspected for wrapping and fit, then exported as current native PNGs and raw JSX. The rationale PDF and HTML use the same source copy in rationale-content.json. The PDF remains one page; its rendered page was checked for readable type, table wrapping, spacing, and clipping. The HTML was inspected at 1280px and checked at 880px with no document overflow. The wording retains the code-width tradeoff, limited content coverage, simulated submission, and the need for developer usability testing.
+
+## Local Thursday refinement · October 20, 2026 · unpublished
+
+Reproduced and fixed two concrete issues: focus mode restored its entry position instead of the current reading position, and local notes used one shared draft/saved value across files and lines. Focus now captures position on each layout toggle. Notes use a file-ID/line key and show that ownership in the heading. Paper flow notes and exports were updated.
+
+After the fix, leaving focus retained 1692.5px. A second line and another file opened empty; returning restored access.ts:49's saved note and access.ts:50's separate unsaved draft. Typing J/K/Z stayed in the textarea. At 1280px there was no document overflow; at 1100px context aligned to the 109px header edge. Simulated confirmation and Escape focus restoration passed. Browser warning/error logs were empty. JS syntax, whitespace, and one scoped detector pass passed.
+
+Public entry points returned HTTP 200 without authentication. Public rationale and fixture match local files; the PDF remains one page. Source counts and line lengths remain consistent. No publishing, pushing, messaging, submission, or permission change was performed. The public app remains at 1f6ce63 pending review of these local fixes. The Thursday handoff and a review archive are in outputs.
+
+## Reviewed release · October 20, 2026
+
+Parth authorized publishing the prepared focus-position and file/line-note fixes. An independent second-agent review assessed the changes, Paper screenshots, one-page rationale, source counts, and the assignment's four judging criteria. It found a P2: the saved-note block could show the previous saved value after a second save. This was fixed by updating a stable text node directly, preserving the editor and focus. The reviewer rechecked first save, A-to-B save, clearing, editor identity, note isolation, and current focus position and reported no remaining blocker in its bounded scope.
+
+Live browser checks confirmed immediate saved A/B values, empty notes for a different file or line, restored saved and unsaved notes, clearing the saved block, and keyboard focus retained on Save. The rationale now explicitly describes current reading position and file/line ownership, and still compiles to one visually checked page. The Paper flow wording and native exports match. The design detector reported only existing editorial font sizes in rationale.html; those are intentional reading-page sizes, not a product UI change.
+
+The independent review is documented in docs/second-review.txt. No email or message to CodeRabbit was sent. Publication and final public verification are recorded in the Thursday handoff.

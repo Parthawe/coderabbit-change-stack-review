@@ -102,7 +102,7 @@
             Z · focus on code
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            Press Z to hide the side panels and give the code more room. Press it again to return to the same file and scroll position. Shortcuts ignore typing.
+            Z gives the code more room. Keep reading, then press Z again to bring the side panels back around your current line. Shortcuts ignore typing.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             State 04 · Focus
@@ -113,7 +113,7 @@
             Comments · inspect thread
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            Tabs bring back the summary or comment range you selected. Resolved threads start hidden. Local drafts stay in this tab; two source replies aren't shown.
+            Tabs restore the selected range. Each local draft stays with its file and line. Resolved threads start hidden; two source replies aren't shown.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             Prototype · Comments

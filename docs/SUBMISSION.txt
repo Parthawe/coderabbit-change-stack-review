@@ -1,14 +1,14 @@
 Hi CodeRabbit team,
 
-Here’s my Change Stack redesign for the assigned Formbricks PR #8650. I designed it in Paper, then built a working prototype.
+I've finished the Change Stack assignment using the Formbricks PR. I worked through the design in Paper, then built a prototype to try the interactions.
 
-The design keeps layer-based review and clarifies the current file, summary-to-code connection, and review progress. Paper includes the original-screen diagnosis, key decisions, tradeoffs, and interaction states.
+The original has a lot competing with the code. I kept the layers, brought the file controls together, and made it clearer which code each summary refers to. I also separated marking a file viewed from submitting a review, so progress and the final decision don't get mixed up.
 
-Paper: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
-Prototype: https://parthawe.github.io/coderabbit-change-stack-review/
+Paper design and diagnosis: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
+Working prototype: https://parthawe.github.io/coderabbit-change-stack-review/
 One-page rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
 
-The prototype labels its limited content coverage and simulates review submission. Paper may require sign-in; the prototype and rationale are public.
+The prototype covers seven file diffs; submitting a review is simulated. Paper may ask you to sign in, but the other links are public.
 
 Thanks,
-Parth Pawar
+Parth

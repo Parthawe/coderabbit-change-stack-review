@@ -24,8 +24,8 @@
     ]
   ],
   "tradeoff_title": "The right panel takes space",
-  "tradeoff": "The right panel leaves less room for code. Z hides the side panels without losing your place. Below 1280px, context opens as an overlay.",
+  "tradeoff": "The right panel leaves less room for code. Z hides the side panels and keeps your current reading position when they return. Below 1280px, context opens as an overlay.",
   "validation_title": "What I checked",
-  "validation": "I checked summary jumps, Undo after switching files, J/K, Z, and dialog focus. I'd still test this with developers: can they find a file, follow a summary to code, and explain what's left to review? I haven't measured a speed improvement.",
+  "validation": "I checked summary jumps, Undo, keyboard controls, and dialog focus. Focus mode keeps where you've read to, and notes stay with their file and line. I'd still test whether developers can find a file, follow a summary, and tell what's left to review. I haven't measured a speed improvement.",
   "scope": "This uses the out-of-date Formbricks #8650 snapshot at 23cdac2. Seven of 52 diffs are included. Other content is labeled as a preview; not every source workflow is implemented. Submitting a review is simulated and sends nothing."
 }
