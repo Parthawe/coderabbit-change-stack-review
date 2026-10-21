@@ -117,3 +117,9 @@ Paper was updated first. The main and Focus states now show access.ts lines 68�
 All nine manually mapped access.ts anchors were exercised in the browser. Highlighted line bounds matched each chosen option, including only L75 for trimming and L179–183 for the tenant check. Go to summary start selected L49 alone. Expanded source-summary links worked and kept the disclosure open. Other summaries select their explicitly labeled start. The original fixture and captured source text are unchanged.
 
 Compact/Equal panes switching retained the first visible code line; returning to access.ts restored its anchor. At 1440px and 1280px, Split stayed at 13px with wrapping and no page overflow. At 1100px, the overlay dropdown kept focus, Escape restored Context, and code remained readable. Unified and Split retain separate wrap choices. Active local notes remained visible in ranges-only mode, outline selection removed the old editor, and viewed Undo survived a summary-progress notice. Simulated submission and Reset passed. Browser warning/error logs were empty. The rationale remains one rendered and visually checked page. These are implementation checks, not developer usability results.
+
+## Caption and submission access · October 21, 2026
+
+Corrected the diagnosis checkpoint caption in Paper to describe the trimming statement at L75. Summary start remains L49. The PNG and clean JSX were freshly exported from Paper and copied into the deliverables. The rendered caption fits without clipping. M remains final.
+
+Paper sharing was inspected in the desktop Share menu: Anyone with the link can access. A signed-out browser reaches Paper sign-in. The prototype and rationale return 200 without authentication; published files match the committed versions. The submission draft now states that Paper requires sign-in. No message was sent.

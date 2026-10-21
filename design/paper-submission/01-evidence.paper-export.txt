@@ -107,7 +107,7 @@
           Same-content checkpoint → 01b
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
-          01b keeps the same imports (lines 1–7), full workspace-tenant summary, file position, and captured layer progress. The original is an untouched capture; 01b is an editable redesign of that state. The main screen then demonstrates the summary jump to line 49.
+          01b keeps the same imports (lines 1–7), full workspace-tenant summary, file position, and captured layer progress. The original is an untouched capture; 01b is an editable redesign of that state. The main screen then inspects the trimming statement at line 75.
         </div>
       </div>
     </div>
