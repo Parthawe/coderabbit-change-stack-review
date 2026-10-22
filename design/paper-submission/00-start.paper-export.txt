@@ -1,12 +1,3 @@
-{
-  "file": {
-    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
-    "name": "CodeRabbit — Change Stack Review"
-  },
-  "contentHash": {
-    "tokens": "811c9dc5"
-  }
-}
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -23,7 +14,7 @@
           Final submission · start here
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          Read 01 for the four source problems, 01b for the matched comparison, and 02 for the final screen. Then try file switching, a summary, Z, Mark viewed, and Undo in the prototype. The one-page rationale explains the decisions.
+          Start with 01 for the diagnosis, 01b for the same-content comparison, then 02 for the final screen. In the prototype, follow a summary, switch files, and mark viewed with Undo.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/
@@ -34,10 +25,10 @@
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          What is included
+          Scope and supporting material
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          The submission is this editable design, the working prototype, and the one-page rationale. It uses Formbricks #8650 at the old 23cdac2 snapshot and includes seven of 52 diffs. Reviews are simulated. 07 covers recovery; 08 records next tests; 09 records AI critique; 10 shows Split. Earlier approaches are archived.
+          Formbricks #8650 at 23cdac2. Seven of 52 diffs are included; review submission is simulated. The one-page rationale explains the decisions. Interaction states, next tests, and AI critique are on the Supporting material page. Earlier approaches are archived.
         </div>
       </div>
     </div>

@@ -1,12 +1,3 @@
-{
-  "file": {
-    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
-    "name": "CodeRabbit — Change Stack Review"
-  },
-  "contentHash": {
-    "tokens": "811c9dc5"
-  }
-}
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -32,7 +23,7 @@
               </div>
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-              Inspect code selects a specific statement or branch. Surrounding code stays readable; Go to summary start keeps the full scope reachable. Reduced motion uses an instant jump.
+              Inspect code selects a statement or branch. Long lines wrap; jumps keep the whole destination line visible, reducing preceding context when space is tight. The summary start stays reachable. Reduced motion uses an instant jump.
             </div>
           </div>
           <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E57340', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', paddingBlock: '16px', paddingInline: '12px', width: '279px' }}>

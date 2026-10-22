@@ -4,7 +4,7 @@ Hi CodeRabbit team,
 
 I worked through the Change Stack challenge in Paper, then built a prototype using the Formbricks PR.
 
-I focused on making the file, explanation, and review progress easier to follow. Summaries link to specific code, file controls sit together, and viewed status stays separate from submitting a review. Split gives added code more room.
+I focused on making the file, explanation, and review progress easier to follow. Summaries link to specific code, file controls sit together, and viewed status stays separate from submitting a review. Long lines wrap by default, and Split gives added code more room.
 
 Paper design and process: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
 Working prototype: https://parthawe.github.io/coderabbit-change-stack-review/

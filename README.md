@@ -10,13 +10,15 @@ Send these three links. Paper contains the original diagnosis, matched compariso
 - [Working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
 
-[Walk through the final submission](docs/submission-walkthrough.md). The final direction keeps file-by-file review. Earlier approaches are archived. [Before and after](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html) and [next tests and sketches](https://parthawe.github.io/coderabbit-change-stack-review/next.html) are supporting links inside the prototype. [Ten review perspectives](docs/ten-perspective-review.md) records the AI critiques and decisions; it is process evidence, not a required attachment or developer research.
+[Walk through the final submission](docs/submission-walkthrough.md). The final direction keeps file-by-file review. Earlier approaches are archived. Start with [before and after](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html), then M. Next tests and sketches are under Source notes & states → Optional supporting material. [Ten review perspectives](docs/ten-perspective-review.md) records the AI critiques and decisions; it is process evidence, not a required attachment or developer research.
 
 ## Design argument
 
-I wanted to keep the file, explanation, and review progress connected. I kept file-by-file review so each explanation can be checked against the diff, then brought the frequent controls together. The header separates PR progress from the seven included demo files. Summary seen stays inside context, separate from file progress and the review decision. Paper shows the original screen, what I changed, and why.
+I wanted to keep the file, explanation, and review progress connected. I kept file-by-file review so each explanation can be checked against the diff, then brought the frequent controls together. PR progress stays in the header; the footer discloses the seven included diffs. Layer activity holds summary seen progress, separate from file progress and the review decision. Paper shows the original screen, what I changed, and why.
 
 ## Try it
+
+The short presentation demonstrates three actions: follow a summary, switch files, and Mark viewed with Undo. Unified and Split wrap by default at 13px. Wrap beside the diff toggles horizontal reading while preserving position.
 
 Select a summary, then use Inspect code to choose a specific statement in access.ts. Go to summary start keeps its full context reachable. Split compacts the empty Before side of an added file and wraps long lines; Equal panes restores 50/50. Use Previous and Next beside the filename, or open the position to search all nine paths. Each file keeps its code and context position. Comments has a separate index for local file/line notes. Toggle Mark viewed and try Undo after switching files. Move between layers with J/K, use Z to focus, then open Submit review. The confirmation stays open until dismissed; decisions are simulated and nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
 

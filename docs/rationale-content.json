@@ -12,22 +12,22 @@
     ],
     [
       "Several rows of file controls compete with the diff.",
-      "I put frequent file actions in one toolbar and kept Submit review in the PR header. Focus condenses the heading and hides both side panels without losing your place."
+      "I put frequent file actions in one toolbar and kept Submit review in the PR header. I preserved J/K and Z. Wrap is visible beside the diff and on by default."
     ],
     [
       "The 37-summary count belongs to the layer. access.ts has six.",
-      "I labeled both counts and separated summary scope from the selected code. The two access.ts summaries have specific, manually mapped anchors. Other summaries open at their start. The full source summary stays available."
+      "The tab shows file summaries. Layer activity holds the layer count and seen progress. The two access.ts summaries have manually mapped code anchors; other summaries open at their start. The full source summary stays available."
     ],
     [
       "Seen summaries, viewed files, and a submitted review mean different things.",
-      "PR progress and the seven included demo files have separate counts. Opening a file never marks it viewed. Summary seen and the final decision stay separate. Viewed changes can be undone."
+      "PR progress stays in the header; the seven-file demo boundary stays in the footer. Opening a file never marks it viewed. Viewed changes have Undo. Summary seen and the final decision remain separate."
     ]
   ],
-  "tradeoff_title": "Give added code the room",
-  "tradeoff": "Split compacts the empty Before panel to 96px and wraps long lines at 13px. Equal panes restores 50/50. The complete function remains readable around an anchor; one highlighted line is not a correctness verdict.",
+  "tradeoff_title": "Keep long lines readable",
+  "tradeoff": "Unified and Split wrap by default at 13 px, with a visible Wrap toggle. Wrapping adds vertical scrolling. Split gives added code more room with a 96 px empty Before rail; Equal panes restores 50/50.",
   "validation_title": "What I checked",
-  "validation": "The comparison keeps the same imports, full source summary, and captured progress. I checked anchor jumps, file switching, notes, Undo, keyboard access and Split at 1440px and 1280px. These are implementation checks; developer testing remains outstanding.",
+  "validation": "The comparison keeps the same imports, full source summary, and captured progress. I checked wrapping, anchor jumps, file switching, Undo and keyboard access at 1440 and 1280 px. These are implementation checks; developer testing remains outstanding.",
   "scope": "This uses the out-of-date Formbricks #8650 snapshot at 23cdac2. Seven of 52 diffs are included. Other content is labeled as a preview; not every source workflow is implemented. Submitting a review is simulated and sends nothing.",
   "next_title": "What I’d test next",
-  "next": "I’d test whether developers can explain the behavior behind each anchor, and whether compact Split is comfortable to read. Paired-file inspection and a review-wide private question queue remain sketches."
+  "next": "I’d test whether developers can explain the code behind each anchor and comfortably read long lines. Modified-file diffs and cross-file review need further work. Supporting states and explorations are optional."
 }

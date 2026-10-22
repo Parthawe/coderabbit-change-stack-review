@@ -6,25 +6,17 @@
     "01-evidence",
     "01b-matched",
     "02-main",
-    "02b-rationale",
-    "03-flow",
-    "04-focus",
-    "05-review",
-    "05b-confirmation",
-    "06-unavailable",
-    "07-recovery",
-    "08-next-experiments",
-    "09-critical-review",
-    "10-split"
+    "02b-rationale"
   ],
-  "canvas": "Original, matched comparison, main screen and rationale run left to right. Supporting states, recovery, next experiments and ten review perspectives sit below.",
+  "canvas": "The final page contains the start, diagnosis, matched comparison, M and rationale. Supporting states, next tests and AI critique have their own page.",
   "editability": "Redesigned screen, states, and rationale are native Paper nodes; original source screenshot is raster reference material.",
   "source_format": "Raw Paper JSX references are not runnable React components.",
   "pages": [
-    "01 \u00b7 Final submission",
-    "Archive \u00b7 Product explorations",
-    "Archive \u00b7 Screenshot-based study",
-    "Archive \u00b7 Visual explorations"
+    "01 · Final submission",
+    "Supporting material · states and next tests",
+    "Archive · Product explorations",
+    "Archive · Screenshot-based study",
+    "Archive · Visual explorations"
   ],
   "limits": "Other detailed diffs, uncaptured summaries, and reply bodies are outside the fixture. The source is stale and access intermittent. Reviews are simulated. Paper currently requires sign-in.",
   "source": "https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b",
@@ -56,11 +48,11 @@
       49,
       130
     ],
-    "verified_state": "File 1 of 9 unviewed; nine layer files left; two of 37 layer summaries seen. Other layers\u2019 viewed state is not inferred.",
+    "verified_state": "File 1 of 9 unviewed; nine layer files left; two of 37 layer summaries seen. Other layers’ viewed state is not inferred.",
     "wrapping": "All seven imports wrap without clipping or shrinking type."
   },
   "file_switching": "Previous/Next, searchable position, disabled boundaries, per-file selected summary and reading position, no automatic viewed state.",
-  "file_progress": "PR count retains 52 files. A separate seven-file demo count shows reachable progress. Seen summaries remain separate.",
+  "file_progress": "PR count retains 52 files. The persistent footer discloses seven included diffs. Layer summary seen progress is available under Layer activity; demo totals remain in the decision dialog.",
   "next_experiments": "Statement anchors for the two access.ts summaries are implemented and still need developer testing. Paired inspection and private questions remain Paper concepts.",
   "submission_packet": {
     "required_links": [
@@ -75,6 +67,20 @@
   },
   "summary_selection": "Nine manually mapped anchors across two captured access.ts summaries; other summaries highlight their start. Full summary scope and source text remain available.",
   "split": "Added-file Before panel is 96px by default. After receives the remaining width with 13px code and wrapping. Equal panes restores 50/50. This does not demonstrate modified-file patches.",
-  "split_state": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/3C0-0",
-  "diagnosis_caption": "The main screen inspects the trimming statement at line 75; Go to summary start remains at line 49."
+  "split_state": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-5-0/3C0-0",
+  "diagnosis_caption": "The main screen inspects the trimming statement at line 75; Go to summary start remains at line 49.",
+  "supporting_order": [
+    "03-flow",
+    "04-focus",
+    "05-review",
+    "05b-confirmation",
+    "06-unavailable",
+    "07-recovery",
+    "08-next-experiments",
+    "09-critical-review",
+    "10-split"
+  ],
+  "supporting_page": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-5-0",
+  "readability": "Unified and Split wrap by default at 13px/24px. A visible Wrap toggle sits beside the diff; preferences remain independent and preserve reading position.",
+  "presentation": "Diagnosis, matched comparison, M, then follow a summary, switch files, and Mark viewed with Undo. J/K and Z were preserved from the original."
 }

@@ -1,6 +1,6 @@
 # Assignment cross-check
 
-Updated October 20, 2026 against the full three-page challenge, the exact assigned [review run](https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b), and the resulting Paper and browser artifacts.
+Updated October 21, 2026 against the full three-page challenge, the exact assigned [review run](https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b), and the resulting Paper and browser artifacts.
 
 The primary submission remains one main layer-based reviewing screen. The newly accessible Formbricks evidence replaces the earlier screenshot fallback in the primary Paper page, prototype, comparison, and rationale. The four product approaches remain optional explorations and now use the same Formbricks PR, file, and pinned code as the main workspace. Each of the five approaches has a rationale beside it in Paper.
 
@@ -62,3 +62,7 @@ The final handoff is three links: editable Paper, the public prototype, and the 
 ## Anchor and Split refinement
 
 M stays final. Summary scope is distinct from its selected evidence: two access.ts summaries expose manually mapped anchors; other summaries land at their start. All captured code and the full source summary remain available. Added-file Split compacts the empty Before side, wraps by default and retains a reversible Equal panes control. Paper includes a native supporting Split state. These improvements do not claim automatic statement mapping or modified-file patch coverage.
+
+## Final presentation refinement
+
+The primary Paper page now has five boards: start, diagnosis, matched comparison, M and rationale. Nine supporting boards moved to their own page; no content was deleted. Unified and Split wrap by default with a visible toggle. Repeated metadata was removed; Layer activity discloses summary-reading progress. PR progress and the persistent demo-coverage footer remain distinct. The browser top bar leads to Paper, comparison and rationale; future work is optional inside Source notes & states.

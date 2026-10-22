@@ -123,3 +123,11 @@ Compact/Equal panes switching retained the first visible code line; returning to
 Corrected the diagnosis checkpoint caption in Paper to describe the trimming statement at L75. Summary start remains L49. The PNG and clean JSX were freshly exported from Paper and copied into the deliverables. The rendered caption fits without clipping. M remains final.
 
 Paper sharing was inspected in the desktop Share menu: Anyone with the link can access. A signed-out browser reaches Paper sign-in. The prototype and rationale return 200 without authentication; published files match the committed versions. The submission draft now states that Paper requires sign-in. No message was sent.
+
+## October 21: final readability and presentation refinement
+
+Paper first: wrapped Unified code at the existing 13px/24px size; visible Wrap control; PR progress in the header, coverage in the footer, summary seen/count inside Layer activity. The primary page has five boards; nine supporting boards moved to a separate page. The public start link and M remain unchanged. Current PNG and clean JSX exports were regenerated.
+
+Browser checks at 1280 × 720 and 1440 × 960: Unified default wrapping has no horizontal code overflow (711/711px and 871/871px respectively); compact Split at 1280 has 614/614px After width. At 1280 the full two-line trimming statement is visible on initial arrival. Wrapping uses 13px code; no type-size reduction. Keyboard Enter toggles Wrap, keeps focus on its control and retains the top source line. Per-layout preferences remain separate.
+
+Summary selection, file switching/return, explicit Mark viewed, Undo, focus restoration and Layer activity disclosure were exercised. Navigation never marked a file viewed. Optional supporting links are reachable from Source notes & states. Source-error preview still opens. JavaScript syntax check passes. The original source fixture and reference screenshot are unchanged. The rationale remains one page and its rendered output was inspected. These are implementation checks, not developer research.

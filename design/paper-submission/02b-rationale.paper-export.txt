@@ -1,12 +1,3 @@
-{
-  "file": {
-    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
-    "name": "CodeRabbit — Change Stack Review"
-  },
-  "contentHash": {
-    "tokens": "811c9dc5"
-  }
-}
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '640px' }}>
       <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '20px' }}>
@@ -33,7 +24,7 @@
           Put the file actions in one place
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          The original spreads file controls across several rows. I brought the frequent actions into one toolbar and kept Submit review in the header. Z gives the code more room without losing your place.
+          I put frequent file actions in one toolbar and kept Submit review in the PR header. J/K and Z already existed; I preserved them. Wrap is now visible beside the diff and on by default.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -41,7 +32,7 @@
           Make the summary counts clear
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          37 summaries belong to the layer; six belong to access.ts. The summary keeps its full scope, while Inspect code highlights a specific statement or branch. The two captured access.ts summaries have manually mapped anchors. The full source summary stays available.
+          The tab shows six file summaries. Layer activity holds the layer’s 37-summary count and seen progress. Inspect code links the two access.ts summaries to manually mapped statements. The full source summary remains available.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -49,15 +40,15 @@
           Marking a file viewed is its own action
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          File progress leads in the header. The demo’s seven included diffs have a separate count, so 52 PR files never implies a finishable demo. Opening a file doesn’t mark it viewed. Undo corrects that choice; summary seen and Submit review stay separate.
+          PR progress stays in the header; the seven-file demo boundary stays in the footer. Opening a file never marks it viewed. Undo corrects that choice. Summary seen and Submit review remain separate.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Give added code the room
+          Keep long lines readable
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Split compacts the empty Before side of an added file to 96 px, wraps long lines, and keeps the code at 13 px. Equal panes restores 50 / 50. Z still hides side panels and keeps your place. This fixture does not demonstrate modified-file patches.
+          Unified and Split wrap by default at 13 px, with a visible Wrap toggle. Wrapping adds vertical scrolling. Split gives added code more room with a 96 px empty Before rail; Equal panes restores 50 / 50.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>
@@ -73,7 +64,7 @@
           Why this direction, and what comes next
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          I kept file-by-file review. Specific code anchors and compact added-file Split are now part of the prototype. I’d test whether the anchors help developers explain the behavior. Paired-file inspection and the review-wide private question queue remain sketches.
+          M keeps file-by-file review familiar. I’d test whether developers can explain the code behind each anchor and comfortably read long lines. Modified-file diffs and cross-file review need further work. Supporting states and explorations are optional.
         </div>
       </div>
     </div>

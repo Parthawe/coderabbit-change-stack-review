@@ -56,7 +56,7 @@ Seven included added-file diffs are enough to demonstrate this flow. They cannot
 
 ## What I would explore next
 
-The [Paper concept board](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/37R-0) and [public sketches](https://parthawe.github.io/coderabbit-change-stack-review/next.html) use the same verified snapshot. These are proposed interactions, not working prototype features.
+The [Paper concept board](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-5-0/37R-0) and [public sketches](https://parthawe.github.io/coderabbit-change-stack-review/next.html) use the same verified snapshot. These are proposed interactions, not working prototype features.
 
 1. **Statement anchors:** link the trimming statement to access.ts line 75, with the whole function still available. Test whether a developer can explain the supported behavior. The risk is treating one line as sufficient context.
 2. **Paired inspection:** retain the caller at access.ts line 57 while opening the verified guard in feedback-access.ts. Test which responsibility belongs to each file. The cost is narrower panes and another navigation surface.
