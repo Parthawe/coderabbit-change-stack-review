@@ -13,17 +13,95 @@
             <circle cx="7" cy="12" r="2" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
           <div style={{ boxSizing: 'border-box', color: '#000000', flex: 1, flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '48px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '56px', maxWidth: '1320px', minWidth: '0px' }}>
-            Keep actions close to what they change.
+            I grouped controls by what they change.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          Problems 5–6 · File viewed, summary seen and review submission stay separate.
+          Problems 5–6 · I used scope to decide what stays visible, what moves, and what belongs in Tools.
         </div>
       </div>
-      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '40px', width: '1440px' }}>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', paddingBlock: '24px', width: '360px' }}>
+      <div style={{ borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
+          FINAL GROUPING · ACCESS.TS
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
+          File actions beside the filename. Reading controls above the diff.
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', width: '1440px' }}>
+          <div style={{ alignItems: 'center', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingBlock: '20px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
+              This file
+            </div>
+            <div style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '24px', paddingBlock: '16px', paddingInline: '20px', width: '1208px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#2A624A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '28px' }}>
+                access.ts +194
+              </div>
+              <div style={{ borderColor: '#928D96', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '6px', paddingInline: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                  Mark viewed
+                </div>
+              </div>
+              <div style={{ borderColor: '#928D96', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '6px', paddingInline: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                  Tools ⌄
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style={{ alignItems: 'center', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingBlock: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
+              Reading the diff
+            </div>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '32px', width: '1208px' }}>
+              <div style={{ backgroundColor: '#EDECEF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', paddingBlock: '12px', paddingInline: '20px', width: '440px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                  Unified   Split   Focus Z
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+                Changes the view; keeps the same file
+              </div>
+            </div>
+          </div>
+          <div style={{ alignItems: 'center', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingBlock: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
+              This summary
+            </div>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '32px', width: '1208px' }}>
+              <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', paddingBlock: '12px', paddingInline: '20px', width: '440px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                  Mark seen
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+                Records the summary as seen; does not mark the file viewed
+              </div>
+            </div>
+          </div>
+          <div style={{ alignItems: 'center', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingBlock: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
+              The review
+            </div>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '32px', width: '1208px' }}>
+              <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', paddingBlock: '12px', paddingInline: '20px', width: '440px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                  Submit review · unavailable (merged)
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+                Applies to the review; stays in the PR header
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+          I kept frequent actions visible and moved secondary tools into a named menu. Summary seen, file viewed and review submission keep their own targets.
+        </div>
+      </div>
+      <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '28px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            OPTION A
+            EXTREME 1 · KEEP EVERYTHING EXPOSED
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Keep controls distributed
@@ -40,60 +118,14 @@
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
               Unified   Split   Focus Z
             </div>
-            <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', paddingTop: '12px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px', whiteSpace: 'pre-wrap' }}>
-                Summary · Mark seen<br />Submit review · unavailable (merged)
-              </div>
-            </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            Everything stays available, but I have to scan several groups before acting.
+            Easy to discover, but I still scan several control groups. I kept the visible actions, then grouped them around the file and the view.
           </div>
         </div>
-        <div style={{ backgroundColor: '#FFFFFF', borderColor: '#C8C4CC', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '24px', padding: '32px', width: '640px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
-            CHOSEN · OPTION B
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
-            Frequent actions beside the file
-          </div>
-          <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '20px', padding: '20px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '28px' }}>
-              access.ts   +194
-            </div>
-            <div style={{ boxSizing: 'border-box', display: 'flex', gap: '10px' }}>
-              <div style={{ borderColor: '#97939B', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '6px', paddingInline: '12px' }}>
-                <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-                  Mark viewed
-                </div>
-              </div>
-              <div style={{ borderColor: '#97939B', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '6px', paddingInline: '12px' }}>
-                <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-                  Tools
-                </div>
-              </div>
-            </div>
-            <div style={{ backgroundColor: '#ECEBED', boxSizing: 'border-box', padding: '8px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-                Unified   Split   Focus Z
-              </div>
-            </div>
-            <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', paddingTop: '12px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-                Navigation · 0 / 7 included diffs viewed
-              </div>
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px', whiteSpace: 'pre-wrap' }}>
-              Summary · Mark seen<br />Submit review · unavailable (merged)
-            </div>
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            The file action has a clear target. Less-used controls still have a named destination.
-          </div>
-        </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', paddingBlock: '24px', width: '360px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            OPTION C
+            EXTREME 2 · PUT FILE ACTIONS IN TOOLS
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Put file actions in Tools
@@ -107,25 +139,22 @@
                 Mark viewed<br />Unified / Split<br />Focus<br />Copy path<br />Wrap long lines
               </div>
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px', whiteSpace: 'pre-wrap' }}>
-              Summary · Mark seen<br />Submit review · unavailable (merged)
-            </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            The surface is quieter, but even routine actions need an extra opening step.
+            A quieter surface, but Mark viewed now needs an extra opening step. I kept the menu for secondary tools rather than using it for every file action.
           </div>
         </div>
       </div>
       <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
-          Why I chose B
+          The tradeoff
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '1208px' }}>
-          Mark viewed stays close to the file. Seen, viewed and submitted remain separate actions. Moving secondary tools into a menu makes them less visible, so the menu needs a clear label.
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '1208px' }}>
+          Tools is less visible than a row of buttons. I would check whether developers can find a secondary action, and whether they can explain what Mark viewed changed.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Current section explorations for access.ts. The main header and summary actions stay in place in all three. Progress covers seven included diffs; opening a file never marks it viewed.
+        Scope sketches for access.ts; the alternatives focus on file actions. Summary and review actions stay in their own areas. Review state stays merged.
       </div>
     </div>
   )

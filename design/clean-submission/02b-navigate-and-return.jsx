@@ -9,17 +9,105 @@
             <path d="m8 5-5 5 5 5M3 10h12a6 6 0 0 1 0 12h-3" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
           <div style={{ boxSizing: 'border-box', color: '#000000', flex: 1, flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '48px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '56px', maxWidth: '1320px', minWidth: '0px' }}>
-            Follow the guard. Keep the way back.
+            I kept a way back to the caller.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          Problems 3–4 · Same access.ts → feedback-access.ts route.
+          Problems 3–4 · I worked through the access check as a round trip, including how I get back.
         </div>
       </div>
-      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '40px', width: '1440px' }}>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', paddingBlock: '24px', width: '360px' }}>
+      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '64px', width: '1440px' }}>
+        <div style={{ borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', width: '460px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
+            KEEP THE LAYER RELATIONSHIP
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
+            Files stay under their layer
+          </div>
+          <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px', padding: '20px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '28px' }}>
+              ⌄ 1 · API contracts and access controls
+            </div>
+            <div style={{ borderLeftColor: '#D5D2D8', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', paddingLeft: '16px' }}>
+              <div style={{ backgroundColor: '#ECEBED', boxSizing: 'border-box', padding: '6px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
+                  access.ts
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', padding: '6px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
+                  feedback-access.ts
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+            CodeRabbit already has a Files tree. I brought nesting into layer review so the active file stays connected to its layer.
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '24px', width: '916px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
+            THE ROUTE I KEPT
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
+            Inspect another file. Return to the same place.
+          </div>
+          <div style={{ boxSizing: 'border-box', display: 'flex', gap: '16px', width: '916px' }}>
+            <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', padding: '20px', width: '268px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+                01 · CALLER
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '30px' }}>
+                access.ts
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px', whiteSpace: 'pre-wrap' }}>
+                L57–65<br />Require workspace access
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                Inspect guard →
+              </div>
+            </div>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ alignSelf: 'center', flexShrink: '0', display: 'inline-block' }}>
+              <path d="M2 12h20m-7-7 7 7-7 7" fill="none" stroke="#B66030" strokeWidth="1.7" />
+            </svg>
+            <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', padding: '20px', width: '268px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+                02 · GUARD
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '30px' }}>
+                feedback-access.ts
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px', whiteSpace: 'pre-wrap' }}>
+                L27 and L38<br />Inspect the checks
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                Return →
+              </div>
+            </div>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ alignSelf: 'center', flexShrink: '0', display: 'inline-block' }}>
+              <path d="M2 12h20m-7-7 7 7-7 7" fill="none" stroke="#B66030" strokeWidth="1.7" />
+            </svg>
+            <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', padding: '20px', width: '268px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+                03 · BACK TO CALLER
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '30px' }}>
+                access.ts
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px', whiteSpace: 'pre-wrap' }}>
+                L57–65<br />Same selection and reading position
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                Viewed state unchanged
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '28px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            OPTION A
+            ALTERNATIVE · DIRECT SELECTION
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             A flat file picker
@@ -45,53 +133,17 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            Fast for direct file selection, but the layer relationship and route back remain implicit.
+            A flat picker is compact. I kept its quick selection idea, but used nesting to show which layer the files belong to.
           </div>
         </div>
-        <div style={{ backgroundColor: '#FFFFFF', borderColor: '#C8C4CC', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '24px', padding: '32px', width: '640px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
-            CHOSEN · OPTION B
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
-            Nest files. Keep Return.
-          </div>
-          <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px', padding: '20px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '28px' }}>
-              ⌄ 1 · API contracts and access controls
-            </div>
-            <div style={{ borderLeftColor: '#D5D2D8', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', paddingLeft: '16px' }}>
-              <div style={{ backgroundColor: '#ECEBED', boxSizing: 'border-box', padding: '6px' }}>
-                <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-                  access.ts
-                </div>
-              </div>
-              <div style={{ boxSizing: 'border-box', padding: '6px' }}>
-                <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-                  feedback-access.ts
-                </div>
-              </div>
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-              1. Inspect guard → feedback-access.ts
-            </div>
-            <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', padding: '10px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-                2. From the guard: Return → access.ts · L57–65
-              </div>
-            </div>
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            The files stay attached to their layer. Return restores the caller’s selection and reading position.
-          </div>
-        </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', paddingBlock: '24px', width: '360px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            OPTION C
+            ALTERNATIVE · PARALLEL READING
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Keep both files open
           </div>
-          <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', minHeight: '280px' }}>
+          <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '190px', minHeight: '280px' }}>
             <div style={{ borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', padding: '14px', width: 'round(50%, 1px)' }}>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
                 access.ts<br /><br />L57–65<br />Workspace guard call
@@ -104,20 +156,20 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            Useful for comparing both files. It needs more horizontal space; I would test it with both side panels closed.
+            Two panes let me compare caller and guard together. I kept one pane for this screen; I would revisit two panes with both side panels closed.
           </div>
         </div>
       </div>
       <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
-          Why I chose B
+          The cost of this choice
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '1208px' }}>
-          I kept one readable code pane and made the return route explicit. The tradeoff is that the caller and guard cannot be read at the same time.
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '1208px' }}>
+          One pane keeps the code wide, but I must switch to compare the files. Return restores context; it does not remove that switching cost.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Current section explorations. Only the caller and guard are shown in each option. The two-pane option is a layout sketch, not a code-width test. The original already has a Files tree; I brought nesting into layer review.
+        Current route and layout explorations. The prototype demonstrates one manually mapped caller/guard route. The two-pane sketch has not been tested for readability.
       </div>
     </div>
   )

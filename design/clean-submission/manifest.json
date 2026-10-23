@@ -56,35 +56,35 @@
       "artboards": [
         {
           "id": "62A-0",
-          "name": "Read a summary. Choose when to jump.",
+          "name": "01 · Separate reading from navigation",
           "width": 1600.0,
-          "height": 1009.0,
+          "height": 1284.0,
           "x": 0,
           "y": 0
         },
         {
           "id": "62Q-0",
-          "name": "Follow the guard. Keep the way back.",
+          "name": "02 · Design the round trip",
           "width": 1600.0,
-          "height": 1052.0,
+          "height": 1365.0,
           "x": 1760,
           "y": 0
         },
         {
           "id": "634-0",
-          "name": "Keep actions close to what they change.",
+          "name": "03 · Group controls by scope",
           "width": 1600.0,
-          "height": 1082.0,
+          "height": 1507.0,
           "x": 0,
-          "y": 1220
+          "y": 1520
         },
         {
           "id": "63I-0",
-          "name": "Read the status before the severity.",
+          "name": "04 · Check the reading order",
           "width": 1600.0,
-          "height": 1119.0,
+          "height": 1262.0,
           "x": 1760,
-          "y": 1220
+          "y": 1520
         }
       ]
     },
@@ -236,7 +236,7 @@
       "jsx": "design/clean-submission/02a-read-and-inspect.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2018
+      "pixelHeight": 2568
     },
     {
       "nodeId": "62Q-0",
@@ -244,7 +244,7 @@
       "jsx": "design/clean-submission/02b-navigate-and-return.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2104
+      "pixelHeight": 2730
     },
     {
       "nodeId": "634-0",
@@ -252,7 +252,7 @@
       "jsx": "design/clean-submission/02c-actions-and-progress.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2164
+      "pixelHeight": 3014
     },
     {
       "nodeId": "63I-0",
@@ -260,7 +260,7 @@
       "jsx": "design/clean-submission/02d-comments-and-findings.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2238
+      "pixelHeight": 2524
     },
     {
       "nodeId": "5LF-0",

@@ -449,3 +449,14 @@ Added editable line icons to the opening review flow, diagnosis-to-decision labe
 Reviewed all 17 changed boards. Corrected the opening flow so its three symbols and text labels align at the top. Confirmed readable type, spacing, contrast, alignment and no clipping. The grouped 1–3 / 4–6 / 7–8 evidence structure and four sidebar pages remain. Source captures, final reviewing screen and prototype behavior are unchanged.
 
 Refreshed the 17 affected native 2× PNG exports and editable JSX. Checked all 20 manifest entries and canvas bounds. This is a presentation layout and iconography pass, with no new product or research claims. Nothing was sent to CodeRabbit.
+
+
+### Decision reasoning and layout pass — 23 October 2026
+
+Reworked the four Design decisions boards. The repeated Option A/B/C layout hid the reasoning and made the same center selection look predetermined. Removed the option-letter winner framing; retained the final product decisions.
+
+The summary study contrasts the source click behavior with separate expansion and line navigation, then explains the drawer alternative. Navigation now traces caller, guard and Return beside the nested file relationship. Controls are mapped to file, view, summary and review scope, with exposed-controls and all-in-Tools alternatives below. Comments compares reading orders using the same resolved Major finding and explains why a flat list was set aside.
+
+Each study includes a specific cost, limit or condition that could change the decision. The explorations are current design reasoning, not a claimed historical sequence or A/B-test result. The comments study explicitly notes that one captured thread does not establish how the grouping works across mixed open/resolved findings.
+
+Reviewed all four rendered boards for type, spacing, alignment, contrast and clipping. Fixed a reparenting issue in the drawer strip and removed repeated review metadata from the file-action alternatives. Refreshed four native 2× PNGs and JSX exports, moved the lower canvas row to prevent overlap, and verified all 20 manifest export pairs. Final screen, prototype behavior and rationale decisions remain consistent. Nothing was sent to CodeRabbit.

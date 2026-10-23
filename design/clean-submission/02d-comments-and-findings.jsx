@@ -9,50 +9,33 @@
             <path d="M3 4h18v13H9l-6 4zM7 8h10M7 12h6" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
           <div style={{ boxSizing: 'border-box', color: '#000000', flex: 1, flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '48px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '56px', maxWidth: '1320px', minWidth: '0px' }}>
-            Read the status before the severity.
+            A Major finding can already be resolved.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          Problem 7 · Same resolved finding in access.ts, with two uncaptured replies.
+          Problem 7 · I compared the reading order using the resolved finding captured from access.ts.
         </div>
       </div>
-      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '40px', width: '1440px' }}>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', paddingBlock: '24px', width: '360px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            OPTION A
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
-            A flat message list
-          </div>
-          <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '18px', padding: '20px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-              3 source messages · 1 captured thread
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '28px' }}>
-              Dataset lookup uses an untrimmed directory ID
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-              coderabbitai · Major · Resolved · L75–90
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-              The explicit dataset lookup used the raw directory ID while returned IDs were trimmed.
-            </div>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-              2 replies · bodies not captured
-            </div>
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            The content is available, but I have to read the metadata to establish its status.
-          </div>
+      <div style={{ alignItems: 'center', borderBottomColor: '#D5D2D8', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '48px', paddingBlock: '24px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px', width: '230px' }}>
+          THE CAPTURED CASE
         </div>
-        <div style={{ backgroundColor: '#FFFFFF', borderColor: '#C8C4CC', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '24px', padding: '32px', width: '640px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px', width: '250px' }}>
+          Major · Resolved
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '30px' }}>
+          3 source messages   /   1 captured thread   /   2 reply bodies unavailable
+        </div>
+      </div>
+      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '64px', width: '1440px' }}>
+        <div style={{ borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', width: '800px' }}>
           <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
-            CHOSEN · OPTION B
+            FINAL ORDER · STATUS, THEN SEVERITY
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
-            Resolved history, then severity
+            Establish whether it still needs action
           </div>
-          <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', padding: '20px' }}>
+          <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', padding: '24px' }}>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
               3 source messages · 1 captured thread
             </div>
@@ -80,15 +63,15 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            The finding stays available as history. Its severity does not imply that it still needs action.
+            For this PR, Resolved should be read first. Major stays on the finding, and the thread remains available as review history.
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', paddingBlock: '24px', width: '360px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', width: '576px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            OPTION C
+            ALTERNATIVE · SEVERITY FIRST
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
-            Group by severity first
+            Lead with how serious it is
           </div>
           <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '18px', padding: '20px' }}>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
@@ -108,20 +91,28 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            Useful when triaging open findings, but the severity heading gives this resolved item too much weight.
+            Severity helps triage open findings. Here, leading with Major gives a resolved finding the strongest emphasis. The message count still needs its own label.
           </div>
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '24px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '32px', width: '320px' }}>
+          Why not a flat message list?
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
+          It keeps every message visible. I set it aside because the reviewer must read the metadata to establish whether the finding is still open. Replies belong within the thread.
         </div>
       </div>
       <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
-          Why I chose B
+          When I would revisit it
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '1208px' }}>
-          I need to know whether a finding is still open before deciding how urgently to inspect it. Status comes first; severity stays on the finding. Collapsing history adds a step, but avoids presenting resolved work as a new issue.
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '1208px' }}>
+          This example has one captured thread. I would test a mix of open and resolved findings before applying the grouping broadly. Collapsing history also costs a click when checking past discussion.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Current section explorations using the same captured finding and two unavailable replies. Counts are for access.ts. The finding body is paraphrased in the prototype. Local notes stay separate from source comments.
+        Current reading-order explorations, not usability-test results. Finding wording is paraphrased. The two reply bodies are unavailable; local notes stay separate.
       </div>
     </div>
   )
