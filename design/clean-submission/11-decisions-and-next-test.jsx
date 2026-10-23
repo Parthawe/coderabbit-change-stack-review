@@ -5,7 +5,7 @@
           Why I would submit M
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '21px', lineHeight: '31px', width: '1180px' }}>
-          I chose M because it keeps layers and lets me work through one review task in detail. I can show the decisions in the prototype. I still need to see how they hold up with developers.
+          M is the main screen I would submit with the working prototype and one-page rationale. The four explorations support the choice. I built the summary-to-code route; whether it helps developers review better is still untested.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '36px', paddingBlock: '20px' }}>
@@ -29,7 +29,7 @@
           Is the same information easier to scan?
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px', width: '930px' }}>
-          I split the summary into six short labels, with the full wording one click away. That makes the points easier to pick out, but it takes space. The comparison uses the same code and viewport so you can see what each layout gives up.
+          Six short labels expose the individual points; the full wording is one click away. I expect this to help reviewers find a point, but it takes space. Both captures use the same code, mode and viewport. The original fits more code; faster scanning is still a hypothesis.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '36px', paddingBlock: '20px' }}>
@@ -54,7 +54,7 @@
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-        Scope: seven of 52 diffs, one manually mapped guard route, pinned commit 23cdac2. No developer study. The PR is merged; Submit is disabled. Modified-file review and CodeRabbit’s layer-only semantic diff are outside this sample.
+        Scope: seven of 52 diffs, one manual guard route, commit 23cdac2. Capability destinations are mapped; full functionality is not implemented. No developer study. The PR is merged; Submit is disabled. Modified-file review and semantic diffs are outside this sample.
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', gap: '28px' }}>
         <div style={{ boxSizing: 'border-box', color: '#A33C17', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>

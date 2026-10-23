@@ -14,7 +14,7 @@
             The assignment
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px' }}>
-            Make the main review screen easier to interact with, without losing its capability. Focus on hierarchy, icons, disclosure and small interactions.
+            Make Change Stack easier to interact with, without losing its capability. Diagnose 3–5 problems, redesign one main screen, and explain the choices. Expected effort: 1–2 hours.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '640px' }}>
@@ -31,7 +31,7 @@
           What I prioritized
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '1120px' }}>
-          I kept the existing layer model, summary jumps, Focus and explicit viewed status. I put finding the right code first, then moving between files, then grouping the controls. These are observations from this PR; I haven’t tested their frequency with developers.
+          I worked from the assigned Formbricks review and followed a summary into the code. I compared four ways to start a review, then chose M to improve that route using the PR’s existing content. Layers, J/K, summary jumps, Z Focus and explicit viewed status already exist in CodeRabbit; I kept them.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>

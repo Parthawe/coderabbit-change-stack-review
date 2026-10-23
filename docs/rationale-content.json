@@ -1,6 +1,6 @@
 {
   "title": "Checking the summary against the code",
-  "intro": "The brief was to make Change Stack easier to use without losing its capability. I prioritized finding the right lines, keeping a way back and grouping the controls. I explored four directions, chose M because it keeps layers, and worked with this PR’s existing content.",
+  "intro": "The brief asks for a clearer review screen without losing capability. I followed a summary into the assigned PR’s code, chose three priorities, and compared four directions. I chose M to improve that route using the existing layers and PR content.",
   "rows": [
     [
       "What I noticed",
@@ -22,8 +22,8 @@
   "tradeoff_title": "Why I kept one code pane",
   "tradeoff": "Showing the caller and guard together squeezed both at laptop width, so I chose Return. Both comparison screens use Unified. The original fits more code; M gives files and summary links more room. Focus gives that space back.",
   "validation_title": "What stays available",
-  "validation": "PR details, icons, layer numbers and file positions remain visible. Visiting a file leaves progress alone; Mark viewed and Undo change it. Secondary tools have named destinations. The presentation’s capability map distinguishes working interactions from previews.",
+  "validation": "PR details, icons, layer numbers, J/K and Z Focus remain. Visiting a file leaves progress alone; Mark viewed and Undo change it. Full summary wording and secondary tools have named destinations. The capability map separates working interactions from previews; full functional parity is not implemented.",
   "next_title": "What I would test",
   "next": "I’d ask developers to explain the access check on both screens, then find something the summary might miss. I’d watch for wrong turns and missed branches. If smaller highlights lead people to overlook code, I’d change them.",
-  "scope": "This prototype covers seven of 52 diffs at commit 23cdac2. Links are manually mapped. The PR is merged; Submit is disabled. Semantic diffs and modified-file review are outside this sample. I have not tested it with developers."
+  "scope": "Seven of 52 diffs at commit 23cdac2; manually mapped links. The PR is merged; Submit is disabled. Semantic diffs and modified-file review are outside this sample. No developer testing. This work exceeded the expected 1–2 hours."
 }
