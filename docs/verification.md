@@ -1,6 +1,17 @@
 # Prototype verification
 
-## Current revision
+## Current refinement
+
+- Revised Paper first, then the prototype, matched comparison, rationale, recording script and exports. M remains final. Fifteen Paper PNG/JSX pairs were refreshed.
+- Matched comparison now uses final M with the same imports and six source points. Original historical progress/status remain untouched; M has zero local progress and the later observed merged state.
+- At 1440px and 1280px: no document overflow. Seven layer shortcuts remain reachable above the bounded file list. Split panes retain 13px code; compact Before and equal-pane controls work.
+- L57–65 selects nine rows. Guard/return restores the caller within 1.5px of its departure position. Entire layer shows fourteen compact summary rows. Outline opens as a local popover, jumps to its selected range, closes on Escape and restores focus.
+- Viewed/Undo: 0/7 → 1/7 → 0/7. File switching does not mark viewed. Z retains the visible line; J/K navigates layers. At 1100px context is a 320px overlay without document overflow.
+- The comments panel explains that all three captured comments are resolved. Full source wording remains available; summary options hold complexity and seen progress.
+- Rationale and speaker notes were rendered and inspected as one page each; recording notes as two pages. The Google Doc was updated and its exported PDF inspected.
+- Source evidence remains the saved exact-review capture and audit. No fresh live-source access, developer testing, measured speed gain or full semantic-diff support is claimed.
+
+## Earlier source-consistency revision
 
 October 22 source-consistency pass (after cc55765):
 

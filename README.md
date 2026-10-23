@@ -12,13 +12,13 @@ Paper contains the diagnosis, matched comparison, final reviewing screen and rat
 
 ## Design argument
 
-I kept layer-based review and focused on staying oriented while checking an explanation against code. The original already has summary navigation, explicit viewed status, J/K and Z. The matched comparison preserves its historical capture, including review availability; the final screen shows the merged state. This version keeps the source summary visible, links its individual points to code, and provides a return path after inspecting a guard in another file. File and layer context have explicit scopes. Sample, layer and PR coverage are labeled separately.
+I kept layer-based review and focused on staying oriented while checking an explanation against code. The original already has summary navigation, explicit viewed status, J/K and Z. The comparison pairs the untouched original capture with final M using the same imports and six source points. M shows the later observed merged status. This version keeps short checks visible and the full source wording one click away, links its individual points to code, and provides a return path after inspecting a guard in another file. File and layer context have explicit scopes. Sample, layer and PR coverage are labeled separately.
 
 ## Try it
 
 Start with access.ts. Follow L57–65 beside the workspace-access point, choose Inspect guard, then Return to access.ts. Switch between This file and Entire layer to inspect captured summaries grouped by file. All nine layer paths remain in the rail. Mark viewed updates sample and layer progress; Undo reverses it.
 
-Unified and added-file Split wrap at 13px. Wrap toggles horizontal reading; Equal panes restores a 50/50 split. Tools includes Copy path, Full file / Captured ranges and the six captured access.ts entities. Comments includes Add file note and file/line notes stored in this tab.
+Unified and added-file Split wrap at 13px. Wrap toggles horizontal reading; Equal panes restores a 50/50 split. Tools includes Copy path and Full file / Captured ranges. Outline opens the six captured access.ts entities beside the toolbar. Comments includes Add file note and file/line notes stored in this tab.
 
 The primary snapshot is merged, so Submit review is disabled. Source notes & states contains a separately labeled Open-PR review demo with simulated decisions. Nothing is sent. Loading and unavailable-source demonstrations are there too.
 

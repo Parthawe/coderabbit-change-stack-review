@@ -140,7 +140,7 @@
           Move to the next file without opening a dialog
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
-          All nine layer paths and viewed indicators remain in the rail. Previous, Next and the searchable picker still work. Each file retains its reading position. Two missing modified patches are labeled preview.
+          The nine-path file list stays available in the rail, with bounded scrolling and a fixed seven-layer switcher. Previous, Next and file search preserve reading position. Two missing modified patches remain previews.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingTop: '20px' }}>
@@ -199,10 +199,50 @@
           Other tools are still reachable
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Overview, Architecture impact, history, Settings and Search remain in navigation. Settings also offers labeled previews for Continue, Follow review, global Files mode and Diagrams. The preview explains each boundary; it never sends or starts an external action.
+          Files sits beside Layers; Follow review stays with review tools. Continue sits beside summaries and Diagrams beside layer context. Each uncaptured capability opens a labeled preview. No external action is performed.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Scope and tabs stay fixed while context scrolls. Entire layer groups 14 captured summaries; This file narrows the scope. Tools keeps Copy path, six access.ts entities and file display controls. Comments offers Add file note even when empty.
+          Entire layer starts compact. This file expands the selected explanation. Outline opens beside the toolbar without covering the whole workspace. Tools holds file utilities; bulk viewed is a separate review action.
+        </div>
+      </div>
+      <div style={{ backgroundColor: '#FAF8FB', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', padding: '24px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+          Read full source summary · expanded state
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+          The short labels are reading aids. This disclosure retains the captured wording so the reviewer can check what the summary actually says.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          Adds resolveWorkspaceFeedbackTenant, which:
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          requires workspace access via requireUnifyFeedbackWorkspaceAccess,
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          loads feedback directories for the workspace,
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          trims directory IDs to normalize Hub tenant_id matching,
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          optionally enforces access to a specific dataset (datasetId) with a forbidden response when not permitted,
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          rejects misconfiguration states (no datasets assigned; multiple datasets without an explicit datasetId),
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          returns a single resolved tenant/dataset context plus the full allowed tenant set.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '24px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+          Outline stays beside the file toolbar
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+          A 360 px popover lists the six captured access.ts entities with line ranges. Picking one closes it and jumps to that range. Escape returns focus to Outline; clicking outside dismisses it. The code remains visible and undimmed.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          Copied path, wrapping and collapsing remain in Tools. Mark all viewed lives in Sample review progress, with Undo.
         </div>
       </div>
     </div>

@@ -1,133 +1,133 @@
 (
-    <div id="3AC-0" style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
-      <div id="3AD-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingBottom: '20px' }}>
-        <div id="3AE-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
+      <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingBottom: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
           09 · Critical review · 20 October 2026
         </div>
-        <div id="3AF-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '28px', fontWeight: 600, lineHeight: '34px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '28px', fontWeight: 600, lineHeight: '34px' }}>
           What the ten passes changed
         </div>
-        <div id="3AG-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
           Ten independent AI reviews looked at the same saved version. Their findings were checked against the files and working prototype. This is critique, not developer usability research.
         </div>
       </div>
-      <div id="3AI-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-        <div id="3AJ-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
-          <div id="3AK-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
             01 · Assignment fit
           </div>
-          <div id="3AL-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
             Can the comparison support the design argument?
           </div>
-          <div id="3AM-0" style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             All seven imports now wrap. Source and matched redesign keep the same summary and progress.
           </div>
         </div>
-        <div id="3AN-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
-          <div id="3AO-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
             02 · Developer workflow
           </div>
-          <div id="3AP-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
             Can someone leave and return to evidence?
           </div>
-          <div id="3AQ-0" style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             Notes have a file/line index. Code and context positions return with the file.
           </div>
         </div>
-        <div id="3AR-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
-          <div id="3AS-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
             03 · First use
           </div>
-          <div id="3AT-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
             Is the current scope obvious?
           </div>
-          <div id="3AU-0" style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             PR and demo counts are separate. Search says which paths it covers; the checkbox actually toggles viewed.
           </div>
         </div>
-        <div id="3AV-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
-          <div id="3AW-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
             04 · Visual craft
           </div>
-          <div id="3AX-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
             Do states keep their meaning?
           </div>
-          <div id="3AY-0" style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             Selection keeps green addition text. Tabs have an underline. Focus removes the tall synopsis.
           </div>
         </div>
-        <div id="3AZ-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
-          <div id="3B0-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
             05 · Keyboard access
           </div>
-          <div id="3B1-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
             Can the reviewer get through the screen?
           </div>
-          <div id="3B2-0" style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             One line-comment tab stop, arrow navigation, F6 context switch, and Escape from the overlay.
           </div>
         </div>
-        <div id="3B4-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
-          <div id="3B5-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
             06 · Recovery
           </div>
-          <div id="3B6-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
             What happens after a failure or wrong action?
           </div>
-          <div id="3B7-0" style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             Retry has a busy state; viewed Undo survives unrelated notices. Returning from a gap restores the last file.
           </div>
         </div>
-        <div id="3B8-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
-          <div id="3B9-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
             07 · State integrity
           </div>
-          <div id="3BA-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
             Can two controls contradict each other?
           </div>
-          <div id="3BB-0" style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             Outline selection clears the old editor. Ranges mode keeps an active note. Reset removes stale Undo.
           </div>
         </div>
-        <div id="3BC-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
-          <div id="3BD-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
             08 · Evidence
           </div>
-          <div id="3BE-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
             Are counts, code, and claims supported?
           </div>
-          <div id="3BF-0" style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             Missing captured findings restored in Paper. Stale audit rows corrected; omitted workflows named.
           </div>
         </div>
-        <div id="3BG-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
-          <div id="3BH-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
             09 · Feasibility
           </div>
-          <div id="3BI-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
             Does the implementation support the design?
           </div>
-          <div id="3BJ-0" style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             Split now scrolls continuously. Layout changes preserve the visible code line; no framework needed.
           </div>
         </div>
-        <div id="3BK-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
-          <div id="3BL-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
+        <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '14px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '21px', width: '180px' }}>
             10 · Design judgment
           </div>
-          <div id="3BM-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px', width: '260px' }}>
             Why M, and where would I take it?
           </div>
-          <div id="3BN-0" style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             Keep file-by-file verification. Separately test statement anchors, paired inspection, and parked questions.
           </div>
         </div>
       </div>
-      <div id="3BP-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        <div id="3BQ-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
           Still worth challenging
         </div>
-        <div id="3BR-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
           The broad fill is now replaced by manually mapped access.ts anchors, and Split compacts its empty Before panel. Developers still need to test the anchors’ usefulness. Notes add another state, and seven added files cannot show behavior across the full PR.
         </div>
       </div>

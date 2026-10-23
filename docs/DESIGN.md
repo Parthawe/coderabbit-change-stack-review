@@ -101,7 +101,7 @@ Summary navigation, explicit viewed status, J/K and Z existed in the source. The
 
 ## Layout and type
 
-The desktop shell has a 72px PR header, a 240px navigation rail, a flexible code workspace and a 320px context panel. The layer description starts collapsed in a compact 68px heading. The footer discloses the seven-of-52 diff boundary. All nine layer paths remain visible in the rail's scrollable file list; layer progress sits with them.
+The desktop shell has a 72px PR header, a 240px navigation rail, a flexible code workspace and a 320px context panel. The layer description starts collapsed in a compact 68px heading. The footer discloses the seven-of-52 diff boundary. All nine layer paths remain available in the rail's bounded file list; layer progress sits with them.
 
 Below 1280px, Context opens a 320px overlay between header and footer. The body retains an 880px minimum width. This is a desktop prototype, without a mobile composition. Focus mode hides surrounding panels and preserves the current reading position. Lower-height windows reduce vertical spacing.
 
@@ -111,9 +111,9 @@ Geist supplies interface text; Hack supplies code and technical metadata. Code i
 
 Previous/Next and the searchable position control navigate nine verified layer paths without skipping uncaptured patches. Opening a file never marks it viewed. Each file retains its summary, context tab and reading position. Unavailable patches keep their labeled navigation destination and recovery path.
 
-This file and Entire layer are explicit context scopes. File scope shows the source file's summary count and captured coverage. Entire layer groups fourteen captured summaries under the nine file paths and discloses the source total of 37; missing summaries remain coverage notices. Complexity filters apply to captured summaries, with a coverage empty state for uncaptured Low details. Layer activity holds independent seen-summary progress.
+This file and Entire layer are explicit context scopes. File scope shows the source file's summary count and captured coverage. Entire layer groups fourteen captured summaries under the nine file paths and discloses the source total of 37; missing summaries remain coverage notices. Complexity filters apply to captured summaries, with a coverage empty state for uncaptured Low details. Summary options holds complexity filters and independent seen-summary progress.
 
-The selected workspace-tenant summary shows its original six bullets directly, with a line link beside each. It does not repeat the same explanation in a dropdown and a second prose block. Selecting an evidence link highlights its manually mapped statement or branch and labels the destination Evidence. Go to summary start retains access to the full function. Other captured summaries use their start as a navigation destination. Selection preserves diff signs and addition/deletion colors; reduced motion removes arrival animation while retaining labels.
+The selected workspace-tenant summary shows six short behavior labels, each with a line link. Read full source summary preserves the original wording in a disclosure. Entire layer uses compact summary rows. Selecting an evidence link highlights its manually mapped statement or branch and labels the destination Evidence. Go to summary start retains access to the full function. Other captured summaries use their start as a navigation destination. Selection preserves diff signs and addition/deletion colors; reduced motion removes arrival animation while retaining labels.
 
 Inspect guard on the workspace-access bullet opens feedback-access.ts at its captured 20–49 summary. Return to access.ts restores the caller's reading state. This is one captured caller/guard route; automatic dependency browsing and simultaneous paired panes are not implemented.
 
@@ -121,7 +121,7 @@ Inspect guard on the workspace-access bullet opens feedback-access.ts at its cap
 
 Unified and Split wrap by default at 13px/24px. Their wrap preferences are separate. The visible Wrap control, pane sizing and Focus preserve the visible code line. Added-file Split uses a 96px Before rail labeled File added / No previous version. Equal panes restores 50/50. Modified-file behavior is outside the fixture.
 
-Full file shows all captured added-file lines; Captured ranges limits the display to captured summary ranges, retaining an active note's code. These are display modes, not a semantic-diff engine. Tools includes Copy file path, collapse, bulk viewed and the six manually mapped access.ts entities: TResolveParams, TResolvedFeedbackTenant, resolveWorkspaceFeedbackTenant, TRequireOwnedRecordParams, requireOwnedFeedbackRecord and forbidFeedbackRecord. Other files' entities are not fabricated.
+Full file shows all captured added-file lines; Captured ranges limits the display to captured summary ranges, retaining an active note's code. These are display modes, not a semantic-diff engine. Tools includes Copy file path and collapse. Sample review progress holds bulk viewed. Outline lists six manually mapped access.ts entities: TResolveParams, TResolvedFeedbackTenant, resolveWorkspaceFeedbackTenant, TRequireOwnedRecordParams, requireOwnedFeedbackRecord and forbidFeedbackRecord. Other files' entities are not fabricated.
 
 ## Progress and decisions
 
@@ -145,8 +145,8 @@ The October 22 implementation checks passed for direct links, guard/return, scop
 
 ## Matched comparison
 
-The untouched original capture and matched Paper checkpoint retain access.ts imports 1–7, the full six-point summary for 49–130, file 1 of 9 unviewed, nine layer files left and two of 37 summaries seen. The checkpoint uses captured layer progress; the final prototype starts local progress at zero and labels its sample separately. The static comparison preserves historical review availability, including its active Submit control. The final screen shows Merged and disables Submit. The comparison supports content retention; it does not measure speed or imply the same current PR status.
+The untouched original and final-M comparison retain access.ts imports 1–7 and the six workspace-tenant points. M uses short check labels; the full original wording remains available in the disclosure and comparison text. Both images are 1280 × 720. The original records historical progress and review availability; M starts local progress at zero and shows the later observed merged status. This comparison supports content retention, not a measured improvement.
 
 ## Arc consistency follow-up
 
-The global header uses the actual PR title as a GitHub link, with the captured stack name labeled separately. Context heading, This file / Entire layer and the summary/comment tabs stay fixed; only the context body scrolls. Per-file and guard-return history preserve that body’s position. Settings offers labeled placement previews for Continue, Follow review, global Files mode and unavailable Diagrams. None claims an uncaptured workflow is implemented.
+The global header uses the actual PR title as a GitHub link, with the captured stack name labeled separately. Context heading, This file / Entire layer and the summary/comment tabs stay fixed; only the context body scrolls. Per-file and guard-return history preserve that body’s position. Continue sits beside context, Files beside Layers, Follow review with review tools, and Diagrams beside layer details. Each opens a labeled preview. None claims an uncaptured workflow is implemented.

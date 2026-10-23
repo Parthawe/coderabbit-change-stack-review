@@ -1,33 +1,33 @@
 (
-    <div id="1YS-0" style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
-      <div id="1YT-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px' }}>
-        <div id="1YU-0" style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/5DC9VRSYDYWFW1BTMZJH0PD2R0.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '23px', width: '154px' }} />
-        <div id="1YV-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '36px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '42px', whiteSpace: 'pre-wrap' }}>
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+        <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/5DC9VRSYDYWFW1BTMZJH0PD2R0.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '23px', width: '154px' }} />
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '36px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '42px', whiteSpace: 'pre-wrap' }}>
           Change Stack<br />review workspace
         </div>
-        <div id="1YW-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
           Product Designer Take-Home · Parth Pawar<br />I kept the file, explanation, and review progress connected.
         </div>
       </div>
-      <div id="1ZU-0" style={{ backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '20px' }}>
-        <div id="1ZV-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '26px' }}>
+      <div style={{ backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '26px' }}>
           Final submission · start here
         </div>
-        <div id="1ZW-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
           Start with the diagnosis and matched comparison, then the final reviewing screen. Follow a statement into code, inspect its guard, return, and mark viewed with Undo. Supporting states are on the next page.
         </div>
-        <div id="1ZX-0" style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/
         </div>
-        <div id="23F-0" style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
           One-page rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
         </div>
       </div>
-      <div id="1ZZ-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        <div id="200-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
           Scope and supporting material
         </div>
-        <div id="201-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
           Formbricks #8650 at 23cdac2. Seven of 52 diffs are included. The merged state is preserved; submission is a separate simulation. Paper needs sign-in. Earlier explorations remain archived.
         </div>
       </div>

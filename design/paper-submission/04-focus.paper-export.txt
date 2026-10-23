@@ -118,6 +118,11 @@
                 Tools
               </div>
             </div>
+            <div style={{ alignItems: 'center', borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', height: '32px', paddingInline: '10px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                Outline
+              </div>
+            </div>
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', height: '713px', overflow: 'clip', width: '1440px' }}>
@@ -183,7 +188,7 @@
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
+            <div style={{ boxSizing: 'border-box', color: '#626A65', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
               {'  '}// Normalised once, here: the Hub uses `tenant_id` verbatim — in SQL filters and, for semantic search, in
             </div>
           </div>
@@ -195,7 +200,7 @@
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
+            <div style={{ boxSizing: 'border-box', color: '#626A65', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
               {'  '}// the vector query — with no trimming of its own, so a stray space silently matches nothing instead of
             </div>
           </div>
@@ -207,7 +212,7 @@
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
+            <div style={{ boxSizing: 'border-box', color: '#626A65', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
               {'  '}// failing. Doing it at the source means every consumer gets a usable value; doing it per call site meant
             </div>
           </div>
@@ -219,7 +224,7 @@
             <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
               +
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
+            <div style={{ boxSizing: 'border-box', color: '#626A65', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
               {'  '}// whichever site was written last got it right.
             </div>
           </div>

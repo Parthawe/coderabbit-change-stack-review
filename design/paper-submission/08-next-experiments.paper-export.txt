@@ -1,133 +1,147 @@
 (
-    <div id="37R-0" style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '32px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
-      <div id="38R-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-        <div id="38S-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '32px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
           Next tests · direct links and guard/return implemented · paired panes remain a concept
         </div>
-        <div id="38T-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '34px', fontWeight: 600, lineHeight: '42px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '34px', fontWeight: 600, lineHeight: '42px' }}>
           What I'd test next
         </div>
-        <div id="38U-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px', maxWidth: '1120px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px', maxWidth: '1120px' }}>
           I chose this direction because a reviewer can still read the PR file by file and check each explanation against the diff. The other approaches changed the reading order. I'd test that before making it the default.
         </div>
-        <div id="38V-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
           Direct statement links and guard/return navigation now work in the prototype. Simultaneous paired panes and a review-wide private question queue remain Paper concepts. All use the same Formbricks snapshot.
         </div>
       </div>
-      <div id="38X-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '28px' }}>
-        <div id="38Y-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '14px', width: '600px' }}>
-          <div id="38Z-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '28px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '14px', width: '600px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
             01 · Check one statement against its code
           </div>
-          <div id="390-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
             I linked the captured trimming statement directly to line 75. Both access.ts summaries have links beside their source statements; the full function scope and its start remain reachable.
           </div>
-          <div id="391-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
             Tradeoff · A precise anchor can make one line look sufficient when the behavior depends on the flow around it.
           </div>
-          <div id="392-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
-            Test · Ask a developer to find the code supporting the trimming statement and explain what is normalized. Watch wrong destinations and extra searching.
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+            Test · Compare searching, wrong turns and explanation accuracy against the original. A faster jump helps only if the reviewer still understands the surrounding checks.
           </div>
-          <div id="393-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
             Implemented for the two captured access.ts summaries. Manually verified anchors; no automatic mapping or correctness verdict.
           </div>
         </div>
-        <div id="394-0" style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '24px', width: '720px' }}>
-          <div id="395-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+        <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '24px', width: '720px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
             Full source summary · L49–130
           </div>
-          <div id="396-0" style={{ backgroundColor: '#FFEAD5', borderColor: '#E57340', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
-            <div id="397-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E57340', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
               trims directory IDs to normalize Hub tenant_id matching
             </div>
           </div>
-          <div id="398-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '16px' }}>
-            <div id="399-0" style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
               75 + const allowedTenantIds = directories.map((directory) => directory.id.trim());
             </div>
           </div>
-          <div id="39A-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
             Go to summary start · L49 · scope L49–130
           </div>
         </div>
       </div>
-      <div id="39C-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '28px' }}>
-        <div id="39D-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '14px', width: '600px' }}>
-          <div id="39E-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '28px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '14px', width: '600px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
             02 · Keep the caller while opening the guard
           </div>
-          <div id="39F-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
             access.ts calls an access gate in feedback-access.ts. The prototype opens the guard and restores the caller on return. I'd test whether showing both at once is worth the lost code width.
           </div>
-          <div id="39G-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
             Tradeoff · Two code panes reduce line width and introduce another place to navigate. Keep this view optional.
           </div>
-          <div id="39H-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
             Test · Ask where the workspace gate is enforced and what access.ts checks afterward. Compare the implemented guard/return path with this optional paired view.
           </div>
-          <div id="39I-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
             The prototype implements one Inspect guard / Return to access.ts route. This sketch proposes simultaneous panes. No inferred dependency graph or project-wide impact analysis.
           </div>
         </div>
-        <div id="39J-0" style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '24px', width: '720px' }}>
-          <div id="39K-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+        <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '24px', width: '720px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
             Verified caller · access.ts
           </div>
-          <div id="39L-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
-            <div id="39M-0" style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
               57 + const authResult = await requireUnifyFeedbackWorkspaceAccess(
             </div>
           </div>
-          <div id="39N-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
             Open definition beside caller
           </div>
-          <div id="39O-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
             Verified definition · feedback-access.ts
           </div>
-          <div id="39P-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
-            <div id="39Q-0" style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap' }}>
+          <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap' }}>
               20 + export async function requireUnifyFeedbackWorkspaceAccess(<br />27 +{'   '}const context = await requireV3WorkspaceAccess(
             </div>
           </div>
         </div>
       </div>
-      <div id="39S-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '28px' }}>
-        <div id="39T-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '14px', width: '600px' }}>
-          <div id="39U-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '28px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '14px', width: '600px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
             03 · Return to a question left open
           </div>
-          <div id="39V-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
             Viewed is too coarse to remember an unanswered question. I'd try a review-wide private queue that returns to the file and line without changing viewed state.
           </div>
-          <div id="39W-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
             Tradeoff · Another review state adds bookkeeping. It earns a place only if it reduces the work of resuming.
           </div>
-          <div id="39X-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
             Test · Interrupt a review after someone parks a question. Check whether they return to the intended code and distinguish their question from a source finding.
           </div>
-          <div id="39Y-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '19px' }}>
             Hypothetical personal question flow. No shared tasks, notifications, author messages, or generated findings.
           </div>
         </div>
-        <div id="39Z-0" style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '24px', width: '720px' }}>
-          <div id="3A0-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
+        <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '24px', width: '720px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontSizeAdjust: 'none', lineHeight: '20px' }}>
             Concept only · private question at access.ts:L75
           </div>
-          <div id="3A1-0" style={{ borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', fontSizeAdjust: 'none', minHeight: '80px', padding: '16px' }}>
-            <div id="3A2-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          <div style={{ borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', fontSizeAdjust: 'none', minHeight: '80px', padding: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
               What still needs to be checked?
             </div>
           </div>
-          <div id="3A3-0" style={{ backgroundColor: '#FF570A', borderRadius: '4px', boxSizing: 'border-box', fontSizeAdjust: 'none', paddingBlock: '10px', paddingInline: '14px', width: 'fit-content' }}>
-            <div id="3A4-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+          <div style={{ backgroundColor: '#FF570A', borderRadius: '4px', boxSizing: 'border-box', fontSizeAdjust: 'none', paddingBlock: '10px', paddingInline: '14px', width: 'fit-content' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
               Park question
             </div>
           </div>
-          <div id="3A5-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
-            <div id="3A6-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', fontSizeAdjust: 'none', padding: '14px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
               Private queue → return to access.ts:L75 Viewed state stays unchanged.
             </div>
           </div>
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '28px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
+          04 · Keep layer changes distinct from file context
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px', maxWidth: '1120px' }}>
+          Production behavior to test: show the changes assigned to this layer first. Expand surrounding code in place; offer Full file when the reviewer needs other layers’ changes. Keep the layer boundary labeled in both modes.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', maxWidth: '1120px' }}>
+          If a summary anchor moves after a new commit, stop the jump and show “Code changed since this summary.” Offer the pinned version or the updated file. Never highlight a nearby line as though it were verified.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          Specification only. The prototype’s Full added file and Captured ranges controls do not recreate the semantic-diff engine. A modified-file example and moved-anchor recovery remain required tests.
         </div>
       </div>
     </div>

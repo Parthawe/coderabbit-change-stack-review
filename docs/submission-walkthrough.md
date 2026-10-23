@@ -4,7 +4,7 @@ The final screen keeps layer-based, file-by-file review. The five primary Paper 
 
 ## Three-minute recording
 
-1. Show the original diagnosis and the matched comparison. Both captures retain the imports, full six-point source summary and captured progress. The original already supports summary jumps and explicit viewed status. The matched capture retains historical review availability; the final screen reflects the merged PR.
+1. Show the original diagnosis and the matched comparison. Both show the same imports and six source-summary points. Final M uses short labels and keeps the full wording available. The original already supports summary jumps and explicit viewed status. Its historical progress and review availability remain untouched; M starts at zero local progress and reflects the merged PR.
 2. Open the final prototype at access.ts. Follow L57–65 beside the workspace-access point. Choose Inspect guard to open feedback-access.ts at its captured 20–49 summary, then Return to access.ts.
 3. Choose Entire layer. Explain the 14 captured summaries grouped under nine file paths, with coverage against the original total of 37. Return to This file.
 4. Point to sample and layer progress. Mark viewed and Undo. The seven-file sample, nine-file layer and 52-file PR are different scopes.
@@ -14,7 +14,7 @@ The main snapshot is merged and Submit review is disabled. If asked, Source note
 
 ## Claims and limits
 
-The direct links are manually mapped navigation anchors. The complete source summary remains visible. Inspect guard supports one captured caller/guard route; it does not establish automatic dependency navigation. Full file and Captured ranges are display modes, not a semantic-diff engine. The six captured access.ts entities are available in Tools. Copy path and Add file note preserve narrow source workflows.
+The direct links are manually mapped navigation anchors. The complete source summary remains available in Read full source summary. Inspect guard supports one captured caller/guard route; it does not establish automatic dependency navigation. Full file and Captured ranges are display modes, not a semantic-diff engine. The six captured access.ts entities are available in the Outline popover. Copy path and Add file note preserve narrow source workflows.
 
 The revised direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities and keyboard flows passed implementation checks at 1440px, 1280px and 1100px. Developer testing remains outstanding. The prototype includes seven of 52 diffs from the out-of-date 23cdac2 snapshot; modified-file review needs further work.
 

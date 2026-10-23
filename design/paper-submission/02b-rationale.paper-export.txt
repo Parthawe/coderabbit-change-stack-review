@@ -16,7 +16,7 @@
           File identity and controls compete with the code.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          All nine layer paths stay in the rail. A compact heading and one file toolbar leave more height for code. Copy path and the six captured access.ts entities remain in Tools.
+          The file list stays available in the rail. A fixed layer switcher keeps all seven layers reachable when files are expanded. Outline sits beside the code; occasional file actions stay in Tools.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -24,7 +24,7 @@
           A broad summary range leaves the supporting statement to find.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          The full six-point source summary has direct code links. Inspect guard opens the captured access check in feedback-access.ts; Return to access.ts restores the caller. Anchors are manually mapped.
+          Short behavior labels link to code; the full source wording is one click away. Inspect guard opens feedback-access.ts. Return to access.ts restores the caller. The anchors are manually mapped starting points.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -32,7 +32,7 @@
           File context and layer context need different scopes.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          This file and Entire layer make that choice explicit. Scope and tabs stay visible while the summaries scroll. The layer view groups 14 captured summaries across nine paths, with coverage shown against the source total of 37.
+          This file shows the selected explanation. Entire layer starts with compact summary rows across the nine paths. Scope and tabs stay fixed while context scrolls. Coverage is explicit: 14 of 37 summaries captured.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -64,7 +64,7 @@
           What I’d test next
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          I’d ask developers to explain the workspace access check, follow it into the guard, and return to the caller. I’d watch where they lose their place or confuse file, layer and sample progress. Modified-file review still needs work.
+          My hypothesis is less searching and backtracking without losing comprehension. I’d ask developers to explain the access check, inspect its guard, then return. Compare wrong turns and explanation accuracy against the original. Modified-file review and stale anchors need testing.
         </div>
       </div>
     </div>

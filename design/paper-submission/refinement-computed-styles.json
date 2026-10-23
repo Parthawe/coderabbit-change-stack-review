@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"file\": {\n    \"id\": \"01M5AQACJZP42ZGTRX7GF9ERE7\",\n    \"name\": \"CodeRabbit — Change Stack Review\"\n  },\n  \"contentHash\": {\n    \"tokens\": \"811c9dc5\"\n  }\n}"
+    },
+    {
+      "type": "text",
+      "text": "{\n  \"styles\": {\n    \"G-0\": {\n      \"display\": \"flex\",\n      \"flexDirection\": \"column\",\n      \"width\": \"240px\",\n      \"height\": \"852px\",\n      \"flexShrink\": \"0\",\n      \"gap\": \"2px\",\n      \"padding\": \"12px\",\n      \"backgroundColor\": \"#FAF8FB\",\n      \"borderRightWidth\": \"1px\",\n      \"borderRightStyle\": \"solid\",\n      \"borderRightColor\": \"#E3E0E7\"\n    },\n    \"3KD-0\": {\n      \"display\": \"flex\",\n      \"flexDirection\": \"column\",\n      \"paddingRight\": \"8px\",\n      \"paddingLeft\": \"28px\",\n      \"gap\": \"2px\",\n      \"maxHeight\": \"144px\",\n      \"flexShrink\": \"0\",\n      \"overflow\": \"clip\",\n      \"paddingBlock\": \"6px\"\n    },\n    \"4DG-0\": {\n      \"display\": \"flex\",\n      \"flexShrink\": \"0\",\n      \"paddingTop\": \"4px\",\n      \"paddingBottom\": \"8px\",\n      \"gap\": \"3px\"\n    },\n    \"2L-0\": {\n      \"display\": \"flex\",\n      \"flexDirection\": \"column\",\n      \"borderRadius\": \"5px\",\n      \"gap\": \"8px\",\n      \"height\": \"fit-content\",\n      \"padding\": \"12px\",\n      \"flexShrink\": \"0\",\n      \"backgroundColor\": \"#FDFDFE\",\n      \"borderWidth\": \"1px\",\n      \"borderStyle\": \"solid\",\n      \"borderColor\": \"#D5CDD7\"\n    },\n    \"3KI-0\": {\n      \"fontSize\": \"13px\",\n      \"lineHeight\": \"18px\",\n      \"whiteSpace\": \"pre-wrap\",\n      \"fontFamily\": \"\\\"Geist\\\", system-ui, sans-serif\",\n      \"fontWeight\": 400,\n      \"color\": \"#000000\"\n    },\n    \"4DQ-0\": {\n      \"display\": \"flex\",\n      \"alignItems\": \"center\",\n      \"height\": \"32px\",\n      \"paddingInline\": \"10px\",\n      \"borderRadius\": \"4px\",\n      \"borderWidth\": \"1px\",\n      \"borderStyle\": \"solid\",\n      \"borderColor\": \"#BDB9C2\"\n    },\n    \"4SW-0\": {\n      \"fontSize\": \"12px\",\n      \"lineHeight\": \"18px\",\n      \"whiteSpace\": \"pre-wrap\",\n      \"fontFamily\": \"\\\"Geist\\\", system-ui, sans-serif\",\n      \"fontWeight\": 400,\n      \"color\": \"#65616A\"\n    }\n  }\n}"
+    }
+  ]
+}
