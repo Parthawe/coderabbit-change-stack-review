@@ -12,7 +12,7 @@
           "id": "5FN-0",
           "name": "Task, diagnosis and decision",
           "width": 1440.0,
-          "height": 828.0,
+          "height": 872.0,
           "x": 0,
           "y": 0
         },
@@ -196,7 +196,7 @@
       "jsx": "design/clean-submission/01a-challenge.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 1656
+      "pixelHeight": 1744
     },
     {
       "nodeId": "5YT-0",

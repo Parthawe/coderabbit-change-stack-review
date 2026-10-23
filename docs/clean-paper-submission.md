@@ -17,4 +17,6 @@ Current 2× PNG and editable JSX exports are in design/clean-submission. The sou
 
 Layout references came from [Chronicle’s gallery](https://chroniclehq.com/gallery), particularly the [Lovable case study](https://chroniclehq.com/gallery/lovable-case-study) and the [FlowOS sample proposal](https://chroniclehq.com/gallery/how-flowos-helps-openai-collaborate-faster). The opening uses a connected review flow; decision pages emphasize the chosen section; interaction descriptions place each action beside its result. These are layout references only. No reference images, claims or branding were copied into the submission.
 
+Line icons connect related sections across all four pages: summary, code, Return, file viewed, controls, comments, Focus and comparison. Tradeoffs and the next developer check have distinct symbols. Every icon sits beside a text label; orange remains reserved for pointers and code emphasis. Original screenshots and the product interface retain their existing iconography.
+
 The site remains the prototype. The submission links are Paper, prototype and one-page rationale. No message has been sent to CodeRabbit.

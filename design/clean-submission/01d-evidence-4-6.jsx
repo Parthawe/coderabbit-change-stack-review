@@ -4,8 +4,13 @@
         <div style={{ boxSizing: 'border-box', color: '#A33C17', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
           01 / Where I noticed the problems · 4–6
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '40px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '48px' }}>
-          Keeping your place and progress
+        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '16px', width: '100%' }}>
+          <svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+            <path d="m8 5-5 5 5 5M3 10h12a6 6 0 0 1 0 12h-3" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <div style={{ boxSizing: 'border-box', color: '#000000', flex: 1, flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '40px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '48px', minWidth: '0px' }}>
+            Keeping your place and progress
+          </div>
         </div>
       </div>
       <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '64px', width: '1440px' }}>

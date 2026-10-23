@@ -440,3 +440,12 @@ Combined the eight individual evidence boards into three related groups: 1–3, 
 Reviewed all three renders for spacing, type, contrast, alignment, clipping and repetition. All eight pointers match their explanations. Removed repeated captions and the five obsolete board shells. Original image density is preserved; no enhancement or invented source content was added. Refreshed the three grouped PNG exports at 2× and their editable JSX. Verified all 20 manifest entries, image dimensions and canvas bounds. Previous individual exports remain in Git history.
 
 This change groups the evidence in Paper and its export package. Prototype behavior, final product screen and rationale are unchanged. Nothing was sent to CodeRabbit.
+
+
+### Consistent visual cues across four pages — 23 October 2026
+
+Added editable line icons to the opening review flow, diagnosis-to-decision labels, evidence headings, four decision headings, matched comparison titles, interaction flows, supporting captions and tradeoffs. The same symbol carries the same meaning across the document. Icons remain beside text, in neutral gray; orange pointers and statement emphasis retain their role.
+
+Reviewed all 17 changed boards. Corrected the opening flow so its three symbols and text labels align at the top. Confirmed readable type, spacing, contrast, alignment and no clipping. The grouped 1–3 / 4–6 / 7–8 evidence structure and four sidebar pages remain. Source captures, final reviewing screen and prototype behavior are unchanged.
+
+Refreshed the 17 affected native 2× PNG exports and editable JSX. Checked all 20 manifest entries and canvas bounds. This is a presentation layout and iconography pass, with no new product or research claims. Nothing was sent to CodeRabbit.

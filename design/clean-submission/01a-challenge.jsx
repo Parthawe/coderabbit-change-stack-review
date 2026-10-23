@@ -11,21 +11,38 @@
           Make Change Stack easier to review without losing what it can do. I focused on the steps a reviewer takes to understand a change and decide what to do next.
         </div>
       </div>
-      <div style={{ alignItems: 'center', borderBottomColor: '#D5D2D8', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingBlock: '28px', width: '1280px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 500, lineHeight: '36px', width: '340px' }}>
-          Understand the change
+      <div style={{ borderBottomColor: '#D5D2D8', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingBlock: '28px', width: '1280px' }}>
+        <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '340px' }}>
+          <svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+            <rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M8 8h8M8 12h8M8 16h5" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 500, lineHeight: '36px', minWidth: '0px', width: '100%' }}>
+            Understand the change
+          </div>
         </div>
-        <svg width="60" height="24" viewBox="0 0 60 24" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
+        <svg width="60" height="24" viewBox="0 0 60 24" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', alignSelf: 'center', flexShrink: '0' }}>
           <path d="M0 12 H55 M47 4 L55 12 L47 20" fill="none" stroke="#C65D21" strokeWidth="2" />
         </svg>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 500, lineHeight: '36px', width: '280px' }}>
-          Check its code
+        <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '280px' }}>
+          <svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+            <path d="m8 6-6 6 6 6m8-12 6 6-6 6M14 4l-4 16" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 500, lineHeight: '36px', minWidth: '0px', width: '100%' }}>
+            Check its code
+          </div>
         </div>
-        <svg width="60" height="24" viewBox="0 0 60 24" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
+        <svg width="60" height="24" viewBox="0 0 60 24" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', alignSelf: 'center', flexShrink: '0' }}>
           <path d="M0 12 H55 M47 4 L55 12 L47 20" fill="none" stroke="#C65D21" strokeWidth="2" />
         </svg>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 500, lineHeight: '36px', width: '320px' }}>
-          Decide and track progress
+        <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '320px' }}>
+          <svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+            <path d="M14 2H5v20h14V7zM14 2v5h5" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="m8 14 3 3 5-6" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 500, lineHeight: '36px', minWidth: '0px', width: '100%' }}>
+            Decide and track progress
+          </div>
         </div>
       </div>
       <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingBlock: '16px' }}>

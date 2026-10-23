@@ -4,8 +4,14 @@
         <div style={{ boxSizing: 'border-box', color: '#A33C17', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
           01 / Where I noticed the problems · 1–3
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '40px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '48px' }}>
-          Finding the right code
+        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '16px', width: '100%' }}>
+          <svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+            <circle cx="10" cy="10" r="7" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="m15 15 7 7M7 10h6m-3-3v6" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <div style={{ boxSizing: 'border-box', color: '#000000', flex: 1, flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '40px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '48px', minWidth: '0px' }}>
+            Finding the right code
+          </div>
         </div>
       </div>
       <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '80px', width: '1440px' }}>
