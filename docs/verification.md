@@ -21,7 +21,9 @@ Reviewer assessment against the brief:
 - Scanning: M makes the six summary points and files explicit. The original fits more code, so this is a navigation/context tradeoff rather than a universal density improvement.
 - Explanation: the entry page credits existing capabilities, compares the same mode and code, and gives a test that could change the decision. The proposal is ready to review as a focused design exercise; no developer or director-level validation is implied.
 
-These are implementation and presentation checks, not a developer study or a hiring score. Paper was not edited in this pass. Earlier rehearsal videos and Paper matched-import exports are historical references; the current presentation route uses the live site.
+These are implementation and presentation checks, not a developer study or a hiring score. Paper was not edited in this pass. Paper matched-import exports and video revisions before Revision 9 are historical references.
+
+Recording update: Revision 9 uses the current Unified comparison and fresh public-prototype captures. The narrated and screen-only exports are 180 seconds at 1920 × 1080 and 24 fps. Narration, captions and script share one text source; all 15 voice blocks fit their scene windows. Encoded frames were checked for comparison content, guard visibility, Focus, progress and pointer placement. Both videos passed a full decode without errors. The two-page script and one-page cue sheet were rendered and inspected. These are edited rehearsal guides with a disclosed synthetic voice, not continuous screen recordings or a substitute for the user's own presentation.
 
 ---
 

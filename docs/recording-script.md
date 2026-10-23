@@ -1,63 +1,65 @@
 # Three-minute recording script
 
-Revision 9. Current live presentation route. Read the spoken text; leave the action cues outside the recording. Earlier rehearsal videos use older captures.
+Revision 9. Matches the final three-minute rehearsal. Read the spoken text; keep the action cues outside your recording. The guide uses synthetic narration and edited browser captures.
 
-## 0:00-0:16 · Explain the assignment
+## 0:00-0:16 · Set up the assignment
 
-Click: Open comparison.html. Show the assignment and review question at the top. Keep the cursor still.
+Click: Show Start here. Explain the review question; keep the cursor still.
 
-> Hi, I'm Parth. I kept Change Stack's layer model and focused on one review question: can I check what the summary says, inspect the access guard, and get back to the call?
+> Hi, I'm Parth. The assignment was to make CodeRabbit's review screen easier to scan, while keeping layers. I focused on checking a summary, following the access guard, and getting back to the call.
 
-## 0:16-0:36 · Explain the three observed issues
+## 0:16-0:34 · Show the source problem
 
-Click: Scroll to Original · Unified. Point to the shared summary range and access call. Name visible issues; do not imply a user study.
+Click: Show the original Unified capture full size. Point to its 49-130 summary range, then the access call.
 
-> The original already has summary jumps and viewed status. Here, six summary points share one large code range. The access check also continues in another file. I focused on making that check easier to follow.
+> The original already jumps from a summary to code. Here, six points share one large range. I can reach the function, but I still need to work out which part supports each point.
 
-## 0:36-1:04 · Explain the layout tradeoff
+## 0:34-0:56 · Make a fair comparison
 
-Click: Show Original · Unified, then M · Unified at the same size. Use Open full size if the shared screen is too small. At 0:55 choose Try the access check.
+Click: At 0:34 show M at the same size. Both captures start at line 54. Acknowledge that the original fits more code.
 
-> Both are in Unified, on the same code, at the same size.
+> Both screens use Unified, the same code and the same size. The original fits more code.
 
-> The original fits more code. Mine gives the file list and summary links more room. That is a tradeoff. The reason for it is to help me follow one point, inspect the guard, and return without finding my place again.
+> Mine gives files and summary links more room. That's a tradeoff. I want to see whether that space helps me follow the check.
 
-## 1:04-1:20 · Check the summary against code
+## 0:56-1:21 · Check a summary point
 
-Click: At 1:10 open Read full source summary. At 1:14 close it and select L57-65. Wait for the highlight. Say the last sentence at 1:17, after the correct range is visible.
+Click: At 0:56 open Try the access check. At 0:58 click Normalize tenant IDs to show a different target. At 1:04 open Read full source summary and scroll the context panel to its wording. At 1:14 close it and return the context panel to the top. At 1:16 click Require workspace access. Wait for L57-65 before speaking.
+
+> Each point gets a smaller target. I can choose what to inspect.
 
 > The full wording is still here. I can read it, then pick the point I want to check.
 
 > This calls the access guard.
 
-## 1:20-1:50 · Inspect the guard and return
+## 1:21-1:52 · Inspect the guard and return
 
-Click: At 1:20 click Inspect guard. At 1:25 point to the access check at L27 and entitlement gate at L38; both are visible on arrival. Scroll only to inspect further context. At 1:33 click Return to access.ts. Pause on the restored highlight before speaking at 1:36.
+Click: At 1:21 click Inspect guard in feedback-access.ts. Point to L27, then L38; both are visible without scrolling. At 1:36 click Return to access.ts. Pause before describing the restored selection.
 
-> Here I can read the workspace check and the feature-enabled check. The surrounding code still matters.
+> Here are the workspace check and the feature-enabled check. I can read both on arrival, then look at the surrounding code.
 
-> Now I'm back at the same call. I chose a return action because keeping caller and guard side by side would squeeze both code panes at this width.
+> Now I'm back at the same call. I chose a return action because keeping caller and guard side by side would squeeze both panes at this width.
 
-## 1:50-2:12 · Switch context
+## 1:52-2:10 · Show the space tradeoff
 
-Click: At 1:56 click Entire layer. Let the grouped summaries appear before describing them. At 2:09 return to This file. No need to read the coverage counts aloud.
+Click: At 1:55 click Focus Z. Hold the wider code view. At 2:04 click Exit focus. Show that the selection and reading position return.
 
-> Keeping files and context visible also costs code width.
+> Keeping files and context visible also costs code space. Focus gives that space back.
 
-> Focus gives that space back. This file and Entire layer make the context clear, so I can choose what to inspect next.
+> When I come back, I'm still at the same point.
 
-## 2:12-2:35 · Show deliberate progress
+## 2:10-2:34 · Keep progress deliberate
 
-Click: Point to the unchanged viewed count. At 2:20 click Mark viewed. At 2:26 click Undo while its toast is visible. Briefly point to disabled Submit review.
+Click: Point to 0/7 viewed. At 2:20 click Mark viewed. At 2:26 click Undo before the toast disappears. Briefly point to disabled Submit review.
 
 > Opening a file still marks nothing viewed. I kept that distinction.
 
 > Mark viewed updates the count.
 
-> I added Undo. Submit stays disabled because this PR is merged.
+> Undo reverses it. Submit stays disabled because this PR is merged.
 
-## 2:35-3:00 · Explain what needs testing
+## 2:34-3:00 · Explain the limit and next test
 
-Click: Hold on the final state. Show the submission page links at 2:57. Paper needs sign-in. Put clickable links beside your recording.
+Click: Hold the caller screen while explaining the test. At 2:57 show the closing links. Paper needs sign-in. Put clickable links beside your own recording.
 
 > This sample covers seven of fifty-two diffs, with manually mapped links. I haven't tested it with developers. I'd ask them to explain the access check, then find something the summary might miss. If these links make people overlook more code, I'd change the approach.
