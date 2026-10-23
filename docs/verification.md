@@ -8,9 +8,11 @@ This pass fixes the four issues from the holistic review. M remains final. Nothi
 - Return restores caller scroll and selection. At 1280 × 720, Unified returned to scrollTop 1576 and Split to 1903. Viewed count remained 0/7; Mark viewed → Undo returned 1/7 → 0/7.
 - All six workspace-tenant links select their declared ranges. Focus toggles preserve the selected point. Narrow-screen summary selection closes the context overlay and focuses code; Return also focuses code.
 - Start here explains the assignment, compares screens, links directly to the task and gives the tradeoff and test. Prototype navigation has a direct Try the review link. The rationale, README and presentation script describe this route.
-- Rationale rendered and inspected: one page, no clipped or overlapping text. Presentation page visually checked at 1280px. Additional verification and published deployment are recorded below.
+- Rationale rendered and inspected: one page, no clipped or overlapping text. Presentation page visually checked at 1280px. Additional verification is recorded below.
 
 Additional checks: 34 local links/assets resolve across the four current submission pages; JavaScript syntax and git whitespace checks pass. File viewed state survives Next/Previous navigation; unavailable response.ts stays unviewable. About dialog Escape restores focus. J/K returns from an unavailable layer, reduced motion disables arrival animation, and the browser reported no error/warning logs during the checked flow.
+
+Published verification: implementation commit 33bbccc0ea5b3396f855b75ebe71219be2e3fb8e deployed successfully in GitHub Actions run 39990211652. A fresh public browser followed Start here → comparison toggle → access check → guard → return → viewed/Undo. Return preserved scrollTop 1576 and L57–65; both guard checks were visible at 1280 × 720. Nine public page/assets returned HTTP 200 without authentication and matched the local release bytes, including both comparison images and the rationale PDF.
 
 Reviewer assessment against the brief:
 
