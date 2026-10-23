@@ -1,6 +1,6 @@
 # Assignment cross-check
 
-Updated October 22, 2026. Direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities and keyboard checks passed at 1440px, 1280px and the 1100px overlay breakpoint.
+Updated October 23, 2026. Direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities and keyboard checks passed at 1440px, 1280px and the 1100px overlay breakpoint.
 
 The submission is one layer-based reviewing screen, editable Paper and a one-page rationale. It uses the exact assigned Formbricks #8650 review snapshot at 23cdac2. The PR is merged and the snapshot is out of date. Seven captured added-file diffs support the demonstration; the exercise does not recreate all 52 files.
 
@@ -23,12 +23,12 @@ The submission is one layer-based reviewing screen, editable Paper and a one-pag
 | Full file and range display | All captured added lines or captured summary ranges. Source semantic-diff engine is not recreated. |
 | Semantic outline | Six captured access.ts entities in an anchored Outline popover. Other entities are not inferred. |
 | Copy path and notes | Copy file path in Tools; Add file note and local line notes in Comments. Drafts remain in tab memory. |
-| Progress | Header uses seven-file sample; rail uses nine-file layer; footer discloses seven of 52 PR diffs. Viewed and seen remain separate. |
+| Progress | Header counts seven included diffs. The layer lists nine paths and shows seven reviewable files plus two unavailable patches. The footer discloses seven of 52 PR diffs. Viewed and seen remain separate. |
 | Review decision | Submit disabled for the merged PR. Separate Open-PR review demo under Source notes & states, with simulated decisions. |
 | Split and Focus | Compact added-file Before rail, wrapped code, reversible Equal panes and Focus with reading-position preservation. |
 | Source comments | Paraphrased resolved thread; missing replies disclosed. Resolved visibility and local-note recovery remain available. |
 | Recovery | Loading, unavailable-source and no-comments states; retry and return paths. |
-| Continue, Follow review, global Files mode and Diagrams | Continue beside context, Follow review with review tools, Files beside Layers, and Diagrams beside layer details. Each is a labeled preview; downstream actions remain outside scope. |
+| Continue, Follow review, global Files mode and Diagrams | Continue beside context, Follow review under More review tools, Files beside Layers, and Diagrams beside layer details. Each is a labeled preview; downstream actions remain outside scope. |
 | PR search, impact, history and settings | Clearly labeled captured metadata or previews. Full-PR search and uncaptured analysis are outside scope. |
 
 The original already supported summary jumps, deliberate viewed state, J/K and Z. The changes refine their presentation and add narrower continuity paths; the rationale and recording credit those source capabilities.
@@ -40,3 +40,5 @@ Missing capabilities include modified-file patches, full-PR search, global Files
 The matched comparison now uses final M at the same 1280 × 720 viewport with imports 1–7 and the same six source points. The original capture stays untouched; M reflects the later observed merged status and disables Submit. Final sample and layer progress are locally initialized at zero. The current check list is in verification.md. Earlier AI critiques describe their saved baseline and do not establish developer usability. Developer testing remains outstanding.
 
 The final Paper page contains five boards; ten supporting boards have their own page. Earlier A–D concepts are archived. Branding follows the official CodeRabbit reference with semantic diff colors retained. No full brand certification or two-hour completion claim is made.
+
+The current design argument and demonstration steps are in [Critical design decisions](critical-design-decisions.md). Historical review reports remain evidence of earlier passes, not the current behavior specification.

@@ -1,33 +1,33 @@
 {
   "title": "What I changed in Change Stack",
-  "intro": "I kept the layer-based review model and focused on staying oriented while checking an explanation against code. The original already has summary navigation and explicit viewed status. I changed their presentation and added a return path for one cross-file inspection.",
+  "intro": "I chose one review task: check a summary against the code, inspect the access guard, then return without losing my place. I kept CodeRabbit’s layer-based model, summary jumps and deliberate viewed state. M changes how those pieces work together.",
   "rows": [
     [
-      "What got in the way",
-      "What I changed"
+      "What I focused on",
+      "Decision and reason"
     ],
     [
-      "File identity and controls compete with the code.",
-      "The file list stays available in the rail. A fixed layer switcher keeps all seven layers reachable when files are expanded. Outline sits beside the code; occasional file actions stay in Tools."
+      "Keep the file and review scope visible.",
+      "The rail keeps file navigation available. This file and Entire layer make the context scope explicit. File controls stay beside the diff; secondary tools sit behind a disclosure. This keeps the reading task visible while moving through the PR."
     ],
     [
-      "A broad summary range leaves the supporting statement to find.",
-      "Six compact rows pair each statement with its code range. Full wording stays available. Inspect guard opens feedback-access.ts; Return restores the caller. About links explains that these manually mapped ranges are starting points, not proof."
+      "Make each summary point checkable.",
+      "Six compact rows link statements to specific code ranges. The full source wording and Whole function stay available. About links explains the manual mapping. A highlight helps locate code; the reviewer still has to judge the claim."
     ],
     [
-      "File context and layer context need different scopes.",
-      "This file shows the selected explanation. Entire layer starts with compact summary rows across the nine paths. Scope and tabs stay fixed while context scrolls. Coverage is explicit: 14 of 37 summaries captured."
+      "Return from the guard without rebuilding context.",
+      "Inspect guard opens feedback-access.ts. Return restores the caller’s statement, reading position and context. I built one route to demonstrate continuity across files. Automatic dependency navigation remains outside this prototype."
     ],
     [
-      "File viewed, summary seen and PR status mean different things.",
-      "Included files counts seven captured diffs. The layer shows seven reviewable files and two unavailable patches. Opening a file marks nothing viewed. Mark viewed has Undo. Summary seen stays in Summary options. The merged snapshot disables Submit review."
+      "Keep progress separate from approval.",
+      "Opening a file marks nothing viewed. Mark viewed has Undo. The layer distinguishes seven reviewable files from two unavailable patches. Summary seen is separate, and Submit review is disabled for this merged PR."
     ]
   ],
-  "tradeoff_title": "Keep the code readable",
-  "tradeoff": "Wrapped 13 px code trades horizontal movement for vertical scrolling. Added-file Split uses a 96 px Before rail; Equal panes restores 50/50. A direct anchor is a starting point: surrounding code and the complete source summary stay available.",
-  "validation_title": "Checks and limits",
-  "validation": "I checked direct code links, guard/return navigation, context scopes, progress and Undo, notes, Copy path, the six entities and keyboard access. The 1440 px, 1280 px and 1100 px layouts passed. These are implementation checks; developer testing remains outstanding.",
+  "tradeoff_title": "The space tradeoff",
+  "tradeoff": "Wrapped 13 px code avoids horizontal movement but adds vertical scrolling. Added-file Split gives the empty Before pane 96 px; Equal panes restores 50/50. Compact statement rows keep all six checks visible at 1280 × 720. Modified-file Split still needs a separate check.",
+  "validation_title": "What I checked",
+  "validation": "The caller/guard return, statement links, viewed/Undo and affected layouts were checked at 1440, 1280 and 1100 px. The pass caught and fixed crowded file navigation and Escape closing the wrong panel. These checks establish behavior, not better review outcomes.",
   "scope": "Formbricks #8650 at the out-of-date 23cdac2 snapshot. Seven of 52 diffs are included. The comparison uses final M with the same imports and six source points; the original capture is untouched. Full file and Captured ranges do not recreate semantic diffs. Nothing is sent.",
   "next_title": "What I’d test next",
-  "next": "I’d test the caller, guard and return task, then start from code and ask what could make a reviewer disagree with the summary. Compare explanation accuracy and wrong turns on the same commit. Modified-file review and stale anchors still need testing."
+  "next": "I’d compare the same task on both screens, then ask developers to start from code and challenge the summary. Watch explanation accuracy, missed branches and backtracking. Precise links are only useful if people still inspect enough code."
 }

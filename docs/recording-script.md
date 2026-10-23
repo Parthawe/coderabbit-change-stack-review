@@ -42,7 +42,7 @@ Click: Choose Entire layer. Point to file groups and 14 of 37 coverage. Return t
 
 ## 2:15–2:35 · Show progress and Undo
 
-Click: Point to Sample 0 / 7 and Layer 1 0 / 9. Click Mark viewed, then Undo.
+Click: Point to Included files 0 / 7 and the two unavailable layer patches. Click Mark viewed, then Undo.
 
 > Opening a file doesn’t mark it reviewed. I kept that deliberate action and added Undo. Progress is labeled by scope. This PR is merged, so Submit review is disabled.
 

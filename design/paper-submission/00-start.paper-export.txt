@@ -1,3 +1,13 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
+
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px' }}>
@@ -6,7 +16,7 @@
           Change Stack<br />review workspace
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
-          Product Designer Take-Home · Parth Pawar<br />I kept the file, explanation, and review progress connected.
+          Product Designer Take-Home · Parth Pawar<br />Check a summary, inspect its guard, then return without losing your place.
         </div>
       </div>
       <div style={{ backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '20px' }}>
@@ -14,7 +24,7 @@
           Final submission · start here
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          Start with the diagnosis and matched comparison, then the final reviewing screen. Follow a statement into code, inspect its guard, return, and mark viewed with Undo. Supporting states are on the next page.
+          Start with the source diagnosis and matched comparison. Then try M’s caller → guard → return path. The design decisions explain the four choices, their tradeoffs and what still needs testing.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           https://parthawe.github.io/coderabbit-change-stack-review/

@@ -10,6 +10,8 @@ Design exercise by Parth Pawar using the assigned Formbricks PR #8650.
 
 Paper contains the diagnosis, matched comparison, final reviewing screen and rationale. Supporting states have their own page. Paper requires sign-in; the prototype and rationale are public. The [walkthrough](docs/submission-walkthrough.md) gives the presentation sequence.
 
+The [critical design decisions](docs/critical-design-decisions.md) explain what changed, why it matters, how to demonstrate it and what remains unproven. Start there for the documentation; earlier review reports record prior passes.
+
 ## Design argument
 
 I kept layer-based review and focused on staying oriented while checking an explanation against code. The original already has summary navigation, explicit viewed status, J/K and Z. The comparison pairs the untouched original capture with final M using the same imports and six source points. M shows the later observed merged status. This version keeps short checks visible and the full source wording one click away, links its individual points to code, and provides a return path after inspecting a guard in another file. File and layer context have explicit scopes. Included files, layer progress and PR coverage are labeled separately.
