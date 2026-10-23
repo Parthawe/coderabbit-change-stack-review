@@ -2,11 +2,11 @@
 
 [Open Paper](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0). Sign-in may be required. The original file remains the exploration archive.
 
-1. Start with the review task, then show the four approaches and why I chose M.
-2. Show the original and M at full size, using the same PR, file, line, viewport and display mode.
+1. State the brief, reviewer task and three priorities.
+2. Show the source comparison at full size, then the four approaches and why I chose M.
 3. Open the editable final M screen.
 4. Follow the guard, Return, Focus, Mark viewed and Undo.
-5. Explain what I gave up and what I would check with developers.
+5. Explain what I gave up, what I would check with developers, and where retained capabilities live.
 
 The choice section compares design options. It does not claim an A/B experiment or a proven winner. The reasoning uses first-person observations and explains choices beside the relevant screen. M is final for this assignment.
 

@@ -2,13 +2,13 @@
 
 Start at https://parthawe.github.io/coderabbit-change-stack-review/comparison.html. M is final. Keep the explorations for questions.
 
-1. Explain the assignment and the review question in the opening paragraph. Credit the original summary navigation.
-2. Show “I tried four ways into the review.” Briefly explain what drew you to behavior, counterexamples, impact and author handoff, then why you chose M. These were design explorations, not an A/B test with users.
-3. Compare Original · Unified and M · Unified. Both show the access call from line 54 at the same viewport. The original fits more code; explain why the persistent files and precise links may be worth the space.
+1. State the brief and reviewer task. Explain the three priorities: find the right lines, keep a way back and separate the controls.
+2. Compare Original · Unified and M · Unified. Both show the access call from line 54 at the same viewport. Use the numbered observations; hide them to show the unaltered captures. The original fits more code.
+3. Show the four directions briefly. Explain the selection criteria: get to code quickly, keep layers and use available PR content. M is a design choice, not an A/B-test winner.
 4. Choose Try the access check. Require workspace access is selected at L57–65. Show full source wording if needed, then close it.
-5. Choose Inspect guard. The workspace check at L27 and the entitlement check at L38 are visible on arrival at 1280 × 720. Read the surrounding code, then Return to access.ts. The caller selection and reading position return.
-6. Use Focus to show the space tradeoff, then exit it. Show that viewed progress did not change. Mark viewed, then Undo. Submit remains disabled because this PR is merged.
-7. End with the one-pane tradeoff and the test that could change the decision: do precise links help developers explain the check, or make them miss surrounding code?
+5. Choose Inspect guard. The workspace check at L27 and entitlement check at L38 are visible on arrival at 1280 × 720. Read surrounding code, then Return to access.ts.
+6. Use Focus, then exit. Show that visiting files did not change viewed progress. Mark viewed, then Undo. Submit remains disabled because this PR is merged.
+7. End with the tradeoff and next test. Open the capability map only if asked where secondary tools went; it distinguishes working paths, previews and missing integration.
 
 Seven added-file diffs and one guard route are implemented. Links are manually mapped. No developer study or measured improvement is claimed. Paper needs sign-in. The work expanded beyond the assignment timebox; do not claim two-hour completion.
 

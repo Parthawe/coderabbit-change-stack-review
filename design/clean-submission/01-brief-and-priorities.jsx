@@ -2,10 +2,10 @@
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '32px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '64px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '18px', width: '1100px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '48px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '54px' }}>
-          How I made a summary easier to check.
+          Checking a summary against the code.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px' }}>
-          CodeRabbit Change Stack · Formbricks PR #8650 · Parth Pawar
+          Parth Pawar · UI + interaction design · Formbricks PR #8650
         </div>
       </div>
       <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '56px', paddingBlock: '28px' }}>
@@ -14,24 +14,24 @@
             The assignment
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px' }}>
-            Make the PR review screen easier to scan and use. Keep the layer model and explain the design decisions.
+            Make the main review screen easier to interact with, without losing its capability. Focus on hierarchy, icons, disclosure and small interactions.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '640px' }}>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
-            The task I chose
+            The reviewer’s task
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px' }}>
-            Check the workspace-access summary against its code, follow the guard into another file, then return to the call.
+            Check what the workspace-access summary says, follow the guard into another file, and return to the call without losing your place.
           </div>
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '28px', fontWeight: 600, lineHeight: '36px' }}>
-          How I looked at it
+          What I prioritized
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '1120px' }}>
-          I wanted to understand what already worked before changing the screen. CodeRabbit already has summary jumps, Unified, Focus and viewed status. I kept those and worked on following a summary into the code, then finding my way back.
+          I kept the existing layer model, summary jumps, Focus and explicit viewed status. I put finding the right code first, then moving between files, then grouping the controls. These are observations from this PR; I haven’t tested their frequency with developers.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
@@ -39,10 +39,10 @@
           1
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '30px', width: '290px' }}>
-          Start with the actual review
+          Find the right lines
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px', width: '870px' }}>
-          I used the Formbricks PR to follow one access check. I kept its code and source wording, and marked where my prototype stops.
+          Six summary points share L49–130. I gave each point a smaller target, while keeping the full wording and surrounding code available.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
@@ -50,10 +50,10 @@
           2
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '30px', width: '290px' }}>
-          Decide what to change
+          Keep a way back
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px', width: '870px' }}>
-          I explored starting from behavior, counterexamples, impact and author handoff. I chose M because I could improve this review task while keeping layers.
+          The access check continues in feedback-access.ts. I added a guard link and Return so this route restores the caller’s selection and reading position.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
@@ -61,15 +61,15 @@
           3
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '30px', width: '290px' }}>
-          Check the comparison
+          Separate the jobs
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px', width: '870px' }}>
-          I put both screens in Unified at the same size and line. The original shows more code. I need to test whether visible files and summary links are worth that space.
+          File, display and review controls compete above the diff. I grouped them by what they affect, kept the PR details visible and moved less-used tools into named menus.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
-          Next: How I chose M → Problem & fair comparison → M final design → Interaction details → Decisions & next test.
+          Read in order: source comparison → directions considered → final M → interactions → decisions and scope.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
           Paper contains the editable design and reasoning. The browser prototype demonstrates the interactions. This work expanded beyond the assignment’s original 1–2 hour timebox.

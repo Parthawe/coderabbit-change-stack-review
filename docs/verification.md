@@ -1,3 +1,13 @@
+# Presentation finish pass · October 23
+
+- Rechecked the assignment: three priorities, visual/interaction polish, same-content comparison and explanation are visible in the submission route.
+- Paper starts with priorities, followed by evidence and options. Added a capability destination map and exported all current boards under descriptive filenames.
+- Browser checks passed for Original/M switching, annotation visibility (including SVG), section links and capability disclosure. No console errors were reported.
+- Presentation checked at 1280px and 390px. The narrow page has no horizontal document overflow; heading wraps, images load and the table scrolls within its own region.
+- Prototype checked at 1440 × 960 and 1100 × 800. PR identity fits; the narrow context overlay starts at the header’s 139px bottom and closes correctly. Temporary viewport overrides were reset.
+- Rationale remains one rendered page. Static scan found no failure findings; 13 advisory palette/type values belong to the established presentation surface rather than the code-workspace scale.
+- No developer usability results are claimed. The existing video remains an older rehearsal.
+
 # October 23 clean submission and copy check
 
 - Inspected the five-page Paper submission, including the new four-direction comparison. Fixed two overlapping annotation headings and re-exported.

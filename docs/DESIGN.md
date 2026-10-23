@@ -94,7 +94,7 @@ components:
 
 ## Authority and scope
 
-The working HTML, CSS and JavaScript in `dist/` govern browser behavior. `brand.css` supplies the applied CodeRabbit overrides. The main Paper screen, rationale and prototype describe one final reviewing workspace. The five primary boards contain start, diagnosis, matched comparison, final screen and rationale; ten supporting boards live on a separate page. Earlier approaches remain archived.
+The working HTML, CSS and JavaScript in `dist/` govern browser behavior. `brand.css` supplies the applied CodeRabbit overrides. The main Paper screen, rationale and prototype describe one final reviewing workspace. The clean Paper file has five pages: brief and priorities; source comparison and directions; editable M; interaction details; decisions and scope. The original file remains the exploration archive.
 
 The official CodeRabbit brand page supplies the orange typemark, orange accent, light mauve surfaces, Geist and Hack. Diff green and red retain their semantic roles. This records provenance, not complete brand certification. Existing font binaries and source licenses remain bundled.
 
@@ -106,7 +106,7 @@ Summary navigation, explicit viewed status, J/K and Z existed in the source. The
 
 ## Layout and type
 
-The desktop shell has a 72px PR header, a 240px navigation rail, a flexible code workspace and a 320px context panel. The layer description starts collapsed in a compact 56px heading. The footer discloses the seven-of-52 diff boundary. All nine layer paths remain available in the rail’s shared layer-and-file scroll region; layer progress sits with them.
+The desktop shell has an 88px PR header (102px below 1280px), a 240px navigation rail, a flexible code workspace and a 320px context panel. The layer description starts collapsed in a compact 56px heading. The footer discloses the seven-of-52 diff boundary. All nine layer paths remain available in the rail’s shared layer-and-file scroll region; layer progress sits with them.
 
 Below 1280px, Context opens a 320px overlay between header and footer. The body retains an 880px minimum width. This is a desktop prototype, without a mobile composition. Focus mode hides surrounding panels and preserves the current reading position. Lower-height windows reduce vertical spacing.
 
@@ -175,3 +175,9 @@ The decision record explains each cost: menus add a click, visible navigation ta
 The active Paper submission is https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0. It has five pages: start and choice of direction; original and M comparison; editable M; interactions; decisions and next test. The original Paper file is retained as an archive. Current exports are in design/clean-submission.
 
 The PR header retains the source’s merged badge, PR #8650, 52-file count, verified branch name, copy action and stack context. Its 88px height accommodates those details; narrow desktop uses 102px. The purple 12px-radius badge is a semantic status preserved from the source. Icons accompany labels. Layer and file positions remain visible.
+
+## Presentation hierarchy
+
+The submission page leads with the brief and three ranked priorities, then the source comparison, four directions and the reason for choosing M. Numbered SVG observations sit above unaltered comparison captures and can be hidden. The working route follows, with a capability map under a disclosure to keep the main read short. Section links provide direct access.
+
+The presentation page overrides the code workspace’s desktop minimum width. Its body can reflow below 880px; the prototype remains a desktop assignment. Capability tables have a labeled horizontal scroll region. Annotation controls use pressed state, and comparison controls retain keyboard focus. No automatic scroll animation is added.

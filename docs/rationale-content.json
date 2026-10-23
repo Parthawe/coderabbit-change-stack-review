@@ -1,6 +1,6 @@
 {
   "title": "Checking the summary against the code",
-  "intro": "I kept layers and worked through one task in Formbricks #8650: check a summary, follow the access guard, then get back to the call. I explored behavior, counterexamples, impact and author handoff first. I chose M because I could work with this PR’s content and keep the existing review model.",
+  "intro": "The brief was to make Change Stack easier to use without losing its capability. I prioritized finding the right lines, keeping a way back and grouping the controls. I explored four directions, chose M because it keeps layers, and worked with this PR’s existing content.",
   "rows": [
     [
       "What I noticed",
@@ -21,8 +21,8 @@
   ],
   "tradeoff_title": "Why I kept one code pane",
   "tradeoff": "Showing the caller and guard together squeezed both at laptop width, so I chose Return. Both comparison screens use Unified. The original fits more code; M gives files and summary links more room. Focus gives that space back.",
-  "validation_title": "What I kept",
-  "validation": "I kept the PR details, icons, layer numbers and file positions visible. The 0/7 count is for this sample; the PR has 52 files. Visiting a file leaves progress alone. Mark viewed changes it; Undo reverses it.",
+  "validation_title": "What stays available",
+  "validation": "PR details, icons, layer numbers and file positions remain visible. Visiting a file leaves progress alone; Mark viewed and Undo change it. Secondary tools have named destinations. The presentation’s capability map distinguishes working interactions from previews.",
   "next_title": "What I would test",
   "next": "I’d ask developers to explain the access check on both screens, then find something the summary might miss. I’d watch for wrong turns and missed branches. If smaller highlights lead people to overlook code, I’d change them.",
   "scope": "This prototype covers seven of 52 diffs at commit 23cdac2. Links are manually mapped. The PR is merged; Submit is disabled. Semantic diffs and modified-file review are outside this sample. I have not tested it with developers."

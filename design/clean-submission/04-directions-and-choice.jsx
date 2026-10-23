@@ -5,7 +5,7 @@
           I tried four ways into the review.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '21px', lineHeight: '31px', width: '1190px' }}>
-          Each direction changed what the reviewer would look at first. I compared what it could help with, what it needed, and whether it still fit this assignment.
+          I compared each direction against three needs: get to code quickly, keep the layer model, and work with the information available in this PR.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', paddingTop: '20px' }}>
@@ -77,7 +77,7 @@
           I chose M to work within the existing review.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '21px', lineHeight: '31px', width: '1210px' }}>
-          I could keep layers, use the PR’s actual content, and make the path from a summary to its code more direct. I gave each point a smaller target and kept a way back after following the guard. That was the direction I could take further and show working.
+          M lets the reviewer start with the existing summary and inspect the code immediately. I could keep layers and use this PR’s content without requiring new author input or a reliable dependency map. I built the summary-to-code route.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
           These were design explorations. I haven’t run an A/B test with developers. M is my choice for this brief; the next test could change it.
