@@ -22,7 +22,7 @@ Behavior-first needs reliable intent. Counterexample review needs useful scenari
 
 ## Evidence and limits
 
-The original and redesign use the same PR, light theme, viewport and excerpt. The original capture uses Split; the redesign uses Unified. The mode difference explains part of the width gain. It is a proposed layout comparison, not a controlled usability result.
+The original and redesign use the same PR, light theme, viewport and excerpt. The original capture uses Split; the redesign uses Unified. The mode difference explains part of the width gain. A fresh original Unified baseline is also included, with its spacing unchanged. It confirms that the original already provides readable code width. The proposal must be judged on grouping and the review path, not width alone. This is not a controlled usability result.
 
 Seven of 52 diffs are included at commit 23cdac2. Anchors are manually mapped. The PR is merged, so Submit is disabled. Secondary previews preserve destinations but do not reproduce the source engines. No developer study or measured time saving is claimed.
 

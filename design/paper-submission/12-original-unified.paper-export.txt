@@ -1,0 +1,30 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
+(
+    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: '1040px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '40px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '30px', fontWeight: 600, lineHeight: '38px' }}>
+          The original already has a readable Unified view
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          Live CodeRabbit · Formbricks #8650 · 23cdac2 · Light · 1280 × 720 · October 23, 2026
+        </div>
+      </div>
+      <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/41MH1JDBBGVZH5KF1VFSJWG5RT.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: '0', height: '720px', width: '1280px' }} />
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '26px' }}>
+          What this changes in the argument
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          Switching the original to Unified removes the empty pane. More code space is not enough to justify M. The proposal needs to earn its place through clearer action grouping, individual summary links and the guard-return interaction. This capture retains the original spacing and shows extra code beyond the seven shared imports.
+        </div>
+      </div>
+    </div>
+  )

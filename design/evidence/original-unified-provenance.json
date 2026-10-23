@@ -1,0 +1,13 @@
+{
+  "source": "https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b",
+  "captured_at": "2026-10-23T16:26:00Z",
+  "viewport": [
+    1280,
+    720
+  ],
+  "theme": "CodeRabbit Light",
+  "layout": "Unified, selected using the original View settings control",
+  "image_editing": "None. No interface restyling, reconstruction or content replacement.",
+  "visible_content": "access.ts imports and subsequent code through line 18; expanded summary for lines 49\u2013130. Original progress retained.",
+  "sha256": "b57fa8613f621ffcc7c97c680a651903a90652b43237184903e0b632d88cd40c"
+}

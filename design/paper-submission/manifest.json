@@ -97,5 +97,10 @@
   "review_task": "https://parthawe.github.io/coderabbit-change-stack-review/index.html?task=access-check",
   "return_state_repair": "Return restores the captured caller anchor and keyboard line as well as position, even after revisiting the caller and changing its selection. Flow contract and exports updated October 23.",
   "source_capture": "design/evidence/original-light-provenance.json",
-  "light_capture_styles": "light-capture-styles.json"
+  "light_capture_styles": "light-capture-styles.json",
+  "original_unified_baseline": {
+    "paper": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-5-0/5FC-0",
+    "image": "design/evidence/original-light-unified.png",
+    "interpretation": "Original Unified removes the empty pane; width alone does not justify M. Compare action grouping and the review task."
+  }
 }

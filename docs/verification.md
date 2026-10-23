@@ -2,7 +2,7 @@
 
 Paper was updated first: a quieter cover, three annotated observations, preserved behavior separated from diagnoses, and a shorter decision board. Current exports and the one-page rationale match those edits. M remains final.
 
-The comparison now states that the original capture uses Split and M uses Unified. The original already offers Unified; mode choice explains part of the width gain. A mode-matched original capture remains a useful follow-up, not evidence claimed here.
+The comparison now states that the original capture uses Split and M uses Unified. The original already offers Unified; mode choice explains part of the width gain. A fresh original Unified capture is now available through Original · Unified on the comparison page and on Paper’s supporting page. It shows that extra code width alone does not justify M.
 
 Local browser checks at 1280 × 720: full source wording opens; Require workspace access selects L57–65; Inspect guard opens feedback-access.ts; Return restores L57–65; file/layer scope switches; opening files leaves progress unchanged; Mark viewed increments progress; Undo restores zero. About this prototype opens with two short paragraphs, and its supporting-state disclosure exposes all five existing controls. The function handlers are unchanged.
 

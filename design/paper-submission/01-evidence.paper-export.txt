@@ -115,7 +115,7 @@
           Compare the same content
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
-          Both screens show the same imports and six summary points at 1280 × 720. The original is captured in Split; M is in Unified. The display mode explains part of the width gain.
+          The same seven imports and six summary points are shown at 1280 × 720. Original Split versus M Unified explains part of the width gain. The supporting page also shows the original in Unified, which already removes the empty pane.
         </div>
       </div>
     </div>

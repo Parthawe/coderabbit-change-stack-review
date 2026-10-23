@@ -16,11 +16,11 @@ Click: Point to the controls, empty Before pane and shared summary range. Name v
 
 ## 0:36-1:04 · Explain the layout tradeoff
 
-Click: At 0:36 show Before at full width and pause. At 0:40 switch to After at the same size; acknowledge the different display modes after it appears. At 0:46 explain that the original also offers Unified. Point to the grouped controls and individual summary links. Do not put the screens side by side.
+Click: At 0:36 show Before at full width and pause. At 0:40 switch to After at the same size; acknowledge the different display modes after it appears. At 0:46 show Original · Unified. At 0:53 return to final M and point to grouped controls and summary links. Do not put the screens side by side.
 
 > Both show the same content, but different display modes.
 
-> The original is in Split; this is Unified, which the original also offers. That explains part of the width gain. My changes group the controls and give each summary point a smaller code target.
+> Switching the original to Unified already fixes the empty pane. So extra code width isn't my main argument. I'm grouping the controls and linking each summary point to the code behind it.
 
 ## 1:04-1:20 · Check the summary against code
 
