@@ -16,7 +16,7 @@ The main snapshot is merged and Submit review is disabled. If asked, Source note
 
 The direct links are manually mapped navigation anchors. The complete source summary remains visible. Inspect guard supports one captured caller/guard route; it does not establish automatic dependency navigation. Full file and Captured ranges are display modes, not a semantic-diff engine. The six captured access.ts entities are available in Tools. Copy path and Add file note preserve narrow source workflows.
 
-The revised direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities and keyboard flows passed implementation checks at 1440px and 1100px. Developer testing remains outstanding. The prototype includes seven of 52 diffs from the out-of-date 23cdac2 snapshot; modified-file review needs further work.
+The revised direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities and keyboard flows passed implementation checks at 1440px, 1280px and 1100px. Developer testing remains outstanding. The prototype includes seven of 52 diffs from the out-of-date 23cdac2 snapshot; modified-file review needs further work.
 
 ## Submission links
 

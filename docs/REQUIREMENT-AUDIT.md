@@ -1,6 +1,6 @@
 # Assignment cross-check
 
-Updated October 22, 2026. Direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities and keyboard checks passed at 1440px and the 1100px overlay breakpoint.
+Updated October 22, 2026. Direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities and keyboard checks passed at 1440px, 1280px and the 1100px overlay breakpoint.
 
 The submission is one layer-based reviewing screen, editable Paper and a one-page rationale. It uses the exact assigned Formbricks #8650 review snapshot at 23cdac2. The PR is merged and the snapshot is out of date. Seven captured added-file diffs support the demonstration; the exercise does not recreate all 52 files.
 
