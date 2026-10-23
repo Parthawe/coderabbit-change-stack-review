@@ -145,3 +145,16 @@ Paper first: wrapped Unified code at the existing 13px/24px size; visible Wrap c
 Browser checks at 1280 × 720 and 1440 × 960: Unified default wrapping has no horizontal code overflow (711/711px and 871/871px respectively); compact Split at 1280 has 614/614px After width. At 1280 the full two-line trimming statement is visible on initial arrival. Wrapping uses 13px code; no type-size reduction. Keyboard Enter toggles Wrap, keeps focus on its control and retains the top source line. Per-layout preferences remain separate.
 
 Summary selection, file switching/return, explicit Mark viewed, Undo, focus restoration and Layer activity disclosure were exercised. Navigation never marked a file viewed. Optional supporting links are reachable from Source notes & states. Source-error preview still opens. JavaScript syntax check passes. The original source fixture and reference screenshot are unchanged. The rationale remains one page and its rendered output was inspected. These are implementation checks, not developer research.
+
+
+## Final submission audit · October 22, 2026
+
+Read all three pages of the original assignment, including the supplied screenshots and judging criteria. The required delivery is one reviewing screen/prototype plus a one-page rationale or video. The prototype and rationale satisfy that format; Paper is the editable source. M remains final and explorations stay archived. No two-hour completion claim is made.
+
+Corrected the optional open-PR decision dialog in Paper first, then the prototype: progress now describes the seven-file sample and separately discloses 7-of-52 PR coverage. Refreshed its native Paper export and PNG. Updated the optional presentation sequence and aligned the documented 1280px check with the existing results.
+
+Rechecked the local presentation path: L57–65, Inspect guard, Return to access.ts, Entire layer, This file, Mark viewed and Undo. The settled return position matched at scrollTop 1612.5 with line 54 at the same viewport position. The layer scope reported 14 of 37 captured summaries across nine files. Sample progress changed 0/7 → 1/7 → 0/7. The corrected decision dialog displayed sample and coverage separately. JavaScript syntax passed.
+
+The public rationale, comparison HTML, comparison image and main Paper image returned HTTP 200 and matched local release bytes. Inspected the main Paper screen, Paper rationale, decision dialog and rendered PDF pages. Rationale and speaker notes remain one page each; the recording script is two pages. The native recording Doc contains the current 33 paragraphs but is owner-only and shows Access Denied in the current browser session. Use the matching local recording PDF as fallback; this private recording aid is not a submission link.
+
+Remaining limits: no developer usability study, seven of 52 diffs implemented, modified-file patches and the semantic-diff engine not reproduced, one manually mapped cross-file route. The optional video has not been recorded. Nothing was sent to CodeRabbit.
