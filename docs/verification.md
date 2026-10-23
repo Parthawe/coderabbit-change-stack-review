@@ -1,3 +1,9 @@
+# Paper reading pass · October 23
+
+Split the opening into task, priorities and direction. Separated guard/Return, Focus, progress, tradeoff and next test. Removed evaluator-question headings and the dense capability map. Paper text search confirms those prompts are absent. Shortened annotations while retaining the original screenshots and native design states.
+
+Inspected the revised boards for spacing, type, contrast, alignment and clipping. Refreshed all 14 PNG/JSX pairs and their page manifest. The rationale remains one rendered page and no longer refers to the removed table. No prototype behavior changed.
+
 # Presentation finish pass · October 23
 
 - Rechecked the assignment: three priorities, visual/interaction polish, same-content comparison and explanation are visible in the submission route.

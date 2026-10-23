@@ -22,7 +22,7 @@
   "tradeoff_title": "Why I kept one code pane",
   "tradeoff": "Showing the caller and guard together squeezed both at laptop width, so I chose Return. The matched comparison in Paper uses Unified. The original fits more code; this iteration gives files and summary links more room. Focus gives that space back.",
   "validation_title": "What stays available",
-  "validation": "PR details, icons, layer numbers, J/K and Z Focus remain. Visiting a file leaves progress alone; Mark viewed and Undo change it. Full summary wording and secondary tools have named destinations. The capability map in Paper separates working interactions from previews; full functional parity is not implemented.",
+  "validation": "PR details, icons, layer numbers, J/K and Z Focus remain. Visiting a file leaves progress alone; Mark viewed and Undo change it. Full summary wording and secondary tools have named destinations. Secondary tools are labeled as previews; full functional parity is not implemented.",
   "next_title": "What I would test",
   "next": "I’d ask developers to explain the access check on both screens, then find something the summary might miss. I’d watch for wrong turns and missed branches. If smaller highlights lead people to overlook code, I’d change them.",
   "scope": "Seven of 52 diffs at commit 23cdac2; manually mapped links. The PR is merged; Submit is disabled. Semantic diffs and modified-file review are outside this sample. No developer testing. This work exceeded the expected 1–2 hours."
