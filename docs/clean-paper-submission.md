@@ -11,10 +11,12 @@ The file has four pages:
 
 The six redundant pages were removed after their useful content was consolidated. Evaluator questions remain removed. The final review and guard screens retain their content and dimensions. The Focus example retains its code and controls; its frame now fits the excerpt without the empty area below it.
 
-The submission remains prototype, Paper and one-page rationale. The public website opens directly into the prototype. The rationale and prototype behavior did not change in this organizational pass.
+The submission remains prototype, Paper and one-page rationale. The public website opens directly into the prototype. The prototype behavior stays the same. The rationale now connects each observation to its change and expected benefit.
 
 Current exports are in design/clean-submission. The manifest maps 10 artboards, including separate screen captions, to four Paper pages. Earlier exports remain recoverable in Git history.
 
 The latest edit shortens the opening and captions, removes repeated annotation wording, aligns the comparison margins, and places the interaction examples in a vertical reading order. The scope note remains beside the proposed test. Detailed process history, including the exceeded timebox, remains in the repository history; no user testing or measured improvement is claimed.
 
 The comparison uses orange outlined targets, arrowheads and numbered markers adapted from the earlier diagnosis file. The main editable screen stays free of presentation callouts.
+
+The opening now frames a concrete review task: check the explanation, follow related code and return without losing position. Each observation names the existing change and its intended benefit. Less searching and backtracking remain hypotheses, with missed surrounding code as a risk to test. No pages or product features were added.

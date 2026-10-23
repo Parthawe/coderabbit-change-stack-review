@@ -1,3 +1,7 @@
+# Review task and expected impact · October 23
+
+Updated the first Paper page to connect the review task, three observations, the existing design changes and their expected benefits. Kept all four pages and the prototype behavior. Regenerated the opening PNG/JSX export and the PDF/HTML rationale from the shared copy. Visually checked the opening and one-page PDF for spacing, alignment, contrast and clipping. Expected improvements remain hypotheses; developer testing and the risk of missing code beyond a highlight are explicit.
+
 # Four-page reviewer pass · October 23
 
 Read all ten boards across the four Paper pages, including all native review states and captions. Corrected the After context pointer to enclose PR identity, matching its caption and the Before target. Tightened the file-action caption to describe the highlighted controls. Clarified the transition from Require workspace access to the guard and back to access.ts for Focus.

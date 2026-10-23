@@ -1,29 +1,29 @@
 {
   "title": "Checking the summary against the code",
-  "intro": "The brief asks for a clearer review screen without losing capability. I followed a summary into the assigned PR’s code, chose three priorities, and compared four directions. The final iteration improves that route using the existing layers and PR content.",
+  "intro": "Change Stack guides reviewers through related changes. I focused on one task in this 52-file, 7-layer PR: check what a layer does, follow the related code, and return without losing my place. I kept the existing layers, summary jumps and Focus.",
   "rows": [
     [
       "What I noticed",
-      "What I changed"
+      "Change and expected benefit"
     ],
     [
       "Six summary points share L49–130. I still have to find the lines behind each point.",
-      "I gave each point a smaller target. The full wording and surrounding code stay available so I can check beyond the highlight."
+      "I gave each point a smaller target to reduce the code I need to search. Full wording and surrounding code stay available to check beyond the highlight."
     ],
     [
       "The access check continues in another file.",
-      "Inspect guard opens both checks. Return brings me back to the caller’s selection and reading position. I mapped this route manually."
+      "Inspect guard opens both checks. Return restores the caller’s selection and position, so there should be less to retrace. I mapped this route manually."
     ],
     [
       "File and display actions sit across several controls.",
-      "I put file actions beside the filename and display settings above the code. Less-used tools sit in named menus, which adds a click."
+      "I grouped file actions beside the filename and display settings above the code to make the next action easier to find. Named menus add a click for less-used tools."
     ]
   ],
   "tradeoff_title": "Why I kept one code pane",
   "tradeoff": "Showing the caller and guard together squeezed both at laptop width, so I chose Return. The matched comparison in Paper uses Unified. The original fits more code; this iteration gives files and summary links more room. Focus gives that space back.",
   "validation_title": "What stays available",
   "validation": "PR details, icons, layer numbers, J/K and Z Focus remain. Visiting a file leaves progress alone; Mark viewed and Undo change it. Full summary wording and secondary tools have named destinations. Secondary tools are labeled as previews; full functional parity is not implemented.",
-  "next_title": "What I would test",
-  "next": "I’d ask developers to explain the access check on both screens, then find something the summary might miss. I’d watch for wrong turns and missed branches. If smaller highlights lead people to overlook code, I’d change them.",
+  "next_title": "What I expect, and how I would check it",
+  "next": "I expect less searching and backtracking. I’d ask developers to explain the access check on both screens, then find a branch the summary misses. I’d watch for wrong turns and missed code. If smaller highlights narrow the review too much, I’d change them.",
   "scope": "Seven of 52 diffs at commit 23cdac2; manually mapped links. The PR is merged; Submit is disabled. Semantic diffs and modified-file review are outside this sample. No developer testing. This work exceeded the expected 1–2 hours."
 }
