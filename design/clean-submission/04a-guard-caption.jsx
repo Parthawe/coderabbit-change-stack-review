@@ -5,7 +5,7 @@
           Inspect, then return
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '900px' }}>
-          Open the guard at L27 and L38. Return restores the caller’s selection and reading position.
+          From “Require workspace access,” inspect the guard at L27 and L38. Return restores your place in access.ts.
         </div>
       </div>
     </div>

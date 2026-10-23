@@ -5,7 +5,7 @@
           Focus on the code
         </div>
         <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '900px' }}>
-          Press Z to hide the side panels. Press it again to restore the same file and position.
+          Back in access.ts, press Z to hide the side panels. Press it again to restore the same file and position.
         </div>
       </div>
     </div>

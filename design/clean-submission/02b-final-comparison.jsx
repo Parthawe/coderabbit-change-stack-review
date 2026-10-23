@@ -23,8 +23,8 @@
           <text x="727" y="235.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
              2
           </text>
-          <rect x="918" y="58" width="178" height="41" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
-          <path d="M904 83H917 M910 78L917 83L910 88" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <rect x="175" y="45" width="655" height="75" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <path d="M876 83H831 M838 78L831 83L838 88" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <circle cx="890" cy="83" r="14" fill="#FF570A" />
           <text x="890" y="88.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
              3
@@ -47,10 +47,10 @@
           2
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '300px' }}>
-          Actions grouped by job
+          File actions beside the file
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
-          File actions beside the filename; display controls above code.
+          Mark viewed and Tools sit beside the filename.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
@@ -61,7 +61,7 @@
           Context retained
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
-          PR identity stays visible; progress applies to the seven included diffs.
+          Status, PR number, file count, branch and stack stay visible.
         </div>
       </div>
     </div>

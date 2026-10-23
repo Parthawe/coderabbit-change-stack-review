@@ -50,7 +50,7 @@
           Competing controls
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
-          File, display and review actions sit together.
+          File and display actions span two rows above the diff.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>

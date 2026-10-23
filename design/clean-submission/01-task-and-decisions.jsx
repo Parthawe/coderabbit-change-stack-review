@@ -50,7 +50,7 @@
           03{'  '}The choice
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px', width: '1260px' }}>
-          I kept CodeRabbit’s layers, summary jumps and Focus. I added a code target for each summary point and a way back after inspecting the guard.
+          I kept CodeRabbit’s layers, summary jumps and Focus. I gave the six summary points separate code targets and added a way back after inspecting the guard.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '19px', lineHeight: '30px', width: '1260px' }}>
           I considered behavior, counterexamples, impact and author handoff. Each needs context beyond the current review.

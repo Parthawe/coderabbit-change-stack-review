@@ -1,3 +1,11 @@
+# Four-page reviewer pass · October 23
+
+Read all ten boards across the four Paper pages, including all native review states and captions. Corrected the After context pointer to enclose PR identity, matching its caption and the Before target. Tightened the file-action caption to describe the highlighted controls. Clarified the transition from Require workspace access to the guard and back to access.ts for Focus.
+
+Fixed the clipped full-file scope note by moving it below the diff viewport. Standardized the line-number gutter in the final and guard states to 42px; code text is unchanged. Checked updated screenshots for readable labels, aligned gutters, no obscured annotation targets and no clipped presentation copy. The comparison retains its original screenshot assets, 1280 × 720 scale and matched starting line.
+
+The four-page structure and ten-board manifest remain. Refreshed seven affected export pairs. These are Paper layout and presentation fixes; prototype behavior and rationale are unchanged.
+
 # Orange comparison callouts · October 23
 
 Reviewed the earlier Paper diagnosis, reasoning and original Unified evidence. Adapted its orange outlines, arrowheads and numbered markers to the current matched screenshots. Kept three callouts per image and checked their targets and label visibility. Screenshot content and scale are unchanged.
