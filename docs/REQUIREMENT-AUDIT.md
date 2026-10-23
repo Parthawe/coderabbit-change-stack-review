@@ -8,7 +8,7 @@ The submission is one layer-based reviewing screen, editable Paper and a one-pag
 | --- | --- | --- |
 | Diagnose three to five parsing problems | File/control competition, broad summary scope, file/layer context and progress scope. | Design observations, without measured speed claims. |
 | Redesign one main reviewing screen | Persistent nine-path rail, compact layer heading, file toolbar, code and scoped context. | Supporting boards explain this screen; earlier approaches are archived. |
-| Retain source information | Matched imports, full six-point summary and captured progress; direct code links in the final screen. | Fourteen of 37 layer summaries and seven of 52 diffs are included. |
+| Retain source information | Matched imports and six source points; full wording available. Original progress is untouched; final M starts at zero. | Fourteen of 37 layer summaries and seven of 52 diffs are included. |
 | Preserve review capabilities | Summary navigation, explicit viewed status, J/K/Z, file navigation, comments and diff display controls remain. | Full parity and uncaptured workflows are not claimed. |
 | Make the decision reviewable | Paper diagnosis/comparison, prototype and one-page rationale. | Paper requires sign-in. |
 
@@ -18,7 +18,7 @@ The submission is one layer-based reviewing screen, editable Paper and a one-pag
 | --- | --- |
 | Layers and files | Seven layer names/counts; nine layer-1 paths persist in the rail. Previous/Next and searchable position retain file reading state. |
 | File and layer context | Fixed scope and tabs above a scrolling context body; This file and Entire layer; fourteen captured summaries grouped across nine paths, compared with 37 source summaries. |
-| Summary navigation | Original six workspace-tenant bullets with direct manually mapped line links. Other captured summaries retain their source ranges and starts. |
+| Summary navigation | Six short workspace-tenant checks with direct manually mapped line links; full original wording in a disclosure. Other captured summaries retain their source ranges and starts. |
 | Cross-file inspection | Inspect guard opens feedback-access.ts at its captured 20–49 summary; Return to access.ts restores the caller. One route, without automatic dependency mapping. |
 | Full file and range display | All captured added lines or captured summary ranges. Source semantic-diff engine is not recreated. |
 | Semantic outline | Six captured access.ts entities in an anchored Outline popover. Other entities are not inferred. |

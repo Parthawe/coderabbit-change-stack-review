@@ -1,6 +1,17 @@
 # Prototype verification
 
-## Current refinement
+## Current readiness corrections
+
+October 22, 2026. Independent design and implementation reviews were followed by reproduction and correction of three P2 defects. The design assessment remains 29/40; no post-fix re-score or user-study claim is made.
+
+- Paper interaction notes were revised first, then browser behavior. Updated flow PNG/native exports match the contract.
+- Entire layer keeps its scope and current file for All (14 captured matches), High (4), Medium (10), and Low (0 captured matches). High also returns four matches while errors.test.ts remains current.
+- Enter on a statement, Whole function and Go to start retains focus on the replacement action. Guard Return restores focus to Inspect guard.
+- Guard navigation scrolls only the file sublist. The outer layer list remained at scrollTop 0 in the reproduced flow, retaining the layer heading.
+- Node syntax validation and git whitespace checks pass. The independent HTML detector returned zero findings. These checks do not establish complete accessibility or usability.
+- The current Arc tabs rendered blank; source analysis used the saved exact-session capture and accessibility record. The original assignment PDF was read again. Source fixtures, the one-page rationale and recording sequence are unchanged.
+
+## Earlier refinement
 
 - Revised Paper first, then the prototype, matched comparison, rationale, recording script and exports. M remains final. Fifteen Paper PNG/JSX pairs were refreshed.
 - Matched comparison now uses final M with the same imports and six source points. Original historical progress/status remain untouched; M has zero local progress and the later observed merged state.

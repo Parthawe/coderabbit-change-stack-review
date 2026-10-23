@@ -2,7 +2,7 @@ Draft for Parth to send. Nothing has been sent to CodeRabbit.
 
 Hi CodeRabbit team,
 
-I kept the layer-based review model and focused on staying oriented while checking an explanation against code. The redesign keeps the source summary visible, links its individual points to code, and adds a return path after inspecting a guard in another file. File and layer context have explicit scopes, and sample progress is labeled separately from PR coverage.
+I kept the layer-based review model and focused on staying oriented while checking an explanation against code. The redesign keeps short checks visible, retains the full source wording, and links each check to code, and adds a return path after inspecting a guard in another file. File and layer context have explicit scopes, and sample progress is labeled separately from PR coverage.
 
 Paper design and diagnosis: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
 Working prototype: https://parthawe.github.io/coderabbit-change-stack-review/

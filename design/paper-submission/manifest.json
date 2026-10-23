@@ -90,5 +90,6 @@
   "third_pass": "Historical pass: direct links, guard return, context scopes and retained nine-path navigation. Superseded presentation refinements are described in refinement.",
   "source_consistency": "Actual PR title and separate stack name; fixed context controls; Continue beside context, Follow review with review tools, Files beside Layers, Diagrams beside layer details. Outline is a local popover; bulk viewed is a separate review action.",
   "refinement": "Bounded file list with fixed seven-layer switcher; compact summary labels and layer overview; full wording disclosure; local Outline; syntax distinctions in prototype; resolved-comment explanation; consistent hypothesis and next tests.",
-  "hypothesis": "Less searching and backtracking while preserving comprehension. Working interactions are not evidence of a usability improvement. Test explanation accuracy and wrong turns against the original."
+  "hypothesis": "Less searching and backtracking while preserving comprehension. Working interactions are not evidence of a usability improvement. Test explanation accuracy and wrong turns against the original.",
+  "readiness_corrections": "Layer complexity filters retain scope/current file; evidence links restore keyboard focus; file sublist scrolling preserves outer layer position. See docs/readiness-review.md."
 }
