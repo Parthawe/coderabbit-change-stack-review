@@ -1,102 +1,68 @@
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased' }}>
-      <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '88px', justifyContent: 'space-between', paddingInline: '24px', width: '1440px' }}>
-        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '20px', minWidth: '0px', width: '1000px' }}>
-          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/6FMVGR1TS2QQPCF7JSV11ZM5C4.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '19px', width: '124px' }} />
-          <div style={{ backgroundColor: '#E3E0E7', boxSizing: 'border-box', flexShrink: '0', height: '40px', width: '1px' }} />
-          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '5px', width: '815px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
-              feat: add feedbackRecord MCP tools to the XM Suite MCP server
-            </div>
-            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '14px' }}>
-              <div style={{ alignItems: 'center', backgroundColor: '#8250DF', borderRadius: '12px', boxSizing: 'border-box', display: 'flex', gap: '5px', paddingBlock: '2px', paddingInline: '8px' }}>
-                <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
-                  <circle cx="5" cy="4" r="2" fill="none" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  <circle cx="5" cy="20" r="2" fill="none" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  <circle cx="19" cy="8" r="2" fill="none" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M5 6v12M17 8h-4a8 8 0 0 1-8-8" fill="none" stroke="#FFFFFF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <div style={{ boxSizing: 'border-box', color: '#FFFFFF', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                  Merged
-                </div>
-              </div>
-              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                formbricks / formbricks
-              </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '5px' }}>
-                <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
-                  <circle cx="6" cy="4" r="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  <circle cx="6" cy="20" r="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  <circle cx="18" cy="20" r="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M6 6v12M18 18V9a4 4 0 0 0-4-4h-2m3-3-3 3 3 3" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                  #8650
-                </div>
-              </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '5px' }}>
-                <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
-                  <path d="M14 3H5v18h14V8l-5-5Zm0 0v5h5" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                  52 files
-                </div>
-              </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '5px', width: '307px' }}>
-                <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
-                  <circle cx="6" cy="4" r="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  <circle cx="6" cy="20" r="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  <circle cx="18" cy="6" r="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M6 6v12M6 14a12 12 0 0 0 12-6" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-                <div style={{ boxSizing: 'border-box', flexShrink: '0', overflow: 'clip', width: '265px' }}>
-                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: '-webkit-box', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', overflow: 'hidden', WebkitBoxOrient: 'vertical', WebkitLineClamp: '1', width: '265px' }}>
-                    feat/ENG-1260_feedbackrecord-mcp-actions
-                  </div>
-                </div>
-                <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
-                  <rect x="8" y="8" width="13" height="13" rx="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                  <path d="M16 4V3H3v13h1" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-                </svg>
-              </div>
-            </div>
-            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '7px' }}>
-              <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
-                <path d="m12 3 10 5-10 5L2 8l10-5Zm-9 10 9 5 9-5M3 18l9 4 9-4" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+      <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '48px', paddingLeft: '20px', paddingRight: '12px', width: '1440px' }}>
+        <div style={{ alignContent: 'center', boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px', width: '72px' }}>
+          ‹   Triage
+        </div>
+        <div style={{ alignItems: 'center', backgroundColor: '#9000ED', borderRadius: '16px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '5px', paddingBlock: '4px', paddingInline: '9px' }}>
+          <svg width="13" height="13" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
+            <g>
+              <circle cx="6" cy="4" r="2" fill="none" stroke="#FFFFFF" strokeWidth="1.8" />
+              <circle cx="6" cy="20" r="2" fill="none" stroke="#FFFFFF" strokeWidth="1.8" />
+              <circle cx="18" cy="8" r="2" fill="none" stroke="#FFFFFF" strokeWidth="1.8" />
+              <path d="M6 6v12m0-10c0 6 10 6 12 2" fill="none" stroke="#FFFFFF" strokeWidth="1.8" />
+            </g>
+          </svg>
+          <div style={{ boxSizing: 'border-box', color: '#FFFFFF', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+            Merged
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '2px', minWidth: '0px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '20px' }}>
+            feat: add feedbackRecord MCP tools to the XM Suite MCP server
+          </div>
+          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '4px' }}>
+              <svg width="12" height="12" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
+                <path d="M12 1.8a10.2 10.2 0 0 0-3.2 19.9c.5.1.7-.2.7-.5v-2c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1 1.6 1.8 2.8 1.2.1-.7.4-1.2.7-1.5-2.3-.3-4.6-1.1-4.6-5.1 0-1.1.4-2 1-2.7-.1-.3-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.7 9.7 0 0 1 5.1 0c1.9-1.3 2.8-1 2.8-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 4-2.4 4.8-4.7 5.1.4.3.7.9.7 1.9v2.7c0 .3.2.6.7.5A10.2 10.2 0 0 0 12 1.8Z" fill="#65616A" />
               </svg>
-              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                Stack: Feedback records MCP integration
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+                formbricks #8650
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', marginLeft: '12px' }}>
-                Snapshot 23cdac2 · out of date
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+              52 files
+            </div>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '5px', width: '285px' }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+                <circle cx="6" cy="4" r="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <circle cx="6" cy="20" r="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <circle cx="18" cy="6" r="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M6 6v12M6 14a12 12 0 0 0 12-6" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+              <div style={{ boxSizing: 'border-box', flexShrink: '0', overflow: 'clip', width: '235px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', display: '-webkit-box', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', overflow: 'hidden', WebkitBoxOrient: 'vertical', WebkitLineClamp: '1', width: '235px' }}>
+                  feat/ENG-1260_feedbackrecord-mcp-actions
+                </div>
               </div>
+              <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+                <rect x="8" y="8" width="13" height="13" rx="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M16 4V3H3v13h1" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+              → Stack: Feedback records MCP integration
             </div>
           </div>
         </div>
-        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
-          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', width: '210px' }}>
-            <div style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                Included files · 0 / 7 viewed
-              </div>
-              <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                7 left
-              </div>
-            </div>
-            <div style={{ backgroundColor: '#E3E0E7', borderRadius: '2px', boxSizing: 'border-box', flexShrink: '0', height: '3px', width: '190px' }} />
-            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '15px' }}>
-              Demo · 0 / 7 included files viewed
-            </div>
-          </div>
-          <div style={{ backgroundColor: '#EEEAF0', borderRadius: '5px', boxSizing: 'border-box', opacity: '0.65', paddingBlock: '10px', paddingInline: '16px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
-              Submit review
-            </div>
+        <div style={{ borderColor: '#E3E0E7', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '12px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#98949C', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+            Submit review ﹀
           </div>
         </div>
       </div>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '836px', width: '1440px' }}>
-        <div style={{ backgroundColor: '#FAF8FB', borderRightColor: '#E3E0E7', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '2px', height: '836px', padding: '12px', width: '240px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '876px', width: '1440px' }}>
+        <div style={{ backgroundColor: '#FAF8FB', borderRightColor: '#E3E0E7', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '2px', height: '876px', padding: '12px', width: '240px' }}>
           <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', minHeight: '32px', paddingInline: '12px' }}>
             <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
               <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
@@ -324,6 +290,20 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: 'fit-content', justifyContent: 'end', minHeight: '0px', paddingBottom: '4px', paddingInline: '12px', paddingTop: '12px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '5px', paddingBottom: '4px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+                  Included files · 0 / 7 viewed
+                </div>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: 'system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+                  7 left
+                </div>
+              </div>
+              <div style={{ backgroundColor: '#E3E0E7', borderRadius: '2px', boxSizing: 'border-box', flexShrink: '0', height: '3px', width: '188px' }} />
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              Sample review progress
+            </div>
             <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
               More review tools ▸
             </div>
@@ -341,12 +321,9 @@
                 J / K Navigate layers<br />Z Focus on code
               </div>
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-              Sample review progress
-            </div>
           </div>
         </div>
-        <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '836px', width: '880px' }}>
+        <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '876px', width: '880px' }}>
           <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: '56px', paddingBlock: '10px', paddingInline: '28px', width: '100%' }}>
             <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '36px', justifyContent: 'space-between', width: '100%' }}>
               <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '28px' }}>
@@ -877,7 +854,7 @@
             </div>
           </div>
         </div>
-        <div style={{ backgroundColor: '#FAF8FB', borderLeftColor: '#E3E0E7', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: '836px', overflow: 'clip', padding: '16px', width: '320px' }}>
+        <div style={{ backgroundColor: '#FAF8FB', borderLeftColor: '#E3E0E7', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: '876px', overflow: 'clip', padding: '16px', width: '320px' }}>
           <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0' }}>
             <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
               Change context

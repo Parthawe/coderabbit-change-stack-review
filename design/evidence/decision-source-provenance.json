@@ -1,0 +1,15 @@
+{
+  "captured_on": "2026-10-23",
+  "url": "https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b",
+  "theme": "light",
+  "viewport": [
+    1280,
+    720
+  ],
+  "states": {
+    "original-comments-light.png": "Layer 1 / access.ts / Unified / Comments 15 / Resolved enabled / no settings popover",
+    "original-overview-light.png": "Overview / activity / existing selected and unselected display-property filters",
+    "original-overview-filter-crop.png": "Unaltered browser crop at x940 y90, width336 height190; shown at 2x in Paper"
+  },
+  "interpretation": "Severity and resolved filters already exist. Observation 7 proposes a different reading order, not an absent capability. Effort and clarity claims are assumptions."
+}

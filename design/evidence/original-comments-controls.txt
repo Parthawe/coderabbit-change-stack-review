@@ -1,0 +1,429 @@
+- status
+- banner:
+  - link "Back to triage":
+    - /url: /triage
+    - generic: Triage
+  - 'generic "Pull request: Merged"':
+    - generic: Merged
+  - status
+  - 'link "feat: add feedbackRecord MCP tools to the XM Suite MCP server"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+  - 'link "formbricks #8650: View pull request on GitHub"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+    - generic: formbricks
+    - generic: "#8650"
+  - generic: ·
+  - generic: 52 files
+  - generic: ·
+  - 'generic "Branch: feat/ENG-1260_feedbackrecord-mcp-actions"':
+    - generic: feat/ENG-1260_feedbackrecord-mcp-actions
+    - button "Copy branch name feat/ENG-1260_feedbackrecord-mcp-actions":
+  - 'generic "CodeRabbit stack: Feedback records MCP integration"': "Stack: Feedback records MCP integration"
+  - status
+  - button "Submit review" [disabled]:
+    - generic: Submit review
+- complementary "Layer navigation":
+  - separator "Collapse sidebar"
+  - radiogroup "Rail mode":
+    - radio "Layers" [checked]:
+      - generic: Layers
+    - radio "Files":
+      - generic: Files
+  - button "About Layers and Files":
+  - button "Search pull request":
+  - button "Collapse sidebar" [expanded]:
+    - generic: Collapse sidebar
+  - button "Pull request overview — Pull request merged":
+    - generic: Overview
+    - 'generic "Pull request: Merged"':
+      - generic: Merged
+  - button "Security blast radius":
+    - generic: Security blast radius
+  - button "Security architecture impact":
+    - generic: Security architecture impact
+  - 'button "Layer 1: API contracts and access controls. 9 files touched. 3 findings. 1120 lines added, 11 removed. 1 major finding, 1 minor finding"':
+    - generic: "1"
+    - paragraph: API contracts and access controls
+    - generic: 9 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-11"
+    - generic: "+1120"
+  - 'button "Layer 2: Feedback record operations. 2 files touched. 1 finding. 2446 lines added, 0 removed. 1 major finding"':
+    - generic: "2"
+    - paragraph: Feedback record operations
+    - generic: 2 files touched
+    - generic: "1"
+    - generic: "+2446"
+  - 'button "Layer 3: Hub feedback-record support. 5 files touched. 342 lines added, 13 removed"':
+    - generic: "3"
+    - paragraph: Hub feedback-record support
+    - generic: 5 files touched
+    - generic: "-13"
+    - generic: "+342"
+  - 'button "Layer 4: MCP feedback-record tools. 3 files touched. 1 finding. 1034 lines added, 0 removed. 1 trivial finding"':
+    - generic: "4"
+    - paragraph: MCP feedback-record tools
+    - generic: 3 files touched
+    - generic: "1"
+    - generic: "+1034"
+  - 'button "Layer 5: MCP authorization and registration. 7 files touched. 138 lines added, 22 removed"':
+    - generic: "5"
+    - paragraph: MCP authorization and registration
+    - generic: 7 files touched
+    - generic: "-22"
+    - generic: "+138"
+  - 'button "Layer 6: OAuth metadata and documentation. 10 files touched. 2 findings. 610 lines added, 81 removed. 1 minor finding, 1 trivial finding"':
+    - generic: "6"
+    - paragraph: OAuth metadata and documentation
+    - generic: 10 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-81"
+    - generic: "+610"
+  - 'button "Layer 7: Additional changes. 16 files touched. 32 lines added, 0 removed"':
+    - generic: "7"
+    - paragraph: Additional changes
+    - generic: 16 files touched
+    - generic: "+32"
+  - button "Scroll down":
+    - text: View more
+  - generic: Review Tools
+  - 'button "Review history. Latest review: Feedback records MCP integration · Out of date. Commit 23cdac2. Select review snapshot"':
+    - generic: Review history
+    - text: Stale ·
+    - code: 23cdac2
+  - button "Follow review Slack":
+    - generic: Follow review
+    - generic: Slack
+  - button "Settings. Display settings":
+    - generic: Settings
+- main:
+  - 'button "Layer details: API contracts and access controls"'
+  - generic: API contracts and access controls
+  - separator
+  - generic: Defines feedback-record schemas, serializers, entitlement checks, tenant ownership guards, and controlled problem responses.
+  - group "Content view":
+    - button "Files" [pressed]:
+      - generic: Files
+    - button "Diagrams" [disabled]:
+      - generic: Diagram
+  - group "File navigation":
+    - button "Show files in this layer (9 files, 9 not viewed)":
+      - text: 1 of 9
+      - generic: 9 left
+    - separator
+    - button "Previous file" [disabled]:
+    - button "Next file":
+  - group "Review controls":
+    - button "View settings":
+    - button "Mark all files in this layer viewed":
+    - button "Collapse all files":
+    - button "Enter focus mode":
+  - button "Hide review controls" [expanded]:
+  - button "Collapse apps/web/app/api/v3/feedbackRecords/lib/access.ts" [expanded]:
+    - generic "Added"
+    - generic: apps/web/app/api/v3/feedbackRecords/lib/access.ts
+    - button "Copy file path apps/web/app/api/v3/feedbackRecords/lib/access.ts":
+    - img "194 additions and 0 deletions":
+      - generic: "+194"
+    - button "Add file comment on apps/web/app/api/v3/feedbackRecords/lib/access.ts":
+    - button "Semantic outline with 6 changed entities":
+      - generic: "6"
+    - button "Mark file as viewed in this layer":
+  - generic: This added file has more lines outside this layer.
+  - button "Show full added file":
+    - generic: Full file
+  - code:
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "10"
+    - generic: "11"
+    - generic: "12"
+    - generic: "13"
+    - generic: "14"
+    - generic: "15"
+    - generic: "16"
+    - generic: "17"
+    - generic: "18"
+    - generic: "19"
+    - generic: "20"
+    - generic: "21"
+    - generic: "22"
+    - generic: "23"
+    - generic: "24"
+    - generic: "25"
+    - generic: "26"
+    - generic: "27"
+    - generic: "28"
+    - generic: "29"
+    - generic: "30"
+    - generic: "31"
+    - button "Blame Tiago Farto, Jul 27 2026, L1-194":
+      - generic: Tiago Farto
+      - generic: Jul 27 2026
+      - generic: L1-194
+    - generic: import "server-only";
+    - generic: "import type { logger } from \"@formbricks/logger\";"
+    - generic: "import { requireUnifyFeedbackWorkspaceAccess } from \"@/app/api/v3/lib/feedback-access\";"
+    - generic: "import { problemBadRequest, problemForbidden, problemUnprocessableContent } from \"@/app/api/v3/lib/response\";"
+    - generic: "import type { TV3Authentication } from \"@/app/api/v3/lib/types\";"
+    - generic: "import { getFeedbackDirectoriesByWorkspaceId } from \"@/modules/ee/feedback-directory/lib/feedback-directory\";"
+    - generic: "import { retrieveFeedbackRecord } from \"@/modules/hub/service\";"
+    - generic: "import type { FeedbackRecordData } from \"@/modules/hub/types\";"
+    - generic: "import { hubErrorToProblemResponse } from \"./errors\";"
+    - generic: /**
+    - generic: "* Tenant isolation for the feedback-records surface. Two guards live here, and every operation goes"
+    - generic: "* through at least one of them:"
+    - generic: "*"
+    - generic: "* - `resolveWorkspaceFeedbackTenant` — the workspace → dataset → Hub tenant choke point."
+    - generic: "* - `requireOwnedFeedbackRecord` — the per-record ownership check for the Hub endpoints that take a bare"
+    - generic: "* record id and derive the tenant from the record itself."
+    - generic: "*"
+    - generic: "* Kept in its own module (mirroring `unify-feedback/taxonomy/lib/access.ts`) so the authorization rules"
+    - generic: "* are reviewable in one place instead of being spread across the operations."
+    - generic: "*/"
+    - 'generic "type TResolveParams: added - 23-30"':
+      - generic: +
+      - generic: type TResolveParams
+      - generic: added - 23-30
+      - generic: 23-30
+    - generic: "type TResolveParams = {"
+    - generic: "authentication: TV3Authentication;"
+    - generic: "workspaceId: string;"
+    - generic: "minPermission: \"read\" | \"readWrite\";"
+    - generic: "requestId: string;"
+    - generic: "instance: string;"
+    - generic: "datasetId?: string;"
+    - generic: "};"
+    - 'generic "type TResolvedFeedbackTenant: added - 32-39"':
+      - generic: +
+      - generic: type TResolvedFeedbackTenant
+      - generic: added - 32-39
+      - generic: 32-39
+- complementary:
+  - button "Collapse right sidebar" [expanded]:
+    - generic: Collapse right sidebar
+  - tablist "Right panel mode":
+    - tab "Context" [selected]:
+      - generic: Context
+    - tab "Continue":
+      - generic: Continue
+  - tabpanel "Context":
+    - complementary:
+      - button "Summaries 37":
+        - generic: Summaries 37
+      - button "Comments 15" [active] [pressed]:
+        - generic: Comments 15
+      - generic "Thread 1 of 5":
+        - generic "Thread 1 of 5":
+          - text: 1/5
+      - button "Reset progress and return to top" [disabled]:
+      - button "Pause following code" [pressed]:
+      - generic: CodeRabbit findings
+      - button "Minimize CodeRabbit comments":
+      - group "CodeRabbit comment controls":
+        - button "Set minimum severity to Critical; 0 Critical findings" [pressed]:
+          - generic: Crit
+          - generic: "0"
+        - button "Set minimum severity to Major; 1 Major finding" [pressed]:
+          - generic: Major
+          - generic: "1"
+        - button "Set minimum severity to Minor; 1 Minor finding" [pressed]:
+          - generic: Minor
+          - generic: "1"
+        - button "Set minimum severity to Nitpick; 1 Nitpick finding" [pressed]:
+          - generic: Nit
+          - generic: "1"
+      - text: Other comments
+      - group "Other comment controls":
+        - button "Bots 0" [pressed]:
+          - text: Bots 0
+        - button "Resolved 15" [pressed]:
+          - text: Resolved 15
+        - button "Outdated 1":
+          - text: Outdated 1
+      - generic "apps/web/app/api/v3/feedbackRecords/lib/access.ts"
+      - button:
+        - generic "apps/web/app/api/v3/feedbackRecords/lib/access.ts"
+        - generic: R75-R90
+        - generic: "75"
+        - generic: const allowedTenantIds = directories.map((directory) => directory.id.trim());
+        - generic: "76"
+        - generic: "77"
+        - generic: "if (datasetId) {"
+        - generic: "78"
+        - generic: const requested = directories.find((directory) => directory.id === datasetId);
+        - generic: "79"
+        - generic: "if (!requested) {"
+        - generic: "80"
+        - generic: "return {"
+        - generic: "81"
+        - generic: "ok: false,"
+        - generic: "82"
+        - generic: "response: problemForbidden("
+        - img "CodeRabbit"
+        - generic "coderabbitai[bot]": coderabbitai
+        - generic: bot
+        - generic: R75-R90
+        - text: Resolved
+        - generic "Review metadata":
+          - generic: Functional Correctness
+          - generic: Major
+          - generic: Quick win
+        - paragraph:
+          - strong:
+            - code: datasetId
+            - text: lookup compares against the untrimmed directory id, breaking the trim guarantee.
+        - paragraph:
+          - code: allowedTenantIds
+          - text: (Line 75) and the "no datasetId" branch (Line 126) both trim
+          - code: directory.id
+          - text: ", but the explicit-"
+          - code: datasetId
+          - text: lookup at Line 78 still compares the caller's
+          - code: datasetId
+          - text: against the raw, untrimmed
+          - code: directory.id
+          - text: . Since the resolved
+          - code: tenantId
+          - text: handed back to callers is always trimmed (Line 93/126), a directory id with stray whitespace — the exact case this file's own comment warns about — will cause a legitimate
+          - code: dataset_id
+          - text: echoed to a caller to fail this
+          - code: ===
+          - text: check on the next call, incorrectly returning a 403.
+        - button "🐛 Proposed fix":
+          - generic: 🐛 Proposed fix
+        - button "Committable suggestion":
+          - generic: Committable suggestion
+        - generic: Suggested change
+        - button "Preview":
+          - generic: Preview
+        - button "Prompt for AI Agents":
+          - generic: Prompt for AI Agents
+        - paragraph: ✅ Confirmed as addressed by @xernobyl
+        - generic: 2 replies
+        - generic: Jump to diff
+      - generic "apps/web/app/api/v3/feedbackRecords/lib/errors.ts"
+      - 'button "apps/web/app/api/v3/feedbackRecords/lib/errors.ts R90 90 // outage, and retryable in the purge case. Reported as 409 so an agent doesn''t retry-loop on a 502. Dhruwang Dhruwang R90 Resolved Relayed Hub detail leaks the internal term tenant_id: a batch duplicate 409 comes back as \"...with this tenant_id, submission_id, and field_id already exists\". Everywhere else the boundary is dataset_id. Worth scrubbing/renaming tenant_id in relayed detail. 1 reply Jump to diff"':
+        - generic "apps/web/app/api/v3/feedbackRecords/lib/errors.ts"
+        - generic: R90
+        - generic: "90"
+        - generic: // outage, and retryable in the purge case. Reported as 409 so an agent doesn't retry-loop on a 502.
+        - img "Dhruwang"
+        - generic "Dhruwang"
+        - generic: R90
+        - text: Resolved
+        - paragraph:
+          - text: Relayed Hub detail leaks the internal term
+          - code: tenant_id
+          - text: ": a batch duplicate 409 comes back as \"...with this tenant_id, submission_id, and field_id already exists\". Everywhere else the boundary is"
+          - code: dataset_id
+          - text: . Worth scrubbing/renaming
+          - code: tenant_id
+          - text: in relayed detail.
+        - generic: 1 reply
+        - generic: Jump to diff
+      - button:
+        - generic "apps/web/app/api/v3/feedbackRecords/lib/errors.ts"
+        - generic: R135-R142
+        - generic: "135"
+        - generic: "): Response {"
+        - generic: "136"
+        - generic: "if (err instanceof ResourceNotFoundError) {"
+        - generic: "137"
+        - generic: "log.warn({ statusCode: 403, errorCode: err.name }, \"Resource not found\");"
+        - generic: "138"
+        - generic: return problemForbidden(requestId, "You are not authorized to access this resource", instance);
+        - generic: "139"
+        - generic: "}"
+        - generic: "140"
+        - generic: "if (err instanceof DatabaseError) {"
+        - generic: "141"
+        - generic: "log.error({ error: err, statusCode: 500 }, \"Database error\");"
+        - generic: "142"
+        - generic: return problemInternalError(requestId, "An unexpected error occurred.", instance);
+        - img "CodeRabbit"
+        - generic "coderabbitai[bot]": coderabbitai
+        - generic: bot
+        - generic: R135-R142
+        - text: Resolved
+        - generic "Review metadata":
+          - generic: Functional Correctness
+          - generic: Minor
+          - generic: Quick win
+        - paragraph:
+          - strong:
+            - text: 413 branch never relays the Hub detail, unlike the other statuses in
+            - code: RELAYABLE_HUB_STATUSES
+            - text: .
+        - paragraph:
+          - text: 413 is included in
+          - code: RELAYABLE_HUB_STATUSES
+          - text: (Line 53) and documented as relayable ("an oversized record", Line 47), and the batch-create failure path does relay 413 details via
+          - code: relayableHubDetail
+          - text: . But this whole-request branch hardcodes a generic message instead of calling
+          - code: relayableHubDetail
+          - text: like the 409/400/422 branches do — so a single create/update never surfaces the Hub's actual size-limit detail even though it's designed to be safe to relay.
+        - button "🐛 Proposed fix":
+          - generic: 🐛 Proposed fix
+        - button "Committable suggestion":
+          - generic: Committable suggestion
+        - generic: Suggested change
+        - button "Preview":
+          - generic: Preview
+        - button "Prompt for AI Agents":
+          - generic: Prompt for AI Agents
+        - paragraph: ✅ Confirmed as addressed by @xernobyl
+        - generic: 2 replies
+        - generic: Jump to diff
+      - button "apps/web/app/api/v3/feedbackRecords/lib/errors.ts R147 147 Dhruwang Dhruwang R147 Outside diff Resolved 503 maps to the embeddings-unavailable message for every op, not just search/similar. A plain Hub outage on list/create/etc. would return a misleading \"configure EMBEDDING_*\". Consider gating this to the two search ops and collapsing 503 to the generic 502 elsewhere. 1 reply Jump to diff":
+        - generic "apps/web/app/api/v3/feedbackRecords/lib/errors.ts"
+        - generic: R147
+        - generic: "147"
+        - img "Dhruwang"
+        - generic "Dhruwang"
+        - generic: R147
+        - generic "This thread is assigned to the nearest layer, but its line is outside the rendered diff context.": Outside diff
+        - text: Resolved
+        - paragraph: 503 maps to the embeddings-unavailable message for every op, not just search/similar. A plain Hub outage on list/create/etc. would return a misleading "configure EMBEDDING_*". Consider gating this to the two search ops and collapsing 503 to the generic 502 elsewhere.
+        - generic: 1 reply
+        - generic: Jump to diff
+      - generic "apps/web/app/api/v3/feedbackRecords/lib/schemas.ts"
+      - button "apps/web/app/api/v3/feedbackRecords/lib/schemas.ts R35 35 ), Dhruwang Dhruwang R35 Resolved Filters are camelCase (sourceType, userId) while create/update bodies are snake_case (source_type, user_id), and unknown keys are stripped — so a wrong-cased filter silently no-ops instead of erroring. Align the casing, or .strict() the filter schema so a bad key is rejected. 1 reply Jump to diff":
+        - generic "apps/web/app/api/v3/feedbackRecords/lib/schemas.ts"
+        - generic: R35
+        - generic: "35"
+        - generic: ),
+        - img "Dhruwang"
+        - generic "Dhruwang"
+        - generic: R35
+        - text: Resolved
+        - paragraph:
+          - text: Filters are camelCase (
+          - code: sourceType
+          - text: ","
+          - code: userId
+          - text: ) while create/update bodies are snake_case (
+          - code: source_type
+          - text: ","
+          - code: user_id
+          - text: ), and unknown keys are stripped — so a wrong-cased filter silently no-ops instead of erroring. Align the casing, or
+          - code: .strict()
+          - text: the filter schema so a bad key is rejected.
+        - generic: 1 reply
+        - generic: Jump to diff
+- separator "Resize panel"
+- button "Open command palette":
+  - generic "Command": ⌘
+  - generic: K
+- region "Notifications":
+  - status:
+    - list

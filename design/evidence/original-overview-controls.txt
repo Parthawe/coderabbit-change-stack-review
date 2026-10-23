@@ -1,0 +1,706 @@
+- status
+- banner:
+  - link "Back to triage":
+    - /url: /triage
+    - generic: Triage
+  - 'generic "Pull request: Merged"':
+    - generic: Merged
+  - status
+  - 'link "feat: add feedbackRecord MCP tools to the XM Suite MCP server"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+  - 'link "formbricks #8650: View pull request on GitHub"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+    - generic: formbricks
+    - generic: "#8650"
+  - generic: ·
+  - generic: 52 files
+  - generic: ·
+  - 'generic "Branch: feat/ENG-1260_feedbackrecord-mcp-actions"':
+    - generic: feat/ENG-1260_feedbackrecord-mcp-actions
+    - button "Copy branch name feat/ENG-1260_feedbackrecord-mcp-actions":
+  - status
+  - button "Submit review" [disabled]:
+    - generic: Submit review
+- complementary "Layer navigation":
+  - separator "Collapse sidebar"
+  - radiogroup "Rail mode":
+    - radio "Layers" [checked]:
+      - generic: Layers
+    - radio "Files":
+      - generic: Files
+  - button "About Layers and Files":
+  - button "Search pull request":
+  - button "Collapse sidebar" [expanded]:
+    - generic: Collapse sidebar
+  - button "Pull request overview — Pull request merged" [active]:
+    - generic: Overview
+    - 'generic "Pull request: Merged"':
+      - generic: Merged
+  - button "Security blast radius":
+    - generic: Security blast radius
+  - button "Security architecture impact":
+    - generic: Security architecture impact
+  - 'button "Layer 1: API contracts and access controls. 9 files touched. 3 findings. 1120 lines added, 11 removed. 1 major finding, 1 minor finding"':
+    - generic: "1"
+    - paragraph: API contracts and access controls
+    - generic: 9 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-11"
+    - generic: "+1120"
+  - 'button "Layer 2: Feedback record operations. 2 files touched. 1 finding. 2446 lines added, 0 removed. 1 major finding"':
+    - generic: "2"
+    - paragraph: Feedback record operations
+    - generic: 2 files touched
+    - generic: "1"
+    - generic: "+2446"
+  - 'button "Layer 3: Hub feedback-record support. 5 files touched. 342 lines added, 13 removed"':
+    - generic: "3"
+    - paragraph: Hub feedback-record support
+    - generic: 5 files touched
+    - generic: "-13"
+    - generic: "+342"
+  - 'button "Layer 4: MCP feedback-record tools. 3 files touched. 1 finding. 1034 lines added, 0 removed. 1 trivial finding"':
+    - generic: "4"
+    - paragraph: MCP feedback-record tools
+    - generic: 3 files touched
+    - generic: "1"
+    - generic: "+1034"
+  - 'button "Layer 5: MCP authorization and registration. 7 files touched. 138 lines added, 22 removed"':
+    - generic: "5"
+    - paragraph: MCP authorization and registration
+    - generic: 7 files touched
+    - generic: "-22"
+    - generic: "+138"
+  - 'button "Layer 6: OAuth metadata and documentation. 10 files touched. 2 findings. 610 lines added, 81 removed. 1 minor finding, 1 trivial finding"':
+    - generic: "6"
+    - paragraph: OAuth metadata and documentation
+    - generic: 10 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-81"
+    - generic: "+610"
+  - 'button "Layer 7: Additional changes. 16 files touched. 32 lines added, 0 removed"':
+    - generic: "7"
+    - paragraph: Additional changes
+    - generic: 16 files touched
+    - generic: "+32"
+  - button "Scroll down":
+    - text: View more
+  - generic: Review Tools
+  - 'button "Review history. Latest review: Feedback records MCP integration · Out of date. Commit 23cdac2. Select review snapshot"':
+    - generic: Review history
+    - text: Stale ·
+    - code: 23cdac2
+  - button "Follow review Slack":
+    - generic: Follow review
+    - generic: Slack
+  - button "Settings. Display settings":
+    - generic: Settings
+- main:
+  - paragraph:
+    - generic: Opened by
+    - link "xernobyl, open profile":
+      - /url: https://github.com/xernobyl
+      - text: xernobyl
+    - generic "7/27/2026, 1:50:55 PM": updated 2mo ago
+  - heading "Feedback records MCP integration" [level=1]
+  - heading "Layers" [level=2]
+  - paragraph:
+    - generic: "7"
+    - generic: layers
+  - 'img "Worst finding per layer — API contracts and access controls: major; Feedback record operations: major; OAuth metadata and documentation: minor; MCP feedback-record tools: trivial; 3 with no findings"'
+  - paragraph: 4 layers carry findings
+  - heading "Files changed" [level=2]
+  - paragraph:
+    - generic: "52"
+    - generic: files
+  - img "5,722 lines added, 127 removed"
+  - paragraph:
+    - text: +5,722
+    - generic: lines added
+    - text: −127
+    - generic: lines removed
+  - heading "Severity findings" [level=2]
+  - paragraph:
+    - generic: "7"
+    - generic: findings
+  - 'img "Findings by severity: 2 major, 2 minor, 3 trivial"':
+    - generic: 2 Major
+    - generic: 2 Minor
+    - generic: 3 Trivial
+  - paragraph:
+    - generic: "2"
+    - generic: 2 Major findings
+    - generic: 2 major findings
+    - generic: "2"
+    - generic: 2 Minor findings
+    - generic: 2 minor findings
+    - generic: "3"
+    - generic: 3 Trivial findings
+    - generic: 3 trivial findings
+  - status
+  - heading "Merged" [level=2]:
+    - button "Merged" [expanded]:
+      - generic: Merged
+  - region "Merged":
+    - paragraph: Merge blockers and CI no longer apply, and nothing was left unaddressed.
+    - link "View on GitHub":
+      - /url: https://github.com/formbricks/formbricks/pull/8650
+      - generic: View on GitHub
+  - heading "Summary" [level=2]:
+    - button "Summary" [expanded]:
+      - generic: Summary
+  - region "Summary":
+    - article "Change summary":
+      - heading "What changed" [level=3]
+      - paragraph: Adds the v3 feedback-record API, Hub support, MCP tools, authorization scopes, audit logging, tests, and documentation.
+- complementary:
+  - button "Collapse right sidebar" [expanded]:
+    - generic: Collapse right sidebar
+  - tablist "Right panel mode":
+    - tab "Activity" [selected]:
+      - generic: Activity
+    - tab "Continue":
+      - generic: Continue
+  - tabpanel "Activity":
+    - complementary "Overview activity":
+      - paragraph: Display properties
+      - button "Hide display properties, 3 filtered out" [expanded]:
+      - button "Hide Comments, 3 events" [pressed]:
+        - text: Comments
+        - generic: "3"
+      - button "Hide CodeRabbit, 2 events" [pressed]:
+        - text: CodeRabbit
+        - generic: "2"
+      - button "Hide Reviews, 4 events" [pressed]:
+        - text: Reviews
+        - generic: "4"
+      - button "Hide Commits, 28 events" [pressed]:
+        - text: Commits
+        - generic: "28"
+      - button "Hide PR Status, 18 events" [pressed]:
+        - text: PR Status
+        - generic: "18"
+      - button "Show Bots, 3 events":
+        - text: Bots
+        - generic: "3"
+      - button "Show Housekeeping, 12 events":
+        - text: Housekeeping
+        - generic: "12"
+      - button "Show Misc, 3 events":
+        - text: Misc
+        - generic: "3"
+      - button "All":
+        - generic: All
+      - generic: ·
+      - button "None":
+        - generic: None
+      - region "Activity feed":
+        - list:
+          - generic: Tiago Farto
+          - button "pushed 6 commits — show 6 events": pushed 6 commits
+          - generic: 3 months ago
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - 'link "docs: correct the Hub validation claim in feedback-records comments · commit 3b58a4c"':
+            - /url: https://github.com/formbricks/formbricks/commit/3b58a4cb9079b627352662bf1d1019b90c3fa720
+            - text: "docs: correct the Hub validation claim in feedback-records comments"
+          - generic: 3 months ago
+          - 'link "fix: validate feedback-record values and map Hub conflict/oversize errors · commit 671c9fe"':
+            - /url: https://github.com/formbricks/formbricks/commit/671c9fe5face2d7e0a22f42073f9cc3d825fd6b3
+            - text: "fix: validate feedback-record values and map Hub conflict/oversize errors"
+          - generic: 3 months ago
+          - link "xernobyl":
+            - /url: https://github.com/xernobyl
+          - generic: force-pushed the branch
+          - generic: 3 months ago
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - generic: Tiago Farto
+          - button "pushed 4 commits — show 4 events": pushed 4 commits
+          - generic: 3 months ago
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - 'link "docs: note that MCP tool changes need a dev-server restart · commit 754f883"':
+            - /url: https://github.com/formbricks/formbricks/commit/754f883bd43d32670b81250018b90017213ea990
+            - text: "docs: note that MCP tool changes need a dev-server restart"
+          - generic: 3 months ago
+          - 'link "fix: correct two claims the dataset rename made false · commit 81e2cac"':
+            - /url: https://github.com/formbricks/formbricks/commit/81e2cacc872d396d70acab1933d313956a72b5d9
+            - text: "fix: correct two claims the dataset rename made false"
+          - generic: 3 months ago
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - 'link "docs: warn that adding a resource scope breaks connected OAuth clients · commit 57befa4"':
+            - /url: https://github.com/formbricks/formbricks/commit/57befa4e65054df51d483b392db2618b12328bc5
+            - text: "docs: warn that adding a resource scope breaks connected OAuth clients"
+          - generic: 3 months ago
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - 'link "feat: name the resolved dataset in the feedback-records list response · commit ab9abae"':
+            - /url: https://github.com/formbricks/formbricks/commit/ab9abae5ab236f8141afad558870cb219633f854
+            - text: "feat: name the resolved dataset in the feedback-records list response"
+          - generic: 3 months ago
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - 'link "refactor: extract feedback-record access and error mapping · commit ec98fb8"':
+            - /url: https://github.com/formbricks/formbricks/commit/ec98fb8ae5229c5b613e7128e5a59058741b092f
+            - text: "refactor: extract feedback-record access and error mapping"
+          - generic: 3 months ago
+          - 'link "feat: add delete, semantic search and similar-record feedback MCP tools · commit 9c8bac2"':
+            - /url: https://github.com/formbricks/formbricks/commit/9c8bac26222e7b124ea5b32ec69fef5b83d97db6
+            - text: "feat: add delete, semantic search and similar-record feedback MCP tools"
+          - generic: 3 months ago
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - 'link "fix: treat a concurrent feedback-record delete as success · commit a2ce420"':
+            - /url: https://github.com/formbricks/formbricks/commit/a2ce42019634fcb3c3363d02d980075cefbe5ccb
+            - text: "fix: treat a concurrent feedback-record delete as success"
+          - generic: 3 months ago
+          - 'link "refactor: dedupe the two similarity searches, quiet an expected Hub 404 · commit f803f90"':
+            - /url: https://github.com/formbricks/formbricks/commit/f803f90896bb74ad738f61ed7a780043aa8b9db6
+            - text: "refactor: dedupe the two similarity searches, quiet an expected Hub 404"
+          - generic: 3 months ago
+          - link "xernobyl":
+            - /url: https://github.com/xernobyl
+          - generic: closed this pull request
+          - generic: 3 months ago
+          - 'link "feat: add feedback-record count, full filter set and batch create · commit b2b0e1a"':
+            - /url: https://github.com/formbricks/formbricks/commit/b2b0e1a015cb7afd6e24928b485a58d80fc113ef
+            - text: "feat: add feedback-record count, full filter set and batch create"
+          - generic: 3 months ago
+          - 'link "fix: normalise the Hub tenant once, and document batch submission grouping · commit 35c1711"':
+            - /url: https://github.com/formbricks/formbricks/commit/35c17115e0f0d8d10c3adc9a3ae755e31d67b3e4
+            - text: "fix: normalise the Hub tenant once, and document batch submission grouping"
+          - generic: 3 months ago
+          - link "xernobyl":
+            - /url: https://github.com/xernobyl
+          - generic: reopened this pull request
+          - generic: 3 months ago
+          - 'link "feat: add update_feedback_record · commit 28d3a95"':
+            - /url: https://github.com/formbricks/formbricks/commit/28d3a9552e798115fe134c871ebd308f87acb1a6
+            - text: "feat: add update_feedback_record"
+          - generic: 3 months ago
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - link "xernobyl":
+            - /url: https://github.com/xernobyl
+          - link "requested a review from Dhruwang":
+            - /url: https://github.com/Dhruwang
+          - generic: 3 months ago
+          - 'link "test: pin update''s inherited bounds and tighten the embedding-pending message · commit 23cdac2"':
+            - /url: https://github.com/formbricks/formbricks/commit/23cdac2d791cf1a0f25d80d82bc02a1f3922793c
+            - text: "test: pin update's inherited bounds and tighten the embedding-pending message"
+          - generic: 3 months ago
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - link "xernobyl":
+            - /url: https://github.com/xernobyl
+          - generic: marked this ready for review
+          - generic: 3 months ago
+          - article:
+            - link "coderabbitai[bot]":
+              - /url: https://github.com/apps/coderabbitai
+            - generic: Review
+            - generic: 3 months ago
+            - paragraph:
+              - strong: "Actionable comments posted: 6"
+            - generic: Caution
+            - paragraph: Some comments are outside the diff and can’t be posted inline due to platform limitations.
+            - button "Outside diff range comments (1)":
+              - generic: Outside diff range comments (1)
+            - button "Prompt for all review comments with AI agents":
+              - generic: Prompt for all review comments with AI agents
+            - button "Autofix (Beta)":
+              - generic: Autofix (Beta)
+            - separator
+            - button "Review info":
+              - generic: Review info
+            - button "Show more":
+              - generic: Show more
+            - button "Review":
+              - generic: Review
+          - 'link "fix: address CodeRabbit review — all seven findings were valid · commit f9103d6"':
+            - /url: https://github.com/formbricks/formbricks/commit/f9103d6f20fbc4b10bac1d850afd0139d005dfd8
+            - text: "fix: address CodeRabbit review — all seven findings were valid"
+          - generic: 3 months ago
+          - article:
+            - link "xernobyl":
+              - /url: https://github.com/xernobyl
+            - generic: Comment
+            - generic: 3 months ago
+            - paragraph:
+              - text: "@coderabbitai — went through all seven."
+              - strong: All valid, all addressed
+              - text: in f9103d6.
+            - table:
+              - rowgroup:
+                - row "# Finding What I did":
+                  - columnheader "#"
+                  - columnheader "Finding"
+                  - columnheader "What I did"
+              - rowgroup:
+                - row "1 datasetId compared against the untrimmed directory id Real bug, fixed. Since the normalised id is what we echo back as dataset_id, a caller replaying that value would have been 403'd on the next call. Both sides trimmed, plus a test for the round trip.":
+                  - cell "1"
+                  - cell "datasetId compared against the untrimmed directory id":
+                    - code: datasetId
+                    - text: compared against the untrimmed directory id
+                  - cell "Real bug, fixed. Since the normalised id is what we echo back as dataset_id, a caller replaying that value would have been 403'd on the next call. Both sides trimmed, plus a test for the round trip.":
+                    - strong: Real bug, fixed.
+                    - text: Since the normalised id is what we echo back as
+                    - code: dataset_id
+                    - text: ", a caller replaying that value would have been 403'd on the next call. Both sides trimmed, plus a test for the round trip."
+                - row "2 413 never relays the Hub detail Fixed. 413 is in RELAYABLE_HUB_STATUSES and the batch path already relayed it per record, so the whole-request branch was the odd one out — a single create/update never surfaced the Hub's actual size limit. Test added.":
+                  - cell "2"
+                  - cell "413 never relays the Hub detail"
+                  - cell "Fixed. 413 is in RELAYABLE_HUB_STATUSES and the batch path already relayed it per record, so the whole-request branch was the odd one out — a single create/update never surfaced the Hub's actual size limit. Test added.":
+                    - strong: Fixed.
+                    - text: 413 is in
+                    - code: RELAYABLE_HUB_STATUSES
+                    - text: and the batch path already relayed it per record, so the whole-request branch was the odd one out — a single create/update never surfaced the Hub's actual size limit. Test added.
+                - 'row "3 list/count don''t validate their filters Fixed. These were the only operations not validating their own input, which contradicts this layer''s stated contract — it''s transport-independent, so it can''t assume an MCP schema screened the input — and an out-of-range limit reached the Hub, which silently coerces it rather than rejecting. Both validate now via one parseQueryInput helper (renamed from parseSimilarityFilters, no longer similarity-specific). Side benefit: ZV3FeedbackRecordListFilters was exported but unused, and now isn''t."':
+                  - cell "3"
+                  - cell "list/count don't validate their filters"
+                  - 'cell "Fixed. These were the only operations not validating their own input, which contradicts this layer''s stated contract — it''s transport-independent, so it can''t assume an MCP schema screened the input — and an out-of-range limit reached the Hub, which silently coerces it rather than rejecting. Both validate now via one parseQueryInput helper (renamed from parseSimilarityFilters, no longer similarity-specific). Side benefit: ZV3FeedbackRecordListFilters was exported but unused, and now isn''t."':
+                    - strong: Fixed.
+                    - text: These were the only operations not validating their own input, which contradicts this layer's stated contract — it's transport-independent, so it can't assume an MCP schema screened the input — and an out-of-range
+                    - code: limit
+                    - text: reached the Hub, which silently coerces it rather than rejecting. Both validate now via one
+                    - code: parseQueryInput
+                    - text: helper (renamed from
+                    - code: parseSimilarityFilters
+                    - text: ", no longer similarity-specific). Side benefit:"
+                    - code: ZV3FeedbackRecordListFilters
+                    - text: was exported but unused, and now isn't.
+                - row "4 the eight-key .pick() written twice Fixed exactly as proposed — refined body derived from the raw shape.":
+                  - cell "4"
+                  - cell "the eight-key .pick() written twice":
+                    - text: the eight-key
+                    - code: .pick()
+                    - text: written twice
+                  - cell "Fixed exactly as proposed — refined body derived from the raw shape.":
+                    - strong: Fixed
+                    - text: exactly as proposed — refined body derived from the raw shape.
+                - row "5 no test for writeHandler's throw path Fixed. Added for both write handlers (single and batch). The invariant is \"a failed mutation is never silently unaudited\" and the catch branches upholding it were unguarded.":
+                  - cell "5"
+                  - cell "no test for writeHandler's throw path":
+                    - text: no test for
+                    - code: writeHandler
+                    - text: "'s throw path"
+                  - cell "Fixed. Added for both write handlers (single and batch). The invariant is \"a failed mutation is never silently unaudited\" and the catch branches upholding it were unguarded.":
+                    - strong: Fixed.
+                    - text: Added for both write handlers (single and batch). The invariant is "a failed mutation is never silently unaudited" and the catch branches upholding it were unguarded.
+                - row "6 feedbackRecords:write scope row missing update_feedback_record Fixed — and thanks, this one was a miss on my side. I'd attempted it in an earlier commit, but the edit matched an exact column padding that prettier had since reflowed, so it silently no-op'd; my verification then counted occurrences file-wide and passed on other rows. Fixed and verified against that row specifically.":
+                  - cell "6"
+                  - cell "feedbackRecords:write scope row missing update_feedback_record":
+                    - code: feedbackRecords:write
+                    - text: scope row missing
+                    - code: update_feedback_record
+                  - cell "Fixed — and thanks, this one was a miss on my side. I'd attempted it in an earlier commit, but the edit matched an exact column padding that prettier had since reflowed, so it silently no-op'd; my verification then counted occurrences file-wide and passed on other rows. Fixed and verified against that row specifically.":
+                    - strong: Fixed — and thanks, this one was a miss on my side.
+                    - text: I'd attempted it in an earlier commit, but the edit matched an exact column padding that prettier had since reflowed, so it silently no-op'd; my verification then counted occurrences file-wide and passed on other rows. Fixed and verified against that row specifically.
+                - row "7 clientRegistrationDefaultScopes duplicates MCP_OAUTH_SCOPES (outside diff) Fixed. Verified the literal was identical in members and order before switching to [...MCP_OAUTH_SCOPES] — this list drives DCR, so a reordering would have been a behaviour change. Checked against mcp-oauth-dcr.test.ts, which exercises the advertised-scope → DCR → authorize chain that would break if this list drifted.":
+                  - cell "7"
+                  - cell "clientRegistrationDefaultScopes duplicates MCP_OAUTH_SCOPES (outside diff)":
+                    - code: clientRegistrationDefaultScopes
+                    - text: duplicates
+                    - code: MCP_OAUTH_SCOPES
+                    - text: (outside diff)
+                  - cell "Fixed. Verified the literal was identical in members and order before switching to [...MCP_OAUTH_SCOPES] — this list drives DCR, so a reordering would have been a behaviour change. Checked against mcp-oauth-dcr.test.ts, which exercises the advertised-scope → DCR → authorize chain that would break if this list drifted.":
+                    - strong: Fixed.
+                    - text: Verified the literal was identical in members
+                    - emphasis: and
+                    - text: order before switching to
+                    - code: "[...MCP_OAUTH_SCOPES]"
+                    - text: — this list drives DCR, so a reordering would have been a behaviour change. Checked against
+                    - code: mcp-oauth-dcr.test.ts
+                    - text: ", which exercises the advertised-scope → DCR → authorize chain that would break if this list drifted."
+            - paragraph: "No false positives in the run — #1 and #3 were genuine gaps in code I'd already reviewed twice."
+            - paragraph:
+              - text: "Gates: 93 files / 1283 tests,"
+              - code: tsc
+              - text: and
+              - code: eslint
+              - text: clean on every changed file.
+            - paragraph:
+              - text: One thing deliberately
+              - strong: not
+              - text: "changed: the ~11 duplicated lines Sonar reports against"
+              - code: feedbackRecords/lib/errors.ts
+              - text: . That's
+              - code: handleUnexpectedError
+              - text: matching six inline copies in
+              - code: surveys/lib/operations.ts
+              - text: ", and those copies aren't identical — they differ in log messages, log-field order, and two carry an extra"
+              - code: InvalidInputError → 400
+              - text: branch. Unifying needs a helper with ~three knobs across a file this PR doesn't otherwise touch, so it's tracked as ENG-2048 alongside a related error-handling inconsistency in the taxonomy routes.
+            - button "Show more":
+              - generic: Show more
+            - button "View comment":
+              - generic: View comment
+          - article:
+            - link "coderabbitai[bot]":
+              - /url: https://github.com/apps/coderabbitai
+            - generic: Comment
+            - generic: 3 months ago
+            - generic: Tip
+            - paragraph: For best results, initiate chat on the files or code changes.
+            - paragraph:
+              - code: "@xernobyl"
+              - text: Thanks for the thorough follow-up. The fixes and targeted regression coverage for all seven findings sound solid—especially the dataset-ID round trip, transport-layer filter validation, and write-handler audit failure paths.
+            - paragraph: Deferring the non-identical error-handling consolidation to ENG-2048 is appropriate; it is outside this PR’s scope and has behavior differences that should be reconciled deliberately.
+            - paragraph: 🐇✅
+            - separator
+            - button "✏️ Learnings added":
+              - generic: ✏️ Learnings added
+            - separator
+            - paragraph:
+              - text: If you found this review helpful, would you consider giving us a shout-out on
+              - link "X":
+                - /url: https://twitter.com/intent/tweet?related=CodeRabbitAI&text=7%20valid%20bugs%20caught%20and%20fixed%3A%20ID%20auth%2C%20413%20details%2C%20filter%20validation%2C%20audit-on-throw%2C%20scopes%2C%20and%20config%20drift%E2%80%94verified%20by%201%2C283%20tests.%20Try%20%40coderabbitai%20%F0%9F%9A%80&url=https%3A%2F%2Fgithub.com%2Fformbricks%2Fformbricks%2Fpull%2F8650
+              - text: "?"
+            - paragraph: Thank you for using CodeRabbit!
+            - button "Show more":
+              - generic: Show more
+            - button "View comment":
+              - generic: View comment
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - link "xernobyl":
+            - /url: https://github.com/xernobyl
+          - generic: enabled auto-merge
+          - generic: 3 months ago
+          - article:
+            - link "Dhruwang":
+              - /url: https://github.com/Dhruwang
+            - generic: Review
+            - generic: 3 months ago
+            - paragraph: A few notes from exercising the feedback-record tools end-to-end against a local Hub. Details inline; bug summary in a separate comment.
+            - button "Review":
+              - generic: Review
+          - article:
+            - link "Dhruwang":
+              - /url: https://github.com/Dhruwang
+            - generic: Comment
+            - generic: 3 months ago
+            - paragraph: Exercised the 10 tools end-to-end against a local Hub (embeddings off). Happy paths, pagination, the count/list invariant, partial-batch reporting, the no-oracle 403s, and the 503 message all behaved as designed. Tenant isolation held up (IDOR guards, injection, scope gate).
+            - paragraph: "Bugs worth a look (detail in the inline comments):"
+            - list:
+              - strong:
+                - text: "[P2] update accepts values that contradict"
+                - code: field_type
+                - text: ", and writes"
+                - code: value_id
+                - text: .
+              - text: "Live: one PATCH left"
+              - code: value_text
+              - text: +
+              - code: value_number
+              - text: +
+              - code: value_id
+              - text: on a
+              - code: text
+              - text: record — a state
+              - code: create
+              - text: rejects.
+              - code: operations.ts
+              - text: update path.
+              - strong: "[P1] filter vs body casing."
+              - text: Filters camelCase, bodies snake_case; unknown keys stripped, so a mistyped filter silently returns wrong results.
+              - code: schemas.ts
+              - text: .
+              - strong: "[P2] Hub 503 always returns the embeddings message"
+              - text: ", even for non-search ops."
+              - code: errors.ts
+              - text: .
+              - strong:
+                - text: "[P3]"
+                - code: tenant_id
+                - text: leaks in relayed error detail
+              - text: (batch-dup 409).
+              - code: errors.ts
+              - text: .
+              - strong: "[P2] batch create has no concurrency cap"
+              - text: on the Hub fan-out (
+              - code: Promise.all
+              - text: over ≤50 + SDK retries ≈ ~150 concurrent).
+              - code: service.ts
+              - code: createFeedbackRecordsBatch
+              - text: .
+              - strong: "[P1] new MCP scopes break already-connected OAuth (DCR) clients"
+              - text: until they re-register — worth a release note.
+              - strong:
+                - text: "[P2] free-text"
+                - code: value_text
+                - text: reaches the audit log
+              - text: ;
+              - code: redactPII
+              - text: is key-name based and can't scrub in-text PII — a retention/erasure call, not a code bug.
+              - strong: "Maintainability:"
+              - code: operations.ts
+              - text: is ~1044 lines, mostly a repeated tenant/try-catch scaffold; a
+              - code: withFeedbackTenant
+              - text: wrapper would cut it down.
+            - button "Show more":
+              - generic: Show more
+            - button "View comment":
+              - generic: View comment
+          - 'link "fix: address review — all four findings were valid · commit 967522a"':
+            - /url: https://github.com/formbricks/formbricks/commit/967522af2fa381570d0114c3ed44c51d56876780
+            - text: "fix: address review — all four findings were valid"
+          - generic: 3 months ago
+          - link "mintlify[bot]":
+            - /url: https://github.com/apps/mintlify
+          - generic: deployed this pull request
+          - generic: 3 months ago
+          - article:
+            - link "xernobyl":
+              - /url: https://github.com/xernobyl
+            - generic: Comment
+            - generic: 3 months ago
+            - paragraph: Thanks @Dhruwang — all four were valid and all four reproduced against a local Hub. Addressed in 967522af2; details inline on each thread.
+            - paragraph: "Summary of what changed, and where I deviated from the suggestion:"
+            - table:
+              - rowgroup:
+                - row "Finding Fix Deviation":
+                  - columnheader "Finding"
+                  - columnheader "Fix"
+                  - columnheader "Deviation"
+              - rowgroup:
+                - row "Update skipped the field_type cross-check Checked after the ownership guard against the stored field_type, reusing create's table → 422 naming the field Kept value_id updatable — it is the value for categorical; the per-type table rejects it elsewhere":
+                  - cell "Update skipped the field_type cross-check":
+                    - text: Update skipped the
+                    - code: field_type
+                    - text: cross-check
+                  - cell "Checked after the ownership guard against the stored field_type, reusing create's table → 422 naming the field":
+                    - text: Checked after the ownership guard against the stored
+                    - code: field_type
+                    - text: ", reusing create's table → 422 naming the field"
+                  - cell "Kept value_id updatable — it is the value for categorical; the per-type table rejects it elsewhere":
+                    - text: Kept
+                    - code: value_id
+                    - text: updatable — it
+                    - emphasis: is
+                    - text: the value for
+                    - code: categorical
+                    - text: ; the per-type table rejects it elsewhere
+                - row "Relayed detail leaked tenant_id Word-bounded tenant_id → dataset_id over detail and invalid_params —":
+                  - cell "Relayed detail leaked tenant_id":
+                    - text: Relayed detail leaked
+                    - code: tenant_id
+                  - cell "Word-bounded tenant_id → dataset_id over detail and invalid_params":
+                    - text: Word-bounded
+                    - code: tenant_id
+                    - text: →
+                    - code: dataset_id
+                    - text: over detail
+                    - strong: and
+                    - code: invalid_params
+                  - cell "—"
+                - row "503 blamed embeddings everywhere 503 detail is caller-supplied, default names no subsystem; only the 2 search ops pass the embeddings message Kept 503 rather than collapsing to 502 — it is honestly \"retry later\"":
+                  - cell "503 blamed embeddings everywhere"
+                  - cell "503 detail is caller-supplied, default names no subsystem; only the 2 search ops pass the embeddings message"
+                  - cell "Kept 503 rather than collapsing to 502 — it is honestly \"retry later\""
+                - row "Filters camelCase vs snake_case bodies Renamed the 8 record-field filters to snake_case; .strict() so unknown keys 422 Chose snake_case (not camelCase) — responses are snake_case too, so it's the direction that removes the trap":
+                  - cell "Filters camelCase vs snake_case bodies"
+                  - cell "Renamed the 8 record-field filters to snake_case; .strict() so unknown keys 422":
+                    - text: Renamed the 8 record-field filters to snake_case;
+                    - code: .strict()
+                    - text: so unknown keys 422
+                  - cell "Chose snake_case (not camelCase) — responses are snake_case too, so it's the direction that removes the trap"
+            - paragraph: "Two notes worth surfacing beyond the threads:"
+            - list:
+              - strong:
+                - code: .strict()
+                - text: does not fix the MCP path.
+              - text: The SDK validates against its own non-strict copy of the raw shape and strips unknown keys before an operation runs, so the
+              - emphasis: rename
+              - text: is what prevents the silent no-op there. Making MCP strict means passing schema instances instead of
+              - code: .shape
+              - text: ", which changes the advertised JSON Schema for every tool — flagged as a possible follow-up."
+              - strong: The 503 finding reshaped the stacked PR.
+              - text: "#8666 (ENG-2048) needed the same per-caller wording for taxonomy, where a Hub 503 has four causes and the embeddings one is unreachable through the UI. That fix now lives here, and #8666 rebased onto it as a pure module move — so"
+              - code: main
+              - text: is never wrong, rather than being fixed one PR later.
+            - paragraph:
+              - text: "Verification:"
+              - code: 902 passed
+              - text: across
+              - code: app/api/v3
+              - text: ","
+              - code: modules/mcp
+              - text: ","
+              - code: modules/hub
+              - text: ","
+              - code: modules/ee/unify-feedback
+              - text: ; eslint +
+              - code: tsc
+              - text: clean on changed files; gitleaks and semgrep clean on the diff. Docs (tool reference + filter table) updated, and
+              - code: update_feedback_record
+              - text: "'s tool description now states the"
+              - code: value_*
+              - text: /
+              - code: field_type
+              - text: rule so an agent learns it from the schema rather than from a 422.
+            - button "Show more":
+              - generic: Show more
+            - button "View comment":
+              - generic: View comment
+          - 'link "fix: harden the two checks added in the last review round · commit 9778bd1"':
+            - /url: https://github.com/formbricks/formbricks/commit/9778bd169e9cb87fe25d09e7417759f40a8d9f0c
+            - text: "fix: harden the two checks added in the last review round"
+          - generic: 3 months ago
+          - link "xernobyl":
+            - /url: https://github.com/xernobyl
+          - link "requested a review from Dhruwang":
+            - /url: https://github.com/Dhruwang
+          - generic: 3 months ago
+          - article:
+            - link "Dhruwang":
+              - /url: https://github.com/Dhruwang
+            - generic: Approved
+            - generic: 3 months ago
+            - paragraph: Thank you for the PR. Looks good 🚀.
+            - button "Review":
+              - generic: Review
+          - link "xernobyl":
+            - /url: https://github.com/xernobyl
+          - link "added this to the merge queue":
+            - /url: https://github.com/formbricks/formbricks/queue/main
+          - generic: 3 months ago
+          - link "xernobyl":
+            - /url: https://github.com/xernobyl
+          - generic: merged this pull request
+          - generic: 3 months ago
+          - link "xernobyl":
+            - /url: https://github.com/xernobyl
+          - generic: deleted the head branch
+          - generic: 3 months ago
+- separator "Resize panel"
+- button "Open command palette":
+  - generic "Command": ⌘
+  - generic: K
+- region "Notifications":
+  - status:
+    - list

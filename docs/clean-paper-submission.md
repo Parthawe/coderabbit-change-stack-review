@@ -1,24 +1,23 @@
 # Paper submission
 
-[Final iteration](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/1-0) · [Task and decisions](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0). Paper requires sign-in.
+[Final iteration](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/1-0) · [Challenge and developer](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0). Paper requires sign-in.
 
-The file has four pages:
+Nine Paper pages, each with one purpose:
 
-1. Task & decisions: the assignment, three observations and why I chose this direction, together on one board.
-2. Original & final: the matched comparison, with each screenshot at its original size.
-3. Final iteration: the editable review screen and a short caption.
-4. Interactions & tradeoffs: guard/Return and Focus, followed by one short board for progress, the tradeoff and the next test.
+1. Challenge and assumed developer. A role and review task, with a line illustration; no invented research persona.
+2. Eight observations and their possible effects. Observations 1–7 inform four decisions; activity filtering stays a follow-up.
+3. Source evidence. Authentic main review, comments and Overview captures with matching orange numbered pointers. Captions and assumptions sit outside the interface.
+4. Read and inspect. Chosen: expand in place, use explicit statement links. Alternatives: expansion that jumps, separate explanation drawer.
+5. Navigate and return. Chosen: nested layer/files plus Inspect guard and Return. Alternatives: flat picker, caller/dependency side by side.
+6. Actions and progress. Chosen: frequent file actions beside the filename, secondary actions in Tools. Alternatives: distributed controls, one menu for most actions.
+7. Comments and findings. Chosen: resolution first, severity on the finding, replies in the thread. Alternatives: flat messages, severity-first grouping.
+8. Final iteration. Editable 1440 × 960 screen, task prompt and prototype URL; matched 1280 × 720 prototype capture below.
+9. Interactions, tradeoffs and next checks. Expansion, statement links, guard/Return, viewed/Undo, resolved thread, Focus, and the next developer test.
 
-The six redundant pages were removed after their useful content was consolidated. Evaluator questions remain removed. The final review and guard screens retain their content and dimensions. The Focus example retains its code and controls; its frame now fits the excerpt without the empty area below it.
+Each section comparison uses the same captured task content and labels the new options as current explorations. They are not A/B-test results. The original already supports summary navigation, complexity filters, comment severity/resolved filters and Focus. The changes refine those relationships and actions.
 
-The submission remains prototype, Paper and one-page rationale. The public website opens directly into the prototype. The prototype behavior stays the same. The rationale now connects each observation to its change and expected benefit.
+The final screen, guard and Focus states share the compact source header. The added wordmark is removed. Sample progress lives in navigation. Gray indicates navigation/display selection, orange connects a statement to code, and red/green retain diff meaning.
 
-Current exports are in design/clean-submission. The manifest maps 10 artboards, including separate screen captions, to four Paper pages. Earlier exports remain recoverable in Git history.
+Current PNG and editable JSX exports are in design/clean-submission. The manifest maps 19 boards, including source states and captions, to the nine Paper pages. Previous exports are recoverable from Git history. Earlier exploratory Paper work remains in the archive file 01M5AQACJZP42ZGTRX7GF9ERE7 and is not part of the submission route.
 
-The latest edit shortens the opening and captions, removes repeated annotation wording, aligns the comparison margins, and places the interaction examples in a vertical reading order. The scope note remains beside the proposed test. Detailed process history, including the exceeded timebox, remains in the repository history; no user testing or measured improvement is claimed.
-
-The comparison uses orange outlined targets, arrowheads and numbered markers adapted from the earlier diagnosis file. The main editable screen stays free of presentation callouts.
-
-The opening now frames a concrete review task: check the explanation, follow related code and return without losing position. Each observation names the existing change and its intended benefit. Less searching and backtracking remain hypotheses, with missed surrounding code as a risk to test. No pages or product features were added.
-
-The friend-feedback pass adds independent summary disclosure, explicit complexity labels, a layer/file nesting guide and neutral navigation/display selections. Orange connects a selected statement to its code; green/red retain diff meaning. The third diagnosis now addresses coupled summary expansion and code navigation, supported by the captured original accessibility labels. The matched After capture has been refreshed at 1280 × 720.
+The site remains the prototype. The submission links are Paper, prototype and one-page rationale. No message has been sent to CodeRabbit.

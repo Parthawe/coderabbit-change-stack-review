@@ -1,0 +1,121 @@
+{
+  "note": "The initial Return sample was taken during smooth scrolling; the settled check below is decisive. Native progress uses text/value rather than aria-valuenow.",
+  "checks": [
+    {
+      "test": "Close resolved thread preserves code position",
+      "before": {
+        "active": "open-thread",
+        "selected": 0,
+        "top": 2056
+      },
+      "after": {
+        "active": "open-thread",
+        "selected": 0,
+        "top": 2056
+      }
+    },
+    {
+      "test": "Collapse and expand summary preserve code scroll",
+      "before": 1480,
+      "after": 1480
+    },
+    {
+      "test": "Focus Z restores position",
+      "before": {
+        "line": [
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65"
+        ],
+        "top": 1538.5
+      },
+      "after": {
+        "line": [
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65"
+        ],
+        "top": 1538.5
+      }
+    },
+    {
+      "test": "Return settled code position",
+      "before": {
+        "line": "57",
+        "top": 1480
+      },
+      "after": {
+        "line": "57",
+        "top": 1480
+      }
+    },
+    {
+      "test": "Undo zero viewed",
+      "text": "0 of 7"
+    },
+    {
+      "test": "Shortcuts ignored while typing",
+      "state": {
+        "draft": "jkz",
+        "focus": false,
+        "layer": "API contracts and access controls"
+      }
+    },
+    {
+      "test": "Dialog Escape restores trigger",
+      "focus": "file-tools"
+    },
+    {
+      "test": "Reduced motion statement link",
+      "state": {
+        "arrival": 0,
+        "line": "75",
+        "reduced": true
+      }
+    },
+    {
+      "test": "1280 matched comparison",
+      "state": {
+        "height": 720,
+        "highlight": [
+          "57",
+          "58",
+          "59",
+          "60",
+          "61",
+          "62",
+          "63",
+          "64",
+          "65"
+        ],
+        "scrollWidth": 1280,
+        "width": 1280
+      }
+    },
+    {
+      "test": "1279 context overlay closes after code link",
+      "state": {
+        "focus": "diff",
+        "open": false,
+        "scrollWidth": 1279,
+        "width": 1279
+      }
+    },
+    {
+      "test": "Loading and unavailable preview",
+      "result": "Loading file state visible; retry explicitly simulated; Return to pinned fixture worked."
+    }
+  ]
+}

@@ -2,7 +2,7 @@
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '48px', paddingInline: '64px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '36px', fontWeight: 600, lineHeight: '44px' }}>
-          Keep progress deliberate
+          What I would check next
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px', width: '1280px' }}>
           Opening a file doesn’t mark it viewed.
@@ -36,7 +36,7 @@
           The tradeoff
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px', width: '1000px' }}>
-          Two code panes squeezed the caller and guard. I kept one pane with Return; Focus recovers space from the side panels.
+          A narrower highlight makes a statement easier to locate, but may hide an important branch from attention. Whole function and the full source wording remain available. Inspect + Return keeps code wide, at the cost of switching between caller and guard.
         </div>
       </div>
       <div style={{ alignItems: 'start', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingBottom: '8px', paddingTop: '24px' }}>
@@ -45,12 +45,12 @@
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '1000px' }}>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px', width: '1000px' }}>
-            Ask developers to explain the access check on both screens and find a branch the summary misses. Watch for missed code and wrong turns.
+            Ask developers to explain this access check, inspect its guard and return, then find a branch the summary misses. Check whether they distinguish a resolved Major finding from an open issue. Watch for missed code and wrong turns.
           </div>
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px', paddingTop: '8px' }}>
-        Prototype scope: 7 of 52 diffs, manually linked code ranges. Not yet tested with developers.
+        Limits: 7 of 52 diffs; manually mapped code links; one captured comment thread; other bodies unavailable; secondary workflows are previews. No measured efficiency claim. Next opportunity: make Overview’s existing multi-select filters clearer.
       </div>
     </div>
   )

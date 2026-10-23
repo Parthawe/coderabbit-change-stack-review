@@ -14,8 +14,8 @@
     57,
     65
   ],
-  "original_capture": "Unaltered screenshot from the live review. Selected Unified through View settings, expanded the 49\u2013130 summary, then scrolled to line 54. No code, styling, controls or progress edited.",
-  "prototype_capture": "Unaltered screenshot from the running local prototype, with Require workspace access selected and lines 57\u201365 highlighted. Includes the submission bar. Refreshed October 23 after restoring PR metadata, icons and layer position.",
+  "original_capture": "Unaltered screenshot from the live review. Selected Unified through View settings, expanded the 49–130 summary, then scrolled to line 54. No code, styling, controls or progress edited.",
+  "prototype_capture": "Unaltered CDP browser screenshot of the local prototype at 1280 × 720, Unified, Require workspace access selected. Refreshed after restoring the compact source header and moving progress into navigation. Submission bar is outside the product.",
   "differences": [
     "Original full summary wording; prototype concise links with full wording behind a disclosure.",
     "Original observed summary progress retained; prototype local progress begins at zero.",
@@ -27,13 +27,9 @@
       "sha256": "f3633ef5d3e48b8e8f01185119135b7703a5b8ddfe24de9bdb6b09d694aa87b6",
       "bytes": 161783
     },
-    "m-unified-access-call.png": {
-      "sha256": "e69a06f7446f3ba809e18f5ae18a2b9963240e94ec8300227a31fb91f09b0c47",
-      "bytes": 116959
-    },
-    "m-guard-arrival.png": {
-      "sha256": "574742ae8c395fb66977f80a4128424924318b48ead8396a6a0958cccb40264d",
-      "bytes": 101248
+    "prototype-unified-access-call.png": {
+      "sha256": "f61bf9f9eabe60f3a3db9c8647f4cdb0379b483676827edade65e8bf7d7b9cb8",
+      "bytes": 186442
     }
   }
 }

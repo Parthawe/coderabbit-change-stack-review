@@ -1,3 +1,30 @@
+# Nine-page decision story and comments refinement · October 23, 2026
+
+This entry supersedes the older four-page descriptions below. Designed the new sections in Paper, inspected them, then matched the prototype. The four decisions and limits now appear in the one-page rationale. Nineteen PNG/JSX export pairs map to nine Paper pages.
+
+Source evidence was captured from the working public review at the pinned commit in the background browser: main review, resolved comments and Overview filters. The comments screenshot has no settings overlay. Numbered orange pointers are separate editable overlays. Observations about effort and clarity remain assumptions, not research findings. The original already provides severity and resolved filters.
+
+Restored the compact source header arrangement: Triage, Merged, PR title/metadata and disabled Submit. Removed the added wordmark. Moved sample progress to navigation. Comments now distinguish three source messages from one captured resolved Major thread in access.ts. Two reply bodies are explicitly omitted. Other files keep verified counts and state when bodies/severity are unavailable. Local notes have their own area.
+
+Browser checks passed:
+
+- Expanding/collapsing a summary preserved code scroll position; Normalize tenant IDs highlighted only L75.
+- Inspect guard and Return restored L57–65 and the settled scrollTop of 1480. An earlier sample taken during smooth scrolling was inconclusive; the settled check passed.
+- Mark viewed and Undo returned progress from 0/7 to 1/7 to 0/7. File navigation alone did not change progress.
+- Focus Z restored code position and selection. J/K navigated layers; typing jkz in a local draft left layer and Focus unchanged.
+- Closing the resolved thread preserved code scrollTop 2056 and returned focus to its disclosure button.
+- errors.ts showed seven resolved source messages with missing bodies; errors.test.ts showed the verified no-comments state.
+- Tools dialog Escape restored focus to its trigger. Reduced motion linked L75 with no arrival animation.
+- 1440 × 960 and 1280 × 960 layouts were inspected. Split at 1280 retained a 614px after pane. No horizontal document overflow was present.
+- At 1279px, context became an overlay; selecting a statement closed it and focused the code.
+- Loading preview and source-unavailable preview remained reachable. Retry identified itself as a local demonstration; returning restored the pinned fixture.
+
+The matched comparison uses the same PR, commit, file, light theme, Unified mode, 1280 × 720 viewport and first complete line L54. The prototype includes its separate submission bar; the original fits more code. The one-page rationale was rendered and visually checked. JavaScript syntax and whitespace checks passed. No developer testing or measured time savings are claimed. The work exceeded the assignment timebox.
+
+Raw browser observations and capture provenance are in design/evidence. Earlier entries below record prior states, not the current submission.
+
+---
+
 # Friend feedback: reading, hierarchy and selection · October 23
 
 Applied in Paper before the prototype. Summaries now expand independently of code navigation; explicit links jump to a code range. Expansion state survives file changes and filtering. Complexity filters preserve code selection and reading position. Source labels explicitly say Medium/High complexity; no risk ranking or uncaptured Low content was invented. Kept source code order and the existing complexity filter.
