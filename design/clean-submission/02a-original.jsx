@@ -15,19 +15,19 @@
           <path d="M934 357H947 M940 352L947 357L940 362" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <circle cx="920" cy="357" r="14" fill="#FF570A" />
           <text x="920" y="362.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
-             1 
+             1
           </text>
           <rect x="262" y="93" width="670" height="77" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
           <path d="M915 86V93 M910 86L915 93L920 86" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <circle cx="915" cy="72" r="14" fill="#FF570A" />
           <text x="915" y="77.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
-             2 
+             2
           </text>
           <rect x="98" y="4" width="623" height="43" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
           <path d="M741 25H722 M729 20L722 25L729 30" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <circle cx="755" cy="25" r="14" fill="#FF570A" />
           <text x="755" y="30.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
-             3 
+             3
           </text>
         </svg>
       </div>
