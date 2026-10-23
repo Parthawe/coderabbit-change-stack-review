@@ -1,3 +1,11 @@
+# Paper presentation polish · October 23
+
+Reviewed all four pages. Shortened the opening, comparison annotations and state captions. Removed the separate A/B-test disclaimer and timing note from the presentation; neither was a result claim. Retained the prototype coverage and lack of developer testing in one scope note. The work exceeded the original 1–2 hour timebox; this remains documented here.
+
+Aligned comparison margins around the unchanged 1280 × 720 screenshots. Corrected the final screenshot’s third callout to point to progress. Stacked guard and Focus vertically at full width, and trimmed unused space below the Focus excerpt. All code and control content is retained. Reviewed the revised frames for spacing, alignment, contrast, text clipping and callout placement.
+
+Refreshed eight PNG/JSX pairs. Four Paper pages remain. The prototype and rationale are unchanged because this pass changes presentation copy and layout, not the proposed behavior.
+
 # Four-page Paper consolidation · October 23
 
 Verified four actual Paper pages after removing six empty pages. Combined task, diagnosis and choice on one board; combined progress, tradeoff, next test and scope on one supporting board. Inspected both revised boards for spacing, type, contrast, alignment and clipping. Full-size comparison and native review states remain unchanged.

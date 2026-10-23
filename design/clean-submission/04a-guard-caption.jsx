@@ -1,11 +1,11 @@
 (
-    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: '140px', justifyContent: 'center', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '40px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '30px', fontWeight: 600, lineHeight: '38px', width: '410px' }}>
-          Follow the guard, then get back to the call.
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, lineHeight: '40px', width: '410px' }}>
+          Inspect, then return
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '28px', width: '900px' }}>
-          Inspect the guard at L27 and L38. Return restores the caller’s selected lines and reading position.
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '900px' }}>
+          Open the guard at L27 and L38. Return restores the caller’s selection and reading position.
         </div>
       </div>
     </div>

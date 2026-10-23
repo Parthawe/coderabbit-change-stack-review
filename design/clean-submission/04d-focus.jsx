@@ -95,7 +95,7 @@
           </div>
         </div>
       </div>
-      <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '836px', width: '1440px' }}>
+      <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: 'fit-content', minHeight: '0px', width: '1440px' }}>
         <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: '56px', paddingBlock: '10px', paddingInline: '28px', width: '100%' }}>
           <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '36px', justifyContent: 'space-between', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '28px' }}>
@@ -175,7 +175,7 @@
             </div>
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', height: '713px', overflow: 'clip', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', height: 'fit-content', minHeight: '0px', overflow: 'clip', width: '1440px' }}>
           <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '44px', justifyContent: 'space-between', paddingBlock: '6px', paddingInline: '16px', width: '100%' }}>
             <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
               <div style={{ backgroundColor: '#FFEAD5', borderRadius: '4px', boxSizing: 'border-box', height: '32px', paddingBlock: '6px', paddingInline: '8px' }}>
