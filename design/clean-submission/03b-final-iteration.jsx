@@ -135,7 +135,7 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', paddingBottom: '8px', paddingTop: '4px' }}>
-            <div style={{ backgroundColor: '#FFEAD5', borderColor: '#FFDCC3', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', textAlign: 'center', width: '28px' }}>
+            <div style={{ backgroundColor: '#ECEBED', borderColor: '#D5D2D8', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', textAlign: 'center', width: '28px' }}>
               <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center' }}>
                 1
               </div>
@@ -160,11 +160,11 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '2px', minHeight: '0px', overflow: 'clip' }}>
-            <div style={{ alignItems: 'center', backgroundColor: '#FFEAD5', borderColor: '#FFDCC3', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '60px', padding: '8px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', width: '20px' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#ECEBED', borderColor: '#D5D2D8', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '6px', height: '60px', paddingBlock: '8px', paddingLeft: '8px', paddingRight: '20px', position: 'relative' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', width: '12px' }}>
                 1
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '4px', minWidth: '0px' }}>
                 <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
                   API contracts and access controls
                 </div>
@@ -172,14 +172,17 @@
                   9 files · 3 findings · 1 major
                 </div>
               </div>
+              <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', right: '6px', top: '24px', display: 'inline-block' }}>
+                <path d="m2 3 3 3 3-3" fill="none" stroke="#65616A" strokeWidth="1.4" />
+              </svg>
             </div>
-            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: 'fit-content', overflow: 'clip', paddingBlock: '6px', paddingLeft: '16px' }}>
+            <div style={{ borderLeftColor: '#D5D2D8', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: 'fit-content', overflow: 'clip', paddingBlock: '6px', paddingLeft: '12px' }}>
               <div style={{ boxSizing: 'border-box', height: 'fit-content', minHeight: '28px', paddingBottom: '6px', paddingTop: '2px' }}>
                 <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   0 / 7 viewed · 2 unavailable
                 </div>
               </div>
-              <div style={{ alignItems: 'center', backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
+              <div style={{ alignItems: 'center', backgroundColor: '#ECEBED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
                 <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                   access.ts
@@ -427,7 +430,7 @@
           <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', minHeight: '0px', overflow: 'clip' }}>
             <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '44px', justifyContent: 'space-between', paddingBlock: '6px', paddingInline: '16px', width: '100%' }}>
               <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <div style={{ backgroundColor: '#FFEAD5', borderRadius: '4px', boxSizing: 'border-box', height: '32px', paddingBlock: '6px', paddingInline: '8px' }}>
+                <div style={{ backgroundColor: '#ECEBED', borderRadius: '4px', boxSizing: 'border-box', height: '32px', paddingBlock: '6px', paddingInline: '8px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                     Unified
                   </div>
@@ -455,7 +458,7 @@
                 <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   Full added file
                 </div>
-                <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '2px', paddingInline: '8px' }}>
+                <div style={{ backgroundColor: '#ECEBED', borderColor: '#D5D2D8', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '2px', paddingInline: '8px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                     Wrap on
                   </div>
@@ -781,7 +784,7 @@
             </div>
           </div>
           <div style={{ borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '4px' }}>
-            <div style={{ backgroundColor: '#FFEAD5', borderRadius: '3px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
+            <div style={{ backgroundColor: '#ECEBED', borderRadius: '3px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
               <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                 This file
               </div>
@@ -793,7 +796,7 @@
             </div>
           </div>
           <div style={{ alignItems: 'center', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '20px', paddingTop: '4px' }}>
-            <div style={{ alignItems: 'center', borderBottomColor: '#FF570A', borderBottomStyle: 'solid', borderBottomWidth: '2px', boxSizing: 'border-box', display: 'flex', height: '30px', paddingBottom: '10px' }}>
+            <div style={{ alignItems: 'center', borderBottomColor: '#65616A', borderBottomStyle: 'solid', borderBottomWidth: '2px', boxSizing: 'border-box', display: 'flex', height: '30px', paddingBottom: '10px' }}>
               <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
                 <svg width="14" height="14" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
                   <rect x="4" y="3" width="16" height="18" rx="2" fill="none" stroke="#65616A" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
@@ -822,7 +825,7 @@
                 ▸ Layer activity
               </div>
               <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
-                <div style={{ backgroundColor: '#FFEAD5', borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
+                <div style={{ backgroundColor: '#ECEBED', borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                     All
                   </div>
@@ -846,10 +849,15 @@
             </div>
             <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: 'fit-content', paddingBlock: '12px' }}>
               <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
-                Lines 49–130 · Medium
+                Lines 49–130 · Medium complexity
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '22px' }}>
-                Resolve workspace tenant
+              <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '8px', width: '100%' }}>
+                <svg width="14" height="22" viewBox="0 0 14 22" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+                  <path d="m3 8 4 4 4-4" fill="none" stroke="#65616A" strokeWidth="1.5" />
+                </svg>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '22px' }}>
+                  Resolve workspace tenant
+                </div>
               </div>
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                 Authorize workspace access, load and normalize directory IDs, enforce dataset membership, and return a permitted tenant context.
@@ -944,16 +952,21 @@
               </div>
             </div>
             <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderRadius: '5px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', paddingBlock: '10px', paddingInline: '12px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
-                Lines 156–186 · High
+              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                Lines 156–186 · High complexity
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
-                Enforce record ownership
+              <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '8px', width: '100%' }}>
+                <svg width="14" height="22" viewBox="0 0 14 22" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+                  <path d="m5 6 4 5-4 5" fill="none" stroke="#65616A" strokeWidth="1.5" />
+                </svg>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '22px' }}>
+                  Enforce record ownership
+                </div>
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                 Retrieve a record, map Hub failures, and compare its tenant against the pinned dataset or workspace tenant set.
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '18px', textAlign: 'right' }}>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', textAlign: 'right' }}>
                 Mark seen
               </div>
             </div>
@@ -963,7 +976,7 @@
             </div>
             <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', width: '100%' }}>
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                Summary options ▸
+                Filter by complexity ▸
               </div>
               <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                 About links

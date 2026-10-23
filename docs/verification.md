@@ -1,3 +1,13 @@
+# Friend feedback: reading, hierarchy and selection · October 23
+
+Applied in Paper before the prototype. Summaries now expand independently of code navigation; explicit links jump to a code range. Expansion state survives file changes and filtering. Complexity filters preserve code selection and reading position. Source labels explicitly say Medium/High complexity; no risk ranking or uncaptured Low content was invented. Kept source code order and the existing complexity filter.
+
+The original accessibility capture (`design/evidence/layer-1-summary-ax.txt`) labels summary expansion “Expand summary and jump to code” and badges “Low/Medium/High complexity.” This supports the revised third diagnosis. Live source browser attachment failed during this pass; no fresh source behavior observation is claimed.
+
+Neutral gray identifies navigation and display settings. Orange links a statement to code, while diff additions/deletions retain semantic colors. A guide strengthens layer/file nesting. The small-screen Context button now says Summary & comments. All four Paper pages remain; refreshed six PNG/JSX export pairs and the After comparison using an actual prototype capture at 1280 × 720, Unified, same commit/file and first complete line L54.
+
+Browser checks: expanded/collapsed two summaries with code scrollTop and linked range unchanged; filtered High without moving code; explicit normalization link selected only L75 and did not mark a file viewed; Focus and guard/Return retained the selected range; viewed/Undo and layer expand/collapse worked from the keyboard. Visually inspected local prototype at 1280 × 720, 1440 × 960 and the available 1019 px viewport (overlay). JavaScript syntax and diff whitespace checks passed. Rebuilt and visually checked the one-page PDF. These are functional checks and an informal feedback pass, not a developer usability study.
+
 # Review task and expected impact · October 23
 
 Updated the first Paper page to connect the review task, three observations, the existing design changes and their expected benefits. Kept all four pages and the prototype behavior. Regenerated the opening PNG/JSX export and the PDF/HTML rationale from the shared copy. Visually checked the opening and one-page PDF for spacing, alignment, contrast and clipping. Expected improvements remain hypotheses; developer testing and the risk of missing code beyond a highlight are explicit.

@@ -15,14 +15,14 @@
       "Inspect guard opens both checks. Return restores the caller’s selection and position, so there should be less to retrace. I mapped this route manually."
     ],
     [
-      "File and display actions sit across several controls.",
-      "I grouped file actions beside the filename and display settings above the code to make the next action easier to find. Named menus add a click for less-used tools."
+      "Expanding a summary also jumps the code in the original review.",
+      "I separated reading from navigation. Summaries expand in place; explicit code links jump and highlight. This should make it easier to read without losing my position."
     ]
   ],
   "tradeoff_title": "Why I kept one code pane",
   "tradeoff": "Showing the caller and guard together squeezed both at laptop width, so I chose Return. The matched comparison in Paper uses Unified. The original fits more code; this iteration gives files and summary links more room. Focus gives that space back.",
   "validation_title": "What stays available",
-  "validation": "PR details, icons, layer numbers, J/K and Z Focus remain. Visiting a file leaves progress alone; Mark viewed and Undo change it. Full summary wording and secondary tools have named destinations. Secondary tools are labeled as previews; full functional parity is not implemented.",
+  "validation": "Layers and files have a clearer nested structure. Gray marks navigation and display settings; orange connects a statement to code. Complexity labels retain the source values, with a filter and code order by default. J/K, Focus and deliberate viewed progress remain. Secondary tools are previews; full parity is not implemented.",
   "next_title": "What I expect, and how I would check it",
   "next": "I expect less searching and backtracking. I’d ask developers to explain the access check on both screens, then find a branch the summary misses. I’d watch for wrong turns and missed code. If smaller highlights narrow the review too much, I’d change them.",
   "scope": "Seven of 52 diffs at commit 23cdac2; manually mapped links. The PR is merged; Submit is disabled. Semantic diffs and modified-file review are outside this sample. No developer testing. This work exceeded the expected 1–2 hours."

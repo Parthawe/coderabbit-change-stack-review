@@ -20,3 +20,5 @@ The latest edit shortens the opening and captions, removes repeated annotation w
 The comparison uses orange outlined targets, arrowheads and numbered markers adapted from the earlier diagnosis file. The main editable screen stays free of presentation callouts.
 
 The opening now frames a concrete review task: check the explanation, follow related code and return without losing position. Each observation names the existing change and its intended benefit. Less searching and backtracking remain hypotheses, with missed surrounding code as a risk to test. No pages or product features were added.
+
+The friend-feedback pass adds independent summary disclosure, explicit complexity labels, a layer/file nesting guide and neutral navigation/display selections. Orange connects a selected statement to its code; green/red retain diff meaning. The third diagnosis now addresses coupled summary expansion and code navigation, supported by the captured original accessibility labels. The matched After capture has been refreshed at 1280 × 720.

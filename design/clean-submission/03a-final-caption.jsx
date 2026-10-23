@@ -5,7 +5,7 @@
           Final iteration
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '900px' }}>
-          Select “Normalize tenant IDs” to highlight L75. Keep the surrounding code in view.
+          Expand a summary to read it. Select “Normalize tenant IDs” to highlight L75; the surrounding code stays in view.
         </div>
       </div>
     </div>

@@ -39,10 +39,10 @@
       </div>
       <div style={{ alignItems: 'start', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingTop: '18px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '32px', width: '280px' }}>
-          Competing controls
+          Reading causes a jump
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '970px' }}>
-          File and display actions compete above the diff. I grouped them by purpose so the next action should be easier to find.
+          Expanding a summary also jumps the code. I separated reading from code links so I can understand the explanation without losing my place.
         </div>
       </div>
       <div style={{ borderTopColor: '#A33C17', borderTopStyle: 'solid', borderTopWidth: '2px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '24px' }}>

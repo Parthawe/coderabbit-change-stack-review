@@ -9,7 +9,7 @@
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', flexShrink: '0', height: '720px', position: 'relative', width: '1280px' }}>
-        <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/1B1RMQ89XTPQG679G1NHZQ5KFR.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', height: '720px', width: '1280px' }} />
+        <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/0N0HFTD2DRJDN1VV17HSRM16VJ.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', height: '720px', width: '1280px' }} />
         <svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '0px', top: '0px', display: 'inline-block' }}>
           <rect x="974" y="318" width="279" height="54" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
           <path d="M928 338H973 M966 333L973 338L966 343" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -39,7 +39,7 @@
           A target for each point
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
-          The access check links to L57–65. Full wording stays available.
+          Expand to read; use a code link to jump. The access check links to L57–65.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
