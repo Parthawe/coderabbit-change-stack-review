@@ -1,6 +1,6 @@
 # Three-minute recording script
 
-Revision 6. Read the spoken text; leave the action cues outside the recording.
+Revision 7. Read the spoken text; leave the action cues outside the recording.
 
 ## 0:00-0:16 · Explain the assignment
 

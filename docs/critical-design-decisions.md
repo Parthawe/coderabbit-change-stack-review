@@ -12,11 +12,11 @@ The original already had layers, summary jumps, explicit viewed state, J/K navig
 
 **Problem I saw:** file identity, layer context and actions compete above the diff. It takes attention to work out which context belongs to the current file.
 
-**What I built:** a persistent file rail, a compact layer heading and one file toolbar. This file and Entire layer state what the context panel contains. Entire layer starts with short rows grouped by file. Less frequent review tools sit behind a disclosure.
+**What I built:** a persistent file rail and compact layer heading. File actions sit beside the filename; display settings sit directly above the code. This file and Entire layer state what the context panel contains. Entire layer starts with short rows grouped by file. Less frequent review tools sit behind a disclosure.
 
 **Show it:** switch between This file and Entire layer, then change files. The selected file remains identifiable; returning to a file restores its reading state. Opening a file does not change viewed progress.
 
-**Tradeoff:** the rail and context panel each scroll. This leaves more room for code, but the navigation is denser at 720px height. The fixed layer switcher keeps the other layers reachable. Below 1280px, context becomes an overlay.
+**Tradeoff:** keeping both side panels costs code width; Focus gives that space back. Files and layers now share one scrolling region. Later layers can sit below the fold, with J/K retained for navigation. Below 1280px, context becomes an overlay. Grouping secondary destinations adds a click to those tools.
 
 ### 2. Make each summary point checkable
 
@@ -63,7 +63,7 @@ The source capture shows stacked file controls and a summary spanning L49–130.
 
 ## What the evidence supports
 
-The [verification record](verification.md) documents working interactions and tested layouts. The independent reassessment is 32/40 on an AI heuristic checklist, not a CodeRabbit grade. Keep that score in the process notes rather than using it as proof in the submission.
+The [verification record](verification.md) and [layout review](layout-refinement.md) document working interactions and tested layouts. Earlier AI review scores remain process notes; they are not CodeRabbit grades or evidence from developers.
 
 The fixture contains seven complete added-file diffs out of 52, nine layer-1 paths and fourteen of 37 layer summaries. Missing patches, uncaptured replies and secondary workflows are disclosed. No additional findings or PR content were invented to fill those gaps.
 
@@ -73,7 +73,7 @@ My next test would use the same commit and content on both interfaces. First ask
 
 Keep M. The strongest contribution is the short claim → code → guard → return sequence, supported by explicit scope and deliberate progress. The weakest demonstration is still the imports-only static comparison; use it to establish equal content, then move to the working task.
 
-Before production, I would test one modified-file review and the code-first counter-task. The rail’s nested scrolling, commit-aware link reliability and recovery after reload also need evaluation. These are recorded limits, not completed research. The last independent heuristic assessment is 32/40; this correction pass does not establish a higher score.
+Before production, I would test one modified-file review and the code-first counter-task. The revised shared navigation scroller, commit-aware link reliability and recovery after reload need developer evaluation. These are recorded limits, not completed research.
 
 ## Where this reasoning lives
 

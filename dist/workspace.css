@@ -1,0 +1,58 @@
+/* Reading-room refinement, designed in Paper before implementation.
+   Preserve file identity; group display controls with the code; one navigation scroller. */
+.navigation { gap: 4px; }
+.layer:not(.selected) { border-color: transparent; background: transparent; }
+.layer:not(.selected):hover { background: var(--control-hover, #f1eff3); }
+.overview-links { position: relative; flex-shrink: 0; }
+.overview-links > summary { cursor: pointer; padding: 8px 12px; color: var(--muted); font-size: 13px; }
+.overview-menu { position: absolute; z-index: 16; top: 100%; left: 0; width: 100%; padding: 8px; background: var(--paper); border: 1px solid var(--line); border-radius: 4px; box-shadow: 0 6px 16px #211f2414; }
+.overview-menu button { display: block; width: 100%; text-align: left; }
+#layer-jump { display: none; }
+.layer-files { max-height: none; overflow: visible; scrollbar-gutter: auto; padding: 4px 0 12px; }
+.file-nav-row { padding-left: 16px; min-height: 32px; }
+.file-nav-row .file-nav { min-height: 32px; font-size: 13px; padding: 6px 8px; }
+.file-viewed-target { height: 32px; }
+.layer-viewed-count { margin: 8px 0 4px 24px; }
+.nav-bottom { padding-top: 12px; border-top: 1px solid var(--line); }
+.layer-heading, .layer-heading.is-collapsed { height: auto; min-height: 56px; padding: 10px 28px; }
+.heading-row { min-height: 35px; }
+.summary-toggle, .layer-heading.is-collapsed .summary-toggle { top: 19px; }
+.heading-row > span { top: 19px; }
+.layer-heading:not(.is-collapsed) .diagram-preview { position: static; margin-top: 8px; }
+.file-toolbar { flex-wrap: nowrap; padding: 12px 20px; gap: 16px; }
+.file-identity { min-width: 0; flex: 1; }
+.file-actions { width: auto; flex: 0 0 auto; }
+.file-actions button { padding: 7px 12px; font-size: 13px; }
+.filename strong { font-weight: 600; }
+.diff-controls { display: flex; align-items: center; min-height: 44px; flex-shrink: 0; padding: 6px 16px; gap: 12px; background: var(--surface); border-bottom: 1px solid var(--line); }
+.reading-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.reading-actions button { padding: 6px 8px; border-color: transparent; font-size: 12px; height: 32px; }
+.diff-status { flex: 1; width: auto; min-width: 0; height: auto; padding: 0; border: 0; background: transparent; gap: 12px; }
+.diff-reading-controls > span { display: none; }
+.diff-reading-controls { flex-shrink: 0; }
+.diff-status .linked-range { margin-left: auto; white-space: nowrap; }
+.code-row.add > .line-num:first-child { display: none; }
+.context-heading { display: none; }
+.scope-switch { margin-top: 0; }
+.context-panel { background: var(--surface); }
+.summary-card, .summary-card:has(>.summary-item[aria-pressed=true]) { border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: transparent; padding: 12px 0; margin: 0 0 16px; }
+.summary-card .summary-item { padding: 0 0 12px; }
+.summary-card .summary-item strong { font-size: 16px; font-weight: 600; line-height: 22px; }
+.summary-card .summary-item[aria-pressed=true] { color: var(--text); }
+.summary-card .summary-item:hover { background: var(--selected); }
+.statement-list { padding: 0 0 12px; }
+.source-summary, .summary-anchors { padding-inline: 0; }
+.summary-card .summary-seen { margin-right: 0; }
+.summary-help { margin: 16px 0 0; padding-top: 8px; }
+.about-links { top: 8px; }
+.compact-summary .summary-item { padding: 8px 0; }
+.compact-summary .summary-item strong { font-size: 14px; }
+@media (max-width:1279px) {
+ .context-panel .context-heading { display: flex; margin-bottom: 12px; }
+ .diff-controls { flex-wrap: wrap; }
+ .diff-status { min-width: 240px; }
+}
+@media (max-width:1000px) {
+ .file-identity { flex-basis: auto; }
+ .file-actions { justify-content: flex-end; }
+}

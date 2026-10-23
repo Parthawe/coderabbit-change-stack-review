@@ -7,7 +7,6 @@
     "tokens": "811c9dc5"
   }
 }
-
 (
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased' }}>
       <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '72px', justifyContent: 'space-between', paddingInline: '24px', width: '1280px' }}>
@@ -52,15 +51,15 @@
         <div style={{ backgroundColor: '#FAF8FB', borderRightColor: '#E3E0E7', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '2px', height: '100%', padding: '12px', width: '240px' }}>
           <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', minHeight: '32px', paddingInline: '12px' }}>
             <div style={{ boxSizing: 'border-box', color: '#465466', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
-              Overview · preview
+              PR overview ▾
             </div>
           </div>
-          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', minHeight: '32px', opacity: '0.55', paddingInline: '12px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '32px', minHeight: '32px', opacity: '0.55', paddingInline: '12px' }}>
             <div style={{ boxSizing: 'border-box', color: '#465466', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
               Security blast radius
             </div>
           </div>
-          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', minHeight: '32px', paddingInline: '12px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '32px', minHeight: '32px', paddingInline: '12px' }}>
             <div style={{ boxSizing: 'border-box', color: '#465466', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
               Architecture impact · preview
             </div>
@@ -73,28 +72,28 @@
               Files · preview
             </div>
           </div>
-          <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '3px', paddingBottom: '8px', paddingTop: '4px' }}>
-            <div style={{ backgroundColor: '#FFEAD5', borderColor: '#FFDCC3', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', textAlign: 'center', width: '28px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', paddingBottom: '8px', paddingTop: '4px' }}>
+            <div style={{ backgroundColor: '#FFEAD5', borderColor: '#FFDCC3', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', textAlign: 'center', width: '28px' }}>
               <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center' }}>
                 1
               </div>
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
               2
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
               3
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
               4
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
               5
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
               6
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'center', lineHeight: '28px', textAlign: 'center', width: '28px' }}>
               7
             </div>
           </div>
@@ -112,64 +111,64 @@
                 </div>
               </div>
             </div>
-            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '2px', maxHeight: '144px', overflow: 'clip', paddingBlock: '6px', paddingLeft: '28px', paddingRight: '8px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: 'fit-content', overflow: 'clip', paddingBlock: '6px', paddingLeft: '16px' }}>
               <div style={{ boxSizing: 'border-box', paddingBottom: '6px', paddingTop: '2px' }}>
                 <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   0 / 7 viewed · 2 unavailable
                 </div>
               </div>
-              <div style={{ alignItems: 'center', backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+              <div style={{ alignItems: 'center', backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                   access.ts
                 </div>
               </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                   errors.test.ts
                 </div>
               </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                   errors.ts
                 </div>
               </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                   schemas.ts
                 </div>
               </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                   serializers.test.ts
                 </div>
               </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                   serializers.ts
                 </div>
               </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                   feedback-access.ts
                 </div>
               </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', opacity: '0.4', width: '12px' }} />
-                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                  response.ts · preview
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                  response.ts
                 </div>
               </div>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', opacity: '0.4', width: '12px' }} />
-                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
-                  taxonomy/access.ts · preview
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                  taxonomy/access.ts
                 </div>
               </div>
             </div>
@@ -257,7 +256,7 @@
               All 9 files · search list
             </div>
           </div>
-          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: '86px', justifyContent: 'end', minHeight: '144px', paddingBottom: '4px', paddingInline: '12px', paddingTop: '8px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: 'fit-content', justifyContent: 'end', minHeight: '0px', paddingBottom: '4px', paddingInline: '12px', paddingTop: '12px' }}>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
               Sample review progress
             </div>
@@ -281,7 +280,7 @@
           </div>
         </div>
         <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '612px', width: '720px' }}>
-          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: '68px', paddingBlock: '16px', paddingInline: '28px', width: '100%' }}>
+          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: '56px', paddingBlock: '10px', paddingInline: '28px', width: '100%' }}>
             <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '36px', justifyContent: 'space-between', width: '100%' }}>
               <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '28px' }}>
                 API contracts and access controls
@@ -301,7 +300,7 @@
                 Hide summary
               </div>
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
               Diagrams · unavailable
             </div>
           </div>
@@ -338,21 +337,6 @@
               </div>
             </div>
             <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '4px' }}>
-              <div style={{ backgroundColor: '#FFEAD5', borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '10px' }}>
-                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Unified
-                </div>
-              </div>
-              <div style={{ boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '8px' }}>
-                <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Split
-                </div>
-              </div>
-              <div style={{ borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '10px' }}>
-                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Focus Z
-                </div>
-              </div>
               <div style={{ borderColor: '#A8B6C6', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '10px' }}>
                 <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Mark viewed
@@ -363,17 +347,32 @@
                   Tools
                 </div>
               </div>
-              <div style={{ alignItems: 'center', borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', height: '32px', paddingInline: '10px' }}>
-                <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                  Outline
-                </div>
-              </div>
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', height: '473px', overflow: 'clip' }}>
-            <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '34px', justifyContent: 'space-between', paddingBlock: '8px', paddingInline: '24px', width: '100%' }}>
-              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
-                <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '44px', justifyContent: 'space-between', paddingBlock: '6px', paddingInline: '16px', width: '100%' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                <div style={{ backgroundColor: '#FFEAD5', borderRadius: '4px', boxSizing: 'border-box', height: '32px', paddingBlock: '6px', paddingInline: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    Unified
+                  </div>
+                </div>
+                <div style={{ boxSizing: 'border-box', height: '32px', paddingBlock: '6px', paddingInline: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    Split
+                  </div>
+                </div>
+                <div style={{ borderRadius: '4px', boxSizing: 'border-box', height: '32px', paddingBlock: '6px', paddingInline: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    Focus Z
+                  </div>
+                </div>
+                <div style={{ alignItems: 'center', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', height: '32px', paddingBlock: '6px', paddingInline: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                    Outline
+                  </div>
+                </div>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   Full added file
                 </div>
                 <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '2px', paddingInline: '8px' }}>
@@ -392,7 +391,7 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 1
               </div>
@@ -404,7 +403,7 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 2
               </div>
@@ -416,7 +415,7 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 3
               </div>
@@ -428,7 +427,7 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 4
               </div>
@@ -440,7 +439,7 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 5
               </div>
@@ -452,7 +451,7 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 6
               </div>
@@ -464,7 +463,7 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 7
               </div>
@@ -476,11 +475,11 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 8
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
@@ -488,11 +487,11 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 9
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
@@ -500,21 +499,21 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 10
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }} />
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 11
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
@@ -522,11 +521,11 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 12
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
@@ -534,11 +533,11 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 13
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
@@ -546,11 +545,11 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 14
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
@@ -558,11 +557,11 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 15
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
@@ -570,11 +569,11 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 16
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', width: 'max-content' }}>
@@ -582,11 +581,11 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 17
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: 'max-content' }}>
                 +
               </div>
               <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre', width: 'max-content' }}>
@@ -594,7 +593,7 @@
               </div>
             </div>
             <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '42px' }} />
+              <div style={{ boxSizing: 'border-box', display: 'none', width: '42px' }} />
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                 66
               </div>
@@ -615,8 +614,8 @@
             </div>
           </div>
         </div>
-        <div style={{ backgroundColor: '#F8FAFC', borderLeftColor: '#E3E0E7', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: '612px', overflow: 'clip', padding: '16px', width: '320px' }}>
-          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'space-between' }}>
+        <div style={{ backgroundColor: '#FAF8FB', borderLeftColor: '#E3E0E7', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: '612px', overflow: 'clip', padding: '16px', width: '320px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0' }}>
             <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
               Change context
             </div>
@@ -625,7 +624,7 @@
               Continue · preview
             </div>
           </div>
-          <div style={{ borderColor: '#D5CDD7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '4px', padding: '3px' }}>
+          <div style={{ borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '4px' }}>
             <div style={{ backgroundColor: '#FFEAD5', borderRadius: '3px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
               <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                 This file
@@ -650,14 +649,6 @@
           <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', minHeight: '0px', overflow: 'clip', width: '100%' }}>
             <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
               2 of 6 summaries captured
-            </div>
-            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-              <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                Summary options ▸
-              </div>
-              <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                About links
-              </div>
             </div>
             <div style={{ boxSizing: 'border-box', display: 'none' }}>
               <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
@@ -686,11 +677,11 @@
                 </div>
               </div>
             </div>
-            <div style={{ backgroundColor: '#FDFDFE', borderColor: '#D5CDD7', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: 'fit-content', padding: '12px' }}>
+            <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: 'fit-content', paddingBlock: '12px' }}>
               <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
                 Lines 49–130 · Medium
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '22px' }}>
                 Resolve workspace tenant
               </div>
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
@@ -802,6 +793,14 @@
             <div style={{ boxSizing: 'border-box', display: 'none', paddingBlock: '12px' }}>
               <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }} />
               <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }} />
+            </div>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                Summary options ▸
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                About links
+              </div>
             </div>
           </div>
         </div>

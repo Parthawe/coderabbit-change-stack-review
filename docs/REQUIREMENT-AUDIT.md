@@ -28,7 +28,7 @@ The submission is one layer-based reviewing screen, editable Paper and a one-pag
 | Split and Focus | Compact added-file Before rail, wrapped code, reversible Equal panes and Focus with reading-position preservation. |
 | Source comments | Paraphrased resolved thread; missing replies disclosed. Resolved visibility and local-note recovery remain available. |
 | Recovery | Loading, unavailable-source and no-comments states; retry and return paths. |
-| Continue, Follow review, global Files mode and Diagrams | Continue beside context, Follow review under More review tools, Files beside Layers, and Diagrams beside layer details. Each is a labeled preview; downstream actions remain outside scope. |
+| Continue, Follow review, global Files mode and Diagrams | Continue and Follow review under More review tools, Files beside Layers, and Diagrams inside About layer. Each retains its preview/unavailable label; downstream actions remain outside scope. |
 | PR search, impact, history and settings | Clearly labeled captured metadata or previews. Full-PR search and uncaptured analysis are outside scope. |
 
 The original already supported summary jumps, deliberate viewed state, J/K and Z. The changes refine their presentation and add narrower continuity paths; the rationale and recording credit those source capabilities.

@@ -1,33 +1,33 @@
 {
-  "title": "What I changed in Change Stack",
-  "intro": "I chose one review task: check a summary against the code, inspect the access guard, then return without losing my place. I kept CodeRabbit’s layer-based model, summary jumps and deliberate viewed state. M changes how those pieces work together.",
+  "title": "Make the review easier to follow",
+  "intro": "The brief asks for a clearer review screen without losing capability. I focused on one task in Formbricks #8650: check a summary against the code, inspect the access guard, then return to the caller. The original already supports layers, summary jumps and viewed status.",
   "rows": [
     [
-      "What I focused on",
-      "Decision and reason"
+      "Problem I chose",
+      "Decision and tradeoff"
     ],
     [
-      "Keep the file and review scope visible.",
-      "The rail keeps file navigation available. This file and Entire layer make the context scope explicit. File controls stay beside the diff; secondary tools sit behind a disclosure. This keeps the reading task visible while moving through the PR."
+      "Controls crowd the reading area.",
+      "The filename, Mark viewed and Tools share one row. Display settings sit directly above the code. PR overview holds secondary destinations. This gives actions a clear scope, but adds a click to less frequent tools."
     ],
     [
-      "Make each summary point checkable.",
-      "Six compact rows link statements to specific code ranges. The full source wording and Whole function stay available. About links explains the manual mapping. A highlight helps locate code; the reviewer still has to judge the claim."
+      "Moving across files can interrupt the review.",
+      "The file list uses one scrolling region with the layers. This file and Entire layer make the explanation’s scope explicit. Keeping both side panels costs code width; Focus restores that space without losing position."
     ],
     [
-      "Return from the guard without rebuilding context.",
-      "Inspect guard opens feedback-access.ts. Return restores the caller’s statement, reading position and context. I built one route to demonstrate continuity across files. Automatic dependency navigation remains outside this prototype."
+      "One summary covers 82 lines and six points.",
+      "Each point links to its code. Inspect guard opens the related file; Return restores the caller’s selection and position. Full wording and Whole function stay available. Precise links can encourage tunnel vision, so they are starting points for inspection."
     ],
     [
-      "Keep progress separate from approval.",
-      "Opening a file marks nothing viewed. Mark viewed has Undo. The layer distinguishes seven reviewable files from two unavailable patches. Summary seen is separate, and Submit review is disabled for this merged PR."
+      "Reading and finishing are different decisions.",
+      "Opening a file marks nothing viewed. Mark viewed updates the file and count together, with Undo. Summary seen stays separate. The count covers seven included files; Submit review is disabled because this PR is merged."
     ]
   ],
-  "tradeoff_title": "The space tradeoff",
-  "tradeoff": "Wrapped 13 px code avoids horizontal movement but adds vertical scrolling. Added-file Split gives the empty Before pane 96 px; Equal panes restores 50/50. Compact statement rows keep all six checks visible at 1280 × 720. Modified-file Split still needs a separate check.",
-  "validation_title": "What I checked",
-  "validation": "I checked the caller/guard return, statement links, viewed/Undo and layouts at 1440, 1280 and 1100 px. Targeted keyboard checks cover current-range state, focus and Escape. Developer comprehension and a full screen-reader audit still need testing.",
-  "scope": "Formbricks #8650 at the out-of-date 23cdac2 snapshot. Seven of 52 diffs are included. The comparison uses final M with the same imports and six source points; the original capture is untouched. Full file and Captured ranges do not recreate semantic diffs. Nothing is sent.",
-  "next_title": "What I’d test next",
-  "next": "I’d compare the same task on both screens, then ask developers to start from code and challenge the summary. Watch explanation accuracy, missed branches and backtracking. Precise links are only useful if people still inspect enough code."
+  "tradeoff_title": "What I chose to leave out",
+  "tradeoff": "I kept one code pane. Putting caller and guard side by side would squeeze both at laptop width. The return action demonstrates continuity without another permanent panel. Added-file Split keeps its empty Before pane compact.",
+  "validation_title": "What the prototype establishes",
+  "validation": "The links, return path, focus, viewed state and Undo can be tried. These checks establish working behavior, not better comprehension. The design keeps 13 px code; larger type and modified-file Split still need developer testing.",
+  "scope": "Pinned Formbricks #8650, commit 23cdac2 (out of date). Seven of 52 diffs are included. The original comparison capture is untouched. Links are manually mapped; layer-specific semantic diffs are not recreated.",
+  "next_title": "How I’d challenge the idea",
+  "next": "Give developers the same task on both screens. Ask them to explain the guard and find a reason the summary could be incomplete. Compare missed branches, wrong turns and time spent finding their place. Faster navigation is only useful if they still understand the change."
 }

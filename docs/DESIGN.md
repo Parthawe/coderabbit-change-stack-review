@@ -101,7 +101,7 @@ Summary navigation, explicit viewed status, J/K and Z existed in the source. The
 
 ## Layout and type
 
-The desktop shell has a 72px PR header, a 240px navigation rail, a flexible code workspace and a 320px context panel. The layer description starts collapsed in a compact 68px heading. The footer discloses the seven-of-52 diff boundary. All nine layer paths remain available in the rail's bounded file list; layer progress sits with them.
+The desktop shell has a 72px PR header, a 240px navigation rail, a flexible code workspace and a 320px context panel. The layer description starts collapsed in a compact 56px heading. The footer discloses the seven-of-52 diff boundary. All nine layer paths remain available in the rail’s shared layer-and-file scroll region; layer progress sits with them.
 
 Below 1280px, Context opens a 320px overlay between header and footer. The body retains an 880px minimum width. This is a desktop prototype, without a mobile composition. Focus mode hides surrounding panels and preserves the current reading position. Lower-height windows reduce vertical spacing.
 
@@ -109,7 +109,7 @@ Geist supplies interface text; Hack supplies code and technical metadata. Code i
 
 ## Navigation and context
 
-Previous/Next and the searchable position control navigate nine verified layer paths without skipping uncaptured patches. Opening a file never marks it viewed. Each file retains its summary, context tab and reading position. Revealing the selected file scrolls only its bounded list, preserving the outer layer heading. Unavailable patches keep their labeled navigation destination and recovery path.
+Previous/Next and the searchable position control navigate nine verified layer paths without skipping uncaptured patches. Opening a file never marks it viewed. Each file retains its summary, context tab and reading position. Revealing the selected file scrolls the shared navigation region only when needed; switching retains its position. Unavailable patches keep their labeled navigation destination and recovery path.
 
 This file and Entire layer are explicit context scopes. File scope shows the source file's summary count and captured coverage. Entire layer groups fourteen captured summaries under the nine file paths and discloses the source total of 37; missing summaries remain coverage notices. Complexity filters retain the chosen scope and current file in Entire layer. They apply to captured summaries, with a coverage empty state for uncaptured Low details. Summary options holds complexity filters and independent seen-summary progress.
 
@@ -125,7 +125,7 @@ Full file shows all captured added-file lines; Captured ranges limits the displa
 
 ## Progress and decisions
 
-The header labels progress Sample and uses seven included diffs as its denominator. The rail labels layer progress against nine paths. The footer discloses seven of 52 PR diffs. Uncaptured patches cannot be marked viewed. Summary seen is independent of viewed state and review decisions.
+The header labels progress Included files and uses seven included diffs as its denominator. The rail labels layer progress against nine paths. The footer discloses seven of 52 PR diffs. Uncaptured patches cannot be marked viewed. Summary seen is independent of viewed state and review decisions.
 
 Mark viewed changes the file control, rail and sample counts together. Undo lasts eight seconds, pauses on hover/focus and restores the previous state even after navigation. Other notices do not displace pending Undo. Bulk viewed also has Undo; Reset invalidates it.
 
@@ -149,7 +149,7 @@ The untouched original and final-M comparison retain access.ts imports 1–7 and
 
 ## Arc consistency follow-up
 
-The global header uses the actual PR title as a GitHub link, with the captured stack name labeled separately. Context heading, This file / Entire layer and the summary/comment tabs stay fixed; only the context body scrolls. Per-file and guard-return history preserve that body’s position. Continue sits beside context, Files beside Layers, Follow review with review tools, and Diagrams beside layer details. Each opens a labeled preview. None claims an uncaptured workflow is implemented.
+The global header uses the actual PR title as a GitHub link, with the captured stack name labeled separately. This file / Entire layer and the summary/comment tabs stay fixed; only the context body scrolls. Per-file and guard-return history preserve that body’s position. Continue and Follow review sit in More review tools; Files stays beside Layers; Diagrams sits inside About layer. Each opens a labeled preview. None claims an uncaptured workflow is implemented.
 
 ## October 23 compact review pass
 
@@ -158,3 +158,9 @@ Statement actions use 13px/18px labels and 12px/18px right-aligned ranges in a 6
 The header says Included files; Layer 1 shows seven reviewable files and two unavailable patches above the file list. More review tools groups secondary previews. About links explains manual mapping in a dismissible popover. The matched-content page links directly to the access-check task. See improvement-plan.md for acceptance checks and the developer test still needed.
 
 At narrow desktop widths, filename text truncates before file navigation shrinks. The complete filename remains in its title and selected rail row. Preview destinations are labeled at entry. Escape dismisses About links before closing the context overlay.
+
+## October 23 layout and reasoning pass
+
+File identity, Mark viewed and Tools share one row. Unified, Split, Focus, Outline and Wrap form a separate 44px strip directly above the diff. Added-file Unified omits the unused old-line gutter. PR overview groups the three overview destinations. Summary options and About links follow the summary content. Statement selection retains its orange highlight; the enclosing summary no longer adds another bordered box.
+
+The decision record explains each cost: menus add a click, visible navigation takes code width, and precise anchors can narrow attention. One code pane plus Return is the chosen route; paired panes are not part of the final submission. No measured time saving or external score is claimed.

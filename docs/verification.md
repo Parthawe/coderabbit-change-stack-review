@@ -1,4 +1,10 @@
-# Final pre-submission check · October 23, 2026
+# Current layout refinement · October 23, 2026
+
+Paper, the prototype, comparison and rationale now use a shared navigation scroller and separate file actions from code display settings. The [layout review](layout-refinement.md) records current decisions and checks. At 1440×960, the guard return restored L57–65 and the exact 1383px reading position; Focus preserved it. File switching, viewed/Undo, J/K, the 1100px context overlay, dialog focus and no-comments state passed. No document overflow was found at 1440, 1280 or 1100px. The scoped layout scan and JavaScript syntax check passed.
+
+The rationale remains one page. The recording pack uses fresh Paper exports and browser captures; the spoken script is unchanged apart from its revision label. Older scrolling behavior and dimensions below describe prior releases.
+
+# Earlier return-state repair · October 23, 2026
 
 Found and fixed a return-state defect: after inspecting the guard, revisiting the caller through the rail and choosing L75, Return restored the old position but kept L75 selected. Paper’s interaction contract was clarified first. The prototype now snapshots the caller anchor and keyboard line and restores them with the saved reading state. The repaired detour restores L57–65, scrollTop 1504, focus on Inspect guard and 0/7 viewed. Direct return with Enter also passed.
 

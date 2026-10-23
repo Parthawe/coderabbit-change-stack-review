@@ -7,7 +7,6 @@
     "tokens": "811c9dc5"
   }
 }
-
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -150,7 +149,7 @@
           Move to the next file without opening a dialog
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
-          The nine-path file list scrolls independently. At narrower widths, the filename truncates before the Previous / position / Next controls; the full path remains available. Switching files restores its selected summary and reading position. Opening a file marks nothing viewed.
+          Files and layers share one scrolling region. Previous/Next and the searchable position control remain beside the filename. Switching restores each file’s reading position; it never marks the file viewed.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingTop: '20px' }}>
@@ -209,7 +208,7 @@
           Other tools are still reachable
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Files stays beside Layers. More review tools contains Follow review, History, Settings and PR search. Review progress remains visible. Summary options holds seen counts and complexity filters. About links explains the limits of the manually mapped ranges.
+          PR overview holds Overview, Security blast radius and Architecture impact. Files stays beside Layers. More review tools holds Continue, Follow review, history, settings and PR search. Diagrams sits inside About layer.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
           Six statement rows pair a label and range as one click target. Inspect guard is a separate action beneath the access check. Entire layer starts compact; This file expands the selected summary. Opening a file marks nothing viewed.
@@ -246,13 +245,13 @@
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '24px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
-          Outline stays beside the file toolbar
+          Outline stays with code display controls
         </div>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
           A 360 px popover lists the six captured access.ts entities with line ranges. Picking one closes it and jumps to that range. Escape returns focus to Outline; clicking outside dismisses it. The code remains visible and undimmed.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-          Copied path, wrapping and collapsing remain in Tools. Mark all viewed lives in Sample review progress, with Undo.
+          Copy path, diff scope and collapse remain in Tools. Wrap is visible above the code. Bulk viewed stays in Sample review progress.
         </div>
       </div>
       <div style={{ backgroundColor: '#FDFDFE', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '20px', width: '100%' }}>

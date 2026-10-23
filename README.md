@@ -37,3 +37,5 @@ CodeRabbit branding follows the [official reference](https://www.coderabbit.ai/b
 Current native design exports are in `design/paper-submission/`. Other files under `design/` record earlier studies and are not the final submission.
 
 The [focused improvement plan](docs/improvement-plan.md) records the October 23 compact-row pass and the developer tests still needed.
+
+The [latest layout and reasoning review](docs/layout-refinement.md) records the Paper-first refinement: one navigation scroller, distinct file and display controls, less summary framing, and explicit design tradeoffs. Paper exports, the matched comparison, the rationale and the recording script reflect this pass.

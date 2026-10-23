@@ -47,17 +47,18 @@ $('#toast').addEventListener('mouseenter',()=>clearTimeout(toastTimer));
 $('#toast').addEventListener('focusout',scheduleToast);
 $('#toast').addEventListener('mouseleave',scheduleToast);
 function updateViewedButton(){const f=currentFile(),viewed=!!f&&state.viewed.has(f.id);$('#viewed').innerHTML=viewed?checkIcon+'<span>Viewed</span>':'Mark viewed';$('#viewed').setAttribute('aria-pressed',String(viewed))}
-function openDialog(title,html){restoreFocus=document.activeElement;$('#dialog-title').textContent=title;$('#dialog-content').innerHTML=html;$('#dialog').classList.remove('is-confirmed');$('#dialog').showModal()}
+function openDialog(title,html){restoreFocus=document.activeElement;const overview=$('.overview-links');if(overview.contains(restoreFocus)){restoreFocus=overview.querySelector('summary');overview.open=false}$('#dialog-title').textContent=title;$('#dialog-content').innerHTML=html;$('#dialog').classList.remove('is-confirmed');$('#dialog').showModal()}
+document.addEventListener('click',e=>{if(!e.target.closest('.overview-links'))$('.overview-links').open=false});
 $('#dialog').addEventListener('close',()=>{if(restoreFocus?.isConnected&&!restoreFocus.disabled)restoreFocus.focus();else $('#notes').focus()});
 $('#dialog').addEventListener('click',e=>{if(e.target===$('#dialog')){const r=e.target.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.target.close()}});
 function renderNav(){
- const fileScroll=$('#layer-list .layer-files')?.scrollTop||0;
+ const fileScroll=$('#layer-list').scrollTop;
  $('#layer-jump').innerHTML=data.layers.map((l,i)=>`<button data-jump-layer="${i}" aria-label="Layer ${i+1}: ${esc(l.name)}" title="${esc(l.name)}" aria-current="${i===state.layer?'true':'false'}">${i+1}</button>`).join('');
  const active=document.activeElement,navActive=$('#layer-list').contains(active),key=navActive?['layer','file','viewFile'].find(k=>active.dataset[k]!==undefined):null,value=key&&active.dataset[key];
  $('#layer-list').innerHTML=data.layers.map((l,i)=>`<div class="layer-group"><button class="layer ${i===state.layer?'selected':''}" data-layer="${i}" ${l.severityNote?`title="${esc(l.severityNote)}"`:""} aria-expanded="${i===state.layer&&state.expanded}" ${i===state.layer?'aria-current="true"':''}><span class="layer-number">${i+1}</span><span class="layer-copy"><strong>${esc(l.name)}</strong><small>${l.files} files${l.findings?' · '+l.findings+' finding'+(l.findings===1?'':'s'):''}${l.severity?' · '+esc(l.severity):''}</small></span><svg class="chevron" viewBox="0 0 16 16" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></button>${i===state.layer&&state.expanded?`${i===0?`<p class="layer-viewed-count">${state.viewed.size} / 7 viewed · 2 unavailable</p>`:''}<div class="layer-files">${i===0?data.files.map(f=>`<div class="file-nav-row"><label class="file-viewed-target"><input class="file-viewed" type="checkbox" data-view-file="${f.id}" aria-label="Mark ${esc(f.name)} viewed" ${state.viewed.has(f.id)?'checked':''} ${f.lines?'':'disabled title="Patch not captured"'}></label><button class="file-nav" data-file="${f.id}" ${f.id===state.file?'aria-current="true"':''} title="${esc(f.path)}${f.lines?'':' · Patch not captured'}">${esc(f.name)}</button></div>`).join(''):'<p class="source-gap">File inventory is outside this focused prototype.</p>'}</div>`:''}</div>`).join('');
- if($('#layer-list .layer-files'))$('#layer-list .layer-files').scrollTop=fileScroll;
+ $('#layer-list').scrollTop=fileScroll;
  if(key){const attr=key==='viewFile'?'view-file':key;$(`#layer-list [data-${attr}="${value}"]`)?.focus({preventScroll:true})}
- const selected=$('#layer-list .file-nav[aria-current="true"]');if(selected){const nav=selected.closest('.layer-files'),r=selected.getBoundingClientRect(),bounds=nav.getBoundingClientRect();if(r.bottom>bounds.bottom)nav.scrollTop+=r.bottom-bounds.bottom;else if(r.top<bounds.top)nav.scrollTop+=r.top-bounds.top}updateProgress()
+ const selected=$('#layer-list .file-nav[aria-current="true"]');if(selected){const nav=$('#layer-list'),r=selected.getBoundingClientRect(),bounds=nav.getBoundingClientRect();if(r.bottom>bounds.bottom)nav.scrollTop+=r.bottom-bounds.bottom;else if(r.top<bounds.top)nav.scrollTop+=r.top-bounds.top}updateProgress()
 }
 function updateProgress(){
  const count=data.files.filter(f=>f.lines&&state.viewed.has(f.id)).length;
@@ -279,6 +280,7 @@ function moveLineComment(direction){
 }
 document.addEventListener('keydown',e=>{
  if(!data)return;
+ if(e.key==='Escape'&&$('.overview-links').open){e.preventDefault();$('.overview-links').open=false;$('.overview-links > summary').focus();return}
  if($('#anchor-help').matches(':popover-open')){if(e.key==='Escape'){e.preventDefault();$('#anchor-help').hidePopover();$('.about-links').focus({preventScroll:true})}return}
  if($('#outline-panel').matches(':popover-open')){if(e.key==='Escape'){e.preventDefault();closeOutline();$('#file-outline').focus()}return}
  if(e.key==='Escape'&&!$('#dialog').open&&$('#context').classList.contains('is-open')){e.preventDefault();closeContext();return}
