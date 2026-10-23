@@ -1,18 +1,18 @@
 (
-    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '28px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '64px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '36px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '64px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px' }}>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
           02 / DECISION 2 · NAVIGATE & RETURN
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '42px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '50px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '48px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '56px', maxWidth: '1320px' }}>
           Follow the guard. Keep the way back.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
           Problems 3–4 · Same access.ts → feedback-access.ts route.
         </div>
       </div>
-      <div style={{ boxSizing: 'border-box', display: 'flex', gap: '24px', width: '1440px' }}>
-        <div style={{ backgroundColor: '#FAF8FB', borderColor: '#D5D2D8', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', padding: '24px', width: '440px' }}>
+      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '40px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', paddingBlock: '24px', width: '360px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
             OPTION A
           </div>
@@ -43,8 +43,8 @@
             Fast for direct file selection, but the layer relationship and route back remain implicit.
           </div>
         </div>
-        <div style={{ backgroundColor: '#FDFDFE', borderColor: '#65616A', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', padding: '24px', width: '512px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+        <div style={{ backgroundColor: '#FFFFFF', borderColor: '#C8C4CC', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '24px', padding: '32px', width: '640px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
             CHOSEN · OPTION B
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
@@ -79,7 +79,7 @@
             The files stay attached to their layer. Return restores the caller’s selection and reading position.
           </div>
         </div>
-        <div style={{ backgroundColor: '#FAF8FB', borderColor: '#D5D2D8', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', padding: '24px', width: '440px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', paddingBlock: '24px', width: '360px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
             OPTION C
           </div>
@@ -88,8 +88,8 @@
           </div>
           <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', minHeight: '280px' }}>
             <div style={{ borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', padding: '14px', width: 'round(50%, 1px)' }}>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '27px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
-                access.ts<br /><br />L57–65<br />requireUnifyFeedbackWorkspaceAccess
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
+                access.ts<br /><br />L57–65<br />Workspace guard call
               </div>
             </div>
             <div style={{ boxSizing: 'border-box', padding: '14px', width: 'round(50%, 1px)' }}>
@@ -103,9 +103,12 @@
           </div>
         </div>
       </div>
-      <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', paddingTop: '24px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '34px', whiteSpace: 'pre-wrap' }}>
-          Why I chose B<br />I kept one readable code pane and made the return route explicit. The tradeoff is that the caller and guard cannot be read at the same time.
+      <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingTop: '24px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
+          Why I chose B
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '1208px' }}>
+          I kept one readable code pane and made the return route explicit. The tradeoff is that the caller and guard cannot be read at the same time.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>

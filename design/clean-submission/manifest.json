@@ -12,7 +12,7 @@
           "id": "5FN-0",
           "name": "Task, diagnosis and decision",
           "width": 1440.0,
-          "height": 860.0,
+          "height": 828.0,
           "x": 0,
           "y": 0
         },
@@ -98,7 +98,7 @@
           "id": "62A-0",
           "name": "Read a summary. Choose when to jump.",
           "width": 1600.0,
-          "height": 967.0,
+          "height": 1009.0,
           "x": 0,
           "y": 0
         },
@@ -106,7 +106,7 @@
           "id": "62Q-0",
           "name": "Follow the guard. Keep the way back.",
           "width": 1600.0,
-          "height": 1028.0,
+          "height": 1052.0,
           "x": 1760,
           "y": 0
         },
@@ -114,7 +114,7 @@
           "id": "634-0",
           "name": "Keep actions close to what they change.",
           "width": 1600.0,
-          "height": 1079.0,
+          "height": 1082.0,
           "x": 0,
           "y": 1220
         },
@@ -122,7 +122,7 @@
           "id": "63I-0",
           "name": "Read the status before the severity.",
           "width": 1600.0,
-          "height": 1097.0,
+          "height": 1119.0,
           "x": 1760,
           "y": 1220
         }
@@ -174,7 +174,7 @@
           "id": "6C5-0",
           "name": "Interactions · what changes and what stays",
           "width": 1440.0,
-          "height": 1229.0,
+          "height": 1099.0,
           "x": 0,
           "y": 0
         },
@@ -236,7 +236,7 @@
       "jsx": "design/clean-submission/01a-challenge.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 1720
+      "pixelHeight": 1656
     },
     {
       "nodeId": "5YT-0",
@@ -316,7 +316,7 @@
       "jsx": "design/clean-submission/02a-read-and-inspect.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 1934
+      "pixelHeight": 2018
     },
     {
       "nodeId": "62Q-0",
@@ -324,7 +324,7 @@
       "jsx": "design/clean-submission/02b-navigate-and-return.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2056
+      "pixelHeight": 2104
     },
     {
       "nodeId": "634-0",
@@ -332,7 +332,7 @@
       "jsx": "design/clean-submission/02c-actions-and-progress.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2158
+      "pixelHeight": 2164
     },
     {
       "nodeId": "63I-0",
@@ -340,7 +340,7 @@
       "jsx": "design/clean-submission/02d-comments-and-findings.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2194
+      "pixelHeight": 2238
     },
     {
       "nodeId": "5LF-0",
@@ -380,7 +380,7 @@
       "jsx": "design/clean-submission/04a-interactions.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 2458
+      "pixelHeight": 2198
     },
     {
       "nodeId": "6DD-0",
