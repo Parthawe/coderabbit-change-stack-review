@@ -131,7 +131,7 @@
                 1
               </div>
               <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '4px', minWidth: '0px' }}>
-                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
                   API contracts and access controls
                 </div>
                 <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
@@ -148,9 +148,9 @@
                   0 / 7 viewed · 2 unavailable
                 </div>
               </div>
-              <div style={{ alignItems: 'center', backgroundColor: '#ECEBED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
+              <div style={{ alignItems: 'center', backgroundColor: '#ECEBED', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '32px', paddingInline: '8px' }}>
                 <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '20px' }}>
                   access.ts
                 </div>
               </div>
@@ -204,15 +204,15 @@
               </div>
             </div>
             <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '5px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '60px', paddingBlock: '3px', paddingInline: '6px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#582D1D', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', width: '20px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', width: '20px' }}>
                 2
               </div>
               <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
                   Feedback record operations
                 </div>
-                <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
-                  2 files · 1 major
+                <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                  2 files · 1 finding · 1 major
                 </div>
               </div>
             </div>
@@ -238,7 +238,7 @@
                   MCP feedback-record tools
                 </div>
                 <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
-                  3 files · 1 trivial
+                  3 files · 1 finding · 1 trivial
                 </div>
               </div>
             </div>
@@ -264,7 +264,7 @@
                   OAuth metadata and documentation
                 </div>
                 <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
-                  10 files · 1 minor · 1 trivial
+                  10 files · 2 findings · 1 minor · 1 trivial
                 </div>
               </div>
             </div>

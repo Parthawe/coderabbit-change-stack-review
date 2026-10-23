@@ -385,3 +385,26 @@ Remaining limits: no developer usability study, seven of 52 diffs implemented, m
 The published entry opens the prototype directly. Its submission header contains only Paper and the one-page rationale, and the design is labeled Final iteration. Previous comparison, approaches, directions and next pages redirect to the root prototype. Their source is archived outside dist. About this prototype now links to the current Paper supporting states and source license, without a presentation link.
 
 Paper text, page and board names no longer use M as the concept name. Five export pairs were refreshed, including a new 1280 × 720 browser capture in the matched comparison. The rationale was rebuilt and rendered as one page. Local browser checks verified the redirect, two-link header and About dialog open/close. JavaScript syntax and git whitespace checks passed. The prototype interaction logic is unchanged.
+
+
+## Nine-page reviewer pass · October 23, 2026
+
+Reviewed all 19 boards across the nine Paper pages, then inspected the repaired exports.
+
+| Page | Review result and repair |
+| --- | --- |
+| 1 · Challenge | The task and assumed developer are clear. No invented interview evidence or review-volume claim. Illustration, text and margins fit. |
+| 2 · Observations | Eight observations distinguish possible effects from tested results. The assumption note stays readable; observations 1–7 map to four decisions. |
+| 3 · Evidence | Numbered pointers match the described regions and screen states. Cropped the authentic comments capture to its rail, removing an unrelated open menu. Explained messages, severity and resolution separately. Clarified the Overview multi-select opportunity. |
+| 4 · Summary | Comparable content across three options; the chosen option separates reading from navigation. Full wording and wider code context remain available. Type and spacing fit. |
+| 5 · Navigation | Matched the caller/guard content across options. Numbered Inspect and Return as sequential states. Replaced an unsupported claim about cramped side-by-side code with a width tradeoff that needs testing. |
+| 6 · Actions | All options retain the same merged review state and submission capability. Clarified that the menu option groups file actions, not every action. Labels fit without reducing type. |
+| 7 · Comments | Matched source message count, captured-thread count, author and line range across options. Disclosed the paraphrased finding and kept local notes separate. |
+| 8 · Final | Clarified the selected file and layer using neutral styles. Aligned finding totals with the prototype. The matched source/prototype comparison retains the same PR, commit, file, theme and viewport. |
+| 9 · States | Equal-width collapsed/expanded thread examples, matching fixture wording and an explicit paraphrase label. Documented the code jump on opening a thread. Arranged the boards vertically with clear gaps. |
+
+Browser checks: summary collapse and expansion each retained scrollTop 1936; guard Return and Focus each retained 1480; closing a comment retained 2056. Mark viewed changed 0/7 to 1/7 and Undo restored 0/7. Switching files kept progress at 0/7. The statement link selected only L75. Comments distinguished the resolved Major finding, three source messages, one captured thread and two unavailable reply bodies. errors.ts retained seven source messages with unavailable thread content, without inventing severity totals. Raw results are in design/evidence/nine-page-review-checks.json.
+
+Visually inspected the expanded Comments state at 1440 × 960 and compact Split at 1280 × 960. No page overflow; code remained readable. The one-page rationale was rebuilt, rendered and inspected. Nine affected native Paper PNG/JSX pairs were refreshed. JavaScript syntax and git whitespace checks passed.
+
+Limits remain: seven of 52 diffs, manually mapped statement links, incomplete thread coverage and previews for secondary workflows. This pass verifies implementation and presentation consistency; it does not establish developer usability or measured review-time savings. Nothing was sent to CodeRabbit.

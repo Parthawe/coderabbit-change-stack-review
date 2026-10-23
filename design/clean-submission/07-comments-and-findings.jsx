@@ -21,13 +21,13 @@
           </div>
           <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '18px', padding: '20px' }}>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-              Comments · 3 messages
+              3 source messages · 1 captured thread
             </div>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '28px' }}>
               Dataset lookup uses an untrimmed directory ID
             </div>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-              coderabbitai · Major · Resolved
+              coderabbitai · Major · Resolved · L75–90
             </div>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
               The explicit dataset lookup used the raw directory ID while returned IDs were trimmed.
@@ -87,7 +87,7 @@
           </div>
           <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '18px', padding: '20px' }}>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-              Comments · 3 messages
+              3 source messages · 1 captured thread
             </div>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '28px' }}>
               Major · 1 captured finding
@@ -99,7 +99,7 @@
               Resolved · L75–90
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-              2 replies · bodies not captured
+              coderabbitai · 2 replies not reproduced
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
@@ -113,7 +113,7 @@
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Current section explorations using one captured thread. Counts describe this file, not the whole PR. No Critical / Minor / Trivial totals are invented. Local notes remain separate from source comments.
+        Current section explorations using the same captured finding and two unavailable replies. Counts are for access.ts. The finding body is paraphrased in the prototype. Local notes stay separate from source comments.
       </div>
     </div>
   )

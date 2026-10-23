@@ -23,16 +23,16 @@
             <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
               File 1 of 9 ▾
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }} />
+            <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }} />
             <div style={{ backgroundColor: '#ECEBED', boxSizing: 'border-box', padding: '6px' }}>
               <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
                 access.ts
               </div>
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
               errors.test.ts
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
               errors.ts
             </div>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
@@ -67,11 +67,11 @@
               </div>
             </div>
             <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-              Inspect guard → feedback-access.ts
+              1. Inspect guard → feedback-access.ts
             </div>
             <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', padding: '10px' }}>
               <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-                ← Return to access.ts · L57–65
+                2. From the guard: Return → access.ts · L57–65
               </div>
             </div>
           </div>
@@ -99,7 +99,7 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            Useful for direct comparison. At laptop width, both panes become narrow.
+            Useful for comparing both files. It needs more horizontal space; I would test it with both side panels closed.
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Current section explorations. The two-pane option shows layout and range labels, not reconstructed source code. The original already has a Files tree; the change brings nesting into layer review.
+        Current section explorations. Only the caller and guard are shown in each option. The two-pane option is a layout sketch, not a code-width test. The original already has a Files tree; I brought nesting into layer review.
       </div>
     </div>
   )

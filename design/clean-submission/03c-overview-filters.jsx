@@ -15,10 +15,10 @@
         <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/7TM7W9ZKNNZHHY52B0MYB3V17B.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: '0', height: '380px', width: '672px' }} />
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '18px', width: '480px' }}>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
-            The question is selection, not more filters.
+            Make the active combination easier to read.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '21px', lineHeight: '31px' }}>
-            Comments and CodeRabbit are both active here. Their chip styling makes this combination less obvious to me.
+            Comments, CodeRabbit, Reviews, Commits and PR Status are active here. Bots is off. Their similar chip styling makes this harder to read at a glance.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '27px' }}>
             Follow-up opportunity. This is outside the four changes in the final screen.

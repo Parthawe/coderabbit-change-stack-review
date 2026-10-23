@@ -32,8 +32,8 @@
               Unified   Split   Focus Z
             </div>
             <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', paddingTop: '12px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
-                Summary · Mark seen
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px', whiteSpace: 'pre-wrap' }}>
+                Summary · Mark seen<br />Submit review · unavailable (merged)
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@
             OPTION C
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
-            Put every action in Tools
+            Put file actions in Tools
           </div>
           <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '18px', padding: '20px' }}>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
@@ -98,8 +98,8 @@
                 Mark viewed<br />Unified / Split<br />Focus<br />Copy path<br />Wrap long lines
               </div>
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
-              Summary · Mark seen
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px', whiteSpace: 'pre-wrap' }}>
+              Summary · Mark seen<br />Submit review · unavailable (merged)
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
@@ -113,7 +113,7 @@
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Current section explorations. Progress is limited to seven included diffs. Opening a file does not mark it viewed. Display selections use gray; orange is reserved for explanation-to-code emphasis.
+        Current section explorations for access.ts. The main header and summary actions stay in place in all three. Progress covers seven included diffs; opening a file never marks it viewed.
       </div>
     </div>
   )

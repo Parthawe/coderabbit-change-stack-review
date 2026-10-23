@@ -6,7 +6,7 @@
   "pages": [
     {
       "pageId": "p-1-0",
-      "name": "01 · Challenge & developer",
+      "name": "01 \u00b7 Challenge & developer",
       "artboards": [
         {
           "id": "5FN-0",
@@ -18,7 +18,7 @@
     },
     {
       "pageId": "p-B-0",
-      "name": "02 · What I noticed",
+      "name": "02 \u00b7 What I noticed",
       "artboards": [
         {
           "id": "5YT-0",
@@ -30,23 +30,23 @@
     },
     {
       "pageId": "p-3-0",
-      "name": "03 · Original observations",
+      "name": "03 \u00b7 Original observations",
       "artboards": [
         {
           "id": "5LD-0",
-          "name": "Original · evidence and numbered diagnosis",
+          "name": "Original \u00b7 evidence and numbered diagnosis",
           "width": 1440,
           "height": 1302
         },
         {
           "id": "69T-0",
-          "name": "Original comments · Observation 7",
+          "name": "Original comments \u00b7 Observation 7",
           "width": 1440,
-          "height": 1192
+          "height": 1102
         },
         {
           "id": "6AE-0",
-          "name": "Original · Overview activity filters",
+          "name": "Original \u00b7 Overview activity filters",
           "width": 1440,
           "height": 727
         }
@@ -54,7 +54,7 @@
     },
     {
       "pageId": "p-C-0",
-      "name": "04 · Read & inspect",
+      "name": "04 \u00b7 Read & inspect",
       "artboards": [
         {
           "id": "62A-0",
@@ -66,31 +66,31 @@
     },
     {
       "pageId": "p-D-0",
-      "name": "05 · Navigate & return",
+      "name": "05 \u00b7 Navigate & return",
       "artboards": [
         {
           "id": "62Q-0",
           "name": "Follow the guard. Keep the way back.",
           "width": 1600,
-          "height": 999
+          "height": 1028
         }
       ]
     },
     {
       "pageId": "p-E-0",
-      "name": "06 · Actions & progress",
+      "name": "06 \u00b7 Actions & progress",
       "artboards": [
         {
           "id": "634-0",
           "name": "Keep actions close to what they change.",
           "width": 1600,
-          "height": 1086
+          "height": 1079
         }
       ]
     },
     {
       "pageId": "p-F-0",
-      "name": "07 · Comments & findings",
+      "name": "07 \u00b7 Comments & findings",
       "artboards": [
         {
           "id": "63I-0",
@@ -102,7 +102,7 @@
     },
     {
       "pageId": "p-4-0",
-      "name": "08 · Final iteration",
+      "name": "08 \u00b7 Final iteration",
       "artboards": [
         {
           "id": "5LF-0",
@@ -112,13 +112,13 @@
         },
         {
           "id": "1-0",
-          "name": "Final iteration · reviewing screen",
+          "name": "Final iteration \u00b7 reviewing screen",
           "width": 1440,
           "height": 960
         },
         {
           "id": "5LE-0",
-          "name": "Final iteration · same content and viewport",
+          "name": "Final iteration \u00b7 same content and viewport",
           "width": 1440,
           "height": 1032
         }
@@ -126,49 +126,63 @@
     },
     {
       "pageId": "p-5-0",
-      "name": "09 · Interactions & tradeoffs",
+      "name": "09 \u00b7 Interactions & tradeoffs",
       "artboards": [
         {
           "id": "6C5-0",
-          "name": "Interactions · what changes and what stays",
+          "name": "Interactions \u00b7 what changes and what stays",
           "width": 1440,
-          "height": 1229
+          "height": 1229,
+          "x": 0,
+          "y": 0
         },
         {
           "id": "6DD-0",
-          "name": "Comments · collapsed and expanded",
+          "name": "Comments \u00b7 collapsed and expanded",
           "width": 1440,
-          "height": 764
+          "height": 970,
+          "x": 0,
+          "y": 1380
         },
         {
           "id": "5LG-0",
           "name": "Follow the check and return",
           "width": 1440,
-          "height": 140
+          "height": 140,
+          "x": 0,
+          "y": 2520
         },
         {
           "id": "3PS-0",
           "name": "Inspect guard and return",
           "width": 1440,
-          "height": 960
+          "height": 960,
+          "x": 0,
+          "y": 2700
         },
         {
           "id": "5V4-0",
-          "name": "Focus · keep the reading position",
+          "name": "Focus \u00b7 keep the reading position",
           "width": 1440,
-          "height": 140
+          "height": 140,
+          "x": 0,
+          "y": 3760
         },
         {
           "id": "BL-0",
           "name": "Focus mode",
           "width": 1440,
-          "height": 738
+          "height": 738,
+          "x": 0,
+          "y": 3940
         },
         {
           "id": "5LH-0",
           "name": "Progress, tradeoff and next test",
           "width": 1440,
-          "height": 697
+          "height": 697,
+          "x": 0,
+          "y": 4780
         }
       ]
     }

@@ -74,7 +74,7 @@
           Expand the thread
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '580px' }}>
-          Read the captured Major finding as resolved history. Two uncaptured reply bodies are identified; local notes remain separate.
+          The thread opens and code moves to L75–90. Read the Major finding as resolved history. Closing the thread keeps that code position; local notes stay separate.
         </div>
       </div>
       <div style={{ borderTopColor: '#DEDCE1', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '28px', paddingBlock: '22px' }}>

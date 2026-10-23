@@ -1,0 +1,35 @@
+[
+  {
+    "check": "Collapse summary keeps code position",
+    "before": 1936,
+    "after": 1936
+  },
+  {
+    "check": "Expand summary keeps code position",
+    "before": 1936,
+    "after": 1936
+  },
+  {
+    "check": "Inspect guard and Return",
+    "before": 1480,
+    "after": 1480
+  },
+  {
+    "check": "Focus round trip",
+    "before": 1480,
+    "after": 1480
+  },
+  {
+    "check": "Mark viewed then Undo",
+    "result": "0 of 7"
+  },
+  {
+    "check": "Close comment preserves position",
+    "before": 2056,
+    "after": 2056
+  },
+  {
+    "check": "Navigation does not mark files viewed",
+    "result": "0 of 7"
+  }
+]
