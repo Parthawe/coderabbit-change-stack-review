@@ -11,10 +11,10 @@
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '40px' }}>
-          What got in the way
+          Three things I would change
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          The original already links summaries to code. I focused on reading a claim, checking its evidence, and returning to the wider layer.
+          The original already has layers, summary jumps and viewed status. These observations come from the assigned PR.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '710px', position: 'relative', width: '1360px' }}>
@@ -32,11 +32,11 @@
             1
           </text>
         </svg>
-        <svg width="268" height="62" viewBox="0 0 268 62" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '74px', top: '229px', display: 'inline-block', overflow: 'visible' }}>
-          <rect x="56" y="4" width="210" height="54" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
-          <path d="M28 31 H46 M46 25 L54 31 L46 37" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          <circle cx="14" cy="31" r="14" fill="#FF570A" />
-          <text x="14" y="36.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
+        <svg width="350" height="444" viewBox="0 0 350 444" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '335px', top: '230px', display: 'inline-block', overflow: 'visible' }}>
+          <rect x="30" y="2" width="296" height="430" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <path d="M 0 215 L 27 215 M 21 210 L 27 215 L 21 220" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <circle cx="-14" cy="215" r="14" fill="#FF570A" />
+          <text x="-14" y="221" textAnchor="middle" fontFamily="Geist" fontSize="18" fontWeight="600" fill="#211F24">
             2
           </text>
         </svg>
@@ -48,7 +48,7 @@
             3
           </text>
         </svg>
-        <svg width="240" height="90" viewBox="0 0 240 90" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '907px', top: '120px', display: 'inline-block' }}>
+        <svg width="240" height="90" viewBox="0 0 240 90" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '907px', top: '120px', display: 'none' }}>
           <rect x="1" y="57" width="22" height="22" rx="3" fill="none" stroke="#FF570A" strokeWidth="2" strokeDasharray="4 3" />
           <rect x="46" y="42" width="92" height="22" rx="3" fill="none" stroke="#FF570A" strokeWidth="2" />
           <path d="M190 53 H149 M149 47 L141 53 L149 59" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
@@ -59,31 +59,31 @@
         </svg>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '24px', width: '1360px' }}>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-            01 · Too many control rows
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: 'fit-content', width: '437px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, height: 'fit-content', lineHeight: '25px', width: '100%' }}>
+            1. Controls compete above the code
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            File actions sit beside the filename. Display settings sit above the diff. Less frequent destinations move into named menus.
-          </div>
-        </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-            02 · Keep the wider layer in reach
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            File focus helps inspection, but the layer connects related changes. I kept both scopes and made the file list and viewed state persistent.
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', height: 'fit-content', lineHeight: '22px', width: '100%' }}>
+            File actions and display controls occupy several rows. I grouped them by what they affect, with less frequent tools in named menus.
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-            03 · One summary, several claims
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: 'fit-content', width: '437px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, height: 'fit-content', lineHeight: '25px', width: '100%' }}>
+            2. An empty pane narrows added code
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            The workspace summary covers 82 lines. Each source statement now links to its evidence; the full function remains reachable.
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', height: 'fit-content', lineHeight: '22px', width: '100%' }}>
+            This added file has no previous version, but Split gives the blank pane half the width. Unified already exists. I use it here and make the empty pane compact in Split.
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: 'fit-content', width: '437px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, height: 'fit-content', lineHeight: '25px', width: '100%' }}>
+            3. Six points share one large range
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', height: 'fit-content', lineHeight: '22px', width: '100%' }}>
+            The summary points to 82 lines. I added a link for each point so a reviewer can locate its code. Full wording and surrounding code stay available.
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '322px' }}>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
             04 · Preserve distinct progress
           </div>
@@ -95,27 +95,27 @@
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-            Source
+            What I kept
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
-            I used the assigned Formbricks PR: seven layers, 52 files, and nine paths in the first layer. This is the captured original screen.
+            Layer-based review, summary jumps, J/K, Z and separate seen/viewed states. Undo is added; visiting a file still marks nothing viewed.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
-            Limit
+            What needs testing
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
-            Control density and broad summary ranges are visible in this capture. Better orientation and less backtracking are hypotheses to test with developers.
+            These are visible layout issues and a proposed reading path. I have not measured whether developers understand the change better.
           </div>
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '20px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontSizeAdjust: 'none', fontWeight: 600, lineHeight: '25px' }}>
-          Same-content checkpoint → 01b
+          Compare the same content
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
-          01b uses final M at the same 1280 × 720 viewport, in light mode, with imports 1–7 and the same six source points. Full wording stays available. Both show the merged PR. The original capture keeps CodeRabbit’s own spacing and controls.
+          Both screens show the same imports and six summary points at 1280 × 720. The original is captured in Split; M is in Unified. The display mode explains part of the width gain.
         </div>
       </div>
     </div>

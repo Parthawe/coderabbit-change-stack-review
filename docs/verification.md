@@ -1,3 +1,17 @@
+# October 23 · Presentation and reasoning pass
+
+Paper was updated first: a quieter cover, three annotated observations, preserved behavior separated from diagnoses, and a shorter decision board. Current exports and the one-page rationale match those edits. M remains final.
+
+The comparison now states that the original capture uses Split and M uses Unified. The original already offers Unified; mode choice explains part of the width gain. A mode-matched original capture remains a useful follow-up, not evidence claimed here.
+
+Local browser checks at 1280 × 720: full source wording opens; Require workspace access selects L57–65; Inspect guard opens feedback-access.ts; Return restores L57–65; file/layer scope switches; opening files leaves progress unchanged; Mark viewed increments progress; Undo restores zero. About this prototype opens with two short paragraphs, and its supporting-state disclosure exposes all five existing controls. The function handlers are unchanged.
+
+The rationale was rendered and inspected as one page. The revised recording script was rendered as two pages. The existing Google Doc was updated in place to Revision 8, read back, exported and visually inspected. Earlier critique reports remain historical records, not research or the submission’s opening argument.
+
+No developer testing, measured time saving or interview outcome is claimed. No message was sent to CodeRabbit.
+
+---
+
 # Current layout refinement · October 23, 2026
 
 Paper, the prototype, comparison and rationale now use a shared navigation scroller and separate file actions from code display settings. The [layout review](layout-refinement.md) records current decisions and checks. At 1440×960, the guard return restored L57–65 and the exact 1383px reading position; Focus preserved it. File switching, viewed/Undo, J/K, the 1100px context overlay, dialog focus and no-comments state passed. No document overflow was found at 1440, 1280 or 1100px. The scoped layout scan and JavaScript syntax check passed.

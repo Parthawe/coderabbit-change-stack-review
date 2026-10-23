@@ -1,33 +1,29 @@
 {
-  "title": "Make the review easier to follow",
-  "intro": "The brief asks for a clearer review screen without losing capability. I focused on one task in Formbricks #8650: check a summary against the code, inspect the access guard, then return to the caller. The original already supports layers, summary jumps and viewed status.",
+  "title": "Checking the summary against the code",
+  "intro": "I kept CodeRabbit’s layer model and focused on one review task in Formbricks #8650: check a summary, inspect the access guard, then get back to the call. The original already has summary jumps, viewed status and Focus.",
   "rows": [
     [
-      "Problem I chose",
-      "Decision and tradeoff"
+      "What I saw",
+      "What I changed"
     ],
     [
-      "Controls crowd the reading area.",
-      "The filename, Mark viewed and Tools share one row. Display settings sit directly above the code. PR overview holds secondary destinations. This gives actions a clear scope, but adds a click to less frequent tools."
+      "Controls compete above the code.",
+      "File actions sit beside the filename. Display settings sit above the diff. Less frequent tools move into named menus, which adds a click when they are needed."
     ],
     [
-      "Moving across files can interrupt the review.",
-      "The file list uses one scrolling region with the layers. This file and Entire layer make the explanation’s scope explicit. Keeping both side panels costs code width; Focus restores that space without losing position."
+      "An empty pane narrows added code.",
+      "This file has no previous version. I use Unified by default and a compact empty pane in Split. The original already offers Unified; this is a layout choice, not a new capability."
     ],
     [
-      "One summary covers 82 lines and six points.",
-      "Each point links to its code. Inspect guard opens the related file; Return restores the caller’s selection and position. Full wording and Whole function stay available. Precise links can encourage tunnel vision, so they are starting points for inspection."
-    ],
-    [
-      "Reading and finishing are different decisions.",
-      "Opening a file marks nothing viewed. Mark viewed updates the file and count together, with Undo. Summary seen stays separate. The count covers seven included files; Submit review is disabled because this PR is merged."
+      "Six summary points share an 82-line range.",
+      "Each point links to code the reviewer can inspect. One link opens the access guard; Return restores the call and reading position. Full wording and the whole function remain available."
     ]
   ],
-  "tradeoff_title": "What I chose to leave out",
-  "tradeoff": "I kept one code pane. Putting caller and guard side by side would squeeze both at laptop width. The return action demonstrates continuity without another permanent panel. Added-file Split keeps its empty Before pane compact.",
-  "validation_title": "What the prototype establishes",
-  "validation": "The links, return path, focus, viewed state and Undo can be tried. These checks establish working behavior, not better comprehension. The design keeps 13 px code; larger type and modified-file Split still need developer testing.",
-  "scope": "Pinned Formbricks #8650, commit 23cdac2 (out of date). Seven of 52 diffs are included. The original comparison capture is untouched. Links are manually mapped; layer-specific semantic diffs are not recreated.",
-  "next_title": "How I’d challenge the idea",
-  "next": "Give developers the same task on both screens. Ask them to explain the guard and find a reason the summary could be incomplete. Compare missed branches, wrong turns and time spent finding their place. Faster navigation is only useful if they still understand the change."
+  "tradeoff_title": "Why I kept one code pane",
+  "tradeoff": "Caller and guard side by side would leave both narrower at laptop width. I chose a return action instead. Keeping files and context visible also costs width, so Focus stays available.",
+  "validation_title": "What I kept",
+  "validation": "Layers, J/K, Z and separate seen/viewed states remain. Opening a file marks nothing viewed. I added Undo and made file versus layer context explicit.",
+  "next_title": "What I would test",
+  "next": "Ask developers to explain the access check on both screens, then find something the summary might miss. Compare missed branches and wrong turns. A precise link can narrow attention too much; the test needs to check that risk.",
+  "scope": "This prototype covers seven of 52 diffs at commit 23cdac2. Links are manually mapped. The PR is merged; Submit is disabled. Semantic diffs and modified-file review are outside this sample. I have not tested it with developers."
 }

@@ -886,7 +886,7 @@
           Pinned review · 7 of 52 diffs included · local state only
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
-          Source notes & states
+          About this prototype
         </div>
       </div>
     </div>

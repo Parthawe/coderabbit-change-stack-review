@@ -129,7 +129,7 @@ The header labels progress Included files and uses seven included diffs as its d
 
 Mark viewed changes the file control, rail and sample counts together. Undo lasts eight seconds, pauses on hover/focus and restores the previous state even after navigation. Other notices do not displace pending Undo. Bulk viewed also has Undo; Reset invalidates it.
 
-The merged snapshot disables Submit review and explains why. Source notes & states exposes a separately labeled Open-PR review demo. Its simulated decision confirmation stays open until dismissed and says nothing was sent. This demo does not change the captured PR state.
+The merged snapshot disables Submit review and explains why. About this prototype exposes a separately labeled Open-PR review demo. Its simulated decision confirmation stays open until dismissed and says nothing was sent. This demo does not change the captured PR state.
 
 ## Notes and recovery
 

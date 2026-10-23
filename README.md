@@ -1,41 +1,17 @@
 # CodeRabbit Change Stack review redesign
 
-Design exercise by Parth Pawar using the assigned Formbricks PR #8650.
+Design exercise by Parth Pawar, using Formbricks #8650.
 
-## What to send
-
-- [Editable Paper design](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0)
-- [Working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
+- [Paper design](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0) — sign-in required
+- [Prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
 
-Paper contains the diagnosis, matched comparison, final reviewing screen and rationale. Supporting states have their own page. Paper requires sign-in; the prototype and rationale are public. The [walkthrough](docs/submission-walkthrough.md) gives the presentation sequence.
+I kept layer-based review and focused on checking a summary against code, inspecting an access guard, and returning to the call. The diagnosis covers three visible issues: competing control rows, an empty pane beside added code, and six summary points sharing one large range. Existing summary jumps, viewed status and Focus are retained.
 
-The [critical design decisions](docs/critical-design-decisions.md) explain what changed, why it matters, how to demonstrate it and what remains unproven. Start there for the documentation; earlier review reports record prior passes.
+[Try the review](https://parthawe.github.io/coderabbit-change-stack-review/index.html?task=access-check): select Require workspace access, choose Inspect guard, then Return to access.ts. The [comparison](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html) shows the same content at the same size. The original uses Split and the redesign uses Unified; the original already offers Unified, so the display mode explains part of the width gain.
 
-## Design argument
+The prototype includes seven of 52 diffs at commit 23cdac2. Links are manually mapped. The PR is merged, so Submit is disabled. About this prototype explains the sample and provides separate simulated states. Nothing is sent. Developer testing is still needed.
 
-I kept layer-based review and focused on staying oriented while checking an explanation against code. The original already has summary navigation, explicit viewed status, J/K and Z. The comparison pairs the untouched original capture with final M using the same imports and six source points. M shows the later observed merged status. This version keeps short checks visible and the full source wording one click away, links its individual points to code, and provides a return path after inspecting a guard in another file. File and layer context have explicit scopes. Included files, layer progress and PR coverage are labeled separately.
+M is the final proposal. Other approaches and earlier reviews are supporting history, not additional submissions. [Design decisions](docs/critical-design-decisions.md) and [verification](docs/verification.md) document the current work.
 
-## Try it
-
-[Start the access-check task](https://parthawe.github.io/coderabbit-change-stack-review/index.html?task=access-check). Read L57–65, choose Inspect guard, then Return to access.ts. Switch between This file and Entire layer to inspect captured summaries grouped by file. All nine layer paths remain in the rail. Mark viewed updates included-file and layer progress; Undo reverses it. About links explains the manual mapping beside the summary. More review tools holds the secondary previews.
-
-Unified and added-file Split wrap at 13px. Wrap toggles horizontal reading; Equal panes restores a 50/50 split. Tools includes Copy path and Full file / Captured ranges. Outline opens the six captured access.ts entities beside the toolbar. Comments includes Add file note and file/line notes stored in this tab.
-
-The primary snapshot is merged, so Submit review is disabled. Source notes & states contains a separately labeled Open-PR review demo with simulated decisions. Nothing is sent. Loading and unavailable-source demonstrations are there too.
-
-## Scope and checks
-
-The out-of-date 23cdac2 snapshot includes seven of 52 complete file diffs, nine layer-1 paths, 14 of 37 layer summaries, and one paraphrased resolved thread. The full six-point workspace-tenant summary is retained. Code anchors are manually mapped; Full file and Captured ranges do not reproduce the source semantic-diff engine. Modified-file patches, full-PR search and other uncaptured workflows remain outside the implementation.
-
-Direct links, guard/return, scope, progress/Undo, notes, Copy path, six entities and keyboard checks passed at 1440px, 1280px and the 1100px overlay breakpoint. [Verification](docs/verification.md) separates the current check list from earlier release records. Developer testing and measured usability improvement remain unverified. [Ten review perspectives](docs/ten-perspective-review.md) is historical AI critique, not developer research.
-
-Serve locally with `python3 -m http.server 4317 --directory dist`. No build step is required. `dist/` is the submission; `design/paper-submission/` holds Paper exports. Earlier concepts remain in `archive/` and Paper's archive pages.
-
-CodeRabbit branding follows the [official reference](https://www.coderabbit.ai/brand). Formbricks source and bundled fonts retain their licenses. Raw Paper exports are composition references, not runnable React components.
-
-Current native design exports are in `design/paper-submission/`. Other files under `design/` record earlier studies and are not the final submission.
-
-The [focused improvement plan](docs/improvement-plan.md) records the October 23 compact-row pass and the developer tests still needed.
-
-The [latest layout and reasoning review](docs/layout-refinement.md) records the Paper-first refinement: one navigation scroller, distinct file and display controls, less summary framing, and explicit design tradeoffs. Paper exports, the matched comparison, the rationale and the recording script reflect this pass.
+Serve locally with `python3 -m http.server 4317 --directory dist`. No build step is required. `dist/` contains the site; `design/paper-submission/` contains the Paper exports. Raw Paper JSX is a composition reference, not a runnable React component. CodeRabbit branding follows its official reference; bundled source and fonts retain their licenses.

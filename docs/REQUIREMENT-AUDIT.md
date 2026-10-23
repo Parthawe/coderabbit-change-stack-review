@@ -24,7 +24,7 @@ The submission is one layer-based reviewing screen, editable Paper and a one-pag
 | Semantic outline | Six captured access.ts entities in an anchored Outline popover. Other entities are not inferred. |
 | Copy path and notes | Copy file path in Tools; Add file note and local line notes in Comments. Drafts remain in tab memory. |
 | Progress | Header counts seven included diffs. The layer lists nine paths and shows seven reviewable files plus two unavailable patches. The footer discloses seven of 52 PR diffs. Viewed and seen remain separate. |
-| Review decision | Submit disabled for the merged PR. Separate Open-PR review demo under Source notes & states, with simulated decisions. |
+| Review decision | Submit disabled for the merged PR. Separate Open-PR review demo under About this prototype, with simulated decisions. |
 | Split and Focus | Compact added-file Before rail, wrapped code, reversible Equal panes and Focus with reading-position preservation. |
 | Source comments | Paraphrased resolved thread; missing replies disclosed. Resolved visibility and local-note recovery remain available. |
 | Recovery | Loading, unavailable-source and no-comments states; retry and return paths. |

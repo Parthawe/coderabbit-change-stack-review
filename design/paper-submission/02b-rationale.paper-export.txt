@@ -14,37 +14,37 @@
           Final reviewing screen · Formbricks #8650
         </div>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, lineHeight: '40px', width: '100%' }}>
-          Make the review easier to follow
+          Checking the summary against the code
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', height: 'fit-content', lineHeight: '22px', width: '100%' }}>
-          The brief asks for a clearer review screen without losing capability. I focused on one task in Formbricks #8650: check a summary against the code, inspect the access guard, then return to the caller. The original already supports layers, summary jumps and viewed status.
+          I kept CodeRabbit’s layer model and focused on one review task in Formbricks #8650: check a summary, inspect the access guard, then get back to the call. The original already has summary jumps, viewed status and Focus.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', height: 'fit-content', width: '100%' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, height: 'fit-content', lineHeight: '24px', width: '100%' }}>
-          Controls crowd the reading area.
+          Controls compete above the code.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', height: 'fit-content', lineHeight: '23px', width: '100%' }}>
-          The filename, Mark viewed and Tools share one row. Display settings sit directly above the code. PR overview holds secondary destinations. This gives actions a clear scope, but adds a click to less frequent tools.
+          File actions sit beside the filename. Display settings sit above the diff. Less frequent tools move into named menus, which adds a click when they are needed.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', height: 'fit-content', width: '100%' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, height: 'fit-content', lineHeight: '24px', width: '100%' }}>
-          Moving across files can interrupt the review.
+          An empty pane narrows added code.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', height: 'fit-content', lineHeight: '23px', width: '100%' }}>
-          The file list uses one scrolling region with the layers. This file and Entire layer make the explanation’s scope explicit. Keeping both side panels costs code width; Focus restores that space without losing position.
+          This file has no previous version. I use Unified by default and a compact empty pane in Split. The original already offers Unified; this is a layout choice, not a new capability.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', height: 'fit-content', width: '100%' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, height: 'fit-content', lineHeight: '24px', width: '100%' }}>
-          One summary covers 82 lines and six points.
+          Six summary points share an 82-line range.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', height: 'fit-content', lineHeight: '23px', width: '100%' }}>
-          Each point links to its code. Inspect guard opens the related file; Return restores the caller’s selection and position. Full wording and Whole function stay available. Precise links can encourage tunnel vision, so they are starting points for inspection.
+          Each point links to code the reviewer can inspect. One link opens the access guard; Return restores the call and reading position. Full wording and the whole function remain available.
         </div>
       </div>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', height: 'fit-content', width: '100%' }}>
+      <div style={{ boxSizing: 'border-box', display: 'none', height: 'fit-content', width: '100%' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, height: 'fit-content', lineHeight: '24px', width: '100%' }}>
           Reading and finishing are different decisions.
         </div>
@@ -54,26 +54,26 @@
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', height: 'fit-content', width: '100%' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, height: 'fit-content', lineHeight: '24px', width: '100%' }}>
-          What I chose to leave out
+          Why I kept one code pane
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', height: 'fit-content', lineHeight: '23px', width: '100%' }}>
-          I kept one code pane. Putting caller and guard side by side would squeeze both at laptop width. The return action demonstrates continuity without another permanent panel. Added-file Split keeps its empty Before pane compact.
+          Caller and guard side by side would leave both narrower at laptop width. I chose a return action instead. Keeping files and context visible also costs width, so Focus stays available.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', height: 'fit-content', paddingTop: '16px', width: '100%' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontSizeAdjust: 'none', fontWeight: 600, height: 'fit-content', lineHeight: '24px', width: '100%' }}>
-          What the prototype establishes
+          What I kept
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', height: 'fit-content', lineHeight: '23px', width: '100%' }}>
-          The links, return path, focus, viewed state and Undo can be tried. These checks establish working behavior, not better comprehension. The design keeps 13 px code; larger type and modified-file Split still need developer testing.
+          Layers, J/K, Z and separate seen/viewed states remain. Opening a file marks nothing viewed. I added Undo and made file versus layer context explicit.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', height: 'fit-content', paddingTop: '16px', width: '100%' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, height: 'fit-content', lineHeight: '24px', width: '100%' }}>
-          How I’d challenge the idea
+          What I would test
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', height: 'fit-content', lineHeight: '23px', width: '100%' }}>
-          Give developers the same task on both screens. Ask them to explain the guard and find a reason the summary could be incomplete. Compare missed branches, wrong turns and time spent finding their place. Faster navigation is only useful if they still understand the change.
+          Ask developers to explain the access check on both screens, then find something the summary might miss. Compare missed branches and wrong turns. A precise link can narrow attention too much; the test needs to check that risk.
         </div>
       </div>
     </div>

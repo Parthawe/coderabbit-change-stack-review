@@ -1,14 +1,12 @@
-Draft for Parth to send. Nothing has been sent to CodeRabbit.
-
 Hi CodeRabbit team,
 
-I focused on one review task: check a summary against the code, inspect the access guard, then return without losing my place. The design keeps each statement close to its code, makes file and layer context explicit, and separates viewed progress from approval. Paper shows the diagnosis and decisions; the prototype demonstrates the review path.
+Here’s my Change Stack redesign using the Formbricks PR. I kept the layer model and focused on checking a summary against the code, following the access guard, and getting back without losing my place.
 
-Paper design and diagnosis: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
-Working prototype: https://parthawe.github.io/coderabbit-change-stack-review/
-One-page rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
+Paper shows the diagnosis and design decisions. The prototype lets you try that review path. The rationale explains the tradeoffs and what I’d test next.
 
-The prototype includes seven of 52 diffs. The captured PR is merged; an open-PR review simulation is separately labeled and sends nothing. Paper requires sign-in; the prototype and rationale are public. I’ve included the tradeoffs and what I’d test with developers next.
+Paper (sign-in required): https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
+Prototype: https://parthawe.github.io/coderabbit-change-stack-review/
+Rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
 
 Thanks,
 Parth
