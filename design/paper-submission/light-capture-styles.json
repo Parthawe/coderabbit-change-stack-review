@@ -1,0 +1,12 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"file\": {\n    \"id\": \"01M5AQACJZP42ZGTRX7GF9ERE7\",\n    \"name\": \"CodeRabbit — Change Stack Review\"\n  },\n  \"contentHash\": {\n    \"tokens\": \"811c9dc5\"\n  }\n}"
+    },
+    {
+      "type": "text",
+      "text": "{\n  \"styles\": {\n    \"20U-0\": {\n      \"width\": \"1120px\",\n      \"height\": \"630px\",\n      \"flexShrink\": \"0\",\n      \"backgroundImage\": \"url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/0N90QTMJACWFQ8VR67GB0M9EZ6.png)\",\n      \"backgroundSize\": \"contain\",\n      \"backgroundPosition\": \"50%\",\n      \"backgroundRepeat\": \"no-repeat\"\n    },\n    \"2X7-0\": {\n      \"position\": \"absolute\",\n      \"left\": \"74px\",\n      \"top\": \"229px\",\n      \"display\": \"inline-block\",\n      \"overflow\": \"visible\"\n    },\n    \"2XD-0\": {\n      \"position\": \"absolute\",\n      \"left\": \"948px\",\n      \"top\": \"335px\",\n      \"display\": \"inline-block\",\n      \"overflow\": \"visible\"\n    },\n    \"5DR-0\": {\n      \"position\": \"absolute\",\n      \"left\": \"907px\",\n      \"top\": \"120px\",\n      \"display\": \"inline-block\"\n    },\n    \"20V-0\": {\n      \"fontSize\": \"13px\",\n      \"lineHeight\": \"20px\",\n      \"whiteSpace\": \"pre-wrap\",\n      \"fontFamily\": \"\\\"Geist\\\", system-ui, sans-serif\",\n      \"fontWeight\": 400,\n      \"color\": \"#65616A\"\n    },\n    \"36J-0\": {\n      \"fontSizeAdjust\": \"none\",\n      \"fontSize\": \"15px\",\n      \"lineHeight\": \"22px\",\n      \"whiteSpace\": \"pre-wrap\",\n      \"fontFamily\": \"\\\"Geist\\\", system-ui, sans-serif\",\n      \"fontWeight\": 400,\n      \"color\": \"#65616A\"\n    }\n  }\n}"
+    }
+  ]
+}

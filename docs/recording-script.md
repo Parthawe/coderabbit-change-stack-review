@@ -1,53 +1,63 @@
-# Recording script
+# Three-minute recording script
 
-Read the quoted text. Click cues and timestamps include pauses. Paper requires sign-in.
+Revision 2. Read the spoken text; leave the action cues outside the recording.
 
-## 0:00–0:20 · Start on the final Paper screen
+## 0:00-0:16 · Start with M in Paper
 
-Click: Keep the cursor still. Let them see the design.
+Click: Hold on the final design. Keep the cursor still.
 
-> Hi, I’m Parth. I kept the layer-based review model and focused on staying oriented while checking a summary against the code. I’ll show you the source, the changes I made, and one short review path.
+> Hi, I’m Parth. I kept the layer-based review model. I focused on keeping my place while checking a summary against the code. Here’s the problem I chose and how I worked through it.
 
-## 0:20–0:45 · Show the source diagnosis
+## 0:16-0:36 · Show the source diagnosis
 
-Click: Point to the source summary, file controls and layer progress.
+Click: Zoom into the annotated file controls, layer list and summary. Point once, then move the cursor away.
 
-> The original already has summary jumps and explicit viewed status. What I found difficult was keeping track of the file, the scope of the context, and the code behind each point. Several controls also compete for space above the diff.
+> The original already has summary jumps and viewed status. What I found difficult was keeping track of the file, whether I’m looking at this file or the whole layer, and the code behind each point. Several control rows also compete for space above the diff.
 
-Pause: Pause on the annotations.
+## 0:36-1:05 · Explain the layout tradeoff
 
-## 0:45–1:05 · Show the matched comparison
+Click: Show the original and redesigned controls at a readable scale. Then show the persistent file list and point to Focus Z. Keep the same imports in the comparison.
 
-Click: Point to the same imports and six source points. Note the original capture is untouched; final M shows the later merged status.
+> I brought the frequent file actions together above the code and collapsed the layer description. That gives the code more room.
 
-> I kept the same imports and six source points for this comparison. The complete wording is still available. In the final screen, the file list stays available in the rail, and the layer description starts collapsed. I brought the frequent file actions together above the code.
+> I kept the file list visible because checking this change takes you across files. That costs some code width. I kept Focus mode available for when you need more room.
 
-## 1:05–1:50 · Follow the workspace access check
+## 1:05-1:20 · Check the summary against code
 
-Click: Switch to the prototype at access.ts. Click L57–65 beside the first workspace-access bullet. Click Inspect guard in feedback-access.ts. Pause on the 20–49 summary, then click Return to access.ts.
+Click: At 1:10 open Read full source summary. At 1:14 close it and select L57-65. Wait for the highlight. Say the last sentence at 1:17, after the correct range is visible.
 
-> I retained all six source points as short checks with direct code links. The full wording is still here. This first check calls the workspace access guard.
+> I kept the same six points, shortened them for scanning, and left the full wording available.
 
-> I can follow that call into the guard, read the captured explanation there, and return to the caller without finding my place again.
+> This calls the access guard.
 
-> I manually mapped these links. They give you a starting point; you still need to read the surrounding code. This is one captured cross-file route, rather than automatic dependency navigation.
+## 1:20-1:50 · Inspect the guard and return
 
-Pause: Keep the cursor away from the highlighted code while speaking.
+Click: At 1:20 click Inspect guard. At 1:25 scroll to the access check and entitlement gate. At 1:33 click Return to access.ts. Pause on the restored highlight before speaking at 1:36.
 
-## 1:50–2:15 · Show context scope
+> I can follow that call into the guard and read the access check and entitlement gate here.
 
-Click: Choose Entire layer. Point to file groups and 14 of 37 coverage. Return to This file.
+> Now I’m back at the same selection and reading position, without finding my place again. I mapped this route manually. You still need to read the surrounding code.
 
-> This file keeps the explanation close to what I’m reading. Entire layer starts with short rows grouped by file, so I can scan before choosing one. The coverage label tells me where the sample ends.
+## 1:50-2:12 · Switch context
 
-## 2:15–2:35 · Show progress and Undo
+Click: At 1:56 click Entire layer. Let the grouped summaries appear before describing them. At 2:09 return to This file. No need to read the coverage counts aloud.
 
-Click: Point to Included files 0 / 7 and the two unavailable layer patches. Click Mark viewed, then Undo.
+> This file keeps the explanation close to what I’m reading.
 
-> Opening a file doesn’t mark it reviewed. I kept that deliberate action and added Undo. Progress is labeled by scope. This PR is merged, so Submit review is disabled.
+> Entire layer groups the summaries by file, so I can look across the change and choose where to go next.
 
-## 2:35–3:00 · Close on the limits and next test
+## 2:12-2:35 · Show deliberate progress
 
-Click: Hold on the final screen. Show the three submission links at about 2:55. Split is optional if asked afterward.
+Click: Point to the unchanged viewed count. At 2:20 click Mark viewed. At 2:26 click Undo while its toast is visible. Briefly point to disabled Submit review.
 
-> My hypothesis is less searching and backtracking without losing understanding. I’d compare both screens with developers: explain the access check, inspect its guard, then return. Working clicks don’t prove that. This sample includes seven diffs; modified files and stale links still need testing.
+> Opening a file doesn’t mark it viewed. I kept that as a deliberate action.
+
+> The count and file indicator update together.
+
+> I can undo that. Submit is disabled because this PR is merged.
+
+## 2:35-3:00 · Explain what needs testing
+
+Click: Hold on the final state. Show Paper, prototype and rationale at 2:55. Paper needs sign-in. Put clickable links beside your recording.
+
+> I’d test whether developers can check the code and get back with less searching, while still understanding the change. I haven’t tested that with developers yet. This sample has seven of fifty-two diffs. Next I’d test modified files and links that go stale.
