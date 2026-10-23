@@ -6,183 +6,177 @@
   "pages": [
     {
       "pageId": "p-1-0",
-      "name": "01 \u00b7 Challenge & developer",
+      "name": "01 \u00b7 Problem & evidence",
       "artboards": [
         {
           "id": "5FN-0",
           "name": "Task, diagnosis and decision",
-          "width": 1440,
-          "height": 860
-        }
-      ]
-    },
-    {
-      "pageId": "p-B-0",
-      "name": "02 \u00b7 What I noticed",
-      "artboards": [
+          "width": 1440.0,
+          "height": 860.0,
+          "x": 0,
+          "y": 0
+        },
         {
           "id": "5YT-0",
           "name": "Eight observations",
-          "width": 1440,
-          "height": 1222
-        }
-      ]
-    },
-    {
-      "pageId": "p-3-0",
-      "name": "03 \u00b7 Original observations",
-      "artboards": [
+          "width": 1440.0,
+          "height": 1222.0,
+          "x": 1600,
+          "y": 0
+        },
         {
           "id": "5LD-0",
           "name": "Original \u00b7 evidence and numbered diagnosis",
-          "width": 1440,
-          "height": 1302
+          "width": 1440.0,
+          "height": 1302.0,
+          "x": 0,
+          "y": 1440
         },
         {
           "id": "69T-0",
           "name": "Original comments \u00b7 Observation 7",
-          "width": 1440,
-          "height": 1102
+          "width": 1440.0,
+          "height": 1102.0,
+          "x": 1600,
+          "y": 1440
         },
         {
           "id": "6AE-0",
           "name": "Original \u00b7 Overview activity filters",
-          "width": 1440,
-          "height": 727
+          "width": 1440.0,
+          "height": 727.0,
+          "x": 1600,
+          "y": 2740
         }
       ]
     },
     {
       "pageId": "p-C-0",
-      "name": "04 \u00b7 Read & inspect",
+      "name": "02 \u00b7 Design decisions",
       "artboards": [
         {
           "id": "62A-0",
           "name": "Read a summary. Choose when to jump.",
-          "width": 1600,
-          "height": 967
-        }
-      ]
-    },
-    {
-      "pageId": "p-D-0",
-      "name": "05 \u00b7 Navigate & return",
-      "artboards": [
+          "width": 1600.0,
+          "height": 967.0,
+          "x": 0,
+          "y": 0
+        },
         {
           "id": "62Q-0",
           "name": "Follow the guard. Keep the way back.",
-          "width": 1600,
-          "height": 1028
-        }
-      ]
-    },
-    {
-      "pageId": "p-E-0",
-      "name": "06 \u00b7 Actions & progress",
-      "artboards": [
+          "width": 1600.0,
+          "height": 1028.0,
+          "x": 1760,
+          "y": 0
+        },
         {
           "id": "634-0",
           "name": "Keep actions close to what they change.",
-          "width": 1600,
-          "height": 1079
-        }
-      ]
-    },
-    {
-      "pageId": "p-F-0",
-      "name": "07 \u00b7 Comments & findings",
-      "artboards": [
+          "width": 1600.0,
+          "height": 1079.0,
+          "x": 0,
+          "y": 1220
+        },
         {
           "id": "63I-0",
           "name": "Read the status before the severity.",
-          "width": 1600,
-          "height": 1097
+          "width": 1600.0,
+          "height": 1097.0,
+          "x": 1760,
+          "y": 1220
         }
       ]
     },
     {
       "pageId": "p-4-0",
-      "name": "08 \u00b7 Final iteration",
+      "name": "03 \u00b7 Final iteration",
       "artboards": [
         {
           "id": "5LF-0",
           "name": "Why these groups exist",
-          "width": 1440,
-          "height": 178
+          "width": 1440.0,
+          "height": 178.0,
+          "x": 0,
+          "y": 0
         },
         {
           "id": "1-0",
           "name": "Final iteration \u00b7 reviewing screen",
-          "width": 1440,
-          "height": 960
+          "width": 1440.0,
+          "height": 960.0,
+          "x": 0,
+          "y": 220
         },
         {
           "id": "5LE-0",
           "name": "Final iteration \u00b7 same content and viewport",
-          "width": 1440,
-          "height": 1032
+          "width": 1440.0,
+          "height": 1032.0,
+          "x": 1600,
+          "y": 220
         }
       ]
     },
     {
       "pageId": "p-5-0",
-      "name": "09 \u00b7 Interactions & tradeoffs",
+      "name": "04 \u00b7 Interactions & tradeoffs",
       "artboards": [
         {
           "id": "6C5-0",
           "name": "Interactions \u00b7 what changes and what stays",
-          "width": 1440,
-          "height": 1229,
+          "width": 1440.0,
+          "height": 1229.0,
           "x": 0,
           "y": 0
         },
         {
           "id": "6DD-0",
           "name": "Comments \u00b7 collapsed and expanded",
-          "width": 1440,
-          "height": 970,
-          "x": 0,
-          "y": 1380
+          "width": 1440.0,
+          "height": 970.0,
+          "x": 1600,
+          "y": 0
         },
         {
           "id": "5LG-0",
           "name": "Follow the check and return",
-          "width": 1440,
-          "height": 140,
+          "width": 1440.0,
+          "height": 140.0,
           "x": 0,
-          "y": 2520
+          "y": 1400
         },
         {
           "id": "3PS-0",
           "name": "Inspect guard and return",
-          "width": 1440,
-          "height": 960,
+          "width": 1440.0,
+          "height": 960.0,
           "x": 0,
-          "y": 2700
+          "y": 1580
         },
         {
           "id": "5V4-0",
           "name": "Focus \u00b7 keep the reading position",
-          "width": 1440,
-          "height": 140,
-          "x": 0,
-          "y": 3760
+          "width": 1440.0,
+          "height": 140.0,
+          "x": 1600,
+          "y": 1400
         },
         {
           "id": "BL-0",
           "name": "Focus mode",
-          "width": 1440,
-          "height": 738,
-          "x": 0,
-          "y": 3940
+          "width": 1440.0,
+          "height": 738.0,
+          "x": 1600,
+          "y": 1580
         },
         {
           "id": "5LH-0",
           "name": "Progress, tradeoff and next test",
-          "width": 1440,
-          "height": 697,
+          "width": 1440.0,
+          "height": 697.0,
           "x": 0,
-          "y": 4780
+          "y": 2700
         }
       ]
     }
@@ -190,98 +184,155 @@
   "exports": [
     {
       "nodeId": "5FN-0",
-      "file": "design/clean-submission/01-challenge.png",
-      "jsx": "design/clean-submission/01-challenge.jsx"
+      "file": "design/clean-submission/01a-challenge.png",
+      "jsx": "design/clean-submission/01a-challenge.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 1720
     },
     {
       "nodeId": "5YT-0",
-      "file": "design/clean-submission/02-observations.png",
-      "jsx": "design/clean-submission/02-observations.jsx"
+      "file": "design/clean-submission/01b-observations.png",
+      "jsx": "design/clean-submission/01b-observations.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 2444
     },
     {
       "nodeId": "5LD-0",
-      "file": "design/clean-submission/03a-original-review.png",
-      "jsx": "design/clean-submission/03a-original-review.jsx"
+      "file": "design/clean-submission/01c-original-review.png",
+      "jsx": "design/clean-submission/01c-original-review.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 2604
     },
     {
       "nodeId": "69T-0",
-      "file": "design/clean-submission/03b-original-comments.png",
-      "jsx": "design/clean-submission/03b-original-comments.jsx"
+      "file": "design/clean-submission/01d-original-comments.png",
+      "jsx": "design/clean-submission/01d-original-comments.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 2204
     },
     {
       "nodeId": "6AE-0",
-      "file": "design/clean-submission/03c-overview-filters.png",
-      "jsx": "design/clean-submission/03c-overview-filters.jsx"
+      "file": "design/clean-submission/01e-overview-filters.png",
+      "jsx": "design/clean-submission/01e-overview-filters.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 1454
     },
     {
       "nodeId": "62A-0",
-      "file": "design/clean-submission/04-read-and-inspect.png",
-      "jsx": "design/clean-submission/04-read-and-inspect.jsx"
+      "file": "design/clean-submission/02a-read-and-inspect.png",
+      "jsx": "design/clean-submission/02a-read-and-inspect.jsx",
+      "scale": "2x",
+      "pixelWidth": 3200,
+      "pixelHeight": 1934
     },
     {
       "nodeId": "62Q-0",
-      "file": "design/clean-submission/05-navigate-and-return.png",
-      "jsx": "design/clean-submission/05-navigate-and-return.jsx"
+      "file": "design/clean-submission/02b-navigate-and-return.png",
+      "jsx": "design/clean-submission/02b-navigate-and-return.jsx",
+      "scale": "2x",
+      "pixelWidth": 3200,
+      "pixelHeight": 2056
     },
     {
       "nodeId": "634-0",
-      "file": "design/clean-submission/06-actions-and-progress.png",
-      "jsx": "design/clean-submission/06-actions-and-progress.jsx"
+      "file": "design/clean-submission/02c-actions-and-progress.png",
+      "jsx": "design/clean-submission/02c-actions-and-progress.jsx",
+      "scale": "2x",
+      "pixelWidth": 3200,
+      "pixelHeight": 2158
     },
     {
       "nodeId": "63I-0",
-      "file": "design/clean-submission/07-comments-and-findings.png",
-      "jsx": "design/clean-submission/07-comments-and-findings.jsx"
+      "file": "design/clean-submission/02d-comments-and-findings.png",
+      "jsx": "design/clean-submission/02d-comments-and-findings.jsx",
+      "scale": "2x",
+      "pixelWidth": 3200,
+      "pixelHeight": 2194
     },
     {
       "nodeId": "5LF-0",
-      "file": "design/clean-submission/08a-task.png",
-      "jsx": "design/clean-submission/08a-task.jsx"
+      "file": "design/clean-submission/03a-task.png",
+      "jsx": "design/clean-submission/03a-task.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 356
     },
     {
       "nodeId": "1-0",
-      "file": "design/clean-submission/08b-final-iteration.png",
-      "jsx": "design/clean-submission/08b-final-iteration.jsx"
+      "file": "design/clean-submission/03b-final-iteration.png",
+      "jsx": "design/clean-submission/03b-final-iteration.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 1920
     },
     {
       "nodeId": "5LE-0",
-      "file": "design/clean-submission/08c-matched-prototype.png",
-      "jsx": "design/clean-submission/08c-matched-prototype.jsx"
+      "file": "design/clean-submission/03c-matched-prototype.png",
+      "jsx": "design/clean-submission/03c-matched-prototype.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 2064
     },
     {
       "nodeId": "6C5-0",
-      "file": "design/clean-submission/09a-interactions.png",
-      "jsx": "design/clean-submission/09a-interactions.jsx"
+      "file": "design/clean-submission/04a-interactions.png",
+      "jsx": "design/clean-submission/04a-interactions.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 2458
     },
     {
       "nodeId": "6DD-0",
-      "file": "design/clean-submission/09b-comment-states.png",
-      "jsx": "design/clean-submission/09b-comment-states.jsx"
+      "file": "design/clean-submission/04b-comment-states.png",
+      "jsx": "design/clean-submission/04b-comment-states.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 1940
     },
     {
       "nodeId": "5LG-0",
-      "file": "design/clean-submission/09c-guard-caption.png",
-      "jsx": "design/clean-submission/09c-guard-caption.jsx"
+      "file": "design/clean-submission/04c-guard-caption.png",
+      "jsx": "design/clean-submission/04c-guard-caption.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 280
     },
     {
       "nodeId": "3PS-0",
-      "file": "design/clean-submission/09d-inspect-and-return.png",
-      "jsx": "design/clean-submission/09d-inspect-and-return.jsx"
+      "file": "design/clean-submission/04d-inspect-and-return.png",
+      "jsx": "design/clean-submission/04d-inspect-and-return.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 1920
     },
     {
       "nodeId": "5V4-0",
-      "file": "design/clean-submission/09e-focus-caption.png",
-      "jsx": "design/clean-submission/09e-focus-caption.jsx"
+      "file": "design/clean-submission/04e-focus-caption.png",
+      "jsx": "design/clean-submission/04e-focus-caption.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 280
     },
     {
       "nodeId": "BL-0",
-      "file": "design/clean-submission/09f-focus.png",
-      "jsx": "design/clean-submission/09f-focus.jsx"
+      "file": "design/clean-submission/04f-focus.png",
+      "jsx": "design/clean-submission/04f-focus.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 1476
     },
     {
       "nodeId": "5LH-0",
-      "file": "design/clean-submission/09g-tradeoffs-and-next-checks.png",
-      "jsx": "design/clean-submission/09g-tradeoffs-and-next-checks.jsx"
+      "file": "design/clean-submission/04g-tradeoffs-and-next-checks.png",
+      "jsx": "design/clean-submission/04g-tradeoffs-and-next-checks.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 1394
     }
   ]
 }

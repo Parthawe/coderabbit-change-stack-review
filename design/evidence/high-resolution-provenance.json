@@ -1,0 +1,61 @@
+{
+  "captured_on": "2026-10-23",
+  "viewportCSS": [
+    1280,
+    720
+  ],
+  "theme": "light",
+  "diffMode": "Unified",
+  "firstFullyVisibleCodeLine": 54,
+  "note": "Fresh browser captures, not enlarged legacy bitmaps. Original and prototype retain their own typography and spacing. Source controls were operated through the UI. No source text or styles were altered. Orange pointers remain separate editable Paper nodes.",
+  "files": {
+    "original-comments-light@2x.png": {
+      "pixelSize": [
+        2560,
+        1440
+      ],
+      "sha256": "e278a26d6de5a02798aea430d8c3503a0effc634e2ae4a168eacec30945d5c75"
+    },
+    "original-overview-filter-crop@4x.png": {
+      "pixelSize": [
+        1344,
+        760
+      ],
+      "sha256": "6f53a803dd1f6bf9e8e6be2b66e7236ef5e2283de8a4733f25a5a4829c9cd8fc"
+    },
+    "original-overview-light@2x.png": {
+      "pixelSize": [
+        2560,
+        1440
+      ],
+      "sha256": "b88e79fd44d200b14778010f1fd2da31611b54cfec45a24b7d016cdc002c8eec"
+    },
+    "original-unified-access-call@2x.png": {
+      "pixelSize": [
+        2560,
+        1440
+      ],
+      "sha256": "f5d958a8b9cc61d90f5d5253f2eb018bbdd5e056da42d7b585026d1f7c6f61b3"
+    },
+    "prototype-unified-access-call@2x.png": {
+      "pixelSize": [
+        2560,
+        1440
+      ],
+      "sha256": "dc0b553c29c58d33d9a468d131b62051d01e4e4cb3f68e8e913e6c1af84dcf86"
+    }
+  },
+  "overviewCrop": {
+    "cssRegion": {
+      "x": 940,
+      "y": 90,
+      "width": 336,
+      "height": 190
+    },
+    "devicePixelRatio": 4,
+    "paperDisplaySize": [
+      672,
+      380
+    ]
+  }
+}

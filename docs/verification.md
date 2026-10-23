@@ -408,3 +408,12 @@ Browser checks: summary collapse and expansion each retained scrollTop 1936; gua
 Visually inspected the expanded Comments state at 1440 × 960 and compact Split at 1280 × 960. No page overflow; code remained readable. The one-page rationale was rebuilt, rendered and inspected. Nine affected native Paper PNG/JSX pairs were refreshed. JavaScript syntax and git whitespace checks passed.
 
 Limits remain: seven of 52 diffs, manually mapped statement links, incomplete thread coverage and previews for secondary workflows. This pass verifies implementation and presentation consistency; it does not establish developer usability or measured review-time savings. Nothing was sent to CodeRabbit.
+
+
+## Four-page consolidation and image quality · October 23, 2026
+
+Combined the nine Paper pages into four: Problem & evidence, Design decisions, Final iteration, and Interactions & tradeoffs. Moved the existing boards without shrinking them, removed only the five empty page shells, and updated section numbering. The final-screen and opening links keep their original IDs. All 19 boards remain editable and recoverable; exports now follow the four-page numbering.
+
+Replaced all four embedded raster images with fresh high-density browser captures. Source review, source comments and matched prototype are 2560 × 1440 pixels at a 1280 × 720 CSS viewport. The Overview filter crop is 1344 × 760 pixels, captured at 4× density for a 672 × 380 display. Source and prototype use access.ts, the same commit, light theme, Unified mode and line 54 as the first fully visible line. Source comments were captured with Resolved enabled and no settings menu open. The screenshots were not reconstructed or upscaled. Provenance and hashes are in design/evidence/high-resolution-provenance.json.
+
+Visual checkpoints: source captures retain exact pointer targets and readable captions; section choices have consistent type, contrast and spacing, with no clipping; final and supporting screens remain full size. Canvas bounds leave gaps between adjacent boards. All 19 native PNG exports were refreshed at 2×, and JSX and the manifest were updated. Prototype behavior and rationale wording are unchanged by this organization pass. No message was sent to CodeRabbit.
