@@ -1,3 +1,7 @@
+# Current submission · October 23
+
+The public submission is the prototype, Paper and one-page rationale. The design is labeled Final iteration. The site has no presentation flow; earlier presentation URLs redirect to the prototype. Historical implementation notes below retain earlier names and decisions.
+
 ---
 name: CodeRabbit Change Stack prototype
 description: Pinned Formbricks code review workspace for an independent take-home.

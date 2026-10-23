@@ -304,3 +304,9 @@ Rechecked the local presentation path: L57–65, Inspect guard, Return to access
 The public rationale, comparison HTML, comparison image and main Paper image returned HTTP 200 and matched local release bytes. Inspected the main Paper screen, Paper rationale, decision dialog and rendered PDF pages. Rationale and speaker notes remain one page each; the recording script is two pages. The native recording Doc contains the current 33 paragraphs but is owner-only and shows Access Denied in the current browser session. Use the matching local recording PDF as fallback; this private recording aid is not a submission link.
 
 Remaining limits: no developer usability study, seven of 52 diffs implemented, modified-file patches and the semantic-diff engine not reproduced, one manually mapped cross-file route. The optional video has not been recorded. Nothing was sent to CodeRabbit.
+
+# Prototype-only submission · October 23
+
+The published entry opens the prototype directly. Its submission header contains only Paper and the one-page rationale, and the design is labeled Final iteration. Previous comparison, approaches, directions and next pages redirect to the root prototype. Their source is archived outside dist. About this prototype now links to the current Paper supporting states and source license, without a presentation link.
+
+Paper text, page and board names no longer use M as the concept name. Five export pairs were refreshed, including a new 1280 × 720 browser capture in the matched comparison. The rationale was rebuilt and rendered as one page. Local browser checks verified the redirect, two-link header and About dialog open/close. JavaScript syntax and git whitespace checks passed. The prototype interaction logic is unchanged.

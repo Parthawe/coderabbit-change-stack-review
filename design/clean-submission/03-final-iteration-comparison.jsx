@@ -2,14 +2,14 @@
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '48px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '36px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '44px' }}>
-          What changes in M
+          What changed in the final iteration
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
           Same PR, commit, file, mode, viewport and starting line. The original fits more code.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', flexShrink: '0', height: '720px', position: 'relative', width: '1280px' }}>
-        <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/34NNKDZW1S6BNKR98YAWMF3AG3.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', height: '720px', width: '1280px' }} />
+        <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/1B1RMQ89XTPQG679G1NHZQ5KFR.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', height: '720px', width: '1280px' }} />
         <svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '0px', top: '0px', display: 'inline-block' }}>
           <path d="M933 338L967 338" fill="none" stroke="#A33C17" strokeWidth="2" />
           <circle cx="933" cy="338" r="13" fill="#FFFFFF" stroke="#A33C17" strokeWidth="2" />

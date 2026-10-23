@@ -1,0 +1,18 @@
+{
+  "captured_on": "2026-10-23",
+  "source": "http://localhost:4317/index.html?task=access-check",
+  "viewport": [
+    1280,
+    720
+  ],
+  "theme": "Light",
+  "mode": "Unified",
+  "first_visible_line": 54,
+  "selected_lines": [
+    57,
+    65
+  ],
+  "file": "final-iteration-access-call.png",
+  "sha256": "cdf8d9b6f8e945d3689b15f83beb545a1f917510889fe6102a6ea418483458b2",
+  "note": "Unaltered browser screenshot after removing presentation navigation. Updates the prototype image in the clean Paper comparison; original source capture is unchanged."
+}

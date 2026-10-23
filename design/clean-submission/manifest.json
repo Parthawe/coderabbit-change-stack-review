@@ -1,6 +1,6 @@
 {
   "fileId": "01M5MWMDHE2E77VV689SCNHGV7",
-  "url": "https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0",
+  "url": "https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/1-0",
   "archiveFile": "01M5AQACJZP42ZGTRX7GF9ERE7",
   "pages": {
     "p-1-0": [
@@ -37,7 +37,7 @@
     },
     {
       "nodeId": "5LE-0",
-      "file": "design/clean-submission/03-m-comparison.png"
+      "file": "design/clean-submission/03-final-iteration-comparison.png"
     },
     {
       "nodeId": "5SP-0",
@@ -49,7 +49,7 @@
     },
     {
       "nodeId": "1-0",
-      "file": "design/clean-submission/06-final-m.png"
+      "file": "design/clean-submission/06-final-iteration.png"
     },
     {
       "nodeId": "5LG-0",
@@ -79,7 +79,7 @@
   "pageOrder": [
     "Brief & priorities",
     "Evidence & directions",
-    "M \u00b7 final design",
+    "Final iteration",
     "Interaction details",
     "Decisions & next test"
   ]

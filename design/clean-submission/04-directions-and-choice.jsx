@@ -74,13 +74,13 @@
       </div>
       <div style={{ borderTopColor: '#A33C17', borderTopStyle: 'solid', borderTopWidth: '2px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '28px', fontWeight: 600, lineHeight: '36px' }}>
-          I chose M to work within the existing review.
+          I chose to work within the existing review.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '21px', lineHeight: '31px', width: '1210px' }}>
-          M lets the reviewer start with the existing summary and inspect the code immediately. I could keep layers and use this PR’s content without requiring new author input or a reliable dependency map. I built the summary-to-code route.
+          The final iteration lets the reviewer start with the existing summary and inspect the code immediately. I could keep layers and use this PR’s content without requiring new author input or a reliable dependency map. I built the summary-to-code route.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-          These were design explorations. I haven’t run an A/B test with developers. M is my choice for this brief; the next test could change it.
+          These were design explorations. I haven’t run an A/B test with developers. The final iteration is my choice for this brief; the next test could change it.
         </div>
       </div>
     </div>

@@ -31,7 +31,7 @@
           What I prioritized
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '1120px' }}>
-          I worked from the assigned Formbricks review and followed a summary into the code. I compared four ways to start a review, then chose M to improve that route using the PR’s existing content. Layers, J/K, summary jumps, Z Focus and explicit viewed status already exist in CodeRabbit; I kept them.
+          I worked from the assigned Formbricks review and followed a summary into the code. I compared four ways to start a review, then developed this final iteration using the PR’s existing content. Layers, J/K, summary jumps, Z Focus and explicit viewed status already exist in CodeRabbit; I kept them.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
@@ -69,7 +69,7 @@
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
-          Read in order: source comparison → directions considered → final M → interactions → decisions and scope.
+          The final iteration is on page 03. Source evidence, explored directions and interaction details explain the decisions.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
           Paper contains the editable design and reasoning. The browser prototype demonstrates the interactions. This work expanded beyond the assignment’s original 1–2 hour timebox.

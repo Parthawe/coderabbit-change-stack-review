@@ -2,10 +2,10 @@
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '48px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '36px', fontWeight: 600, lineHeight: '44px' }}>
-          Why I would submit M
+          Why I chose this iteration
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '21px', lineHeight: '31px', width: '1180px' }}>
-          M is the main screen I would submit with the working prototype and one-page rationale. The four explorations support the choice. I built the summary-to-code route; whether it helps developers review better is still untested.
+          This is the final iteration, with a working prototype and one-page rationale. The four explorations support the choice. I built the summary-to-code route; whether it helps developers review better is still untested.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '36px', paddingBlock: '20px' }}>
