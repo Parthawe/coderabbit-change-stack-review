@@ -2,10 +2,10 @@ Hi CodeRabbit team,
 
 Here’s my Change Stack redesign using the Formbricks PR. I kept the layer model and focused on checking a summary against the code, following the access guard, and getting back without losing my place.
 
-Paper shows the diagnosis and design decisions. The prototype lets you try that review path. The rationale explains the tradeoffs and what I’d test next.
+Paper shows the diagnosis and design decisions. The prototype link starts with a like-for-like comparison, then lets you try that review path. The rationale explains the tradeoffs and what I’d test next.
 
 Paper (sign-in required): https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
-Prototype: https://parthawe.github.io/coderabbit-change-stack-review/
+Prototype and comparison: https://parthawe.github.io/coderabbit-change-stack-review/comparison.html
 Rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
 
 Thanks,

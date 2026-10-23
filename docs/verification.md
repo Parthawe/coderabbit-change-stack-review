@@ -1,3 +1,28 @@
+# Current pass: review task and presentation · October 23, 2026
+
+This pass fixes the four issues from the holistic review. M remains final. Nothing is sent to CodeRabbit.
+
+- Original Unified and M Unified use the same commit, file, task, Light theme, 1280 × 720 viewport and starting line 54. Both are browser screenshots, without compositing or restyling. The original retains more visible code. See design/evidence/task-comparison-provenance.json.
+- The M comparison selects Require workspace access and highlights the matching L57–65. The earlier imports-only image is no longer the public comparison.
+- Inspect guard lands at L27, with the L38 entitlement check fully visible. Verified at 1280 × 720, 1440 × 960 and 1100 × 800; also checked in compact Split at 1280 × 720.
+- Return restores caller scroll and selection. At 1280 × 720, Unified returned to scrollTop 1576 and Split to 1903. Viewed count remained 0/7; Mark viewed → Undo returned 1/7 → 0/7.
+- All six workspace-tenant links select their declared ranges. Focus toggles preserve the selected point. Narrow-screen summary selection closes the context overlay and focuses code; Return also focuses code.
+- Start here explains the assignment, compares screens, links directly to the task and gives the tradeoff and test. Prototype navigation has a direct Try the review link. The rationale, README and presentation script describe this route.
+- Rationale rendered and inspected: one page, no clipped or overlapping text. Presentation page visually checked at 1280px. Additional verification and published deployment are recorded below.
+
+Additional checks: 34 local links/assets resolve across the four current submission pages; JavaScript syntax and git whitespace checks pass. File viewed state survives Next/Previous navigation; unavailable response.ts stays unviewable. About dialog Escape restores focus. J/K returns from an unavailable layer, reduced motion disables arrival animation, and the browser reported no error/warning logs during the checked flow.
+
+Reviewer assessment against the brief:
+
+- Problem choice: the shared summary range and cross-file check are concrete, inspectable examples. Their frequency and impact are still hypotheses.
+- Visual and interaction craft: the selected point now matches the comparison code, the guard checks are visible on arrival, and return/progress recovery works in the tested layouts.
+- Scanning: M makes the six summary points and files explicit. The original fits more code, so this is a navigation/context tradeoff rather than a universal density improvement.
+- Explanation: the entry page credits existing capabilities, compares the same mode and code, and gives a test that could change the decision. The proposal is ready to review as a focused design exercise; no developer or director-level validation is implied.
+
+These are implementation and presentation checks, not a developer study or a hiring score. Paper was not edited in this pass. Earlier rehearsal videos and Paper matched-import exports are historical references; the current presentation route uses the live site.
+
+---
+
 # October 23 · Presentation and reasoning pass
 
 Paper was updated first: a quieter cover, three annotated observations, preserved behavior separated from diagnoses, and a shorter decision board. Current exports and the one-page rationale match those edits. M remains final.

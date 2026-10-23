@@ -6,9 +6,9 @@ The submission is one layer-based reviewing screen, editable Paper and a one-pag
 
 | Requirement | Current treatment | Limit |
 | --- | --- | --- |
-| Diagnose three to five parsing problems | File/control competition, broad summary scope, file/layer context and progress scope. | Design observations, without measured speed claims. |
+| Diagnose three to five parsing problems | Shared summary range, cross-file access inspection, and file/display action grouping. | Design observations, without measured speed claims. |
 | Redesign one main reviewing screen | Persistent nine-path rail, compact layer heading, file toolbar, code and scoped context. | Supporting boards explain this screen; earlier approaches are archived. |
-| Retain source information | Matched imports and six source points; full wording available. Original progress is untouched; final M starts at zero. | Fourteen of 37 layer summaries and seven of 52 diffs are included. |
+| Retain source information | Matched access call at L57–65 and six source points; full wording available. Original progress is untouched; final M starts at zero. | Fourteen of 37 layer summaries and seven of 52 diffs are included. |
 | Preserve review capabilities | Summary navigation, explicit viewed status, J/K/Z, file navigation, comments and diff display controls remain. | Full parity and uncaptured workflows are not claimed. |
 | Make the decision reviewable | Paper diagnosis/comparison, prototype and one-page rationale. | Paper requires sign-in. |
 
@@ -19,7 +19,7 @@ The submission is one layer-based reviewing screen, editable Paper and a one-pag
 | Layers and files | Seven layer names/counts; nine layer-1 paths persist in the rail. Previous/Next and searchable position retain file reading state. |
 | File and layer context | Fixed scope and tabs above a scrolling context body; This file and Entire layer; fourteen captured summaries grouped across nine paths, compared with 37 source summaries. |
 | Summary navigation | Six short workspace-tenant checks with direct manually mapped line links; full original wording in a disclosure. Other captured summaries retain their source ranges and starts. |
-| Cross-file inspection | Inspect guard opens feedback-access.ts at its captured 20–49 summary; Return to access.ts restores the caller. One route, without automatic dependency mapping. |
+| Cross-file inspection | Inspect guard retains its 20–49 summary and lands at L27 with the L38 check visible; Return to access.ts restores the caller. One route, without automatic dependency mapping. |
 | Full file and range display | All captured added lines or captured summary ranges. Source semantic-diff engine is not recreated. |
 | Semantic outline | Six captured access.ts entities in an anchored Outline popover. Other entities are not inferred. |
 | Copy path and notes | Copy file path in Tools; Add file note and local line notes in Comments. Drafts remain in tab memory. |
@@ -37,8 +37,8 @@ The original already supported summary jumps, deliberate viewed state, J/K and Z
 
 Missing capabilities include modified-file patches, full-PR search, global Files rail mode, the complete command palette, drag resizing, automatic follow-code, the source semantic-diff engine and uncaptured filter/thread details. Full file and Captured ranges must not imply semantic equivalence. Local notes and the explicit open-PR simulation send nothing.
 
-The matched comparison now uses final M at the same 1280 × 720 viewport with imports 1–7 and the same six source points. The original capture stays untouched; M reflects the later observed merged status and disables Submit. Final sample and layer progress are locally initialized at zero. The current check list is in verification.md. Earlier AI critiques describe their saved baseline and do not establish developer usability. Developer testing remains outstanding.
+The public comparison uses Original Unified and M Unified at 1280 × 720, beginning at access.ts L54. Both are browser screenshots. M selects and highlights L57–65 consistently. The original fits more code; the presentation explains the navigation/context tradeoff. The original retains observed progress; M starts local progress at zero. Both show the merged PR. Current checks are in verification.md. Earlier AI critiques are not developer research.
 
-The final Paper page contains five boards; ten supporting boards have their own page. Earlier A–D concepts are archived. Branding follows the official CodeRabbit reference with semantic diff colors retained. No full brand certification or two-hour completion claim is made.
+The earlier Paper exports remain available as design history; this pass updates the live prototype and its presentation. M stays final and A–D remain explorations. No full brand certification or two-hour completion claim is made.
 
 The current design argument and demonstration steps are in [Critical design decisions](critical-design-decisions.md). Historical review reports remain evidence of earlier passes, not the current behavior specification.

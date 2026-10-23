@@ -1,26 +1,26 @@
 # Three-minute recording script
 
-Revision 8. Read the spoken text; leave the action cues outside the recording.
+Revision 9. Current live presentation route. Read the spoken text; leave the action cues outside the recording. Earlier rehearsal videos use older captures.
 
 ## 0:00-0:16 · Explain the assignment
 
-Click: Show final M in Paper. Explain the task and the review problem you chose. Keep the cursor still.
+Click: Open comparison.html. Show the assignment and review question at the top. Keep the cursor still.
 
 > Hi, I'm Parth. I kept Change Stack's layer model and focused on one review question: can I check what the summary says, inspect the access guard, and get back to the call?
 
 ## 0:16-0:36 · Explain the three observed issues
 
-Click: Point to the controls, empty Before pane and shared summary range. Name visible issues; do not imply a user study.
+Click: Scroll to Original · Unified. Point to the shared summary range and access call. Name visible issues; do not imply a user study.
 
-> The original already has summary jumps and viewed status. I picked three layout issues: several rows of controls, an empty Before pane in an added file, and six summary points sharing one large code range.
+> The original already has summary jumps and viewed status. Here, six summary points share one large code range. The access check also continues in another file. I focused on making that check easier to follow.
 
 ## 0:36-1:04 · Explain the layout tradeoff
 
-Click: At 0:36 show Before at full width and pause. At 0:40 switch to After at the same size; acknowledge the different display modes after it appears. At 0:46 show Original · Unified. At 0:53 return to final M and point to grouped controls and summary links. Do not put the screens side by side.
+Click: Show Original · Unified, then M · Unified at the same size. Use Open full size if the shared screen is too small. At 0:55 choose Try the access check.
 
-> Both show the same content, but different display modes.
+> Both are in Unified, on the same code, at the same size.
 
-> Switching the original to Unified already fixes the empty pane. So extra code width isn't my main argument. I'm grouping the controls and linking each summary point to the code behind it.
+> The original fits more code. Mine gives the file list and summary links more room. That is a tradeoff. The reason for it is to help me follow one point, inspect the guard, and return without finding my place again.
 
 ## 1:04-1:20 · Check the summary against code
 
@@ -32,7 +32,7 @@ Click: At 1:10 open Read full source summary. At 1:14 close it and select L57-65
 
 ## 1:20-1:50 · Inspect the guard and return
 
-Click: At 1:20 click Inspect guard. At 1:25 scroll to the access check and entitlement gate. At 1:33 click Return to access.ts. Pause on the restored highlight before speaking at 1:36.
+Click: At 1:20 click Inspect guard. At 1:25 point to the access check at L27 and entitlement gate at L38; both are visible on arrival. Scroll only to inspect further context. At 1:33 click Return to access.ts. Pause on the restored highlight before speaking at 1:36.
 
 > Here I can read the workspace check and the feature-enabled check. The surrounding code still matters.
 
@@ -58,6 +58,6 @@ Click: Point to the unchanged viewed count. At 2:20 click Mark viewed. At 2:26 c
 
 ## 2:35-3:00 · Explain what needs testing
 
-Click: Hold on the final state. Show Paper, prototype and rationale at 2:57. Paper needs sign-in. Put clickable links beside your recording.
+Click: Hold on the final state. Show the submission page links at 2:57. Paper needs sign-in. Put clickable links beside your recording.
 
 > This sample covers seven of fifty-two diffs, with manually mapped links. I haven't tested it with developers. I'd ask them to explain the access check, then find something the summary might miss. If these links make people overlook more code, I'd change the approach.

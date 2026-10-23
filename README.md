@@ -1,17 +1,18 @@
 # CodeRabbit Change Stack review redesign
 
-Design exercise by Parth Pawar, using Formbricks #8650.
+Design exercise by Parth Pawar, using Formbricks #8650. M is the final proposal.
 
-- [Paper design](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0) — sign-in required
-- [Prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
+[Start with the problem and comparison](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html), then [try the access check](https://parthawe.github.io/coderabbit-change-stack-review/index.html?task=access-check). The route takes you from a summary to the guard and back to the caller.
+
+- [Paper design](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0) (sign-in required)
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
 
-I kept layer-based review and focused on checking a summary against code, inspecting an access guard, and returning to the call. The diagnosis covers three visible issues: competing control rows, an empty pane beside added code, and six summary points sharing one large range. Existing summary jumps, viewed status and Focus are retained.
+The original already has summary jumps, viewed status and Focus. This proposal adds individual targets for six summary points, a manually mapped guard/return path, clearer action grouping and Undo. Opening a file marks nothing viewed.
 
-[Try the review](https://parthawe.github.io/coderabbit-change-stack-review/index.html?task=access-check): select Require workspace access, choose Inspect guard, then Return to access.ts. The [comparison](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html) shows the same content at the same size. The original uses Split and the redesign uses Unified; the original already offers Unified, so the display mode explains part of the width gain.
+Both comparison captures use Light and Unified at 1280 × 720, beginning at access.ts line 54. Both come from running interfaces, with spacing and type sizes unchanged. The original fits more surrounding code; M gives files and summary links more room. The comparison documents the remaining differences.
 
-The prototype includes seven of 52 diffs at commit 23cdac2. Links are manually mapped. The PR is merged, so Submit is disabled. About this prototype explains the sample and provides separate simulated states. Nothing is sent. Developer testing is still needed.
+Seven of 52 diffs are included at commit 23cdac2. The PR is merged, so Submit is disabled. About this prototype contains coverage and separate simulated states. Notes and progress stay in the tab. Developer testing is still needed; no measured improvement is claimed.
 
-M is the final proposal. Other approaches and earlier reviews are supporting history, not additional submissions. [Design decisions](docs/critical-design-decisions.md) and [verification](docs/verification.md) document the current work.
+Four earlier approaches remain explorations. The current [design decisions](docs/critical-design-decisions.md), [presentation route](docs/submission-walkthrough.md) and [verification](docs/verification.md) describe M.
 
-Serve locally with `python3 -m http.server 4317 --directory dist`. No build step is required. `dist/` contains the site; `design/paper-submission/` contains the Paper exports. Raw Paper JSX is a composition reference, not a runnable React component. CodeRabbit branding follows its official reference; bundled source and fonts retain their licenses.
+Serve locally with `python3 -m http.server 4317 --directory dist`. No build step is required. `dist/` contains the site. `design/paper-submission/` contains the earlier editable-design exports; current browser captures and their provenance are in `design/evidence/`. Raw Paper JSX is a composition reference, not a runnable React component. Bundled source and fonts retain their licenses.

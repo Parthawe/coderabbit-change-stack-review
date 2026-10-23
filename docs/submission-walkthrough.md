@@ -1,12 +1,14 @@
 # Presentation route
 
-Use one review task. Keep the four explorations for questions.
+Start at https://parthawe.github.io/coderabbit-change-stack-review/comparison.html. M is final. Keep the explorations for questions.
 
-1. Show final M in Paper. Explain the task: check the summary, inspect the access guard, return to the call.
-2. Show the three annotations on the original. Credit existing summary jumps and viewed status. These are observed layout issues, not findings from developer interviews.
-3. Show Before, then After at full width. Say that Before uses Split and After uses Unified, which the original already offers. Do not claim all the width improvement comes from the redesign.
-4. Open the prototype. Read the full summary once. Select Require workspace access, inspect the guard, read around it, then return. Explain why you chose one code pane over two narrow panes.
-5. Briefly show file/layer scope and deliberate viewed progress with Undo. Do not tour every control.
-6. End with the seven-of-52 sample, manual links, and the developer test: can people explain the check and catch something the summary missed?
+1. Explain the assignment and the review question in the opening paragraph. Credit the original summary navigation.
+2. Compare Original · Unified and M · Unified. Both show the access call from line 54 at the same viewport. The original fits more code; explain why the persistent files and precise links may be worth the space.
+3. Choose Try the access check. Require workspace access is selected at L57–65. Show full source wording if needed, then close it.
+4. Choose Inspect guard. The workspace check at L27 and the entitlement check at L38 are visible on arrival at 1280 × 720. Read the surrounding code, then Return to access.ts. The caller selection and reading position return.
+5. Show that viewed progress did not change. Mark viewed, then Undo. Submit remains disabled because this PR is merged.
+6. End with the one-pane tradeoff and the test that could change the decision: do precise links help developers explain the check, or make them miss surrounding code?
 
-The exact timed script is in recording-script.md. Do not quote AI review scores as evidence of usability or hiring readiness. The brief allowed AI assistance; explain how it was used if asked. The work expanded beyond the original timebox, so do not claim it was completed in two hours.
+Seven added-file diffs and one guard route are implemented. Links are manually mapped. No developer study or measured improvement is claimed. Paper needs sign-in. The work expanded beyond the assignment timebox; do not claim two-hour completion.
+
+Use the live site for this route. Earlier rehearsal videos use older comparison captures and are pacing references, not a current screen-by-screen guide.

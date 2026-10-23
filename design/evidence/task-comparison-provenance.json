@@ -1,0 +1,39 @@
+{
+  "captured_on": "2026-10-23",
+  "source_url": "https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b",
+  "prototype_url": "https://parthawe.github.io/coderabbit-change-stack-review/index.html?task=access-check",
+  "viewport": [
+    1280,
+    720
+  ],
+  "theme": "Light",
+  "layout": "Unified on both",
+  "file": "apps/web/app/api/v3/feedbackRecords/lib/access.ts",
+  "first_fully_visible_line": 54,
+  "task_range": [
+    57,
+    65
+  ],
+  "original_capture": "Unaltered screenshot from the live review. Selected Unified through View settings, expanded the 49\u2013130 summary, then scrolled to line 54. No code, styling, controls or progress edited.",
+  "prototype_capture": "Unaltered screenshot from the running local prototype, with Require workspace access selected and lines 57\u201365 highlighted. Includes the submission bar.",
+  "differences": [
+    "Original full summary wording; prototype concise links with full wording behind a disclosure.",
+    "Original observed summary progress retained; prototype local progress begins at zero.",
+    "Native spacing and font sizes preserved; different amounts of surrounding code fit on screen.",
+    "Original source capability set; prototype seven added-file diffs with explicit scope limits."
+  ],
+  "files": {
+    "original-unified-access-call.png": {
+      "sha256": "f3633ef5d3e48b8e8f01185119135b7703a5b8ddfe24de9bdb6b09d694aa87b6",
+      "bytes": 161783
+    },
+    "m-unified-access-call.png": {
+      "sha256": "334e8e47b6e4304c32d1a76e9ab1b8d9d12fb3da0b62bf133aa3f8a308feaa43",
+      "bytes": 105824
+    },
+    "m-guard-arrival.png": {
+      "sha256": "574742ae8c395fb66977f80a4128424924318b48ead8396a6a0958cccb40264d",
+      "bytes": 101248
+    }
+  }
+}
