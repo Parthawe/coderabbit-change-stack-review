@@ -1,5 +1,7 @@
 # Ten perspectives on the Change Stack redesign
 
+Historical review of the October 20 baseline. Current behavior and limits are in [DESIGN.md](DESIGN.md) and [the walkthrough](submission-walkthrough.md).
+
 Reviewed October 20, 2026. Ten independent AI review passes inspected the same saved baseline, `fc06a01`. Each had a different objective and returned a separate report. They were read-only reviews of source and exported designs, not ten human moderators or a developer study. I checked the findings, changed Paper first, then updated and exercised the prototype.
 
 I kept M as the final submission. A developer can read file by file and check each explanation against the diff. The alternative approaches change the reading order; I would test that before making it the default. The purpose of this review was to find where that choice still breaks down, not to make the submission look approved.

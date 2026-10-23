@@ -1,21 +1,21 @@
 (
-    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '40px' }}>
+    <div id="20M-0" style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+      <div id="20O-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div id="20P-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '40px' }}>
           What got in the way
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-          I marked four places where the controls, counts, and code are hard to connect. The notes below explain what I changed.
+        <div id="20Q-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          The original already links summaries to code. I focused on reading a claim, checking its evidence, and returning to the wider layer.
         </div>
       </div>
-      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '710px', position: 'relative', width: '1360px' }}>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', left: '120px', position: 'absolute', top: '40px', width: '1120px' }}>
-          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/0C1C72BG4F6A4Z8WRPSQ4FEPGH.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '630px', width: '1120px' }} />
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+      <div id="20S-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '710px', position: 'relative', width: '1360px' }}>
+        <div id="20T-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', left: '120px', position: 'absolute', top: '40px', width: '1120px' }}>
+          <div id="20U-0" style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/0C1C72BG4F6A4Z8WRPSQ4FEPGH.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '630px', width: '1120px' }} />
+          <div id="20V-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
             Captured original · Formbricks #8650 · 23cdac2 (out of date) · October 19, 2026
           </div>
         </div>
-        <svg width="596" height="152" viewBox="0 0 596 152" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '346px', top: '120px', display: 'inline-block', overflow: 'visible' }}>
+        <svg width="596" height="152" viewBox="0 0 596 152" xmlns="http://www.w3.org/2000/svg" id="2X1-0" style={{ position: 'absolute', left: '346px', top: '120px', display: 'inline-block', overflow: 'visible' }}>
           <rect x="2" y="2" width="592" height="72" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
           <path d="M154 120 V84 M148 84 L154 76 L160 84" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <circle cx="154" cy="134" r="14" fill="#FF570A" />
@@ -23,7 +23,7 @@
             1
           </text>
         </svg>
-        <svg width="268" height="62" viewBox="0 0 268 62" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '74px', top: '225px', display: 'inline-block', overflow: 'visible' }}>
+        <svg width="268" height="62" viewBox="0 0 268 62" xmlns="http://www.w3.org/2000/svg" id="2X7-0" style={{ position: 'absolute', left: '74px', top: '225px', display: 'inline-block', overflow: 'visible' }}>
           <rect x="56" y="4" width="210" height="54" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
           <path d="M28 31 H46 M46 25 L54 31 L46 37" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <circle cx="14" cy="31" r="14" fill="#FF570A" />
@@ -31,7 +31,7 @@
             2
           </text>
         </svg>
-        <svg width="344" height="32" viewBox="0 0 344 32" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '948px', top: '123px', display: 'inline-block', overflow: 'visible' }}>
+        <svg width="344" height="32" viewBox="0 0 344 32" xmlns="http://www.w3.org/2000/svg" id="2XD-0" style={{ position: 'absolute', left: '948px', top: '326px', display: 'inline-block', overflow: 'visible' }}>
           <rect x="1" y="3" width="278" height="26" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
           <path d="M314 16 H289 M289 10 L281 16 L289 22" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
           <circle cx="328" cy="16" r="14" fill="#FF570A" />
@@ -39,75 +39,74 @@
             3
           </text>
         </svg>
-        <svg width="328" height="192" viewBox="0 0 328 192" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '907px', top: '0px', display: 'inline-block', overflow: 'visible' }}>
-          <rect x="210" y="46" width="114" height="28" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
-          <path d="M267 28 V36 M261 36 L267 44 L273 36" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          <circle cx="267" cy="14" r="14" fill="#FF570A" />
-          <text x="267" y="19.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
+        <svg width="160" height="90" viewBox="0 0 160 90" xmlns="http://www.w3.org/2000/svg" id="4CP-0" style={{ position: 'absolute', left: '907px', top: '110px', display: 'inline-block', overflow: 'visible' }}>
+          <rect x="1" y="57" width="22" height="22" rx="3" fill="none" stroke="#FF570A" strokeWidth="2" strokeDasharray="4 3" />
+          <rect x="46" y="48" width="92" height="22" rx="3" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <path d="M92 28 V38 M86 38 L92 46 L98 38" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="92" cy="14" r="14" fill="#FF570A" />
+          <text x="92" y="19.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
             4
           </text>
-          <rect x="1" y="167" width="22" height="22" rx="3" fill="none" stroke="#FF570A" strokeWidth="2" strokeDasharray="4 3" />
-          <rect x="46" y="158" width="92" height="22" rx="3" fill="none" stroke="#FF570A" strokeWidth="2" strokeDasharray="4 3" />
         </svg>
       </div>
-      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '24px', width: '1360px' }}>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
+      <div id="20Y-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '24px', width: '1360px' }}>
+        <div id="20Z-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
+          <div id="210-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
             01 · Too many control rows
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          <div id="211-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
             File controls take up several rows above the code. I put the frequent actions together and moved secondary actions into Tools.
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-            02 · Layer and file are apart
+        <div id="213-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
+          <div id="214-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
+            02 · Keep the wider layer in reach
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            The layer and file path sit apart. I kept them together and added direct Previous and Next controls beside the file position.
-          </div>
-        </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-            03 · The summary count is unclear
-          </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            The layer has 37 summaries; access.ts has six. I labeled both counts and made the selected code range easier to follow.
+          <div id="215-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            File focus helps inspection, but the layer connects related changes. I kept both scopes and made the file list and viewed state persistent.
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
-            04 · Three kinds of progress
+        <div id="217-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
+          <div id="218-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
+            03 · One summary, several claims
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            File progress leads in the header, with the remaining count. Summary seen stays inside context as a reading aid; Submit review opens a separate decision.
+          <div id="219-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            The workspace summary covers 82 lines. Each source statement now links to its evidence; the full function remains reachable.
+          </div>
+        </div>
+        <div id="21B-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', width: '322px' }}>
+          <div id="21C-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '25px' }}>
+            04 · Preserve distinct progress
+          </div>
+          <div id="21D-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            The original separates seen summaries and viewed files. I kept that distinction, added Undo, and labeled the seven-file sample count.
           </div>
         </div>
       </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '24px' }}>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+      <div id="21F-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '24px' }}>
+        <div id="21G-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
+          <div id="21H-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
             Source
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div id="21I-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             I used the assigned Formbricks PR: seven layers, 52 files, and nine paths in the first layer. This is the captured original screen.
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+        <div id="21J-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px' }}>
+          <div id="21K-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
             Limit
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+          <div id="21L-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
             These are the problems I chose to address. I haven't tested usability gains with developers, and the old snapshot doesn't tell us about current bugs.
           </div>
         </div>
       </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '20px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontSizeAdjust: 'none', fontWeight: 600, lineHeight: '25px' }}>
+      <div id="36H-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '20px' }}>
+        <div id="36I-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontSizeAdjust: 'none', fontWeight: 600, lineHeight: '25px' }}>
           Same-content checkpoint → 01b
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
-          01b keeps the same imports (lines 1–7), full workspace-tenant summary, file position, and captured layer progress. The original is an untouched capture; 01b is an editable redesign of that state. The main screen then inspects the trimming statement at line 75.
+        <div id="36J-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
+          01b compares the historical capture at the same 1280 × 720 size: imports 1–7, the complete six-point summary and 2 / 37 seen. Final M separately shows the merged state observed in Arc.
         </div>
       </div>
     </div>

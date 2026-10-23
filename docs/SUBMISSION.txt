@@ -1,16 +1,14 @@
-Draft for Parth to send Thursday. Nothing has been sent to CodeRabbit.
+Draft for Parth to send. Nothing has been sent to CodeRabbit.
 
 Hi CodeRabbit team,
 
-I worked through the Change Stack challenge in Paper, then built a prototype using the Formbricks PR.
+I kept the layer-based review model and focused on staying oriented while checking an explanation against code. The redesign keeps the source summary visible, links its individual points to code, and adds a return path after inspecting a guard in another file. File and layer context have explicit scopes, and sample progress is labeled separately from PR coverage.
 
-I focused on making the file, explanation, and review progress easier to follow. Summaries link to specific code, file controls sit together, and viewed status stays separate from submitting a review. Long lines wrap by default, and Split gives added code more room.
-
-Paper design and process: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
+Paper design and diagnosis: https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0
 Working prototype: https://parthawe.github.io/coderabbit-change-stack-review/
 One-page rationale: https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
 
-Paper requires sign-in. The prototype and rationale are public. The prototype includes seven of 52 diffs; review submission is simulated. I’ve included the tradeoffs and what I’d test next.
+The prototype includes seven of 52 diffs. The captured PR is merged; an open-PR review simulation is separately labeled and sends nothing. Paper requires sign-in; the prototype and rationale are public. I’ve included the tradeoffs and what I’d test with developers next.
 
 Thanks,
 Parth

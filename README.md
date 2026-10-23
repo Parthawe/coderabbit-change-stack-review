@@ -1,33 +1,35 @@
 # CodeRabbit Change Stack review redesign
 
-Design exercise by Parth Pawar for the assigned Formbricks PR #8650.
+Design exercise by Parth Pawar using the assigned Formbricks PR #8650.
 
 ## What to send
-
-Send these three links. Paper contains the original diagnosis, matched comparison, final screen and supporting states. The browser demonstrates the interactions; the one-page rationale explains the choices.
 
 - [Editable Paper design](https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-1-0/1YS-0)
 - [Working prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
 
-[Walk through the final submission](docs/submission-walkthrough.md). The final direction keeps file-by-file review. Earlier approaches are archived. Start with [before and after](https://parthawe.github.io/coderabbit-change-stack-review/comparison.html), then M. Next tests and sketches are under Source notes & states → Optional supporting material. [Ten review perspectives](docs/ten-perspective-review.md) records the AI critiques and decisions; it is process evidence, not a required attachment or developer research.
+Paper contains the diagnosis, matched comparison, final reviewing screen and rationale. Supporting states have their own page. Paper requires sign-in; the prototype and rationale are public. The [walkthrough](docs/submission-walkthrough.md) gives the presentation sequence.
 
 ## Design argument
 
-I wanted to keep the file, explanation, and review progress connected. I kept file-by-file review so each explanation can be checked against the diff, then brought the frequent controls together. PR progress stays in the header; the footer discloses the seven included diffs. Layer activity holds summary seen progress, separate from file progress and the review decision. Paper shows the original screen, what I changed, and why.
+I kept layer-based review and focused on staying oriented while checking an explanation against code. The original already has summary navigation, explicit viewed status, J/K and Z. The matched comparison preserves its historical capture, including review availability; the final screen shows the merged state. This version keeps the source summary visible, links its individual points to code, and provides a return path after inspecting a guard in another file. File and layer context have explicit scopes. Sample, layer and PR coverage are labeled separately.
 
 ## Try it
 
-The short presentation demonstrates three actions: follow a summary, switch files, and Mark viewed with Undo. Unified and Split wrap by default at 13px. Wrap beside the diff toggles horizontal reading while preserving position.
+Start with access.ts. Follow L57–65 beside the workspace-access point, choose Inspect guard, then Return to access.ts. Switch between This file and Entire layer to inspect captured summaries grouped by file. All nine layer paths remain in the rail. Mark viewed updates sample and layer progress; Undo reverses it.
 
-Select a summary, then use Inspect code to choose a specific statement in access.ts. Go to summary start keeps its full context reachable. Split compacts the empty Before side of an added file and wraps long lines; Equal panes restores 50/50. Use Previous and Next beside the filename, or open the position to search all nine paths. Each file keeps its code and context position. Comments has a separate index for local file/line notes. Toggle Mark viewed and try Undo after switching files. Move between layers with J/K, use Z to focus, then open Submit review. The confirmation stays open until dismissed; decisions are simulated and nothing is sent. Loading, unavailable-source, and no-comments demonstrations are under Source notes & states.
+Unified and added-file Split wrap at 13px. Wrap toggles horizontal reading; Equal panes restores a 50/50 split. Tools includes Copy path, Full file / Captured ranges and the six captured access.ts entities. Comments includes Add file note and file/line notes stored in this tab.
 
-## Scope
+The primary snapshot is merged, so Submit review is disabled. Source notes & states contains a separately labeled Open-PR review demo with simulated decisions. Nothing is sent. Loading and unavailable-source demonstrations are there too.
 
-Pinned, out-of-date snapshot 23cdac2. Seven of 52 file diffs and fourteen short summaries support the demonstration; the full captured workspace-tenant summary can be expanded. Other content is labeled as preview. Complete capability parity and measured usability improvement are unverified. Paper may require sign-in; the prototype and rationale are public.
+## Scope and checks
 
-Serve locally with `python3 -m http.server 4317 --directory dist`. No build step is required.
+The out-of-date 23cdac2 snapshot includes seven of 52 complete file diffs, nine layer-1 paths, 14 of 37 layer summaries, and one paraphrased resolved thread. The full six-point workspace-tenant summary is retained. Code anchors are manually mapped; Full file and Captured ranges do not reproduce the source semantic-diff engine. Modified-file patches, full-PR search and other uncaptured workflows remain outside the implementation.
 
-`dist/` is the submission. `design/paper-submission/` contains Paper exports; `docs/` holds evidence and checks. Earlier concepts remain in `archive/` and Paper's archive pages. Their controls are outside the final submission.
+Direct links, guard/return, scope, progress/Undo, notes, Copy path, six entities and keyboard checks passed at 1440px, 1280px and the 1100px overlay breakpoint. [Verification](docs/verification.md) separates the current check list from earlier release records. Developer testing and measured usability improvement remain unverified. [Ten review perspectives](docs/ten-perspective-review.md) is historical AI critique, not developer research.
 
-CodeRabbit branding follows the [official brand reference](https://www.coderabbit.ai/brand). Formbricks source and bundled fonts retain their licenses. Raw Paper exports are composition references, not runnable React components.
+Serve locally with `python3 -m http.server 4317 --directory dist`. No build step is required. `dist/` is the submission; `design/paper-submission/` holds Paper exports. Earlier concepts remain in `archive/` and Paper's archive pages.
+
+CodeRabbit branding follows the [official reference](https://www.coderabbit.ai/brand). Formbricks source and bundled fonts retain their licenses. Raw Paper exports are composition references, not runnable React components.
+
+Current native design exports are in `design/paper-submission/`. Other files under `design/` record earlier studies and are not the final submission.

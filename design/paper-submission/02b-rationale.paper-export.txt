@@ -1,70 +1,70 @@
 (
-    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '640px' }}>
-      <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '20px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+    <div id="2RV-0" style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '640px' }}>
+      <div id="2RW-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '20px' }}>
+        <div id="2RX-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
           Final reviewing screen · Formbricks #8650
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '28px', fontWeight: 600, lineHeight: '34px' }}>
+        <div id="2RY-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '28px', fontWeight: 600, lineHeight: '34px' }}>
           Why I changed it
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          I wanted to keep the file, explanation, and review progress connected. I kept file-by-file review and changed how you move between those things.
+        <div id="2RZ-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          I kept the layer-based review model and focused on staying oriented while checking an explanation against code. The original already has summary navigation and explicit viewed status. I changed their presentation and added a return path for one cross-file inspection.
         </div>
       </div>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Keep the file and layer together
+      <div id="2S1-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <div id="2S2-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+          File identity and controls compete with the code.
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          I kept the selected layer, file, and path together. Previous and Next switch files directly; the position opens all nine paths. You don't need to reopen the list for every file.
-        </div>
-      </div>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Put the file actions in one place
-        </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          I put frequent file actions in one toolbar and kept Submit review in the PR header. J/K and Z already existed; I preserved them. Wrap is now visible beside the diff and on by default.
+        <div id="2S3-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          All nine layer paths stay in the rail. A compact heading and one file toolbar leave more height for code. Copy path and the six captured access.ts entities remain in Tools.
         </div>
       </div>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Make the summary counts clear
+      <div id="2S5-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <div id="2S6-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+          A broad summary range leaves the supporting statement to find.
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          The tab shows six file summaries. Layer activity holds the layer’s 37-summary count and seen progress. Inspect code links the two access.ts summaries to manually mapped statements. The full source summary remains available.
-        </div>
-      </div>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Marking a file viewed is its own action
-        </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          PR progress stays in the header; the seven-file demo boundary stays in the footer. Opening a file never marks it viewed. Undo corrects that choice. Summary seen and Submit review remain separate.
+        <div id="2S7-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          The full six-point source summary has direct code links. Inspect guard opens the captured access check in feedback-access.ts; Return to access.ts restores the caller. Anchors are manually mapped.
         </div>
       </div>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Keep long lines readable
+      <div id="2S9-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <div id="2SA-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+          File context and layer context need different scopes.
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Unified and Split wrap by default at 13 px, with a visible Wrap toggle. Wrapping adds vertical scrolling. Split gives added code more room with a 96 px empty Before rail; Equal panes restores 50 / 50.
-        </div>
-      </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontSizeAdjust: 'none', fontWeight: 600, lineHeight: '24px' }}>
-          Compare the same content
-        </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '23px' }}>
-          The matched screen keeps the original seven imports, full workspace-tenant summary, unviewed file, nine remaining layer files, and two of 37 summaries seen. The main screen shows a later step: inspecting the trimming statement at line 75.
+        <div id="2SB-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          This file and Entire layer make that choice explicit. The layer view groups 14 captured summaries across nine file paths and discloses coverage against the source total of 37.
         </div>
       </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
-          Why this direction, and what comes next
+      <div id="2SD-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <div id="2SE-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+          Sample progress can look like completion of the whole PR.
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          M keeps file-by-file review familiar. I’d test whether developers can explain the code behind each anchor and comfortably read long lines. Modified-file diffs and cross-file review need further work. Supporting states and explorations are optional.
+        <div id="2SF-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          The header tracks seven included diffs; the rail tracks nine layer files. Viewed remains deliberate, with Undo. The merged snapshot disables Submit review; a separate open-PR demo shows that flow.
+        </div>
+      </div>
+      <div id="2SH-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+        <div id="2SI-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+          Keep the code readable
+        </div>
+        <div id="2SJ-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          Wrapped 13 px code trades horizontal movement for vertical scrolling. Added-file Split uses a 96 px Before rail; Equal panes restores 50/50. A direct anchor is a starting point: surrounding code and the complete source summary stay available.
+        </div>
+      </div>
+      <div id="36D-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>
+        <div id="36E-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontSizeAdjust: 'none', fontWeight: 600, lineHeight: '24px' }}>
+          Checks and limits
+        </div>
+        <div id="36F-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '23px' }}>
+          I checked direct code links, guard/return navigation, context scopes, progress and Undo, notes, Copy path, the six entities and keyboard access. The 1440 px, 1280 px and 1100 px layouts passed. These are implementation checks; developer testing remains outstanding.
+        </div>
+      </div>
+      <div id="3A8-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>
+        <div id="3A9-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '24px' }}>
+          What I’d test next
+        </div>
+        <div id="3AA-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
+          I’d ask developers to explain the workspace access check, follow it into the guard, and return to the caller. I’d watch where they lose their place or confuse file, layer and sample progress. Modified-file review still needs work.
         </div>
       </div>
     </div>

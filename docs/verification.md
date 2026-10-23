@@ -1,6 +1,20 @@
-# Prototype verification history
+# Prototype verification
 
-This is a chronological record of earlier releases. Some behaviors below were replaced during the ten-perspective review. The current checks and remaining limitations are in [the October 20 review report](ten-perspective-review.md). In particular, Low now filters, Split uses continuous panes, hidden threads clear their range, and the current Paper page has 13 artboards.
+## Current revision
+
+October 22 third-pass implementation checks passed:
+
+- Six source-summary links reach their exact anchors. Inspect guard opens feedback-access.ts at summary 20–49; Return restores the caller's prior scroll and selection.
+- Entire layer shows 14 of 37 summaries across nine file groups. Sample viewed changes from 0/7 to 1/7 and Undo restores zero; bulk viewed reaches sample 7/7 and layer 7/9, then Undo restores the prior state.
+- File and line notes remain independent through navigation. Copy path reached the clipboard. All six access.ts entities have destinations.
+- The merged PR keeps Submit disabled. The separate Open-PR review demo retains the selected decision and labels submission as simulated.
+- J/K, Z, Split, Wrap and Captured ranges passed. At 1440px the collapsed heading is 68px and context is 320px. At 1100px the overlay opens/closes without document overflow. No console errors were observed.
+
+The rationale remains one page; its rendering was visually inspected. The recording script was rendered as two pages. Current Paper structure is five primary boards and ten supporting boards, including the new guard-return board. Final 1280×720 and 1440×960 inspection passed without document overflow or toolbar collisions. Direct L57–65 links highlighted exactly lines 57–65. Only the active source statement is tinted, matching Paper. Public deployment verification is pending. Developer usability testing remains outstanding.
+
+The matched comparison preserves the original capture's layer progress and historical active Submit control. The final screen reflects the merged PR and disables Submit. Earlier results below describe their dated releases and do not certify this revision.
+
+## Earlier release records
 
 Checked October 19, 2026 in the Codex in-app Chromium browser against the running static site. This record applies to the migrated Formbricks fixture. Earlier screenshot-based results do not establish behavior of this version.
 

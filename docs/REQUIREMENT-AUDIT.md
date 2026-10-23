@@ -1,68 +1,41 @@
 # Assignment cross-check
 
-Updated October 21, 2026 against the full three-page challenge, the exact assigned [review run](https://app.coderabbit.ai/change-stack/formbricks/formbricks/pull/8650/layers/1?toCommitId=23cdac2d791cf1a0f25d80d82bc02a1f3922793c&reviewRunId=c113c318-3aac-4dfd-8805-a01976d73f5b), and the resulting Paper and browser artifacts.
+Updated October 22, 2026. Direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities and keyboard checks passed at 1440px and the 1100px overlay breakpoint.
 
-The primary submission remains one main layer-based reviewing screen. The newly accessible Formbricks evidence replaces the earlier screenshot fallback in the primary Paper page, prototype, comparison, and rationale. The four product approaches remain optional explorations and now use the same Formbricks PR, file, and pinned code as the main workspace. Each of the five approaches has a rationale beside it in Paper.
+The submission is one layer-based reviewing screen, editable Paper and a one-page rationale. It uses the exact assigned Formbricks #8650 review snapshot at 23cdac2. The PR is merged and the snapshot is out of date. Seven captured added-file diffs support the demonstration; the exercise does not recreate all 52 files.
 
-| Challenge | Result | Boundary |
+| Requirement | Current treatment | Limit |
 | --- | --- | --- |
-| Understand the assigned review | Exact run initially loaded. Seven named layers, nine layer-1 files, summaries, filters, hidden resolved comments, and stale history were inspected. | Access became intermittent and rate limited; all 52 diffs were not inspected. |
-| Diagnose 3–5 parsing problems | Four observations concern competing toolbars, separated navigation, summary scope/linking, and three progress signals. | Design hypotheses, without measured reviewer-speed claims. |
-| Redesign one main reviewing screen | Native editable Paper main screen with supporting focus, decision, and recovery states. | Supporting frames explain the same screen, not a larger product redesign. |
-| Retain capability | Navigation, file selection, diff layout, range selection, comment entry, viewed status, seen progress, and review decision have destinations. | Some secondary workflows are labeled previews; complete capability parity is not demonstrated. |
-| Same information easier to scan | Both source and redesign use Formbricks #8650, layer 1, access.ts, and captured summary ranges. | The matched checkpoint shows imports 1–7, the full workspace-tenant summary, and the same captured progress. Wrap is on so every token remains visible. The main screen follows the trimming statement to L75; the summary start at L49 remains reachable. |
-| Interaction polish | Keyboard navigation, focus preservation, local progress, comment filtering, and dialog focus are implemented. | Prototype state is local; no remote writes. |
-| Viewable design or prototype + one-pager/video | Public prototype and one-page rationale, plus editable Paper with process boards. | Paper currently prompts signed-out reviewers to sign in. |
-| Focused 1–2 hour exercise | Main screen and four diagnoses remain the primary deliverable shape. | Later exploration and implementation extend the original exercise; no claim of completing all work in two hours. |
-
-The challenge asks to inspect a 52-file, seven-layer reference. It does not ask for every file to be rebuilt. Seven verified added files provide a focused browser path; nine layer-1 paths and all seven layer names/counts preserve orientation. Missing patches and summaries are explicitly disclosed.
+| Diagnose three to five parsing problems | File/control competition, broad summary scope, file/layer context and progress scope. | Design observations, without measured speed claims. |
+| Redesign one main reviewing screen | Persistent nine-path rail, compact layer heading, file toolbar, code and scoped context. | Supporting boards explain this screen; earlier approaches are archived. |
+| Retain source information | Matched imports, full six-point summary and captured progress; direct code links in the final screen. | Fourteen of 37 layer summaries and seven of 52 diffs are included. |
+| Preserve review capabilities | Summary navigation, explicit viewed status, J/K/Z, file navigation, comments and diff display controls remain. | Full parity and uncaptured workflows are not claimed. |
+| Make the decision reviewable | Paper diagnosis/comparison, prototype and one-page rationale. | Paper requires sign-in. |
 
 ## Capability destinations
 
-| Source capability | Design/prototype destination |
+| Capability | Destination and boundary |
 | --- | --- |
-| Layers, files, J/K | Layer rail and nine-file picker; outside-fixture layers keep verified metadata. |
-| PR search | PR search is explicitly labeled preview. It explains the boundary and opens a separately named Search layer 1 files dialog covering nine known paths. Full-PR search remains outside scope. |
-| Sidebar resizing/collapse | Fixed 240px rail; Z focus mode provides collapse. Drag resizing is not implemented. |
-| Overview | Labeled metadata preview. |
-| Security blast radius | Disabled, matching repository unavailability in the source. |
-| Security architecture impact | Labeled Architecture impact preview; uncaptured analysis is not fabricated. |
-| History and Settings | Labeled previews. History preserves stale/out-of-date snapshot status. |
-| Files/Diagram | File workspace retained. Diagram is described in Tools; source control was disabled. |
-| Previous/next file | Dedicated Previous and Next buttons plus a searchable nine-file position control. Boundaries are disabled; file selection does not mark viewed. |
-| View settings, full file, collapse | Unified/Split, Tools full-file/ranges toggle, and collapse-current-diff. No unchanged code exists in the seven added files. |
-| Mark layer files viewed | Tools marks only seven included diffs viewed; never all 52. |
-| Semantic outline/diff | Captured range outline and full-file/range view; complete semantic-diff engine remains a preview. |
-| Copy path, file/line comments | Path shown; per-line local drafts work. Dedicated path-copy and file-level thread workflows are not implemented. |
-| Layer context, complexity, follow code | File-scoped context with explicit layer counts. All/High/Medium/Low are actual filters. Low shows an honest coverage empty state with an About link. Automatic follow-code remains a preview. |
-| Summary seen progress | Explicit Mark seen, independent of file viewed and final decision. |
-| Resolved/outdated filters | Captured resolved thread starts hidden. Show resolved works; full outdated-filter workflow remains outside fixture. |
-| Final review | Separate decision dialog with explicitly simulated confirmation. |
+| Layers and files | Seven layer names/counts; nine layer-1 paths persist in the rail. Previous/Next and searchable position retain file reading state. |
+| File and layer context | This file and Entire layer; fourteen captured summaries grouped across nine paths, compared with 37 source summaries. |
+| Summary navigation | Original six workspace-tenant bullets with direct manually mapped line links. Other captured summaries retain their source ranges and starts. |
+| Cross-file inspection | Inspect guard opens feedback-access.ts at its captured 20–49 summary; Return to access.ts restores the caller. One route, without automatic dependency mapping. |
+| Full file and range display | All captured added lines or captured summary ranges. Source semantic-diff engine is not recreated. |
+| Semantic outline | Six captured access.ts entities in Tools. Other entities are not inferred. |
+| Copy path and notes | Copy file path in Tools; Add file note and local line notes in Comments. Drafts remain in tab memory. |
+| Progress | Header uses seven-file sample; rail uses nine-file layer; footer discloses seven of 52 PR diffs. Viewed and seen remain separate. |
+| Review decision | Submit disabled for the merged PR. Separate Open-PR review demo under Source notes & states, with simulated decisions. |
+| Split and Focus | Compact added-file Before rail, wrapped code, reversible Equal panes and Focus with reading-position preservation. |
+| Source comments | Paraphrased resolved thread; missing replies disclosed. Resolved visibility and local-note recovery remain available. |
+| Recovery | Loading, unavailable-source and no-comments states; retry and return paths. |
+| PR search, impact, history and settings | Clearly labeled captured metadata or previews. Full-PR search and uncaptured analysis are outside scope. |
 
-## Brand and scope
+The original already supported summary jumps, deliberate viewed state, J/K and Z. The changes refine their presentation and add narrower continuity paths; the rationale and recording credit those source capabilities.
 
-Brand matching was not graded in the challenge; it was added at the user's request. The design uses the intact official orange logo, CR Orange `#FF570A`, light mauve neutrals, Geist, and Hack from the [official brand reference](https://www.coderabbit.ai/brand). Small links use dark orange `#582D1D`; diff red/green remains semantic. No claim of full brand certification or usability validation is made.
+## Scope and validation
 
-The optional Behavior-first, Counterexamples, Impact-first, and Author handoff concepts introduce new workflows. They stay outside the recommended primary submission. The main screen, Paper process, and rationale are what reviewers should assess first.
+Missing capabilities include modified-file patches, full-PR search, global Files rail mode, the complete command palette, drag resizing, automatic follow-code, the source semantic-diff engine and uncaptured filter/thread details. Full file and Captured ranges must not imply semantic equivalence. Local notes and the explicit open-PR simulation send nothing.
 
-The four exploration inspection states now reproduce exact access.ts lines 178–183. This removes the previous cross-PR comparison problem. The main screen includes the same function through its ownership summary; its default visible position remains at the workspace summary. No controlled usability comparison was conducted.
+The matched comparison retains the original's captured layer progress and historical active Submit control. The final screen reflects the merged PR and disables Submit. Final sample and layer progress are locally initialized at zero. The current check list is in verification.md. Earlier AI critiques describe their saved baseline and do not establish developer usability. Developer testing remains outstanding.
 
-## Final scope reduction
-
-The final handoff focuses on the main-screen redesign and rationale. Earlier A–D concepts remain in the Paper archive and repository archive; they are removed from the public review path. The implemented path and preview destinations are listed above. Dedicated global Files rail mode, the full command palette, copy-path, file-level threads, drag resizing, and uncaptured filters are not implemented. This is a focused redesign, not a claim of complete capability parity.
-
-## October 20 critical review
-
-Ten independent AI review passes used the same saved baseline (`fc06a01`); they are not user research or human moderator feedback. Findings and dispositions are in [the review report](ten-perspective-review.md). Recovery and keyboard behavior now have a dedicated Paper board. Three next experiments use verified Formbricks code but remain design concepts: statement-level anchors, paired caller/guard inspection, and a private question queue. Each has a tradeoff and a test.
-
-## Submission walkthrough
-
-The final handoff is three links: editable Paper, the public prototype, and the one-page rationale. Paper leads with diagnosis, a matched-content comparison and the final screen. Supporting states explain implemented behavior. The future-sketch board is optional and explicitly unimplemented; the ten-review board records AI critique. Neither replaces the design argument or establishes developer usability. Earlier approaches remain archived. The rationale uses the direction’s descriptive name rather than the internal M label.
-
-## Anchor and Split refinement
-
-M stays final. Summary scope is distinct from its selected evidence: two access.ts summaries expose manually mapped anchors; other summaries land at their start. All captured code and the full source summary remain available. Added-file Split compacts the empty Before side, wraps by default and retains a reversible Equal panes control. Paper includes a native supporting Split state. These improvements do not claim automatic statement mapping or modified-file patch coverage.
-
-## Final presentation refinement
-
-The primary Paper page now has five boards: start, diagnosis, matched comparison, M and rationale. Nine supporting boards moved to their own page; no content was deleted. Unified and Split wrap by default with a visible toggle. Repeated metadata was removed; Layer activity discloses summary-reading progress. PR progress and the persistent demo-coverage footer remain distinct. The browser top bar leads to Paper, comparison and rationale; future work is optional inside Source notes & states.
+The final Paper page contains five boards; ten supporting boards have their own page. Earlier A–D concepts are archived. Branding follows the official CodeRabbit reference with semantic diff colors retained. No full brand certification or two-hour completion claim is made.

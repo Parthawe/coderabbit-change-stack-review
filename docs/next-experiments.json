@@ -1,12 +1,12 @@
 {
   "title": "What I'd test next",
   "intro": "I chose this direction because a reviewer can still read the PR file by file and check each explanation against the diff. The other approaches changed the reading order. I'd test that before making it the default.",
-  "boundary": "The access.ts anchors now work in the prototype. Paired-file inspection and a review-wide private question queue remain Paper concepts. All use the same Formbricks snapshot.",
+  "boundary": "Direct statement links and one caller/guard return path now work in the prototype. Simultaneous paired panes and a review-wide private question queue remain Paper concepts. All use the same Formbricks snapshot.",
   "experiments": [
     {
       "id": "statement",
       "title": "Check one statement against its code",
-      "hypothesis": "I linked the captured trimming statement to line 75. Inspect code offers specific anchors for both access.ts summaries; the full summary scope and its start remain reachable.",
+      "hypothesis": "The six source-summary points link directly to their manually mapped code. The full source summary and function context remain available.",
       "tradeoff": "A precise anchor can make one line look sufficient when the behavior depends on the flow around it.",
       "test": "Ask a developer to find the code supporting the trimming statement and explain what is normalized. Watch wrong destinations and extra searching.",
       "boundary": "Implemented for the two captured access.ts summaries. Manually verified anchors; no automatic mapping or correctness verdict.",
@@ -18,7 +18,7 @@
       "hypothesis": "access.ts calls an access gate in feedback-access.ts. I'd let a reviewer inspect that definition without losing the caller.",
       "tradeoff": "Two code panes reduce line width and introduce another place to navigate. Keep this view optional.",
       "test": "Ask where the workspace gate is enforced and what access.ts checks afterward. Compare paired inspection with ordinary file switching.",
-      "boundary": "One verified call and definition. No inferred dependency graph or project-wide impact analysis."
+      "boundary": "The prototype implements one Inspect guard / Return to access.ts route. This sketch proposes simultaneous panes. No inferred dependency graph or project-wide impact analysis."
     },
     {
       "id": "question",

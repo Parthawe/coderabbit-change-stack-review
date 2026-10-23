@@ -1,153 +1,208 @@
 (
-    <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '40px' }}>
+    <div id="20N-0" style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
+      <div id="21N-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div id="21O-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '32px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '40px' }}>
           Try the review flow
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '25px' }}>
-          Choose a summary, check its code, mark the file viewed, then open Submit review. Each action gives its own feedback.
+        <div id="21P-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '25px' }}>
+          Read a source statement, inspect its code and referenced guard, return to the caller, then mark the file viewed.
         </div>
       </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
-          Follow a summary to its code
+      <div id="21R-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
+        <div id="21S-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
+          Keep the statement and the wider layer connected
         </div>
-        <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
-          <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-              Evidence · access.ts · L75
+        <div id="49C-0" style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '24px', width: '100%' }}>
+          <div id="49D-0" style={{ borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', padding: '20px', width: '500px' }}>
+            <div id="49E-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+              Inspect a claim, then its dependency
             </div>
-            <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', padding: '16px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px' }}>
-                75 + const allowedTenantIds = directories.map((directory) => directory.id.trim());
+            <div id="49F-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+              requires workspace access via requireUnifyFeedbackWorkspaceAccess,
+            </div>
+            <div id="49G-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+              L57–65 · Inspect guard in feedback-access.ts
+            </div>
+            <div id="49H-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+              Inspect guard opens the real access check at L20–49. Return to access.ts restores the selected claim and reading position. Neither action marks a file viewed.
+            </div>
+            <div id="49I-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+              Supporting screen 11 shows the guard.
+            </div>
+          </div>
+          <div id="49J-0" style={{ backgroundColor: '#F8FAFC', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '10px', padding: '16px', width: '420px' }}>
+            <div id="49K-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '24px' }}>
+              Change context
+            </div>
+            <div id="4CW-0" style={{ borderColor: '#D5CDD7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '4px', padding: '3px' }}>
+              <div id="4CX-0" style={{ boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
+                <div id="4CY-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                  This file
+                </div>
+              </div>
+              <div id="4CZ-0" style={{ backgroundColor: '#FFEAD5', borderRadius: '3px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
+                <div id="4D0-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                  Entire layer
+                </div>
               </div>
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-              Inspect code selects a statement or branch. Long lines wrap; jumps keep the whole destination line visible, reducing preceding context when space is tight. The summary start stays reachable. Reduced motion uses an instant jump.
+            <div id="49M-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              14 of 37 summaries captured · 0 seen
             </div>
-          </div>
-          <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E57340', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', paddingBlock: '16px', paddingInline: '12px', width: '279px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
-              Lines 49–130 · Medium
+            <div id="49O-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', paddingTop: '8px' }}>
+              <div id="49P-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                access.ts
+              </div>
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
-              Resolve workspace tenant
+            <div id="49R-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px', paddingBlock: '6px' }}>
+              <div id="49S-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                Resolve workspace tenant
+              </div>
+              <div id="49T-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                L49–130 · Medium
+              </div>
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-              Authorize workspace access, normalize directory IDs, and resolve a permitted dataset.
+            <div id="49V-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px', paddingBlock: '6px' }}>
+              <div id="49W-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                Enforce record ownership
+              </div>
+              <div id="49X-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                L156–186 · High
+              </div>
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '18px', textAlign: 'right' }}>
-              Mark seen
+            <div id="49Z-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', paddingTop: '8px' }}>
+              <div id="4A0-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                errors.test.ts
+              </div>
+            </div>
+            <div id="4A2-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px', paddingBlock: '6px' }}>
+              <div id="4A3-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                Test bounded Hub error responses
+              </div>
+              <div id="4A4-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                L1–94 · Medium
+              </div>
+            </div>
+            <div id="4A6-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px', paddingBlock: '6px' }}>
+              <div id="4A7-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                Test unexpected errors
+              </div>
+              <div id="4A8-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                L96–123 · Medium
+              </div>
+            </div>
+            <div id="4AA-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              Scroll for the remaining file groups. Selecting a summary opens its file and code.
             </div>
           </div>
         </div>
       </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
+      <div id="224-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
+        <div id="225-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
           Mark a file viewed when you're done
         </div>
-        <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', gap: '24px', padding: '16px' }}>
-          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexGrow: '1', gap: '8px' }}>
-            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
+        <div id="226-0" style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', gap: '24px', padding: '16px' }}>
+          <div id="227-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexGrow: '1', gap: '8px' }}>
+            <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" id="228-0" style={{ display: 'inline-block', flexShrink: '0' }}>
               <rect x="1" y="1" width="14" height="14" rx="2" fill="#582D1D" />
               <path d="m4 8 3 3 5-6" fill="none" stroke="#FDFDFE" strokeWidth="1.5" />
             </svg>
-            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
+            <div id="22B-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '20px' }}>
               access.ts
             </div>
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-            1 / 52 viewed · 51 left
+          <div id="22C-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+            Sample · 1 / 7 viewed · 6 left
           </div>
-          <div style={{ alignItems: 'center', backgroundColor: '#E9F4ED', borderColor: '#8DB39E', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '6px', paddingInline: '10px' }}>
-            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
+          <div id="22D-0" style={{ alignItems: 'center', backgroundColor: '#E9F4ED', borderColor: '#8DB39E', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '6px', paddingInline: '10px' }}>
+            <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" id="2Y1-0" style={{ display: 'inline-block', flexShrink: '0' }}>
               <path d="m3 8 3 3 7-7" fill="none" stroke="#175C3C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
-            <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+            <div id="22E-0" style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
               Viewed
             </div>
           </div>
         </div>
-        <div style={{ alignItems: 'center', alignSelf: 'end', backgroundColor: '#211F24', borderRadius: '5px', boxSizing: 'border-box', display: 'flex', gap: '24px', justifyContent: 'space-between', paddingBlock: '12px', paddingInline: '18px', width: '360px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#FDFDFE', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+        <div id="2Y4-0" style={{ alignItems: 'center', alignSelf: 'end', backgroundColor: '#211F24', borderRadius: '5px', boxSizing: 'border-box', display: 'flex', gap: '24px', justifyContent: 'space-between', paddingBlock: '12px', paddingInline: '18px', width: '360px' }}>
+          <div id="2Y5-0" style={{ boxSizing: 'border-box', color: '#FDFDFE', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
             access.ts marked viewed
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#FDFDFE', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+          <div id="2Y6-0" style={{ boxSizing: 'border-box', color: '#FDFDFE', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
             Undo
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Mark viewed updates the file check, viewed count, and remaining count. Summary seen stays separate. Undo still works after switching files.
+        <div id="22F-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          Mark viewed updates the file check, sample count and layer count. Undo restores them. Summary seen remains separate.
         </div>
       </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '20px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontSizeAdjust: 'none', fontWeight: 600, lineHeight: '27px' }}>
+      <div id="369-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '20px' }}>
+        <div id="36A-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontSizeAdjust: 'none', fontWeight: 600, lineHeight: '27px' }}>
           Move to the next file without opening a dialog
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
-          Previous and Next follow the nine captured paths. The position opens the searchable list. Each file keeps its scroll position; switching files never marks one viewed. At either end, the unavailable direction is disabled.
+        <div id="36B-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
+          All nine layer paths and viewed indicators remain in the rail. Previous, Next and the searchable picker still work. Each file retains its reading position. Two missing modified patches are labeled preview.
         </div>
       </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingTop: '20px' }}>
-        <div style={{ boxSizing: 'border-box', paddingBottom: '12px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
+      <div id="22H-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingTop: '20px' }}>
+        <div id="22I-0" style={{ boxSizing: 'border-box', paddingBottom: '12px' }}>
+          <div id="22J-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
             Moving around and getting back
           </div>
         </div>
-        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
+        <div id="22L-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
+          <div id="22M-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
             J / K · change layer
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          <div id="22N-0" style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
             J moves to the next layer; K moves back. All seven layer names and counts come from the assigned PR. Other layers' diffs are outside this prototype.
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
+          <div id="22O-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             Prototype · Coverage gap
           </div>
         </div>
-        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
+        <div id="22Q-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
+          <div id="22R-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
             Z · focus on code
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          <div id="22S-0" style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
             Z gives the code more room. Keep reading, then press Z again to bring the side panels back around your current line. Shortcuts ignore typing.
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
+          <div id="22T-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             State 04 · Focus
           </div>
         </div>
-        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
+        <div id="22V-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
+          <div id="22W-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
             Comments · inspect thread
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          <div id="22X-0" style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
             Tabs restore the selected range. Each local draft stays with its file and line. Resolved threads start hidden; two source replies aren't shown.
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
+          <div id="22Y-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             Prototype · Comments
           </div>
         </div>
-        <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
-            Submit review · decide
+        <div id="230-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingBlock: '12px' }}>
+          <div id="231-0" style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontWeight: 600, lineHeight: '22px', width: '180px' }}>
+            Open-PR review demo
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-            Choose Comment, Approve, or Request changes. Cancel or Escape returns focus. The confirmation says the review was simulated and nothing was sent.
+          <div id="232-0" style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+            The merged snapshot disables Submit review. Source notes opens a separate hypothetical open-PR decision demo. Cancel or Escape returns without changing progress; completion is explicitly simulated.
           </div>
-          <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
+          <div id="233-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', width: '168px' }}>
             State 05 · Decision
           </div>
         </div>
       </div>
-      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '20px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
+      <div id="235-0" style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '20px' }}>
+        <div id="236-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '27px' }}>
           Other tools are still reachable
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+        <div id="237-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
           The navigation still includes Overview, Architecture impact, history, Settings, and Search. Tools holds the less frequent file actions. Security blast radius stays disabled, as it is in the source. Unsupported actions open previews.
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          You can still filter summaries, mark them seen, and open comments. Below 1280px, context opens as an overlay. Loading, retry, and no-comments states are included.
+        <div id="238-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
+          Entire layer groups the 14 captured summaries; This file narrows the scope. Tools includes Copy file path, the six verified access.ts entities, Full file and Captured ranges. Comments offers Add file note even when empty.
         </div>
       </div>
     </div>

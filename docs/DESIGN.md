@@ -85,111 +85,64 @@ components:
     padding: "16px 12px"
 ---
 
-# Design System: CodeRabbit Change Stack prototype
+# Design System for the Change Stack prototype
 
-## Overview
+## Authority and scope
 
-This is the implemented visual system for Parth Pawar’s independent CodeRabbit take-home. It gives reviewers a layer list, complete added-file diffs, and connected summaries in one desktop workspace. Compact typography, flat panels, and restrained state colors keep the code readable.
+The working HTML, CSS and JavaScript in `dist/` govern browser behavior. `brand.css` supplies the applied CodeRabbit overrides. The main Paper screen, rationale and prototype describe one final reviewing workspace. The five primary boards contain start, diagnosis, matched comparison, final screen and rationale; ten supporting boards live on a separate page. Earlier approaches remain archived.
 
-The working HTML/CSS/JavaScript in `dist/` governs browser behavior. `brand.css`, loaded after `styles.css`, supplies the applied brand overrides. The primary Paper screen, supporting states and recovery board use the same direction. The main layer-review screen and one-page rationale remain the submission; the four earlier approach walkthroughs are archived product explorations. Paper is ordered Main submission, Formbricks approach comparison, screenshot-study archive, then visual archive. The primary page includes the reading guide, source diagnosis, main screen, flow specification, and supporting states.
+The official CodeRabbit brand page supplies the orange typemark, orange accent, light mauve surfaces, Geist and Hack. Diff green and red retain their semantic roles. This records provenance, not complete brand certification. Existing font binaries and source licenses remain bundled.
 
-Brand authority is the [official CodeRabbit brand page](https://www.coderabbit.ai/brand). Orange and light Carrot UI mauve values were extracted from the official site stylesheet. The original black/orange typemark SVG is used intact, with its proportions preserved. This records the applied choices and their provenance; it is not a certification of complete brand compliance.
+## Source boundary
 
-## Colors
+The fixture is Formbricks #8650 at the out-of-date 23cdac2 review snapshot. The PR is merged. Seven layer names/counts total 52 files; layer 1 has nine verified paths. Seven complete added-file diffs and fourteen of the layer's 37 summaries are captured. The full six-point workspace-tenant summary is preserved. One resolved source thread is paraphrased; uncaptured replies are disclosed.
 
-### Primary
+Summary navigation, explicit viewed status, J/K and Z existed in the source. The redesign changes placement, scope and continuity; it does not claim to invent those capabilities. Manually mapped anchors support nine destinations across two access.ts summaries. The source semantic-diff engine, automatic dependency mapping and full capability parity are outside the implementation.
 
-CR Orange supplies primary action fills with dark text. Dark orange-family text supplies links, focus outlines, and compact selected labels. The legacy CSS name `--blue` now resolves to this dark reading color; it no longer represents blue. Pale orange identifies selected layers and summaries. Selected code uses a lighter warm surface while preserving green/red text and diff signs.
+## Layout and type
 
-### Neutral
+The desktop shell has a 72px PR header, a 240px navigation rail, a flexible code workspace and a 320px context panel. The layer description starts collapsed in a compact 68px heading. The footer discloses the seven-of-52 diff boundary. All nine layer paths remain visible in the rail's scrollable file list; layer progress sits with them.
 
-The official light mauve surface backs navigation and hunk bars. The near-white base backs the main code area, header, controls, and comment container. Context uses the secondary mauve surface. Text and muted text separate primary content from paths, line numbers, and explanatory copy; the line token separates panels and rows.
+Below 1280px, Context opens a 360px overlay between header and footer. The body retains an 880px minimum width. This is a desktop prototype, without a mobile composition. Focus mode hides surrounding panels and preserves the current reading position. Lower-height windows reduce vertical spacing.
 
-### Diff semantics
+Geist supplies interface text; Hack supplies code and technical metadata. Code is 13px on a 24px line grid. Body and filenames use 14px; summary text and several controls use 13px; paths and range labels use 11–12px. The main layer title is 22px. The rationale has a separate editorial type ramp. Keep existing token colors and radii from the frontmatter.
 
-Green text on the addition surface marks added code. Red text on the deletion surface marks removed code. Old/new line columns and plus/minus signs preserve the change meaning alongside color. Unchanged code uses the base background. These red/green diff colors are retained semantic treatments, separate from the brand accent.
+## Navigation and context
 
-## Typography
+Previous/Next and the searchable position control navigate nine verified layer paths without skipping uncaptured patches. Opening a file never marks it viewed. Each file retains its summary, context tab and reading position. Unavailable patches keep their labeled navigation destination and recovery path.
 
-Self-hosted Geist supplies regular reading text and semibold headings. Hack regular supplies source code and selected technical metadata: repository, file path, line numbers, layer counts, context counts, and summary ranges. File progress uses Geist for a consistent reading label. Navigation section labels use Hack bold (700). Other interface labels remain Geist. Keep the system sans-serif and monospace fallbacks.
+This file and Entire layer are explicit context scopes. File scope shows the source file's summary count and captured coverage. Entire layer groups fourteen captured summaries under the nine file paths and discloses the source total of 37; missing summaries remain coverage notices. Complexity filters apply to captured summaries, with a coverage empty state for uncaptured Low details. Layer activity holds independent seen-summary progress.
 
-The bundled Geist semibold binary is a static 600 face declared for CSS weights 500–900. Most former medium-weight interface text now uses 400.
+The selected workspace-tenant summary shows its original six bullets directly, with a line link beside each. It does not repeat the same explanation in a dropdown and a second prose block. Selecting an evidence link highlights its manually mapped statement or branch and labels the destination Evidence. Go to summary start retains access to the full function. Other captured summaries use their start as a navigation destination. Selection preserves diff signs and addition/deletion colors; reduced motion removes arrival animation while retaining labels.
 
-The main layer heading uses the headline token. Context headings use the title token; the PR title is 15px semibold. Body and filenames use 14px. Summary copy, tabs, progress, and several dialog labels use 13px; paths and keyboard hints use 11–12px. Dialog titles use 24px semibold. Code stays on a 24px line grid, with line numbers at 12px. Summary ranges use 11px mono. There is no marketing display scale.
+Inspect guard on the workspace-access bullet opens feedback-access.ts at its captured 20–49 summary. Return to access.ts restores the caller's reading state. This is one captured caller/guard route; automatic dependency browsing and simultaneous paired panes are not implemented.
 
-## Layout
+## Diff and tools
 
-The viewport is a vertical shell with a 72px header and 36px prototype footer. Between them, navigation is 240px wide, the code workspace flexes, and context is 320px wide. At 1440px the main workspace is 880px wide. Navigation, code, and context scroll independently; the code area supports horizontal overflow; Tools can wrap long lines without shrinking type. Split uses a compact empty Before rail and a continuous After pane with a continuous added-code scroll region.
+Unified and Split wrap by default at 13px/24px. Their wrap preferences are separate. The visible Wrap control, pane sizing and Focus preserve the visible code line. Added-file Split uses a 96px Before rail labeled File added / No previous version. Equal panes restores 50/50. Modified-file behavior is outside the fixture.
 
-Panel padding follows the spacing tokens: navigation uses 16px padding, context uses 24px by 20px, and the layer heading uses 24px 28px 20px. The file toolbar uses 12px by 20px. At widths below 1440px, file controls tighten and heading side padding becomes 24px.
+Full file shows all captured added-file lines; Captured ranges limits the display to captured summary ranges, retaining an active note's code. These are display modes, not a semantic-diff engine. Tools includes Copy file path, collapse, bulk viewed and the six manually mapped access.ts entities: TResolveParams, TResolvedFeedbackTenant, resolveWorkspaceFeedbackTenant, TRequireOwnedRecordParams, requireOwnedFeedbackRecord and forbidFeedbackRecord. Other files' entities are not fabricated.
 
-Below 1280px, context leaves the column layout and opens through the Context control as a 360px overlay between header and footer. The close control and Escape dismiss it. Navigation remains 240px. The body has an 880px minimum width; this is a desktop prototype, with no mobile composition. Heights below 800px reduce vertical padding in navigation, headings, context, and summaries.
+## Progress and decisions
 
-## Elevation & Depth
+The header labels progress Sample and uses seven included diffs as its denominator. The rail labels layer progress against nine paths. The footer discloses seven of 52 PR diffs. Uncaptured patches cannot be marked viewed. Summary seen is independent of viewed state and review decisions.
 
-At rest, panels use borders and surface changes. The selected summary has a one-pixel inset outline. Shadows appear on the narrow-screen context overlay, dialogs, and toast notifications. The dialog backdrop dims the existing workspace. Current CSS governs these treatments. The older sidecar has not been refreshed for the brand changes.
+Mark viewed changes the file control, rail and sample counts together. Undo lasts eight seconds, pauses on hover/focus and restores the previous state even after navigation. Other notices do not displace pending Undo. Bulk viewed also has Undo; Reset invalidates it.
 
-## Shapes
+The merged snapshot disables Submit review and explains why. Source notes & states exposes a separately labeled Open-PR review demo. Its simulated decision confirmation stays open until dismissed and says nothing was sent. This demo does not change the captured PR state.
 
-Buttons use the control radius. Summaries, textareas, comment containers, decisions, and toasts retain 5px corners. Dialogs use the dialog radius; keyboard keys use the key radius. Tabs have square corners. Keep panel boundaries straight and use one-pixel dividers. Small line icons use 16px boxes and a 1.5px stroke.
+## Notes and recovery
 
-## Components
+Comments includes Add file note and local file/line notes. Notes retain draft and saved text by file or line and reset on reload. The local-note index provides a return path without altering captured source-comment counts. Source threads retain their resolved status and start hidden; hiding one clears its code range.
 
-- **Navigation:** layers contain a number, title, file count, and disclosure arrow. Selection uses the pale orange fill, dark orange-family text, a tinted border, and semibold title. Clicking the current layer toggles its file list; J/K changes layers. Unavailable source retains a labeled place in navigation.
-- **Buttons and fields:** primary actions use orange with dark text; secondary buttons use the near-white base with a neutral border; quiet buttons remove the visible border. Hover and pressed states change the fill. Textareas retain 5px corners and body type. Disabled buttons reduce opacity and suppress the pointer cursor.
-- **Summaries:** each button shows a mono line range, title, and short explanation. Selecting one updates `aria-pressed`, selects its code range, and scrolls that range into view. The tab shows the source file’s total summary count, and a separate label discloses how many are included. The full captured workspace-tenant summary expands below its short description. Mark seen is a separate control.
-- **Diff:** Unified and Split are pressed-state controls. Split shows a blank before side for these new files and the complete added source on the right. Tools can collapse the file or show only captured summary ranges. Line comment controls appear on hover or keyboard focus.
-- **Focus mode:** Z or the Focus control hides navigation and context, condenses the layer synopsis, and gives the code the available width. Entering and leaving preserves the current file and reading position; the control indicates its pressed state.
-- **Progress and reviews:** Mark viewed applies only to seven included added-file diffs; PR progress is displayed against 52 source files; the footer discloses the seven included diffs, and the decision dialog retains the demo total. A 184px header group shows viewed and remaining file counts above a 3px native progress element. Summary seen is inside the collapsed Layer activity disclosure, tracked against 37 layer summaries. Review decisions open in a native modal dialog and submission is explicitly simulated. History, settings, impact analysis, and uncaptured workflows are labeled previews. Previous and Next sit beside the filename; the position opens a picker for nine verified paths. Direction buttons disable at the ends, without wrapping or skipping the two uncaptured patches. Returning to a file restores its selected summary and vertical/horizontal reading position. Switching never marks a file viewed. The file picker filters nine verified paths; all four complexity choices filter captured summaries; Low explains that its ranges are outside this fixture.
-- **Accessibility:** retain the skip link, labeled navigation and code region, semantic tabs with arrow/Home/End handling, pressed and expanded states, status announcements, and native dialog containment. Closing a dialog restores focus to its trigger. Interactive controls receive a 2px dark orange-family focus outline with a 3px offset. Shortcuts ignore typing, modified keys, and open dialogs. Reduced-motion preferences disable smooth scrolling and animation.
-- **Historical PR context:** the exact review run is marked out of date at commit 23cdac2. Its captured access-control thread is resolved. No current mergeability or defect status is inferred.
-- **Source states:** normal loading announces status; the explicit loading preview shows skeleton rows. Unavailable source has retry and return actions. The comments view distinguishes an absent thread from missing original comment text and local drafts.
+Loading gates review actions, announces busy state and coalesces retries. The explicit loading preview shows skeleton rows. Unavailable source offers retry and a return path. No-comments and source-coverage states distinguish missing data from an absent source thread. Nothing is sent to CodeRabbit or GitHub.
 
-## Do's and Don'ts
+## Accessibility and verification
 
-- Do keep selection, review progress, keyboard focus, and diff meaning visually distinct.
-- Do retain line numbers, signs, labels, and state attributes alongside color.
-- Do preserve the source boundary: Formbricks #8650 at the exact assigned run, seven layers, nine layer-1 paths, seven complete added files, fourteen condensed summary ranges, and one paraphrased resolved thread.
-- Do compare the main workspace and four optional approaches with the same pinned Formbricks file. Keep the older mono screenshot study archived. Access to the assigned run was intermittent; pinned source remains in the fixture.
-- Don’t reconstruct hidden lines, other files, original comment authors or text, or backend analysis.
-- Don’t imply that viewed state covers the whole PR or that simulated reviews reach CodeRabbit or GitHub. Drafts and viewed state live in tab memory and reset on reload.
+Preserve skip links, labeled navigation/code regions, tabs with arrow/Home/End handling, pressed/expanded states, status announcements and native modal containment. One roving line-comment action uses Up/Down; F6 moves between code and context. Escape closes the context overlay even while typing. J/K/Z ignore typing, modified keys and open dialogs. Closing a dialog restores its trigger focus. Reduced motion preserves state feedback while disabling smooth movement and fades.
 
-## Submission reading path
+The October 22 implementation checks passed for direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities, keyboard access and 1440px/1100px layouts. The verification document separates these results from historical releases. Developer testing and measured usability improvement remain unverified.
 
-The published handoff presents one final reviewing screen, Paper, and the one-page rationale. Product explorations are archived outside dist and linked only from source records. The editorial rationale retains its 32px reading title and 18px section headings, separate from the compact product UI type ramp.
+## Matched comparison
 
-## Interaction feedback
-
-The existing diff metadata row stays above the scrolling code. Its chain icon and linked line range match the selected summary’s “Linked to code” label. Selecting a summary scrolls to the start of its range and brightens that first line once for 600ms after arrival. A new selection cancels pending arrival feedback. The remaining linked rows retain their stable selection fill. No chart or dependency diagram is inferred from incomplete source data.
-
-Mark viewed updates the toolbar check, navigation indicator, and 52-file count together. Its toast offers Undo for eight seconds and pauses dismissal while hovered or keyboard focused. Undo restores that file’s prior state even after navigation, without changing the current file. Summary seen stays independent. Unrelated notices do not displace pending Undo; bulk viewed has Undo and Reset invalidates it.
-
-Simulate submission changes the open decision dialog into a persistent confirmation. The dialog identifies the selected decision and states that nothing was sent. Return to review restores focus to Submit review. Dialogs fade in over 160ms, toast feedback over 140ms, and the viewed fill changes over 140ms. Reduced motion removes all fades, destination emphasis, and smooth scrolling while preserving labels and state changes.
-
-Context tabs restore the code range belonging to their visible content. Summaries restores the selected explanation; Comments restores the open historical thread or local note. Hiding resolved threads clears their range; returning to Summaries restores the selected summary. Draft text remains in tab memory.
-
-Focus mode keeps the position reached while reading when the side panels return. Local notes are stored by file ID and line number, with separate draft and saved text; another file or line starts blank.
-
-## Same-content comparison
-
-The untouched 1280 × 720 original capture and editable Paper checkpoint use access.ts imports at lines 1–7, the full six-point summary for lines 49–130, file 1 of 9 unviewed, nine layer files left, and two of 37 layer summaries seen. The checkpoint header uses layer progress because the original does not establish other layers’ viewed state. The working prototype starts with zero local file and summary progress. The main Paper screen demonstrates the next step, inspecting the trimming statement at line 75, with its summary start at line 49 still reachable. All seven imports wrap in the matched Paper checkpoint. The prototype offers both wrapped and horizontal reading. The comparison page also exposes the shared text for inspection.
-
-## Critical review follow-up
-
-The recovery board specifies file/line note discovery, one roving comment action, F6 and a working Skip to context link between code and context, and overlay Escape even from a textarea. Selecting an outline item switches to Summaries and removes the previous note editor. Active note ranges stay visible in ranges-only mode. Full source disclosures retain their open state. Loading gates unavailable actions until the fixture returns; retry requests are coalesced.
-
-The optional next-experiments board sketches statement anchors, paired caller/guard inspection and private questions with the same Formbricks evidence. Each states a tradeoff and test. They are not working prototype features. The ten-perspective review records independent AI critiques of a shared baseline and the resulting decisions; it is not usability research.
-
-## Specific evidence and compact Split
-
-The selected summary keeps its complete scope label. `Inspect code` chooses a manually verified statement or branch, with a narrow highlight and an Evidence line label. The captured workspace-tenant summary has six anchors corresponding to its six source points; the ownership summary has three. Other summaries land at their start, explicitly labeled Summary start. Go to summary start retains the full function context without filling the entire range. The original fixture text and source summaries are unchanged.
-
-All seven included diffs are added files. Split therefore keeps a 96px Before rail stating File added / No previous version, and gives the remaining width to After. Equal panes explicitly restores 50/50; Compact before reverses it. Split wraps by default at the existing 13px/24px code size. Its wrap preference is separate from Unified; file navigation, pane sizing and Focus retain the visible code line. Modified-file behavior remains outside this fixture.
-
-## Final readability and presentation refinement
-
-Paper was updated first. Unified and Split both wrap by default at 13px/24px. Wrap on/off sits beside the diff. Changing it preserves the visible line and keyboard focus. Summary arrival keeps the entire destination line visible, reducing preceding context when wrapped lines exceed the viewport. The original source fixture is unchanged.
-
-Repeated snapshot/change counts were removed from the layer heading and diff status. PR progress stays in the header; the prototype boundary stays in the footer. File summary coverage stays beside its tab. Layer summary count/seen progress is disclosed under Layer activity. The selected anchor is shown in its picker and at its code destination, without a third duplicate label in the card.
-
-The final Paper page contains five boards; nine supporting boards have a separate page. The prototype top bar links to Paper, comparison and rationale. Source notes & states contains optional supporting links. The presentation demonstrates a summary jump, file switching and viewed/Undo. M remains final; J/K and Z are preserved source features.
+The untouched original capture and matched Paper checkpoint retain access.ts imports 1–7, the full six-point summary for 49–130, file 1 of 9 unviewed, nine layer files left and two of 37 summaries seen. The checkpoint uses captured layer progress; the final prototype starts local progress at zero and labels its sample separately. The static comparison preserves historical review availability, including its active Submit control. The final screen shows Merged and disables Submit. The comparison supports content retention; it does not measure speed or imply the same current PR status.
