@@ -1,3 +1,13 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
+
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased' }}>
       <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '72px', justifyContent: 'space-between', paddingInline: '24px', width: '1440px' }}>
@@ -20,9 +30,9 @@
           <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', width: '190px' }}>
             <div style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
               <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                Sample · 0 / 7 viewed
+                Included files · 0 / 7 viewed
               </div>
-              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
                 7 left
               </div>
             </div>
@@ -129,7 +139,7 @@
           <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '34px', justifyContent: 'space-between', paddingBlock: '8px', paddingInline: '24px', width: '100%' }}>
             <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
               <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                New file
+                Full added file
               </div>
               <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '2px', paddingInline: '8px' }}>
                 <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
@@ -142,7 +152,7 @@
                 <path d="m6 10 4-4M5 9l-1 1a2.8 2.8 0 0 0 4 4l2-2M11 7l1-1a2.8 2.8 0 0 0-4-4L6 4" fill="none" stroke="#582D1D" strokeWidth="1.5" strokeLinecap="round" />
               </svg>
               <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: 'max-content' }}>
-                Evidence · L75
+                Linked · L75
               </div>
             </div>
           </div>

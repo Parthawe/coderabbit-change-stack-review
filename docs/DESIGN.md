@@ -150,3 +150,11 @@ The untouched original and final-M comparison retain access.ts imports 1–7 and
 ## Arc consistency follow-up
 
 The global header uses the actual PR title as a GitHub link, with the captured stack name labeled separately. Context heading, This file / Entire layer and the summary/comment tabs stay fixed; only the context body scrolls. Per-file and guard-return history preserve that body’s position. Continue sits beside context, Files beside Layers, Follow review with review tools, and Diagrams beside layer details. Each opens a labeled preview. None claims an uncaptured workflow is implemented.
+
+## October 23 compact review pass
+
+Statement actions use 13px/18px labels and 12px/18px right-aligned ranges in a 64px slot, with a 32px minimum row height. The whole row is clickable; long labels wrap. The separate guard action follows the first statement. Full source wording stays in its disclosure.
+
+The header says Included files; Layer 1 shows seven reviewable files and two unavailable patches above the file list. More review tools groups secondary previews. About links explains manual mapping in a dismissible popover. The matched-content page links directly to the access-check task. See improvement-plan.md for acceptance checks and the developer test still needed.
+
+At narrow desktop widths, filename text truncates before file navigation shrinks. The complete filename remains in its title and selected rail row. Preview destinations are labeled at entry. Escape dismisses About links before closing the context overlay.

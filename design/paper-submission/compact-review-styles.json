@@ -1,0 +1,32 @@
+{
+  "source": "Paper get_computed_styles, October 23, 2026",
+  "statementRow": {
+    "minHeight": "32px",
+    "paddingBlock": "6px",
+    "paddingInline": "4px",
+    "columnGap": "8px"
+  },
+  "statementLabel": {
+    "fontFamily": "Geist",
+    "fontSize": "13px",
+    "lineHeight": "18px",
+    "color": "#211F24"
+  },
+  "statementRange": {
+    "fontFamily": "Geist",
+    "fontSize": "12px",
+    "lineHeight": "18px",
+    "width": "64px",
+    "textAlign": "right",
+    "color": "#582D1D"
+  },
+  "headerProgress": {
+    "width": "210px",
+    "gap": "4px"
+  },
+  "summaryHelp": {
+    "display": "flex",
+    "justifyContent": "space-between",
+    "alignItems": "center"
+  }
+}

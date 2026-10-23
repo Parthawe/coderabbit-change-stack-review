@@ -1,3 +1,13 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
+
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '40px', WebkitFontSmoothing: 'antialiased', width: '1080px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
@@ -112,7 +122,7 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-            Sample · 1 / 7 viewed · 6 left
+            Included files · 1 / 7 viewed
           </div>
           <div style={{ alignItems: 'center', backgroundColor: '#E9F4ED', borderColor: '#8DB39E', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '6px', paddingBlock: '6px', paddingInline: '10px' }}>
             <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
@@ -140,7 +150,7 @@
           Move to the next file without opening a dialog
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '22px' }}>
-          The nine-path file list scrolls independently; choosing a file keeps its layer header in place. Previous, Next and file search preserve reading position. Two missing modified patches remain previews.
+          The nine-path file list scrolls independently. At narrower widths, the filename truncates before the Previous / position / Next controls; the full path remains available. Switching files restores its selected summary and reading position. Opening a file marks nothing viewed.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingTop: '20px' }}>
@@ -199,10 +209,10 @@
           Other tools are still reachable
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Files sits beside Layers; Follow review stays with review tools. Continue sits beside summaries and Diagrams beside layer context. Each uncaptured capability opens a labeled preview. No external action is performed.
+          Files stays beside Layers. More review tools contains Follow review, History, Settings and PR search. Review progress remains visible. Summary options holds seen counts and complexity filters. About links explains the limits of the manually mapped ranges.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '22px' }}>
-          Entire layer starts compact. This file expands the selected explanation. Outline opens beside the toolbar without covering the whole workspace. Tools holds file utilities; bulk viewed is a separate review action.
+          Six statement rows pair a label and range as one click target. Inspect guard is a separate action beneath the access check. Entire layer starts compact; This file expands the selected summary. Opening a file marks nothing viewed.
         </div>
       </div>
       <div style={{ backgroundColor: '#FAF8FB', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', padding: '24px' }}>
@@ -243,6 +253,17 @@
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
           Copied path, wrapping and collapsing remain in Tools. Mark all viewed lives in Sample review progress, with Undo.
+        </div>
+      </div>
+      <div style={{ backgroundColor: '#FDFDFE', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', padding: '20px', width: '100%' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '24px' }}>
+          About links · expanded help
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+          These ranges are manually mapped to commit 23cdac2. A highlight points to code worth checking. It does not establish that the whole summary is correct. Read the surrounding code or open Whole function. A new commit needs new mappings.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          Opens beside Summary options. Escape or clicking outside closes it; focus returns to About links. It never changes the selected file or reading position.
         </div>
       </div>
     </div>

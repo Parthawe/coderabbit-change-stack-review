@@ -1,3 +1,13 @@
+{
+  "file": {
+    "id": "01M5AQACJZP42ZGTRX7GF9ERE7",
+    "name": "CodeRabbit — Change Stack Review"
+  },
+  "contentHash": {
+    "tokens": "811c9dc5"
+  }
+}
+
 (
     <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '24px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '640px' }}>
       <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingBottom: '20px' }}>
@@ -24,7 +34,7 @@
           A broad summary range leaves the supporting statement to find.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          Short behavior labels link to code; the full source wording is one click away. Inspect guard opens feedback-access.ts. Return to access.ts restores the caller. The anchors are manually mapped starting points.
+          Six compact rows pair each statement with its code range. Full wording stays available. Inspect guard opens feedback-access.ts; Return restores the caller. About links explains that these manually mapped ranges are starting points, not proof.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -40,7 +50,7 @@
           File viewed, summary seen and PR status mean different things.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          The header tracks seven included diffs; the rail tracks nine layer files. Viewed remains deliberate, with Undo. The merged snapshot disables Submit review; a separate open-PR demo shows that flow.
+          Included files counts seven captured diffs. The layer shows seven reviewable files and two unavailable patches. Opening a file marks nothing viewed. Mark viewed has Undo. Summary seen stays in Summary options. The merged snapshot disables Submit review.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
@@ -64,7 +74,7 @@
           What I’d test next
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '23px' }}>
-          My hypothesis is less searching and backtracking without losing comprehension. I’d ask developers to explain the access check, inspect its guard, then return. Compare wrong turns and explanation accuracy against the original. Modified-file review and stale anchors need testing.
+          I’d test the caller, guard and return task, then start from code and ask what could make a reviewer disagree with the summary. Compare explanation accuracy and wrong turns on the same commit. Modified-file review and stale anchors still need testing.
         </div>
       </div>
     </div>

@@ -1,3 +1,22 @@
+# Current compact-review verification · October 23, 2026
+
+Paper was updated before the prototype. Seven affected PNG/JSX pairs were refreshed: main, matched comparison, rationale, flow, Focus, Split and guard. The one-page rationale PDF was rendered and inspected; Paper and PDF use the same revised reasoning. Earlier verification entries below are historical.
+
+- At 1280 × 720, all six statement rows and the full-source disclosure fit within the context viewport. No page overflow. Labels remain 13px/18px; range labels remain 12px/18px. Full row click and keyboard Enter select the same range and retain focus.
+- The caller L57–65 → guard L20–49 → Return flow preserves selection and the visible reading context. Visiting either file does not mark it viewed.
+- Mark viewed and Undo update included-file and layer counts together. Layer progress now reads 0 / 7 viewed · 2 unavailable; the layer still lists nine paths.
+- At 1280px, the longer feedback-access.ts label truncates before the file controls. The next-file button ends at 548.289px and Unified begins at 560.289px, leaving 12px. The complete filename remains in the title and selected rail row.
+- About links opens without changing file or position. Escape and Close return focus to its trigger. At 1100px, the first Escape closes help and retains the context overlay; the second closes context and returns focus to Context. This corrects a nesting defect found during this pass.
+- More review tools exposes four secondary controls and removes them from keyboard navigation when collapsed. Overview and Architecture impact are labeled preview at entry.
+- The comparison retains the untouched original capture and equivalent imports/six points. Its Review task link opens the actual access-check state.
+- 1440 × 960, 1280 × 720 and 1100 × 720 affected layouts inspected. Viewport override reset afterward. JavaScript syntax and git diff whitespace checks pass.
+
+Independent design assessment: 32/40. The follow-up corrections were accepted without a score increase. Assessment A and B ran in isolated agents and did not receive the old score or target. See reassessment-design.md and reassessment-evidence.md. Developer usability outcomes remain untested.
+
+Run notes: target slug dist-index-html; no ignore file; final bounded HTML detector output [] (zero findings). Browser checks ran in background tabs. No overlay injection was attempted because evaluate is read-only. The pre-existing local server was reused, with no review server started. Review tabs closed; screenshots retained as evidence. No message sent to CodeRabbit.
+
+---
+
 # Prototype verification
 
 ## Current readiness corrections

@@ -12,11 +12,11 @@ Paper contains the diagnosis, matched comparison, final reviewing screen and rat
 
 ## Design argument
 
-I kept layer-based review and focused on staying oriented while checking an explanation against code. The original already has summary navigation, explicit viewed status, J/K and Z. The comparison pairs the untouched original capture with final M using the same imports and six source points. M shows the later observed merged status. This version keeps short checks visible and the full source wording one click away, links its individual points to code, and provides a return path after inspecting a guard in another file. File and layer context have explicit scopes. Sample, layer and PR coverage are labeled separately.
+I kept layer-based review and focused on staying oriented while checking an explanation against code. The original already has summary navigation, explicit viewed status, J/K and Z. The comparison pairs the untouched original capture with final M using the same imports and six source points. M shows the later observed merged status. This version keeps short checks visible and the full source wording one click away, links its individual points to code, and provides a return path after inspecting a guard in another file. File and layer context have explicit scopes. Included files, layer progress and PR coverage are labeled separately.
 
 ## Try it
 
-Start with access.ts. Follow L57–65 beside the workspace-access point, choose Inspect guard, then Return to access.ts. Switch between This file and Entire layer to inspect captured summaries grouped by file. All nine layer paths remain in the rail. Mark viewed updates sample and layer progress; Undo reverses it.
+[Start the access-check task](https://parthawe.github.io/coderabbit-change-stack-review/index.html?task=access-check). Read L57–65, choose Inspect guard, then Return to access.ts. Switch between This file and Entire layer to inspect captured summaries grouped by file. All nine layer paths remain in the rail. Mark viewed updates included-file and layer progress; Undo reverses it. About links explains the manual mapping beside the summary. More review tools holds the secondary previews.
 
 Unified and added-file Split wrap at 13px. Wrap toggles horizontal reading; Equal panes restores a 50/50 split. Tools includes Copy path and Full file / Captured ranges. Outline opens the six captured access.ts entities beside the toolbar. Comments includes Add file note and file/line notes stored in this tab.
 
@@ -33,3 +33,5 @@ Serve locally with `python3 -m http.server 4317 --directory dist`. No build step
 CodeRabbit branding follows the [official reference](https://www.coderabbit.ai/brand). Formbricks source and bundled fonts retain their licenses. Raw Paper exports are composition references, not runnable React components.
 
 Current native design exports are in `design/paper-submission/`. Other files under `design/` record earlier studies and are not the final submission.
+
+The [focused improvement plan](docs/improvement-plan.md) records the October 23 compact-row pass and the developer tests still needed.

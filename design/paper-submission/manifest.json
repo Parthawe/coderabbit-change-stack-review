@@ -53,7 +53,7 @@
     "historical_status": "Original capture is untouched. Final M shows the later observed merged PR and disables Submit."
   },
   "file_switching": "Previous/Next, searchable position, disabled boundaries, per-file selected summary and reading position, no automatic viewed state.",
-  "file_progress": "Header: seven-file sample. Rail: nine layer files. Footer: seven of 52 PR diffs included. Summary seen status remains separate; opening a file never marks it viewed.",
+  "file_progress": "Header: seven included diffs. Layer: seven reviewable files with two unavailable patches stated separately; nine paths total. Summary seen is separate. Opening a file never marks it viewed.",
   "next_experiments": "Direct anchors and one guard/return route are implemented. Simultaneous paired panes and private questions remain concepts. Developer testing is outstanding.",
   "submission_packet": {
     "required_links": [
@@ -86,10 +86,12 @@
   "readability": "Unified and Split wrap by default at 13px/24px. A visible Wrap toggle sits beside the diff; preferences remain independent and preserve reading position.",
   "presentation": "Diagnosis, final-M matched comparison, statement-to-code, inspect guard and return, compact layer scope, viewed and Undo. M remains final; explorations remain archived.",
   "guard_state": "https://app.paper.design/file/01M5AQACJZP42ZGTRX7GF9ERE7/p-5-0/3PS-0",
-  "current_style_export": "refinement-computed-styles.json supplements the earlier style snapshots.",
+  "current_style_export": "compact-review-styles.json supplements earlier style snapshots.",
   "third_pass": "Historical pass: direct links, guard return, context scopes and retained nine-path navigation. Superseded presentation refinements are described in refinement.",
   "source_consistency": "Actual PR title and separate stack name; fixed context controls; Continue beside context, Follow review with review tools, Files beside Layers, Diagrams beside layer details. Outline is a local popover; bulk viewed is a separate review action.",
   "refinement": "Bounded file list with fixed seven-layer switcher; compact summary labels and layer overview; full wording disclosure; local Outline; syntax distinctions in prototype; resolved-comment explanation; consistent hypothesis and next tests.",
   "hypothesis": "Less searching and backtracking while preserving comprehension. Working interactions are not evidence of a usability improvement. Test explanation accuracy and wrong turns against the original.",
-  "readiness_corrections": "Layer complexity filters retain scope/current file; evidence links restore keyboard focus; file sublist scrolling preserves outer layer position. See docs/readiness-review.md."
+  "readiness_corrections": "Layer complexity filters retain scope/current file; evidence links restore keyboard focus; file sublist scrolling preserves outer layer position. See docs/readiness-review.md.",
+  "compact_review_pass": "Six full-row statement links; 64px range slot; secondary tools grouped; About links explains manual mapping; comparison includes the working access-check task. Paper updated first, then prototype and rationale.",
+  "review_task": "https://parthawe.github.io/coderabbit-change-stack-review/index.html?task=access-check"
 }

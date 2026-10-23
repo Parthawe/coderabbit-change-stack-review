@@ -12,7 +12,7 @@
     ],
     [
       "A broad summary range leaves the supporting statement to find.",
-      "Short behavior labels link to code; the full source wording is one click away. Inspect guard opens feedback-access.ts. Return to access.ts restores the caller. The anchors are manually mapped starting points."
+      "Six compact rows pair each statement with its code range. Full wording stays available. Inspect guard opens feedback-access.ts; Return restores the caller. About links explains that these manually mapped ranges are starting points, not proof."
     ],
     [
       "File context and layer context need different scopes.",
@@ -20,7 +20,7 @@
     ],
     [
       "File viewed, summary seen and PR status mean different things.",
-      "The header tracks seven included diffs; the rail tracks nine layer files. Viewed remains deliberate, with Undo. The merged snapshot disables Submit review; a separate open-PR demo shows that flow."
+      "Included files counts seven captured diffs. The layer shows seven reviewable files and two unavailable patches. Opening a file marks nothing viewed. Mark viewed has Undo. Summary seen stays in Summary options. The merged snapshot disables Submit review."
     ]
   ],
   "tradeoff_title": "Keep the code readable",
@@ -29,5 +29,5 @@
   "validation": "I checked direct code links, guard/return navigation, context scopes, progress and Undo, notes, Copy path, the six entities and keyboard access. The 1440 px, 1280 px and 1100 px layouts passed. These are implementation checks; developer testing remains outstanding.",
   "scope": "Formbricks #8650 at the out-of-date 23cdac2 snapshot. Seven of 52 diffs are included. The comparison uses final M with the same imports and six source points; the original capture is untouched. Full file and Captured ranges do not recreate semantic diffs. Nothing is sent.",
   "next_title": "What I’d test next",
-  "next": "My hypothesis is less searching and backtracking without losing comprehension. I’d ask developers to explain the access check, inspect its guard, then return. Compare wrong turns and explanation accuracy against the original. Modified-file review and stale anchors need testing."
+  "next": "I’d test the caller, guard and return task, then start from code and ask what could make a reviewer disagree with the summary. Compare explanation accuracy and wrong turns on the same commit. Modified-file review and stale anchors still need testing."
 }
