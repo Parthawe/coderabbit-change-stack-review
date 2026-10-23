@@ -93,5 +93,6 @@
   "hypothesis": "Less searching and backtracking while preserving comprehension. Working interactions are not evidence of a usability improvement. Test explanation accuracy and wrong turns against the original.",
   "readiness_corrections": "Layer complexity filters retain scope/current file; evidence links restore keyboard focus; file sublist scrolling preserves outer layer position. See docs/readiness-review.md.",
   "compact_review_pass": "Six full-row statement links; 64px range slot; secondary tools grouped; About links explains manual mapping; comparison includes the working access-check task. Paper updated first, then prototype and rationale.",
-  "review_task": "https://parthawe.github.io/coderabbit-change-stack-review/index.html?task=access-check"
+  "review_task": "https://parthawe.github.io/coderabbit-change-stack-review/index.html?task=access-check",
+  "return_state_repair": "Return restores the captured caller anchor and keyboard line as well as position, even after revisiting the caller and changing its selection. Flow contract and exports updated October 23."
 }

@@ -1,3 +1,11 @@
+# Final pre-submission check · October 23, 2026
+
+Found and fixed a return-state defect: after inspecting the guard, revisiting the caller through the rail and choosing L75, Return restored the old position but kept L75 selected. Paper’s interaction contract was clarified first. The prototype now snapshots the caller anchor and keyboard line and restores them with the saved reading state. The repaired detour restores L57–65, scrollTop 1504, focus on Inspect guard and 0/7 viewed. Direct return with Enter also passed.
+
+Rechecked scope switching, viewed/Undo and Focus at 1280px; Split overflow at 1440px; nested Escape at 1100px; loading recovery, labeled Retry preview and empty comments. No browser warnings or errors were recorded. The rationale remains one page and its existing return claim matches the repaired behavior. The main design and rehearsal sequence are unchanged. See final-check.txt for the score and remaining weaknesses.
+
+---
+
 # Critical rectification · October 23, 2026
 
 Paper was updated first. The diagnosis now separates visible source evidence from expected benefits, and the flow specifies current-range semantics for assistive technology. The rationale describes targeted keyboard checks without claiming a full screen-reader audit. Three affected PNG/JSX export pairs were refreshed.

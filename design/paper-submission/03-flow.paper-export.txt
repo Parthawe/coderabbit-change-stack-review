@@ -34,7 +34,7 @@
               L57–65 · Inspect guard in feedback-access.ts
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
-              Code links keep focus on the action and expose the current range to assistive technology. Inspect guard opens L20–49; Return restores the caller, reading position and focus. Neither visit marks a file viewed.
+              Code links retain focus and expose the current range. Inspect guard opens L20–49. Return restores the saved caller statement, reading position and focus, even after another selection. Neither visit marks a file viewed.
             </div>
             <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
               Supporting screen 11 shows the guard.

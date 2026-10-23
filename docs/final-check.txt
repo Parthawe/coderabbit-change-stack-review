@@ -1,0 +1,49 @@
+FINAL SUBMISSION CHECK — 23 OCTOBER 2026
+
+Decision: ready to submit as a focused design prototype after the return-state repair. M remains final. This review does not establish improved developer performance.
+
+Score: 32/40 using the same ten-heuristic scale as the last independent assessment. This is the primary agent's final check, not another independent review or a predicted CodeRabbit score. A fix to one edge case does not justify upgrading every related heuristic.
+
+Status 3/4; developer-language fit 4/4; user control 3/4; consistency 3/4; error prevention 3/4; recognition 3/4; efficiency 4/4; minimalism 3/4; recovery 3/4; help 3/4.
+
+AGAINST THE ACTUAL BRIEF
+
+Right problems: four diagnoses are tied to the captured original. The work credits the original summary jumps, viewed state and shortcuts. Frequency and severity remain designer judgments.
+
+Visual and interaction polish: clear selection, compact statement rows, explicit scope, deliberate viewed status and Undo. The strongest interaction is the caller/guard return. Nested scrolling and several preview destinations still compete with reading at 1280px.
+
+Same information, easier to scan: the comparison retains the same seven imports and six source points, with complete wording available. It demonstrates content retention for that example. It does not demonstrate all 52 diffs or modified-file review. The counterpoint is that compressed labels may require reopening the full wording.
+
+Reasoning: the Paper diagnosis, one-page rationale and rehearsal explain the chosen task, tradeoffs and next test. The next useful evidence would come from developers explaining the change on both screens, including a code-first task. A usability study is not a required take-home deliverable.
+
+REPAIR FOUND AND VERIFIED
+
+Reproduction: start on Require workspace access (L57–65), Inspect guard, return to access.ts through the file rail, choose Normalize tenant IDs (L75), then use Return to access.ts.
+
+Before: the old reading position returned, but L75 remained selected. The announcement incorrectly claimed the previous selection was restored.
+
+After: Inspect guard captures the caller's selected anchor and keyboard line along with its reading state. Return restores that saved anchor before rendering. The reproduced detour now returns L57–65, scrollTop 1504 before and after, focus on Inspect guard, and 0/7 viewed. The direct return also passes with Enter.
+
+Paper's flow contract was clarified first. Its PNG and native JSX export were refreshed. The rationale's existing statement about restoring the caller remains accurate; no new performance claim was added. The three-minute rehearsal uses the direct route and remains accurate.
+
+CHECKS IN THIS PASS
+
+- Read the original three-page assignment and inspected all five final Paper boards.
+- Inspected the current rationale render and confirmed that its PDF is one page.
+- Reproduced the return defect on the published build, then verified the repair locally.
+- Rechecked the direct guard return, current-range state, keyboard focus, scope switching, viewed/Undo and Focus at 1280 × 720.
+- Checked Split at 1440 × 960: After width and scroll width both 774px; no document overflow.
+- Checked the 1100px context overlay: first Escape closes About links; second closes context and returns focus to Context.
+- Checked labeled loading recovery, source-error Retry preview and no-comments state. Browser warning/error log was empty.
+- JavaScript syntax and Git whitespace checks passed.
+- Paper's public link reaches sign-in. Final Paper exports provide a viewing fallback. Public prototype, comparison and rationale are checked again after deployment.
+
+WHAT STILL FEELS WEAK
+
+The 720px-high view has separate scrolling for layers, files, code and context. It is usable in the tested path, but a first-time reviewer still has to learn those boundaries. A wider workflow might expose more problems than the one manually mapped guard route. Modified-file Split and a full assistive-technology review are still open. Do not claim pixel-identical Paper/browser rendering or a measured speed gain.
+
+PACKAGE DECISION
+
+Send the Paper, prototype and one-page rationale links. Include only the final design exports as an access fallback and a link to the public source repository. Keep AI scores, historical critiques, abandoned approaches and synthetic-voice rehearsal materials out of the submission pack. The optional video still needs Parth's own take if he chooses to submit it. The one-page rationale already satisfies the brief's rationale-or-video requirement.
+
+No message or submission was sent to CodeRabbit.
