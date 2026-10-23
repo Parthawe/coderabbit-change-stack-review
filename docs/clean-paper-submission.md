@@ -16,3 +16,5 @@ The submission remains prototype, Paper and one-page rationale. The public websi
 Current exports are in design/clean-submission. The manifest maps 10 artboards, including separate screen captions, to four Paper pages. Earlier exports remain recoverable in Git history.
 
 The latest edit shortens the opening and captions, removes repeated annotation wording, aligns the comparison margins, and places the interaction examples in a vertical reading order. The scope note remains beside the proposed test. Detailed process history, including the exceeded timebox, remains in the repository history; no user testing or measured improvement is claimed.
+
+The comparison uses orange outlined targets, arrowheads and numbered markers adapted from the earlier diagnosis file. The main editable screen stays free of presentation callouts.

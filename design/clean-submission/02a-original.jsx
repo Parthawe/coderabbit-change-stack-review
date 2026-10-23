@@ -11,20 +11,23 @@
       <div style={{ boxSizing: 'border-box', flexShrink: '0', height: '720px', position: 'relative', width: '1280px' }}>
         <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/1CMP33FE7HWB1K9BCEQX09KTGB.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', height: '720px', width: '1280px' }} />
         <svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '0px', top: '0px', display: 'inline-block' }}>
-          <path d="M922 357L954 357" fill="none" stroke="#A33C17" strokeWidth="2" />
-          <circle cx="922" cy="357" r="13" fill="#FFFFFF" stroke="#A33C17" strokeWidth="2" />
-          <text x="922" y="362" textAnchor="middle" fontFamily="Geist" fontSize="14" fill="#A33C17">
-            1
+          <rect x="948" y="343" width="327" height="29" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <path d="M934 357H947 M940 352L947 357L940 362" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="920" cy="357" r="14" fill="#FF570A" />
+          <text x="920" y="362.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
+             1 
           </text>
-          <path d="M924 106L886 106" fill="none" stroke="#A33C17" strokeWidth="2" />
-          <circle cx="924" cy="106" r="13" fill="#FFFFFF" stroke="#A33C17" strokeWidth="2" />
-          <text x="924" y="111" textAnchor="middle" fontFamily="Geist" fontSize="14" fill="#A33C17">
-            2
+          <rect x="262" y="93" width="670" height="77" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <path d="M915 86V93 M910 86L915 93L920 86" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="915" cy="72" r="14" fill="#FF570A" />
+          <text x="915" y="77.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
+             2 
           </text>
-          <path d="M720 34L650 34" fill="none" stroke="#A33C17" strokeWidth="2" />
-          <circle cx="720" cy="34" r="13" fill="#FFFFFF" stroke="#A33C17" strokeWidth="2" />
-          <text x="720" y="39" textAnchor="middle" fontFamily="Geist" fontSize="14" fill="#A33C17">
-            3
+          <rect x="98" y="4" width="623" height="43" rx="4" fill="none" stroke="#FF570A" strokeWidth="2" />
+          <path d="M741 25H722 M729 20L722 25L729 30" fill="none" stroke="#FF570A" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+          <circle cx="755" cy="25" r="14" fill="#FF570A" />
+          <text x="755" y="30.5" textAnchor="middle" fontFamily="Geist,sans-serif" fontSize="16" fontWeight="600" fill="#211F24">
+             3 
           </text>
         </svg>
       </div>

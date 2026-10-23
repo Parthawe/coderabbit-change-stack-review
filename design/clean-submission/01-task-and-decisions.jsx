@@ -50,10 +50,10 @@
           03{'  '}The choice
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px', width: '1260px' }}>
-          I kept layers and connected each summary point to its code. The reviewer can inspect the guard, then return to the same place.
+          I kept CodeRabbit’s layers, summary jumps and Focus. I added a code target for each summary point and a way back after inspecting the guard.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '19px', lineHeight: '30px', width: '1260px' }}>
-          I also explored behavior, counterexamples, impact and author handoff. Those directions need more context than this screen provides.
+          I considered behavior, counterexamples, impact and author handoff. Each needs context beyond the current review.
         </div>
       </div>
     </div>

@@ -1,3 +1,9 @@
+# Orange comparison callouts · October 23
+
+Reviewed the earlier Paper diagnosis, reasoning and original Unified evidence. Adapted its orange outlines, arrowheads and numbered markers to the current matched screenshots. Kept three callouts per image and checked their targets and label visibility. Screenshot content and scale are unchanged.
+
+The opening now credits the existing layers, summary jumps and Focus. No new pages or capability tables were added. Refreshed the three affected export pairs. Prototype behavior and rationale are unchanged.
+
 # Paper presentation polish · October 23
 
 Reviewed all four pages. Shortened the opening, comparison annotations and state captions. Removed the separate A/B-test disclaimer and timing note from the presentation; neither was a result claim. Retained the prototype coverage and lack of developer testing in one scope note. The work exceeded the original 1–2 hour timebox; this remains documented here.
