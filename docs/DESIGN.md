@@ -103,7 +103,7 @@ Summary navigation, explicit viewed status, J/K and Z existed in the source. The
 
 The desktop shell has a 72px PR header, a 240px navigation rail, a flexible code workspace and a 320px context panel. The layer description starts collapsed in a compact 68px heading. The footer discloses the seven-of-52 diff boundary. All nine layer paths remain visible in the rail's scrollable file list; layer progress sits with them.
 
-Below 1280px, Context opens a 360px overlay between header and footer. The body retains an 880px minimum width. This is a desktop prototype, without a mobile composition. Focus mode hides surrounding panels and preserves the current reading position. Lower-height windows reduce vertical spacing.
+Below 1280px, Context opens a 320px overlay between header and footer. The body retains an 880px minimum width. This is a desktop prototype, without a mobile composition. Focus mode hides surrounding panels and preserves the current reading position. Lower-height windows reduce vertical spacing.
 
 Geist supplies interface text; Hack supplies code and technical metadata. Code is 13px on a 24px line grid. Body and filenames use 14px; summary text and several controls use 13px; paths and range labels use 11–12px. The main layer title is 22px. The rationale has a separate editorial type ramp. Keep existing token colors and radii from the frontmatter.
 
@@ -141,8 +141,12 @@ Loading gates review actions, announces busy state and coalesces retries. The ex
 
 Preserve skip links, labeled navigation/code regions, tabs with arrow/Home/End handling, pressed/expanded states, status announcements and native modal containment. One roving line-comment action uses Up/Down; F6 moves between code and context. Escape closes the context overlay even while typing. J/K/Z ignore typing, modified keys and open dialogs. Closing a dialog restores its trigger focus. Reduced motion preserves state feedback while disabling smooth movement and fades.
 
-The October 22 implementation checks passed for direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities, keyboard access and 1440px/1100px layouts. The verification document separates these results from historical releases. Developer testing and measured usability improvement remain unverified.
+The October 22 implementation checks passed for direct links, guard/return, scopes, progress/Undo, notes, Copy path, six entities, keyboard access and 1440px/1280px/1100px layouts. The verification document separates these results from historical releases. Developer testing and measured usability improvement remain unverified.
 
 ## Matched comparison
 
 The untouched original capture and matched Paper checkpoint retain access.ts imports 1–7, the full six-point summary for 49–130, file 1 of 9 unviewed, nine layer files left and two of 37 summaries seen. The checkpoint uses captured layer progress; the final prototype starts local progress at zero and labels its sample separately. The static comparison preserves historical review availability, including its active Submit control. The final screen shows Merged and disables Submit. The comparison supports content retention; it does not measure speed or imply the same current PR status.
+
+## Arc consistency follow-up
+
+The global header uses the actual PR title as a GitHub link, with the captured stack name labeled separately. Context heading, This file / Entire layer and the summary/comment tabs stay fixed; only the context body scrolls. Per-file and guard-return history preserve that body’s position. Settings offers labeled placement previews for Continue, Follow review, global Files mode and unavailable Diagrams. None claims an uncaptured workflow is implemented.

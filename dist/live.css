@@ -50,3 +50,13 @@
 
 /* Match Paper: emphasize the current claim, not the full summary. */
 .source-statement{padding:4px;border-radius:4px}.source-statement.is-active{background:var(--selected);color:var(--brand-ink)}
+
+/* Paper: keep context scope and tabs outside the reading scroller. */
+.context-panel{display:flex;flex-direction:column;overflow:hidden}
+.context-heading,.scope-switch,.context-panel>.tabs{flex-shrink:0}
+#context-scroll{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;padding-top:8px}
+#summary-list [data-summary]{scroll-margin-top:8px}
+.pr-identity{flex:1}.pr-identity h1 a{color:var(--text);text-decoration:none}.pr-identity h1 a:hover{text-decoration:underline}
+.stack-name{font:11px/14px var(--sans);color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+@media(max-width:1279px){.context-panel{display:none}.context-panel.is-open{display:flex}}
+.focus-mode .context-panel{display:none}

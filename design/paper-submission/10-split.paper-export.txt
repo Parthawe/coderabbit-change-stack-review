@@ -1,776 +1,781 @@
 (
-    <div id="3C0-0" style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased' }}>
-      <div id="3ZT-0" style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '72px', justifyContent: 'space-between', paddingInline: '24px', width: '1440px' }}>
-        <div id="3ZU-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
-          <div id="3ZV-0" style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/6FMVGR1TS2QQPCF7JSV11ZM5C4.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '19px', width: '124px' }} />
-          <div id="3ZW-0" style={{ backgroundColor: '#E3E0E7', boxSizing: 'border-box', flexShrink: '0', height: '24px', width: '1px' }} />
-          <div id="3ZX-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
-            <div id="3ZY-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', WebkitFontSmoothing: 'antialiased' }}>
+      <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '72px', justifyContent: 'space-between', paddingInline: '24px', width: '1440px' }}>
+        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
+          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5AQACJZP42ZGTRX7GF9ERE7/6FMVGR1TS2QQPCF7JSV11ZM5C4.svg)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: 'contain', boxSizing: 'border-box', flexShrink: '0', height: '19px', width: '124px' }} />
+          <div style={{ backgroundColor: '#E3E0E7', boxSizing: 'border-box', flexShrink: '0', height: '24px', width: '1px' }} />
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
               formbricks / formbricks #8650 · Merged · 23cdac2 stale
             </div>
-            <div id="3ZZ-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '18px' }}>
-              Feedback records MCP integration
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '18px' }}>
+              feat: add feedbackRecord MCP tools to the XM Suite MCP server
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+              Stack: Feedback records MCP integration
             </div>
           </div>
         </div>
-        <div id="400-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
-          <div id="401-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', width: '190px' }}>
-            <div id="402-0" style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-              <div id="403-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', width: '190px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
                 Sample · 0 / 7 viewed
               </div>
-              <div id="404-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
                 7 left
               </div>
             </div>
-            <div id="405-0" style={{ backgroundColor: '#E3E0E7', borderRadius: '2px', boxSizing: 'border-box', flexShrink: '0', height: '3px', width: '190px' }} />
-            <div id="406-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '15px' }}>
+            <div style={{ backgroundColor: '#E3E0E7', borderRadius: '2px', boxSizing: 'border-box', flexShrink: '0', height: '3px', width: '190px' }} />
+            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '15px' }}>
               Demo · 0 / 7 included files viewed
             </div>
           </div>
-          <div id="407-0" style={{ backgroundColor: '#EEEAF0', borderRadius: '5px', boxSizing: 'border-box', opacity: '0.65', paddingBlock: '10px', paddingInline: '16px' }}>
-            <div id="408-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          <div style={{ backgroundColor: '#EEEAF0', borderRadius: '5px', boxSizing: 'border-box', opacity: '0.65', paddingBlock: '10px', paddingInline: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
               Submit review
             </div>
           </div>
         </div>
       </div>
-      <div id="3C4-0" style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '852px', width: '1440px' }}>
-        <div id="40A-0" style={{ backgroundColor: '#FAF8FB', borderRightColor: '#E3E0E7', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '2px', height: '852px', padding: '12px', width: '240px' }}>
-          <div id="40B-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', minHeight: '32px', paddingInline: '12px' }}>
-            <div id="40C-0" style={{ boxSizing: 'border-box', color: '#465466', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '852px', width: '1440px' }}>
+        <div style={{ backgroundColor: '#FAF8FB', borderRightColor: '#E3E0E7', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '2px', height: '852px', padding: '12px', width: '240px' }}>
+          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', minHeight: '32px', paddingInline: '12px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#465466', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
               Overview
             </div>
           </div>
-          <div id="40D-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', minHeight: '32px', opacity: '0.55', paddingInline: '12px' }}>
-            <div id="40E-0" style={{ boxSizing: 'border-box', color: '#465466', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', minHeight: '32px', opacity: '0.55', paddingInline: '12px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#465466', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
               Security blast radius
             </div>
           </div>
-          <div id="40F-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', minHeight: '32px', paddingInline: '12px' }}>
-            <div id="40G-0" style={{ boxSizing: 'border-box', color: '#465466', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', minHeight: '32px', paddingInline: '12px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#465466', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
               Architecture impact
             </div>
           </div>
-          <div id="40H-0" style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', justifyContent: 'space-between', paddingBottom: '4px', paddingInline: '12px', paddingTop: '8px' }}>
-            <div id="40I-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', justifyContent: 'space-between', paddingBottom: '4px', paddingInline: '12px', paddingTop: '8px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
               Review layers
             </div>
-            <div id="40J-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
               7 layers
             </div>
           </div>
-          <div id="40K-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '2px', minHeight: '0px', overflow: 'clip' }}>
-            <div id="40L-0" style={{ alignItems: 'center', backgroundColor: '#FFEAD5', borderColor: '#FFDCC3', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '60px', padding: '8px' }}>
-              <div id="40M-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', width: '20px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '2px', minHeight: '0px', overflow: 'clip' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#FFEAD5', borderColor: '#FFDCC3', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '60px', padding: '8px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', width: '20px' }}>
                 1
               </div>
-              <div id="40N-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px' }}>
-                <div id="40O-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
                   API contracts and access controls
                 </div>
-                <div id="40P-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
                   9 files · 3 findings
                 </div>
               </div>
             </div>
-            <div id="40Q-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px', paddingBlock: '6px', paddingLeft: '28px', paddingRight: '8px' }}>
-              <div id="40R-0" style={{ boxSizing: 'border-box', paddingBottom: '6px', paddingTop: '2px' }}>
-                <div id="40S-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '2px', paddingBlock: '6px', paddingLeft: '28px', paddingRight: '8px' }}>
+              <div style={{ boxSizing: 'border-box', paddingBottom: '6px', paddingTop: '2px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   Layer 1 · 0 of 9 viewed
                 </div>
               </div>
-              <div id="40T-0" style={{ alignItems: 'center', backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
-                <div id="40U-0" style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div id="40V-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              <div style={{ alignItems: 'center', backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+                <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   access.ts
                 </div>
               </div>
-              <div id="40W-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
-                <div id="40X-0" style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div id="40Y-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+                <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   errors.test.ts
                 </div>
               </div>
-              <div id="40Z-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
-                <div id="410-0" style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div id="411-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+                <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   errors.ts
                 </div>
               </div>
-              <div id="412-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
-                <div id="413-0" style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div id="414-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+                <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   schemas.ts
                 </div>
               </div>
-              <div id="415-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
-                <div id="416-0" style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div id="417-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+                <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   serializers.test.ts
                 </div>
               </div>
-              <div id="418-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
-                <div id="419-0" style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div id="41A-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+                <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   serializers.ts
                 </div>
               </div>
-              <div id="41B-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
-                <div id="41C-0" style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
-                <div id="41D-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+                <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', width: '12px' }} />
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   feedback-access.ts
                 </div>
               </div>
-              <div id="41E-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
-                <div id="41F-0" style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', opacity: '0.4', width: '12px' }} />
-                <div id="41G-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+                <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', opacity: '0.4', width: '12px' }} />
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   response.ts · preview
                 </div>
               </div>
-              <div id="41H-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
-                <div id="41I-0" style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', opacity: '0.4', width: '12px' }} />
-                <div id="41J-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '24px' }}>
+                <div style={{ borderColor: '#8B8790', borderRadius: '2px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '12px', opacity: '0.4', width: '12px' }} />
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: 'system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
                   taxonomy/access.ts · preview
                 </div>
               </div>
             </div>
-            <div id="41K-0" style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '5px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '60px', paddingBlock: '3px', paddingInline: '6px' }}>
-              <div id="41L-0" style={{ boxSizing: 'border-box', color: '#582D1D', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', width: '20px' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '5px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '60px', paddingBlock: '3px', paddingInline: '6px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', width: '20px' }}>
                 2
               </div>
-              <div id="41M-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
-                <div id="41N-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column' }}>
+                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
                   Feedback record operations
                 </div>
-                <div id="41O-0" style={{ boxSizing: 'border-box', color: '#582D1D', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
                   2 files · 1 finding
                 </div>
               </div>
             </div>
-            <div id="41P-0" style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '10px', height: '60px', paddingBlock: '3px', paddingInline: '6px', width: '207px' }}>
-              <div id="41Q-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '20px' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '10px', height: '60px', paddingBlock: '3px', paddingInline: '6px', width: '207px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '20px' }}>
                 3
               </div>
-              <div id="41R-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1' }}>
-                <div id="41S-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
                   Hub feedback-record support
                 </div>
-                <div id="41T-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
                   5 files
                 </div>
               </div>
             </div>
-            <div id="41U-0" style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '10px', height: '60px', paddingBlock: '3px', paddingInline: '6px', width: '207px' }}>
-              <div id="41V-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '20px' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '10px', height: '60px', paddingBlock: '3px', paddingInline: '6px', width: '207px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '20px' }}>
                 4
               </div>
-              <div id="41W-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1' }}>
-                <div id="41X-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
                   MCP feedback-record tools
                 </div>
-                <div id="41Y-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
                   3 files · 1 finding
                 </div>
               </div>
             </div>
-            <div id="41Z-0" style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '10px', height: '60px', paddingBlock: '3px', paddingInline: '6px', width: '207px' }}>
-              <div id="420-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '20px' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '10px', height: '60px', paddingBlock: '3px', paddingInline: '6px', width: '207px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '20px' }}>
                 5
               </div>
-              <div id="421-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1' }}>
-                <div id="422-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
                   MCP authorization and registration
                 </div>
-                <div id="423-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
                   7 files
                 </div>
               </div>
             </div>
-            <div id="424-0" style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '10px', height: '60px', paddingBlock: '3px', paddingInline: '6px', width: '207px' }}>
-              <div id="425-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '20px' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '10px', height: '60px', paddingBlock: '3px', paddingInline: '6px', width: '207px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '20px' }}>
                 6
               </div>
-              <div id="426-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1' }}>
-                <div id="427-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
                   OAuth metadata and documentation
                 </div>
-                <div id="428-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
                   10 files · 2 findings
                 </div>
               </div>
             </div>
-            <div id="429-0" style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '10px', height: '60px', paddingBlock: '3px', paddingInline: '6px', width: '207px' }}>
-              <div id="42A-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '20px' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '10px', height: '60px', paddingBlock: '3px', paddingInline: '6px', width: '207px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: '20px' }}>
                 7
               </div>
-              <div id="42B-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1' }}>
-                <div id="42C-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
                   Additional changes
                 </div>
-                <div id="42D-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
                   16 files
                 </div>
               </div>
             </div>
           </div>
-          <div id="42E-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', paddingLeft: '30px' }}>
-            <div id="42F-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '20px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', paddingLeft: '30px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '20px' }}>
               All 9 files · search list
             </div>
           </div>
-          <div id="42G-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: '104px', justifyContent: 'end', minHeight: '104px', paddingBottom: '4px', paddingInline: '12px', paddingTop: '8px' }}>
-            <div id="42H-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: '104px', justifyContent: 'end', minHeight: '104px', paddingBottom: '4px', paddingInline: '12px', paddingTop: '8px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
               Review tools
             </div>
-            <div id="42I-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
               Review history · stale
             </div>
-            <div id="42J-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
               Settings
             </div>
-            <div id="42K-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
               PR search · preview
             </div>
-            <div id="42L-0" style={{ boxSizing: 'border-box', flexShrink: '0', height: '32px', paddingTop: '4px' }}>
-              <div id="42M-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', whiteSpace: 'pre-wrap' }}>
+            <div style={{ boxSizing: 'border-box', flexShrink: '0', height: '32px', paddingTop: '4px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', whiteSpace: 'pre-wrap' }}>
                 J / K Navigate layers<br />Z Focus on code
               </div>
             </div>
           </div>
         </div>
-        <div id="3DD-0" style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '852px', width: '880px' }}>
-          <div id="450-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: '68px', paddingBlock: '16px', paddingInline: '28px', width: '100%' }}>
-            <div id="451-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '36px', justifyContent: 'space-between', width: '100%' }}>
-              <div id="452-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '28px' }}>
+        <div style={{ backgroundColor: '#FDFDFE', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '852px', width: '880px' }}>
+          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', height: '68px', paddingBlock: '16px', paddingInline: '28px', width: '100%' }}>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '36px', justifyContent: 'space-between', width: '100%' }}>
+              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '28px' }}>
                 API contracts and access controls
               </div>
-              <div id="453-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                 Layer 1 of 7 · About layer
               </div>
             </div>
-            <div id="454-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '21px' }}>
               Defines feedback-record schemas, serializers, entitlement checks, tenant ownership guards, and controlled problem responses.
             </div>
-            <div id="455-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '20px', paddingTop: '4px' }}>
-              <div id="456-0" style={{ boxSizing: 'border-box', color: '#582D1D', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '20px', paddingTop: '4px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                 9 files · 37 layer summaries · snapshot 23cdac2
               </div>
-              <div id="457-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '20px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '20px' }}>
                 Hide summary
               </div>
             </div>
           </div>
-          <div id="3G6-0" style={{ alignItems: 'center', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', justifyContent: 'space-between', paddingBlock: '12px', paddingInline: '20px' }}>
-            <div id="3GI-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '4px', minWidth: '0px', overflow: 'clip' }}>
-              <div id="3GT-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', height: '14px', lineHeight: '14px', width: 'max-content' }}>
+          <div style={{ alignItems: 'center', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '12px', justifyContent: 'space-between', paddingBlock: '12px', paddingInline: '20px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '4px', minWidth: '0px', overflow: 'clip' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', height: '14px', lineHeight: '14px', width: 'max-content' }}>
                 apps / web / app / api / v3 / feedbackRecords / lib
               </div>
-              <div id="3GJ-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
-                <div id="3GS-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '8px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
                   access.ts
                 </div>
-                <div id="3GR-0" style={{ boxSizing: 'border-box', color: '#176B45', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#176B45', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   +194
                 </div>
-                <div id="3GQ-0" style={{ boxSizing: 'border-box', color: '#A63E45', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#A63E45', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   −0
                 </div>
-                <div id="3GK-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '4px' }}>
-                  <div id="3GO-0" style={{ alignItems: 'center', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', justifyContent: 'center', width: '28px' }}>
-                    <div id="3GP-0" style={{ boxSizing: 'border-box', color: '#AAA6AF', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '20px' }}>
+                <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '4px' }}>
+                  <div style={{ alignItems: 'center', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', justifyContent: 'center', width: '28px' }}>
+                    <div style={{ boxSizing: 'border-box', color: '#AAA6AF', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '20px' }}>
                       ‹
                     </div>
                   </div>
-                  <div id="3GN-0" style={{ alignContent: 'center', boxSizing: 'border-box', color: '#582D1D', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', height: '28px', justifyContent: 'center', lineHeight: '18px', textAlign: 'center', width: '58px' }}>
+                  <div style={{ alignContent: 'center', boxSizing: 'border-box', color: '#582D1D', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', height: '28px', justifyContent: 'center', lineHeight: '18px', textAlign: 'center', width: '58px' }}>
                     1 / 9 ▾
                   </div>
-                  <div id="3GL-0" style={{ alignItems: 'center', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', justifyContent: 'center', width: '28px' }}>
-                    <div id="3GM-0" style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '20px' }}>
+                  <div style={{ alignItems: 'center', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', justifyContent: 'center', width: '28px' }}>
+                    <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '20px' }}>
                       ›
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div id="3G7-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '4px' }}>
-              <div id="3GG-0" style={{ borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '10px' }}>
-                <div id="3GH-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '4px' }}>
+              <div style={{ borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '10px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Unified
                 </div>
               </div>
-              <div id="3GE-0" style={{ backgroundColor: '#FFEAD5', borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '8px' }}>
-                <div id="3GF-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              <div style={{ backgroundColor: '#FFEAD5', borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '8px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Split
                 </div>
               </div>
-              <div id="3GC-0" style={{ borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '10px' }}>
-                <div id="3GD-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              <div style={{ borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '10px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Focus Z
                 </div>
               </div>
-              <div id="3GA-0" style={{ borderColor: '#A8B6C6', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '10px' }}>
-                <div id="3GB-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              <div style={{ borderColor: '#A8B6C6', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '7px', paddingInline: '10px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Mark viewed
                 </div>
               </div>
-              <div id="3G8-0" style={{ alignItems: 'center', borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', justifyContent: 'center', paddingInline: '10px' }}>
-                <div id="3G9-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+              <div style={{ alignItems: 'center', borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '32px', justifyContent: 'center', paddingInline: '10px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                   Tools
                 </div>
               </div>
             </div>
           </div>
-          <div id="3DE-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', minHeight: '0px', overflow: 'clip' }}>
-            <div id="3G0-0" style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '34px', justifyContent: 'space-between', paddingBlock: '8px', paddingInline: '24px', width: '100%' }}>
-              <div id="3JS-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
-                <div id="3JT-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', minHeight: '0px', overflow: 'clip' }}>
+            <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '34px', justifyContent: 'space-between', paddingBlock: '8px', paddingInline: '24px', width: '100%' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                   New file
                 </div>
-                <div id="3JU-0" style={{ backgroundColor: '#FFEAD5', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '2px', paddingInline: '8px' }}>
-                  <div id="3JV-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                <div style={{ backgroundColor: '#FFEAD5', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', paddingBlock: '2px', paddingInline: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                     Wrap on
                   </div>
                 </div>
               </div>
-              <div id="3G1-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
-                <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" id="3G3-0" style={{ display: 'inline-block', flexShrink: '0' }}>
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', flexShrink: '0' }}>
                   <path d="m6 10 4-4M5 9l-1 1a2.8 2.8 0 0 0 4 4l2-2M11 7l1-1a2.8 2.8 0 0 0-4-4L6 4" fill="none" stroke="#582D1D" strokeWidth="1.5" strokeLinecap="round" />
                 </svg>
-                <div id="3G2-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: 'max-content' }}>
+                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', width: 'max-content' }}>
                   Evidence · L75
                 </div>
               </div>
             </div>
-            <div id="3J3-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexGrow: '1', minHeight: '0px', width: '100%' }}>
-              <div id="3J4-0" style={{ backgroundColor: '#FAF8FB', borderRightColor: '#E3E0E7', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', width: '96px' }}>
-                <div id="3J7-0" style={{ alignItems: 'center', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', fontSizeAdjust: 'none', height: '32px', padding: '8px' }}>
-                  <div id="3J8-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexGrow: '1', minHeight: '0px', width: '100%' }}>
+              <div style={{ backgroundColor: '#FAF8FB', borderRightColor: '#E3E0E7', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', width: '96px' }}>
+                <div style={{ alignItems: 'center', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', fontSizeAdjust: 'none', height: '32px', padding: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                     Before
                   </div>
                 </div>
-                <div id="3J9-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingBlock: '16px', paddingInline: '8px' }}>
-                  <div id="3JA-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingBlock: '16px', paddingInline: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                     File added
                   </div>
-                  <div id="3JB-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                     No previous version
                   </div>
-                  <div id="3JC-0" style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', padding: '6px' }}>
-                    <div id="3JD-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                  <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', justifyContent: 'center', padding: '6px' }}>
+                    <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                       Equal panes
                     </div>
                   </div>
                 </div>
               </div>
-              <div id="3J5-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', minWidth: '0px', overflow: 'clip' }}>
-                <div id="3JF-0" style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', fontSizeAdjust: 'none', height: '32px', paddingBlock: '8px', paddingInline: '16px' }}>
-                  <div id="3JG-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', minWidth: '0px', overflow: 'clip' }}>
+                <div style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', fontSizeAdjust: 'none', height: '32px', paddingBlock: '8px', paddingInline: '16px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                     After · added file
                   </div>
                 </div>
-                <div id="3FV-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3FZ-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3FY-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     68
                   </div>
-                  <div id="3FX-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3FW-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'  '}const { workspaceId: resolvedWorkspaceId, organizationId } = authResult;
                   </div>
                 </div>
-                <div id="3FQ-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3FU-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3FT-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     69
                   </div>
-                  <div id="3FS-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3FR-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere' }} />
                 </div>
-                <div id="3FL-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3FP-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3FO-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     70
                   </div>
-                  <div id="3FN-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3FM-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'  '}const directories = await getFeedbackDirectoriesByWorkspaceId(resolvedWorkspaceId);
                   </div>
                 </div>
-                <div id="3FG-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3FK-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3FJ-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     71
                   </div>
-                  <div id="3FI-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3FH-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'  '}// Normalised once, here: the Hub uses `tenant_id` verbatim — in SQL filters and, for semantic search, in
                   </div>
                 </div>
-                <div id="3FB-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3FF-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3FE-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     72
                   </div>
-                  <div id="3FD-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3FC-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'  '}// the vector query — with no trimming of its own, so a stray space silently matches nothing instead of
                   </div>
                 </div>
-                <div id="3F6-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3FA-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3F9-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     73
                   </div>
-                  <div id="3F8-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3F7-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'  '}// failing. Doing it at the source means every consumer gets a usable value; doing it per call site meant
                   </div>
                 </div>
-                <div id="3F1-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3F5-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3F4-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     74
                   </div>
-                  <div id="3F3-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3F2-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'  '}// whichever site was written last got it right.
                   </div>
                 </div>
-                <div id="3EW-0" style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3F0-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3EZ-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#FFF7ED', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     75
                   </div>
-                  <div id="3EY-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3EX-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'  '}const allowedTenantIds = directories.map((directory) => directory.id.trim());
                   </div>
                 </div>
-                <div id="3ER-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3EV-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3EU-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     76
                   </div>
-                  <div id="3ET-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3ES-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere' }} />
                 </div>
-                <div id="3EM-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3EQ-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3EP-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     77
                   </div>
-                  <div id="3EO-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3EN-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'  '}if (datasetId) {
                   </div>
                 </div>
-                <div id="3EH-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3EL-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3EK-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     78
                   </div>
-                  <div id="3EJ-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3EI-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'    '}const requested = directories.find((directory) => directory.id === datasetId);
                   </div>
                 </div>
-                <div id="3EC-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3EG-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3EF-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     79
                   </div>
-                  <div id="3EE-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3ED-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'    '}if (!requested) {
                   </div>
                 </div>
-                <div id="3E7-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3EB-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3EA-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     80
                   </div>
-                  <div id="3E9-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3E8-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'      '}return {
                   </div>
                 </div>
-                <div id="3E2-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3E6-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3E5-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     81
                   </div>
-                  <div id="3E4-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3E3-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'        '}ok: false,
                   </div>
                 </div>
-                <div id="3DX-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3E1-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3E0-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     82
                   </div>
-                  <div id="3DZ-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3DY-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'        '}response: problemForbidden(
                   </div>
                 </div>
-                <div id="3DS-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3DW-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3DV-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     83
                   </div>
-                  <div id="3DU-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3DT-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'          '}requestId,
                   </div>
                 </div>
-                <div id="3DN-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
-                  <div id="3DR-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3DQ-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', minHeight: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     84
                   </div>
-                  <div id="3DP-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3DO-0" style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', flexBasis: '0%', flexGrow: '1', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', minWidth: '0px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
                     {'          '}"You are not authorized to access this feedback dataset",
                   </div>
                 </div>
-                <div id="3DI-0" style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
-                  <div id="3DM-0" style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
-                  <div id="3DL-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
+                <div style={{ backgroundColor: '#ECF7F0', boxSizing: 'border-box', display: 'none', flexShrink: '0', height: '24px', width: '100%' }}>
+                  <div style={{ boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '42px' }} />
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '42px' }}>
                     85
                   </div>
-                  <div id="3DK-0" style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'center', lineHeight: '24px', textAlign: 'center', width: '28px' }}>
                     +
                   </div>
-                  <div id="3DJ-0" style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre', width: 'max-content' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre', width: 'max-content' }}>
                     {'          '}instance
                   </div>
                 </div>
               </div>
             </div>
-            <div id="3DF-0" style={{ backgroundColor: '#FAF8FB', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '16px', paddingInline: '24px' }}>
-              <div id="3DH-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+            <div style={{ backgroundColor: '#FAF8FB', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingBlock: '16px', paddingInline: '24px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
                 Split · lines 68–84 shown · 96 px Before rail · Equal panes restores 50 / 50
               </div>
-              <div id="3DG-0" style={{ boxSizing: 'border-box', color: '#211F24', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
                 The source run is out of date. Resolved historical findings do not establish a current defect.
               </div>
             </div>
           </div>
         </div>
-        <div id="42O-0" style={{ backgroundColor: '#F8FAFC', borderLeftColor: '#E3E0E7', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: '852px', overflow: 'clip', padding: '16px', width: '320px' }}>
-          <div id="42P-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
-            <div id="42Q-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
+        <div style={{ backgroundColor: '#F8FAFC', borderLeftColor: '#E3E0E7', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: '852px', overflow: 'clip', padding: '16px', width: '320px' }}>
+          <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', justifyContent: 'space-between' }}>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
               Change context
             </div>
-            <div id="42R-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }} />
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }} />
           </div>
-          <div id="42S-0" style={{ borderColor: '#D5CDD7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '4px', padding: '3px' }}>
-            <div id="42T-0" style={{ backgroundColor: '#FFEAD5', borderRadius: '3px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
-              <div id="42U-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+          <div style={{ borderColor: '#D5CDD7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '4px', padding: '3px' }}>
+            <div style={{ backgroundColor: '#FFEAD5', borderRadius: '3px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                 This file
               </div>
             </div>
-            <div id="42V-0" style={{ boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
-              <div id="42W-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+            <div style={{ boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
                 Entire layer
               </div>
             </div>
           </div>
-          <div id="42X-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '20px', paddingTop: '4px' }}>
-            <div id="42Y-0" style={{ borderBottomColor: '#FF570A', borderBottomStyle: 'solid', borderBottomWidth: '2px', boxSizing: 'border-box', display: 'flex', paddingBottom: '10px' }}>
-              <div id="42Z-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '18px' }}>
+          <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '20px', paddingTop: '4px' }}>
+            <div style={{ borderBottomColor: '#FF570A', borderBottomStyle: 'solid', borderBottomWidth: '2px', boxSizing: 'border-box', display: 'flex', paddingBottom: '10px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '18px' }}>
                 Summaries 6
               </div>
             </div>
-            <div id="430-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
               Comments 3
             </div>
           </div>
-          <div id="431-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-            2 of 6 summaries captured · 0 seen
-          </div>
-          <div id="432-0" style={{ boxSizing: 'border-box', display: 'none' }}>
-            <div id="433-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-              ▸ Layer activity
+          <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', minHeight: '0px', overflow: 'clip', width: '100%' }}>
+            <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+              2 of 6 summaries captured · 0 seen
             </div>
-            <div id="434-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
-              <div id="435-0" style={{ backgroundColor: '#FFEAD5', borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
-                <div id="436-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                  All
-                </div>
+            <div style={{ boxSizing: 'border-box', display: 'none' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                ▸ Layer activity
               </div>
-              <div id="437-0" style={{ boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
-                <div id="438-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                  High
+              <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '6px' }}>
+                <div style={{ backgroundColor: '#FFEAD5', borderRadius: '4px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                    All
+                  </div>
                 </div>
-              </div>
-              <div id="439-0" style={{ boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
-                <div id="43A-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                  Medium
+                <div style={{ boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                    High
+                  </div>
                 </div>
-              </div>
-              <div id="43B-0" style={{ boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
-                <div id="43C-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                  Low
+                <div style={{ boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                    Medium
+                  </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div id="43D-0" style={{ backgroundColor: '#FDFDFE', borderColor: '#D5CDD7', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', height: 'fit-content', padding: '12px' }}>
-            <div id="43E-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
-              Function L49–130 · Medium · Go to start
-            </div>
-            <div id="43F-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
-              Resolve workspace tenant
-            </div>
-            <div id="43G-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-              Authorize workspace access, load and normalize directory IDs, enforce dataset membership, and return a permitted tenant context.
-            </div>
-            <div id="43H-0" style={{ boxSizing: 'border-box', display: 'none' }}>
-              <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" id="43I-0" style={{ display: 'inline-block' }}>
-                <path d="m6 10 4-4M5 9l-1 1a2.8 2.8 0 0 0 4 4l2-2M11 7l1-1a2.8 2.8 0 0 0-4-4L6 4" fill="none" stroke="#582D1D" strokeWidth="1.5" strokeLinecap="round" />
-              </svg>
-              <div id="43K-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                Evidence · L75
-              </div>
-            </div>
-            <div id="43L-0" style={{ boxSizing: 'border-box', display: 'none' }}>
-              <div id="43M-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                Inspect code
-              </div>
-              <div id="43N-0" style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', justifyContent: 'space-between', padding: '8px' }}>
-                <div id="43O-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-                  Normalize tenant IDs · L75
-                </div>
-                <div id="43P-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                  ▾
-                </div>
-              </div>
-              <div id="43Q-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                Go to summary start · L49
-              </div>
-            </div>
-            <div id="43R-0" style={{ boxSizing: 'border-box', color: '#582D1D', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-              Read full source summary ▾
-            </div>
-            <div id="43S-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-              <div id="43T-0" style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-                Adds resolveWorkspaceFeedbackTenant, which:
-              </div>
-              <div id="43U-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
-                <div id="43V-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
-                  requires workspace access via requireUnifyFeedbackWorkspaceAccess,
-                </div>
-                <div id="43W-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
-                  L57–65 · Inspect guard in feedback-access.ts
-                </div>
-              </div>
-              <div id="43X-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
-                <div id="43Y-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
-                  loads feedback directories for the workspace,
-                </div>
-                <div id="43Z-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
-                  L70
-                </div>
-              </div>
-              <div id="440-0" style={{ backgroundColor: '#FFEAD5', borderRadius: '3px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px', padding: '5px' }}>
-                <div id="441-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
-                  trims directory IDs to normalize Hub tenant_id matching,
-                </div>
-                <div id="442-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
-                  L75
-                </div>
-              </div>
-              <div id="443-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
-                <div id="444-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
-                  optionally enforces access to a specific dataset (datasetId) with a forbidden response when not permitted,
-                </div>
-                <div id="445-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
-                  L77–97
-                </div>
-              </div>
-              <div id="446-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
-                <div id="447-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
-                  rejects misconfiguration states (no datasets assigned; multiple datasets without an explicit datasetId),
-                </div>
-                <div id="448-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
-                  L99–120
-                </div>
-              </div>
-              <div id="449-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
-                <div id="44A-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
-                  returns a single resolved tenant/dataset context plus the full allowed tenant set.
-                </div>
-                <div id="44B-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
-                  L122–129
+                <div style={{ boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                    Low
+                  </div>
                 </div>
               </div>
             </div>
-            <div id="44C-0" style={{ boxSizing: 'border-box', color: '#582D1D', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '18px', textAlign: 'right' }}>
-              Mark seen
+            <div style={{ backgroundColor: '#FDFDFE', borderColor: '#D5CDD7', borderRadius: '5px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', height: 'fit-content', padding: '12px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                Function L49–130 · Medium · Go to start
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+                Resolve workspace tenant
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                Authorize workspace access, load and normalize directory IDs, enforce dataset membership, and return a permitted tenant context.
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'none' }}>
+                <svg width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block' }}>
+                  <path d="m6 10 4-4M5 9l-1 1a2.8 2.8 0 0 0 4 4l2-2M11 7l1-1a2.8 2.8 0 0 0-4-4L6 4" fill="none" stroke="#582D1D" strokeWidth="1.5" strokeLinecap="round" />
+                </svg>
+                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                  Evidence · L75
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'none' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                  Inspect code
+                </div>
+                <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', justifyContent: 'space-between', padding: '8px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                    Normalize tenant IDs · L75
+                  </div>
+                  <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                    ▾
+                  </div>
+                </div>
+                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                  Go to summary start · L49
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                Read full source summary ▾
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                  Adds resolveWorkspaceFeedbackTenant, which:
+                </div>
+                <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                    requires workspace access via requireUnifyFeedbackWorkspaceAccess,
+                  </div>
+                  <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '18px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+                    L57–65 · Inspect guard in feedback-access.ts
+                  </div>
+                </div>
+                <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                    loads feedback directories for the workspace,
+                  </div>
+                  <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+                    L70
+                  </div>
+                </div>
+                <div style={{ backgroundColor: '#FFEAD5', borderRadius: '3px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px', padding: '5px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                    trims directory IDs to normalize Hub tenant_id matching,
+                  </div>
+                  <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+                    L75
+                  </div>
+                </div>
+                <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                    optionally enforces access to a specific dataset (datasetId) with a forbidden response when not permitted,
+                  </div>
+                  <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+                    L77–97
+                  </div>
+                </div>
+                <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                    rejects misconfiguration states (no datasets assigned; multiple datasets without an explicit datasetId),
+                  </div>
+                  <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+                    L99–120
+                  </div>
+                </div>
+                <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                    returns a single resolved tenant/dataset context plus the full allowed tenant set.
+                  </div>
+                  <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+                    L122–129
+                  </div>
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '18px', textAlign: 'right' }}>
+                Mark seen
+              </div>
             </div>
-          </div>
-          <div id="44D-0" style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderRadius: '5px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingBlock: '10px', paddingInline: '12px' }}>
-            <div id="44E-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
-              Lines 156–186 · High
+            <div style={{ borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderRadius: '5px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '8px', paddingBlock: '10px', paddingInline: '12px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                Lines 156–186 · High
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+                Enforce record ownership
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                Retrieve a record, map Hub failures, and compare its tenant against the pinned dataset or workspace tenant set.
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '18px', textAlign: 'right' }}>
+                Mark seen
+              </div>
             </div>
-            <div id="44F-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
-              Enforce record ownership
+            <div style={{ boxSizing: 'border-box', display: 'none', paddingBlock: '12px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }} />
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }} />
             </div>
-            <div id="44G-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
-              Retrieve a record, map Hub failures, and compare its tenant against the pinned dataset or workspace tenant set.
-            </div>
-            <div id="44H-0" style={{ boxSizing: 'border-box', color: '#582D1D', display: 'flex', flexWrap: 'wrap', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', justifyContent: 'end', lineHeight: '18px', textAlign: 'right' }}>
-              Mark seen
-            </div>
-          </div>
-          <div id="44I-0" style={{ boxSizing: 'border-box', display: 'none', paddingBlock: '12px' }}>
-            <div id="44J-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }} />
-            <div id="44K-0" style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }} />
           </div>
         </div>
       </div>
-      <div id="3C1-0" style={{ alignItems: 'center', backgroundColor: '#EEF1F5', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '36px', justifyContent: 'space-between', minHeight: '36px', paddingInline: '20px', width: '1440px' }}>
-        <div id="3C3-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+      <div style={{ alignItems: 'center', backgroundColor: '#EEF1F5', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '36px', justifyContent: 'space-between', minHeight: '36px', paddingInline: '20px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
           Prototype · 7 of 52 diffs included · local state only
         </div>
-        <div id="3C2-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
           Source notes & states
         </div>
       </div>

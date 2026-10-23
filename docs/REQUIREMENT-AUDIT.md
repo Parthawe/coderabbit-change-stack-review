@@ -17,7 +17,7 @@ The submission is one layer-based reviewing screen, editable Paper and a one-pag
 | Capability | Destination and boundary |
 | --- | --- |
 | Layers and files | Seven layer names/counts; nine layer-1 paths persist in the rail. Previous/Next and searchable position retain file reading state. |
-| File and layer context | This file and Entire layer; fourteen captured summaries grouped across nine paths, compared with 37 source summaries. |
+| File and layer context | Fixed scope and tabs above a scrolling context body; This file and Entire layer; fourteen captured summaries grouped across nine paths, compared with 37 source summaries. |
 | Summary navigation | Original six workspace-tenant bullets with direct manually mapped line links. Other captured summaries retain their source ranges and starts. |
 | Cross-file inspection | Inspect guard opens feedback-access.ts at its captured 20–49 summary; Return to access.ts restores the caller. One route, without automatic dependency mapping. |
 | Full file and range display | All captured added lines or captured summary ranges. Source semantic-diff engine is not recreated. |
@@ -28,6 +28,7 @@ The submission is one layer-based reviewing screen, editable Paper and a one-pag
 | Split and Focus | Compact added-file Before rail, wrapped code, reversible Equal panes and Focus with reading-position preservation. |
 | Source comments | Paraphrased resolved thread; missing replies disclosed. Resolved visibility and local-note recovery remain available. |
 | Recovery | Loading, unavailable-source and no-comments states; retry and return paths. |
+| Continue, Follow review, global Files mode and Diagrams | Labeled previews under Settings; downstream actions are not implemented and Diagrams remains unavailable. |
 | PR search, impact, history and settings | Clearly labeled captured metadata or previews. Full-PR search and uncaptured analysis are outside scope. |
 
 The original already supported summary jumps, deliberate viewed state, J/K and Z. The changes refine their presentation and add narrower continuity paths; the rationale and recording credit those source capabilities.

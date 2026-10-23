@@ -2,6 +2,19 @@
 
 ## Current revision
 
+October 22 source-consistency pass (after cc55765):
+
+- Compared M with the saved Arc screenshot and interaction audit for the exact assigned review. The current Arc tab rendered blank, so this pass does not claim a fresh full live-source walkthrough.
+- Restored the actual PR title, separately labeled the stack, and retained the merged/stale state. Updated M, Focus, Split and guard boards first, then the prototype.
+- Context heading, scope and tabs remain fixed while its body scrolls. At 1280×720, the body scrolled 512px while scope and tabs stayed at y157/y193. Changing scope resets the context body to its coverage label without moving the code.
+- Guard inspection and return restored the caller at code scroll 1504px and context scroll 74.5px. Pointer-driven scrolling to reveal the guard button is part of the departure position.
+- Continue, Follow review, global Files mode and Diagrams each open their labeled preview. No external workflow is invoked.
+- Viewed/Undo changed sample 0/7 → 1/7 → 0/7. J/K and Z remained functional. At 1100×800, the context overlay scrolled independently and Close restored focus to its trigger; there was no document overflow. At 1440×960, no document overflow was found. Browser warning/error logs were empty at the check.
+- Six updated Paper PNG/JSX export pairs were refreshed. The flow and guard exports were visually inspected; the rationale was rebuilt and visually inspected as one page. The historical matched comparison remains unchanged.
+- Two independent read-only AI reviews informed the bounded fixes. The Impeccable HTML detector returned zero findings; it does not validate external CSS, usability or the full accessibility experience. No developer usability test has been run.
+
+Earlier October 22 checks below apply to their stated releases:
+
 October 22 third-pass implementation checks passed:
 
 - Six source-summary links reach their exact anchors. Inspect guard opens feedback-access.ts at summary 20–49; Return restores the caller's prior scroll and selection.

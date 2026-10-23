@@ -16,10 +16,10 @@
     ],
     [
       "File context and layer context need different scopes.",
-      "This file and Entire layer make that choice explicit. The layer view groups 14 captured summaries across nine file paths and discloses coverage against the source total of 37."
+      "This file and Entire layer make that choice explicit. Scope and tabs stay visible while the summaries scroll. The layer view groups 14 captured summaries across nine paths, with coverage shown against the source total of 37."
     ],
     [
-      "Sample progress can look like completion of the whole PR.",
+      "File viewed, summary seen and PR status mean different things.",
       "The header tracks seven included diffs; the rail tracks nine layer files. Viewed remains deliberate, with Undo. The merged snapshot disables Submit review; a separate open-PR demo shows that flow."
     ]
   ],
