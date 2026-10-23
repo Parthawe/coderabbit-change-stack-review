@@ -1,3 +1,12 @@
+# October 23 clean submission and copy check
+
+- Inspected the five-page Paper submission, including the new four-direction comparison. Fixed two overlapping annotation headings and re-exported.
+- Re-rendered the rationale and confirmed it remains one readable page.
+- At 1280 × 720, checked restored PR metadata/icons, guard/Return, Focus, Mark viewed/Undo, and branch-copy feedback. Guard checks L27 and L38 remain visible on arrival. Progress returns to 0/7 after Undo.
+- Checked the new presentation page in the browser. JavaScript syntax and git whitespace checks passed.
+- Static design scan reported three advisory token differences (15px title, merged purple, badge radius), now documented as intentional source/brand choices. No failure findings.
+- No new developer usability test was run. Revision 9 video predates this pass; its metadata and presentation copy are not current.
+
 # Current pass: review task and presentation · October 23, 2026
 
 This pass fixes the four issues from the holistic review. M remains final. Nothing is sent to CodeRabbit.

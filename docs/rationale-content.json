@@ -1,29 +1,29 @@
 {
   "title": "Checking the summary against the code",
-  "intro": "I kept CodeRabbit’s layer model and focused on one review task in Formbricks #8650: check a summary, inspect the access guard, then get back to the call. The original already has summary jumps, viewed status and Focus.",
+  "intro": "I kept layers and worked through one task in Formbricks #8650: check a summary, follow the access guard, then get back to the call. I explored behavior, counterexamples, impact and author handoff first. I chose M because I could work with this PR’s content and keep the existing review model.",
   "rows": [
     [
-      "What I saw",
+      "What I noticed",
       "What I changed"
     ],
     [
-      "Six summary points share an 82-line range.",
-      "Each point links to a smaller code range. Full wording and the whole function remain available; a highlight is a starting point, not proof."
+      "Six summary points share L49–130. I still have to find the lines behind each point.",
+      "I gave each point a smaller target. The full wording and surrounding code stay available so I can check beyond the highlight."
     ],
     [
       "The access check continues in another file.",
-      "Inspect guard opens the workspace and entitlement checks. Return restores the caller’s selection and reading position. This route is manually mapped."
+      "Inspect guard opens both checks. Return brings me back to the caller’s selection and reading position. I mapped this route manually."
     ],
     [
       "File and display actions sit across several controls.",
-      "File actions sit beside the filename; display settings sit above the diff. Less frequent tools move into named menus, which adds a click."
+      "I put file actions beside the filename and display settings above the code. Less-used tools sit in named menus, which adds a click."
     ]
   ],
   "tradeoff_title": "Why I kept one code pane",
-  "tradeoff": "Caller and guard side by side would squeeze both at laptop width. I chose a return action. The comparison uses Unified on both screens: the original fits more code, while M gives files and summary links more room. Focus restores code space.",
+  "tradeoff": "Showing the caller and guard together squeezed both at laptop width, so I chose Return. Both comparison screens use Unified. The original fits more code; M gives files and summary links more room. Focus gives that space back.",
   "validation_title": "What I kept",
-  "validation": "Layers, J/K, Z and separate seen/viewed states remain. Opening a file marks nothing viewed. Undo reverses Mark viewed. Unified already exists; a compact empty pane in Split is a supporting layout choice.",
+  "validation": "I kept the PR details, icons, layer numbers and file positions visible. The 0/7 count is for this sample; the PR has 52 files. Visiting a file leaves progress alone. Mark viewed changes it; Undo reverses it.",
   "next_title": "What I would test",
-  "next": "Ask developers to explain the access check on both screens, then find something the summary might miss. Compare missed branches and wrong turns. A precise link can narrow attention too much; the test needs to check that risk.",
+  "next": "I’d ask developers to explain the access check on both screens, then find something the summary might miss. I’d watch for wrong turns and missed branches. If smaller highlights lead people to overlook code, I’d change them.",
   "scope": "This prototype covers seven of 52 diffs at commit 23cdac2. Links are manually mapped. The PR is merged; Submit is disabled. Semantic diffs and modified-file review are outside this sample. I have not tested it with developers."
 }

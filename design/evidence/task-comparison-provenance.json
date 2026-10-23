@@ -15,7 +15,7 @@
     65
   ],
   "original_capture": "Unaltered screenshot from the live review. Selected Unified through View settings, expanded the 49\u2013130 summary, then scrolled to line 54. No code, styling, controls or progress edited.",
-  "prototype_capture": "Unaltered screenshot from the running local prototype, with Require workspace access selected and lines 57\u201365 highlighted. Includes the submission bar.",
+  "prototype_capture": "Unaltered screenshot from the running local prototype, with Require workspace access selected and lines 57\u201365 highlighted. Includes the submission bar. Refreshed October 23 after restoring PR metadata, icons and layer position.",
   "differences": [
     "Original full summary wording; prototype concise links with full wording behind a disclosure.",
     "Original observed summary progress retained; prototype local progress begins at zero.",
@@ -28,8 +28,8 @@
       "bytes": 161783
     },
     "m-unified-access-call.png": {
-      "sha256": "334e8e47b6e4304c32d1a76e9ab1b8d9d12fb3da0b62bf133aa3f8a308feaa43",
-      "bytes": 105824
+      "sha256": "e69a06f7446f3ba809e18f5ae18a2b9963240e94ec8300227a31fb91f09b0c47",
+      "bytes": 116959
     },
     "m-guard-arrival.png": {
       "sha256": "574742ae8c395fb66977f80a4128424924318b48ead8396a6a0958cccb40264d",

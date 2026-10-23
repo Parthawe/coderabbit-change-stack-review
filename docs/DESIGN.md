@@ -8,6 +8,7 @@ colors:
   muted: "#65616a"
   line: "#e3e0e7"
   brand: "#ff570a"
+  merged: "#8250df"
   blue: "#582d1d"
   selected: "#ffead5"
   selection-border: "#e57340"
@@ -24,6 +25,9 @@ colors:
   primary-hover: "#ef4f00"
   control-hover: "#f1eff3"
 typography:
+  pr-title:
+    fontSize: "15px"
+    lineHeight: "20px"
   headline:
     fontFamily: "Geist, system-ui, sans-serif"
     fontSize: "22px"
@@ -53,6 +57,7 @@ typography:
     fontWeight: 400
     lineHeight: "24px"
 rounded:
+  merged-badge: "12px"
   control: "4px"
   summary: "5px"
   dialog: "8px"
@@ -145,7 +150,7 @@ The October 22 implementation checks passed for direct links, guard/return, scop
 
 ## Matched comparison
 
-The untouched original and final-M comparison retain access.ts imports 1–7 and the six workspace-tenant points. M uses short check labels; the full original wording remains available in the disclosure and comparison text. Both images are 1280 × 720. The original records historical progress and review availability; M starts local progress at zero and shows the later observed merged status. This comparison supports content retention, not a measured improvement.
+Both captures show access.ts from line 54 at 1280 × 720 in Light and Unified, at pinned commit 23cdac2. The original screenshot is unaltered. M selects the workspace-access point at L57–65 and uses short labels, with full source wording available. Original progress is retained; M starts at zero. The original fits more code. See design/evidence/task-comparison-provenance.json.
 
 ## Arc consistency follow-up
 
@@ -164,3 +169,9 @@ At narrow desktop widths, filename text truncates before file navigation shrinks
 File identity, Mark viewed and Tools share one row. Unified, Split, Focus, Outline and Wrap form a separate 44px strip directly above the diff. Added-file Unified omits the unused old-line gutter. PR overview groups the three overview destinations. Summary options and About links follow the summary content. Statement selection retains its orange highlight; the enclosing summary no longer adds another bordered box.
 
 The decision record explains each cost: menus add a click, visible navigation takes code width, and precise anchors can narrow attention. One code pane plus Return is the chosen route; paired panes are not part of the final submission. No measured time saving or external score is claimed.
+
+## Clean submission file
+
+The active Paper submission is https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0. It has five pages: start and choice of direction; original and M comparison; editable M; interactions; decisions and next test. The original Paper file is retained as an archive. Current exports are in design/clean-submission.
+
+The PR header retains the source’s merged badge, PR #8650, 52-file count, verified branch name, copy action and stack context. Its 88px height accommodates those details; narrow desktop uses 102px. The purple 12px-radius badge is a semantic status preserved from the source. Icons accompany labels. Layer and file positions remain visible.
