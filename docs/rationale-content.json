@@ -26,7 +26,7 @@
   "tradeoff_title": "The space tradeoff",
   "tradeoff": "Wrapped 13 px code avoids horizontal movement but adds vertical scrolling. Added-file Split gives the empty Before pane 96 px; Equal panes restores 50/50. Compact statement rows keep all six checks visible at 1280 × 720. Modified-file Split still needs a separate check.",
   "validation_title": "What I checked",
-  "validation": "The caller/guard return, statement links, viewed/Undo and affected layouts were checked at 1440, 1280 and 1100 px. The pass caught and fixed crowded file navigation and Escape closing the wrong panel. These checks establish behavior, not better review outcomes.",
+  "validation": "I checked the caller/guard return, statement links, viewed/Undo and layouts at 1440, 1280 and 1100 px. Targeted keyboard checks cover current-range state, focus and Escape. Developer comprehension and a full screen-reader audit still need testing.",
   "scope": "Formbricks #8650 at the out-of-date 23cdac2 snapshot. Seven of 52 diffs are included. The comparison uses final M with the same imports and six source points; the original capture is untouched. Full file and Captured ranges do not recreate semantic diffs. Nothing is sent.",
   "next_title": "What I’d test next",
   "next": "I’d compare the same task on both screens, then ask developers to start from code and challenge the summary. Watch explanation accuracy, missed branches and backtracking. Precise links are only useful if people still inspect enough code."

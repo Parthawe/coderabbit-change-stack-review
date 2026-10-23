@@ -1,3 +1,19 @@
+# Critical rectification · October 23, 2026
+
+Paper was updated first. The diagnosis now separates visible source evidence from expected benefits, and the flow specifies current-range semantics for assistive technology. The rationale describes targeted keyboard checks without claiming a full screen-reader audit. Three affected PNG/JSX export pairs were refreshed.
+
+At 1280 × 720, live browser checks confirmed:
+
+- One `aria-current="location"` action matches the selected code range. Tested L57–65, L75, Whole function L49–130, the ownership summary, L164–175 and Go to start L156.
+- Enter retains focus on the selected action. Guard Return restores access.ts, L57–65 and focus on Inspect guard.
+- Visiting the guard leaves progress at 0/7. Mark viewed and Undo change it to 1/7 and back; both counts exclude the two unavailable patches.
+- The recording Markdown, generated two-page DOCX/PDF and existing Google Doc use the current seven-file progress cue. The generator now reads the maintained script instead of embedding a stale copy.
+- The one-page rationale and two-page recording PDF were rendered and inspected. JavaScript syntax and Git whitespace checks pass.
+
+This was a bounded correction pass, not another independent score. The last assessment remains 32/40. A code-first developer test, a representative modified-file case and a full assistive-technology audit remain open. Nothing was sent to CodeRabbit.
+
+---
+
 # Current compact-review verification · October 23, 2026
 
 Paper was updated before the prototype. Seven affected PNG/JSX pairs were refreshed: main, matched comparison, rationale, flow, Focus, Split and guard. The one-page rationale PDF was rendered and inspected; Paper and PDF use the same revised reasoning. Earlier verification entries below are historical.

@@ -66,7 +66,7 @@
           What I checked
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', fontSizeAdjust: 'none', lineHeight: '23px' }}>
-          The caller/guard return, statement links, viewed/Undo and affected layouts were checked at 1440, 1280 and 1100 px. The pass caught and fixed crowded file navigation and Escape closing the wrong panel. These checks establish behavior, not better review outcomes.
+          I checked the caller/guard return, statement links, viewed/Undo and layouts at 1440, 1280 and 1100 px. Targeted keyboard checks cover current-range state, focus and Escape. Developer comprehension and a full screen-reader audit still need testing.
         </div>
       </div>
       <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '16px' }}>

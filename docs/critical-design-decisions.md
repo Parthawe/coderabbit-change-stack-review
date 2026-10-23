@@ -53,9 +53,13 @@ The original already had layers, summary jumps, explicit viewed state, J/K navig
 | Work | Reason and boundary |
 | --- | --- |
 | Wrapped 13px code and compact added-file Split | The empty Before pane uses 96px so the added code has room. Equal panes restores 50/50. Wrapping adds vertical scrolling. Modified-file patches are not demonstrated. |
-| Keyboard and recovery behavior | Statement activation restores focus; guard Return restores its entry point; Escape closes link help before the context overlay. Loading, retry, missing-patch and no-comments states have explicit exits. A complete assistive-technology audit remains outstanding. |
+| Keyboard and recovery behavior | Statement activation restores focus and exposes the current code range to assistive technology; guard Return restores its entry point; Escape closes link help before the context overlay. Loading, retry, missing-patch and no-comments states have explicit exits. A complete assistive-technology audit remains outstanding. |
 | Long filenames and secondary tools | The filename truncates before file navigation shrinks. The full name remains available. More review tools groups secondary previews; preview destinations are labeled before entry. |
 | Matched comparison | Both screens show the same seven imports and six source-summary points. The original capture is untouched. It checks content retention and hierarchy; it is not a timed usability result. |
+
+## What is observed, and what remains a hypothesis
+
+The source capture shows stacked file controls and a summary spanning L49–130. I can point to those directly. Losing orientation or backtracking more often is my interpretation of the review task; I have not measured it. The guard return is a proposed improvement, and deliberate viewed state is an existing capability I preserved. This distinction should stay clear in the video.
 
 ## What the evidence supports
 
@@ -64,6 +68,12 @@ The [verification record](verification.md) documents working interactions and te
 The fixture contains seven complete added-file diffs out of 52, nine layer-1 paths and fourteen of 37 layer summaries. Missing patches, uncaptured replies and secondary workflows are disclosed. No additional findings or PR content were invented to fill those gaps.
 
 My next test would use the same commit and content on both interfaces. First ask developers to explain the access check and inspect its guard. Then start from code and ask what could make them disagree with the summary. Record explanation accuracy, missed branches and backtracking. That counter-test matters because the current demonstration follows the path I designed to work well.
+
+## My submission decision
+
+Keep M. The strongest contribution is the short claim → code → guard → return sequence, supported by explicit scope and deliberate progress. The weakest demonstration is still the imports-only static comparison; use it to establish equal content, then move to the working task.
+
+Before production, I would test one modified-file review and the code-first counter-task. The rail’s nested scrolling, commit-aware link reliability and recovery after reload also need evaluation. These are recorded limits, not completed research. The last independent heuristic assessment is 32/40; this correction pass does not establish a higher score.
 
 ## Where this reasoning lives
 
