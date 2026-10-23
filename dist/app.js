@@ -100,6 +100,7 @@ function setLayer(n){
 }
 function selectFile(id){
  const f=data.files.find(x=>x.id===id);if(!f)return;rememberFile();state.layer=0;state.file=id;state.lastFile=id;state.expanded=true;configureFile(f);renderScreen();restoreFilePosition();
+ const rail=$('#layer-list'),heading=$('.layer.selected'),railTop=rail.getBoundingClientRect().top,headingTop=heading?.getBoundingClientRect().top;if(headingTop<railTop)rail.scrollTop+=headingTop-railTop;
  $('#interaction-status').textContent=`${f.name}. File ${data.files.indexOf(f)+1} of ${data.files.length}. ${state.viewed.has(id)?'Viewed':'Not viewed'}.`
 }
 function stepFile(direction){const i=data.files.findIndex(f=>f.id===state.file),next=data.files[i+direction];if(!currentFile()||!next)return;selectFile(next.id);const trigger=$('#'+(direction<0?'previous-file':'next-file'));if(trigger.disabled)$('#file-position').focus();else trigger.focus()}
