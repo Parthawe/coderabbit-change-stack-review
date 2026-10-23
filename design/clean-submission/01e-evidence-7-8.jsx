@@ -1,0 +1,82 @@
+(
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '40px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '48px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
+          01 / Where I noticed the problems · 7–8
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '40px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '48px' }}>
+          Reading status and filters
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
+          Two original states shown separately: Comments and Overview · Formbricks #8650 · Light
+        </div>
+      </div>
+      <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '64px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', flexShrink: '0', height: '540px', overflow: 'clip', position: 'relative', width: '384px' }}>
+          <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/6T2ZJ2KBGV72PH43SW47K77415.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', height: '720px', left: -916, position: 'absolute', top: -90, width: '1280px' }} />
+          <svg width="384" height="630" viewBox="0 0 384 630" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '0px', top: '0px', display: 'inline-block' }}>
+            <rect x="28" y="4" width="328" height="210" rx="4" fill="none" stroke="#C65D21" strokeWidth="2" />
+            <circle cx="14" cy="106" r="13" fill="#C65D21" />
+            <text x="14" y="112" fontSize="16" textAnchor="middle" fill="#FFFFFF">
+              7
+            </text>
+            <path d="M27 106h8m-5-4 5 4-5 4" fill="none" stroke="#C65D21" strokeWidth="2" />
+          </svg>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', paddingTop: '16px', width: '992px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '36px' }}>
+            7 · Counts need context
+          </div>
+          <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '16px', width: '992px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '30px' }}>
+              Comments 15
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
+              Fifteen messages across the layer, including replies. This is not a count of fifteen findings.
+            </div>
+          </div>
+          <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '16px', width: '992px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '30px' }}>
+              Major 1
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
+              One Major finding in the layer. Severity does not tell me whether it is still open.
+            </div>
+          </div>
+          <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '16px', width: '992px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '30px' }}>
+              Resolved 15
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
+              Fifteen messages in resolved threads. The access.ts finding below is also marked Resolved.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ alignItems: 'center', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '32px', position: 'relative', width: '1440px' }}>
+        <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/1JDWTB25H3V2AZNNYW37FAP80X.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', flexShrink: '0', height: '380px', width: '672px' }} />
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '18px', width: '704px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '36px' }}>
+            8 · Which filters are on?
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '21px', lineHeight: '31px' }}>
+            Comments, CodeRabbit, Reviews, Commits and PR Status are active here. Bots is off. Their similar chip styling makes this harder to read at a glance.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '27px' }}>
+            Follow-up opportunity. This is outside the four changes in the final screen.
+          </div>
+        </div>
+        <svg width="672" height="380" viewBox="0 0 672 380" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: 0, top: '32px', display: 'inline-block' }}>
+          <rect x="26" y="83" width="576" height="119" rx="12" fill="none" stroke="#C65D21" strokeWidth="2" />
+          <path d="M622 143H605m7-5-7 5 7 5" fill="none" stroke="#C65D21" strokeWidth="2" />
+          <circle cx="640" cy="143" r="17" fill="#C65D21" />
+          <text x="640" y="149" textAnchor="middle" fontFamily="Geist" fontSize="16" fill="#FFFFFF">
+            8
+          </text>
+        </svg>
+      </div>
+      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+        The original already supports severity, resolution and multi-select filters. I’m questioning how clearly their state reads. These observations still need testing with developers.
+      </div>
+    </div>
+  )

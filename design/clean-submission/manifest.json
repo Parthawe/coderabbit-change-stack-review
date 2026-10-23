@@ -21,72 +21,32 @@
           "name": "Eight observations",
           "width": 1440.0,
           "height": 1222.0,
-          "x": 1600,
+          "x": 1760,
           "y": 0
         },
         {
           "id": "6HS-0",
-          "name": "Observation 1 · One range, six points",
-          "width": 1440.0,
-          "height": 839.0,
+          "name": "1–3 · Finding the right code",
+          "width": 1600.0,
+          "height": 1238.0,
           "x": 0,
           "y": 1440
-        },
-        {
-          "id": "6IE-0",
-          "name": "Observation 2 · Reading also moves the code",
-          "width": 1440.0,
-          "height": 839.0,
-          "x": 1600,
-          "y": 1440
-        },
-        {
-          "id": "6IN-0",
-          "name": "Observation 3 · The layer and its files sit apart",
-          "width": 1440.0,
-          "height": 858.0,
-          "x": 0,
-          "y": 2480
         },
         {
           "id": "6JP-0",
-          "name": "Observation 4 · Following a check needs a way back",
-          "width": 1440.0,
-          "height": 783.0,
-          "x": 1600,
-          "y": 2480
-        },
-        {
-          "id": "6KA-0",
-          "name": "Observation 5 · File actions are spread across groups",
-          "width": 1440.0,
-          "height": 726.0,
-          "x": 0,
-          "y": 3520
-        },
-        {
-          "id": "6KV-0",
-          "name": "Observation 6 · Seen, viewed and submitted mean different things",
-          "width": 1440.0,
-          "height": 821.0,
-          "x": 1600,
-          "y": 3520
+          "name": "4–6 · Keeping your place and progress",
+          "width": 1600.0,
+          "height": 1170.0,
+          "x": 1760,
+          "y": 1440
         },
         {
           "id": "69T-0",
-          "name": "Observation 7 · Comments, severity and status",
-          "width": 1440.0,
-          "height": 1102.0,
+          "name": "7–8 · Reading status and filters",
+          "width": 1600.0,
+          "height": 1331.0,
           "x": 0,
-          "y": 4560
-        },
-        {
-          "id": "6AE-0",
-          "name": "Observation 8 · Overview activity filters",
-          "width": 1440.0,
-          "height": 727.0,
-          "x": 1600,
-          "y": 4560
+          "y": 2880
         }
       ]
     },
@@ -248,67 +208,27 @@
     },
     {
       "nodeId": "6HS-0",
-      "file": "design/clean-submission/01c-observation-1.png",
-      "jsx": "design/clean-submission/01c-observation-1.jsx",
+      "file": "design/clean-submission/01c-evidence-1-3.png",
+      "jsx": "design/clean-submission/01c-evidence-1-3.jsx",
       "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1678
-    },
-    {
-      "nodeId": "6IE-0",
-      "file": "design/clean-submission/01d-observation-2.png",
-      "jsx": "design/clean-submission/01d-observation-2.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1678
-    },
-    {
-      "nodeId": "6IN-0",
-      "file": "design/clean-submission/01e-observation-3.png",
-      "jsx": "design/clean-submission/01e-observation-3.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1716
+      "pixelWidth": 3200,
+      "pixelHeight": 2476
     },
     {
       "nodeId": "6JP-0",
-      "file": "design/clean-submission/01f-observation-4.png",
-      "jsx": "design/clean-submission/01f-observation-4.jsx",
+      "file": "design/clean-submission/01d-evidence-4-6.png",
+      "jsx": "design/clean-submission/01d-evidence-4-6.jsx",
       "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1566
-    },
-    {
-      "nodeId": "6KA-0",
-      "file": "design/clean-submission/01g-observation-5.png",
-      "jsx": "design/clean-submission/01g-observation-5.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1452
-    },
-    {
-      "nodeId": "6KV-0",
-      "file": "design/clean-submission/01h-observation-6.png",
-      "jsx": "design/clean-submission/01h-observation-6.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1642
+      "pixelWidth": 3200,
+      "pixelHeight": 2340
     },
     {
       "nodeId": "69T-0",
-      "file": "design/clean-submission/01i-observation-7.png",
-      "jsx": "design/clean-submission/01i-observation-7.jsx",
+      "file": "design/clean-submission/01e-evidence-7-8.png",
+      "jsx": "design/clean-submission/01e-evidence-7-8.jsx",
       "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 2204
-    },
-    {
-      "nodeId": "6AE-0",
-      "file": "design/clean-submission/01j-observation-8.png",
-      "jsx": "design/clean-submission/01j-observation-8.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1454
+      "pixelWidth": 3200,
+      "pixelHeight": 2662
     },
     {
       "nodeId": "62A-0",

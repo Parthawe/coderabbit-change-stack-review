@@ -431,3 +431,12 @@ Inspected all six rendered sections for readable type, crop boundaries, pointer 
 Inspected Chronicle’s gallery and the Lovable case study and FlowOS sample proposal in the browser. Applied their use of connected process diagrams, dominant visuals and adjacent explanations to six existing Paper boards. The challenge now introduces the review as a three-step flow, with the assumed persona and hypothesis alongside each other. The four decisions give the chosen section more room and remove the alternatives’ outer boxes. The interaction table is now six action-and-result flows in two columns. No new pages or boards were added.
 
 Reviewed the six revised renders, fixed an awkwardly wrapped function label in the two-pane layout sketch, and aligned the reason/tradeoff rows. Refreshed PNG and JSX exports at 2×. Checked the complete 25-board manifest for missing exports and overlapping bounds; all passed. Source screenshot pixels, numbered evidence pointers, final product screen, prototype behavior and one-page rationale remain unchanged. No research or performance claim was added.
+
+
+### Grouped evidence boards — 23 October 2026
+
+Combined the eight individual evidence boards into three related groups: 1–3, Finding the right code; 4–6, Keeping your place and progress; and 7–8, Reading status and filters. The sidebar retains four pages. Points 1 and 2 share the original summary capture; navigation has its own detail below. The second group uses three distinct source crops. Comments and Overview remain separately labeled states in the third group.
+
+Reviewed all three renders for spacing, type, contrast, alignment, clipping and repetition. All eight pointers match their explanations. Removed repeated captions and the five obsolete board shells. Original image density is preserved; no enhancement or invented source content was added. Refreshed the three grouped PNG exports at 2× and their editable JSX. Verified all 20 manifest entries, image dimensions and canvas bounds. Previous individual exports remain in Git history.
+
+This change groups the evidence in Paper and its export package. Prototype behavior, final product screen and rationale are unchanged. Nothing was sent to CodeRabbit.
