@@ -1,3 +1,9 @@
+# Four-page Paper consolidation · October 23
+
+Verified four actual Paper pages after removing six empty pages. Combined task, diagnosis and choice on one board; combined progress, tradeoff, next test and scope on one supporting board. Inspected both revised boards for spacing, type, contrast, alignment and clipping. Full-size comparison and native review states remain unchanged.
+
+Updated exports and their manifest to match the four-page file. Prototype behavior and the one-page rationale remain unchanged. The ten-page reading pass below records an earlier state, superseded by this consolidation.
+
 # Paper reading pass · October 23
 
 Split the opening into task, priorities and direction. Separated guard/Return, Focus, progress, tradeoff and next test. Removed evaluator-question headings and the dense capability map. Paper text search confirms those prompts are absent. Shortened annotations while retaining the original screenshots and native design states.

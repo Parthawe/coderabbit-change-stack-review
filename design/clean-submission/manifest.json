@@ -7,12 +7,6 @@
     "p-1-0": [
       "5FN-0"
     ],
-    "p-6-0": [
-      "5V2-0"
-    ],
-    "p-7-0": [
-      "5SP-0"
-    ],
     "p-3-0": [
       "5LD-0",
       "5LE-0"
@@ -23,90 +17,58 @@
     ],
     "p-5-0": [
       "5LG-0",
-      "3PS-0"
-    ],
-    "p-8-0": [
+      "3PS-0",
       "5V4-0",
-      "BL-0"
-    ],
-    "p-9-0": [
+      "BL-0",
       "5LH-0"
-    ],
-    "p-2-0": [
-      "5LI-0"
-    ],
-    "p-A-0": [
-      "5V3-0"
     ]
   },
   "exports": [
     {
       "nodeId": "5FN-0",
-      "file": "design/clean-submission/01-task.png"
-    },
-    {
-      "nodeId": "5V2-0",
-      "file": "design/clean-submission/02-priorities.png"
-    },
-    {
-      "nodeId": "5SP-0",
-      "file": "design/clean-submission/03-direction.png"
+      "file": "design/clean-submission/01-task-and-decisions.png"
     },
     {
       "nodeId": "5LD-0",
-      "file": "design/clean-submission/04a-original.png"
+      "file": "design/clean-submission/02a-original.png"
     },
     {
       "nodeId": "5LE-0",
-      "file": "design/clean-submission/04b-final-comparison.png"
+      "file": "design/clean-submission/02b-final-comparison.png"
     },
     {
       "nodeId": "5LF-0",
-      "file": "design/clean-submission/05a-final-caption.png"
+      "file": "design/clean-submission/03a-final-caption.png"
     },
     {
       "nodeId": "1-0",
-      "file": "design/clean-submission/05b-final-iteration.png"
+      "file": "design/clean-submission/03b-final-iteration.png"
     },
     {
       "nodeId": "5LG-0",
-      "file": "design/clean-submission/06a-guard-caption.png"
+      "file": "design/clean-submission/04a-guard-caption.png"
     },
     {
       "nodeId": "3PS-0",
-      "file": "design/clean-submission/06b-inspect-and-return.png"
+      "file": "design/clean-submission/04b-inspect-and-return.png"
     },
     {
       "nodeId": "5V4-0",
-      "file": "design/clean-submission/07a-focus-caption.png"
+      "file": "design/clean-submission/04c-focus-caption.png"
     },
     {
       "nodeId": "BL-0",
-      "file": "design/clean-submission/07b-focus.png"
+      "file": "design/clean-submission/04d-focus.png"
     },
     {
       "nodeId": "5LH-0",
-      "file": "design/clean-submission/08-progress.png"
-    },
-    {
-      "nodeId": "5LI-0",
-      "file": "design/clean-submission/09-tradeoff.png"
-    },
-    {
-      "nodeId": "5V3-0",
-      "file": "design/clean-submission/10-next-test.png"
+      "file": "design/clean-submission/04e-progress-and-tradeoffs.png"
     }
   ],
   "pageOrder": [
-    "The task",
-    "What I noticed",
-    "The direction I chose",
-    "Same-content comparison",
+    "Task & decisions",
+    "Original & final",
     "Final iteration",
-    "Inspect and return",
-    "Read without distractions",
-    "Mark progress deliberately",
-    "The tradeoff",
-    "What I would test"
+    "Interactions & tradeoffs"
   ]
 }
