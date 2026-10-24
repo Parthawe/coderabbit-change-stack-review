@@ -34,6 +34,14 @@
           </div>
         </div>
       </div>
+      <div style={{ borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingTop: '24px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '220px' }}>
+          Later · Overview
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#17151A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px', width: '1000px' }}>
+          I’d make the existing filters’ on/off states easier to read when several are selected.
+        </div>
+      </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px', paddingTop: '8px' }}>
         Prototype scope: 7 of 52 diffs, manually linked code and one paraphrased finding. Missing replies and preview-only workflows are labelled. I haven’t measured a speed improvement.
       </div>
