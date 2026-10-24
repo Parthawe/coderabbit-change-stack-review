@@ -94,9 +94,9 @@
       "artboards": [
         {
           "id": "5LF-0",
-          "name": "Why these groups exist",
+          "name": "Final iteration · purpose and prototype",
           "width": 1440.0,
-          "height": 172.0,
+          "height": 156.0,
           "x": 0,
           "y": 0
         },
@@ -109,20 +109,12 @@
           "y": 220
         },
         {
-          "id": "5LD-0",
-          "name": "Original · matched comparison",
-          "width": 1440.0,
-          "height": 1004.0,
-          "x": 0,
-          "y": 1400
-        },
-        {
           "id": "5LE-0",
-          "name": "Final iteration · same content and viewport",
+          "name": "What I changed",
           "width": 1440.0,
-          "height": 1032.0,
-          "x": 1600,
-          "y": 1400
+          "height": 452.0,
+          "x": 0,
+          "y": 1260
         }
       ]
     },
@@ -268,7 +260,7 @@
       "jsx": "design/clean-submission/03a-task.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 344
+      "pixelHeight": 312
     },
     {
       "nodeId": "1-0",
@@ -279,20 +271,12 @@
       "pixelHeight": 1920
     },
     {
-      "nodeId": "5LD-0",
-      "file": "design/clean-submission/03c-matched-original.png",
-      "jsx": "design/clean-submission/03c-matched-original.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 2008
-    },
-    {
       "nodeId": "5LE-0",
-      "file": "design/clean-submission/03d-matched-prototype.png",
-      "jsx": "design/clean-submission/03d-matched-prototype.jsx",
+      "file": "design/clean-submission/03c-what-changed.png",
+      "jsx": "design/clean-submission/03c-what-changed.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 2064
+      "pixelHeight": 904
     },
     {
       "nodeId": "6C5-0",

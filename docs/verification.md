@@ -467,3 +467,8 @@ Reviewed all four rendered boards for type, spacing, alignment, contrast and cli
 Changed the selected statement to gray in Paper and the prototype; code range emphasis stays orange. The matched prototype uses a fresh 2560 × 1440 browser capture, with neutral pointers and no surrounding annotation boxes. Original evidence captures remain unchanged. The final-screen caption names the visible Normalize tenant IDs / L75 state and explains the file → summary → code → viewed sequence.
 
 Checked at 1280 × 720 and 1440 × 960. Summary expansion preserves diff scroll; Normalize tenant IDs selects line 75; Inspect guard and Return restore the selected access check; Focus returns to the summary. No page-width overflow. Exported five affected Paper boards at 2×. Updated rationale copy and verified its one-page PDF rendering. No developer usability test or measured improvement is claimed.
+
+
+## Final-page presentation cleanup · October 23
+
+Removed duplicate comparison captures from the final Paper page and archived their PNG/JSX exports. The final page now contains the editable screen, a brief purpose/click-through caption, and four change notes. Removed “matched prototype” labels and viewport/commit comparison details from that page. The original evidence and decision pages remain; product interactions are unchanged. Reviewed both updated sections for text fit, spacing and alignment, and refreshed the 2× exports and manifest.

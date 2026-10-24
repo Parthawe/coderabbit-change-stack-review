@@ -11,11 +11,11 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
-          Read one point, check its code, then continue the review. Here, “Normalize tenant IDs” is selected and line 75 is highlighted.
+          I kept the layer-based review and made the path from a summary to its code easier to follow.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px', whiteSpace: 'pre-wrap' }}>
-        Open a file on the left → read its summary on the right → select a line link to check the code → Mark viewed when done.<br />Try it: parthawe.github.io/coderabbit-change-stack-review/
+        Shown below: access.ts, with “Normalize tenant IDs” linked to line 75.<br />Try the prototype: parthawe.github.io/coderabbit-change-stack-review/
       </div>
     </div>
   )
