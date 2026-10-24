@@ -880,7 +880,7 @@
                     L70
                   </div>
                 </div>
-                <div style={{ alignItems: 'center', backgroundColor: '#FFEAD5', borderRadius: '3px', boxSizing: 'border-box', columnGap: '8px', display: 'flex', flexWrap: 'wrap', height: 'fit-content', minHeight: '32px', paddingBlock: '6px', paddingInline: '4px' }}>
+                <div style={{ alignItems: 'center', backgroundColor: '#ECEBED', borderRadius: '3px', boxSizing: 'border-box', columnGap: '8px', display: 'flex', flexWrap: 'wrap', height: 'fit-content', minHeight: '32px', paddingBlock: '6px', paddingInline: '4px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#211F24', flexBasis: '0px', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px', minWidth: '0px' }}>
                     Normalize tenant IDs
                   </div>

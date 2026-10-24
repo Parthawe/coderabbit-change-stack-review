@@ -990,7 +990,7 @@
                     L70
                   </div>
                 </div>
-                <div style={{ backgroundColor: '#FFEAD5', borderRadius: '3px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px', padding: '5px' }}>
+                <div style={{ backgroundColor: '#ECEBED', borderRadius: '3px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '3px', padding: '5px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
                     trims directory IDs to normalize Hub tenant_id matching,
                   </div>

@@ -460,3 +460,10 @@ The summary study contrasts the source click behavior with separate expansion an
 Each study includes a specific cost, limit or condition that could change the decision. The explorations are current design reasoning, not a claimed historical sequence or A/B-test result. The comments study explicitly notes that one captured thread does not establish how the grouping works across mixed open/resolved findings.
 
 Reviewed all four rendered boards for type, spacing, alignment, contrast and clipping. Fixed a reparenting issue in the drawer strip and removed repeated review metadata from the file-action alternatives. Refreshed four native 2× PNGs and JSX exports, moved the lower canvas row to prevent overlap, and verified all 20 manifest export pairs. Final screen, prototype behavior and rationale decisions remain consistent. Nothing was sent to CodeRabbit.
+
+
+## Neutral summary selection · October 23
+
+Changed the selected statement to gray in Paper and the prototype; code range emphasis stays orange. The matched prototype uses a fresh 2560 × 1440 browser capture, with neutral pointers and no surrounding annotation boxes. Original evidence captures remain unchanged. The final-screen caption names the visible Normalize tenant IDs / L75 state and explains the file → summary → code → viewed sequence.
+
+Checked at 1280 × 720 and 1440 × 960. Summary expansion preserves diff scroll; Normalize tenant IDs selects line 75; Inspect guard and Return restore the selected access check; Focus returns to the summary. No page-width overflow. Exported five affected Paper boards at 2×. Updated rationale copy and verified its one-page PDF rendering. No developer usability test or measured improvement is claimed.

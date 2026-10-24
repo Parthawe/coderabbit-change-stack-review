@@ -28,8 +28,9 @@
       "bytes": 161783
     },
     "prototype-unified-access-call.png": {
-      "sha256": "f61bf9f9eabe60f3a3db9c8647f4cdb0379b483676827edade65e8bf7d7b9cb8",
-      "bytes": 186442
+      "sha256": "12e0fc9cf42fac570b09d46842cfadf6d85add188f1f01c032f0321337525722",
+      "bytes": 185234
     }
-  }
+  },
+  "prototype_selection_update": "Neutral gray summary selection; linked code retains orange. Fresh browser capture at 1280 × 720; original captures unchanged."
 }

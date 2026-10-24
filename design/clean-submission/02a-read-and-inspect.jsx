@@ -56,7 +56,7 @@
                 L57–65
               </div>
             </div>
-            <div style={{ backgroundColor: '#FFEAD5', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', padding: '8px' }}>
+            <div style={{ backgroundColor: '#ECEBED', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', padding: '8px' }}>
               <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
                 Normalize tenant IDs
               </div>

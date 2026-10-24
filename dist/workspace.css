@@ -80,3 +80,9 @@
 .summary-card .summary-seen { display:block; margin:8px 0 0 auto; }
 .compact-summary .summary-title strong { font-size:14px; }
 .summary-content .statement-list { padding:0 0 12px; }
+
+/* Summary selection stays neutral; orange belongs to the linked code range. */
+.source-statement.is-active { background:#ECEBED; color:var(--text); }
+.statement-action:hover { background:#E3E0E7; }
+.statement-action:focus-visible, .source-statement .guard-link:focus-visible { outline:2px solid #65616A; outline-offset:2px; }
+.source-statement .statement-range, .source-statement .guard-link { color:var(--text); }

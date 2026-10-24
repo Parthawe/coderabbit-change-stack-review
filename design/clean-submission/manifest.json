@@ -96,7 +96,7 @@
           "id": "5LF-0",
           "name": "Why these groups exist",
           "width": 1440.0,
-          "height": 178.0,
+          "height": 172.0,
           "x": 0,
           "y": 0
         },
@@ -268,7 +268,7 @@
       "jsx": "design/clean-submission/03a-task.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 356
+      "pixelHeight": 344
     },
     {
       "nodeId": "1-0",

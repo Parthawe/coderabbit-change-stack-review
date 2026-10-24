@@ -11,7 +11,7 @@ Four Paper pages, with related boards kept at full size:
 
 Each decision study uses the captured task content and labels the sketches as current explorations. They are not A/B-test results. The original already supports summary navigation, complexity filters, comment severity/resolved filters and Focus. The changes refine those relationships and actions.
 
-The final screen, guard and Focus states share the compact source header. The added wordmark is removed. Sample progress lives in navigation. Gray indicates navigation/display selection, orange connects a statement to code, and red/green retain diff meaning.
+The final screen, guard and Focus states share the compact source header. The added wordmark is removed. Sample progress lives in navigation. Gray indicates navigation, display and summary selection; orange highlights the linked code, and red/green retain diff meaning.
 
 Current 2× PNG and editable JSX exports are in design/clean-submission. The source and prototype screenshots are 2560 × 1440 browser captures at the same 1280 × 720 CSS viewport. Evidence sections 1–6 use enlarged, clipped details from that same source capture; annotations remain separate editable layers. The Overview crop is captured at 4× pixel density, giving 1344 × 760 pixels for its 672 × 380 Paper display. No AI image enhancement is used. The manifest maps 20 boards, including source details, states and captions, to the four Paper pages. Previous exports are recoverable from Git history. Earlier exploratory Paper work remains in the archive file 01M5AQACJZP42ZGTRX7GF9ERE7 and is not part of the submission route.
 

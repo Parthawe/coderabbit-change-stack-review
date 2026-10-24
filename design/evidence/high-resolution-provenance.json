@@ -42,7 +42,7 @@
         2560,
         1440
       ],
-      "sha256": "dc0b553c29c58d33d9a468d131b62051d01e4e4cb3f68e8e913e6c1af84dcf86"
+      "sha256": "f3575079b1c97a62d3e1b7b933d880533b95e17792e74d58319d9125defcd26f"
     }
   },
   "overviewCrop": {
@@ -57,5 +57,6 @@
       672,
       380
     ]
-  }
+  },
+  "prototype_selection_update": "Neutral gray summary selection; linked code retains orange. Fresh browser capture at 1280 × 720; original captures unchanged."
 }

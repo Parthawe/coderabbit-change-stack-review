@@ -14,24 +14,22 @@
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', flexShrink: '0', height: '720px', position: 'relative', width: '1280px' }}>
-        <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/4E8W2EB6Q382RSCBTC1P14QA6S.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', height: '720px', width: '1280px' }} />
+        <div style={{ backgroundImage: 'url(https://app.paper.design/file-assets/01M5MWMDHE2E77VV689SCNHGV7/63V3MHCVR4WM99P451XT3VS79A.png)', backgroundPosition: '50%', backgroundRepeat: 'no-repeat', backgroundSize: '100% 100%', boxSizing: 'border-box', height: '720px', width: '1280px' }} />
         <svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: '0px', top: '0px', display: 'inline-block' }}>
-          <rect x="974" y="278" width="282" height="58" rx="4" fill="none" stroke="#C65D21" strokeWidth="2" />
-          <path d="M944 307h28m-7-5 7 5-7 5" fill="none" stroke="#C65D21" strokeWidth="2" />
-          <circle cx="926" cy="307" r="16" fill="#C65D21" />
+          <path d="M944 307h28m-7-5 7 5-7 5" fill="none" stroke="#65616A" strokeWidth="2" />
+          <circle cx="926" cy="307" r="16" fill="#65616A" />
           <text x="926" y="313" textAnchor="middle" fontFamily="Geist" fontSize="16" fill="#FFFFFF">
             1
           </text>
-          <rect x="752" y="168" width="190" height="40" rx="4" fill="none" stroke="#C65D21" strokeWidth="2" />
-          <path d="M720 188h30m-7-5 7 5-7 5" fill="none" stroke="#C65D21" strokeWidth="2" />
-          <circle cx="702" cy="188" r="16" fill="#C65D21" />
+          <path d="M720 188h30m-7-5 7 5-7 5" fill="none" stroke="#65616A" strokeWidth="2" />
+          <circle cx="702" cy="188" r="16" fill="#65616A" />
           <text x="702" y="194" textAnchor="middle" fontFamily="Geist" fontSize="16" fill="#FFFFFF">
             5
           </text>
         </svg>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#A33C17', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '28px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '28px' }}>
           1
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '300px' }}>
@@ -42,7 +40,7 @@
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#A33C17', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '28px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '28px' }}>
           5
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '300px' }}>

@@ -1,5 +1,5 @@
 (
-    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '24px', height: 'fit-content', justifyContent: 'center', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '32px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '16px', height: 'fit-content', justifyContent: 'center', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '24px', paddingInline: '32px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '40px' }}>
         <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '16px', width: '400px' }}>
           <svg width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
@@ -10,12 +10,12 @@
             Final iteration
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '900px' }}>
-          Expand a summary to read it. Select “Normalize tenant IDs” to highlight L75; the surrounding code stays in view.
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
+          Read one point, check its code, then continue the review. Here, “Normalize tenant IDs” is selected and line 75 is highlighted.
         </div>
       </div>
-      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
-        Try it: parthawe.github.io/coderabbit-change-stack-review/ · Prototype coverage and local-state limits are separate from the reviewing screen.
+      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px', whiteSpace: 'pre-wrap' }}>
+        Open a file on the left → read its summary on the right → select a line link to check the code → Mark viewed when done.<br />Try it: parthawe.github.io/coderabbit-change-stack-review/
       </div>
     </div>
   )
