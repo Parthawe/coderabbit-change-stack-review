@@ -10,7 +10,7 @@ The site opens directly into the reviewing workspace. Paper has four pages: Prob
 
 The original already has summary jumps, viewed status and Focus. This iteration adds individual targets for six summary points, a manually mapped guard/return path, independent summary expansion, clearer layer/file nesting and Undo. Gray identifies navigation and display selections; orange connects a summary statement to its code. Complexity labels retain their source values. Opening a file marks nothing viewed.
 
-Comments distinguish source messages from captured threads. The access.ts finding is resolved history with Major severity, not an open blocker. Its two reply bodies are not reproduced. Other files retain verified counts without invented severity totals; local notes are separate.
+Comments distinguish source messages from captured threads. The access.ts finding is resolved history with Major severity, not an open blocker. Expand the thread to read without moving the diff; its separate line link opens the code. Its two reply bodies are not reproduced. Other files retain verified counts without invented severity totals; local notes are separate.
 
 Seven of 52 diffs are included at commit 23cdac2. The PR is merged, so Submit is disabled. About this prototype contains coverage and separate simulated states. Notes and progress stay in the tab. No developer study or measured improvement is claimed. The new alternatives are current explorations, not A/B tests. The work exceeded the original 1–2 hour brief.
 

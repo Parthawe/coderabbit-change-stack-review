@@ -59,7 +59,7 @@
                     </div>
                     <div id="771-0" style={{ boxSizing: 'border-box', display: 'inline-block', fontSizeAdjust: 'none', paddingLeft: '6px' }}>
                       <div id="772-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '21px' }}>
-                        3 total
+                        1 nit
                       </div>
                     </div>
                   </div>

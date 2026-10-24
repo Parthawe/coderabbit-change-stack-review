@@ -95,8 +95,8 @@
         {
           "id": "6UY-0",
           "name": "Final iteration",
-          "width": 1440,
-          "height": 960,
+          "width": 1440.0,
+          "height": 960.0,
           "x": 1080,
           "y": 970
         },

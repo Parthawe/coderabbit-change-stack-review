@@ -83,7 +83,7 @@
       "summaryCount": 37,
       "comments": 15,
       "severity": "1 major",
-      "severityNote": "Captured detail includes 1 major and 1 minor. A complete severity breakdown for all 3 findings was not captured.",
+      "severityNote": "3 findings: 1 major, 1 minor and 1 nitpick, captured in the original layer comments filters.",
       "added": 1120,
       "deleted": 11
     },

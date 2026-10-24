@@ -58,3 +58,10 @@
 .file-viewed{accent-color:#176b45}
 
 .thread-tags{gap:6px}.thread-tags>span{padding:2px 6px}.resolved-badge{border-radius:4px;padding:2px 7px;font-size:13px;line-height:20px}.resolved-badge svg{width:14px;height:14px}
+
+/* Reading a thread and following its code link are separate actions. */
+.resolved-history .thread-card{margin-top:20px;padding:16px;border:1px solid #d5d2d8;border-radius:5px;background:#fff}
+.resolved-history .thread-card .thread-summary{margin:0;padding:0;border:0;border-radius:0;background:transparent}
+.thread-card .thread-footer{margin-top:12px}
+.thread-card .thread-lines{padding:0;border:0;border-radius:0;background:transparent;font:inherit;text-align:left}
+.thread-card .thread-lines:hover{color:var(--ink)}

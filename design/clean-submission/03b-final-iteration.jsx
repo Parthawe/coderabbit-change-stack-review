@@ -161,7 +161,7 @@
                     </div>
                     <div id="74I-0" style={{ boxSizing: 'border-box', display: 'inline-block', fontSizeAdjust: 'none', paddingLeft: '6px' }}>
                       <div id="74J-0" style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '15px' }}>
-                        3 total
+                        1 nit
                       </div>
                     </div>
                   </div>

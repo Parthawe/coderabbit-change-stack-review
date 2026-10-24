@@ -65,18 +65,18 @@
         135,
         570
       ],
-      "path": "M2508 1402 H2550 V1930 H2620",
+      "path": "M2508 1492 H2550 V1930 H2620",
       "arrow": "M2608 1922 L2620 1930 L2608 1938",
       "dot": [
         2508,
-        1402
+        1492
       ],
       "badge": [
         2550,
         1670
       ],
-      "nodeId": "7BO-0",
-      "jsx": "(\n    <svg width=\"135\" height=\"570\" viewBox=\"2500 1390 135 570\" xmlns=\"http://www.w3.org/2000/svg\" id=\"7BO-0\" style={{ position: 'absolute', left: 2500, top: 1290, display: 'inline-block' }}>\n      <path d=\"M2508 1402 H2550 V1930 H2620\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinejoin=\"round\" />\n      <path d=\"M2608 1922 L2620 1930 L2608 1938\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinecap=\"round\" />\n      <circle cx=\"2508\" cy=\"1402\" r=\"4\" fill=\"#C65D21\" />\n      <circle cx=\"2550\" cy=\"1670\" r=\"21\" fill=\"#C65D21\" />\n      <text x=\"2550\" y=\"1677\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"22\" fontWeight=\"600\" fill=\"#FFFFFF\">\n        5\n      </text>\n    </svg>\n  )"
+      "nodeId": "7IM-0",
+      "jsx": "(\n    <svg width=\"135\" height=\"570\" viewBox=\"2500 1390 135 570\" xmlns=\"http://www.w3.org/2000/svg\" id=\"7IM-0\" style={{ position: 'absolute', left: 2500, top: 1290, display: 'inline-block' }}>\n      <path d=\"M2508 1492 H2550 V1930 H2620\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinejoin=\"round\" />\n      <path d=\"M2608 1922 L2620 1930 L2608 1938\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinecap=\"round\" />\n      <circle cx=\"2508\" cy=\"1492\" r=\"4\" fill=\"#C65D21\" />\n      <circle cx=\"2550\" cy=\"1670\" r=\"21\" fill=\"#C65D21\" />\n      <text x=\"2550\" y=\"1677\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"22\" fontWeight=\"600\" fill=\"#FFFFFF\">\n        5\n      </text>\n    </svg>\n  )"
     },
     {
       "old": "71D-0",
@@ -85,20 +85,20 @@
         2500,
         1282,
         135,
-        60
+        134
       ],
-      "path": "M2508 1312 H2620",
+      "path": "M2508 1386 H2540 V1312 H2620",
       "arrow": "M2608 1304 L2620 1312 L2608 1320",
       "dot": [
         2508,
-        1312
+        1386
       ],
       "badge": [
         2570,
         1312
       ],
-      "nodeId": "7BV-0",
-      "jsx": "(\n    <svg width=\"135\" height=\"60\" viewBox=\"2500 1282 135 60\" xmlns=\"http://www.w3.org/2000/svg\" id=\"7BV-0\" style={{ position: 'absolute', left: 2500, top: 1208, display: 'inline-block' }}>\n      <path d=\"M2508 1312 H2620\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinejoin=\"round\" />\n      <path d=\"M2608 1304 L2620 1312 L2608 1320\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinecap=\"round\" />\n      <circle cx=\"2508\" cy=\"1312\" r=\"4\" fill=\"#C65D21\" />\n      <circle cx=\"2570\" cy=\"1312\" r=\"21\" fill=\"#C65D21\" />\n      <text x=\"2570\" y=\"1319\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"22\" fontWeight=\"600\" fill=\"#FFFFFF\">\n        6\n      </text>\n    </svg>\n  )"
+      "nodeId": "7IT-0",
+      "jsx": "(\n    <svg width=\"135\" height=\"134\" viewBox=\"2500 1282 135 134\" xmlns=\"http://www.w3.org/2000/svg\" id=\"7IT-0\" style={{ position: 'absolute', left: 2500, top: 1208, display: 'inline-block' }}>\n      <path d=\"M2508 1386 H2540 V1312 H2620\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinejoin=\"round\" />\n      <path d=\"M2608 1304 L2620 1312 L2608 1320\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinecap=\"round\" />\n      <circle cx=\"2508\" cy=\"1386\" r=\"4\" fill=\"#C65D21\" />\n      <circle cx=\"2570\" cy=\"1312\" r=\"21\" fill=\"#C65D21\" />\n      <text x=\"2570\" y=\"1319\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"22\" fontWeight=\"600\" fill=\"#FFFFFF\">\n        6\n      </text>\n    </svg>\n  )"
     },
     {
       "n": "7–8",
