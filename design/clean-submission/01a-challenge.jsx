@@ -46,9 +46,21 @@
         </div>
       </div>
       <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingBlock: '16px' }}>
-        <svg width="220" height="210" viewBox="0 0 220 210" xmlns="http://www.w3.org/2000/svg" style={{ display: 'inline-block', width: '160px', height: '153px', flexShrink: '0' }}>
+        <svg width="160" height="153" viewBox="0 0 220 210" xmlns="http://www.w3.org/2000/svg" style={{ width: '160px', height: '153px', flexShrink: '0', display: 'inline-block' }}>
           <g>
-            <path d="M20 183h180M48 181v-30c0-25 15-43 39-47M92 107l12 16 15-17M132 109c17 4 29 14 34 30M86 66c-3-19 3-36 22-36 23 0 33 16 28 40M87 60v20c0 15 9 25 22 25s24-12 24-28V60M88 59c14 1 24-3 33-14 1 10 5 15 12 15M98 74h2m18 0h2M104 91c4 3 8 3 12-1M76 136l14 28h36M57 182l-8 18m114-18 8 18M107 130h78l-12 51h-77zM144 151l-5 5 5 5m12-10 5 5-5 5" fill="none" stroke="#211F24" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M30 169v-47c0-9 5-14 13-14h9" fill="none" stroke="#A5A0AA" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M22 170h185M42 170l-6 22m145-22 6 22" fill="none" stroke="#37333C" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M47 165v-32c0-16 8-28 24-32l10-3m18 1 9 6c9 7 13 17 17 27" fill="#FAF8FB" stroke="#37333C" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M82 86v13l10 9 8-9-3-17" fill="#FAF8FB" stroke="#37333C" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M70 58c0-16 8-26 22-26 16 0 24 11 23 27l-1 9 6 9-8 3c-1 11-7 17-17 17-10 0-18-7-20-19" fill="#FAF8FB" stroke="#37333C" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M72 68c-7-6-9-17-6-26 3-10 14-17 26-16 12 0 23 5 26 16-7 5-17 5-24 1-1 9-8 16-16 18v10" fill="#E8E5EB" stroke="#37333C" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M78 70c-5-7-12-3-10 3 1 5 5 7 10 6M103 61l7 1M103 68h1M103 85l6-1" fill="none" stroke="#37333C" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M70 105l13 13 9-10 10 10 7-11M62 130l10 20c3 6 6 9 13 9h35" fill="none" stroke="#37333C" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M72 126l12 20h30l8-5c3-2 6-1 8 1l5 6M115 146l8 6h15" fill="none" stroke="#37333C" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M51 154v11M85 159v6" fill="none" stroke="#A5A0AA" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M128 116h68l-12 49h-68z" fill="#FAF8FB" stroke="#37333C" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M109 165h79l-4 5h-81z" fill="#FAF8FB" stroke="#37333C" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M154 139h11" fill="none" stroke="#A5A0AA" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round" />
           </g>
         </svg>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '560px' }}>
