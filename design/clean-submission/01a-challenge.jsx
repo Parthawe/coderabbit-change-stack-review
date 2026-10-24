@@ -8,7 +8,7 @@
           Make the review easier to follow.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '24px', lineHeight: '36px', maxWidth: '1040px' }}>
-          Make Change Stack easier to review without losing what it can do. I focused on the steps a reviewer takes to understand a change and decide what to do next.
+          The brief was to make Change Stack easier to use without losing its capability. I focused on following a change from its explanation to the code.
         </div>
       </div>
       <div style={{ borderBottomColor: '#D5D2D8', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingBlock: '28px', width: '1280px' }}>
@@ -53,26 +53,26 @@
         </svg>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '560px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
-            WHO I’M DESIGNING FOR · Assumed persona
+            WHO I HAD IN MIND · Assumed persona
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px' }}>
-            A developer reviewing alongside their own work.
+            A developer balancing reviews with their own work.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px' }}>
-            A developer at a startup, balancing their own work with reviewing teammates’ PRs. They need enough context to decide whether to approve, ask questions, or request changes.
+            They need enough context to approve a teammate’s PR, ask a question or request changes.
           </div>
         </div>
         <div style={{ borderLeftColor: '#D5D2D8', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', paddingLeft: '32px', width: '496px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
-            MY STARTING HYPOTHESIS
+            MY STARTING POINT
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '24px', lineHeight: '36px', maxWidth: '464px' }}>
-            As the review gets larger, keeping track of the layer, file, explanation and review state may become extra work.
+            I kept having to reconnect the layer, file and explanation. I wanted that relationship to be easier to follow.
           </div>
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px', whiteSpace: 'pre-wrap' }}>
-        Formbricks #8650 · 52 files · 7 layers · Pinned review 23cdac2<br />The persona is an assumption, not an interview participant. The task was scoped to one main reviewing screen.
+        Formbricks #8650 · 52 files · 7 layers<br />These are my observations from using this PR. I haven’t tested them with developers yet.
       </div>
     </div>
   )

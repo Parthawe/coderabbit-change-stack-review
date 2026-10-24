@@ -13,13 +13,13 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          Problems 3–4 · I worked through the access check as a round trip, including how I get back.
+          Problems 3–4 · Following a dependency should include a way back.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '64px', width: '1440px' }}>
         <div style={{ borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', width: '460px' }}>
           <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
-            KEEP THE LAYER RELATIONSHIP
+            WHAT I CHOSE
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Files stay under their layer
@@ -42,12 +42,12 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            CodeRabbit already has a Files tree. I brought nesting into layer review so the active file stays connected to its layer.
+            I brought the existing file-tree idea into layer review, so I can see where the file belongs.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '24px', width: '916px' }}>
           <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
-            THE ROUTE I KEPT
+            FOLLOW THE CHECK
           </div>
           <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Inspect another file. Return to the same place.
@@ -107,7 +107,7 @@
       <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '28px', width: '1440px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            ALTERNATIVE · DIRECT SELECTION
+            I ALSO CONSIDERED
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             A flat file picker
@@ -133,12 +133,12 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            A flat picker is compact. I kept its quick selection idea, but used nesting to show which layer the files belong to.
+            A picker is compact, but hides the layer relationship. I kept it as a shortcut alongside the nested files.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            ALTERNATIVE · PARALLEL READING
+            I ALSO CONSIDERED
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Keep both files open
@@ -156,20 +156,9 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            Two panes let me compare caller and guard together. I kept one pane for this screen; I would revisit two panes with both side panels closed.
+            Two panes help comparison but narrow the code. I chose one pane with Return; comparing files still means switching.
           </div>
         </div>
-      </div>
-      <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingTop: '24px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
-          The cost of this choice
-        </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '1208px' }}>
-          One pane keeps the code wide, but I must switch to compare the files. Return restores context; it does not remove that switching cost.
-        </div>
-      </div>
-      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Current route and layout explorations. The prototype demonstrates one manually mapped caller/guard route. The two-pane sketch has not been tested for readability.
       </div>
     </div>
   )

@@ -15,7 +15,7 @@
           Read, then inspect
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
-          A summary expands without moving the code. Each line link takes you to the relevant statement.
+          I separated reading from jumping to code, so opening an explanation doesn’t interrupt the review.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
@@ -26,7 +26,7 @@
           Keep a way back
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
-          Files sit under their layer. Inspect guard opens the dependency; Return brings you back to your place.
+          I nested files under their layer and added Return, so following a guard doesn’t leave me finding my way back.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
@@ -37,7 +37,7 @@
           Know what is done
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
-          Mark viewed sits beside the filename and updates file progress. Reading a summary leaves that progress alone.
+          I put Mark viewed beside the filename. It tracks the file; reading a summary leaves that progress alone.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '20px' }}>
@@ -48,7 +48,7 @@
           Read findings in context
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
-          In Comments, resolution status comes first. Severity stays on the finding, with replies inside its thread.
+          I put resolution status first so a resolved Major finding reads as history. Replies stay inside the thread.
         </div>
       </div>
     </div>

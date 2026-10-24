@@ -17,15 +17,15 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          Problems 5–6 · I used scope to decide what stays visible, what moves, and what belongs in Tools.
+          Problems 5–6 · Keep the action close to what it affects.
         </div>
       </div>
       <div style={{ borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '1440px' }}>
         <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
-          FINAL GROUPING · ACCESS.TS
+          WHAT I CHOSE
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
-          File actions beside the filename. Reading controls above the diff.
+          File actions by the filename. View controls by the diff.
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', width: '1440px' }}>
           <div style={{ alignItems: 'center', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingBlock: '20px' }}>
@@ -59,7 +59,7 @@
                 </div>
               </div>
               <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-                Changes the view; keeps the same file
+                Changes how I read the same file
               </div>
             </div>
           </div>
@@ -74,7 +74,7 @@
                 </div>
               </div>
               <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-                Records the summary as seen; does not mark the file viewed
+                Tracks the summary only
               </div>
             </div>
           </div>
@@ -89,19 +89,19 @@
                 </div>
               </div>
               <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-                Applies to the review; stays in the PR header
+                Stays in the PR header
               </div>
             </div>
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-          I kept frequent actions visible and moved secondary tools into a named menu. Summary seen, file viewed and review submission keep their own targets.
+          I kept Mark viewed visible because it’s part of finishing a file. Less frequent actions go in Tools.
         </div>
       </div>
       <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '28px', width: '1440px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            EXTREME 1 · KEEP EVERYTHING EXPOSED
+            I ALSO CONSIDERED
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Keep controls distributed
@@ -120,12 +120,12 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            Easy to discover, but I still scan several control groups. I kept the visible actions, then grouped them around the file and the view.
+            Everything is visible, but I still have to search across several rows.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            EXTREME 2 · PUT FILE ACTIONS IN TOOLS
+            I ALSO CONSIDERED
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Put file actions in Tools
@@ -141,7 +141,7 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            A quieter surface, but Mark viewed now needs an extra opening step. I kept the menu for secondary tools rather than using it for every file action.
+            The screen is quieter, but even Mark viewed takes an extra click.
           </div>
         </div>
       </div>
@@ -150,11 +150,8 @@
           The tradeoff
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '1208px' }}>
-          Tools is less visible than a row of buttons. I would check whether developers can find a secondary action, and whether they can explain what Mark viewed changed.
+          Tools is easier to overlook. I’d check whether developers can find the actions I moved there.
         </div>
-      </div>
-      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Scope sketches for access.ts; the alternatives focus on file actions. Summary and review actions stay in their own areas. Review state stays merged.
       </div>
     </div>
   )

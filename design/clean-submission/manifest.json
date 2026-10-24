@@ -10,35 +10,27 @@
       "artboards": [
         {
           "id": "5FN-0",
-          "name": "Task, diagnosis and decision",
+          "name": "The challenge and my starting point",
           "width": 1440.0,
-          "height": 872.0,
+          "height": 853.0,
           "x": 0,
-          "y": 0
-        },
-        {
-          "id": "5YT-0",
-          "name": "Eight observations",
-          "width": 1440.0,
-          "height": 1222.0,
-          "x": 1760,
           "y": 0
         },
         {
           "id": "6HS-0",
           "name": "1–3 · Finding the right code",
           "width": 1600.0,
-          "height": 1238.0,
+          "height": 1172.0,
           "x": 0,
-          "y": 1440
+          "y": 1000
         },
         {
           "id": "6JP-0",
           "name": "4–6 · Keeping your place and progress",
           "width": 1600.0,
-          "height": 1170.0,
+          "height": 1086.0,
           "x": 1760,
-          "y": 1440
+          "y": 1000
         },
         {
           "id": "69T-0",
@@ -46,7 +38,7 @@
           "width": 1600.0,
           "height": 1331.0,
           "x": 0,
-          "y": 2880
+          "y": 2340
         }
       ]
     },
@@ -58,7 +50,7 @@
           "id": "62A-0",
           "name": "01 · Separate reading from navigation",
           "width": 1600.0,
-          "height": 1284.0,
+          "height": 1254.0,
           "x": 0,
           "y": 0
         },
@@ -66,7 +58,7 @@
           "id": "62Q-0",
           "name": "02 · Design the round trip",
           "width": 1600.0,
-          "height": 1365.0,
+          "height": 1179.0,
           "x": 1760,
           "y": 0
         },
@@ -74,7 +66,7 @@
           "id": "634-0",
           "name": "03 · Group controls by scope",
           "width": 1600.0,
-          "height": 1507.0,
+          "height": 1386.0,
           "x": 0,
           "y": 1520
         },
@@ -82,7 +74,7 @@
           "id": "63I-0",
           "name": "04 · Check the reading order",
           "width": 1600.0,
-          "height": 1262.0,
+          "height": 1141.0,
           "x": 1760,
           "y": 1520
         }
@@ -124,9 +116,9 @@
       "artboards": [
         {
           "id": "6C5-0",
-          "name": "Interactions · what changes and what stays",
+          "name": "How the review behaves",
           "width": 1440.0,
-          "height": 1099.0,
+          "height": 959.0,
           "x": 0,
           "y": 0
         },
@@ -139,44 +131,12 @@
           "y": 0
         },
         {
-          "id": "5LG-0",
-          "name": "Follow the check and return",
-          "width": 1440.0,
-          "height": 140.0,
-          "x": 0,
-          "y": 1400
-        },
-        {
-          "id": "3PS-0",
-          "name": "Inspect guard and return",
-          "width": 1440.0,
-          "height": 960.0,
-          "x": 0,
-          "y": 1580
-        },
-        {
-          "id": "5V4-0",
-          "name": "Focus · keep the reading position",
-          "width": 1440.0,
-          "height": 140.0,
-          "x": 1600,
-          "y": 1400
-        },
-        {
-          "id": "BL-0",
-          "name": "Focus mode",
-          "width": 1440.0,
-          "height": 738.0,
-          "x": 1600,
-          "y": 1580
-        },
-        {
           "id": "5LH-0",
-          "name": "Progress, tradeoff and next test",
+          "name": "What I would test next",
           "width": 1440.0,
-          "height": 697.0,
+          "height": 474.0,
           "x": 0,
-          "y": 2700
+          "y": 1160
         }
       ]
     }
@@ -188,15 +148,7 @@
       "jsx": "design/clean-submission/01a-challenge.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 1744
-    },
-    {
-      "nodeId": "5YT-0",
-      "file": "design/clean-submission/01b-observations.png",
-      "jsx": "design/clean-submission/01b-observations.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 2444
+      "pixelHeight": 1706
     },
     {
       "nodeId": "6HS-0",
@@ -204,7 +156,7 @@
       "jsx": "design/clean-submission/01c-evidence-1-3.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2476
+      "pixelHeight": 2344
     },
     {
       "nodeId": "6JP-0",
@@ -212,7 +164,7 @@
       "jsx": "design/clean-submission/01d-evidence-4-6.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2340
+      "pixelHeight": 2172
     },
     {
       "nodeId": "69T-0",
@@ -228,7 +180,7 @@
       "jsx": "design/clean-submission/02a-read-and-inspect.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2568
+      "pixelHeight": 2508
     },
     {
       "nodeId": "62Q-0",
@@ -236,7 +188,7 @@
       "jsx": "design/clean-submission/02b-navigate-and-return.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2730
+      "pixelHeight": 2358
     },
     {
       "nodeId": "634-0",
@@ -244,7 +196,7 @@
       "jsx": "design/clean-submission/02c-actions-and-progress.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 3014
+      "pixelHeight": 2772
     },
     {
       "nodeId": "63I-0",
@@ -252,7 +204,7 @@
       "jsx": "design/clean-submission/02d-comments-and-findings.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2524
+      "pixelHeight": 2282
     },
     {
       "nodeId": "5LF-0",
@@ -284,7 +236,7 @@
       "jsx": "design/clean-submission/04a-interactions.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 2198
+      "pixelHeight": 1918
     },
     {
       "nodeId": "6DD-0",
@@ -295,44 +247,12 @@
       "pixelHeight": 1940
     },
     {
-      "nodeId": "5LG-0",
-      "file": "design/clean-submission/04c-guard-caption.png",
-      "jsx": "design/clean-submission/04c-guard-caption.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 280
-    },
-    {
-      "nodeId": "3PS-0",
-      "file": "design/clean-submission/04d-inspect-and-return.png",
-      "jsx": "design/clean-submission/04d-inspect-and-return.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1920
-    },
-    {
-      "nodeId": "5V4-0",
-      "file": "design/clean-submission/04e-focus-caption.png",
-      "jsx": "design/clean-submission/04e-focus-caption.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 280
-    },
-    {
-      "nodeId": "BL-0",
-      "file": "design/clean-submission/04f-focus.png",
-      "jsx": "design/clean-submission/04f-focus.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1476
-    },
-    {
       "nodeId": "5LH-0",
       "file": "design/clean-submission/04g-tradeoffs-and-next-checks.png",
       "jsx": "design/clean-submission/04g-tradeoffs-and-next-checks.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 1394
+      "pixelHeight": 948
     }
   ]
 }

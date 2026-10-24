@@ -2,7 +2,7 @@
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '40px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '48px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#A33C17', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
-          01 / Where I noticed the problems · 1–3
+          01 / What I noticed · 1–3
         </div>
         <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '16px', width: '100%' }}>
           <svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
@@ -39,7 +39,7 @@
             1 · One range, six points
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
-            This summary links to lines 49–130. It explains six things, but I still have to find the lines behind each point.
+            Six points link to lines 49–130. I still have to search for the code behind each one.
           </div>
           <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', paddingTop: '24px' }}>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '36px' }}>
@@ -47,10 +47,10 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
-            Opening this summary also jumps the diff to its range. I may only want to read the explanation before deciding where to go.
+            Expanding the summary also moves the diff. I want to read first, then choose where to go.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-            Original summary control · Expanded state shown; the jump was observed while using it
+            Original summary, expanded. I observed the jump while using it.
           </div>
         </div>
       </div>
@@ -73,15 +73,12 @@
             3 · Layers and files sit apart
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
-            The selected layer is on the left. Its files are behind a separate picker above the diff.
+            I can see the layer, but its files sit behind a separate picker. Their relationship takes another step to understand.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-            Original navigation · Layer 1 selected · File picker closed
+            Original navigation · File picker closed
           </div>
         </div>
-      </div>
-      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Original review details · Formbricks #8650 · access.ts · Unified · Light. These are observations and assumptions from using this PR, not usability-test results.
       </div>
     </div>
   )

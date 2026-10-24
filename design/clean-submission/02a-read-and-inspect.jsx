@@ -14,13 +14,13 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          Problems 1–2 · I separated two intentions that were attached to the same click.
+          Problems 1–2 · Reading a summary and jumping to code need separate actions.
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '80px', width: '1440px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '18px', width: '440px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            STARTING BEHAVIOR · SIMPLIFIED
+            ORIGINAL BEHAVIOR · Simplified
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Expand and jump together
@@ -31,12 +31,12 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            One click reaches the broad range, but reading also moves the code.
+            I reach the range quickly, but lose my place when I only want to read.
           </div>
         </div>
         <div style={{ borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', width: '920px' }}>
           <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
-            FINAL INTERACTION
+            WHAT I CHOSE
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Expand here. Follow a line link when ready.
@@ -69,14 +69,14 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            I kept the explanation beside the code. Expansion is for reading; a labeled link is for navigation. The original wording and whole function stay available.
+            I kept the explanation beside the diff and gave each point its own line link. The full summary and function remain available.
           </div>
         </div>
       </div>
       <div style={{ alignItems: 'center', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '40px', paddingTop: '28px', width: '1440px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '12px', width: '320px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            ALTERNATIVE CONSIDERED
+            I ALSO CONSIDERED
           </div>
           <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Put the explanation in a drawer
@@ -93,19 +93,19 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', width: '600px' }}>
-          A drawer gives the code more width. I set it aside because it adds another opening step when moving between the explanation and the diff.
+          A drawer gives code more room, but adds an opening step every time I need the explanation.
         </div>
       </div>
       <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '24px', width: '200px' }}>
-          What could change this
+          The tradeoff
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px' }}>
-          A smaller target may make it easier to miss surrounding logic. I would ask developers to find a branch the summary leaves out. If the links narrow their inspection, I would revise them.
+          A precise link could make me miss surrounding logic. I kept the whole function one click away.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Current explorations using the same tenant summary, not a tested sequence. Sketches shorten wording; the prototype retains the full source summary.
+        These are design explorations using this PR, not tested results.
       </div>
     </div>
   )

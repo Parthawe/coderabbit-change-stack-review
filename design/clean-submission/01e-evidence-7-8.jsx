@@ -2,7 +2,7 @@
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '40px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '48px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px' }}>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
-          01 / Where I noticed the problems · 7–8
+          01 / What I noticed · 7–8
         </div>
         <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '16px', width: '100%' }}>
           <svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
@@ -17,7 +17,7 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          Two original states shown separately: Comments and Overview · Formbricks #8650 · Light
+          Original Comments and Overview states
         </div>
       </div>
       <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '64px', width: '1440px' }}>
@@ -41,7 +41,7 @@
               Comments 15
             </div>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
-              Fifteen messages across the layer, including replies. This is not a count of fifteen findings.
+              Messages, including replies. I can’t read this as fifteen findings.
             </div>
           </div>
           <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '16px', width: '992px' }}>
@@ -49,7 +49,7 @@
               Major 1
             </div>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
-              One Major finding in the layer. Severity does not tell me whether it is still open.
+              Severity tells me how serious it is, but not whether it still needs action.
             </div>
           </div>
           <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '16px', width: '992px' }}>
@@ -57,7 +57,7 @@
               Resolved 15
             </div>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
-              Fifteen messages in resolved threads. The access.ts finding below is also marked Resolved.
+              Messages in resolved threads. The finding shown here is already resolved.
             </div>
           </div>
         </div>
@@ -69,10 +69,10 @@
             8 · Which filters are on?
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '21px', lineHeight: '31px' }}>
-            Comments, CodeRabbit, Reviews, Commits and PR Status are active here. Bots is off. Their similar chip styling makes this harder to read at a glance.
+            Bots is off; the five chips beside it are on. The similar styling makes that difference easy to miss.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '27px' }}>
-            Follow-up opportunity. This is outside the four changes in the final screen.
+            I left this for a later pass and focused on the review screen.
           </div>
         </div>
         <svg width="672" height="380" viewBox="0 0 672 380" xmlns="http://www.w3.org/2000/svg" style={{ position: 'absolute', left: 0, top: '32px', display: 'inline-block' }}>
@@ -85,7 +85,7 @@
         </svg>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
-        The original already supports severity, resolution and multi-select filters. I’m questioning how clearly their state reads. These observations still need testing with developers.
+        The original already has these filters. I’m questioning how clearly they read.
       </div>
     </div>
   )

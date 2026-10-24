@@ -472,3 +472,10 @@ Checked at 1280 × 720 and 1440 × 960. Summary expansion preserves diff scroll;
 ## Final-page presentation cleanup · October 23
 
 Removed duplicate comparison captures from the final Paper page and archived their PNG/JSX exports. The final page now contains the editable screen, a brief purpose/click-through caption, and four change notes. Removed “matched prototype” labels and viewport/commit comparison details from that page. The original evidence and decision pages remain; product interactions are unchanged. Reviewed both updated sections for text fit, spacing and alignment, and refreshed the 2× exports and manifest.
+
+
+## Four-page editorial review · October 23
+
+Reviewed every current Paper section. Removed the duplicate eight-observation list and four guard/Focus screen-caption boards from the submission route; archived their exports. Kept all eight original evidence pointers in the 1–3, 4–6 and 7–8 groups. Shortened the four decision studies while preserving the alternatives, chosen behavior and tradeoffs. Rewrote the final change notes in first person. Reduced the interaction page to the six action flows, comment states and one next-test section.
+
+Source captures and product UI were not edited. Essential limitations remain visible: assumed persona, no developer testing, partial coverage, paraphrased finding and unavailable replies. Checked every retained board visually for spacing, contrast, legibility, pointer alignment and clipping. Refreshed twelve affected 2× PNG/JSX exports; fourteen boards remain across four pages. Verified the manifest has no overlapping artboards and every export exists. Prototype behavior and rationale decisions remain unchanged.

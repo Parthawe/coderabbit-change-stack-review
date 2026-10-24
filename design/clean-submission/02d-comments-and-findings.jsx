@@ -13,27 +13,27 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          Problem 7 · I compared the reading order using the resolved finding captured from access.ts.
+          Problem 7 · I wanted to know whether the finding still needed action before judging its severity.
         </div>
       </div>
       <div style={{ alignItems: 'center', borderBottomColor: '#D5D2D8', borderBottomStyle: 'solid', borderBottomWidth: '1px', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '48px', paddingBlock: '24px', width: '1440px' }}>
         <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px', width: '230px' }}>
-          THE CAPTURED CASE
+          THE EXAMPLE I USED
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '32px', width: '250px' }}>
           Major · Resolved
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '30px' }}>
-          3 source messages   /   1 captured thread   /   2 reply bodies unavailable
+          access.ts · One thread with three messages; two reply bodies unavailable
         </div>
       </div>
       <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '64px', width: '1440px' }}>
         <div style={{ borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', width: '800px' }}>
           <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
-            FINAL ORDER · STATUS, THEN SEVERITY
+            WHAT I CHOSE
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
-            Establish whether it still needs action
+            Show its resolution status first
           </div>
           <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', padding: '24px' }}>
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
@@ -63,12 +63,12 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            For this PR, Resolved should be read first. Major stays on the finding, and the thread remains available as review history.
+            I put Resolved first so this reads as review history. Major stays visible on the finding.
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', width: '576px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
-            ALTERNATIVE · SEVERITY FIRST
+            I ALSO CONSIDERED
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
             Lead with how serious it is
@@ -91,28 +91,25 @@
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            Severity helps triage open findings. Here, leading with Major gives a resolved finding the strongest emphasis. The message count still needs its own label.
+            Severity is useful for open findings. Here, leading with Major overemphasizes something already resolved.
           </div>
         </div>
       </div>
       <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '40px', paddingTop: '24px', width: '1440px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '32px', width: '320px' }}>
-          Why not a flat message list?
+          A flat message list
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          It keeps every message visible. I set it aside because the reviewer must read the metadata to establish whether the finding is still open. Replies belong within the thread.
+          Every message stays visible, but I have to read through the metadata to find the finding’s status. I kept replies inside the thread.
         </div>
       </div>
       <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
-          When I would revisit it
+          What I’d check
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '1208px' }}>
-          This example has one captured thread. I would test a mix of open and resolved findings before applying the grouping broadly. Collapsing history also costs a click when checking past discussion.
+          This PR gives me one captured thread. I’d try a mix of open and resolved findings before applying this more broadly.
         </div>
-      </div>
-      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Current reading-order explorations, not usability-test results. Finding wording is paraphrased. The two reply bodies are unavailable; local notes stay separate.
       </div>
     </div>
   )

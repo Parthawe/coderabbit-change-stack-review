@@ -2,7 +2,7 @@
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '40px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '48px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
         <div style={{ boxSizing: 'border-box', color: '#A33C17', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
-          01 / Where I noticed the problems · 4–6
+          01 / What I noticed · 4–6
         </div>
         <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '16px', width: '100%' }}>
           <svg width="32" height="32" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
@@ -32,10 +32,10 @@
             4 · Following a check needs a way back
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
-            This call uses a guard defined in another file. After inspecting that guard, I need to get back to this call and my reading position.
+            The guard is in another file. Once I follow it, I need a way back to this call.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-            Original diff · access.ts · Call at L57; the dependency is in another file
+            Original access.ts · Guard call at L57
           </div>
         </div>
       </div>
@@ -58,10 +58,10 @@
             5 · File actions span several groups
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
-            File switching, display settings and file-level actions occupy separate rows. I have to scan across them to find the action I need.
+            I have to scan several rows to find file actions and display settings.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-            Original file and display controls · Unified view
+            Original file and display controls
           </div>
         </div>
       </div>
@@ -84,15 +84,12 @@
             6 · Seen, viewed and submitted are different
           </div>
           <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '34px' }}>
-            The eye count belongs to summaries. The check above the diff belongs to the file. Submit review applies to the review as a whole.
+            The eye tracks summaries, the check tracks a file, and Submit review applies to the whole review. I wanted those differences to be clearer.
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-            Original controls · Merged PR; Submit review is disabled in this capture
+            Original controls · Submit is disabled because this PR is merged
           </div>
         </div>
-      </div>
-      <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '26px' }}>
-        Original review details · Formbricks #8650 · access.ts · Unified · Light. Expected effects need testing with developers.
       </div>
     </div>
   )
