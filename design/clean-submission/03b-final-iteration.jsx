@@ -895,8 +895,18 @@
             </div>
           </div>
           <div id="4D2-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '8px', minHeight: '0px', overflow: 'clip', width: '100%' }}>
-            <div id="2J-0" style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-              2 of 6 summaries captured
+            <div id="7J0-0" style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', height: '28px', justifyContent: 'space-between', width: '100%' }}>
+              <div id="7J1-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                2 of 6 captured
+              </div>
+              <div id="7J2-0" style={{ alignItems: 'center', backgroundColor: '#FAF8FB', borderColor: '#BDB9C2', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '8px', paddingBlock: '4px', paddingInline: '8px' }}>
+                <div id="7J3-0" style={{ boxSizing: 'border-box', color: '#211F24', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
+                  Browse summaries
+                </div>
+                <svg width="10" height="10" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" id="7J4-0" style={{ display: 'inline-block', flexShrink: '0' }}>
+                  <path d="m2 4 3 3 3-3" fill="none" stroke="#65616A" strokeWidth="1.3" />
+                </svg>
+              </div>
             </div>
             <div id="2R7-0" style={{ boxSizing: 'border-box', display: 'none' }}>
               <div id="2R8-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>

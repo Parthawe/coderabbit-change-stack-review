@@ -41,3 +41,24 @@ The three edited Paper boards were inspected at full size without clipping. Expo
 Seven of 52 diffs are included at commit 23cdac2. Code links are manually mapped. One resolved thread is paraphrased; two reply bodies are omitted. Secondary workflows remain previews. Submit is disabled for the merged PR; the open-PR decision dialog is an explicit simulation. Notes and progress reset on reload.
 
 No measured efficiency gain is claimed. The work exceeded the original 1–2 hour brief. Paper requires sign-in. Public URLs remain unchanged. The email was left untouched during this pass.
+
+
+## Summary discovery pass · October 24
+
+Paper was updated first: the opening now names three core decisions, the final context panel has Browse summaries, and the read/inspect study and change detail explain its purpose. The two supporting refinements remain in the rationale. Four affected boards were re-exported at 2×; connector positions follow the context row's additional 10 px.
+
+Browser checks on the local release:
+- At 1280 × 720, choosing Enforce record ownership expanded and focused its heading. The code stayed at scrollTop 1672 with L57–65 linked. The picker remained above the scrolling content.
+- Entire layer grouped options by file. Choosing the feedback-access.ts summary kept access.ts and the same diff position selected.
+- Comments hid the picker. A Low filter with no captured matches disabled it; All restored its options. No missing findings were converted into zero findings.
+- The L75 statement link selected L75. Inspect guard and Return restored the caller's L75 selection and code scrollTop 2056. File viewed and Undo restored their prior values. Focus hid and restored context.
+- No horizontal page overflow at 1280 × 720, 1440 × 960, or the 1200 × 800 overlay layout. J in the select did not change layers. The native select has an accessible label and moves focus to the opened summary. Browser console had no errors or warnings during these checks.
+- JavaScript syntax and Git whitespace checks passed. Rationale PDF is one page and was visually inspected.
+
+These are implementation checks, not evidence that developers review more accurately or quickly. The remaining user check is below; no participant session has been run.
+
+### Next developer check
+
+Use this prompt without naming the new controls: “Explain when this change permits or refuses access to a feedback record. Check any helper you need, return to your starting file, and record which file you have reviewed.” Use the same PR, commit, file and starting position in both versions. Vary the order across participants and record that a repeated task introduces learning.
+
+Observe whether they find both captured explanations, inspect the workspace/entitlement guard, return without searching, and distinguish summary seen from file viewed. Ask what they think each count means. Record wrong turns, missed checks and any help given; task time alone is insufficient. If the picker is missed, try a visible list of collapsed titles. If line links cause skipped branches, revise the highlight/context balance. If Tools hides a frequent action, move that action back into the toolbar. Test resolution-first comments on a PR with open findings before defending that choice.

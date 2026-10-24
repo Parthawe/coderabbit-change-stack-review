@@ -10,7 +10,7 @@
     {
       "n": 2,
       "nodeId": "70L-0",
-      "jsx": "(\n    <svg width=\"275\" height=\"345\" viewBox=\"2310 855 275 345\" xmlns=\"http://www.w3.org/2000/svg\" id=\"70L-0\" style={{ position: 'absolute', left: 2310, top: 855, display: 'inline-block' }}>\n      <path d=\"M2508 1184 H2560 V900 H2320 V870\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinejoin=\"round\" />\n      <path d=\"M2312 882 L2320 870 L2328 882\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" />\n      <circle cx=\"2508\" cy=\"1184\" r=\"4\" fill=\"#C65D21\" />\n      <circle cx=\"2560\" cy=\"940\" r=\"21\" fill=\"#C65D21\" />\n      <text x=\"2560\" y=\"947\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"22\" fontWeight=\"600\" fill=\"#FFFFFF\">\n        2\n      </text>\n    </svg>\n  )"
+      "jsx": "(\n    <svg width=\"275\" height=\"345\" viewBox=\"2310 855 275 345\" xmlns=\"http://www.w3.org/2000/svg\" id=\"70L-0\" style={{ position: 'absolute', left: 2310, top: '865px', display: 'inline-block' }}>\n      <path d=\"M2508 1184 H2560 V900 H2320 V870\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinejoin=\"round\" />\n      <path d=\"M2312 882 L2320 870 L2328 882\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" />\n      <circle cx=\"2508\" cy=\"1184\" r=\"4\" fill=\"#C65D21\" />\n      <circle cx=\"2560\" cy=\"940\" r=\"21\" fill=\"#C65D21\" />\n      <text x=\"2560\" y=\"947\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"22\" fontWeight=\"600\" fill=\"#FFFFFF\">\n        2\n      </text>\n    </svg>\n  )"
     },
     {
       "old": "720-0",
@@ -76,7 +76,7 @@
         1670
       ],
       "nodeId": "7IM-0",
-      "jsx": "(\n    <svg width=\"135\" height=\"570\" viewBox=\"2500 1390 135 570\" xmlns=\"http://www.w3.org/2000/svg\" id=\"7IM-0\" style={{ position: 'absolute', left: 2500, top: 1290, display: 'inline-block' }}>\n      <path d=\"M2508 1492 H2550 V1930 H2620\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinejoin=\"round\" />\n      <path d=\"M2608 1922 L2620 1930 L2608 1938\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinecap=\"round\" />\n      <circle cx=\"2508\" cy=\"1492\" r=\"4\" fill=\"#C65D21\" />\n      <circle cx=\"2550\" cy=\"1670\" r=\"21\" fill=\"#C65D21\" />\n      <text x=\"2550\" y=\"1677\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"22\" fontWeight=\"600\" fill=\"#FFFFFF\">\n        5\n      </text>\n    </svg>\n  )"
+      "jsx": "(\n    <svg width=\"135\" height=\"570\" viewBox=\"2500 1390 135 570\" xmlns=\"http://www.w3.org/2000/svg\" id=\"7IM-0\" style={{ position: 'absolute', left: 2500, top: '1300px', display: 'inline-block' }}>\n      <path d=\"M2508 1492 H2550 V1930 H2620\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinejoin=\"round\" />\n      <path d=\"M2608 1922 L2620 1930 L2608 1938\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinecap=\"round\" />\n      <circle cx=\"2508\" cy=\"1492\" r=\"4\" fill=\"#C65D21\" />\n      <circle cx=\"2550\" cy=\"1670\" r=\"21\" fill=\"#C65D21\" />\n      <text x=\"2550\" y=\"1677\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"22\" fontWeight=\"600\" fill=\"#FFFFFF\">\n        5\n      </text>\n    </svg>\n  )"
     },
     {
       "old": "71D-0",
@@ -98,7 +98,7 @@
         1312
       ],
       "nodeId": "7IT-0",
-      "jsx": "(\n    <svg width=\"135\" height=\"134\" viewBox=\"2500 1282 135 134\" xmlns=\"http://www.w3.org/2000/svg\" id=\"7IT-0\" style={{ position: 'absolute', left: 2500, top: 1208, display: 'inline-block' }}>\n      <path d=\"M2508 1386 H2540 V1312 H2620\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinejoin=\"round\" />\n      <path d=\"M2608 1304 L2620 1312 L2608 1320\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinecap=\"round\" />\n      <circle cx=\"2508\" cy=\"1386\" r=\"4\" fill=\"#C65D21\" />\n      <circle cx=\"2570\" cy=\"1312\" r=\"21\" fill=\"#C65D21\" />\n      <text x=\"2570\" y=\"1319\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"22\" fontWeight=\"600\" fill=\"#FFFFFF\">\n        6\n      </text>\n    </svg>\n  )"
+      "jsx": "(\n    <svg width=\"135\" height=\"134\" viewBox=\"2500 1282 135 134\" xmlns=\"http://www.w3.org/2000/svg\" id=\"7IT-0\" style={{ position: 'absolute', left: 2500, top: '1218px', display: 'inline-block' }}>\n      <path d=\"M2508 1386 H2540 V1312 H2620\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinejoin=\"round\" />\n      <path d=\"M2608 1304 L2620 1312 L2608 1320\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" strokeLinecap=\"round\" />\n      <circle cx=\"2508\" cy=\"1386\" r=\"4\" fill=\"#C65D21\" />\n      <circle cx=\"2570\" cy=\"1312\" r=\"21\" fill=\"#C65D21\" />\n      <text x=\"2570\" y=\"1319\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"22\" fontWeight=\"600\" fill=\"#FFFFFF\">\n        6\n      </text>\n    </svg>\n  )"
     },
     {
       "n": "7–8",

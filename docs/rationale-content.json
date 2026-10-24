@@ -1,6 +1,6 @@
 {
   "title": "Keep track of the change",
-  "intro": "Make Change Stack easier to review without losing what it can do. I focused on understanding the change, checking its code and tracking progress. My assumption: keeping the layer, file, explanation and review state together takes extra effort.",
+  "intro": "Make Change Stack easier to review without losing what it can do. I focused on three decisions: read before navigating, inspect and return, and mark progress deliberately. My assumption: keeping the layer, file, explanation and review state together takes extra effort.",
   "rows": [
     [
       "What I noticed",
@@ -8,23 +8,23 @@
     ],
     [
       "Summary points share a broad range. Expanding also moves the code.",
-      "Keep the original summary wording visible. Expand in place, with a line link beside each statement. Reading and navigation become separate actions; the whole function remains available."
+      "Expand the full summary in place. Browse summaries reaches another explanation without moving code. Line links inspect individual statements; the whole function stays available."
     ],
     [
       "Layers and files are separate. Following a guard leaves a return trip to remember.",
       "Nest files under their layer. Inspect guard opens the dependency; Return restores the caller and position. This keeps one wide code pane; a side-by-side option would need more horizontal space."
     ],
     [
-      "Actions span several control groups.",
+      "Seen, viewed and submitted mean different things.",
+      "The source already has seen and viewed controls. I added a file count and immediate Undo. Navigation leaves progress alone; summary seen and Submit keep their own meanings."
+    ],
+    [
+      "Supporting change: actions span several control groups.",
       "Keep frequent file actions beside the filename and display controls beside the diff. Put secondary actions in Tools. That adds a click; I’d check whether people can find them."
     ],
     [
-      "File and layer totals need a clear scope.",
+      "Supporting change: file and layer totals need a clear scope.",
       "Start with This file and keep Entire layer one click away. Counts follow the scope: access.ts has 3 messages; its layer has 15. The diff stays in place."
-    ],
-    [
-      "Seen, viewed and submitted mean different things.",
-      "The source already has seen and viewed controls. I added a file count and immediate Undo. Navigation leaves progress alone; summary seen and Submit keep their own meanings."
     ]
   ],
   "tradeoff_title": "What I gave up",

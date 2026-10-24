@@ -91,7 +91,7 @@
             </div>
           </div>
           <div id="64N-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
-            I gave each point its own line link. These sketches use the first three points; all six points and the whole function remain available.
+            I gave each point a line link and kept the full wording. Browse summaries reaches the next explanation without moving the diff. These sketches show the same first three points; the final screen keeps all six.
           </div>
         </div>
       </div>

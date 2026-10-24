@@ -105,7 +105,7 @@ function selectFile(id){
  $('#interaction-status').textContent=`${f.name}. File ${data.files.indexOf(f)+1} of ${data.files.length}. ${state.viewed.has(id)?'Viewed':'Not viewed'}.`
 }
 function stepFile(direction){const i=data.files.findIndex(f=>f.id===state.file),next=data.files[i+direction];if(!currentFile()||!next)return;selectFile(next.id);const trigger=$('#'+(direction<0?'previous-file':'next-file'));if(trigger.disabled)$('#file-position').focus();else trigger.focus()}
-function syncTabs(){for(const n of ['summaries','comments']){const yes=n===state.tab;$(`#${n}-tab`).setAttribute('aria-selected',String(yes));$(`#${n}-tab`).tabIndex=yes?0:-1;$(`#${n}-panel`).hidden=!yes}}
+function syncTabs(){$('#summary-browser').hidden=state.tab!=='summaries';for(const n of ['summaries','comments']){const yes=n===state.tab;$(`#${n}-tab`).setAttribute('aria-selected',String(yes));$(`#${n}-tab`).tabIndex=yes?0:-1;$(`#${n}-panel`).hidden=!yes}}
 function renderScreen(){
  closeOutline();
  const l=data.layers[state.layer],f=currentFile();renderNav();$('#layer-title').textContent=l.name;$('#layer-position').textContent=`Layer ${state.layer+1} of 7`;
@@ -122,7 +122,7 @@ function syncScope(){
  $$('.scope-switch button').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.scope===state.scope));b.disabled=!available});
  $('#scope-description').textContent=!available?'Layer context; detailed content not captured':layer?'Context for the entire layer':`Context for ${f.name}`;
  $('#summaries-tab span').textContent=available?(layer?37:f.summaryCount):'—';$('#comments-tab').title='Source message count, including replies';$('#comments-tab span').textContent=available?(layer?data.files.reduce((n,x)=>n+x.comments,0):f.comments):(data.layers[state.layer].comments??'—');
- $('.context-hint').textContent=!available?'Entire layer · detailed context not captured.':layer?'14 of 37 summaries captured across 9 files':`${f.summaries.length} of ${f.summaryCount} summaries captured`;
+ $('.context-hint').textContent=!available?'Entire layer · detailed context not captured.':layer?'14 of 37 captured':`${f.summaries.length} of ${f.summaryCount} captured`;
  $('#complexity-controls').hidden=!available;
 }
 function summaryCard(s,f){
@@ -132,6 +132,10 @@ function summaryCard(s,f){
 function renderSummaries(){
  syncScope();const f=currentFile(),list=$('#summary-list'),files=state.layer===0?(state.scope==='layer'?data.files:[f]):[],active=document.activeElement?.dataset,restore=active?.summary||active?.seen;
  list.innerHTML=files.map(file=>{const items=file.summaries.filter(s=>state.complexity==='All'||s.complexity===state.complexity);return `${state.scope==='layer'?`<h3 class="summary-file-heading"><button class="text-link" data-file="${file.id}">${esc(file.name)}</button><span>${file.summaries.length} / ${file.summaryCount} captured</span></h3>`:''}${items.length?items.map(s=>summaryCard(s,file)).join(''):`<p class="context-footnote">${file.summaries.length?'No captured summaries match this filter.':'Summary details and modified-file patch not captured.'}</p>`}`}).join('')||'<div class="empty-state"><h3>No summary fixture</h3><p>This layer’s detailed context was not captured.</p></div>';
+ const picker=$('#browse-summaries');
+ const groups=files.map(file=>({file,items:file.summaries.filter(s=>state.complexity==='All'||s.complexity===state.complexity)})).filter(g=>g.items.length);
+ picker.innerHTML='<option value="">Browse summaries</option>'+groups.map(({file,items})=>{const options=items.map(s=>`<option value="${esc(s.id)}">${esc(s.title)} · ${esc(s.complexity)}</option>`).join('');return state.scope==='layer'?`<optgroup label="${esc(file.name)}">${options}</optgroup>`:options}).join('');
+ picker.disabled=!groups.length;
  if(restore)$(`#summary-list [data-${active?.seen?'seen':'summary'}="${restore}"]`)?.focus({preventScroll:true});
  $$('#complexity-controls button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.complexity===state.complexity)))
 }
@@ -287,7 +291,13 @@ document.addEventListener('click',e=>{
  switch(b.id){case 'previous-file':stepFile(-1);break;case 'next-file':stepFile(1);break;case 'submit-review':break;case 'simulate-submit':confirmReview();break;case 'notes':showNotes();break;case 'return-file':selectFile(state.lastFile||'0');break;case 'viewed':toggleViewed();break;case 'focus':toggleFocus();break;case 'unified':case 'split':{const position=readingPosition();state.mode=b.id;renderDiff();restoreReadingPosition(position);break;}case 'summaries-tab':setTab('summaries');break;case 'comments-tab':setTab('comments');break;case 'context-toggle':openContext();break;case 'close-context':closeContext();break;case 'summary-toggle':{const show=b.getAttribute('aria-expanded')==='false';b.setAttribute('aria-expanded',String(show));$('#layer-description').hidden=!show;$('.layer-heading').classList.toggle('is-collapsed',!show);b.firstChild.textContent=show?'Hide layer details ':'About layer ';break}case 'file-tools':showTools();break;case 'file-outline':showOutline();break;case 'retry-source':$('#retry-result').textContent='Retry demonstration: live availability can vary. The pinned fixture remains available locally; no review was sent.';break;case 'restore-excerpt':renderDiff();break;}
 });
 
-document.addEventListener('change',e=>{if(e.target.dataset.anchorSummary){selectSummary(e.target.dataset.anchorSummary,e.target.value);$(`#anchor-${state.summary}`).focus({preventScroll:true});return}if(e.target.dataset.viewFile!==undefined)toggleViewed(e.target.dataset.viewFile)});
+document.addEventListener('change',e=>{if(e.target.id==='browse-summaries'){
+ const id=e.target.value,card=$(`[data-summary-disclosure="${id}"]`);e.target.value='';if(!card)return;
+ state.expandedSummaries.add(id);card.open=true;
+ const panel=$('#context-scroll'),heading=card.querySelector('summary');
+ panel.scrollTop+=heading.getBoundingClientRect().top-panel.getBoundingClientRect().top-8;
+ heading.focus({preventScroll:true});$('#interaction-status').textContent='Summary opened. Code position and review progress unchanged.';return;
+}if(e.target.dataset.anchorSummary){selectSummary(e.target.dataset.anchorSummary,e.target.value);$(`#anchor-${state.summary}`).focus({preventScroll:true});return}if(e.target.dataset.viewFile!==undefined)toggleViewed(e.target.dataset.viewFile)});
 document.addEventListener('toggle',e=>{const el=e.target;if(!el.isConnected)return;if(el.matches?.('[data-summary-disclosure]')){el.open?state.expandedSummaries.add(el.dataset.summaryDisclosure):state.expandedSummaries.delete(el.dataset.summaryDisclosure);return}if(!el.matches?.('.source-summary'))return;el.open?state.openDetails.add(el.dataset.detailSummary):state.openDetails.delete(el.dataset.detailSummary)},true);
 document.addEventListener('input',e=>{
  if(e.target.id==='comment-draft'&&noteKey()){state.notes.set(noteKey(),{...currentNote(),draft:e.target.value});updateNoteMarkers()}
@@ -328,7 +338,7 @@ function resetDemo(){
 const initialControlState=new Map();
 function setLoadState(status){
  loadState=status;const ready=status==='ready';$('#diff').setAttribute('aria-busy',String(status==='loading'));
- if(!ready){$$('.workspace button,.workspace input,#submit-review,#notes').forEach(b=>{if(!initialControlState.has(b))initialControlState.set(b,b.disabled);b.disabled=true});$('#progress').textContent='PR progress unavailable';$('#remaining').textContent='—';$('#file-progress').removeAttribute('value')}
+ if(!ready){$$('.workspace button,.workspace input,.workspace select,#submit-review,#notes').forEach(b=>{if(!initialControlState.has(b))initialControlState.set(b,b.disabled);b.disabled=true});$('#progress').textContent='PR progress unavailable';$('#remaining').textContent='—';$('#file-progress').removeAttribute('value')}
  else{for(const [b,disabled] of initialControlState)if(b.isConnected)b.disabled=disabled;initialControlState.clear()}
 }
 async function loadData(){

@@ -54,7 +54,7 @@
           In the original, expanding this summary also moved the diff.
         </div>
         <div id="6Z6-0" style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          I kept the explanation and gave reading and navigation separate clicks.
+          Expand to read; use a line link to inspect code. Browse summaries reaches another explanation without losing the code position.
         </div>
         <div id="6Z7-0" style={{ borderTopColor: '#DEDCE1', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingTop: '16px' }}>
           <div id="6Z8-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
