@@ -163,36 +163,28 @@
           "height": 571.0,
           "x": 1820,
           "y": 2550
+        },
+        {
+          "id": "6DD-0",
+          "name": "8 · Open a resolved comment thread",
+          "width": 1440.0,
+          "height": 1017.0,
+          "x": 1820,
+          "y": 3260
         }
       ]
     },
     {
       "pageId": "p-5-0",
-      "name": "04 · Interactions & tradeoffs",
+      "name": "04 · Tradeoffs & next steps",
       "artboards": [
         {
-          "id": "6C5-0",
-          "name": "How the review behaves",
-          "width": 1440.0,
-          "height": 513.0,
-          "x": 0,
-          "y": 0
-        },
-        {
-          "id": "6DD-0",
-          "name": "Comments · collapsed and expanded",
-          "width": 1440.0,
-          "height": 1017.0,
-          "x": 1600,
-          "y": 0
-        },
-        {
           "id": "5LH-0",
-          "name": "What I would test next",
-          "width": 1440.0,
-          "height": 557.0,
+          "name": "Tradeoffs and what I would do next",
+          "width": 1600.0,
+          "height": 1171.0,
           "x": 0,
-          "y": 650
+          "y": 0
         }
       ]
     }
@@ -280,28 +272,20 @@
       "parentNodeId": "6UY-0"
     },
     {
-      "nodeId": "6C5-0",
-      "file": "design/clean-submission/04a-interactions.png",
-      "jsx": "design/clean-submission/04a-interactions.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1026
-    },
-    {
       "nodeId": "6DD-0",
-      "file": "design/clean-submission/04b-comment-states.png",
-      "jsx": "design/clean-submission/04b-comment-states.jsx",
+      "file": "design/clean-submission/03-comment-expansion.png",
+      "jsx": "design/clean-submission/03-comment-expansion.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
       "pixelHeight": 2034
     },
     {
       "nodeId": "5LH-0",
-      "file": "design/clean-submission/04g-tradeoffs-and-next-checks.png",
-      "jsx": "design/clean-submission/04g-tradeoffs-and-next-checks.jsx",
+      "file": "design/clean-submission/04-tradeoffs-and-next-steps.png",
+      "jsx": "design/clean-submission/04-tradeoffs-and-next-steps.jsx",
       "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 1114
+      "pixelWidth": 3200,
+      "pixelHeight": 2342
     },
     {
       "nodeId": "6UZ-0",
@@ -369,5 +353,5 @@
     }
   ],
   "finalMapUrl": "https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/6UY-0",
-  "finalPageLayout": "Standalone final screen; eight separate comparison boards and connector annotations on the canvas."
+  "finalPageLayout": "Standalone final screen; eight separate comparisons and an expanded comment-thread example on the canvas."
 }

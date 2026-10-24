@@ -509,3 +509,8 @@ Visual review: all affected Paper boards fit their content without clipping. Mai
 Browser checks at 1280 × 720: full summary visible in its scrollable panel; no document horizontal overflow; expanding the summary preserved diff scrollTop 2056 and L75; Inspect guard opened feedback-access.ts; Return restored access.ts, L75 and scrollTop 2056. Mark viewed changed 0/7 to 1/7 and checked access.ts; Undo restored 0/7. The comment thread expanded, kept all labels, and disclosed two uncaptured replies. Entire layer showed 15 messages and the same metadata. Focus entered and exited. No backend action or message was sent.
 
 Remaining uncertainty: fuller wording requires more vertical scrolling. Resolution-first ordering is supported by one captured resolved finding, not a user test. Expected benefits remain unmeasured. The one-page PDF was rebuilt from the same rationale JSON as its HTML and visually checked.
+
+
+## Closing page and comment expansion — 23 October
+
+Moved the collapsed/expanded resolved-thread example to Final iteration, below change 8. Replaced the closing interactions recap with three tradeoffs, questions that could change the design and an ordered follow-up plan. Both boards were inspected through Paper screenshots: readable type, aligned columns, no clipped content. Exported both at 2× and saved exact JSX. The prototype support link now opens the comment interaction. No product behaviour changed in this pass.

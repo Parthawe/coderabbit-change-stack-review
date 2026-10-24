@@ -6,7 +6,7 @@ Design exercise by Parth Pawar, using Formbricks #8650.
 - [Paper design](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/1-0) (sign-in required)
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
 
-The site opens directly into the reviewing workspace. Paper has four pages: Problem & evidence, Design decisions, Final iteration, and Interactions & tradeoffs. Related boards sit together at full size; all PNG exports are 2× resolution. The rationale explains the four choices on one page. There is no presentation on the site.
+The site opens directly into the reviewing workspace. Paper has four pages: Problem & evidence, Design decisions, Final iteration, and Tradeoffs & next steps. Related boards sit together at full size; all PNG exports are 2× resolution. The rationale explains the four choices on one page. There is no presentation on the site.
 
 The original already has summary jumps, viewed status and Focus. This iteration adds individual targets for six summary points, a manually mapped guard/return path, independent summary expansion, clearer layer/file nesting and Undo. Gray identifies navigation and display selections; orange connects a summary statement to its code. Complexity labels retain their source values. Opening a file marks nothing viewed.
 

@@ -104,6 +104,17 @@
       "n": "7–8",
       "nodeId": "72L-0",
       "jsx": "(\n    <svg viewBox=\"0 0 202 42\" width=\"202\" height=\"42\" xmlns=\"http://www.w3.org/2000/svg\" id=\"72L-0\" style={{ width: '184px', height: '42px', display: 'inline-block', left: '2426px', top: '1067px', position: 'absolute' }}>\n      <circle cx=\"4\" cy=\"21\" r=\"3\" fill=\"#C65D21\" />\n      <path d=\"M4 21H142\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" />\n      <path d=\"m134 15 8 6-8 6\" fill=\"none\" stroke=\"#C65D21\" strokeWidth=\"2\" />\n      <rect x=\"147\" y=\"3\" width=\"54\" height=\"36\" rx=\"18\" fill=\"#C65D21\" />\n      <text x=\"174\" y=\"26\" textAnchor=\"middle\" fontFamily=\"Geist\" fontSize=\"17\" fill=\"#FFFFFF\">\n        7–8\n      </text>\n    </svg>\n  )"
+    },
+    {
+      "n": "8 → expanded thread",
+      "nodeId": "7EN-0",
+      "box": [
+        2300,
+        3122,
+        40,
+        130
+      ],
+      "jsx": "(\n    <svg width=\"40\" height=\"130\" viewBox=\"0 0 40 130\" xmlns=\"http://www.w3.org/2000/svg\" style={{ display: 'inline-block', position: 'absolute' }}>\n      <path d=\"M20 4V122m-7-9 7 9 7-9\" fill=\"none\" stroke=\"#65616A\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\" />\n    </svg>\n  )"
     }
   ]
 }
