@@ -8,7 +8,7 @@
     ],
     [
       "Summary points share a broad range. Expanding also moves the code.",
-      "Expand in place, with explicit links to individual statements. Reading and navigation become separate actions. The full wording and whole function remain available."
+      "Keep the original summary wording visible. Expand in place, with a line link beside each statement. Reading and navigation become separate actions; the whole function remains available."
     ],
     [
       "Layers and files are separate. Following a guard leaves a return trip to remember.",
@@ -20,13 +20,13 @@
     ],
     [
       "Message totals, severity and resolution can be read as one signal.",
-      "Group comments by resolution, with severity on the finding and replies inside its thread. A resolved Major finding reads as history. Show source messages separately from captured threads and local notes."
+      "Keep the author, category, severity and line range. Show resolution before the discussion, and collapse replies within the thread. Explicit file/layer scope keeps message totals meaningful; capture coverage is a separate limit."
     ]
   ],
   "tradeoff_title": "What I gave up",
   "tradeoff": "The original fits more code. This iteration gives files and explanations more room; Focus returns that space to the diff. Smaller highlights may draw attention away from a relevant branch. Inspect + Return also means switching views instead of seeing both files together.",
   "validation_title": "What I kept",
-  "validation": "The original PR header arrangement, merged state, layer order, complexity labels, J/K and Focus remain. Gray marks navigation, display and summary selection; orange highlights the linked code. The original already has severity and resolved filters; my change is the reading order, not a new capability.",
+  "validation": "The original PR header, merged state, layer order, green/red change counts, finding and complexity labels, J/K and Focus remain. Gray marks selection; orange highlights linked code. Severity and resolution already existed. I changed how they read together, not what the product knows.",
   "next_title": "What I would test",
   "next": "Ask developers to explain this access check on both screens, inspect its guard and return, then find a branch the summary misses. Check whether a resolved Major finding reads as history. I expect less searching and backtracking, but I have not measured that. Clearer Overview multi-select filters are a follow-up.",
   "scope": "Observations and assumptions from using this PR, not developer research. Seven of 52 diffs at commit 23cdac2; manually mapped links; one paraphrased finding, with two reply bodies omitted. Secondary workflows are previews. Submit is disabled for the merged PR. Work exceeded the 1–2 hour brief. Paper requires sign-in."

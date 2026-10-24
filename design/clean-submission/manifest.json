@@ -50,7 +50,7 @@
           "id": "62A-0",
           "name": "01 · Separate reading from navigation",
           "width": 1600.0,
-          "height": 1254.0,
+          "height": 1298.0,
           "x": 0,
           "y": 0
         },
@@ -74,7 +74,7 @@
           "id": "63I-0",
           "name": "04 · Check the reading order",
           "width": 1600.0,
-          "height": 1141.0,
+          "height": 1200.0,
           "x": 1760,
           "y": 1520
         }
@@ -95,7 +95,7 @@
         {
           "id": "5LF-0",
           "name": "Final iteration · purpose and prototype",
-          "width": 1440,
+          "width": 1440.0,
           "height": 156.0,
           "x": 1080,
           "y": 64
@@ -103,7 +103,7 @@
         {
           "id": "6UZ-0",
           "name": "Change 1 · Keep file actions together",
-          "width": 1000,
+          "width": 1000.0,
           "height": 510.0,
           "x": 700,
           "y": 300
@@ -111,7 +111,7 @@
         {
           "id": "6V5-0",
           "name": "Change 2 · Read before moving the code",
-          "width": 1000,
+          "width": 1000.0,
           "height": 569.0,
           "x": 1820,
           "y": 300
@@ -119,50 +119,50 @@
         {
           "id": "6VB-0",
           "name": "Change 3 · See the files inside the layer",
-          "width": 900,
-          "height": 560.0,
+          "width": 900.0,
+          "height": 695.0,
           "x": 80,
           "y": 970
         },
         {
           "id": "6VH-0",
           "name": "Change 4 · Make progress deliberate",
-          "width": 900,
-          "height": 551.0,
+          "width": 900.0,
+          "height": 605.0,
           "x": 80,
-          "y": 1580
+          "y": 1770
         },
         {
           "id": "6VN-0",
           "name": "Change 5 · Point each statement at its code",
-          "width": 900,
-          "height": 560.0,
+          "width": 900.0,
+          "height": 727.0,
           "x": 2620,
-          "y": 1580
+          "y": 1770
         },
         {
           "id": "6VT-0",
           "name": "Change 6 · Include the return trip",
-          "width": 900,
-          "height": 516.0,
+          "width": 900.0,
+          "height": 636.0,
           "x": 2620,
           "y": 970
         },
         {
           "id": "6VZ-0",
           "name": "Change 7 · Make the comment scope clear",
-          "width": 1000,
-          "height": 565.0,
+          "width": 1000.0,
+          "height": 533.0,
           "x": 700,
-          "y": 2220
+          "y": 2550
         },
         {
           "id": "6W5-0",
           "name": "Change 8 · Let resolved findings read as history",
-          "width": 1000,
-          "height": 591.0,
+          "width": 1000.0,
+          "height": 571.0,
           "x": 1820,
-          "y": 2220
+          "y": 2550
         }
       ]
     },
@@ -182,7 +182,7 @@
           "id": "6DD-0",
           "name": "Comments · collapsed and expanded",
           "width": 1440.0,
-          "height": 970.0,
+          "height": 1017.0,
           "x": 1600,
           "y": 0
         },
@@ -236,7 +236,7 @@
       "jsx": "design/clean-submission/02a-read-and-inspect.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2508
+      "pixelHeight": 2596
     },
     {
       "nodeId": "62Q-0",
@@ -260,7 +260,7 @@
       "jsx": "design/clean-submission/02d-comments-and-findings.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2282
+      "pixelHeight": 2400
     },
     {
       "nodeId": "5LF-0",
@@ -293,7 +293,7 @@
       "jsx": "design/clean-submission/04b-comment-states.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 1940
+      "pixelHeight": 2034
     },
     {
       "nodeId": "5LH-0",
@@ -325,7 +325,7 @@
       "jsx": "design/clean-submission/03-detail-3.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1120
+      "pixelHeight": 1390
     },
     {
       "nodeId": "6VH-0",
@@ -333,7 +333,7 @@
       "jsx": "design/clean-submission/03-detail-4.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1102
+      "pixelHeight": 1210
     },
     {
       "nodeId": "6VN-0",
@@ -341,7 +341,7 @@
       "jsx": "design/clean-submission/03-detail-5.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1120
+      "pixelHeight": 1454
     },
     {
       "nodeId": "6VT-0",
@@ -349,7 +349,7 @@
       "jsx": "design/clean-submission/03-detail-6.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1032
+      "pixelHeight": 1272
     },
     {
       "nodeId": "6VZ-0",
@@ -357,7 +357,7 @@
       "jsx": "design/clean-submission/03-detail-7.jsx",
       "scale": "2x",
       "pixelWidth": 2000,
-      "pixelHeight": 1130
+      "pixelHeight": 1066
     },
     {
       "nodeId": "6W5-0",
@@ -365,7 +365,7 @@
       "jsx": "design/clean-submission/03-detail-8.jsx",
       "scale": "2x",
       "pixelWidth": 2000,
-      "pixelHeight": 1182
+      "pixelHeight": 1142
     }
   ],
   "finalMapUrl": "https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/6UY-0",

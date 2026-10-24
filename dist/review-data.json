@@ -83,7 +83,9 @@
       "summaryCount": 37,
       "comments": 15,
       "severity": "1 major",
-      "severityNote": "Captured detail includes 1 major and 1 minor. A complete severity breakdown for all 3 findings was not captured."
+      "severityNote": "Captured detail includes 1 major and 1 minor. A complete severity breakdown for all 3 findings was not captured.",
+      "added": 1120,
+      "deleted": 11
     },
     {
       "name": "Feedback record operations",
@@ -92,7 +94,9 @@
       "description": "Implements dataset resolution, listing, counting, CRUD, batch creation, semantic search, similarity lookup, auditing, and Hub error translation.",
       "summaryCount": 25,
       "comments": 5,
-      "severity": "1 major"
+      "severity": "1 major",
+      "added": 2446,
+      "deleted": 0
     },
     {
       "name": "Hub feedback-record support",
@@ -100,7 +104,9 @@
       "findings": 0,
       "description": "Layer name and file count verified in the source review. Its detailed content is outside this focused prototype.",
       "summaryCount": null,
-      "comments": null
+      "comments": null,
+      "added": 342,
+      "deleted": 13
     },
     {
       "name": "MCP feedback-record tools",
@@ -109,7 +115,9 @@
       "description": "Layer name and file count verified in the source review. Its detailed content is outside this focused prototype.",
       "summaryCount": null,
       "comments": null,
-      "severity": "1 trivial"
+      "severity": "1 trivial",
+      "added": 1034,
+      "deleted": 0
     },
     {
       "name": "MCP authorization and registration",
@@ -117,7 +125,9 @@
       "findings": 0,
       "description": "Layer name and file count verified in the source review. Its detailed content is outside this focused prototype.",
       "summaryCount": null,
-      "comments": null
+      "comments": null,
+      "added": 138,
+      "deleted": 22
     },
     {
       "name": "OAuth metadata and documentation",
@@ -126,7 +136,9 @@
       "description": "Layer name and file count verified in the source review. Its detailed content is outside this focused prototype.",
       "summaryCount": null,
       "comments": null,
-      "severity": "1 minor · 1 trivial"
+      "severity": "1 minor · 1 trivial",
+      "added": 610,
+      "deleted": 81
     },
     {
       "name": "Additional changes",
@@ -134,7 +146,9 @@
       "findings": 0,
       "description": "Layer name and file count verified in the source review. Its detailed content is outside this focused prototype.",
       "summaryCount": null,
-      "comments": null
+      "comments": null,
+      "added": 32,
+      "deleted": 0
     }
   ],
   "files": [
@@ -1496,6 +1510,8 @@
     "severity": "Major",
     "replies": 2,
     "title": "Dataset lookup uses an untrimmed directory ID",
-    "body": "CodeRabbit reported that an explicit dataset lookup compared the raw directory ID while returned tenant IDs were trimmed. This could reject a legitimate ID containing stray whitespace. The source thread is marked resolved and confirmed addressed. The pinned, out-of-date code snapshot is retained as historical evidence, not a claim that this is a current bug."
+    "body": "CodeRabbit reported that an explicit dataset lookup compared the raw directory ID while returned tenant IDs were trimmed. This could reject a legitimate ID containing stray whitespace. The source thread is marked resolved and confirmed addressed. The pinned, out-of-date code snapshot is retained as historical evidence, not a claim that this is a current bug.",
+    "category": "Functional Correctness",
+    "effort": "Quick win"
   }
 }

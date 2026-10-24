@@ -496,3 +496,16 @@ Separated the final screen from the eight comparison boards. Removed the two lea
 Corrected the explanation of viewed/seen as existing capabilities, scope as the comments change, and coverage counts as prototype limits. The source already has severity and resolved state. Removed the fixed L57–65 Return claim. Live public-prototype checks: collapsed/reopened the summary with code scrollTop remaining 2056; Inspect guard opened feedback-access.ts and Return restored access.ts, L75 and scrollTop 2056; Mark viewed changed 0/7 to 1/7; Undo and file navigation left progress at 0/7; resolved thread expanded with its missing replies disclosed; Entire layer changed Comments 3 to Comments 15. No product-code change was needed.
 
 Expected benefits remain untested. Comments are based on one captured resolved thread; severity-first and resolution-first ordering still need comparison with reviewers. Overview filters remain future work. Nothing sent externally.
+
+
+## 2026-10-23 · Restore source context in the comparisons
+
+Reviewed the challenged before/after details against the captured source. Restored verified layer additions/deletions, Major and Minor cues, full summary wording, author/bot identity, category, effort, severity, resolved state, code range and reply count. The first layer has three findings but only Major/Minor details were captured; its tooltip states that the breakdown is incomplete. No third severity was invented.
+
+Detail 4 now labels the original summary-seen and file-viewed controls separately, then shows an unchecked file, Mark viewed, 1/7, and Undo. Detail 6 uses the verified requireV3WorkspaceAccess call at feedback-access.ts L27, with Return restoring the earlier selection. Detail 7 compares the same layer scope and totals on both sides. Detail 8 keeps the source metadata while collapsing the discussion. Page 2's chosen summary/comment sections and page 4's thread states use the same revised components.
+
+Visual review: all affected Paper boards fit their content without clipping. Main desktop screen remains 1440 × 960. Larger summary and comment excerpts use readable text, with separate before/after columns. Updated connectors target the moved file row, progress, statement and guard controls. Automated board-bound checks found no overlapping boards. Original source images were not edited.
+
+Browser checks at 1280 × 720: full summary visible in its scrollable panel; no document horizontal overflow; expanding the summary preserved diff scrollTop 2056 and L75; Inspect guard opened feedback-access.ts; Return restored access.ts, L75 and scrollTop 2056. Mark viewed changed 0/7 to 1/7 and checked access.ts; Undo restored 0/7. The comment thread expanded, kept all labels, and disclosed two uncaptured replies. Entire layer showed 15 messages and the same metadata. Focus entered and exited. No backend action or message was sent.
+
+Remaining uncertainty: fuller wording requires more vertical scrolling. Resolution-first ordering is supported by one captured resolved finding, not a user test. Expected benefits remain unmeasured. The one-page PDF was rebuilt from the same rationale JSON as its HTML and visually checked.

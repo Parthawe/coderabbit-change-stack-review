@@ -32,3 +32,29 @@
 .thread-summary small{font:12px/18px var(--sans);color:var(--muted)}.thread-status{font:13px/20px var(--sans);color:var(--ink)}.comment-thread{border:0;border-top:1px solid var(--line);border-radius:0;padding:16px 0}.local-comment-area{border-top:1px solid var(--line);margin-top:16px;padding-top:12px}.local-comment-area>p{font:12px/18px var(--sans);color:var(--muted);margin:4px 0}.local-comment-area .add-file-note{margin-top:0}
 @media(max-width:1439px){.global-header{height:48px;min-height:48px;gap:12px;padding-inline:12px}.pr-metadata{gap:9px}.pr-metadata .branch-info{max-width:220px}.global-actions{gap:0}}
 @media(max-width:1279px){.global-header{height:48px;min-height:48px}.context-panel{top:85px}.pr-metadata .branch-info{max-width:180px}.pr-identity{max-width:none}.stack-name{flex-wrap:nowrap}}
+
+/* Restore source context: Paper's full wording and semantic metadata. */
+.layer-stats,.layer-findings{display:flex;align-items:center;flex-wrap:wrap;gap:6px;font-size:11px;line-height:15px;color:#65616a;margin-top:4px}
+.layer-findings{gap:5px}.layer-stats .delta-added{color:#176b45}.layer-stats .delta-removed{color:#a63e45}
+.finding-badge{padding:1px 5px;border-radius:3px;background:#ecebed;color:#514d56;white-space:nowrap}
+.finding-badge.major{background:#fff0de;color:#87420e}
+.summary-disclosure .range{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+.complexity-tag{display:inline-block;padding:1px 5px;border-radius:3px;background:#ecebed;color:#514d56}
+.complexity-tag.medium{background:#fff0de;color:#87420e}
+.source-summary-intro{margin:4px 0 8px;font-size:13px;line-height:19px;color:#65616a}
+.statement-action{align-items:start;font-size:13px;line-height:19px;padding-top:6px;padding-bottom:6px}
+.statement-action>span:first-child{overflow-wrap:anywhere}
+.resolved-history .thread-summary{display:flex;flex-direction:column;gap:12px;border:1px solid #d5d2d8;border-radius:5px;background:#fff;padding:16px;text-align:left;width:100%;color:#252329}
+.resolved-history .thread-summary:hover{background:#fafafa}
+.thread-author-row,.thread-footer{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;font-size:13px;line-height:20px}
+.thread-author-row strong{font-size:13px}.resolved-badge{display:inline-flex;align-items:center;gap:4px;background:#ecf7f0;color:#176b45;border-radius:3px;padding:1px 5px;font-size:12px;white-space:nowrap}
+.resolved-badge svg{width:13px;height:13px;stroke:currentColor;fill:none;stroke-width:1.5}
+.thread-tags{display:flex;flex-wrap:wrap;gap:5px;font-size:12px;line-height:18px}
+.thread-tags>span{padding:1px 5px;border-radius:3px;background:#ecebed;color:#514d56}
+.thread-tags>.major{background:#fff0de;color:#87420e}
+.thread-title-row{align-items:flex-start;gap:6px}.thread-title-row strong{font-size:15px;line-height:22px}
+.thread-title-row svg{flex-shrink:0;margin-top:3px}
+.thread-footer{font-size:12px;line-height:18px;color:#65616a}.thread-lines{color:#514d56;text-decoration:underline;text-underline-offset:3px}
+.file-viewed{accent-color:#176b45}
+
+.thread-tags{gap:6px}.thread-tags>span{padding:2px 6px}.resolved-badge{border-radius:4px;padding:2px 7px;font-size:13px;line-height:20px}.resolved-badge svg{width:14px;height:14px}
