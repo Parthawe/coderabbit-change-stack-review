@@ -41,10 +41,10 @@
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px' }}>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '25px' }}>
-          Same resolved Major finding. The final title is paraphrased.
+          The source already has severity and resolution. This is the same resolved Major finding, paraphrased.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          I put resolution first, kept Major visible and tucked replies inside the thread.
+          I made resolved history quieter and kept Major visible when the thread is collapsed.
         </div>
         <div style={{ borderTopColor: '#DEDCE1', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingTop: '16px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>

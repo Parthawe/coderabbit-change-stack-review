@@ -487,3 +487,12 @@ Moved Overview filtering to one future-work sentence. Removed the repeated chang
 ## Final iteration comparison map · 2026-10-23
 
 Rebuilt page 3 around the unchanged 1440 × 960 editable screen. Eight before/after details sit above, beside and below it, with orange leaders routed around the content. Reviewed all eight details and the full map; corrected screenshot clipping, enlarged the guard-call crop, and kept annotations outside product text. Explicitly labelled interaction excerpts, Comments alternate state, layer/file count scopes and expected rather than measured benefits. Pixel comparison confirmed the central screen unchanged. Verified all sections fit the canvas and do not overlap. Exported the map, screen, caption and eight details at 2×. The prototype and rationale remain the same four design decisions. No video or external message.
+
+
+## 2026-10-23 · Final iteration canvas review
+
+Separated the final screen from the eight comparison boards. Removed the two leaders from blank context-panel space; a shared 7–8 marker now points to the actual Comments tab. Kept 1–6 aligned to Tools, summary disclosure, nested files, progress, statement links and Inspect guard. Reviewed all eight detail renders for readable crops, text fit, spacing and repetition. The main screen PNG is pixel-identical to the prior export.
+
+Corrected the explanation of viewed/seen as existing capabilities, scope as the comments change, and coverage counts as prototype limits. The source already has severity and resolved state. Removed the fixed L57–65 Return claim. Live public-prototype checks: collapsed/reopened the summary with code scrollTop remaining 2056; Inspect guard opened feedback-access.ts and Return restored access.ts, L75 and scrollTop 2056; Mark viewed changed 0/7 to 1/7; Undo and file navigation left progress at 0/7; resolved thread expanded with its missing replies disclosed; Entire layer changed Comments 3 to Comments 15. No product-code change was needed.
+
+Expected benefits remain untested. Comments are based on one captured resolved thread; severity-first and resolution-first ordering still need comparison with reviewers. Overview filters remain future work. Nothing sent externally.

@@ -11,11 +11,11 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '28px', width: '900px' }}>
-          The same review, with eight changes to make it easier to follow.
+          Follow the change, check its code, keep your place.
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', lineHeight: '26px', whiteSpace: 'pre-wrap' }}>
-        Formbricks #8650 · access.ts · light / Unified. Numbered details show what I changed and the benefit I expect. These are hypotheses, not measured results.<br />Try it: https://parthawe.github.io/coderabbit-change-stack-review/
+        Formbricks #8650 · access.ts · light / Unified. Eight details around the screen show the changes and what I expect them to help with.<br />Try it: https://parthawe.github.io/coderabbit-change-stack-review/
       </div>
     </div>
   )

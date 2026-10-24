@@ -7,7 +7,7 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '30px', fontWeight: 600, lineHeight: '38px' }}>
-          Say what the comment count means
+          Make the comment scope clear
         </div>
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', gap: '32px', width: '100%' }}>
@@ -27,11 +27,20 @@
             AFTER · COMMENT DETAIL
           </div>
           <div style={{ backgroundColor: '#FAF8FB', borderColor: '#E3E0E7', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px', padding: '20px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '28px' }}>
-              This file · access.ts
+            <div style={{ borderRadius: '4px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '4px', width: '100%' }}>
+              <div style={{ backgroundColor: '#ECEBED', borderRadius: '3px', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                  This file
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '20px' }}>
+                  Entire layer
+                </div>
+              </div>
             </div>
             <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '26px', lineHeight: '34px' }}>
-              Comments 3
+              access.ts · Comments 3
             </div>
             <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '28px' }}>
               3 source messages · 1 captured thread
@@ -44,17 +53,17 @@
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px' }}>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '25px' }}>
-          The counts have different scopes. The change makes those scopes explicit.
+          15 is the layer total; 3 is for access.ts. Capture coverage is a prototype limit.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          I separated source messages from captured threads and made the scope explicit.
+          I made This file and Entire layer explicit above the summaries and comments.
         </div>
         <div style={{ borderTopColor: '#DEDCE1', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingTop: '16px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
             EXPECTED IMPACT
           </div>
           <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-            Avoid mistaking a reply count for the number of findings.
+            Know which changes a count or discussion belongs to before opening it.
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@
   "pages": [
     {
       "pageId": "p-1-0",
-      "name": "01 \u00b7 Problem & evidence",
+      "name": "01 · Problem & evidence",
       "artboards": [
         {
           "id": "5FN-0",
@@ -18,7 +18,7 @@
         },
         {
           "id": "6HS-0",
-          "name": "1\u20133 \u00b7 Finding the right code",
+          "name": "1–3 · Finding the right code",
           "width": 1600.0,
           "height": 1172.0,
           "x": 0,
@@ -26,7 +26,7 @@
         },
         {
           "id": "6JP-0",
-          "name": "4\u20136 \u00b7 Keeping your place and progress",
+          "name": "4–6 · Keeping your place and progress",
           "width": 1600.0,
           "height": 1086.0,
           "x": 1760,
@@ -34,7 +34,7 @@
         },
         {
           "id": "69T-0",
-          "name": "7 \u00b7 Reading comment status",
+          "name": "7 · Reading comment status",
           "width": 1600.0,
           "height": 810.0,
           "x": 0,
@@ -44,11 +44,11 @@
     },
     {
       "pageId": "p-C-0",
-      "name": "02 \u00b7 Design decisions",
+      "name": "02 · Design decisions",
       "artboards": [
         {
           "id": "62A-0",
-          "name": "01 \u00b7 Separate reading from navigation",
+          "name": "01 · Separate reading from navigation",
           "width": 1600.0,
           "height": 1254.0,
           "x": 0,
@@ -56,7 +56,7 @@
         },
         {
           "id": "62Q-0",
-          "name": "02 \u00b7 Design the round trip",
+          "name": "02 · Design the round trip",
           "width": 1600.0,
           "height": 1179.0,
           "x": 1760,
@@ -64,7 +64,7 @@
         },
         {
           "id": "634-0",
-          "name": "03 \u00b7 Group controls by scope",
+          "name": "03 · Group controls by scope",
           "width": 1600.0,
           "height": 1386.0,
           "x": 0,
@@ -72,7 +72,7 @@
         },
         {
           "id": "63I-0",
-          "name": "04 \u00b7 Check the reading order",
+          "name": "04 · Check the reading order",
           "width": 1600.0,
           "height": 1141.0,
           "x": 1760,
@@ -82,93 +82,93 @@
     },
     {
       "pageId": "p-4-0",
-      "name": "03 \u00b7 Final iteration",
+      "name": "03 · Final iteration",
       "artboards": [
         {
           "id": "6UY-0",
-          "name": "Final iteration \u00b7 eight changes in context",
-          "width": 3600,
-          "height": 2840,
-          "x": 0,
-          "y": 0,
-          "sections": [
-            {
-              "id": "1-0",
-              "x": 1080,
-              "y": 970,
-              "width": 1440.0,
-              "height": 960.0
-            },
-            {
-              "id": "5LF-0",
-              "x": 1080,
-              "y": 64,
-              "width": 1440.0,
-              "height": 156.0
-            },
-            {
-              "id": "6UZ-0",
-              "x": 700,
-              "y": 300,
-              "width": 1000.0,
-              "height": 510.0
-            },
-            {
-              "id": "6V5-0",
-              "x": 1820,
-              "y": 300,
-              "width": 1000.0,
-              "height": 569.0
-            },
-            {
-              "id": "6VB-0",
-              "x": 80,
-              "y": 970,
-              "width": 900.0,
-              "height": 560.0
-            },
-            {
-              "id": "6VH-0",
-              "x": 80,
-              "y": 1580,
-              "width": 900.0,
-              "height": 519.0
-            },
-            {
-              "id": "6VN-0",
-              "x": 2620,
-              "y": 1580,
-              "width": 900.0,
-              "height": 560.0
-            },
-            {
-              "id": "6VT-0",
-              "x": 2620,
-              "y": 970,
-              "width": 900.0,
-              "height": 516.0
-            },
-            {
-              "id": "6VZ-0",
-              "x": 700,
-              "y": 2220,
-              "width": 1000.0,
-              "height": 565.0
-            },
-            {
-              "id": "6W5-0",
-              "x": 1820,
-              "y": 2220,
-              "width": 1000.0,
-              "height": 591.0
-            }
-          ]
+          "name": "Final iteration",
+          "width": 1440,
+          "height": 960,
+          "x": 1080,
+          "y": 970
+        },
+        {
+          "id": "5LF-0",
+          "name": "Final iteration · purpose and prototype",
+          "width": 1440,
+          "height": 156.0,
+          "x": 1080,
+          "y": 64
+        },
+        {
+          "id": "6UZ-0",
+          "name": "Change 1 · Keep file actions together",
+          "width": 1000,
+          "height": 510.0,
+          "x": 700,
+          "y": 300
+        },
+        {
+          "id": "6V5-0",
+          "name": "Change 2 · Read before moving the code",
+          "width": 1000,
+          "height": 569.0,
+          "x": 1820,
+          "y": 300
+        },
+        {
+          "id": "6VB-0",
+          "name": "Change 3 · See the files inside the layer",
+          "width": 900,
+          "height": 560.0,
+          "x": 80,
+          "y": 970
+        },
+        {
+          "id": "6VH-0",
+          "name": "Change 4 · Make progress deliberate",
+          "width": 900,
+          "height": 551.0,
+          "x": 80,
+          "y": 1580
+        },
+        {
+          "id": "6VN-0",
+          "name": "Change 5 · Point each statement at its code",
+          "width": 900,
+          "height": 560.0,
+          "x": 2620,
+          "y": 1580
+        },
+        {
+          "id": "6VT-0",
+          "name": "Change 6 · Include the return trip",
+          "width": 900,
+          "height": 516.0,
+          "x": 2620,
+          "y": 970
+        },
+        {
+          "id": "6VZ-0",
+          "name": "Change 7 · Make the comment scope clear",
+          "width": 1000,
+          "height": 565.0,
+          "x": 700,
+          "y": 2220
+        },
+        {
+          "id": "6W5-0",
+          "name": "Change 8 · Let resolved findings read as history",
+          "width": 1000,
+          "height": 591.0,
+          "x": 1820,
+          "y": 2220
         }
       ]
     },
     {
       "pageId": "p-5-0",
-      "name": "04 \u00b7 Interactions & tradeoffs",
+      "name": "04 · Interactions & tradeoffs",
       "artboards": [
         {
           "id": "6C5-0",
@@ -180,7 +180,7 @@
         },
         {
           "id": "6DD-0",
-          "name": "Comments \u00b7 collapsed and expanded",
+          "name": "Comments · collapsed and expanded",
           "width": 1440.0,
           "height": 970.0,
           "x": 1600,
@@ -268,8 +268,7 @@
       "jsx": "design/clean-submission/03a-task.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 312,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 312
     },
     {
       "nodeId": "1-0",
@@ -305,21 +304,12 @@
       "pixelHeight": 1114
     },
     {
-      "nodeId": "6UY-0",
-      "file": "design/clean-submission/03c-eight-changes-map.png",
-      "jsx": "design/clean-submission/03c-eight-changes-map.jsx",
-      "scale": "2x",
-      "pixelWidth": 7200,
-      "pixelHeight": 5680
-    },
-    {
       "nodeId": "6UZ-0",
       "file": "design/clean-submission/03-detail-1.png",
       "jsx": "design/clean-submission/03-detail-1.jsx",
       "scale": "2x",
       "pixelWidth": 2000,
-      "pixelHeight": 1020,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1020
     },
     {
       "nodeId": "6V5-0",
@@ -327,8 +317,7 @@
       "jsx": "design/clean-submission/03-detail-2.jsx",
       "scale": "2x",
       "pixelWidth": 2000,
-      "pixelHeight": 1138,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1138
     },
     {
       "nodeId": "6VB-0",
@@ -336,8 +325,7 @@
       "jsx": "design/clean-submission/03-detail-3.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1120,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1120
     },
     {
       "nodeId": "6VH-0",
@@ -345,8 +333,7 @@
       "jsx": "design/clean-submission/03-detail-4.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1038,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1102
     },
     {
       "nodeId": "6VN-0",
@@ -354,8 +341,7 @@
       "jsx": "design/clean-submission/03-detail-5.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1120,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1120
     },
     {
       "nodeId": "6VT-0",
@@ -363,8 +349,7 @@
       "jsx": "design/clean-submission/03-detail-6.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1032,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1032
     },
     {
       "nodeId": "6VZ-0",
@@ -372,8 +357,7 @@
       "jsx": "design/clean-submission/03-detail-7.jsx",
       "scale": "2x",
       "pixelWidth": 2000,
-      "pixelHeight": 1130,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1130
     },
     {
       "nodeId": "6W5-0",
@@ -381,9 +365,9 @@
       "jsx": "design/clean-submission/03-detail-8.jsx",
       "scale": "2x",
       "pixelWidth": 2000,
-      "pixelHeight": 1182,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1182
     }
   ],
-  "finalMapUrl": "https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/6UY-0"
+  "finalMapUrl": "https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/6UY-0",
+  "finalPageLayout": "Standalone final screen; eight separate comparison boards and connector annotations on the canvas."
 }

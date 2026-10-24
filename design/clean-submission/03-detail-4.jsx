@@ -44,14 +44,14 @@
           Progress uses the seven included files. Summary seen stays separate.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-          Mark viewed tracks the file; Mark seen tracks the summary. Undo reverses a file check.
+          I kept file viewed and summary seen separate, made file progress visible and added Undo.
         </div>
         <div style={{ borderTopColor: '#DEDCE1', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px', paddingTop: '16px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
             EXPECTED IMPACT
           </div>
           <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
-            Know what I have reviewed without opening a file counting as completion.
+            See what is left to review and recover from an accidental file check.
           </div>
         </div>
       </div>

@@ -34,7 +34,7 @@
               feedback-access.ts · L27, L38
             </div>
             <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '28px' }}>
-              Return → access.ts · L57–65
+              Return → access.ts
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
               Same selection and scroll position

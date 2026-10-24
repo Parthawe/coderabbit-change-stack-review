@@ -30,7 +30,7 @@
       </div>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px' }}>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '25px' }}>
-          Before: expanding also moved the diff. After: expand to read; use a line link to move.
+          In the original, expanding this summary also moved the diff.
         </div>
         <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
           I separated expanding the explanation from following a code link.

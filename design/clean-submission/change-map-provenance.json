@@ -1,12 +1,12 @@
 {
   "exports": [
     {
-      "nodeId": "6UY-0",
-      "file": "design/clean-submission/03c-eight-changes-map.png",
-      "jsx": "design/clean-submission/03c-eight-changes-map.jsx",
+      "nodeId": "5LF-0",
+      "file": "design/clean-submission/03a-task.png",
+      "jsx": "design/clean-submission/03a-task.jsx",
       "scale": "2x",
-      "pixelWidth": 7200,
-      "pixelHeight": 5680
+      "pixelWidth": 2880,
+      "pixelHeight": 312
     },
     {
       "nodeId": "1-0",
@@ -18,22 +18,12 @@
       "parentNodeId": "6UY-0"
     },
     {
-      "nodeId": "5LF-0",
-      "file": "design/clean-submission/03a-task.png",
-      "jsx": "design/clean-submission/03a-task.jsx",
-      "scale": "2x",
-      "pixelWidth": 2880,
-      "pixelHeight": 312,
-      "parentNodeId": "6UY-0"
-    },
-    {
       "nodeId": "6UZ-0",
       "file": "design/clean-submission/03-detail-1.png",
       "jsx": "design/clean-submission/03-detail-1.jsx",
       "scale": "2x",
       "pixelWidth": 2000,
-      "pixelHeight": 1020,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1020
     },
     {
       "nodeId": "6V5-0",
@@ -41,8 +31,7 @@
       "jsx": "design/clean-submission/03-detail-2.jsx",
       "scale": "2x",
       "pixelWidth": 2000,
-      "pixelHeight": 1138,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1138
     },
     {
       "nodeId": "6VB-0",
@@ -50,8 +39,7 @@
       "jsx": "design/clean-submission/03-detail-3.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1120,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1120
     },
     {
       "nodeId": "6VH-0",
@@ -59,8 +47,7 @@
       "jsx": "design/clean-submission/03-detail-4.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1038,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1102
     },
     {
       "nodeId": "6VN-0",
@@ -68,8 +55,7 @@
       "jsx": "design/clean-submission/03-detail-5.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1120,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1120
     },
     {
       "nodeId": "6VT-0",
@@ -77,8 +63,7 @@
       "jsx": "design/clean-submission/03-detail-6.jsx",
       "scale": "2x",
       "pixelWidth": 1800,
-      "pixelHeight": 1032,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1032
     },
     {
       "nodeId": "6VZ-0",
@@ -86,8 +71,7 @@
       "jsx": "design/clean-submission/03-detail-7.jsx",
       "scale": "2x",
       "pixelWidth": 2000,
-      "pixelHeight": 1130,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1130
     },
     {
       "nodeId": "6W5-0",
@@ -95,12 +79,10 @@
       "jsx": "design/clean-submission/03-detail-8.jsx",
       "scale": "2x",
       "pixelWidth": 2000,
-      "pixelHeight": 1182,
-      "parentNodeId": "6UY-0"
+      "pixelHeight": 1182
     }
   ],
   "names": {
-    "6UY-0": "03c-eight-changes-map",
     "1-0": "03b-final-iteration",
     "5LF-0": "03a-task",
     "6UZ-0": "03-detail-1",
@@ -133,7 +115,7 @@
       "change": "I separated expanding the explanation from following a code link.",
       "impact": "Read the summary without interrupting the current code position.",
       "id": "6V5-0",
-      "note": "Before: expanding also moved the diff. After: expand to read; use a line link to move."
+      "note": "In the original, expanding this summary also moved the diff."
     },
     {
       "n": 3,
@@ -152,8 +134,8 @@
       "y": 1580,
       "w": 900,
       "title": "Make progress deliberate",
-      "change": "Mark viewed tracks the file; Mark seen tracks the summary. Undo reverses a file check.",
-      "impact": "Know what I have reviewed without opening a file counting as completion.",
+      "change": "I kept file viewed and summary seen separate, made file progress visible and added Undo.",
+      "impact": "See what is left to review and recover from an accidental file check.",
       "id": "6VH-0",
       "note": "Progress uses the seven included files. Summary seen stays separate."
     },
@@ -184,11 +166,11 @@
       "x": 700,
       "y": 2220,
       "w": 1000,
-      "title": "Say what the comment count means",
-      "change": "I separated source messages from captured threads and made the scope explicit.",
-      "impact": "Avoid mistaking a reply count for the number of findings.",
+      "title": "Make the comment scope clear",
+      "change": "I made This file and Entire layer explicit above the summaries and comments.",
+      "impact": "Know which changes a count or discussion belongs to before opening it.",
       "id": "6VZ-0",
-      "note": "The counts have different scopes. The change makes those scopes explicit."
+      "note": "15 is the layer total; 3 is for access.ts. Capture coverage is a prototype limit."
     },
     {
       "n": 8,
@@ -196,10 +178,10 @@
       "y": 2220,
       "w": 1000,
       "title": "Let resolved findings read as history",
-      "change": "I put resolution first, kept Major visible and tucked replies inside the thread.",
+      "change": "I made resolved history quieter and kept Major visible when the thread is collapsed.",
       "impact": "See whether a finding still needs action before reading the discussion.",
       "id": "6W5-0",
-      "note": "Same resolved Major finding. The final title is paraphrased."
+      "note": "The source already has severity and resolution. This is the same resolved Major finding, paraphrased."
     }
   ],
   "pointers": [
@@ -318,42 +300,15 @@
       "arrow": "M2608 1230 L2620 1238 L2608 1246"
     },
     {
-      "n": 7,
+      "n": "7–8",
+      "nodeId": "72L-0",
       "box": [
-        1150,
-        1870,
-        1180,
-        370
+        2426,
+        1067,
+        184,
+        42
       ],
-      "path": "M2310 1882 V2030 H1180 V2220",
-      "dot": [
-        2310,
-        1882
-      ],
-      "badge": [
-        1180,
-        2130
-      ],
-      "arrow": "M1172 2208 L1180 2220 L1188 2208"
-    },
-    {
-      "n": 8,
-      "box": [
-        2310,
-        1870,
-        130,
-        370
-      ],
-      "path": "M2420 1882 V2080 H2340 V2220",
-      "dot": [
-        2420,
-        1882
-      ],
-      "badge": [
-        2340,
-        2150
-      ],
-      "arrow": "M2332 2208 L2340 2220 L2348 2208"
+      "target": "Comments tab; shared marker for the two alternate Comments-state comparisons. No leader originates from empty context-panel space."
     }
   ],
   "sources": {
@@ -366,6 +321,11 @@
     "Numbered changes break the four existing decisions into eight visible refinements; these are not eight research findings.",
     "Comments compare explicit layer/file scopes: 15 source layer messages versus 3 source messages in access.ts; no claim of fewer findings.",
     "Return and Undo are labelled interaction details. Comments show an alternate tab state.",
-    "Expected impact is untested. The central screen PNG is pixel-identical to its previous export."
-  ]
+    "Expected impact is untested. The central screen PNG is pixel-identical to its previous export.",
+    "The final screen is its own 1440 × 960 board; comparisons sit separately on the canvas.",
+    "File viewed and summary seen existed in the original. The refinement is visible file progress and Undo.",
+    "Return restores the previous selection; it does not always return to lines 57–65.",
+    "Comment scope is the product decision. Captured-thread coverage is a prototype disclosure."
+  ],
+  "connectorExports": "design/clean-submission/canvas-connectors.json"
 }
