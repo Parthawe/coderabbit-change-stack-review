@@ -26,6 +26,10 @@ Earlier checks in this pass covered summary expansion, L75 selection, Inspect gu
 
 The behavior reviewer rechecked the repaired state transitions and found no further concrete defect. JavaScript syntax passes. Updated Paper sections were inspected for spacing, type, contrast, alignment and clipping. The rationale was rendered and inspected as one page. Current PNG/JSX exports and connector metadata were refreshed.
 
+## Final display-transition check
+
+Fixed the remaining Outline → captured ranges/full file transition so the selected range stays in view. A focused check of the actual action handler covers both display directions, summary links, Outline ranges, comment ranges and no selection. JavaScript syntax passes. Browser attachment was unavailable for this last check, so this transition was verified at the handler level rather than claimed as a new browser test. Paper and rationale need no change because the intended interaction is unchanged.
+
 ## Limits
 
 Seven of 52 diffs are included at commit 23cdac2. Code links are manually mapped. One resolved thread is paraphrased; two reply bodies are omitted. Secondary workflows remain previews. Submit is disabled for the merged PR; the open-PR decision dialog is an explicit simulation. Notes and progress reset on reload.
