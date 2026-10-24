@@ -88,6 +88,14 @@
       "scale": "2x",
       "pixelWidth": 2880,
       "pixelHeight": 2034
+    },
+    {
+      "nodeId": "7EZ-0",
+      "scale": "2x",
+      "file": "design/clean-submission/03-file-tools.png",
+      "jsx": "design/clean-submission/03-file-tools.jsx",
+      "pixelWidth": 2880,
+      "pixelHeight": 1834
     }
   ],
   "names": {
@@ -101,7 +109,8 @@
     "6VT-0": "03-detail-6",
     "6VZ-0": "03-detail-7",
     "6W5-0": "03-detail-8",
-    "6DD-0": "03-comment-expansion"
+    "6DD-0": "03-comment-expansion",
+    "7EZ-0": "03-file-tools"
   },
   "cards": [
     {
@@ -316,7 +325,7 @@
   },
   "notes": [
     "Same Formbricks PR #8650 and pinned commit, light Unified.",
-    "Numbered changes break the four existing decisions into eight visible refinements; these are not eight research findings.",
+    "Numbered changes break the five selected decisions into eight visible refinements; these are not eight research findings.",
     "Comments compare explicit layer/file scopes: 15 source layer messages versus 3 source messages in access.ts; no claim of fewer findings.",
     "Return and Undo are labelled interaction details. Comments show an alternate tab state.",
     "Expected impact is untested. The central screen PNG is pixel-identical to its previous export.",
@@ -328,7 +337,8 @@
     "Both sides of detail 7 now use the same layer scope: 37 summaries and 15 messages.",
     "Full source summary wording is visible. Detail 5 shows the same first three points on both sides.",
     "Comment metadata retains author, category, severity, resolution, line range and reply count. Two reply bodies are not captured.",
-    "The collapsed/expanded thread example now sits below change 8 on the Final iteration canvas. The closing page covers tradeoffs and next checks."
+    "The collapsed/expanded thread example now sits below change 8 on the Final iteration canvas. The closing page covers tradeoffs and next checks.",
+    "File tools is an enlarged editable interaction detail. Labels and actions were checked against the deployed dialog. Status-first comments remain a limited refinement, not a headline decision."
   ],
   "connectorExports": "design/clean-submission/canvas-connectors.json"
 }

@@ -72,11 +72,19 @@
         },
         {
           "id": "63I-0",
-          "name": "04 · Check the reading order",
+          "name": "04 · Choose file or layer context",
           "width": 1600.0,
-          "height": 1200.0,
+          "height": 1048.0,
           "x": 1760,
           "y": 1520
+        },
+        {
+          "id": "7EY-0",
+          "name": "05 · Make progress deliberate and reversible",
+          "width": 1600.0,
+          "height": 1039.0,
+          "x": 0,
+          "y": 3060
         }
       ]
     },
@@ -171,6 +179,14 @@
           "height": 1017.0,
           "x": 1820,
           "y": 3260
+        },
+        {
+          "id": "7EZ-0",
+          "name": "1 · Open file tools",
+          "width": 1440.0,
+          "height": 917.0,
+          "x": 80,
+          "y": 3260
         }
       ]
     },
@@ -248,11 +264,11 @@
     },
     {
       "nodeId": "63I-0",
-      "file": "design/clean-submission/02d-comments-and-findings.png",
-      "jsx": "design/clean-submission/02d-comments-and-findings.jsx",
+      "file": "design/clean-submission/02d-context-scope.png",
+      "jsx": "design/clean-submission/02d-context-scope.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2400
+      "pixelHeight": 2096
     },
     {
       "nodeId": "5LF-0",
@@ -350,8 +366,24 @@
       "scale": "2x",
       "pixelWidth": 2000,
       "pixelHeight": 1142
+    },
+    {
+      "nodeId": "7EY-0",
+      "scale": "2x",
+      "file": "design/clean-submission/02e-deliberate-progress.png",
+      "jsx": "design/clean-submission/02e-deliberate-progress.jsx",
+      "pixelWidth": 3200,
+      "pixelHeight": 2078
+    },
+    {
+      "nodeId": "7EZ-0",
+      "scale": "2x",
+      "file": "design/clean-submission/03-file-tools.png",
+      "jsx": "design/clean-submission/03-file-tools.jsx",
+      "pixelWidth": 2880,
+      "pixelHeight": 1834
     }
   ],
   "finalMapUrl": "https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/6UY-0",
-  "finalPageLayout": "Standalone final screen; eight separate comparisons and an expanded comment-thread example on the canvas."
+  "finalPageLayout": "Standalone final screen; eight comparisons, an expanded comment thread and an open file-tools detail on the canvas."
 }

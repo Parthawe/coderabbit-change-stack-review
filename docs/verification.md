@@ -514,3 +514,10 @@ Remaining uncertainty: fuller wording requires more vertical scrolling. Resoluti
 ## Closing page and comment expansion — 23 October
 
 Moved the collapsed/expanded resolved-thread example to Final iteration, below change 8. Replaced the closing interactions recap with three tradeoffs, questions that could change the design and an ordered follow-up plan. Both boards were inspected through Paper screenshots: readable type, aligned columns, no clipped content. Exported both at 2× and saved exact JSX. The prototype support link now opens the comment interaction. No product behaviour changed in this pass.
+
+
+## Decision curation — 23 October
+
+Five main studies now separate control placement, context scope and deliberate progress. Status-first comments remain a limited refinement in the final view and tradeoffs, with the previous study archived. Added an editable, enlarged File tools state to Final iteration. Screenshots of all five decision studies and the Tools detail were reviewed; new boards fit without clipping.
+
+On the deployed prototype at 1280 × 720, Entire layer changed context to 37 summaries and 15 comments while keeping access.ts selected. This file restored 6 summaries and 3 comments. Mark viewed changed 0/7 to 1/7; Undo restored 0/7. Tools opened with captured-range, path-copy, wrapping and collapse actions. No product behaviour was changed in this pass.

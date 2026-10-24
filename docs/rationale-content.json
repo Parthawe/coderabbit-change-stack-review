@@ -1,6 +1,6 @@
 {
   "title": "Keep track of the change",
-  "intro": "Make Change Stack easier to review without losing what it can do. I focused on understanding a change, checking its code and keeping track of the review. My starting assumption: as a PR grows, holding the layer, file, explanation and review state together becomes extra work.",
+  "intro": "Make Change Stack easier to review without losing what it can do. I focused on understanding the change, checking its code and tracking progress. My assumption: keeping the layer, file, explanation and review state together takes extra effort.",
   "rows": [
     [
       "What I noticed",
@@ -15,19 +15,23 @@
       "Nest files under their layer. Inspect guard opens the dependency; Return restores the caller and position. This keeps one wide code pane; a side-by-side option would need more horizontal space."
     ],
     [
-      "Actions span several groups. Seen, viewed and submitted mean different things.",
-      "Keep frequent file actions beside the filename and secondary actions in Tools. Mark viewed updates file progress with Undo. Reading a summary never marks the file reviewed."
+      "Actions span several control groups.",
+      "Keep frequent file actions beside the filename and display controls beside the diff. Put secondary actions in Tools. That adds a click; I’d check whether people can find them."
     ],
     [
-      "Message totals, severity and resolution can be read as one signal.",
-      "Keep the author, category, severity and line range. Show resolution before the discussion, and collapse replies within the thread. Explicit file/layer scope keeps message totals meaningful; capture coverage is a separate limit."
+      "File and layer totals need a clear scope.",
+      "Start with This file and keep Entire layer one click away. Counts follow the scope: access.ts has 3 messages; its layer has 15. The diff stays in place."
+    ],
+    [
+      "Seen, viewed and submitted mean different things.",
+      "Opening a file leaves progress alone. Mark viewed updates its checkbox and the count, with Undo. Summary seen stays separate from the PR decision."
     ]
   ],
   "tradeoff_title": "What I gave up",
-  "tradeoff": "The original fits more code. This iteration gives files and explanations more room; Focus returns that space to the diff. Smaller highlights may draw attention away from a relevant branch. Inspect + Return also means switching views instead of seeing both files together.",
+  "tradeoff": "Context takes space from the diff; Focus gives it back. Precise highlights may hide relevant branches. Inspect + Return means switching views. Status-first comments need testing with open findings; this sample has one resolved thread.",
   "validation_title": "What I kept",
-  "validation": "The original PR header, merged state, layer order, green/red change counts, finding and complexity labels, J/K and Focus remain. Gray marks selection; orange highlights linked code. Severity and resolution already existed. I changed how they read together, not what the product knows.",
+  "validation": "The source header, merged state, layer order, change counts, complexity labels, J/K and Focus remain. Comments keep the author, category, severity, resolution and line range. Gray marks selection; orange highlights linked code.",
   "next_title": "What I would test",
-  "next": "Compare the same task in both versions, varying which comes first. Watch for missed branches, lost context and buried open findings. Then try a PR with more dependencies. I’d revise panel widths, code links or comment order based on what I learn. Overview filters, summary links after new commits and viewed-state resets need further work.",
+  "next": "Compare the same task in both versions, varying which comes first. Watch for missed branches, lost context and buried findings. Try a PR with more dependencies. Then revise the panels, links or comment order. Check Overview filters and how new commits affect links and viewed progress.",
   "scope": "Observations and assumptions from using this PR, not developer research. Seven of 52 diffs at commit 23cdac2; manually mapped links; one paraphrased finding, with two reply bodies omitted. Secondary workflows are previews. Submit is disabled for the merged PR. Work exceeded the 1–2 hour brief. Paper requires sign-in."
 }
