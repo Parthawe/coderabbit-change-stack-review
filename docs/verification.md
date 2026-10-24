@@ -30,6 +30,12 @@ The behavior reviewer rechecked the repaired state transitions and found no furt
 
 Fixed the remaining Outline → captured ranges/full file transition so the selected range stays in view. A focused check of the actual action handler covers both display directions, summary links, Outline ranges, comment ranges and no selection. JavaScript syntax passes. Browser attachment was unavailable for this last check, so this transition was verified at the handler level rather than claimed as a new browser test. Paper and rationale need no change because the intended interaction is unchanged.
 
+## Reviewer-story critique
+
+The latest critique focused on whether the argument was fair and specific. Three changes were made in Paper: the progress headline now names feedback and Undo rather than implying that deliberate viewed state is new; the drawer alternative acknowledges its value when closed; and the next-checks page names a concrete workspace-guard task with missed checks and lost position as observations. The rationale now credits the existing seen/viewed controls and describes narrow highlights as an attention risk, not hidden code.
+
+The three edited Paper boards were inspected at full size without clipping. Exports were refreshed at 2×, and the rationale was rendered and checked as one page. Prototype behavior was unchanged in this critique. The remaining uncertainty is whether file-first context and resolution-first comments work on reviews with more dependencies and open findings; this needs developer testing.
+
 ## Limits
 
 Seven of 52 diffs are included at commit 23cdac2. Code links are manually mapped. One resolved thread is paraphrased; two reply bodies are omitted. Secondary workflows remain previews. Submit is disabled for the merged PR; the open-PR decision dialog is an explicit simulation. Notes and progress reset on reload.

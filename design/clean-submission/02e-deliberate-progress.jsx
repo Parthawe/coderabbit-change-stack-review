@@ -9,7 +9,7 @@
             <path d="M3 3h18v18H3zM7 12l3 3 7-7" fill="none" stroke="#65616A" strokeWidth="1.5" />
           </svg>
           <div id="7G7-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '44px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '52px' }}>
-            Opening a file shouldn’t count as reviewing it.
+            I made file progress visible and easy to undo.
           </div>
         </div>
         <div id="7G8-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>

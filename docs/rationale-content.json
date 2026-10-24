@@ -24,14 +24,14 @@
     ],
     [
       "Seen, viewed and submitted mean different things.",
-      "Opening a file leaves progress alone. Mark viewed updates its checkbox and the count, with Undo. Summary seen stays separate from the PR decision."
+      "The source already has seen and viewed controls. I added a file count and immediate Undo. Navigation leaves progress alone; summary seen and Submit keep their own meanings."
     ]
   ],
   "tradeoff_title": "What I gave up",
-  "tradeoff": "Context takes space from the diff; Focus gives it back. Precise highlights may hide relevant branches. Inspect + Return means switching views. Status-first comments need testing with open findings; this sample has one resolved thread.",
+  "tradeoff": "Context takes space from the diff; Focus gives it back. Precise highlights can distract from surrounding branches. Inspect + Return means switching views. Status-first comments need testing with open findings; this sample has one resolved thread.",
   "validation_title": "What I kept",
   "validation": "The header, merged state, layer order, counts, complexity labels, J/K and Focus remain. Comments retain their metadata and expand in place; a separate line link opens code. Gray marks selection; orange highlights linked code.",
   "next_title": "What I would test",
-  "next": "Compare the same task in both versions, varying which comes first. Watch for missed branches, lost context and buried findings. Try a PR with more dependencies. Then revise the panels, links or comment order. Check Overview filters and how new commits affect links and viewed progress.",
+  "next": "Trace the workspace guard, explain its checks, return and mark the file viewed. Compare both versions, varying the order; note missed checks and lost position. Then try more dependencies and open findings. Check how new commits affect links and viewed progress.",
   "scope": "Observations and assumptions from using this PR, not developer research. Seven of 52 diffs at commit 23cdac2; manually mapped links; one paraphrased finding, with two reply bodies omitted. Secondary workflows are previews. Submit is disabled for the merged PR. Work exceeded the 1–2 hour brief. Paper requires sign-in."
 }

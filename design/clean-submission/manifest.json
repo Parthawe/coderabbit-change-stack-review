@@ -198,7 +198,7 @@
           "id": "5LH-0",
           "name": "Tradeoffs and what I would do next",
           "width": 1600.0,
-          "height": 1171.0,
+          "height": 1200.0,
           "x": 0,
           "y": 0
         }
@@ -301,7 +301,7 @@
       "jsx": "design/clean-submission/04-tradeoffs-and-next-steps.jsx",
       "scale": "2x",
       "pixelWidth": 3200,
-      "pixelHeight": 2342
+      "pixelHeight": 2400
     },
     {
       "nodeId": "6UZ-0",
