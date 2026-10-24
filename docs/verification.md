@@ -483,3 +483,7 @@ Source captures and product UI were not edited. Essential limitations remain vis
 ## Final Paper cuts · 2026-10-23
 
 Moved Overview filtering to one future-work sentence. Removed the repeated change notes under the final screen. Reduced the six-action list to Return and Undo; kept the separate resolved-thread visual. Reviewed the changed boards as screenshots: readable type, aligned content, no overlap or clipping. Preserved seven numbered evidence pointers and the four design decisions. Refreshed three 2× PNG/JSX exports; the manifest now contains 13 boards across four pages. Removed exports remain in archive/paper-final-cuts. Prototype behavior and rationale are unchanged. Submission packs exclude videos and recording scripts. Nothing sent to CodeRabbit.
+
+## Final iteration comparison map · 2026-10-23
+
+Rebuilt page 3 around the unchanged 1440 × 960 editable screen. Eight before/after details sit above, beside and below it, with orange leaders routed around the content. Reviewed all eight details and the full map; corrected screenshot clipping, enlarged the guard-call crop, and kept annotations outside product text. Explicitly labelled interaction excerpts, Comments alternate state, layer/file count scopes and expected rather than measured benefits. Pixel comparison confirmed the central screen unchanged. Verified all sections fit the canvas and do not overlap. Exported the map, screen, caption and eight details at 2×. The prototype and rationale remain the same four design decisions. No video or external message.

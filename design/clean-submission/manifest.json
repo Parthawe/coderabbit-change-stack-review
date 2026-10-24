@@ -85,20 +85,84 @@
       "name": "03 \u00b7 Final iteration",
       "artboards": [
         {
-          "id": "5LF-0",
-          "name": "Final iteration \u00b7 purpose and prototype",
-          "width": 1440.0,
-          "height": 156.0,
+          "id": "6UY-0",
+          "name": "Final iteration \u00b7 eight changes in context",
+          "width": 3600,
+          "height": 2840,
           "x": 0,
-          "y": 0
-        },
-        {
-          "id": "1-0",
-          "name": "Final iteration \u00b7 reviewing screen",
-          "width": 1440.0,
-          "height": 960.0,
-          "x": 0,
-          "y": 220
+          "y": 0,
+          "sections": [
+            {
+              "id": "1-0",
+              "x": 1080,
+              "y": 970,
+              "width": 1440.0,
+              "height": 960.0
+            },
+            {
+              "id": "5LF-0",
+              "x": 1080,
+              "y": 64,
+              "width": 1440.0,
+              "height": 156.0
+            },
+            {
+              "id": "6UZ-0",
+              "x": 700,
+              "y": 300,
+              "width": 1000.0,
+              "height": 510.0
+            },
+            {
+              "id": "6V5-0",
+              "x": 1820,
+              "y": 300,
+              "width": 1000.0,
+              "height": 569.0
+            },
+            {
+              "id": "6VB-0",
+              "x": 80,
+              "y": 970,
+              "width": 900.0,
+              "height": 560.0
+            },
+            {
+              "id": "6VH-0",
+              "x": 80,
+              "y": 1580,
+              "width": 900.0,
+              "height": 519.0
+            },
+            {
+              "id": "6VN-0",
+              "x": 2620,
+              "y": 1580,
+              "width": 900.0,
+              "height": 560.0
+            },
+            {
+              "id": "6VT-0",
+              "x": 2620,
+              "y": 970,
+              "width": 900.0,
+              "height": 516.0
+            },
+            {
+              "id": "6VZ-0",
+              "x": 700,
+              "y": 2220,
+              "width": 1000.0,
+              "height": 565.0
+            },
+            {
+              "id": "6W5-0",
+              "x": 1820,
+              "y": 2220,
+              "width": 1000.0,
+              "height": 591.0
+            }
+          ]
         }
       ]
     },
@@ -204,7 +268,8 @@
       "jsx": "design/clean-submission/03a-task.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 312
+      "pixelHeight": 312,
+      "parentNodeId": "6UY-0"
     },
     {
       "nodeId": "1-0",
@@ -212,7 +277,8 @@
       "jsx": "design/clean-submission/03b-final-iteration.jsx",
       "scale": "2x",
       "pixelWidth": 2880,
-      "pixelHeight": 1920
+      "pixelHeight": 1920,
+      "parentNodeId": "6UY-0"
     },
     {
       "nodeId": "6C5-0",
@@ -237,6 +303,87 @@
       "scale": "2x",
       "pixelWidth": 2880,
       "pixelHeight": 1114
+    },
+    {
+      "nodeId": "6UY-0",
+      "file": "design/clean-submission/03c-eight-changes-map.png",
+      "jsx": "design/clean-submission/03c-eight-changes-map.jsx",
+      "scale": "2x",
+      "pixelWidth": 7200,
+      "pixelHeight": 5680
+    },
+    {
+      "nodeId": "6UZ-0",
+      "file": "design/clean-submission/03-detail-1.png",
+      "jsx": "design/clean-submission/03-detail-1.jsx",
+      "scale": "2x",
+      "pixelWidth": 2000,
+      "pixelHeight": 1020,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6V5-0",
+      "file": "design/clean-submission/03-detail-2.png",
+      "jsx": "design/clean-submission/03-detail-2.jsx",
+      "scale": "2x",
+      "pixelWidth": 2000,
+      "pixelHeight": 1138,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6VB-0",
+      "file": "design/clean-submission/03-detail-3.png",
+      "jsx": "design/clean-submission/03-detail-3.jsx",
+      "scale": "2x",
+      "pixelWidth": 1800,
+      "pixelHeight": 1120,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6VH-0",
+      "file": "design/clean-submission/03-detail-4.png",
+      "jsx": "design/clean-submission/03-detail-4.jsx",
+      "scale": "2x",
+      "pixelWidth": 1800,
+      "pixelHeight": 1038,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6VN-0",
+      "file": "design/clean-submission/03-detail-5.png",
+      "jsx": "design/clean-submission/03-detail-5.jsx",
+      "scale": "2x",
+      "pixelWidth": 1800,
+      "pixelHeight": 1120,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6VT-0",
+      "file": "design/clean-submission/03-detail-6.png",
+      "jsx": "design/clean-submission/03-detail-6.jsx",
+      "scale": "2x",
+      "pixelWidth": 1800,
+      "pixelHeight": 1032,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6VZ-0",
+      "file": "design/clean-submission/03-detail-7.png",
+      "jsx": "design/clean-submission/03-detail-7.jsx",
+      "scale": "2x",
+      "pixelWidth": 2000,
+      "pixelHeight": 1130,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6W5-0",
+      "file": "design/clean-submission/03-detail-8.png",
+      "jsx": "design/clean-submission/03-detail-8.jsx",
+      "scale": "2x",
+      "pixelWidth": 2000,
+      "pixelHeight": 1182,
+      "parentNodeId": "6UY-0"
     }
-  ]
+  ],
+  "finalMapUrl": "https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/6UY-0"
 }

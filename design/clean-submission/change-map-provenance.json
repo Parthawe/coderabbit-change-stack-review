@@ -1,0 +1,371 @@
+{
+  "exports": [
+    {
+      "nodeId": "6UY-0",
+      "file": "design/clean-submission/03c-eight-changes-map.png",
+      "jsx": "design/clean-submission/03c-eight-changes-map.jsx",
+      "scale": "2x",
+      "pixelWidth": 7200,
+      "pixelHeight": 5680
+    },
+    {
+      "nodeId": "1-0",
+      "file": "design/clean-submission/03b-final-iteration.png",
+      "jsx": "design/clean-submission/03b-final-iteration.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 1920,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "5LF-0",
+      "file": "design/clean-submission/03a-task.png",
+      "jsx": "design/clean-submission/03a-task.jsx",
+      "scale": "2x",
+      "pixelWidth": 2880,
+      "pixelHeight": 312,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6UZ-0",
+      "file": "design/clean-submission/03-detail-1.png",
+      "jsx": "design/clean-submission/03-detail-1.jsx",
+      "scale": "2x",
+      "pixelWidth": 2000,
+      "pixelHeight": 1020,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6V5-0",
+      "file": "design/clean-submission/03-detail-2.png",
+      "jsx": "design/clean-submission/03-detail-2.jsx",
+      "scale": "2x",
+      "pixelWidth": 2000,
+      "pixelHeight": 1138,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6VB-0",
+      "file": "design/clean-submission/03-detail-3.png",
+      "jsx": "design/clean-submission/03-detail-3.jsx",
+      "scale": "2x",
+      "pixelWidth": 1800,
+      "pixelHeight": 1120,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6VH-0",
+      "file": "design/clean-submission/03-detail-4.png",
+      "jsx": "design/clean-submission/03-detail-4.jsx",
+      "scale": "2x",
+      "pixelWidth": 1800,
+      "pixelHeight": 1038,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6VN-0",
+      "file": "design/clean-submission/03-detail-5.png",
+      "jsx": "design/clean-submission/03-detail-5.jsx",
+      "scale": "2x",
+      "pixelWidth": 1800,
+      "pixelHeight": 1120,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6VT-0",
+      "file": "design/clean-submission/03-detail-6.png",
+      "jsx": "design/clean-submission/03-detail-6.jsx",
+      "scale": "2x",
+      "pixelWidth": 1800,
+      "pixelHeight": 1032,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6VZ-0",
+      "file": "design/clean-submission/03-detail-7.png",
+      "jsx": "design/clean-submission/03-detail-7.jsx",
+      "scale": "2x",
+      "pixelWidth": 2000,
+      "pixelHeight": 1130,
+      "parentNodeId": "6UY-0"
+    },
+    {
+      "nodeId": "6W5-0",
+      "file": "design/clean-submission/03-detail-8.png",
+      "jsx": "design/clean-submission/03-detail-8.jsx",
+      "scale": "2x",
+      "pixelWidth": 2000,
+      "pixelHeight": 1182,
+      "parentNodeId": "6UY-0"
+    }
+  ],
+  "names": {
+    "6UY-0": "03c-eight-changes-map",
+    "1-0": "03b-final-iteration",
+    "5LF-0": "03a-task",
+    "6UZ-0": "03-detail-1",
+    "6V5-0": "03-detail-2",
+    "6VB-0": "03-detail-3",
+    "6VH-0": "03-detail-4",
+    "6VN-0": "03-detail-5",
+    "6VT-0": "03-detail-6",
+    "6VZ-0": "03-detail-7",
+    "6W5-0": "03-detail-8"
+  },
+  "cards": [
+    {
+      "n": 1,
+      "x": 700,
+      "y": 300,
+      "w": 1000,
+      "title": "Keep file actions together",
+      "change": "I kept Mark viewed visible and moved secondary file actions into Tools.",
+      "impact": "Less scanning across control rows to finish reviewing a file.",
+      "id": "6UZ-0",
+      "note": ""
+    },
+    {
+      "n": 2,
+      "x": 1820,
+      "y": 300,
+      "w": 1000,
+      "title": "Read before moving the code",
+      "change": "I separated expanding the explanation from following a code link.",
+      "impact": "Read the summary without interrupting the current code position.",
+      "id": "6V5-0",
+      "note": "Before: expanding also moved the diff. After: expand to read; use a line link to move."
+    },
+    {
+      "n": 3,
+      "x": 80,
+      "y": 970,
+      "w": 900,
+      "title": "See the files inside the layer",
+      "change": "I brought file nesting into the layer navigation.",
+      "impact": "Switch files while keeping the layer relationship visible.",
+      "id": "6VB-0",
+      "note": ""
+    },
+    {
+      "n": 4,
+      "x": 80,
+      "y": 1580,
+      "w": 900,
+      "title": "Make progress deliberate",
+      "change": "Mark viewed tracks the file; Mark seen tracks the summary. Undo reverses a file check.",
+      "impact": "Know what I have reviewed without opening a file counting as completion.",
+      "id": "6VH-0",
+      "note": "Progress uses the seven included files. Summary seen stays separate."
+    },
+    {
+      "n": 5,
+      "x": 2620,
+      "y": 1580,
+      "w": 900,
+      "title": "Point each statement at its code",
+      "change": "Six points now have individual line links. The whole function stays available.",
+      "impact": "Start at the relevant statement, with less code to search through.",
+      "id": "6VN-0",
+      "note": ""
+    },
+    {
+      "n": 6,
+      "x": 2620,
+      "y": 970,
+      "w": 900,
+      "title": "Include the return trip",
+      "change": "Inspect guard opens the dependency. Return restores the caller and its position.",
+      "impact": "Follow the check without having to reconstruct where I left off.",
+      "id": "6VT-0",
+      "note": ""
+    },
+    {
+      "n": 7,
+      "x": 700,
+      "y": 2220,
+      "w": 1000,
+      "title": "Say what the comment count means",
+      "change": "I separated source messages from captured threads and made the scope explicit.",
+      "impact": "Avoid mistaking a reply count for the number of findings.",
+      "id": "6VZ-0",
+      "note": "The counts have different scopes. The change makes those scopes explicit."
+    },
+    {
+      "n": 8,
+      "x": 1820,
+      "y": 2220,
+      "w": 1000,
+      "title": "Let resolved findings read as history",
+      "change": "I put resolution first, kept Major visible and tucked replies inside the thread.",
+      "impact": "See whether a finding still needs action before reading the discussion.",
+      "id": "6W5-0",
+      "note": "Same resolved Major finding. The final title is paraphrased."
+    }
+  ],
+  "pointers": [
+    {
+      "n": 1,
+      "box": [
+        1490,
+        790,
+        720,
+        345
+      ],
+      "path": "M2180 1117 H2190 V890 H1500 V810",
+      "dot": [
+        2180,
+        1117
+      ],
+      "badge": [
+        2190,
+        940
+      ],
+      "arrow": "M1492 822 L1500 810 L1508 822"
+    },
+    {
+      "n": 2,
+      "box": [
+        2310,
+        855,
+        275,
+        345
+      ],
+      "path": "M2508 1184 H2560 V900 H2320 V870",
+      "dot": [
+        2508,
+        1184
+      ],
+      "badge": [
+        2560,
+        940
+      ],
+      "arrow": "M2312 882 L2320 870 L2328 882"
+    },
+    {
+      "n": 3,
+      "box": [
+        970,
+        1180,
+        140,
+        60
+      ],
+      "path": "M1092 1210 H980",
+      "dot": [
+        1092,
+        1210
+      ],
+      "badge": [
+        1040,
+        1210
+      ],
+      "arrow": "M992 1202 L980 1210 L992 1218"
+    },
+    {
+      "n": 4,
+      "box": [
+        970,
+        1760,
+        140,
+        60
+      ],
+      "path": "M1092 1790 H980",
+      "dot": [
+        1092,
+        1790
+      ],
+      "badge": [
+        1040,
+        1790
+      ],
+      "arrow": "M992 1782 L980 1790 L992 1798"
+    },
+    {
+      "n": 5,
+      "box": [
+        2500,
+        1290,
+        135,
+        425
+      ],
+      "path": "M2508 1304 H2550 V1700 H2620",
+      "dot": [
+        2508,
+        1304
+      ],
+      "badge": [
+        2550,
+        1500
+      ],
+      "arrow": "M2608 1692 L2620 1700 L2608 1708"
+    },
+    {
+      "n": 6,
+      "box": [
+        2500,
+        1208,
+        135,
+        60
+      ],
+      "path": "M2508 1238 H2620",
+      "dot": [
+        2508,
+        1238
+      ],
+      "badge": [
+        2560,
+        1238
+      ],
+      "arrow": "M2608 1230 L2620 1238 L2608 1246"
+    },
+    {
+      "n": 7,
+      "box": [
+        1150,
+        1870,
+        1180,
+        370
+      ],
+      "path": "M2310 1882 V2030 H1180 V2220",
+      "dot": [
+        2310,
+        1882
+      ],
+      "badge": [
+        1180,
+        2130
+      ],
+      "arrow": "M1172 2208 L1180 2220 L1188 2208"
+    },
+    {
+      "n": 8,
+      "box": [
+        2310,
+        1870,
+        130,
+        370
+      ],
+      "path": "M2420 1882 V2080 H2340 V2220",
+      "dot": [
+        2420,
+        1882
+      ],
+      "badge": [
+        2340,
+        2150
+      ],
+      "arrow": "M2332 2208 L2340 2220 L2348 2208"
+    }
+  ],
+  "sources": {
+    "originalReview": "design/evidence/original-unified-access-call@2x.png",
+    "originalComments": "design/evidence/original-comments-light@2x.png",
+    "finalReview": "design/clean-submission/03b-final-iteration.png"
+  },
+  "notes": [
+    "Same Formbricks PR #8650 and pinned commit, light Unified.",
+    "Numbered changes break the four existing decisions into eight visible refinements; these are not eight research findings.",
+    "Comments compare explicit layer/file scopes: 15 source layer messages versus 3 source messages in access.ts; no claim of fewer findings.",
+    "Return and Undo are labelled interaction details. Comments show an alternate tab state.",
+    "Expected impact is untested. The central screen PNG is pixel-identical to its previous export."
+  ]
+}
