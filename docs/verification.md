@@ -62,3 +62,10 @@ These are implementation checks, not evidence that developers review more accura
 Use this prompt without naming the new controls: “Explain when this change permits or refuses access to a feedback record. Check any helper you need, return to your starting file, and record which file you have reviewed.” Use the same PR, commit, file and starting position in both versions. Vary the order across participants and record that a repeated task introduces learning.
 
 Observe whether they find both captured explanations, inspect the workspace/entitlement guard, return without searching, and distinguish summary seen from file viewed. Ask what they think each count means. Record wrong turns, missed checks and any help given; task time alone is insufficient. If the picker is missed, try a visible list of collapsed titles. If line links cause skipped branches, revise the highlight/context balance. If Tools hides a frequent action, move that action back into the toolbar. Test resolution-first comments on a PR with open findings before defending that choice.
+
+
+## File-position regression · October 24
+
+A further browser review reproduced a continuity defect at 1280 × 720: read access.ts, move to errors.test.ts, change Unified to Split, then return. The saved pixel offset 2056 placed the first visible line at 70 instead of 71. File views now save the first visible line and its offset, using the same restoration logic as Focus and layout changes.
+
+The repaired path returned to line 71 at offset -40, with its pixel scroll adjusted to 2128 for Split. The reverse path returned to line 71 at offset -40 and scroll 2056 in Unified. Changing wrapping while away also returned to line 71; the offset was clamped to -20 to keep part of the shorter line visible. L75 remained selected and progress stayed at 0 / 7. JavaScript syntax and whitespace checks passed. Paper and rationale already describe preserving reading position; their design and copy were unchanged.

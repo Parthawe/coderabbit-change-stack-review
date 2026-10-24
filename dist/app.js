@@ -83,7 +83,7 @@ function activeRange(){
 }
 function rememberFile(){
  const f=currentFile(),scroller=codeScroller();if(!f)return;
- state.fileViews.set(f.id,{top:scroller.scrollTop,left:scroller.scrollLeft,summary:state.summary,codeRange:state.codeRange,commentRange:state.commentRange,tab:state.tab,fileNote:state.fileNote,commentLine:state.commentLine,thread:state.thread,complexity:state.complexity,contextTop:$('#context-scroll').scrollTop,activeLine:state.activeLine})
+ state.fileViews.set(f.id,{position:readingPosition(),top:scroller.scrollTop,left:scroller.scrollLeft,summary:state.summary,codeRange:state.codeRange,commentRange:state.commentRange,tab:state.tab,fileNote:state.fileNote,commentLine:state.commentLine,thread:state.thread,complexity:state.complexity,contextTop:$('#context-scroll').scrollTop,activeLine:state.activeLine})
 }
 function configureFile(f){
  const saved=state.fileViews.get(f.id);state.summary=saved?saved.summary:(f.summaries[0]?.id??null);state.codeRange=saved?.codeRange||null;state.commentRange=saved?.commentRange||null;state.tab=saved?.tab||'summaries';state.complexity=saved?.complexity||'All';
@@ -91,7 +91,7 @@ function configureFile(f){
 }
 function restoreFilePosition(){
  const f=currentFile(),saved=f&&state.fileViews.get(f.id),scroller=codeScroller();
- if(saved){scroller.scrollTo({top:saved.top,left:saved.left,behavior:'instant'});$('#context-scroll').scrollTop=saved.contextTop||0}
+ if(saved){restoreReadingPosition(saved.position||{top:saved.top,left:saved.left});$('#context-scroll').scrollTop=saved.contextTop||0}
  else{const range=activeRange();if(range){if(state.tab==='summaries'&&!state.codeRange)scrollToEvidence();else scrollToLine(range[0],false)}else scroller.scrollTo({top:0,left:0,behavior:'instant'});$('#context-scroll').scrollTop=0}
 }
 function setLayer(n){
