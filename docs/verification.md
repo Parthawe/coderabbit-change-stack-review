@@ -69,3 +69,10 @@ Observe whether they find both captured explanations, inspect the workspace/enti
 A further browser review reproduced a continuity defect at 1280 × 720: read access.ts, move to errors.test.ts, change Unified to Split, then return. The saved pixel offset 2056 placed the first visible line at 70 instead of 71. File views now save the first visible line and its offset, using the same restoration logic as Focus and layout changes.
 
 The repaired path returned to line 71 at offset -40, with its pixel scroll adjusted to 2128 for Split. The reverse path returned to line 71 at offset -40 and scroll 2056 in Unified. Changing wrapping while away also returned to line 71; the offset was clamped to -20 to keep part of the shorter line visible. L75 remained selected and progress stayed at 0 / 7. JavaScript syntax and whitespace checks passed. Paper and rationale already describe preserving reading position; their design and copy were unchanged.
+
+
+## 24 October — decision hierarchy and next developer check
+
+Paper page 2 now puts reading, Inspect/Return and viewed progress first. Control placement and context scope are labeled supporting refinements. Three affected boards were inspected and re-exported at 2× with exact JSX; the four-page structure and all shared URLs remain. The rationale already follows this hierarchy. No prototype code or research claims changed.
+
+A private one-page developer task and facilitator guide are prepared outside the submission. No participant session has run in this pass. The seven implemented diffs are added files; mixed hunks, deeper dependency chains and unresolved findings remain unvalidated. A GitHub comparison to pinned target 23cdac2 supplies a real later test candidate, taxonomy/lib/access.ts (+5/-11), but does not establish CodeRabbit review-run hunk mapping. Keep the present coverage disclosures.
