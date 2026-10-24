@@ -212,9 +212,16 @@ function updateNoteMarkers(){
  const index=$('#local-notes-index');if(index)index.outerHTML=notesIndex();const line=state.commentLine,note=state.notes.get(`${state.file}:${line}`),button=$(`[data-comment-line="${line}"]`),has=!!(note?.draft||note?.saved);
  if(button){button.classList.toggle('has-note',has);button.textContent=has?'●':'+';button.setAttribute('aria-label',`${has?'Open local note':'Add local comment'} at line ${line}`)}
 }
+function changeScope(scope){
+ if(scope===state.scope)return;
+ const position=readingPosition();state.scope=scope;
+ if(state.tab==='comments')Object.assign(state,{fileNote:false,commentLine:null,thread:false,codeRange:null,emptyDemo:false});
+ renderSummaries();renderComments();renderDiff();restoreReadingPosition(position);$('#context-scroll').scrollTop=0;
+ $('#interaction-status').textContent=`${scope==='layer'?'Entire layer':'This file'} context. Code position preserved.`
+}
 function openNote(n){
  const f=currentFile();if(!f?.lines||n<1||n>f.lines.length)return;
- state.codeRange=null;state.fileNote=false;state.commentLine=n;state.activeLine=n;state.thread=false;state.emptyDemo=false;state.collapsed=false;state.tab='comments';syncTabs();renderDiff();scrollToLine(n,false);renderComments();openContext(false);$('#comment-draft').focus()
+ state.scope='file';renderSummaries();state.codeRange=null;state.fileNote=false;state.commentLine=n;state.activeLine=n;state.thread=false;state.emptyDemo=false;state.collapsed=false;state.tab='comments';syncTabs();renderDiff();scrollToLine(n,false);renderComments();openContext(false);$('#comment-draft').focus()
 }
 function threadPreview(t,layer=false){
  return `<button class="thread-summary" data-action="${layer?'layer-thread':'open-thread'}" ${layer?'':`aria-expanded="${state.thread}" aria-controls="captured-thread"`}><span class="thread-author-row"><strong>${esc(t.author)} · bot</strong><span class="resolved-badge">${checkIcon}${esc(t.status)}</span></span><span class="thread-tags"><span class="finding-badge major">${esc(t.severity)}</span><span>${esc(t.category)}</span><span>${esc(t.effort)}</span></span><span class="thread-title-row"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg><strong>${esc(t.title)}</strong></span><span class="thread-footer"><span class="thread-lines">access.ts · L${t.start}–${t.end}</span><span>${t.replies} replies</span></span></button>`
@@ -245,7 +252,7 @@ function showOutline(){
 function closeOutline(){const panel=$('#outline-panel');if(panel.matches(':popover-open'))panel.hidePopover();$('#file-outline').setAttribute('aria-expanded','false')}
 $('#outline-panel').addEventListener('toggle',e=>{if(e.newState==='closed')$('#file-outline').setAttribute('aria-expanded','false')});
 function showReviewProgress(){openDialog('Sample review progress',`<p>${state.viewed.size} of 7 included diffs viewed. Two layer files have no captured patch, and the other layers are outside this sample.</p><button type="button" data-action="bulk-viewed">Mark 7 included files viewed</button><p class="small">This changes only the local sample. Undo restores the previous state. It does not submit a review.</p><div class="dialog-actions"><button value="cancel">Cancel</button></div>`)}
-function openFileNote(){state.codeRange=null;state.fileNote=true;state.commentLine=null;state.thread=false;state.tab='comments';syncTabs();renderDiff();renderComments();openContext(false);$('#comment-draft').focus()}
+function openFileNote(){state.scope='file';renderSummaries();state.emptyDemo=false;state.codeRange=null;state.fileNote=true;state.commentLine=null;state.thread=false;state.tab='comments';syncTabs();renderDiff();renderComments();openContext(false);$('#comment-draft').focus()}
 function inspectGuard(){if(state.file!=='0'||state.layer!==0)selectSummary('0-49','access');state.returnTrail.push({file:state.file,anchorSelection:state.anchorSelections.get(state.summary),position:readingPosition(),view:{activeLine:state.activeLine,mode:state.mode,fullFile:state.fullFile,collapsed:state.collapsed,codeRange:state.codeRange,wrap:state.wrap,splitWrap:state.splitWrap,summary:state.summary,tab:state.tab,scope:state.scope,complexity:state.complexity,commentLine:state.commentLine,fileNote:state.fileNote,thread:state.thread,contextTop:$('#context-scroll').scrollTop}});selectFile('6');selectSummary('6-20','whole');state.activeLine=27;scrollToLine(27,false,true);$('#interaction-status').textContent='Workspace access check at line 27. Entitlement check at line 38. The full guard remains available above and below.'}
 function returnContext(){const trail=state.returnTrail.pop();if(!trail)return;selectFile(trail.file);Object.assign(state,trail.view);if(state.summary){if(trail.anchorSelection===undefined)state.anchorSelections.delete(state.summary);else state.anchorSelections.set(state.summary,trail.anchorSelection)}renderScreen();restoreReadingPosition(trail.position);$('#context-scroll').scrollTop=trail.view.contextTop;if(matchMedia('(max-width:1279px)').matches)codeScroller().focus({preventScroll:true});else $('[data-action="inspect-guard"]')?.focus({preventScroll:true});$('#interaction-status').textContent='Returned to access.ts. Previous selection and reading position restored.'}
 async function copyPath(){try{await navigator.clipboard.writeText(currentFile().path);toast('File path copied.')}catch{toast('Clipboard unavailable. Select and copy the path below.');$('#dialog-content').insertAdjacentHTML('afterbegin',`<p class="copy-path-fallback">${esc(currentFile().path)}</p>`)}}
@@ -253,7 +260,7 @@ function loadingDemo(){selectFile('0');$('#diff-status').hidden=true;$('#diff').
 function unavailableDemo(){openDialog('Observed source error',`<p>The live review initially loaded, but layer 2 later reported “Layer diff did not load.” Public repository checks were temporarily rate limited.</p><p>This is distinct from files intentionally outside the prototype fixture.</p><div class="dialog-actions"><button value="cancel">Return to pinned fixture</button><button type="button" id="retry-source">Retry source preview</button></div><p id="retry-result" role="status"></p>`)}
 document.addEventListener('click',e=>{
  const b=e.target.closest('button,a');if(!b)return;if(b.id==='retry-data'){loadData();return}if(!data)return;
- if(b.dataset.scope){state.scope=b.dataset.scope;renderSummaries();renderComments();$('#context-scroll').scrollTop=0;return}
+ if(b.dataset.scope){changeScope(b.dataset.scope);return}
  if(b.dataset.outline){const start=Number(b.dataset.outline),end=Number(b.dataset.outlineEnd);closeOutline();$('#file-outline').focus();state.summary=null;state.tab='summaries';state.codeRange=[start,end];state.fullFile=true;state.collapsed=false;renderSummaries();syncTabs();renderDiff();scrollToLine(start,false);return}
  if(b.dataset.jumpLayer!==undefined){const n=Number(b.dataset.jumpLayer);if(n!==state.layer)setLayer(n);else{state.expanded=true;renderNav()}$(`[data-jump-layer="${n}"]`).focus();return}
  if(b.dataset.layer!==undefined){const n=Number(b.dataset.layer);if(n===state.layer){state.expanded=!state.expanded;renderNav()}else setLayer(n);return}

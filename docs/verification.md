@@ -30,6 +30,14 @@ After the fix, checked locally that the no-comments preview works from both a lo
 
 The preceding layout pass inspected 1440 × 960, 1280 × 960 and the context overlay below 1280. It checked Tools focus return and reduced-motion behavior. This pass did not repeat those unchanged layout checks. Historical observations are retained in archive/verification-history.md.
 
+## Scope-transition repair
+
+A follow-up check found that changing comment scope could leave a closed thread’s code highlight active, or keep a file-note editor visible under layer-wide counts. Scope changes now close the editor/thread, clear its highlight and preserve the diff position. File and line note entry switches explicitly to This file; returning to Summaries shows the matching file list. Drafts stay available in the local-note index.
+
+Browser checks at 1280 × 720 passed for file notes and line notes, retained draft text, file/layer counts, stale-highlight removal, summary selection and dependency Return. A settled comment position remained at scrollTop 2176 through a scope change. Summary L75 remained selected at scrollTop 2056; Inspect guard and Return restored that same position. The file picker’s empty search and unavailable-patch recovery passed. Bulk viewed changed 0/7 to 7/7 and Undo restored 0/7. The simulated Request changes flow displayed its unsent confirmation and returned focus to About this prototype. No browser console errors were recorded.
+
+Paper’s opening, scope decision, final screen and closing tradeoffs were inspected again. This repair implements the existing scope design, so Paper and rationale need no content or layout change. All local HTML/CSS asset references resolve. The refreshed source ZIP includes this implementation and check record; design exports and the one-page PDF remain unchanged.
+
 ## Limits
 
 Seven of 52 diffs are included at commit 23cdac2. Code links are manually mapped. One resolved thread is paraphrased, with two reply bodies omitted. Secondary workflows remain previews. Submit is disabled for the merged PR; the open-PR decision dialog is an explicit simulation. Notes and progress reset on reload.
