@@ -3,7 +3,7 @@
 Design exercise by Parth Pawar, using Formbricks #8650.
 
 - [Prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
-- [Paper design](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/1-0) (sign-in required)
+- [Paper design](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0) (sign-in required)
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
 
 The site opens directly into the reviewing workspace. Paper has four pages: Problem & evidence, Design decisions, Final iteration, and Tradeoffs & next steps. Related boards sit together at full size; all PNG exports are 2× resolution. The rationale explains the five selected choices on one page. There is no presentation on the site.

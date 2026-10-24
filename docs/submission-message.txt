@@ -1,0 +1,21 @@
+Subject: CodeRabbit design exercise — ready for review
+
+Hi Nimra,
+
+I’m sharing the latest version of my Change Stack redesign for your review. I focused on following a change, checking the code and keeping track of what’s been reviewed.
+
+Paper includes the problems I noticed, five design decisions, the final iteration and what I would test next. The prototype lets you try the main interactions, and the one-page rationale explains the choices and limits.
+
+Paper — Design decisions and final iteration (sign-in required)
+https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0
+
+Working prototype — CodeRabbit Change Stack
+https://parthawe.github.io/coderabbit-change-stack-review/
+
+One-page rationale — What I changed and why
+https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
+
+Would love your honest feedback on whether the reasoning is clear and the review flow is easier to follow. The prototype uses a limited snapshot of the assigned PR; I haven’t tested it with developers yet.
+
+Thanks,
+Parth
