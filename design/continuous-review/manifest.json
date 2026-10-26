@@ -6,23 +6,43 @@
       "artboards": [
         {
           "id": "5FN-0",
-          "name": "The challenge and my starting point"
+          "name": "The challenge and my starting point",
+          "worldX": 0,
+          "worldY": 0,
+          "width": 1440,
+          "height": 886
         },
         {
           "id": "8VB-0",
-          "name": "What changed after three developer sessions"
+          "name": "What changed after three developer sessions",
+          "worldX": 1760,
+          "worldY": 0,
+          "width": 1600,
+          "height": 758
         },
         {
           "id": "6HS-0",
-          "name": "1\u20133 \u00b7 Finding the right code"
+          "name": "1\u20133 \u00b7 Finding the right code",
+          "worldX": 0,
+          "worldY": 1000,
+          "width": 1600,
+          "height": 1172
         },
         {
           "id": "6JP-0",
-          "name": "4\u20136 \u00b7 Keeping your place and progress"
+          "name": "4\u20136 \u00b7 Keeping your place and progress",
+          "worldX": 1760,
+          "worldY": 1000,
+          "width": 1600,
+          "height": 1086
         },
         {
           "id": "69T-0",
-          "name": "7 \u00b7 Reading comment status"
+          "name": "7 \u00b7 Reading comment status",
+          "worldX": 0,
+          "worldY": 2340,
+          "width": 1600,
+          "height": 810
         }
       ]
     },
@@ -31,23 +51,43 @@
       "artboards": [
         {
           "id": "62A-0",
-          "name": "01 \u00b7 Separate reading from navigation"
+          "name": "01 \u00b7 Separate reading from navigation",
+          "worldX": 0,
+          "worldY": 0,
+          "width": 1600,
+          "height": null
         },
         {
           "id": "62Q-0",
-          "name": "02 \u00b7 Design the round trip"
+          "name": "02 \u00b7 Design the round trip",
+          "worldX": 1760,
+          "worldY": 0,
+          "width": 1600,
+          "height": null
         },
         {
           "id": "634-0",
-          "name": "Supporting refinement \u00b7 Control placement"
+          "name": "Supporting refinement \u00b7 Control placement",
+          "worldX": 0,
+          "worldY": 2500,
+          "width": 1600,
+          "height": null
         },
         {
           "id": "63I-0",
-          "name": "Supporting refinement \u00b7 Findings in context"
+          "name": "Supporting refinement \u00b7 Findings in context",
+          "worldX": 1760,
+          "worldY": 1520,
+          "width": 1600,
+          "height": null
         },
         {
           "id": "7EY-0",
-          "name": "Decision 3 \u00b7 Review progress"
+          "name": "Decision 3 \u00b7 Review progress",
+          "worldX": 0,
+          "worldY": 1520,
+          "width": 1600,
+          "height": null
         }
       ]
     },
@@ -56,47 +96,91 @@
       "artboards": [
         {
           "id": "6UY-0",
-          "name": "Final iteration"
+          "name": "Final iteration",
+          "worldX": 0,
+          "worldY": 300,
+          "width": 1440,
+          "height": 960
         },
         {
           "id": "7J7-0",
-          "name": "Final iteration \u00b7 Dark \u00b7 derived palette"
+          "name": "Final iteration \u00b7 Dark \u00b7 derived palette",
+          "worldX": 1600,
+          "worldY": 3520,
+          "width": 1440,
+          "height": 960
         },
         {
           "id": "5LF-0",
-          "name": "Final iteration \u00b7 purpose and prototype"
+          "name": "Final iteration \u00b7 purpose and prototype",
+          "worldX": 0,
+          "worldY": 40,
+          "width": 1440,
+          "height": 156
         },
         {
           "id": "6V5-0",
-          "name": "Read before moving the code"
+          "name": "Read before moving the code",
+          "worldX": 0,
+          "worldY": 1440,
+          "width": 1000,
+          "height": null
         },
         {
           "id": "6VN-0",
-          "name": "Follow a statement link"
+          "name": "Follow a statement link",
+          "worldX": 1600,
+          "worldY": 1440,
+          "width": 900,
+          "height": null
         },
         {
           "id": "6VT-0",
-          "name": "Inspect and return"
+          "name": "Inspect and return",
+          "worldX": 0,
+          "worldY": 2160,
+          "width": 900,
+          "height": null
         },
         {
           "id": "7J8-0",
-          "name": "Overview"
+          "name": "Overview",
+          "worldX": 1600,
+          "worldY": 300,
+          "width": 1440,
+          "height": 960
         },
         {
           "id": "7J9-0",
-          "name": "Range comment"
+          "name": "Range comment",
+          "worldX": 1600,
+          "worldY": 2160,
+          "width": 1200,
+          "height": null
         },
         {
           "id": "7JA-0",
-          "name": "Continuous review \u00b7 crossing a file boundary"
+          "name": "Continuous review \u00b7 crossing a file boundary",
+          "worldX": 0,
+          "worldY": 2900,
+          "width": 1440,
+          "height": null
         },
         {
           "id": "7JB-0",
-          "name": "Overview \u00b7 why it is optional"
+          "name": "Overview \u00b7 why it is optional",
+          "worldX": 1600,
+          "worldY": 40,
+          "width": 1440,
+          "height": 156
         },
         {
           "id": "7JC-0",
-          "name": "Dark mode \u00b7 same review, optional theme"
+          "name": "Dark mode \u00b7 same review, optional theme",
+          "worldX": 1600,
+          "worldY": 3260,
+          "width": 1440,
+          "height": 156
         }
       ]
     },
@@ -105,7 +189,11 @@
       "artboards": [
         {
           "id": "5LH-0",
-          "name": "Tradeoffs and what I would do next"
+          "name": "Tradeoffs and what I would do next",
+          "worldX": 0,
+          "worldY": 0,
+          "width": 1600,
+          "height": null
         }
       ]
     }
@@ -113,7 +201,10 @@
   "exports": [
     {
       "nodeId": "5FN-0",
-      "filePath": "design/continuous-review/01-challenge-2x.png"
+      "filePath": "design/continuous-review/01-challenge-2x.png",
+      "exportMethod": "Rendered from current Paper JSX at 2\u00d7; checked against Paper captures",
+      "pixelWidth": 2880,
+      "pixelHeight": 1700
     },
     {
       "nodeId": "8VB-0",
@@ -125,7 +216,10 @@
     },
     {
       "nodeId": "6JP-0",
-      "filePath": "design/continuous-review/01-evidence-4-6-2x.png"
+      "filePath": "design/continuous-review/01-evidence-4-6-2x.png",
+      "exportMethod": "Rendered from current Paper JSX at 2\u00d7; checked against Paper captures",
+      "pixelWidth": 3200,
+      "pixelHeight": 2172
     },
     {
       "nodeId": "69T-0",
@@ -149,19 +243,31 @@
     },
     {
       "nodeId": "7EY-0",
-      "filePath": "design/continuous-review/02-progress-2x.png"
+      "filePath": "design/continuous-review/02-progress-2x.png",
+      "exportMethod": "Rendered from current Paper JSX at 2\u00d7; checked against Paper captures",
+      "pixelWidth": 3200,
+      "pixelHeight": 1640
     },
     {
       "nodeId": "6UY-0",
-      "filePath": "design/continuous-review/03-review-2x.png"
+      "filePath": "design/continuous-review/03-review-2x.png",
+      "exportMethod": "Rendered from current Paper JSX at 2\u00d7; checked against Paper captures",
+      "pixelWidth": 2880,
+      "pixelHeight": 1920
     },
     {
       "nodeId": "7J7-0",
-      "filePath": "design/continuous-review/03-review-dark-2x.png"
+      "filePath": "design/continuous-review/03-review-dark-2x.png",
+      "exportMethod": "Rendered from current Paper JSX at 2\u00d7; checked against Paper captures",
+      "pixelWidth": 2880,
+      "pixelHeight": 1920
     },
     {
       "nodeId": "5LF-0",
-      "filePath": "design/continuous-review/03-review-introduction-2x.png"
+      "filePath": "design/continuous-review/03-review-introduction-2x.png",
+      "exportMethod": "Rendered from current Paper JSX at 2\u00d7; checked against Paper captures",
+      "pixelWidth": 2880,
+      "pixelHeight": 312
     },
     {
       "nodeId": "6V5-0",
@@ -173,7 +279,10 @@
     },
     {
       "nodeId": "6VT-0",
-      "filePath": "design/continuous-review/03-return-2x.png"
+      "filePath": "design/continuous-review/03-return-2x.png",
+      "exportMethod": "Rendered from current Paper JSX at 2\u00d7; checked against Paper captures",
+      "pixelWidth": 1800,
+      "pixelHeight": 1078
     },
     {
       "nodeId": "7J8-0",
@@ -185,7 +294,10 @@
     },
     {
       "nodeId": "7JA-0",
-      "filePath": "design/continuous-review/03-continuous-boundary-2x.png"
+      "filePath": "design/continuous-review/03-continuous-boundary-2x.png",
+      "exportMethod": "Rendered from current Paper JSX at 2\u00d7; checked against Paper captures",
+      "pixelWidth": 2880,
+      "pixelHeight": 1676
     },
     {
       "nodeId": "7JB-0",
@@ -199,5 +311,6 @@
       "nodeId": "5LH-0",
       "filePath": "design/continuous-review/04-next-checks-2x.png"
     }
-  ]
+  ],
+  "updated": "2026-10-26"
 }

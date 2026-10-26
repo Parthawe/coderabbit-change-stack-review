@@ -7,7 +7,8 @@ I reviewed the design with three developers through a mix of hands-on tasks and 
 | Type | Evidence or claim | Decision / check |
 | --- | --- | --- |
 | Source observation | Six summary points share L49–130; expansion moves the diff. | Page 1 pointers 1–2; expand in place and use explicit statement links. |
-| Source observation | Layer and file controls are separate; the guard is in another file. | Pointers 3–4; nested files plus Inspect/Return. |
+| Source observation | Layer and file controls are separate. | Pointer 3; nested files. |
+| Design hypothesis | The guard call is in another file. An explicit return may help preserve position. | Pointer 4 shows the call, not evidence that the source lacks a return feature. |
 | Source observation | File/display actions span groups; Seen, Viewed and Submit have different scopes. | Pointers 5–6; compact controls, deliberate progress and Undo. |
 | Source observation | Severity, resolution and message totals describe different things. | Pointer 7; adjacent Major · Resolved, messages including replies and missing-content notice. |
 | Developer feedback | My first version interrupted file flow and removed useful review signals. | Continuous stream across verified layers; restored totals and recorded severity. Never use the original capture as evidence of this redesign regression. |

@@ -3,8 +3,8 @@
 Four pages retain the Saturday structure and visual language:
 
 1. Problem and evidence: original CodeRabbit captures and numbered observations, followed by a separate account of feedback on my first version.
-2. Design decisions: read before navigating, follow and return, and deliberate progress with Undo. Control placement and findings support those decisions. Alternatives are current explorations, not tests.
-3. Final iteration: the light review is primary. Overview, comments and dark mode are supporting states. The continuous boundary shows access.ts ending at 194 and errors.ts starting at 1, with full-width added files.
+2. Design decisions: read before navigating, follow and return, and deliberate progress with Undo. Control placement and findings support those decisions. Alternatives are current explorations, not tests. The progress study shows the feedback-driven refinement directly, without a forced comparison.
+3. Final iteration: the light review is primary. Overview, comments and dark mode are supporting states. The continuous boundary shows access.ts ending at 194 and errors.ts starting at 1, with full-width added files. Separate excerpts show the active filename and context changing while Viewed stays at 0 of 52.
 4. Next checks: what feedback changed, what remains uncertain, and one comparison task.
 
 I reviewed the design with three developers through a mix of hands-on tasks and open feedback. Their feedback helped me revise the review flow. I haven’t completed a controlled comparison or measured improvements.

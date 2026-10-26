@@ -1,114 +1,162 @@
 (
-    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '20px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '48px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
-      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
-        <div style={{ boxSizing: 'border-box', color: '#29242F', fontFamily: 'system-ui, sans-serif', fontSize: '32px', fontWeight: 600, lineHeight: '40px' }}>
+    <div id="7JA-0" style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '20px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '48px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+      <div id="8TD-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div id="8TE-0" style={{ boxSizing: 'border-box', color: '#29242F', fontFamily: 'system-ui, sans-serif', fontSize: '32px', fontWeight: 600, lineHeight: '40px' }}>
           Keep scrolling into the next file.
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#6B6076', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '27px' }}>
+        <div id="8TF-0" style={{ boxSizing: 'border-box', color: '#6B6076', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '27px' }}>
           At the boundary, the active filename and context change to errors.ts. Viewed stays at 0 of 52 files.
         </div>
       </div>
-      <div style={{ backgroundColor: '#FFFFFF', borderColor: '#DCD6E2', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', width: '1344px' }}>
-        <div style={{ backgroundColor: '#F3F0F6', borderTopColor: '#DCD6E2', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', paddingBlock: '10px', paddingInline: '16px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '18px' }}>
+      <div id="8TH-0" style={{ backgroundColor: '#FFFFFF', borderColor: '#DCD6E2', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', width: '1344px' }}>
+        <div id="8TJ-0" style={{ backgroundColor: '#F3F0F6', borderTopColor: '#DCD6E2', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', paddingBlock: '10px', paddingInline: '16px' }}>
+          <div id="8TK-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '18px' }}>
             access.ts
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
-          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
-          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+        <div id="8TM-0" style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div id="8TN-0" style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div id="8TO-0" style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div id="8TP-0" style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
               191
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+            <div id="8TQ-0" style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
                * construction rather than by two copies of the same string staying in sync.
             </div>
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
-          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
-          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+        <div id="8TS-0" style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div id="8TT-0" style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div id="8TU-0" style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div id="8TV-0" style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
               192
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+            <div id="8TW-0" style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
                */
             </div>
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
-          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
-          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+        <div id="8TY-0" style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div id="8TZ-0" style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div id="8U0-0" style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div id="8U1-0" style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
               193
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+            <div id="8U2-0" style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
               export const forbidFeedbackRecord = (requestId: string, instance: string): Response =>
             </div>
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
-          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
-          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+        <div id="8U4-0" style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div id="8U5-0" style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div id="8U6-0" style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div id="8U7-0" style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
               194
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', whiteSpace: 'pre-wrap', width: '1278px' }}>
+            <div id="8U8-0" style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', whiteSpace: 'pre-wrap', width: '1278px' }}>
               {'  '}problemForbidden(requestId, "You are not authorized to access this feedback record", instance);
             </div>
           </div>
         </div>
-        <div style={{ backgroundColor: '#F3F0F6', borderTopColor: '#DCD6E2', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', paddingBlock: '10px', paddingInline: '16px' }}>
-          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '18px' }}>
+        <div id="8UA-0" style={{ backgroundColor: '#F3F0F6', borderTopColor: '#DCD6E2', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', paddingBlock: '10px', paddingInline: '16px' }}>
+          <div id="8UB-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '18px' }}>
             errors.ts
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
-          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
-          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+        <div id="8UD-0" style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div id="8UE-0" style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div id="8UF-0" style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div id="8UG-0" style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
               1
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+            <div id="8UH-0" style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
               import "server-only";
             </div>
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
-          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
-          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+        <div id="8UJ-0" style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div id="8UK-0" style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div id="8UL-0" style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div id="8UM-0" style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
               2
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+            <div id="8UN-0" style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
               import type { z } from "zod";
             </div>
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
-          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
-          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+        <div id="8UP-0" style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div id="8UQ-0" style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div id="8UR-0" style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div id="8US-0" style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
               3
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+            <div id="8UT-0" style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
               import type { logger } from "@formbricks/logger";
             </div>
           </div>
         </div>
-        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
-          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
-          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
-            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+        <div id="8UV-0" style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div id="8UW-0" style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div id="8UX-0" style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div id="8UY-0" style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
               4
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+            <div id="8W2-0" style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
               import { DatabaseError, ResourceNotFoundError } from "@formbricks/types/errors";
             </div>
           </div>
         </div>
       </div>
-      <div style={{ boxSizing: 'border-box', color: '#746A7E', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+      <div id="8XX-0" style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '20px', paddingTop: '24px' }}>
+        <div id="8XY-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
+          AFTER SCROLLING · TOOLBAR, PROGRESS AND CONTEXT EXCERPTS
+        </div>
+        <div id="8XZ-0" style={{ boxSizing: 'border-box', display: 'flex', gap: '48px' }}>
+          <div id="8Y1-0" style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '480px' }}>
+            <div id="8Y2-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+              ACTIVE FILE
+            </div>
+            <div id="8Y3-0" style={{ alignItems: 'center', backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '24px', padding: '16px' }}>
+              <div id="8Y4-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+                errors.ts
+              </div>
+              <div id="8Y5-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+                Mark viewed
+              </div>
+              <div id="8Y6-0" style={{ backgroundColor: '#ECEBED', boxSizing: 'border-box', paddingBlock: '4px', paddingInline: '10px' }}>
+                <div id="8Y7-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+                  Split
+                </div>
+              </div>
+            </div>
+            <div id="8Y8-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
+              Viewed 0 of 52 files
+            </div>
+            <div id="8Y9-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+              Scrolling leaves progress unchanged.
+            </div>
+          </div>
+          <div id="8YB-0" style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px' }}>
+            <div id="8YC-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+              CONTEXT · errors.ts
+            </div>
+            <div id="8YD-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+              What this file does
+            </div>
+            <div id="8YE-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+              Branch by Hub status, bound relayed detail and invalid parameters, and use a generic bad-gateway fallback.
+            </div>
+            <div id="8YF-0" style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
+              Minor · Resolved
+            </div>
+            <div id="8YG-0" style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+              Captured finding · total coverage incomplete. Thread bodies are not included in this prototype.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="8V1-0" style={{ boxSizing: 'border-box', color: '#746A7E', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
         Pinned source excerpts · access.ts L191–194 → errors.ts L1–4, in verified review order. Added files use the full width.
       </div>
     </div>
