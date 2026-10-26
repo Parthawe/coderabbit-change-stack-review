@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="brand.css?v=compact-review-20261023" />
     <link rel="stylesheet" href="identity.css?v=summary-browser-20261024" />
     <link rel="stylesheet" href="continuous.css?v=20261026" />
+    <link rel="stylesheet" href="signals-theme.css?v=20261026" />
   </head>
   <body class="continuous">
     <a class="skip-link" href="#stream">Skip to code</a>
@@ -119,6 +120,7 @@
             aria-label="Files viewed"
           ></progress
           ><button data-action="review-tools">More review tools</button>
+          <button data-action="settings" type="button">Settings</button>
           <p class="keyboard-hints">J / K · Layers &nbsp; Z · Focus</p>
         </div>
       </nav>
@@ -202,10 +204,6 @@
             Comments
           </button>
         </div>
-        <div id="summary-browser">
-          <span id="summary-coverage">Partial summaries</span
-          ><select id="browse-summaries" aria-label="Browse summaries"></select>
-        </div>
         <div id="context-scroll">
           <section
             id="summaries-panel"
@@ -218,6 +216,13 @@
             aria-labelledby="comments-tab"
             hidden
           ></section>
+          <div id="summary-browser">
+            <span id="summary-coverage">Partial summaries</span
+            ><select
+              id="browse-summaries"
+              aria-label="Browse summaries"
+            ></select>
+          </div>
         </div>
       </aside>
     </div>

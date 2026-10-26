@@ -1,0 +1,15 @@
+Review signals, Overview and themes · 26 October 2026
+
+Working draft only. Public GitHub Pages and public Paper are unchanged.
+Paper: https://app.paper.design/file/01M5W961Q440DVSB0QZ7E48E14/p-1-0/5FN-0
+Local prototype: http://127.0.0.1:4318/
+Paper requires sign-in. No video or email included.
+
+Changed: compact collapsed layers with source change totals and severity; separate disclosure/navigation; context and historical finding preview; collapsed summaries; Overview severity filtering and curated permission checks; Light/Dark/System themes.
+Source attribution: original-overview-controls.txt and original-comments-controls.txt. The PR summary uses Trivial and layer 1 uses Nitpick. Unknown file finding totals remain null. Two individually captured findings have explicit resolved metadata; only access.ts has a full demonstrated thread in the prototype.
+
+Verified: all 52 pinned before/after reconstructions and hunks (+5722/-127); semantic text contrast in both themes; Light default, persistence, System follows OS only when selected (isolated logic test); review-first emailed query URL; collapsed summaries and file trees; explicit links; source-ordered severity table; permission links; Overview return; Inspect/Return; exact Focus reading line restoration; theme preserves selection/draft and code scroll; Viewed/Undo across files; Before multiline keyboard selection; real taxonomy 11 deletions/5 additions in Split/Unified; 92px controls; 1440x960 and 1280x720; 1100x800 overlay; error/Retry in both themes; no console errors in main test tab.
+
+Release remains blocked: the pinned live review still says public repository checks are temporarily rate limited. 43 layer assignments, live Split behavior and comparison-base parity cannot be verified. scripts/verify-continuous.py --release intentionally exits 2. No publication performed. Seven layer counts are captured; navigation to unverified layers opens a verification notice rather than inventing mappings.
+
+Next: once source verification passes, publish to the existing URLs. Then ask developers to attempt the same permission review task in both versions. Record missed checks, lost position and help needed. Exploration feedback is not a measured usability result.

@@ -1,24 +1,24 @@
 {
   "title": "Keep the review moving.",
-  "intro": "The brief was to make Change Stack easier to use without losing what it can do. I focused on understanding the change, checking its code and keeping my place. A developer explored both versions and pointed out where my first version made that harder. This revision responds to that feedback; it is not a completed usability study.",
+  "intro": "The brief was to make Change Stack easier to use without losing what it can do. I focused on understanding a change, checking the code and keeping my place. Developer exploration exposed a mistake in my first version: I had removed useful signals while simplifying the screen. This revision responds to that feedback. It is not a completed usability study.",
   "sections": [
     [
-      "Keep going through files",
-      "My version made each file feel like a separate stop. I changed it to one continuous code stream, with sticky filenames and context that follows the active file. The file tree jumps within that stream. Inspect and Return keep the caller’s reading position. Scrolling never marks a file viewed."
+      "Keep the useful signals",
+      "I restored layer numbers, file counts, additions, deletions and recorded severity. Layers start compact; expanding files and opening a layer are separate actions. The first context view explains the file, shows the captured finding’s status and leaves summaries collapsed. Complexity, severity and resolution keep their own labels."
     ],
     [
-      "Keep the comparison familiar",
-      "I removed compact-Before and made equal-width Split the default. Modified files now show their real deletions and unchanged context. Unified stays available. A 36 px layer strip and 56 px file toolbar leave more room for code; secondary controls sit in Tools."
+      "Read, then inspect",
+      "Opening a summary reveals the explanation without moving the code. Statement links take you to specific lines; the whole range and source wording remain available. Inspect and Return preserve the caller’s position. One continuous stream lets you keep going through files. Equal-width Split stays familiar, with real deletions and unchanged context."
     ],
     [
-      "Make orientation and progress easier to read",
-      "Overview is a direct destination with the pinned PR and seven source layer rows. Return to review restores the reading position. One primary count says “Viewed 0 of 52 files.” Seen stays on each summary. Coverage details are in About, with a short notice when content is missing."
+      "Use Overview to get oriented",
+      "Overview holds the pinned PR context, source-ordered layers and recorded findings. Severity filters narrow this table without reordering the review. A small curated permission-check path links to workspace access, tenant resolution and record ownership. Return restores the previous reading position."
     ],
     [
-      "Attach the discussion to the right code",
-      "Severity and resolution sit together: Major · Resolved. Replies remain in the thread. Range notes attach to a file, commit, side and inclusive line range, including deleted lines. A draft keeps its filename when the reviewer scrolls elsewhere. All notes stay local."
+      "Keep state clear and code readable",
+      "Viewed is the primary progress count. Summary Seen is separate; scrolling changes neither. Major · Resolved reads as history. Range notes retain their file, side and lines, and stay local. Reviewing controls take 92 px. Light, Dark and System use semantic colors; switching themes preserves drafts and position. Dark colors are derived, not claimed as captured product tokens."
     ]
   ],
-  "limits": "The local fixture contains all 52 GitHub diffs (+5,722 / −127), checked against the pinned before/after content. Only nine layer assignments are verified. Rate limiting still blocks the other 43, the source comparison base and live Split behavior. Those are release gates; this draft has not replaced the public submission. Summary and thread coverage remains partial. Narrow highlights can hide context, so whole ranges stay available.",
-  "next": "Next I’d ask a developer to do the same permission-review task in both versions: explain the checks, inspect the guard, return, and leave a range note. I’d record missed checks, lost position and help needed before making further changes."
+  "limits": "All 52 pinned GitHub diffs (+5,722 / −127) are checked against before/after content. Nine layer assignments are verified; 43 assignments, the source comparison base and live Split behavior remain release gates. Public links are unchanged. Summary and thread coverage is partial. The source uses both Trivial and Nitpick; I keep those labels rather than silently treating them as identical. Narrow highlights can hide context, so whole ranges stay available.",
+  "next": "Next I’d compare the same permission-review task in both versions: explain the checks, inspect the guard, return and leave a range note. I’d record missed checks, lost position and help needed. I haven’t measured faster or more accurate reviews."
 }

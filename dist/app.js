@@ -36,7 +36,9 @@ const state = {
   drafts: {},
   returns: [],
   overviewReturn: null,
-  expanded: new Set(["0-49"]),
+  expanded: new Set(),
+  expandedLayers: new Set(),
+  severityFilter: "All",
 };
 const anchors = {
   "0-49": [
@@ -108,7 +110,7 @@ function pending() {
 function about() {
   dialog(
     "About this working draft",
-    `<p>Formbricks #8650 · commit <code>${esc(data.source.commit.slice(0, 12))}</code>. This merged, out-of-date review is retained as the assignment’s source.</p><p>52 GitHub patches, their before/after blobs and every changed line have been checked: +5,722 / −127. The comparison base is <code>${data.comparison.base.slice(0, 12)}</code>. Matching totals do not prove CodeRabbit uses the same semantic ranges.</p><p><strong>Release checks still open:</strong> 43 layer assignments, the source comparison base, and live Split wrapping and scrolling. This draft is not the public submission.</p><p>Layer 1 has 37 source summaries; 14 excerpts are captured across nine files. Access.ts has 3 source messages: one resolved finding and two replies whose bodies were not captured. Other missing thread bodies are labelled, never counted as zero.</p><p>Statement links are manually mapped. Notes, drafts, Seen and Viewed stay in this browser. Nothing is sent. Secondary workflows are previews. Paper needs sign-in.</p><p>The developer feedback came from exploration, not a completed comparison task. No review-time improvement has been measured.</p>`,
+    `<p>Formbricks #8650 · commit <code>${esc(data.source.commit.slice(0, 12))}</code>. This merged, out-of-date review is retained as the assignment’s source.</p><p>52 GitHub patches, their before/after blobs and every changed line have been checked: +5,722 / −127. The comparison base is <code>${data.comparison.base.slice(0, 12)}</code>. Matching totals do not prove CodeRabbit uses the same semantic ranges.</p><p><strong>Release checks still open:</strong> 43 layer assignments, the source comparison base, and live Split wrapping and scrolling. This draft is not the public submission.</p><p>Layer 1 has 37 source summaries; 14 excerpts are captured across nine files. Access.ts has 3 source messages: one resolved finding and two replies whose bodies were not captured. Other missing thread bodies are labelled, never counted as zero.</p><p>The source overview records 7 historical findings: 2 Major, 2 Minor and 3 Trivial. Layer 1 uses Nitpick rather than Trivial; those labels stay separate. Access.ts Major and errors.ts Minor are explicitly resolved in the captured source. Other individual statuses are not inferred.</p><p>Dark colors are derived from the source’s mauve palette, not verified product dark tokens.</p><p>Statement links are manually mapped. Notes, drafts, Seen and Viewed stay in this browser. Nothing is sent. Secondary workflows are previews. Paper needs sign-in.</p><p>The developer feedback came from exploration, not a completed comparison task. No review-time improvement has been measured.</p>`,
   );
 }
 function delta(f) {
@@ -117,6 +119,19 @@ function delta(f) {
 function navFile(f) {
   return `<button class="nav-file" data-file="${f.id}" aria-current="${f.id === state.file ? "location" : "false"}" title="${esc(f.path)}"><span class="file-mark ${state.viewed.has(f.id) ? "done" : ""}">${state.viewed.has(f.id) ? "✓" : "▧"}</span><span class="file-label">${esc(f.name)}${state.nav === "files" || f.layerId === null ? `<small>${esc(f.path.slice(0, f.path.lastIndexOf("/")))}</small>` : ""}</span></button>`;
 }
+const findingIcon =
+  '<svg class="signal-icon" viewBox="0 0 16 16" aria-hidden="true"><path d="m8 1 7 7-7 7-7-7Z" fill="none" stroke="currentColor"/><path d="M8 4v5m0 2v1" stroke="currentColor"/></svg>';
+function signalLabels(signals) {
+  if (signals?.total == null && !signals?.capturedFindingCount)
+    return '<span class="muted">Findings not captured</span>';
+  if (signals.total === 0) return '<span class="muted">0 recorded</span>';
+  return Object.entries(signals.severityCounts || {})
+    .map(
+      ([label, n]) =>
+        `<span class="signal signal-${label.toLowerCase()}">${findingIcon}${n} ${esc(label)}</span>`,
+    )
+    .join(" ");
+}
 function renderNav() {
   const el = $("#navigation-list"),
     top = el.scrollTop;
@@ -124,22 +139,19 @@ function renderNav() {
     state.nav === "files"
       ? data.files.map(navFile).join("")
       : data.layers
-          .map(
-            (l, i) =>
-              `<details class="nav-layer" ${i === 0 ? "open" : ""}><summary data-layer-title="${i}"><span>${i + 1}</span><span>${esc(l.name)}</span><span class="layer-count">${l.files}</span></summary>${
-                i === 0
-                  ? data.files
-                      .filter((f) => f.layerId === i)
-                      .map(navFile)
-                      .join("")
-                  : `<button class="text-action" data-action="pending">Assignments pending verification</button>`
-              }</details>`,
-          )
+          .map((l, i) => {
+            const open = state.expandedLayers.has(i);
+            return `<section class="nav-layer" data-nav-layer="${i}" ${current()?.layerId === i ? 'data-active="true"' : ""}><div class="layer-row"><button class="layer-disclosure" data-disclose-layer="${i}" aria-expanded="${open}" aria-controls="layer-files-${i}" aria-label="${open ? "Collapse" : "Expand"} files in layer ${i + 1}">${open ? "⌄" : "›"}</button><button class="layer-destination" data-layer="${i}"><span class="layer-number">${i + 1}</span><span class="layer-copy"><strong>${esc(l.name)}</strong><span class="layer-metrics">${l.files} files ${delta(l)}</span><span class="layer-signals" aria-label="Recorded findings: ${esc(Object.entries(l.reviewSignals.severityCounts).map(([label, n]) => `${n} ${label}`).join(", ") || "0 recorded")}">${signalLabels(l.reviewSignals)}</span></span></button></div><div id="layer-files-${i}" ${open ? "" : "hidden"}>${
+              i === 0
+                ? data.files
+                    .filter((f) => f.layerId === i)
+                    .map(navFile)
+                    .join("")
+                : '<button class="text-action" data-action="pending">Assignments pending verification</button>'
+            }</div></section>`;
+          })
           .join("") +
-        `<p class="pending-label">Layer assignment pending</p>${data.files
-          .filter((f) => f.layerId === null)
-          .map(navFile)
-          .join("")}`;
+        '<button class="text-action pending-files-link" data-action="pending-files">43 files · layer verification pending</button>';
   el.scrollTop = top;
   $$("[data-nav-mode]").forEach((b) =>
     b.setAttribute("aria-pressed", String(b.dataset.navMode === state.nav)),
@@ -184,12 +196,16 @@ function setActive(id) {
       String(b.dataset.file === id ? "location" : "false"),
     ),
   );
+  $$("[data-nav-layer]").forEach(
+    (b) =>
+      (b.dataset.active = String(Number(b.dataset.navLayer) === f.layerId)),
+  );
   progress();
   if (changed) {
     renderContext();
     const item = $(`.nav-file[data-file="${id}"]`),
       list = $("#navigation-list");
-    if (item) {
+    if (item && item.getClientRects().length) {
       const a = item.getBoundingClientRect(),
         b = list.getBoundingClientRect();
       if (a.bottom > b.bottom) list.scrollTop += a.bottom - b.bottom;
@@ -525,6 +541,19 @@ function commentsHTML(f) {
   h += `<h3>Local notes</h3>${notes.length ? notes.map((n) => `<div class="local-note"><button class="text-action" data-link-file="${n.file}" data-side="${n.side}" data-start="${n.start}" data-end="${n.end}">${n.side === "before" ? "Before" : "After"} · ${lineLabel(n.start, n.end)}</button><p>${esc(n.body)}</p><button class="text-action" data-delete-note="${n.id}">Delete note</button></div>`).join("") : '<p class="muted">Select line numbers, then choose Comment on range. Shift-click or Shift + arrow keys extends a selection.</p>'}`;
   return h;
 }
+function contextIntro(f) {
+  const explanation =
+    f.reviewExplanation?.text ||
+    (f.summaries.length
+      ? f.summaries[0].body
+      : "The pinned diff is available. An explanation for this file was not captured.");
+  const sig = f.reviewSignals;
+  let preview =
+    f.id === data.thread.file
+      ? `<div class="finding-preview"><span class="signal signal-major">${findingIcon}Major</span> · <span>Resolved</span><p>${esc(data.thread.title)}</p><small>Review history · 3 messages</small><button class="text-action" data-action="captured-thread">Open captured thread →</button></div>`
+      : `<div class="finding-preview">${signalLabels(sig)}${sig?.statusCoverage?.knownResolvedFindings ? "<span> · Resolved</span>" : ""}${sig?.capturedFindingCount ? "<small>Captured finding · total coverage incomplete</small>" : ""}<p class="muted">${f.comments === 0 ? "No source comments on this file." : "Thread bodies are not included in this prototype."}</p></div>`;
+  return `<div class="file-explanation"><strong>What this file does</strong><p>${esc(explanation)}</p>${f.reviewExplanation ? '<small class="muted">Curated from the captured code.</small>' : ""}</div>${preview}`;
+}
 function renderContext() {
   if (!data) return;
   const oldComposer = state.composer ? $(".note-composer") : null,
@@ -564,12 +593,14 @@ function renderContext() {
         ),
       )
       .join("");
-  $("#summaries-panel").innerHTML = fs
-    .map(
-      (x) =>
-        `${fs.length > 1 ? `<h3>${esc(x.name)}</h3>` : ""}${x.summaries.length ? x.summaries.map((s) => summaryHTML(s, x)).join("") : '<p class="muted">Summary content wasn’t captured for this file. The full pinned diff is available.</p>'}`,
-    )
-    .join("");
+  $("#summaries-panel").innerHTML =
+    contextIntro(f) +
+    fs
+      .map(
+        (x) =>
+          `${fs.length > 1 ? `<h3>${esc(x.name)}</h3>` : ""}${x.summaries.length ? x.summaries.map((s) => summaryHTML(s, x)).join("") : '<p class="muted">Summary content wasn’t captured for this file. The full pinned diff is available.</p>'}`,
+      )
+      .join("");
   $("#comments-panel").innerHTML =
     composerHTML() +
     fs
@@ -623,10 +654,24 @@ function markViewed(id) {
     },
   );
 }
+function overviewRows() {
+  return data.layers
+    .map((l, i) => ({ l, i }))
+    .filter(
+      ({ l }) =>
+        state.severityFilter === "All" ||
+        l.reviewSignals.severityCounts[state.severityFilter] > 0,
+    )
+    .map(
+      ({ l, i }) =>
+        `<tr><td>${i + 1}</td><th scope="row"><button data-layer="${i}">${esc(l.name)}</button></th><td>${l.files} files</td><td>${delta(l)}</td><td>${signalLabels(l.reviewSignals)}</td></tr>`,
+    )
+    .join("");
+}
 function renderOverview() {
   const s = data.source;
   $("#overview-screen").innerHTML =
-    `<div class="overview-heading"><div><small>formbricks/formbricks #8650 · Merged</small><h1 id="overview-title">Feedback records MCP integration</h1><p class="muted">Pinned review · ${s.commit.slice(0, 12)} · source marked out of date</p></div><button data-action="return-review">Return to review</button></div><p class="overview-description">Adds feedback-record MCP tools to the XM Suite MCP server. The source review organizes schemas, access controls, operations and integration changes into seven layers.</p><div class="overview-totals"><span>52 files</span><span class="add-stat">+5,722</span><span class="del-stat">−127</span><span>7 layers</span></div>${data.layers.map((l, i) => `<div class="overview-layer"><span>${i + 1}</span><button data-layer="${i}">${esc(l.name)}</button><span>${l.files} files</span><span>${delta(l)}</span></div>`).join("")}<p class="muted">Working draft: all pinned diffs are present; 43 layer assignments and the source’s comparison behavior still need verification.</p><div class="dialog-actions"><button data-action="review-tools">More review tools</button><button data-action="about">About this prototype</button></div>`;
+    `<div class="overview-heading"><div><small>${esc(s.repository)} #${s.pr} · Merged</small><h1 id="overview-title">${esc(s.title)}</h1><p class="muted">Pinned review · <code>${s.commit.slice(0, 12)}</code> · Out of date</p></div><button data-action="return-review">Return to review</button></div><p class="overview-description">${esc(s.changeSummary)}</p><div class="overview-totals"><span>52 files</span><span class="add-stat">+5,722</span><span class="del-stat">−127</span><span>7 recorded findings across 4 layers</span></div><p class="history-note">Review history · 2 Major · 2 Minor · 3 Trivial <span class="muted">· Individual status coverage is incomplete</span></p><div class="severity-filters" role="group" aria-label="Filter layers by recorded severity">${["All", "Major", "Minor", "Trivial", "Nitpick"].map((x) => `<button data-severity-filter="${x}" aria-pressed="${x === state.severityFilter}">${x === "All" ? "All layers" : findingIcon + esc(x)}</button>`).join("")}</div><div class="overview-table-wrap"><table class="overview-table"><caption class="sr-only">Layers in source order; findings are review history</caption><thead><tr><th>Layer</th><th scope="col">Change</th><th scope="col">Files</th><th scope="col">Lines</th><th scope="col">Recorded findings</th></tr></thead><tbody>${overviewRows()}</tbody></table></div><p class="muted label-note">The PR overview uses Trivial; layer 1 uses Nitpick. Filters keep those source labels separate.</p><section class="permission-path"><h2>Permission checks in this example</h2><p class="muted">A curated path through the captured code. These are checks to inspect, not new findings.</p><ol>${data.permissionPath.map((x) => `<li><span>${esc(x.title)}</span><button class="text-action" data-link-file="${x.file}" data-start="${x.start}" data-end="${x.end}">${esc(files.get(x.file).name)} · ${lineLabel(x.start, x.end)} →</button></li>`).join("")}</ol></section><p class="muted">Working draft: 43 layer assignments, the comparison base and live Split behavior still need verification.</p><div class="dialog-actions"><button data-action="review-tools">More review tools</button><button data-action="about">About this prototype</button></div>`;
 }
 function showOverview() {
   if (!document.body.classList.contains("overview-mode"))
@@ -674,8 +719,6 @@ function reviewTools() {
   );
 }
 document.addEventListener("click", (e) => {
-  const layerHeading = e.target.closest("[data-layer-title]");
-  if (layerHeading && data) { const owner = data.files.find(f => f.layerId === Number(layerHeading.dataset.layerTitle)); if (owner) jump(owner.id); }
   const b = e.target.closest("button,a[data-action]");
   if (!b) return;
   const d = b.dataset;
@@ -683,7 +726,42 @@ document.addEventListener("click", (e) => {
     load();
     return;
   }
+  if (d.action === "settings") {
+    settings();
+    return;
+  }
   if (!data) return;
+  if (d.discloseLayer != null) {
+    const i = +d.discloseLayer,
+      open = !state.expandedLayers.has(i);
+    open ? state.expandedLayers.add(i) : state.expandedLayers.delete(i);
+    b.setAttribute("aria-expanded", String(open));
+    b.setAttribute(
+      "aria-label",
+      `${open ? "Collapse" : "Expand"} files in layer ${i + 1}`,
+    );
+    b.textContent = open ? "⌄" : "›";
+    $(`#layer-files-${i}`).hidden = !open;
+    return;
+  }
+  if (d.severityFilter) {
+    state.severityFilter = d.severityFilter;
+    $$(".severity-filters button").forEach((x) =>
+      x.setAttribute("aria-pressed", String(x === b)),
+    );
+    $(".overview-table tbody").innerHTML = overviewRows();
+    announce(
+      `${$(".overview-table tbody").children.length} layers with ${state.severityFilter === "All" ? "any" : state.severityFilter} recorded findings`,
+    );
+    return;
+  }
+  if (d.action === "captured-thread") {
+    state.tab = "comments";
+    renderContext();
+    $(".thread-card").open = true;
+    $("#comments-tab").focus({ preventScroll: true });
+    return;
+  }
   if (d.file && !d.gutter && !d.expand) {
     jump(d.file);
     return;
@@ -711,6 +789,7 @@ document.addEventListener("click", (e) => {
   }
   if (d.linkFile) {
     if ($("#dialog").open) $("#dialog").close();
+    showReview(false);
     jump(d.linkFile, d.side || "after", +d.start, +d.end);
     return;
   }
@@ -973,7 +1052,10 @@ document.addEventListener("keydown", (e) => {
     const verified = [
       ...new Set(data.files.map((f) => f.layerId).filter((i) => i !== null)),
     ];
-    const i = current().layerId === null ? verified.length : verified.indexOf(current().layerId),
+    const i =
+        current().layerId === null
+          ? verified.length
+          : verified.indexOf(current().layerId),
       next = i + (e.key.toLowerCase() === "j" ? 1 : -1);
     if (next >= 0 && next < verified.length)
       jump(data.files.find((f) => f.layerId === verified[next]).id);
@@ -1004,9 +1086,9 @@ new ResizeObserver((entries) => {
   } else if (width > 0) streamWidth = width;
 }).observe(stream());
 function loadingControls(disabled) {
-  $$(".review-layout button,.review-layout select,#notes").forEach(
-    (b) => (b.disabled = disabled),
-  );
+  $$(
+    ".review-layout button:not([data-action=settings]),.review-layout select,#notes",
+  ).forEach((b) => (b.disabled = disabled));
   $(".overview-entry").setAttribute("aria-disabled", String(disabled));
 }
 $(".overview-entry").addEventListener("click", (e) => {
@@ -1053,3 +1135,39 @@ async function load() {
   }
 }
 load();
+
+const themeQuery = window.matchMedia("(prefers-color-scheme: dark)");
+let themePreference = "light";
+try {
+  const saved = localStorage.getItem("coderabbit-theme");
+  if (["light", "dark", "system"].includes(saved)) themePreference = saved;
+} catch {}
+function applyTheme() {
+  document.documentElement.dataset.theme =
+    themePreference === "system"
+      ? themeQuery.matches
+        ? "dark"
+        : "light"
+      : themePreference;
+  document.documentElement.style.colorScheme =
+    document.documentElement.dataset.theme;
+}
+function settings() {
+  dialog(
+    "Settings",
+    `<fieldset class="theme-options"><legend>Theme</legend>${["light", "dark", "system"].map((t) => `<label><input type="radio" name="theme" value="${t}" ${themePreference === t ? "checked" : ""}> ${t[0].toUpperCase() + t.slice(1)}</label>`).join("")}</fieldset><p class="muted">System follows your device appearance. Your reading position and local work stay where they are.</p>`,
+  );
+}
+document.addEventListener("change", (e) => {
+  if (e.target.name !== "theme") return;
+  themePreference = e.target.value;
+  try {
+    localStorage.setItem("coderabbit-theme", themePreference);
+  } catch {}
+  applyTheme();
+  announce(`Theme set to ${themePreference}`);
+});
+themeQuery.addEventListener("change", () => {
+  if (themePreference === "system") applyTheme();
+});
+applyTheme();

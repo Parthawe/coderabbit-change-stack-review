@@ -25,3 +25,6 @@ Run `python3 scripts/verify-continuous.py` to reconstruct every before/after fil
 There is no backend or runtime GitHub dependency. Notes, drafts and progress stay in browser storage, keyed to the pinned commit. The PR is merged, so submission is disabled. No completed usability comparison or measured review-time improvement is claimed. The work exceeded the assignment’s original 1–2 hour scope.
 
 See `docs/continuous-review-status.txt` for checks, limitations and the next developer task. Earlier explorations remain recoverable in Git and the unchanged public Paper file. They are excluded from the working-draft ZIP. No video is included.
+
+
+Latest working-draft pass: review signals, Overview and Light/Dark/System themes. See docs/signals-theme-status.txt. Run `node scripts/verify-signals-theme.cjs` alongside the fixture verifier. Public release remains gated.
