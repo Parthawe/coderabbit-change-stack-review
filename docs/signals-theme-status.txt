@@ -14,4 +14,6 @@ Additional keyboard checks: Escape closes the narrow context panel and returns f
 
 Release remains blocked: the pinned live review still says public repository checks are temporarily rate limited. 43 layer assignments, live Split behavior and comparison-base parity cannot be verified. scripts/verify-continuous.py --release intentionally exits 2. No publication performed. Seven layer counts are captured; navigation to unverified layers opens a verification notice rather than inventing mappings.
 
+Paper refinement: retained four pages; removed obsolete summary counters from the findings decision; separated severity, resolution, messages and missing replies; showed pinned lines 179–182 in the range-note example; restored the exact PR title and column labels in Overview; grouped review, Overview and dark state with short reasons and kept interaction details below. Refreshed affected 2× exports.
+
 Next: once source verification passes, publish to the existing URLs. Then ask developers to attempt the same permission review task in both versions. Record missed checks, lost position and help needed. Exploration feedback is not a measured usability result.
