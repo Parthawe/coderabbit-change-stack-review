@@ -1,0 +1,61 @@
+CONTINUOUS REVIEW — WORKING DRAFT
+26 October 2026 · Parth Pawar
+
+Status
+Implemented locally on continuous-review-20261026. Not published. No messages sent.
+Public Paper, prototype, rationale and emailed query URL are unchanged.
+
+Source evidence
+Target: 23cdac2d791cf1a0f25d80d82bc02a1f3922793c
+GitHub comparison merge base: e54641b01c838a57c9794807e76e0fc893f491a9
+Requested PR base: 5704833d963fa6fbffab109c4e77195361abf255
+52 files: 12 added, 40 modified. +5,722 / −127.
+Every hunk line matches the pinned before/after blob. Reconstructing each complete file from hunks and unchanged gaps passes.
+Nine layer-1 memberships verified; 43 assignments explicitly unknown.
+Final live-source check: “Review is unavailable. Public repository checks are temporarily rate limited.”
+Authentic light-theme captures remain in design/evidence. No new side-by-side comparison is presented as an exact source match while the source gate is unresolved.
+
+Implemented and checked locally
+- All 52 files render in one vertical stream; file headers and side labels stick.
+- Scrolling from taxonomy/access.ts into the unassigned group changes active context without changing progress or keyboard focus. A verified seven-layer boundary test remains blocked by source membership.
+- Equal-width Before/After panes at 1440 and 1280. Modified taxonomy access shows 11 real deleted lines, five added lines and unchanged context. Added-file Before is empty and hatched.
+- Unified retains deletions. Changed hunks render first; unchanged gaps expand and collapse.
+- 36 px layer strip + 56 px file toolbar = 92 px. No body overflow at 1440×960, 1280×720 or 1100×720.
+- Below 1280, context becomes a 360 px overlay. Resizing retains the file and reading anchor.
+- Summary expansion and resolved-thread expansion leave code scroll unchanged. Statement links highlight exactly the mapped range.
+- Inspect/Return restores the caller and its highlight. Focus restores the same reading-line offset; Overview returns to the review.
+- Viewed goes from 0/52 to 1/52 only after Mark viewed. Undo restores the original file’s state after navigating elsewhere.
+- After-side Shift-click and gutter dragging select L57–60. Before-side Shift+Arrow selects taxonomy L14–16; a note can be saved on those deleted lines.
+- Note drafts retain their original filename/range across file changes. Typing Z in a note does not enter Focus. Escape clears selection. QA notes were removed through the UI.
+- access.ts shows Major and Resolved together, three source messages, one captured thread and two uncaptured reply bodies. Zero-comment files and missing content have different messages.
+- A deliberately failed local fixture request shows unavailable + Retry; Retry restores all 52 files.
+- Native dialogs provide focus containment. Tabs support arrow keys. Reduced-motion CSS disables animation and smooth scrolling; the review uses immediate scroll restoration.
+- One-page rationale rendered and visually checked. Nine affected Paper exports refreshed at 2×. The boundary example uses actual access.ts ending lines and errors.test.ts opening lines.
+
+Repairs found during checks
+- Preserved the composer DOM and typing position while context follows another file.
+- Restored reading anchors after viewport changes, preventing stale context.
+- Restored the caller highlight as well as its line position after Inspect.
+- Fixed shortened paths for taxonomy/access.ts.
+- Moved selection actions into an overlay so drag selection doesn’t shift the code.
+- Removed duplicate Mark viewed controls from sticky file headers.
+- Simplified counts and corrected entire-layer message totals.
+- Disabled review actions when the fixture is unavailable.
+
+Release gate — still open
+1. Verify the 43 remaining CodeRabbit layer assignments and exact source ordering.
+2. Verify CodeRabbit’s comparison base and semantic ranges against the GitHub fixture.
+3. Observe original Split scrolling, wrapping, alignment and unchanged-code behavior live.
+4. Reconcile Paper’s source navigation metadata with the final verified stream, then capture original/redesign at the same viewport, theme, file, range and diff mode.
+5. Repeat seven-layer J/K and cross-layer return checks after the mapping is complete.
+6. Refresh final exports and source ZIP; pass --release; publish to the existing URL; check the emailed query URL and rationale signed out.
+
+Do not claim exact source parity or publish this branch before those checks pass.
+
+Next developer comparison (after release; do not send automatically)
+Use the same pinned PR in both versions. Alternate which version is first.
+Ask: “Can you explain how this PR checks access to a feedback record? Follow any helper you need, come back to the caller, leave a note on the relevant lines, and mark the file viewed when you’re done.”
+Do not tell them where to click. Record missed permission checks, lost position, wrong comment ranges, accidental viewed changes, and help needed. Separate observations from interpretations. Record task completion, not a success claim based on preference alone.
+
+Feedback provenance
+The WhatsApp feedback came from a developer exploring both versions. It was not a timed task or a completed usability comparison. Expected benefits remain hypotheses.

@@ -1,45 +1,264 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>CodeRabbit Change Stack · Review redesign</title>
-  <meta name="description" content="An independent CodeRabbit review workspace prototype by Parth Pawar. Explore layer navigation, connected summaries, focus mode, and review progress.">
-  <meta name="robots" content="noindex,nofollow">
-  <link rel="stylesheet" href="styles.css?v=compact-review-20261023">
-<link rel="stylesheet" href="brand.css?v=compact-review-20261023"><link rel="stylesheet" href="live.css?v=compact-review-20261023"><link rel="stylesheet" href="workspace.css?v=neutral-summary-20261023"><link rel="stylesheet" href="identity.css?v=summary-browser-20261024"></head>
-<body>
-  <a class="skip-link" href="#diff">Skip to code</a><a class="skip-link context-skip" href="#summaries-tab" data-action="skip-context">Skip to context</a>
-  <section class="submission-bar" aria-label="Design assignment submission">
-    <div><strong>Final iteration</strong><span>Parth Pawar</span></div>
-    <nav aria-label="Submission links"><a href="https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0" target="_blank" rel="noopener" title="Paper requires sign-in">Paper design</a><a href="rationale.pdf" target="_blank" rel="noopener">One-page rationale</a></nav>
-  </section>
-  <header class="global-header">
-    <a class="triage-link" href="https://app.coderabbit.ai/triage" target="_blank" rel="noopener"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6"/></svg>Triage</a>
-    <span class="merged-badge"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="4" r="2"/><circle cx="5" cy="20" r="2"/><circle cx="19" cy="8" r="2"/><path d="M5 6v12M17 8h-4a8 8 0 0 1-8-8"/></svg>Merged</span>
-    <div class="pr-identity"><h1><a href="https://github.com/formbricks/formbricks/pull/8650" target="_blank" rel="noopener">feat: add feedbackRecord MCP tools to the XM Suite MCP server</a></h1><div class="pr-metadata"><a href="https://github.com/formbricks/formbricks/pull/8650" target="_blank" rel="noopener"><svg class="ui-icon github-icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" stroke="none" d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.1c-3.12.68-3.78-1.32-3.78-1.32-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.62 1.22 3.26.94.1-.73.39-1.22.71-1.5-2.49-.29-5.11-1.25-5.11-5.54 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.68.11 2.96.72.78 1.16 1.78 1.16 3 0 4.3-2.63 5.25-5.13 5.53.4.35.76 1.03.76 2.08v3.09c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/></svg>formbricks #8650</a><span>52 files</span><span class="branch-info"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="4" r="2"/><circle cx="6" cy="20" r="2"/><circle cx="18" cy="6" r="2"/><path d="M6 6v12M6 14a12 12 0 0 0 12-6"/></svg><span class="branch-name" title="feat/ENG-1260_feedbackrecord-mcp-actions">feat/ENG-1260_feedbackrecord-mcp-actions</span><button id="copy-branch" aria-label="Copy branch name" title="Copy branch name"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="13" height="13" rx="2"/><path d="M16 4V3H3v13h1"/></svg></button></span><span class="stack-name" title="Feedback records MCP integration">→ Stack: Feedback records MCP integration</span></div></div>
-    <div class="global-actions"><button id="submit-review" disabled title="This pull request is merged. New reviews and commits are unavailable." aria-describedby="submit-explanation">Submit review <span aria-hidden="true">⌄</span></button><span id="submit-explanation" class="sr-only">PR merged · review unavailable</span></div>
-  </header>
-  <div class="workspace">
-    <nav class="navigation" aria-label="Review navigation">
-      <details class="overview-links"><summary><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 9v12"/></svg>PR overview</summary><div class="overview-menu"><button data-preview="Overview">Overview · preview</button><button disabled title="Unavailable for this repository in the source review">Security blast radius</button><button data-preview="Architecture impact">Architecture impact · preview</button></div></details>
-      <div class="nav-label"><span><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 10 5-10 5L2 8l10-5Zm-9 10 9 5 9-5M3 18l9 4 9-4"/></svg>Layers</span><button class="text-link" data-preview="Global Files mode"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H5v18h14V8l-5-5Zm0 0v5h5"/></svg>Files · preview</button></div>
-      <div hidden id="layer-jump" role="group" aria-label="Jump to layer"></div><div id="layer-list"></div>
-      <div class="nav-bottom"><div class="review-progress" aria-label="File review progress"><div class="progress-copy"><span id="progress">Included files · 0 / 7 viewed</span><span id="remaining" hidden>7 left</span></div><progress id="file-progress" value="0" max="7" aria-label="Files marked viewed">0 of 7</progress></div><button data-action="review-progress">Sample review progress</button><details class="more-review-tools"><summary>More review tools</summary><button class="text-link continue-preview" data-preview="Continue">Continue · preview</button><button data-preview="Follow review">Follow review · preview</button><button data-preview="Review history">Review history · stale · 23cdac2</button><button data-preview="Settings">Settings</button><button data-preview="Search pull request">PR search · preview</button></details><div class="keyboard-hints"><div><kbd>J</kbd> / <kbd>K</kbd> Navigate layers</div><div><kbd>Z</kbd> Focus on code</div></div></div>
-    </nav>
-    <main class="code-workspace" id="main">
-      <section class="layer-heading is-collapsed" aria-labelledby="layer-title"><div class="heading-row"><h2 id="layer-title">API contracts and access controls</h2><span id="layer-position">Layer 1 of 7</span></div><button class="summary-toggle" id="summary-toggle" aria-expanded="false">About layer <svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 10 4-4 4 4"/></svg></button><div id="layer-description" hidden><p>Schemas, serializers, entitlement checks, tenant ownership, and controlled problem responses.</p><button class="diagram-preview text-link" data-preview="Diagrams">Diagrams · unavailable</button></div></section>
-      <section class="file-toolbar" aria-label="File controls"><div class="file-identity"><div class="file-path" title="apps/web/app/api/v3/feedbackRecords/lib/access.ts">apps / web / app / api / v3 / feedbackRecords / lib</div><div class="filename"><strong>access.ts</strong><span class="add-count">+194</span><span class="del-count">−0</span><div class="file-navigation" role="group" aria-label="Files in this layer"><button id="previous-file" aria-label="Previous file" title="Previous file" disabled><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m10 4-4 4 4 4"/></svg></button><button class="text-link" id="file-position" data-action="files" aria-label="File 1 of 9. Open file list" title="Open file list">1 / 9 <span aria-hidden="true">▾</span></button><button id="next-file" aria-label="Next file" title="Next file"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m6 4 4 4-4 4"/></svg></button></div></div></div><div class="file-actions"><button id="viewed" aria-pressed="false">Mark viewed</button><button id="file-tools"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16M4 12h16M4 19h16"/><circle cx="9" cy="5" r="2" fill="#fdfdfe"/><circle cx="16" cy="12" r="2" fill="#fdfdfe"/><circle cx="8" cy="19" r="2" fill="#fdfdfe"/></svg>Tools</button><button id="context-toggle" aria-expanded="false">Summary &amp; comments</button></div></section>
-      <div class="diff-controls" aria-label="Code display"><div class="reading-actions"><div class="segmented" aria-label="Diff layout"><button id="unified" aria-pressed="true">Unified</button><button id="split" aria-pressed="false">Split</button></div><button id="focus" aria-pressed="false">Focus <kbd>Z</kbd></button><button id="file-outline" aria-expanded="false" aria-controls="outline-panel">Outline</button></div><div id="diff-status" class="hunk diff-status" hidden></div></div>
-      <div class="diff-scroll" id="diff" tabindex="0" aria-label="Code changes" aria-describedby="code-instructions"><div class="loading" role="status">Loading pinned review fixture…</div></div>
-      <section class="unavailable" id="unavailable" hidden><h3>This layer’s detailed content is outside the fixture</h3><p>Its name and file count were verified in the assigned review. This focused prototype includes seven added-file diffs in layer 1; other layers are not reconstructed.</p><div class="recovery"><button class="primary" id="return-file">Return to available file</button><button data-preview="Source snapshot & coverage">Coverage notes</button></div><p class="retry-result" id="coverage-result" role="status"></p></section>
-    </main>
-    <aside class="context-panel" id="context" aria-label="Change context"><div class="context-heading"><h2>Change context</h2><button class="close-context" id="close-context" aria-label="Close context">Close</button></div><div class="scope-switch segmented" role="group" aria-label="Context scope"><button data-scope="file" aria-pressed="true">This file</button><button data-scope="layer" aria-pressed="false">Entire layer</button></div><p id="scope-description" class="sr-only">Context for this file</p><div class="tabs" role="tablist" aria-label="Review context"><button role="tab" id="summaries-tab" aria-selected="true" aria-controls="summaries-panel"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 7h8M8 12h8M8 17h5"/></svg>Summaries <span>6</span></button><button role="tab" id="comments-tab" aria-selected="false" aria-controls="comments-panel" tabindex="-1"><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3h16v14H9l-5 4V3Z"/></svg>Comments <span>3</span></button></div><div class="summary-browser" id="summary-browser"><p class="context-hint" id="summary-coverage">2 of 6 captured</p><select id="browse-summaries" aria-label="Browse summaries" aria-describedby="browse-summary-help summary-coverage"><option value="">Browse summaries</option></select><span id="browse-summary-help" class="sr-only">Read a captured summary without moving the code or changing progress.</span></div><div id="context-scroll"><section id="summaries-panel" role="tabpanel" aria-labelledby="summaries-tab"><div id="summary-list"></div><div class="summary-help"><button class="text-link about-links" popovertarget="anchor-help">About links</button><details class="layer-activity"><summary>Filter by complexity</summary><p id="summary-progress" class="summary-progress">0 / 37 layer summaries seen</p><div id="complexity-controls" class="complexity-controls" role="group" aria-label="Summary complexity"><button data-complexity="All" aria-pressed="true">All</button><button data-complexity="High" aria-pressed="false">High</button><button data-complexity="Medium" aria-pressed="false">Medium</button><button data-complexity="Low" aria-pressed="false">Low</button></div></details></div></section><section id="comments-panel" role="tabpanel" aria-labelledby="comments-tab" hidden></section></div></aside>
-  </div>
-  <footer class="prototype-footer"><span>Pinned review · 7 of 52 diffs included · local state only</span><button id="notes">About this prototype</button></footer>
-  <p id="code-instructions" class="sr-only">Enter opens a note at the first visible line. On a line comment action, use Up and Down to move between lines. F6 switches between code and context.</p><div class="sr-only" id="interaction-status" role="status" aria-live="polite"></div>
-  <div class="toast" role="status" id="toast" hidden></div>
-  <section id="outline-panel" popover="auto" aria-label="Semantic outline"></section>
-  <dialog id="dialog" aria-labelledby="dialog-title"><form method="dialog" id="dialog-form"><div class="dialog-heading"><h2 id="dialog-title"></h2><button class="quiet" value="cancel" aria-label="Close dialog">Close</button></div><div id="dialog-content"></div></form></dialog>
-  <script src="app.js?v=file-position-20261024" defer></script>
-<div id="anchor-help" popover role="dialog" aria-labelledby="anchor-help-title"><h3 id="anchor-help-title">About these links</h3><p>These ranges are manually mapped to commit 23cdac2. A highlight points to code worth checking. It does not establish that the whole summary is correct.</p><p>Read the surrounding code or open Whole function. A new commit needs new mappings.</p><button popovertarget="anchor-help" popovertargetaction="hide">Close</button></div><script src="identity.js?v=20261023" defer></script></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CodeRabbit Change Stack · Review redesign</title>
+    <meta
+      name="description"
+      content="An independent CodeRabbit review workspace prototype by Parth Pawar. Explore layer navigation, connected summaries, focus mode, and review progress."
+    />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="stylesheet" href="styles.css?v=compact-review-20261023" />
+    <link rel="stylesheet" href="brand.css?v=compact-review-20261023" />
+    <link rel="stylesheet" href="identity.css?v=summary-browser-20261024" />
+    <link rel="stylesheet" href="continuous.css?v=20261026" />
+  </head>
+  <body class="continuous">
+    <a class="skip-link" href="#stream">Skip to code</a>
+    <header class="global-header">
+      <a
+        class="triage-link"
+        href="https://app.coderabbit.ai/triage"
+        target="_blank"
+        rel="noopener"
+        ><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="m14 6-6 6 6 6" /></svg
+        >Triage</a
+      >
+      <span class="merged-badge"
+        ><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="5" cy="4" r="2" />
+          <circle cx="5" cy="20" r="2" />
+          <circle cx="19" cy="8" r="2" />
+          <path d="M5 6v12M17 8h-4a8 8 0 0 1-8-8" /></svg
+        >Merged</span
+      >
+      <div class="pr-identity">
+        <h1>
+          <a
+            href="https://github.com/formbricks/formbricks/pull/8650"
+            target="_blank"
+            rel="noopener"
+            >feat: add feedbackRecord MCP tools to the XM Suite MCP server</a
+          >
+        </h1>
+        <div class="pr-metadata">
+          <a
+            href="https://github.com/formbricks/formbricks/pull/8650"
+            target="_blank"
+            rel="noopener"
+            ><svg
+              class="ui-icon github-icon"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                fill="currentColor"
+                stroke="none"
+                d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.1c-3.12.68-3.78-1.32-3.78-1.32-.51-1.3-1.25-1.65-1.25-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.72 1.16 1.72 1.16 1 1.72 2.62 1.22 3.26.94.1-.73.39-1.22.71-1.5-2.49-.29-5.11-1.25-5.11-5.54 0-1.22.44-2.22 1.16-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.08 1.15a10.7 10.7 0 0 1 5.6 0c2.14-1.45 3.08-1.15 3.08-1.15.61 1.54.23 2.68.11 2.96.72.78 1.16 1.78 1.16 3 0 4.3-2.63 5.25-5.13 5.53.4.35.76 1.03.76 2.08v3.09c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"
+              /></svg
+            >formbricks #8650</a
+          ><span>52 files</span
+          ><span class="branch-info"
+            ><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="6" cy="4" r="2" />
+              <circle cx="6" cy="20" r="2" />
+              <circle cx="18" cy="6" r="2" />
+              <path d="M6 6v12M6 14a12 12 0 0 0 12-6" /></svg
+            ><span
+              class="branch-name"
+              title="feat/ENG-1260_feedbackrecord-mcp-actions"
+              >feat/ENG-1260_feedbackrecord-mcp-actions</span
+            ><button
+              id="copy-branch"
+              aria-label="Copy branch name"
+              title="Copy branch name"
+            >
+              <svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true">
+                <rect x="8" y="8" width="13" height="13" rx="2" />
+                <path d="M16 4V3H3v13h1" />
+              </svg></button></span
+          ><span class="stack-name" title="Feedback records MCP integration"
+            >→ Stack: Feedback records MCP integration</span
+          >
+        </div>
+      </div>
+      <div class="global-actions">
+        <button
+          id="submit-review"
+          disabled
+          title="This pull request is merged. New reviews and commits are unavailable."
+          aria-describedby="submit-explanation"
+        >
+          Submit review <span aria-hidden="true">⌄</span></button
+        ><span id="submit-explanation" class="sr-only"
+          >PR merged · review unavailable</span
+        >
+      </div>
+    </header>
+    <div class="review-layout">
+      <nav class="review-nav" aria-label="Review navigation">
+        <a class="overview-entry" href="#overview"
+          ><svg class="ui-icon" viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="2" />
+            <path d="M3 9h18M9 9v12" /></svg
+          >Overview</a
+        >
+        <div class="nav-modes" role="group" aria-label="Navigation mode">
+          <button data-nav-mode="layers" aria-pressed="true">Layers</button
+          ><button data-nav-mode="files" aria-pressed="false">Files</button>
+        </div>
+        <div id="navigation-list"><p>Loading review…</p></div>
+        <div class="nav-end">
+          <p id="progress">Loading file progress…</p>
+          <progress
+            id="file-progress"
+            max="52"
+            value="0"
+            aria-label="Files viewed"
+          ></progress
+          ><button data-action="review-tools">More review tools</button>
+          <p class="keyboard-hints">J / K · Layers &nbsp; Z · Focus</p>
+        </div>
+      </nav>
+      <main class="review-main">
+        <section id="review-screen" aria-label="Review files">
+          <div class="review-strip">
+            <strong id="layer-title">API contracts and access controls</strong
+            ><button data-action="layer-about">About layer</button
+            ><button id="return-context" hidden>Return</button>
+          </div>
+          <div class="compact-toolbar">
+            <div class="file-identity">
+              <div id="file-path" title=""></div>
+              <div>
+                <strong id="filename">access.ts</strong
+                ><span id="file-delta"></span>
+              </div>
+            </div>
+            <div class="toolbar-actions">
+              <button id="viewed" aria-pressed="false">Mark viewed</button>
+              <div class="segmented" aria-label="Diff layout">
+                <button id="unified" aria-pressed="false">Unified</button
+                ><button id="split" aria-pressed="true">Split</button>
+              </div>
+              <button id="focus" aria-pressed="false">Focus <kbd>Z</kbd></button
+              ><button data-action="file-tools">Tools</button
+              ><button id="context-toggle" aria-expanded="false">
+                Context
+              </button>
+            </div>
+          </div>
+          <div id="selection-bar" hidden>
+            <span id="selection-label"></span
+            ><button id="comment-selection">Comment on range</button
+            ><button id="clear-selection">Cancel</button>
+          </div>
+          <div
+            id="stream"
+            tabindex="0"
+            role="region"
+            aria-label="Continuous code review"
+            aria-describedby="code-instructions"
+          >
+            <div class="loading" role="status">Loading pinned diffs…</div>
+          </div>
+        </section>
+        <section
+          id="overview-screen"
+          hidden
+          aria-labelledby="overview-title"
+        ></section>
+      </main>
+      <aside id="context" class="review-context" aria-label="Change context">
+        <div class="context-top">
+          <span id="context-filename">access.ts</span
+          ><button id="close-context" aria-label="Close context">Close</button>
+        </div>
+        <div
+          class="scope-switch segmented"
+          role="group"
+          aria-label="Context scope"
+        >
+          <button data-scope="file" aria-pressed="true">This file</button
+          ><button data-scope="layer" aria-pressed="false">Entire layer</button>
+        </div>
+        <div class="context-tabs" role="tablist" aria-label="Review context">
+          <button
+            id="summaries-tab"
+            role="tab"
+            aria-controls="summaries-panel"
+            aria-selected="true"
+          >
+            Summaries</button
+          ><button
+            id="comments-tab"
+            role="tab"
+            aria-controls="comments-panel"
+            aria-selected="false"
+            tabindex="-1"
+          >
+            Comments
+          </button>
+        </div>
+        <div id="summary-browser">
+          <span id="summary-coverage">Partial summaries</span
+          ><select id="browse-summaries" aria-label="Browse summaries"></select>
+        </div>
+        <div id="context-scroll">
+          <section
+            id="summaries-panel"
+            role="tabpanel"
+            aria-labelledby="summaries-tab"
+          ></section>
+          <section
+            id="comments-panel"
+            role="tabpanel"
+            aria-labelledby="comments-tab"
+            hidden
+          ></section>
+        </div>
+      </aside>
+    </div>
+    <footer class="prototype-footer">
+      <span id="scope-disclosure"
+        >Working draft · source verification pending · local notes only</span
+      >
+      <nav>
+        <a
+          id="paper-link"
+          href="https://app.paper.design/file/01M5W961Q440DVSB0QZ7E48E14/p-4-0/6UY-0"
+          target="_blank"
+          rel="noopener"
+          title="Working draft; Paper requires sign-in"
+          >Paper</a
+        ><a href="rationale.pdf" target="_blank" rel="noopener">Rationale</a
+        ><button id="notes">About</button>
+      </nav>
+    </footer>
+    <p id="code-instructions" class="sr-only">
+      Select line numbers by dragging or Shift-click. Use Shift and arrow keys
+      to extend a selection on one side of one file. Enter opens a local note.
+      Escape cancels. F6 switches between code and context.
+    </p>
+    <div
+      id="interaction-status"
+      class="sr-only"
+      role="status"
+      aria-live="polite"
+    ></div>
+    <div id="toast" class="toast" role="status" hidden></div>
+    <dialog id="dialog" aria-labelledby="dialog-title">
+      <form method="dialog">
+        <div class="dialog-heading">
+          <h2 id="dialog-title"></h2>
+          <button value="cancel" aria-label="Close dialog">Close</button>
+        </div>
+        <div id="dialog-content"></div>
+      </form>
+    </dialog>
+    <script src="app.js?v=continuous-20261026" defer></script>
+    <script src="identity.js?v=20261023" defer></script>
+  </body>
 </html>

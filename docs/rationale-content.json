@@ -1,37 +1,24 @@
 {
-  "title": "Keep track of the change",
-  "intro": "Make Change Stack easier to review without losing what it can do. I focused on three decisions: read before navigating, inspect and return, and mark progress deliberately. My assumption: keeping the layer, file, explanation and review state together takes extra effort.",
-  "rows": [
+  "title": "Keep the review moving.",
+  "intro": "The brief was to make Change Stack easier to use without losing what it can do. I focused on understanding the change, checking its code and keeping my place. A developer explored both versions and pointed out where my first version made that harder. This revision responds to that feedback; it is not a completed usability study.",
+  "sections": [
     [
-      "What I noticed",
-      "What I chose, and why"
+      "Keep going through files",
+      "My version made each file feel like a separate stop. I changed it to one continuous code stream, with sticky filenames and context that follows the active file. The file tree jumps within that stream. Inspect and Return keep the caller’s reading position. Scrolling never marks a file viewed."
     ],
     [
-      "Summary points share a broad range. Expanding also moves the code.",
-      "Expand the full summary in place. Browse summaries reaches another explanation without moving code. Line links inspect individual statements; the whole function stays available."
+      "Keep the comparison familiar",
+      "I removed compact-Before and made equal-width Split the default. Modified files now show their real deletions and unchanged context. Unified stays available. A 36 px layer strip and 56 px file toolbar leave more room for code; secondary controls sit in Tools."
     ],
     [
-      "Layers and files are separate. Following a guard leaves a return trip to remember.",
-      "Nest files under their layer. Inspect guard opens the dependency; Return restores the caller and position. This keeps one wide code pane; a side-by-side option would need more horizontal space."
+      "Make orientation and progress easier to read",
+      "Overview is a direct destination with the pinned PR and seven source layer rows. Return to review restores the reading position. One primary count says “Viewed 0 of 52 files.” Seen stays on each summary. Coverage details are in About, with a short notice when content is missing."
     ],
     [
-      "Seen, viewed and submitted mean different things.",
-      "The source already has seen and viewed controls. I added a file count and immediate Undo. Navigation leaves progress alone; summary seen and Submit keep their own meanings."
-    ],
-    [
-      "Supporting change: actions span several control groups.",
-      "Keep frequent file actions beside the filename and display controls beside the diff. Put secondary actions in Tools. That adds a click; I’d check whether people can find them."
-    ],
-    [
-      "Supporting change: file and layer totals need a clear scope.",
-      "Start with This file and keep Entire layer one click away. Counts follow the scope: access.ts has 3 messages; its layer has 15. The diff stays in place."
+      "Attach the discussion to the right code",
+      "Severity and resolution sit together: Major · Resolved. Replies remain in the thread. Range notes attach to a file, commit, side and inclusive line range, including deleted lines. A draft keeps its filename when the reviewer scrolls elsewhere. All notes stay local."
     ]
   ],
-  "tradeoff_title": "What I gave up",
-  "tradeoff": "Context takes space from the diff; Focus gives it back. Precise highlights can distract from surrounding branches. Inspect + Return means switching views. Status-first comments need testing with open findings; this sample has one resolved thread.",
-  "validation_title": "What I kept",
-  "validation": "The header, merged state, layer order, counts, complexity labels, J/K and Focus remain. Comments retain their metadata and expand in place; a separate line link opens code. Gray marks selection; orange highlights linked code.",
-  "next_title": "What I would test",
-  "next": "Trace the workspace guard, explain its checks, return and mark the file viewed. Compare both versions, varying the order; note missed checks and lost position. Then try more dependencies and open findings. Check how new commits affect links and viewed progress.",
-  "scope": "Observations and assumptions from using this PR, not developer research. Seven of 52 diffs at commit 23cdac2; manually mapped links; one paraphrased finding, with two reply bodies omitted. Secondary workflows are previews. Submit is disabled for the merged PR. Work exceeded the 1–2 hour brief. Paper requires sign-in."
+  "limits": "The local fixture contains all 52 GitHub diffs (+5,722 / −127), checked against the pinned before/after content. Only nine layer assignments are verified. Rate limiting still blocks the other 43, the source comparison base and live Split behavior. Those are release gates; this draft has not replaced the public submission. Summary and thread coverage remains partial. Narrow highlights can hide context, so whole ranges stay available.",
+  "next": "Next I’d ask a developer to do the same permission-review task in both versions: explain the checks, inspect the guard, return, and leave a range note. I’d record missed checks, lost position and help needed before making further changes."
 }

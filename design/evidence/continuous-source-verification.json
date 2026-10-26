@@ -1,0 +1,14 @@
+{
+  "target": "23cdac2d791cf1a0f25d80d82bc02a1f3922793c",
+  "base": "e54641b01c838a57c9794807e76e0fc893f491a9",
+  "files": 52,
+  "added": 5722,
+  "deleted": 127,
+  "verifiedLayerAssignments": 9,
+  "releaseGate": {
+    "layerAssignments": false,
+    "sourceSplitBehavior": false,
+    "comparisonBase": false
+  },
+  "note": "All patches verified against before/after blobs. Unassigned files remain unassigned; no inferred CodeRabbit layers."
+}

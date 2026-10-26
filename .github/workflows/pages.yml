@@ -27,6 +27,8 @@ jobs:
         uses: actions/checkout@v6
         with:
           persist-credentials: false
+      - name: Verify pinned source and release gate
+        run: python3 scripts/verify-continuous.py --release
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload static prototype
