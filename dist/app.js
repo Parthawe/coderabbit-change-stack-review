@@ -202,6 +202,7 @@ function setActive(id) {
   );
   progress();
   if (changed) {
+    enableGutters();
     renderContext();
     const item = $(`.nav-file[data-file="${id}"]`),
       list = $("#navigation-list");
@@ -326,6 +327,9 @@ function renderStream() {
   paintRanges();
 }
 function enableGutters() {
+  stream().querySelectorAll('.gutter[tabindex="0"]').forEach((b) => {
+    b.tabIndex = -1;
+  });
   const active = stream().querySelector(
     `[data-file-section="${state.file}"] .gutter`,
   );
@@ -391,12 +395,13 @@ function restorePosition(p) {
   paintRanges();
   lastReading = readingPosition();
 }
-function jump(file, side = "after", line = 1, end = line) {
+function jump(file, side = "after", line = null, end = line) {
   if (document.body.classList.contains("overview-mode")) showReview(false);
-  restorePosition({ file, side, line, offset: 72 });
-  state.linked = { file, side, start: line, end };
+  restorePosition({ file, side, line: line ?? 1, offset: 72 });
+  state.linked = line === null ? null : { file, side, start: line, end };
   paintRanges();
-  announce(`${files.get(file).name}, ${side}, ${lineLabel(line, end)}`);
+  announce(line === null ? files.get(file).name :
+    `${files.get(file).name}, ${side}, ${lineLabel(line, end)}`);
 }
 function trackActive() {
   scrollFrame = 0;
@@ -631,12 +636,7 @@ function openComposer() {
   state.composer = { ...state.range };
   state.tab = "comments";
   persist();
-  document.body.classList.add("context-open");
-  if (state.focus) {
-    state.focus = false;
-    document.body.classList.remove("is-focus");
-    $("#focus").setAttribute("aria-pressed", "false");
-  }
+  openContext();
   renderContext();
   $("#note-body").focus({ preventScroll: true });
 }
@@ -676,6 +676,7 @@ function renderOverview() {
 function showOverview() {
   if (!document.body.classList.contains("overview-mode"))
     state.overviewReturn = readingPosition();
+  closeContext(false);
   document.body.classList.add("overview-mode");
   $("#review-screen").hidden = true;
   $("#overview-screen").hidden = false;
@@ -684,12 +685,14 @@ function showOverview() {
   $("#overview-title").focus({ preventScroll: true });
 }
 function showReview(restore = true) {
+  const fromOverview = document.body.classList.contains("overview-mode");
   document.body.classList.remove("overview-mode");
   $("#overview-screen").hidden = true;
   $("#review-screen").hidden = false;
   if (location.hash === "#overview")
     history.replaceState(null, "", location.pathname + location.search);
   if (restore && state.overviewReturn) restorePosition(state.overviewReturn);
+  if (fromOverview) stream().focus({ preventScroll: true });
 }
 function changeMode(mode) {
   const p = readingPosition();
@@ -700,11 +703,21 @@ function changeMode(mode) {
   restorePosition(p);
 }
 function focusMode() {
+  if (document.body.classList.contains("overview-mode")) return;
   const p = readingPosition();
   state.focus = !state.focus;
+  if (state.focus) {
+    state.focusContextOpen = document.body.classList.contains("context-open");
+    closeContext(false);
+  } else if (state.focusContextOpen) {
+    document.body.classList.add("context-open");
+    $("#context-toggle").setAttribute("aria-expanded", "true");
+  }
   document.body.classList.toggle("is-focus", state.focus);
   $("#focus").setAttribute("aria-pressed", String(state.focus));
   restorePosition(p);
+  if (!document.activeElement.getClientRects().length)
+    stream().focus({ preventScroll: true });
 }
 function toolsMenu() {
   dialog(
@@ -993,16 +1006,27 @@ $("#clear-selection").onclick = () => {
   state.range = null;
   paintRanges();
 };
-$("#context-toggle").onclick = () => {
-  const on = document.body.classList.toggle("context-open");
-  $("#context-toggle").setAttribute("aria-expanded", String(on));
-  if (on) $("#close-context").focus();
-};
-$("#close-context").onclick = () => {
+function openContext() {
+  if (state.focus) focusMode();
+  document.body.classList.add("context-open");
+  $("#context-toggle").setAttribute("aria-expanded", "true");
+}
+function closeContext(restoreFocus = true) {
   document.body.classList.remove("context-open");
   $("#context-toggle").setAttribute("aria-expanded", "false");
-  $("#context-toggle").focus();
+  if (restoreFocus) {
+    const target = $("#context-toggle");
+    (target.getClientRects().length ? target : stream()).focus({ preventScroll: true });
+  }
+}
+$("#context-toggle").onclick = () => {
+  if (document.body.classList.contains("context-open")) closeContext();
+  else {
+    openContext();
+    $("#close-context").focus({ preventScroll: true });
+  }
 };
+$("#close-context").onclick = () => closeContext();
 for (const name of ["summaries", "comments"])
   $(`#${name}-tab`).onclick = () => {
     state.tab = name;
@@ -1039,9 +1063,12 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") {
     state.range = null;
     paintRanges();
-    document.body.classList.remove("context-open");
+    if (document.body.classList.contains("context-open")) {
+      closeContext($(".review-context").contains(document.activeElement));
+    }
     return;
   }
+  if (document.body.classList.contains("overview-mode")) return;
   if (typing || e.metaKey || e.ctrlKey || e.altKey) return;
   if (e.key.toLowerCase() === "z") {
     e.preventDefault();
@@ -1063,8 +1090,13 @@ document.addEventListener("keydown", (e) => {
   }
   if (e.key === "F6") {
     e.preventDefault();
-    if (stream().contains(document.activeElement)) $("#summaries-tab").focus();
-    else stream().focus();
+    if (stream().contains(document.activeElement)) {
+      openContext();
+      $(`#${state.tab}-tab`).focus({ preventScroll: true });
+    } else {
+      if (matchMedia("(max-width: 1279px)").matches) closeContext(false);
+      stream().focus({ preventScroll: true });
+    }
   }
   if (e.target === stream() && e.key === "Enter") {
     const p = readingPosition(),
