@@ -1,0 +1,180 @@
+(
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '36px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '64px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
+          02 / DECISION 2 · NAVIGATE & RETURN
+        </div>
+        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '16px', width: '100%' }}>
+          <svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+            <path d="m8 5-5 5 5 5M3 10h12a6 6 0 0 1 0 12h-3" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <div style={{ boxSizing: 'border-box', color: '#000000', flex: 1, flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '48px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '56px', maxWidth: '1320px', minWidth: '0px' }}>
+            Keep going, with a way back.
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
+          Problems 3–4 · I wanted the layer, file and return path to stay clear. Developer feedback then pushed me to keep the review continuous.
+        </div>
+      </div>
+      <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '64px', width: '1440px' }}>
+        <div style={{ borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '20px', width: '460px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
+            WHAT I CHOSE
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
+            Files stay under their layer
+          </div>
+          <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px', padding: '20px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', fontWeight: 600, lineHeight: '20px' }}>
+                ⌄ 1 · API contracts and access controls
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+                  9 files
+                </div>
+                <div style={{ boxSizing: 'border-box', color: '#1E7B52', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+                  +1,120
+                </div>
+                <div style={{ boxSizing: 'border-box', color: '#CA244D', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+                  −11
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                ◇ 1 Major · 1 Minor · 1 Nitpick · review history
+              </div>
+            </div>
+            <div style={{ borderLeftColor: '#D5D2D8', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', paddingLeft: '16px' }}>
+              <div style={{ backgroundColor: '#ECEBED', boxSizing: 'border-box', padding: '6px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
+                  access.ts
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', padding: '6px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
+                  feedback-access.ts
+                </div>
+              </div>
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+            I kept the layer relationship and restored its change totals and findings. Files now share one stream across all seven layers. The original already scrolls continuously within a layer.
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '24px', width: '916px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
+            FOLLOW THE CHECK
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
+            Inspect the guard. Return to the same code line.
+          </div>
+          <div style={{ boxSizing: 'border-box', display: 'flex', gap: '16px', width: '916px' }}>
+            <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', padding: '20px', width: '268px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+                01 · CALLER
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '30px' }}>
+                access.ts
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px', whiteSpace: 'pre-wrap' }}>
+                L57–65<br />Require workspace access
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                Inspect guard →
+              </div>
+            </div>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ alignSelf: 'center', flexShrink: '0', display: 'inline-block' }}>
+              <path d="M2 12h20m-7-7 7 7-7 7" fill="none" stroke="#B66030" strokeWidth="1.7" />
+            </svg>
+            <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', padding: '20px', width: '268px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+                02 · GUARD
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '30px' }}>
+                feedback-access.ts
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px', whiteSpace: 'pre-wrap' }}>
+                L27 and L38<br />Inspect the checks
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#582D1D', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                Return →
+              </div>
+            </div>
+            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ alignSelf: 'center', flexShrink: '0', display: 'inline-block' }}>
+              <path d="M2 12h20m-7-7 7 7-7 7" fill="none" stroke="#B66030" strokeWidth="1.7" />
+            </svg>
+            <div style={{ backgroundColor: '#FFFFFF', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', padding: '20px', width: '268px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+                03 · BACK TO CALLER
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '30px' }}>
+                access.ts
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px', whiteSpace: 'pre-wrap' }}>
+                L57–65<br />Same selection and reading position
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '28px' }}>
+                Viewed state unchanged
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '28px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+            ALTERNATIVE · CURRENT EXPLORATION
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
+            A flat file picker
+          </div>
+          <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', padding: '20px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
+              File 1 of 9 ▾
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }} />
+            <div style={{ backgroundColor: '#ECEBED', boxSizing: 'border-box', padding: '6px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
+                access.ts
+              </div>
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
+              errors.test.ts
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
+              errors.ts
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
+              feedback-access.ts
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+            A picker is compact, but hides the layer relationship. A Files tab offers the full path list without changing the review stream.
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+            ALTERNATIVE · CURRENT EXPLORATION
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
+            Keep both files open
+          </div>
+          <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '190px', minHeight: '280px' }}>
+            <div style={{ borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', padding: '14px', width: 'round(50%, 1px)' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '27px', whiteSpace: 'pre-wrap' }}>
+                access.ts<br /><br />L57–65<br />Workspace guard call
+              </div>
+            </div>
+            <div style={{ boxSizing: 'border-box', padding: '14px', width: 'round(50%, 1px)' }}>
+              <div style={{ boxSizing: 'border-box', color: '#175C3C', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '27px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap' }}>
+                feedback-access.ts<br /><br />L20–49<br />Workspace access and entitlement checks
+              </div>
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+            Caller and dependency side by side narrow the code again. I kept Before / After for comparison and use Inspect / Return for a dependency detour.
+          </div>
+        </div>
+      </div>
+    </div>
+  )

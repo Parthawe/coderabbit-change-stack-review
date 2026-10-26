@@ -1,0 +1,55 @@
+(
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', gap: '28px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '64px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '16px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
+          01 / AFTER THREE DEVELOPER SESSIONS
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '40px', fontWeight: 600, letterSpacing: '-0.02em', lineHeight: '48px' }}>
+          What changed after developer feedback.
+        </div>
+      </div>
+      <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px', maxWidth: '1320px' }}>
+        I reviewed the design with three developers through a mix of hands-on tasks and open feedback. Their feedback helped me revise the review flow. I haven’t completed a controlled comparison or measured improvements.
+      </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '8px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px', width: '520px' }}>
+          WHAT THEY CHALLENGED IN MY VERSION
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          WHAT I CHANGED
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#D6D1D9', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '24px', fontWeight: 500, lineHeight: '32px', width: '520px' }}>
+          Files felt like separate stops.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
+          I joined the files into one review stream and kept the familiar Before / After comparison.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#D6D1D9', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '24px', fontWeight: 500, lineHeight: '32px', width: '520px' }}>
+          I had removed useful review signals.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
+          I restored change totals and finding severity, with resolution beside each captured finding.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#D6D1D9', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '24px', fontWeight: 500, lineHeight: '32px', width: '520px' }}>
+          Too many counts and controls competed.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
+          I kept Viewed as the main progress count and compressed the toolbars to leave more room for code.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#D6D1D9', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: 'system-ui, sans-serif', fontSize: '24px', fontWeight: 500, lineHeight: '32px', width: '520px' }}>
+          Overview and commenting needed more attention.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
+          I made Overview a direct destination and added comments on selected line ranges.
+        </div>
+      </div>
+    </div>
+  )

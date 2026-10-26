@@ -1,24 +1,24 @@
 {
-  "title": "Keep the review moving.",
-  "intro": "The brief was to make Change Stack easier to use without losing what it can do. I focused on understanding a change, checking the code and keeping my place. Developer exploration exposed a mistake in my first version: I had removed useful signals while simplifying the screen. This revision responds to that feedback. It is not a completed usability study.",
+  "title": "Make the review easier to follow.",
+  "intro": "The brief was to make Change Stack easier to use without losing what it can do. I focused on reading the explanation, following the code and keeping track of the review. I reviewed the design with three developers through a mix of hands-on tasks and open feedback. Their feedback helped me revise the review flow. I haven’t completed a controlled comparison or measured improvements.",
   "sections": [
     [
-      "Keep the useful signals",
-      "I restored layer numbers, file counts, additions, deletions and recorded severity. Layers start compact; expanding files and opening a layer are separate actions. The first context view explains the file, shows the captured finding’s status and leaves summaries collapsed. Complexity, severity and resolution keep their own labels."
+      "Read before navigating",
+      "In the original, summary points shared a broad code range and expanding the summary also moved the diff. I separated those actions: expand to read, then follow a statement link. Full source wording and the whole function remain available. A precise highlight can hide surrounding logic, so I would check whether reviewers miss a branch."
     ],
     [
-      "Read, then inspect",
-      "Opening a summary reveals the explanation without moving the code. Statement links take you to specific lines; the whole range and source wording remain available. Inspect and Return preserve the caller’s position. The original already scrolls through files within a layer. I extended that stream across layers. Modified files keep equal Before/After panes; added files use the full width, as in the source. Deletions and unchanged context remain available."
+      "Follow the change and return",
+      "Developers challenged the interrupted file flow and missing signals in my first version. I restored layer totals and recorded severity, and joined the files into one stream across seven layers. The original already scrolls continuously within a layer. Modified files retain equal Before/After panes; added files use full width. Inspect/Return restores the caller. The cost is keeping people oriented as they scroll."
     ],
     [
-      "Use Overview to get oriented",
-      "Overview holds the pinned PR context, source-ordered layers and recorded findings. Severity filters narrow this table without reordering the review. A small curated permission-check path links to workspace access, tenant resolution and record ownership. Return restores the previous reading position."
+      "Make progress deliberate",
+      "Feedback exposed too many competing counts. Viewed is now the main progress measure, with Undo; navigation and summary Seen remain separate. Findings retain severity beside resolution, so Major · Resolved reads as history. Message counts include replies. Range notes keep their file, side and lines. These states describe actions and captured history, not review quality."
     ],
     [
-      "Keep state clear and code readable",
-      "Viewed is the primary progress count. Summary Seen is separate; scrolling changes neither. Major · Resolved reads as history. Range notes retain their file, side and lines, and stay local. Reviewing controls take 92 px. Light, Dark and System use semantic colors; switching themes preserves drafts and position. Dark colors are derived, not claimed as captured product tokens."
+      "Keep supporting tools useful",
+      "I compressed the reviewing controls to 92 px and made Overview a direct destination, with Return to review. Its layer table keeps source order; severity filters narrow the table only. A curated permission-check path offers a starting point. Light, Dark and System are optional preferences. Theme changes preserve position and drafts; dark colors are derived from the product palette."
     ]
   ],
-  "limits": "All 52 pinned diffs (+5,722 / −127), their layer membership and comparison base are verified. Live Split behavior informed the final layout. Summary and thread coverage is partial; semantic outlines, blame and other secondary tools remain previews. The source uses both Trivial and Nitpick; I keep those labels rather than silently treating them as identical. Narrow highlights can hide context, so whole ranges stay available.",
-  "next": "Next I’d compare the same permission-review task in both versions: explain the checks, inspect the guard, return and leave a range note. I’d record missed checks, lost position and help needed. I haven’t measured faster or more accurate reviews."
+  "limits": "All 52 pinned diffs, layer membership and the comparison base are verified. Summary and thread coverage is partial; statement links are manually mapped. The captured access finding has two unavailable reply bodies. Secondary tools remain previews. This revision extends the Saturday submission and exceeded the original 1–2 hour brief.",
+  "next": "Next I’d compare the same permission-review task in both versions: explain the checks, inspect the guard, return and leave a range note. I’d vary which version comes first and record missed checks, lost position and help needed."
 }

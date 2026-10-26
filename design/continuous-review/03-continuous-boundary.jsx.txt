@@ -1,0 +1,115 @@
+(
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '20px', height: 'fit-content', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '48px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#29242F', fontFamily: 'system-ui, sans-serif', fontSize: '32px', fontWeight: 600, lineHeight: '40px' }}>
+          Keep scrolling into the next file.
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#6B6076', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '27px' }}>
+          At the boundary, the active filename and context change to errors.ts. Viewed stays at 0 of 52 files.
+        </div>
+      </div>
+      <div style={{ backgroundColor: '#FFFFFF', borderColor: '#DCD6E2', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', width: '1344px' }}>
+        <div style={{ backgroundColor: '#F3F0F6', borderTopColor: '#DCD6E2', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', paddingBlock: '10px', paddingInline: '16px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '18px' }}>
+            access.ts
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+              191
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+               * construction rather than by two copies of the same string staying in sync.
+            </div>
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+              192
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+               */
+            </div>
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+              193
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+              export const forbidFeedbackRecord = (requestId: string, instance: string): Response =>
+            </div>
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+              194
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', whiteSpace: 'pre-wrap', width: '1278px' }}>
+              {'  '}problemForbidden(requestId, "You are not authorized to access this feedback record", instance);
+            </div>
+          </div>
+        </div>
+        <div style={{ backgroundColor: '#F3F0F6', borderTopColor: '#DCD6E2', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', paddingBlock: '10px', paddingInline: '16px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '18px' }}>
+            errors.ts
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+              1
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+              import "server-only";
+            </div>
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+              2
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+              import type { z } from "zod";
+            </div>
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+              3
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+              import type { logger } from "@formbricks/logger";
+            </div>
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', width: '1344px' }}>
+          <div style={{ background: 'repeating-linear-gradient(135deg, rgb(248, 246, 249) 0px, rgb(248, 246, 249) 3px, rgb(238, 234, 242) 3px, rgb(238, 234, 242) 4px) 0% 0%', boxSizing: 'border-box', display: 'none', flexShrink: '0', width: '672px' }} />
+          <div style={{ backgroundColor: '#E6F1E7', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', paddingBlock: '3px', paddingInline: '12px', width: '1342px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#72837A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '12px', lineHeight: '22px', width: '28px' }}>
+              4
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#332D3A', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', width: '1278px' }}>
+              import { DatabaseError, ResourceNotFoundError } from "@formbricks/types/errors";
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ boxSizing: 'border-box', color: '#746A7E', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+        Pinned source excerpts · access.ts L191–194 → errors.ts L1–4, in verified review order. Added files use the full width.
+      </div>
+    </div>
+  )

@@ -1,0 +1,122 @@
+(
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '48px', WebkitFontSmoothing: 'antialiased', width: '1200px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '28px' }}>
+          Comment on a range
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+          Local draft · nothing is sent
+        </div>
+      </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', gap: '24px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '18px' }}>
+          access.ts
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          After · lines 179–182
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          Show selected code
+        </div>
+      </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', width: '1104px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          Drag line numbers or use Shift-click, then choose Comment on selection.
+        </div>
+        <div style={{ backgroundColor: '#E4E8FB', borderColor: '#9CA3D0', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', paddingBlock: '12px', width: '1104px' }}>
+          <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#4F5798', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '54px' }}>
+              179
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
+              {'  '}const permittedTenantIds = datasetId ? [resolution.tenantId] : resolution.allowedTenantIds;
+            </div>
+          </div>
+          <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#4F5798', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '54px' }}>
+              180
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
+              {'  '}if (!result.data.tenant_id || !permittedTenantIds.includes(result.data.tenant_id)) {
+            </div>
+          </div>
+          <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#4F5798', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '54px' }}>
+              181
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
+              {'    '}log.warn({ statusCode: 403 }, "Feedback record tenant outside caller's workspace datasets");
+            </div>
+          </div>
+          <div style={{ alignItems: 'start', boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#4F5798', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '24px', textAlign: 'right', width: '54px' }}>
+              182
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '24px', whiteSpace: 'pre-wrap', width: 'max-content' }}>
+              {'    '}return { ok: false, response: forbidFeedbackRecord(requestId, instance) };
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style={{ backgroundColor: '#FFFFFF', borderColor: '#928D96', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', flexShrink: '0', height: '140px', padding: '16px', width: '1104px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          Write a local note…
+        </div>
+      </div>
+      <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '16px' }}>
+        <div style={{ borderColor: '#928D96', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '8px', paddingInline: '16px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '18px' }}>
+            Save local note
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          Cancel
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          Keep writing even if you scroll to another file.
+        </div>
+      </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '12px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F26', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+          Read an existing thread
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          A separate state: expanding the discussion keeps the code in place. Only its code link navigates.
+        </div>
+      </div>
+      <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '18px' }}>
+            coderabbitai
+          </div>
+          <div style={{ backgroundColor: '#FFF0DF', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '2px', paddingInline: '6px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#77411F', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+              Major
+            </div>
+          </div>
+          <div style={{ backgroundColor: '#EBEBED', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '2px', paddingInline: '6px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+              Resolved
+            </div>
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
+          ⌄ Dataset lookup uses an untrimmed directory ID
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+          Functional Correctness · Quick win · 3 messages, including replies
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#332D3A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '24px' }}>
+            CodeRabbit reported that an explicit dataset lookup compared the raw directory ID while returned tenant IDs were trimmed. This could reject a legitimate ID containing stray whitespace. The source thread is marked resolved and confirmed addressed. The pinned, out-of-date code snapshot is retained as historical evidence, not a claim that this is a current bug.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+            Paraphrased finding · 2 reply bodies unavailable
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#4C4654', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+            Show access.ts · L75–90 →
+          </div>
+        </div>
+      </div>
+    </div>
+  )

@@ -6,7 +6,7 @@ Design exercise by Parth Pawar. The prototype uses Formbricks #8650 at commit `2
 - [Paper design and decisions](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0), sign-in required
 - [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
 
-The four Paper pages cover the problem, design decisions, final review states and next checks. The site opens directly into the review. Previous presentation URLs redirect to it.
+The four Paper pages cover source observations, feedback on my first version, three core decisions, final review states and next checks. The site opens directly into the review. Previous presentation URLs redirect to it.
 
 The review contains all 52 pinned diffs in seven verified layers, compact change and finding signals, explicit summary-to-code links, Inspect/Return, Viewed/Undo, multiline local notes, Overview and Light/Dark/System themes. Modified files use equal Before/After panes; added files use the full width, as in the original. The original scrolls continuously within a layer; this prototype extends the stream across layers.
 
@@ -29,6 +29,6 @@ node --check dist/app.js
 
 GitHub Pages runs the release gate before deployment. The prototype has no backend or runtime dependency on GitHub. Notes, drafts and progress stay in browser storage. The source PR is merged, so review submission is disabled.
 
-Summary and thread coverage is partial. Semantic outlines, blame and other secondary tools remain previews. Dark colors are derived from the product palette. Developer feedback came from exploration; no completed usability comparison or measured improvement is claimed. The revisions exceeded the original 1–2 hour assignment scope.
+Summary and thread coverage is partial. Semantic outlines, blame and other secondary tools remain previews. Dark colors are derived from the product palette. I reviewed the design with three developers through a mix of hands-on tasks and open feedback. Their feedback helped me revise the review flow. I haven’t completed a controlled comparison or measured improvements. The revisions exceeded the original 1–2 hour assignment scope.
 
 The 2× Paper exports are in `design/continuous-review`. Earlier explorations remain recoverable in Git and the separate working Paper file. The submission pack contains no video. Nothing has been sent to CodeRabbit.

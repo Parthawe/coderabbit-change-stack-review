@@ -9,6 +9,10 @@
           "name": "The challenge and my starting point"
         },
         {
+          "id": "8VB-0",
+          "name": "What changed after three developer sessions"
+        },
+        {
           "id": "6HS-0",
           "name": "1\u20133 \u00b7 Finding the right code"
         },
@@ -39,7 +43,7 @@
         },
         {
           "id": "63I-0",
-          "name": "Decision 4 \u00b7 Findings in context"
+          "name": "Supporting refinement \u00b7 Findings in context"
         },
         {
           "id": "7EY-0",
@@ -64,15 +68,15 @@
         },
         {
           "id": "6V5-0",
-          "name": "Change 2 \u00b7 Read before moving the code"
+          "name": "Read before moving the code"
         },
         {
           "id": "6VN-0",
-          "name": "Change 5 \u00b7 Point each statement at its code"
+          "name": "Follow a statement link"
         },
         {
           "id": "6VT-0",
-          "name": "Change 6 \u00b7 Include the return trip"
+          "name": "Inspect and return"
         },
         {
           "id": "7J8-0",
@@ -110,6 +114,10 @@
     {
       "nodeId": "5FN-0",
       "filePath": "design/continuous-review/01-challenge-2x.png"
+    },
+    {
+      "nodeId": "8VB-0",
+      "filePath": "design/continuous-review/01-developer-feedback-2x.png"
     },
     {
       "nodeId": "6HS-0",

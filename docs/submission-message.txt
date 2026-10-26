@@ -4,7 +4,7 @@ Hi Nimra,
 
 Here’s my Change Stack redesign. I focused on following the code, keeping your place and making the review signals easier to scan.
 
-Paper shows the problems I noticed, the choices I made and the final design. The prototype uses all 52 files from the assigned PR, with partial summaries and comments. The one-page rationale explains the decisions and limits.
+Paper shows the problems I noticed, the choices I made and the final design. The prototype uses all 52 files from the assigned PR, with partial summaries and comments. The one-page rationale explains the decisions and limits. Feedback from three developers helped me revise the flow.
 
 Paper design and decisions (sign-in required)
 https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0

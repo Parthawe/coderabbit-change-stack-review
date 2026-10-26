@@ -22,12 +22,12 @@ Release checks
 - Severity, resolution, message count and missing thread content are separate. access.ts shows Major · Resolved, three messages, one captured thread and two unavailable reply bodies.
 - Reviewing controls remain 92 px below the PR header. Checked 1440×960, 1280×720 and the context overlay below 1280. Escape returns focus from the overlay.
 - Loading, Retry, empty states, keyboard access and reduced-motion behavior checked.
-- Four Paper pages, 21 current 2× artboard exports and the one-page rationale reflect the release. Old explorations and video are excluded from the submission pack.
+- Four Paper pages, 22 current 2× artboard exports and the one-page rationale reflect the release. Old explorations and video are excluded from the submission pack.
 
 Remaining limits
 Summary and thread coverage is partial. Statement links are manually mapped. Semantic outlines, blame and other secondary tools are previews. Dark colors are derived from the product palette. Local notes and review progress are stored only in this browser. The merged PR cannot receive a review submission here.
 
-Developer feedback was exploratory. No completed usability comparison or measured improvement is claimed. The follow-up is to ask developers to explain the permission checks in both versions, follow a helper and return, leave a range note and mark the file viewed. Record missed checks, lost position and help needed. Do not send that request automatically.
+I reviewed the design with three developers through a mix of hands-on tasks and open feedback. Their feedback helped me revise the review flow. I haven’t completed a controlled comparison or measured improvements. The follow-up is to ask developers to explain the permission checks in both versions, follow a helper and return, leave a range note and mark the file viewed. Record missed checks, lost position and help needed. Do not send that request automatically.
 
 Paper design and decisions (sign-in required)
 https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0
@@ -40,3 +40,5 @@ https://parthawe.github.io/coderabbit-change-stack-review/
 
 One-page rationale
 https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf
+
+Story alignment: separated source diagnosis and developer feedback; corrected the Paper boundary to access.ts → errors.ts with full-width added files; retained three core decisions, labelled supporting refinements, removed stale interaction numbers and repeated impact claims, and combined the next-comparison steps.

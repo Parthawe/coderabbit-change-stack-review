@@ -1,0 +1,136 @@
+(
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '36px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '64px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
+          02 / SUPPORTING REFINEMENT · CONTROL PLACEMENT
+        </div>
+        <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '16px', width: '100%' }}>
+          <svg width="36" height="36" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ flexShrink: '0', display: 'inline-block' }}>
+            <path d="M3 6h6m4 0h8M3 18h12m4 0h2" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+            <circle cx="11" cy="6" r="2" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+            <circle cx="17" cy="18" r="2" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+            <path d="M3 12h2m4 0h12" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+            <circle cx="7" cy="12" r="2" fill="none" stroke="#65616A" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+          <div style={{ boxSizing: 'border-box', color: '#000000', flex: 1, flexBasis: '0%', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '48px', fontWeight: 600, letterSpacing: '-0.025em', lineHeight: '56px', maxWidth: '1320px', minWidth: '0px' }}>
+            Give the code more room.
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '22px', lineHeight: '32px' }}>
+          Developer feedback · My stacked toolbars were taking too much space from reading.
+        </div>
+      </div>
+      <div style={{ borderRadius: '6px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#17151A', fontFamily: 'system-ui, sans-serif', fontSize: '17px', fontWeight: 600, lineHeight: '26px' }}>
+          WHAT I CHOSE
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
+          A compact layer strip and one file toolbar.
+        </div>
+        <div style={{ backgroundColor: '#F3F0F6', borderColor: '#DCD6E2', borderRadius: '6px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', padding: '24px', width: '1440px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#6D6278', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '22px' }}>
+            36 px · Layer title and collapsed description
+          </div>
+          <div style={{ alignItems: 'center', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '16px', height: '56px', justifyContent: 'space-between', paddingBlock: '8px', paddingInline: '16px', width: '1390px' }}>
+            <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '4px', width: '280px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
+                … / api / v3 / feedbackRecords / lib
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'flex', gap: '10px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
+                  access.ts
+                </div>
+                <div style={{ boxSizing: 'border-box', color: '#2A624A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
+                  +194
+                </div>
+              </div>
+            </div>
+            <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
+              <div style={{ borderColor: '#D5D2D8', borderRadius: '4px', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '6px', paddingInline: '10px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                  Mark viewed
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', display: 'inline-block', paddingBlock: '6px', paddingInline: '8px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                  Unified
+                </div>
+              </div>
+              <div style={{ backgroundColor: '#EBEBED', borderRadius: '4px', boxSizing: 'border-box', display: 'inline-block', paddingBlock: '6px', paddingInline: '8px' }}>
+                <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', fontWeight: 600, lineHeight: '16px' }}>
+                  Split
+                </div>
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                Focus Z
+              </div>
+              <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
+                Tools ▾
+              </div>
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#6D6278', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px' }}>
+            56 px · Active-file toolbar. Paths shorten before controls shrink.
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+          Filename, Mark viewed, Split / Unified and Focus stay visible. Secondary display controls move to Tools. Together, the strip and toolbar take 92 px.
+        </div>
+      </div>
+      <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '64px', paddingTop: '28px', width: '1440px' }}>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+            ALTERNATIVE · CURRENT EXPLORATION
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
+            Keep controls distributed
+          </div>
+          <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '22px', padding: '20px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
+              Files   1 / 9   View settings
+            </div>
+            <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', paddingTop: '12px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
+                access.ts   +194   Mark viewed
+              </div>
+            </div>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '28px' }}>
+              Unified   Split   Focus Z
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+            Everything is visible, but I still have to search across several rows.
+          </div>
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', gap: '16px', width: '688px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+            ALTERNATIVE · CURRENT EXPLORATION
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '26px', fontWeight: 600, lineHeight: '34px' }}>
+            Put file actions in Tools
+          </div>
+          <div style={{ borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '18px', padding: '20px' }}>
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px' }}>
+              access.ts   [Tools ▾]
+            </div>
+            <div style={{ backgroundColor: '#FDFDFE', borderColor: '#D5D2D8', borderStyle: 'solid', borderWidth: '1px', boxSizing: 'border-box', padding: '16px' }}>
+              <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '17px', lineHeight: '30px', whiteSpace: 'pre-wrap' }}>
+                Mark viewed<br />Unified / Split<br />Focus<br />Copy path<br />Wrap long lines
+              </div>
+            </div>
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: 'system-ui, sans-serif', fontSize: '19px', lineHeight: '29px' }}>
+            The screen is quieter, but even Mark viewed takes an extra click.
+          </div>
+        </div>
+      </div>
+      <div style={{ alignItems: 'start', borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingTop: '24px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px', width: '200px' }}>
+          The tradeoff
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#000000', flexGrow: '1', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', width: '1208px' }}>
+          Tools is easier to overlook. I’d check whether developers can find the actions I moved there.
+        </div>
+      </div>
+    </div>
+  )

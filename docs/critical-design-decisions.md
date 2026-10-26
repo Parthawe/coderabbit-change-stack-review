@@ -1,29 +1,21 @@
 # Design decisions
 
-M keeps the layer model and follows one task in Formbricks #8650: check a summary, inspect the access guard, then return to the call.
+The final iteration keeps the layer model and follows a permission-review task in Formbricks #8650.
 
-| Observation | Decision | Cost or risk |
+I reviewed the design with three developers through a mix of hands-on tasks and open feedback. Their feedback helped me revise the review flow. I haven’t completed a controlled comparison or measured improvements.
+
+| Decision | Evidence and chosen behavior | Tradeoff |
 | --- | --- | --- |
-| Six summary points share lines 49–130. | Give each point a smaller target; retain the full summary and whole function. | A precise highlight could encourage people to ignore surrounding code. |
-| The access check continues in feedback-access.ts. | Open the checks at L27 and L38, then restore the caller’s selection and reading position. | This is one manually mapped route, not dependency discovery. |
-| File and display actions sit across several controls. | Group file actions beside the filename and display controls above the code. | Secondary tools take another click; M still uses several control rows. |
+| Read before navigating | Original summary points share L49–130; expanding also moves the diff. I separated expansion from explicit statement links, retaining full wording and whole-range access. | Narrow targets can hide surrounding logic. Links are manually mapped. |
+| Follow and return | The guard lives in another file. Developers also challenged interrupted file flow and missing signals in my version. I retained Inspect/Return, joined files across layers and restored totals and recorded severity. | Context must stay clear while scrolling; this does not discover dependencies automatically. |
+| Make progress deliberate | Original reading, file and submission states have different scopes. Developers found my counts too busy. I kept Viewed as the primary total, separate from Seen, with immediate Undo. | A check records an action, not review quality. A newer commit needs an explicit reset policy. |
 
-## The comparison
+Supporting refinements: 92 px reviewing controls, direct Overview, range notes and optional themes. Modified files retain equal Before/After panes; added files use full width. Findings show severity beside resolution, and message counts include replies. Missing thread content remains labelled.
 
-The main comparison uses unaltered browser captures of Original and M in Light, Unified, at 1280 × 720. Both begin at access.ts L54 and show the access call at L57–65. M’s selected summary point matches those highlighted lines. The original fits more surrounding code. M uses more space for persistent files, clearer labels and summary targets. Original progress is preserved; M starts local progress at zero. Source provenance is in design/evidence/task-comparison-provenance.json.
+## Comparison and limits
 
-Unified already exists in CodeRabbit. Compact Split for an added file is a supporting choice, not the main improvement. Paper’s earlier matched-import export remains design history; the public comparison now uses the working prototype.
+Keep viewport, theme, pinned commit, file, range and diff mode equivalent. The source already scrolls continuously within a layer; the redesign extends that across seven layers. All 52 diffs and layer membership are verified. Summaries and comments remain partial; the captured access finding is resolved and two replies are unavailable. Secondary tools remain previews.
 
-## Why one code pane
+Untested alternatives are explorations. No reduced review time, successful comparison or measured improvement is claimed.
 
-Caller and guard side by side would narrow both at laptop width. Return preserves place without introducing a second pane. Persistent files and context still cost space, so Focus remains available. Smaller links are not automatically better: code outside the highlighted range may change the interpretation.
-
-## Why M
-
-The explorations change the review model or require new information: behavior-first needs intent, counterexamples need scenarios, impact-first needs reliable dependencies, and author handoff needs author input. M improves the existing screen within the available source material. These are design tradeoffs, not conclusions from user testing.
-
-## What would change the decision
-
-Ask developers to explain the access check on both screens and identify something the summary misses. Alternate which screen they use first. Watch for wrong turns and missed branches, not just faster clicks. If precise links increase missed context, revise or remove them. Test a modified-file diff and moved/outdated anchors next.
-
-Seven added-file diffs from the 52-file PR are included, with manually mapped links. Full semantic diff, global file search and developer validation remain outside this sample. The prototype demonstrates the interaction; it does not prove review quality improved.
+Next: explain the permission checks, inspect the guard, return and leave a range note in both versions. Vary presentation order. Record missed checks, lost position and help needed, including whether precise links hide important context.

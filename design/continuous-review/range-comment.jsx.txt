@@ -1,5 +1,5 @@
 (
-    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '24px', height: '697px', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '48px', WebkitFontSmoothing: 'antialiased', width: '1200px' }}>
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '24px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', padding: '48px', WebkitFontSmoothing: 'antialiased', width: '1200px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between' }}>
         <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '22px', fontWeight: 600, lineHeight: '28px' }}>
           Comment on a range
@@ -76,6 +76,14 @@
           Keep writing even if you scroll to another file.
         </div>
       </div>
+      <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '8px', paddingTop: '12px' }}>
+        <div style={{ boxSizing: 'border-box', color: '#211F26', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', fontWeight: 600, lineHeight: '28px' }}>
+          Read an existing thread
+        </div>
+        <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '24px' }}>
+          A separate state: expanding the discussion keeps the code in place. Only its code link navigates.
+        </div>
+      </div>
       <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px', paddingTop: '20px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', gap: '12px' }}>
           <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', fontWeight: 600, lineHeight: '18px' }}>
@@ -93,10 +101,21 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#000000', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '18px' }}>
-          Dataset lookup uses an untrimmed directory ID
+          ⌄ Dataset lookup uses an untrimmed directory ID
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', display: 'inline-block', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-          Existing finding · access.ts L75–90 · 2 reply bodies unavailable
+          Functional Correctness · Quick win · 3 messages, including replies
+        </div>
+        <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+          <div style={{ boxSizing: 'border-box', color: '#332D3A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '15px', lineHeight: '24px' }}>
+            CodeRabbit reported that an explicit dataset lookup compared the raw directory ID while returned tenant IDs were trimmed. This could reject a legitimate ID containing stray whitespace. The source thread is marked resolved and confirmed addressed. The pinned, out-of-date code snapshot is retained as historical evidence, not a claim that this is a current bug.
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px' }}>
+            Paraphrased finding · 2 reply bodies unavailable
+          </div>
+          <div style={{ boxSizing: 'border-box', color: '#4C4654', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '14px', lineHeight: '22px', textDecoration: 'underline 1px', textUnderlinePosition: 'from-font' }}>
+            Show access.ts · L75–90 →
+          </div>
         </div>
       </div>
     </div>
