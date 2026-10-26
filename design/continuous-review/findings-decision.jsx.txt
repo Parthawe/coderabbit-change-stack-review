@@ -1,5 +1,5 @@
 (
-    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '36px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '64px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '36px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '64px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '14px' }}>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
           02 / DECISION 4 · FINDINGS IN CONTEXT
@@ -66,8 +66,8 @@
             <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '24px', fontWeight: 600, lineHeight: '34px' }}>
               15 messages across this layer
             </div>
-            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '30px', whiteSpace: 'pre-wrap' }}>
-              1 Major · 1 Minor · 1 Nitpick recorded<br />Finding status is only partly captured.
+            <div style={{ boxSizing: 'border-box', color: '#000000', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '30px' }}>
+              Look across related files without changing the diff I’m reading.
             </div>
           </div>
         </div>

@@ -1,0 +1,18 @@
+[
+  "apps/web/i18n.lock",
+  "apps/web/locales/de-DE.json",
+  "apps/web/locales/en-US.json",
+  "apps/web/locales/es-ES.json",
+  "apps/web/locales/fr-FR.json",
+  "apps/web/locales/hu-HU.json",
+  "apps/web/locales/ja-JP.json",
+  "apps/web/locales/nl-NL.json",
+  "apps/web/locales/pt-BR.json",
+  "apps/web/locales/pt-PT.json",
+  "apps/web/locales/ro-RO.json",
+  "apps/web/locales/ru-RU.json",
+  "apps/web/locales/sv-SE.json",
+  "apps/web/locales/tr-TR.json",
+  "apps/web/locales/zh-Hans-CN.json",
+  "apps/web/locales/zh-Hant-TW.json"
+]

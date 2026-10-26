@@ -1,0 +1,42 @@
+[
+  {
+    "path": "apps/web/app/.well-known/oauth-protected-resource/route.test.ts",
+    "text": "M\nroute.test.ts"
+  },
+  {
+    "path": "apps/web/app/api/mcp/route.test.ts",
+    "text": "M\nroute.test.ts"
+  },
+  {
+    "path": "apps/web/modules/auth/lib/mcp-oauth-provider-options.ts",
+    "text": "M\nmcp-oauth-provider-options.ts\n1"
+  },
+  {
+    "path": "apps/web/modules/auth/lib/oauth-client-metadata.test.ts",
+    "text": "M\noauth-client-metadata.test.ts"
+  },
+  {
+    "path": "apps/web/modules/auth/lib/oauth-client-metadata.ts",
+    "text": "M\noauth-client-metadata.ts"
+  },
+  {
+    "path": "apps/web/modules/auth/lib/oauth-urls.ts",
+    "text": "M\noauth-urls.ts"
+  },
+  {
+    "path": "apps/web/modules/ee/audit-logs/types/audit-log.ts",
+    "text": "M\naudit-log.ts"
+  },
+  {
+    "path": "docs/development/technical-handbook/mcp-server.mdx",
+    "text": "M\nmcp-server.mdx\n3"
+  },
+  {
+    "path": "docs/platform/mcp/overview.mdx",
+    "text": "M\noverview.mdx"
+  },
+  {
+    "path": "docs/platform/mcp/setup.mdx",
+    "text": "M\nsetup.mdx"
+  }
+]

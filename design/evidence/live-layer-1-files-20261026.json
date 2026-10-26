@@ -1,0 +1,38 @@
+[
+  {
+    "path": "apps/web/app/api/v3/feedbackRecords/lib/access.ts",
+    "text": "A\naccess.ts\n3"
+  },
+  {
+    "path": "apps/web/app/api/v3/feedbackRecords/lib/errors.test.ts",
+    "text": "A\nerrors.test.ts"
+  },
+  {
+    "path": "apps/web/app/api/v3/feedbackRecords/lib/errors.ts",
+    "text": "A\nerrors.ts\n7"
+  },
+  {
+    "path": "apps/web/app/api/v3/feedbackRecords/lib/schemas.ts",
+    "text": "A\nschemas.ts\n5"
+  },
+  {
+    "path": "apps/web/app/api/v3/feedbackRecords/lib/serializers.test.ts",
+    "text": "A\nserializers.test.ts"
+  },
+  {
+    "path": "apps/web/app/api/v3/feedbackRecords/lib/serializers.ts",
+    "text": "A\nserializers.ts"
+  },
+  {
+    "path": "apps/web/app/api/v3/lib/feedback-access.ts",
+    "text": "A\nfeedback-access.ts"
+  },
+  {
+    "path": "apps/web/app/api/v3/lib/response.ts",
+    "text": "M\nresponse.ts"
+  },
+  {
+    "path": "apps/web/app/api/v3/unify-feedback/taxonomy/lib/access.ts",
+    "text": "M\naccess.ts"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  "apps/web/modules/mcp/auth.ts",
+  "apps/web/modules/mcp/tools/guard-scopes.ts",
+  "apps/web/modules/mcp/tools/workspaces.ts",
+  "apps/web/modules/mcp/tools/workspaces.test.ts",
+  "apps/web/modules/mcp/server.ts",
+  "apps/web/modules/mcp/constants.ts",
+  "apps/web/modules/mcp/auth.test.ts"
+]

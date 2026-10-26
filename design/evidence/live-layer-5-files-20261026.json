@@ -1,0 +1,30 @@
+[
+  {
+    "path": "apps/web/modules/mcp/tools/guard-scopes.ts",
+    "text": "M\nguard-scopes.ts"
+  },
+  {
+    "path": "apps/web/modules/mcp/tools/workspaces.test.ts",
+    "text": "M\nworkspaces.test.ts"
+  },
+  {
+    "path": "apps/web/modules/mcp/tools/workspaces.ts",
+    "text": "M\nworkspaces.ts"
+  },
+  {
+    "path": "apps/web/modules/mcp/auth.test.ts",
+    "text": "M\nauth.test.ts"
+  },
+  {
+    "path": "apps/web/modules/mcp/auth.ts",
+    "text": "M\nauth.ts"
+  },
+  {
+    "path": "apps/web/modules/mcp/constants.ts",
+    "text": "M\nconstants.ts"
+  },
+  {
+    "path": "apps/web/modules/mcp/server.ts",
+    "text": "M\nserver.ts"
+  }
+]

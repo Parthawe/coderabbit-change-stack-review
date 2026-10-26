@@ -1,0 +1,22 @@
+[
+  {
+    "path": "apps/web/modules/hub/service.test.ts",
+    "text": "M\nservice.test.ts"
+  },
+  {
+    "path": "apps/web/modules/hub/service.ts",
+    "text": "M\nservice.ts"
+  },
+  {
+    "path": "apps/web/modules/hub/types.ts",
+    "text": "M\ntypes.ts"
+  },
+  {
+    "path": "apps/web/modules/hub/utils.test.ts",
+    "text": "A\nutils.test.ts"
+  },
+  {
+    "path": "apps/web/modules/hub/utils.ts",
+    "text": "M\nutils.ts"
+  }
+]

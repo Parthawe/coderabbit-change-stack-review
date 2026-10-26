@@ -1,19 +1,42 @@
-Review signals, Overview and themes · 26 October 2026
+CodeRabbit Change Stack · Verified release · 26 October 2026
 
-Working draft only. Public GitHub Pages and public Paper are unchanged.
-Paper: https://app.paper.design/file/01M5W961Q440DVSB0QZ7E48E14/p-1-0/5FN-0
-Local prototype: http://127.0.0.1:4318/
-Paper requires sign-in. No video or email included.
+Source verification is complete. All shared destinations remain unchanged.
 
-Changed: compact collapsed layers with source change totals and severity; separate disclosure/navigation; context and historical finding preview; collapsed summaries; Overview severity filtering and curated permission checks; Light/Dark/System themes.
-Source attribution: original-overview-controls.txt and original-comments-controls.txt. The PR summary uses Trivial and layer 1 uses Nitpick. Unknown file finding totals remain null. Two individually captured findings have explicit resolved metadata; only access.ts has a full demonstrated thread in the prototype.
+Verified source
+- Target: 23cdac2d791cf1a0f25d80d82bc02a1f3922793c.
+- Comparison base: e54641b01c838a57c9794807e76e0fc893f491a9, confirmed by the live source content keys.
+- All 52 file memberships and guided order checked across the seven live CodeRabbit layers.
+- 12 added and 40 modified files; +5,722 / −127. Every pinned patch reconstructs its before/after file.
+- 24 directly exported source patches match their added/deleted content. The other 28 use GitHub patches at the confirmed base. This does not establish identical semantic-range or blame rendering.
+- Original modified-file Split: equal panes, shared vertical scroll, wrapping with aligned row heights and collapsed unchanged code. Original added files use full-width After. The source already scrolls continuously within a layer; this design extends that flow across layers.
 
-Verified: all 52 pinned before/after reconstructions and hunks (+5722/-127); semantic text contrast in both themes; Light default, persistence, System follows OS only when selected (isolated logic test); review-first emailed query URL; collapsed summaries and file trees; explicit links; source-ordered severity table; permission links; Overview return; Inspect/Return; exact Focus reading line restoration; theme preserves selection/draft and code scroll; Viewed/Undo across files; Before multiline keyboard selection; real taxonomy 11 deletions/5 additions in Split/Unified; 92px controls; 1440x960 and 1280x720; 1100x800 overlay; error/Retry in both themes; no console errors in main test tab.
+Release checks
+- Fixture verification with --release, JavaScript syntax and signal/theme tests pass.
+- All seven layer links and J/K navigate the verified stream. File trees show the correct membership and order.
+- Ordinary scrolling across errors.test.ts into operations.ts updates context without moving focus or changing Viewed progress.
+- Modified taxonomy access contains 11 real deletions and five additions in Split and Unified. Added files use full width.
+- Summary expansion leaves code in place. Explicit statement links highlight only their mapped range. Inspect/Return restores the caller and highlight.
+- Focus and Overview restore the reading position. Viewed/Undo stays correct after navigating to another file.
+- Before/After range notes support Shift-click, gutter drag and keyboard extension. Drafts keep their original file and range while navigating. Escape cancels selection.
+- Theme changes preserve reading position and drafts. Light, Dark and System are available; only System follows device changes.
+- Severity, resolution, message count and missing thread content are separate. access.ts shows Major · Resolved, three messages, one captured thread and two unavailable reply bodies.
+- Reviewing controls remain 92 px below the PR header. Checked 1440×960, 1280×720 and the context overlay below 1280. Escape returns focus from the overlay.
+- Loading, Retry, empty states, keyboard access and reduced-motion behavior checked.
+- Four Paper pages, 21 current 2× artboard exports and the one-page rationale reflect the release. Old explorations and video are excluded from the submission pack.
 
-Additional keyboard checks: Escape closes the narrow context panel and returns focus; F6 reveals context from code and returns to code; Focus hides an open overlay and restores it on exit; review shortcuts are inactive on Overview; Return to review restores code focus and exact scroll position; ordinary file navigation clears statement emphasis; explicit links still highlight only their mapped range. Scrolling across access.ts/errors.test.ts in both directions changes active context and the single keyboard gutter entry without moving focus or Viewed progress. Summary expansion preserved scroll 1780; the workspace access link highlighted exactly lines 57–65.
+Remaining limits
+Summary and thread coverage is partial. Statement links are manually mapped. Semantic outlines, blame and other secondary tools are previews. Dark colors are derived from the product palette. Local notes and review progress are stored only in this browser. The merged PR cannot receive a review submission here.
 
-Release remains blocked: the pinned live review still says public repository checks are temporarily rate limited. 43 layer assignments, live Split behavior and comparison-base parity cannot be verified. scripts/verify-continuous.py --release intentionally exits 2. No publication performed. Seven layer counts are captured; navigation to unverified layers opens a verification notice rather than inventing mappings.
+Developer feedback was exploratory. No completed usability comparison or measured improvement is claimed. The follow-up is to ask developers to explain the permission checks in both versions, follow a helper and return, leave a range note and mark the file viewed. Record missed checks, lost position and help needed. Do not send that request automatically.
 
-Paper refinement: retained four pages; removed obsolete summary counters from the findings decision; separated severity, resolution, messages and missing replies; showed pinned lines 179–182 in the range-note example; restored the exact PR title and column labels in Overview; grouped review, Overview and dark state with short reasons and kept interaction details below. Refreshed affected 2× exports.
+Paper design and decisions (sign-in required)
+https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0
 
-Next: once source verification passes, publish to the existing URLs. Then ask developers to attempt the same permission review task in both versions. Record missed checks, lost position and help needed. Exploration feedback is not a measured usability result.
+Final iteration in Paper
+https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/6UY-0
+
+Interactive prototype
+https://parthawe.github.io/coderabbit-change-stack-review/
+
+One-page rationale
+https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf

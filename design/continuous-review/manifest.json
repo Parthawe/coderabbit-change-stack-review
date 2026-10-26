@@ -1,0 +1,195 @@
+{
+  "file": "01M5MWMDHE2E77VV689SCNHGV7",
+  "pages": [
+    {
+      "id": "p-1-0",
+      "artboards": [
+        {
+          "id": "5FN-0",
+          "name": "The challenge and my starting point"
+        },
+        {
+          "id": "6HS-0",
+          "name": "1\u20133 \u00b7 Finding the right code"
+        },
+        {
+          "id": "6JP-0",
+          "name": "4\u20136 \u00b7 Keeping your place and progress"
+        },
+        {
+          "id": "69T-0",
+          "name": "7 \u00b7 Reading comment status"
+        }
+      ]
+    },
+    {
+      "id": "p-C-0",
+      "artboards": [
+        {
+          "id": "62A-0",
+          "name": "01 \u00b7 Separate reading from navigation"
+        },
+        {
+          "id": "62Q-0",
+          "name": "02 \u00b7 Design the round trip"
+        },
+        {
+          "id": "634-0",
+          "name": "Supporting refinement \u00b7 Control placement"
+        },
+        {
+          "id": "63I-0",
+          "name": "Decision 4 \u00b7 Findings in context"
+        },
+        {
+          "id": "7EY-0",
+          "name": "Decision 3 \u00b7 Review progress"
+        }
+      ]
+    },
+    {
+      "id": "p-4-0",
+      "artboards": [
+        {
+          "id": "6UY-0",
+          "name": "Final iteration"
+        },
+        {
+          "id": "7J7-0",
+          "name": "Final iteration \u00b7 Dark \u00b7 derived palette"
+        },
+        {
+          "id": "5LF-0",
+          "name": "Final iteration \u00b7 purpose and prototype"
+        },
+        {
+          "id": "6V5-0",
+          "name": "Change 2 \u00b7 Read before moving the code"
+        },
+        {
+          "id": "6VN-0",
+          "name": "Change 5 \u00b7 Point each statement at its code"
+        },
+        {
+          "id": "6VT-0",
+          "name": "Change 6 \u00b7 Include the return trip"
+        },
+        {
+          "id": "7J8-0",
+          "name": "Overview"
+        },
+        {
+          "id": "7J9-0",
+          "name": "Range comment"
+        },
+        {
+          "id": "7JA-0",
+          "name": "Continuous review \u00b7 crossing a file boundary"
+        },
+        {
+          "id": "7JB-0",
+          "name": "Overview \u00b7 why it is optional"
+        },
+        {
+          "id": "7JC-0",
+          "name": "Dark mode \u00b7 same review, optional theme"
+        }
+      ]
+    },
+    {
+      "id": "p-5-0",
+      "artboards": [
+        {
+          "id": "5LH-0",
+          "name": "Tradeoffs and what I would do next"
+        }
+      ]
+    }
+  ],
+  "exports": [
+    {
+      "nodeId": "5FN-0",
+      "filePath": "design/continuous-review/01-challenge-2x.png"
+    },
+    {
+      "nodeId": "6HS-0",
+      "filePath": "design/continuous-review/01-evidence-1-3-2x.png"
+    },
+    {
+      "nodeId": "6JP-0",
+      "filePath": "design/continuous-review/01-evidence-4-6-2x.png"
+    },
+    {
+      "nodeId": "69T-0",
+      "filePath": "design/continuous-review/01-evidence-7-2x.png"
+    },
+    {
+      "nodeId": "62A-0",
+      "filePath": "design/continuous-review/02-reading-2x.png"
+    },
+    {
+      "nodeId": "62Q-0",
+      "filePath": "design/continuous-review/02-navigation-2x.png"
+    },
+    {
+      "nodeId": "634-0",
+      "filePath": "design/continuous-review/02-controls-2x.png"
+    },
+    {
+      "nodeId": "63I-0",
+      "filePath": "design/continuous-review/02-findings-2x.png"
+    },
+    {
+      "nodeId": "7EY-0",
+      "filePath": "design/continuous-review/02-progress-2x.png"
+    },
+    {
+      "nodeId": "6UY-0",
+      "filePath": "design/continuous-review/03-review-2x.png"
+    },
+    {
+      "nodeId": "7J7-0",
+      "filePath": "design/continuous-review/03-review-dark-2x.png"
+    },
+    {
+      "nodeId": "5LF-0",
+      "filePath": "design/continuous-review/03-review-introduction-2x.png"
+    },
+    {
+      "nodeId": "6V5-0",
+      "filePath": "design/continuous-review/03-summary-expand-2x.png"
+    },
+    {
+      "nodeId": "6VN-0",
+      "filePath": "design/continuous-review/03-statement-link-2x.png"
+    },
+    {
+      "nodeId": "6VT-0",
+      "filePath": "design/continuous-review/03-return-2x.png"
+    },
+    {
+      "nodeId": "7J8-0",
+      "filePath": "design/continuous-review/03-overview-2x.png"
+    },
+    {
+      "nodeId": "7J9-0",
+      "filePath": "design/continuous-review/03-range-comment-2x.png"
+    },
+    {
+      "nodeId": "7JA-0",
+      "filePath": "design/continuous-review/03-continuous-boundary-2x.png"
+    },
+    {
+      "nodeId": "7JB-0",
+      "filePath": "design/continuous-review/03-overview-reason-2x.png"
+    },
+    {
+      "nodeId": "7JC-0",
+      "filePath": "design/continuous-review/03-theme-reason-2x.png"
+    },
+    {
+      "nodeId": "5LH-0",
+      "filePath": "design/continuous-review/04-next-checks-2x.png"
+    }
+  ]
+}

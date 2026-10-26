@@ -1,14 +1,115 @@
 {
+  "verifiedOn": "2026-10-26",
   "target": "23cdac2d791cf1a0f25d80d82bc02a1f3922793c",
   "base": "e54641b01c838a57c9794807e76e0fc893f491a9",
   "files": 52,
   "added": 5722,
   "deleted": 127,
-  "verifiedLayerAssignments": 9,
+  "verifiedLayerAssignments": 52,
   "releaseGate": {
-    "layerAssignments": false,
-    "sourceSplitBehavior": false,
-    "comparisonBase": false
+    "layerAssignments": true,
+    "sourceSplitBehavior": true,
+    "comparisonBase": true
   },
-  "note": "All patches verified against before/after blobs. Unassigned files remain unassigned; no inferred CodeRabbit layers."
+  "directlyReconciledSourcePatches": [
+    "apps/web/app/api/v3/feedbackRecords/lib/access.ts",
+    "apps/web/app/api/v3/feedbackRecords/lib/errors.ts",
+    "apps/web/app/api/v3/feedbackRecords/lib/schemas.ts",
+    "apps/web/app/api/v3/feedbackRecords/lib/serializers.ts",
+    "apps/web/app/api/v3/feedbackRecords/lib/serializers.test.ts",
+    "apps/web/app/api/v3/lib/feedback-access.ts",
+    "apps/web/app/api/v3/lib/response.ts",
+    "apps/web/app/api/v3/unify-feedback/taxonomy/lib/access.ts",
+    "apps/web/app/api/v3/feedbackRecords/lib/errors.test.ts",
+    "apps/web/modules/mcp/tools/schemas.ts",
+    "apps/web/modules/mcp/tools/feedback-records.ts",
+    "apps/web/modules/mcp/tools/feedback-records.test.ts",
+    "apps/web/app/api/v3/feedbackRecords/lib/operations.ts",
+    "apps/web/app/api/v3/feedbackRecords/lib/operations.test.ts",
+    "apps/web/modules/auth/lib/oauth-urls.ts",
+    "apps/web/modules/auth/lib/mcp-oauth-provider-options.ts",
+    "apps/web/modules/auth/lib/oauth-client-metadata.test.ts",
+    "apps/web/modules/auth/lib/oauth-client-metadata.ts",
+    "apps/web/modules/ee/audit-logs/types/audit-log.ts",
+    "apps/web/app/.well-known/oauth-protected-resource/route.test.ts",
+    "apps/web/app/api/mcp/route.test.ts",
+    "docs/development/technical-handbook/mcp-server.mdx",
+    "docs/platform/mcp/overview.mdx",
+    "docs/platform/mcp/setup.mdx"
+  ],
+  "sourceOrder": {
+    "0": [
+      "apps/web/app/api/v3/feedbackRecords/lib/access.ts",
+      "apps/web/app/api/v3/feedbackRecords/lib/errors.ts",
+      "apps/web/app/api/v3/feedbackRecords/lib/schemas.ts",
+      "apps/web/app/api/v3/feedbackRecords/lib/serializers.ts",
+      "apps/web/app/api/v3/feedbackRecords/lib/serializers.test.ts",
+      "apps/web/app/api/v3/lib/feedback-access.ts",
+      "apps/web/app/api/v3/lib/response.ts",
+      "apps/web/app/api/v3/unify-feedback/taxonomy/lib/access.ts",
+      "apps/web/app/api/v3/feedbackRecords/lib/errors.test.ts"
+    ],
+    "3": [
+      "apps/web/modules/mcp/tools/schemas.ts",
+      "apps/web/modules/mcp/tools/feedback-records.ts",
+      "apps/web/modules/mcp/tools/feedback-records.test.ts"
+    ],
+    "1": [
+      "apps/web/app/api/v3/feedbackRecords/lib/operations.ts",
+      "apps/web/app/api/v3/feedbackRecords/lib/operations.test.ts"
+    ],
+    "5": [
+      "apps/web/modules/auth/lib/oauth-urls.ts",
+      "apps/web/modules/auth/lib/mcp-oauth-provider-options.ts",
+      "apps/web/modules/auth/lib/oauth-client-metadata.test.ts",
+      "apps/web/modules/auth/lib/oauth-client-metadata.ts",
+      "apps/web/modules/ee/audit-logs/types/audit-log.ts",
+      "apps/web/app/.well-known/oauth-protected-resource/route.test.ts",
+      "apps/web/app/api/mcp/route.test.ts",
+      "docs/development/technical-handbook/mcp-server.mdx",
+      "docs/platform/mcp/overview.mdx",
+      "docs/platform/mcp/setup.mdx"
+    ],
+    "2": [
+      "apps/web/modules/hub/types.ts",
+      "apps/web/modules/hub/utils.ts",
+      "apps/web/modules/hub/service.ts",
+      "apps/web/modules/hub/utils.test.ts",
+      "apps/web/modules/hub/service.test.ts"
+    ],
+    "4": [
+      "apps/web/modules/mcp/auth.ts",
+      "apps/web/modules/mcp/tools/guard-scopes.ts",
+      "apps/web/modules/mcp/tools/workspaces.ts",
+      "apps/web/modules/mcp/tools/workspaces.test.ts",
+      "apps/web/modules/mcp/server.ts",
+      "apps/web/modules/mcp/constants.ts",
+      "apps/web/modules/mcp/auth.test.ts"
+    ],
+    "6": [
+      "apps/web/i18n.lock",
+      "apps/web/locales/de-DE.json",
+      "apps/web/locales/en-US.json",
+      "apps/web/locales/es-ES.json",
+      "apps/web/locales/fr-FR.json",
+      "apps/web/locales/hu-HU.json",
+      "apps/web/locales/ja-JP.json",
+      "apps/web/locales/nl-NL.json",
+      "apps/web/locales/pt-BR.json",
+      "apps/web/locales/pt-PT.json",
+      "apps/web/locales/ro-RO.json",
+      "apps/web/locales/ru-RU.json",
+      "apps/web/locales/sv-SE.json",
+      "apps/web/locales/tr-TR.json",
+      "apps/web/locales/zh-Hans-CN.json",
+      "apps/web/locales/zh-Hant-TW.json"
+    ]
+  },
+  "split": {
+    "modified": "Equal Before/After panes, shared vertical scroll, wrapped rows align in height. At 1280: 676px code width, 337.5px panes, approximately 44px gutters, Hack 14/20.",
+    "added": "Full-width After content even in Split; no empty Before pane.",
+    "context": "Unchanged lines collapse; source also provides semantic/entity headers and blame. Those secondary tools remain previews in this prototype.",
+    "scroll": "Original is continuous within a layer. This prototype extends the stream across seven layers."
+  },
+  "limits": "All 52 code files verified from the confirmed base. Direct source patch export available for 24 files; remaining 28 use verified GitHub patches at the same base. This is not a claim of identical semantic-range or blame rendering."
 }

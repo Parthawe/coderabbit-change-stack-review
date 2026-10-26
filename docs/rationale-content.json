@@ -8,7 +8,7 @@
     ],
     [
       "Read, then inspect",
-      "Opening a summary reveals the explanation without moving the code. Statement links take you to specific lines; the whole range and source wording remain available. Inspect and Return preserve the caller’s position. One continuous stream lets you keep going through files. Equal-width Split stays familiar, with real deletions and unchanged context."
+      "Opening a summary reveals the explanation without moving the code. Statement links take you to specific lines; the whole range and source wording remain available. Inspect and Return preserve the caller’s position. The original already scrolls through files within a layer. I extended that stream across layers. Modified files keep equal Before/After panes; added files use the full width, as in the source. Deletions and unchanged context remain available."
     ],
     [
       "Use Overview to get oriented",
@@ -19,6 +19,6 @@
       "Viewed is the primary progress count. Summary Seen is separate; scrolling changes neither. Major · Resolved reads as history. Range notes retain their file, side and lines, and stay local. Reviewing controls take 92 px. Light, Dark and System use semantic colors; switching themes preserves drafts and position. Dark colors are derived, not claimed as captured product tokens."
     ]
   ],
-  "limits": "All 52 pinned GitHub diffs (+5,722 / −127) are checked against before/after content. Nine layer assignments are verified; 43 assignments, the source comparison base and live Split behavior remain release gates. Public links are unchanged. Summary and thread coverage is partial. The source uses both Trivial and Nitpick; I keep those labels rather than silently treating them as identical. Narrow highlights can hide context, so whole ranges stay available.",
+  "limits": "All 52 pinned diffs (+5,722 / −127), their layer membership and comparison base are verified. Live Split behavior informed the final layout. Summary and thread coverage is partial; semantic outlines, blame and other secondary tools remain previews. The source uses both Trivial and Nitpick; I keep those labels rather than silently treating them as identical. Narrow highlights can hide context, so whole ranges stay available.",
   "next": "Next I’d compare the same permission-review task in both versions: explain the checks, inspect the guard, return and leave a range note. I’d record missed checks, lost position and help needed. I haven’t measured faster or more accurate reviews."
 }

@@ -102,15 +102,13 @@ $("#dialog").addEventListener(
     restoreFocus?.isConnected && restoreFocus.focus({ preventScroll: true }),
 );
 function pending() {
-  dialog(
-    "Layer assignments are still being checked",
-    `<p>All 52 pinned GitHub diffs are available below. CodeRabbit’s live review is rate limited, so only the nine assignments in layer 1 have been verified.</p><p>The other 43 files are separate from the seven source layers. Their paths are available under Files. I haven’t guessed where they belong.</p><div class="dialog-actions"><button type="button" data-action="pending-files">Browse remaining files</button></div>`,
-  );
+  dialog("Source content unavailable", "<p>This source content is not captured in the prototype. All 52 verified file diffs remain available in the review.</p>");
 }
+
 function about() {
   dialog(
-    "About this working draft",
-    `<p>Formbricks #8650 · commit <code>${esc(data.source.commit.slice(0, 12))}</code>. This merged, out-of-date review is retained as the assignment’s source.</p><p>52 GitHub patches, their before/after blobs and every changed line have been checked: +5,722 / −127. The comparison base is <code>${data.comparison.base.slice(0, 12)}</code>. Matching totals do not prove CodeRabbit uses the same semantic ranges.</p><p><strong>Release checks still open:</strong> 43 layer assignments, the source comparison base, and live Split wrapping and scrolling. This draft is not the public submission.</p><p>Layer 1 has 37 source summaries; 14 excerpts are captured across nine files. Access.ts has 3 source messages: one resolved finding and two replies whose bodies were not captured. Other missing thread bodies are labelled, never counted as zero.</p><p>The source overview records 7 historical findings: 2 Major, 2 Minor and 3 Trivial. Layer 1 uses Nitpick rather than Trivial; those labels stay separate. Access.ts Major and errors.ts Minor are explicitly resolved in the captured source. Other individual statuses are not inferred.</p><p>Dark colors are derived from the source’s mauve palette, not verified product dark tokens.</p><p>Statement links are manually mapped. Notes, drafts, Seen and Viewed stay in this browser. Nothing is sent. Secondary workflows are previews. Paper needs sign-in.</p><p>The developer feedback came from exploration, not a completed comparison task. No review-time improvement has been measured.</p>`,
+    "About this prototype",
+    `<p>Formbricks #8650 · commit <code>${esc(data.source.commit.slice(0, 12))}</code>. This merged, out-of-date review is retained as the assignment’s source.</p><p>52 GitHub patches, their before/after blobs and every changed line have been checked: +5,722 / −127. The comparison base is <code>${data.comparison.base.slice(0, 12)}</code>. Matching totals do not prove CodeRabbit uses the same semantic ranges.</p><p>All 52 layer assignments and guided file order were checked in the live pinned review on October 26. Source content keys confirm the comparison base; 24 exported source patches match directly, and all 52 GitHub patches reconstruct the before/after content at that base. Live Split wrapping and scrolling were checked.</p><p>The original scrolls continuously within a layer. This version continues across layers. Modified files use equal Before/After panes; added files use the full width, as in the source. Semantic outlines, blame and other secondary tools remain previews.</p><p>Layer 1 has 37 source summaries; 14 excerpts are captured across nine files. Access.ts has 3 source messages: one resolved finding and two replies whose bodies were not captured. Other missing thread bodies are labelled, never counted as zero.</p><p>The source overview records 7 historical findings: 2 Major, 2 Minor and 3 Trivial. Layer 1 uses Nitpick rather than Trivial; those labels stay separate. Access.ts Major and errors.ts Minor are explicitly resolved in the captured source. Other individual statuses are not inferred.</p><p>Dark colors are derived from the source’s mauve palette, not verified product dark tokens.</p><p>Statement links are manually mapped. Notes, drafts, Seen and Viewed stay in this browser. Nothing is sent. Secondary workflows are previews. Paper needs sign-in.</p><p>The developer feedback came from exploration, not a completed comparison task. No review-time improvement has been measured.</p>`,
   );
 }
 function delta(f) {
@@ -142,7 +140,7 @@ function renderNav() {
           .map((l, i) => {
             const open = state.expandedLayers.has(i);
             return `<section class="nav-layer" data-nav-layer="${i}" ${current()?.layerId === i ? 'data-active="true"' : ""}><div class="layer-row"><button class="layer-disclosure" data-disclose-layer="${i}" aria-expanded="${open}" aria-controls="layer-files-${i}" aria-label="${open ? "Collapse" : "Expand"} files in layer ${i + 1}">${open ? "⌄" : "›"}</button><button class="layer-destination" data-layer="${i}"><span class="layer-number">${i + 1}</span><span class="layer-copy"><strong>${esc(l.name)}</strong><span class="layer-metrics">${l.files} files ${delta(l)}</span><span class="layer-signals" aria-label="Recorded findings: ${esc(Object.entries(l.reviewSignals.severityCounts).map(([label, n]) => `${n} ${label}`).join(", ") || "0 recorded")}">${signalLabels(l.reviewSignals)}</span></span></button></div><div id="layer-files-${i}" ${open ? "" : "hidden"}>${
-              i === 0
+              data.files.some((f) => f.layerId === i)
                 ? data.files
                     .filter((f) => f.layerId === i)
                     .map(navFile)
@@ -150,8 +148,7 @@ function renderNav() {
                 : '<button class="text-action" data-action="pending">Assignments pending verification</button>'
             }</div></section>`;
           })
-          .join("") +
-        '<button class="text-action pending-files-link" data-action="pending-files">43 files · layer verification pending</button>';
+          .join("");
   el.scrollTop = top;
   $$("[data-nav-mode]").forEach((b) =>
     b.setAttribute("aria-pressed", String(b.dataset.navMode === state.nav)),
@@ -241,7 +238,7 @@ function pairedRows(f, rows) {
   let html = "";
   for (let i = 0; i < rows.length; ) {
     const r = rows[i];
-    if (state.mode === "unified") {
+    if (state.mode === "unified" || f.status === "added" || f.status === "removed") {
       const side = r.kind === "-" ? "before" : "after",
         n = r[side];
       html += `<div class="diff-row">${cell(f, side, n, r.text, r.kind)}</div>`;
@@ -307,7 +304,7 @@ function fileRows(f) {
   return html || '<p class="empty-diff">No text diff available.</p>';
 }
 function fileHTML(f) {
-  return `<section class="diff-file" id="file-${f.id}" style="--no-wrap-width:${Math.max(1000, ...f.before.concat(f.after).map((t) => t.length * 8 + 80))}px" data-file-section="${f.id}" aria-label="${esc(f.path)}"><header class="stream-file-header"><span aria-hidden="true">▧</span><span class="path" title="${esc(f.path)}">${esc(f.path)}</span>${delta(f)}</header>${state.mode === "split" ? `<div class="side-labels"><span>Before${f.status === "added" ? " · file added" : ""}</span><span>After</span></div>` : '<div class="side-labels"><span>Unified · Before / After</span></div>'}<div class="diff-rows">${fileRows(f)}</div></section>`;
+  return `<section class="diff-file ${f.status === "added" || f.status === "removed" ? "single-sided" : ""}" id="file-${f.id}" style="--no-wrap-width:${Math.max(1000, ...f.before.concat(f.after).map((t) => t.length * 8 + 80))}px" data-file-section="${f.id}" aria-label="${esc(f.path)}"><header class="stream-file-header"><span aria-hidden="true">▧</span><span class="path" title="${esc(f.path)}">${esc(f.path)}</span>${delta(f)}</header>${f.status === "added" || f.status === "removed" ? `<div class="side-labels"><span>${f.status === "added" ? "After · added file" : "Before · deleted file"}</span></div>` : state.mode === "split" ? `<div class="side-labels"><span>Before</span><span>After</span></div>` : '<div class="side-labels"><span>Unified · Before / After</span></div>'}<div class="diff-rows">${fileRows(f)}</div></section>`;
 }
 function renderStream() {
   stream().classList.toggle("unified", state.mode === "unified");
@@ -671,7 +668,7 @@ function overviewRows() {
 function renderOverview() {
   const s = data.source;
   $("#overview-screen").innerHTML =
-    `<div class="overview-heading"><div><small>${esc(s.repository)} #${s.pr} · Merged</small><h1 id="overview-title">${esc(s.title)}</h1><p class="muted">Pinned review · <code>${s.commit.slice(0, 12)}</code> · Out of date</p></div><button data-action="return-review">Return to review</button></div><p class="overview-description">${esc(s.changeSummary)}</p><div class="overview-totals"><span>52 files</span><span class="add-stat">+5,722</span><span class="del-stat">−127</span><span>7 recorded findings across 4 layers</span></div><p class="history-note">Review history · 2 Major · 2 Minor · 3 Trivial <span class="muted">· Individual status coverage is incomplete</span></p><div class="severity-filters" role="group" aria-label="Filter layers by recorded severity">${["All", "Major", "Minor", "Trivial", "Nitpick"].map((x) => `<button data-severity-filter="${x}" aria-pressed="${x === state.severityFilter}">${x === "All" ? "All layers" : findingIcon + esc(x)}</button>`).join("")}</div><div class="overview-table-wrap"><table class="overview-table"><caption class="sr-only">Layers in source order; findings are review history</caption><thead><tr><th>Layer</th><th scope="col">Change</th><th scope="col">Files</th><th scope="col">Lines</th><th scope="col">Recorded findings</th></tr></thead><tbody>${overviewRows()}</tbody></table></div><p class="muted label-note">The PR overview uses Trivial; layer 1 uses Nitpick. Filters keep those source labels separate.</p><section class="permission-path"><h2>Permission checks in this example</h2><p class="muted">A curated path through the captured code. These are checks to inspect, not new findings.</p><ol>${data.permissionPath.map((x) => `<li><span>${esc(x.title)}</span><button class="text-action" data-link-file="${x.file}" data-start="${x.start}" data-end="${x.end}">${esc(files.get(x.file).name)} · ${lineLabel(x.start, x.end)} →</button></li>`).join("")}</ol></section><p class="muted">Working draft: 43 layer assignments, the comparison base and live Split behavior still need verification.</p><div class="dialog-actions"><button data-action="review-tools">More review tools</button><button data-action="about">About this prototype</button></div>`;
+    `<div class="overview-heading"><div><small>${esc(s.repository)} #${s.pr} · Merged</small><h1 id="overview-title">${esc(s.prTitle || s.title)}</h1><p class="muted">Pinned review · <code>${s.commit.slice(0, 12)}</code> · Out of date</p></div><button data-action="return-review">Return to review</button></div><p class="overview-description">${esc(s.changeSummary)}</p><div class="overview-totals"><span>52 files</span><span class="add-stat">+5,722</span><span class="del-stat">−127</span><span>7 recorded findings across 4 layers</span></div><p class="history-note">Review history · 2 Major · 2 Minor · 3 Trivial <span class="muted">· Individual status coverage is incomplete</span></p><div class="severity-filters" role="group" aria-label="Filter layers by recorded severity">${["All", "Major", "Minor", "Trivial", "Nitpick"].map((x) => `<button data-severity-filter="${x}" aria-pressed="${x === state.severityFilter}">${x === "All" ? "All layers" : findingIcon + esc(x)}</button>`).join("")}</div><div class="overview-table-wrap"><table class="overview-table"><caption class="sr-only">Layers in source order; findings are review history</caption><thead><tr><th>Layer</th><th scope="col">Change</th><th scope="col">Files</th><th scope="col">Lines</th><th scope="col">Recorded findings</th></tr></thead><tbody>${overviewRows()}</tbody></table></div><p class="muted label-note">The PR overview uses Trivial; layer 1 uses Nitpick. Filters keep those source labels separate.</p><section class="permission-path"><h2>Permission checks in this example</h2><p class="muted">A curated path through the captured code. These are checks to inspect, not new findings.</p><ol>${data.permissionPath.map((x) => `<li><span>${esc(x.title)}</span><button class="text-action" data-link-file="${x.file}" data-start="${x.start}" data-end="${x.end}">${esc(files.get(x.file).name)} · ${lineLabel(x.start, x.end)} →</button></li>`).join("")}</ol></section><div class="dialog-actions"><button data-action="review-tools">More review tools</button><button data-action="about">About this prototype</button></div>`;
 }
 function showOverview() {
   if (!document.body.classList.contains("overview-mode"))
@@ -848,7 +845,7 @@ document.addEventListener("click", (e) => {
       $("#dialog").close();
       state.nav = "files";
       renderNav();
-      jump(data.files.find((f) => f.layerId === null).id);
+      jump((data.files.find((f) => f.layerId === null) || data.files[0]).id);
       break;
     case "about":
       about();
@@ -1086,7 +1083,7 @@ document.addEventListener("keydown", (e) => {
       next = i + (e.key.toLowerCase() === "j" ? 1 : -1);
     if (next >= 0 && next < verified.length)
       jump(data.files.find((f) => f.layerId === verified[next]).id);
-    else if (next >= verified.length) pending();
+    else if (next >= verified.length) toast("Last layer · Additional changes");
   }
   if (e.key === "F6") {
     e.preventDefault();

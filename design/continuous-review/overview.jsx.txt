@@ -1,5 +1,5 @@
 (
-    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', gap: '12px', height: '960px', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '32px', paddingInline: '48px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '12px', height: '960px', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '32px', paddingInline: '48px', WebkitFontSmoothing: 'antialiased', width: '1440px' }}>
       <div style={{ alignItems: 'center', boxSizing: 'border-box', display: 'flex', justifyContent: 'space-between', width: '1344px' }}>
         <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px', minWidth: '0px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px' }}>
@@ -100,9 +100,6 @@
         <div style={{ boxSizing: 'border-box', color: '#9A353B', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px', width: '90px' }}>
           −11
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px' }}>
-          →
-        </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px', width: '228px' }}>
           ◇ 1 Major · 1 Minor · 1 Nitpick
         </div>
@@ -120,10 +117,7 @@
         <div style={{ boxSizing: 'border-box', color: '#2A624A', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px', width: '90px' }}>
           +2446
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#9A353B', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px', width: '90px' }} />
-        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px' }}>
-          →
-        </div>
+        <div style={{ boxSizing: 'border-box', display: 'inline-block', flexShrink: '0', width: '90px' }} />
         <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px', width: '228px' }}>
           ◇ 1 Major
         </div>
@@ -144,9 +138,6 @@
         <div style={{ boxSizing: 'border-box', color: '#9A353B', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px', width: '90px' }}>
           −13
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px' }}>
-          →
-        </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px', width: '228px' }}>
           ◇ 0 recorded
         </div>
@@ -164,10 +155,7 @@
         <div style={{ boxSizing: 'border-box', color: '#2A624A', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px', width: '90px' }}>
           +1034
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#9A353B', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px', width: '90px' }} />
-        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px' }}>
-          →
-        </div>
+        <div style={{ boxSizing: 'border-box', display: 'inline-block', flexShrink: '0', width: '90px' }} />
         <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px', width: '228px' }}>
           ◇ 1 Trivial
         </div>
@@ -187,9 +175,6 @@
         </div>
         <div style={{ boxSizing: 'border-box', color: '#9A353B', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px', width: '90px' }}>
           −22
-        </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px' }}>
-          →
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px', width: '228px' }}>
           ◇ 0 recorded
@@ -211,9 +196,6 @@
         <div style={{ boxSizing: 'border-box', color: '#9A353B', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px', width: '90px' }}>
           −81
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px' }}>
-          →
-        </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px', width: '228px' }}>
           ◇ 1 Minor · 1 Trivial
         </div>
@@ -231,10 +213,7 @@
         <div style={{ boxSizing: 'border-box', color: '#2A624A', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px', width: '90px' }}>
           +32
         </div>
-        <div style={{ boxSizing: 'border-box', color: '#9A353B', display: 'inline-block', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px', width: '90px' }} />
-        <div style={{ boxSizing: 'border-box', color: '#000000', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '16px', lineHeight: '20px' }}>
-          →
-        </div>
+        <div style={{ boxSizing: 'border-box', display: 'inline-block', flexShrink: '0', width: '90px' }} />
         <div style={{ boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px', width: '228px' }}>
           ◇ 0 recorded
         </div>
@@ -273,7 +252,7 @@
           </div>
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-          Source labels differ: the PR summary says Trivial; layer 1 says Nitpick. Kept as captured. Working draft: 43 layer assignments, comparison base and live Split behavior still need verification.
+          Recorded findings are review history. The source uses Trivial in Overview and Nitpick in layer 1; those labels stay separate. Summary and thread coverage is partial.
         </div>
       </div>
     </div>

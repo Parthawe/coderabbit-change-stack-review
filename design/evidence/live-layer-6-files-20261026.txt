@@ -1,0 +1,517 @@
+- status
+- banner:
+  - link "Back to triage":
+    - /url: /triage
+    - generic: Triage
+  - status
+  - paragraph: Feedback records MCP integration
+  - 'link "formbricks #8650: View pull request on GitHub"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+    - generic: formbricks
+    - generic: "#8650"
+  - generic: ·
+  - generic: 52 files
+  - button "Continue with GitHub":
+    - generic: Continue with GitHub
+  - status
+  - button "Submit review":
+    - generic: Submit review
+- complementary "Layer navigation":
+  - separator "Collapse sidebar"
+  - radiogroup "Rail mode":
+    - radio "Layers" [checked]:
+      - generic: Layers
+    - radio "Files":
+      - generic: Files
+  - button "About Layers and Files":
+  - button "Search pull request":
+  - button "Collapse sidebar" [expanded]:
+    - generic: Collapse sidebar
+  - button "Pull request overview":
+    - generic: Overview
+  - button "Security blast radius" [disabled]:
+    - generic: Security blast radius isn’t available for this repository yet.
+    - generic: Security blast radius
+  - button "Security architecture impact":
+    - generic: Security architecture impact
+  - 'button "Layer 1: API contracts and access controls. 9 files touched. 3 findings. 1120 lines added, 11 removed. 1 major finding, 1 minor finding"':
+    - generic: "1"
+    - paragraph: API contracts and access controls
+    - generic: 9 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-11"
+    - generic: "+1120"
+  - 'button "Layer 2: Feedback record operations. 2 files touched. 1 finding. 2446 lines added, 0 removed. 1 major finding"':
+    - generic: "2"
+    - paragraph: Feedback record operations
+    - generic: 2 files touched
+    - generic: "1"
+    - generic: "+2446"
+  - 'button "Layer 3: Hub feedback-record support. 5 files touched. 342 lines added, 13 removed"':
+    - generic: "3"
+    - paragraph: Hub feedback-record support
+    - generic: 5 files touched
+    - generic: "-13"
+    - generic: "+342"
+  - 'button "Layer 4: MCP feedback-record tools. 3 files touched. 1 finding. 1034 lines added, 0 removed. 1 trivial finding"':
+    - generic: "4"
+    - paragraph: MCP feedback-record tools
+    - generic: 3 files touched
+    - generic: "1"
+    - generic: "+1034"
+  - 'button "Layer 5: MCP authorization and registration. 7 files touched. 138 lines added, 22 removed"':
+    - generic: "5"
+    - paragraph: MCP authorization and registration
+    - generic: 7 files touched
+    - generic: "-22"
+    - generic: "+138"
+  - 'button "Layer 6: OAuth metadata and documentation. 10 files touched. 2 findings. 610 lines added, 81 removed. 1 minor finding, 1 trivial finding"':
+    - generic: "6"
+    - paragraph: OAuth metadata and documentation
+    - generic: 10 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-81"
+    - generic: "+610"
+  - 'button "Layer 7: Additional changes. 16 files touched. 32 lines added, 0 removed"':
+    - generic: "7"
+    - paragraph: Additional changes
+    - generic: 16 files touched
+    - generic: "+32"
+  - button "Scroll up":
+    - text: View more
+  - generic: Review Tools
+  - 'button "Review history. Latest review: Feedback records MCP integration · Out of date. Commit 23cdac2. Select review snapshot"':
+    - generic: Review history
+    - text: Stale ·
+    - code: 23cdac2
+  - button "Settings. Display settings":
+    - generic: Settings
+- main:
+  - 'button "Layer details: OAuth metadata and documentation"'
+  - generic: OAuth metadata and documentation
+  - separator
+  - generic: Advertises feedback-record scopes, adds localized scope labels and write expiration settings, extends audit targets, updates metadata tests, and documents the expanded MCP surface.
+  - group "Content view":
+    - button "Files" [pressed]:
+      - generic: Files
+    - button "Diagrams" [disabled]:
+      - generic: Diagram
+  - group "File navigation":
+    - button "Show files in this layer (10 files, 10 not viewed)" [expanded]:
+      - text: 1 of 10
+      - generic: 10 left
+    - dialog:
+      - tree "Layer file tree":
+        - treeitem "apps" [expanded] [level=1]:
+          - generic: apps
+          - treeitem "web" [expanded] [level=2]:
+            - generic: web
+            - treeitem "app" [expanded] [level=3]:
+              - generic: app
+              - treeitem ".well-known" [expanded] [level=4]:
+                - generic: .well-known
+                - treeitem "oauth-protected-resource" [expanded] [level=5]:
+                  - generic: oauth-protected-resource
+                  - treeitem "Modified file; +7 -1 route.test.ts" [level=6]:
+                    - generic "Medium complexity":
+                    - generic "Modified file; +7 -1": M
+                    - generic: route.test.ts
+              - treeitem "api" [expanded] [level=4]:
+                - generic: api
+                - treeitem "mcp" [expanded] [level=5]:
+                  - generic: mcp
+                  - treeitem "Modified file; +15 -3 route.test.ts" [level=6]:
+                    - generic "Low complexity":
+                    - generic "Modified file; +15 -3": M
+                    - generic: route.test.ts
+            - treeitem "modules" [expanded] [level=3]:
+              - generic: modules
+              - treeitem "auth" [expanded] [level=4]:
+                - generic: auth
+                - treeitem "lib" [expanded] [level=5]:
+                  - generic: lib
+                  - 'treeitem "Modified file; +3 -0 mcp-oauth-provider-options.ts 1 comment, 1 open, highest severity: trivial, 1 trivial finding" [level=6]':
+                    - generic "Low complexity":
+                    - generic "Modified file; +3 -0": M
+                    - generic: mcp-oauth-provider-options.ts
+                    - 'generic "1 comment, 1 open, highest severity: trivial, 1 trivial finding"':
+                      - text: "1"
+                  - treeitem "Modified file; +6 -0 oauth-client-metadata.test.ts" [level=6]:
+                    - generic "Low complexity":
+                    - generic "Modified file; +6 -0": M
+                    - generic: oauth-client-metadata.test.ts
+                  - treeitem "Modified file; +4 -0 oauth-client-metadata.ts" [level=6]:
+                    - generic "Low complexity":
+                    - generic "Modified file; +4 -0": M
+                    - generic: oauth-client-metadata.ts
+                  - treeitem "Modified file; +8 -1 oauth-urls.ts" [active] [level=6] [selected]:
+                    - generic "Low complexity":
+                    - generic "Modified file; +8 -1": M
+                    - generic: oauth-urls.ts
+              - treeitem "ee" [expanded] [level=4]:
+                - generic: ee
+                - treeitem "audit-logs" [expanded] [level=5]:
+                  - generic: audit-logs
+                  - treeitem "types" [expanded] [level=6]:
+                    - generic: types
+                    - treeitem "Modified file; +1 -0 audit-log.ts" [level=7]:
+                      - generic "Low complexity":
+                      - generic "Modified file; +1 -0": M
+                      - generic: audit-log.ts
+        - treeitem "docs" [expanded] [level=1]:
+          - generic: docs
+          - treeitem "development" [expanded] [level=2]:
+            - generic: development
+            - treeitem "technical-handbook" [expanded] [level=3]:
+              - generic: technical-handbook
+              - 'treeitem "Modified file; +502 -46 mcp-server.mdx 3 comments, 3 resolved, highest severity: minor, 1 minor finding" [level=4]':
+                - generic "High complexity":
+                - generic "Modified file; +502 -46": M
+                - generic: mcp-server.mdx
+                - 'generic "3 comments, 3 resolved, highest severity: minor, 1 minor finding"':
+                  - text: "3"
+          - treeitem "platform" [expanded] [level=2]:
+            - generic: platform
+            - treeitem "mcp" [expanded] [level=3]:
+              - generic: mcp
+              - treeitem "Modified file; +57 -26 overview.mdx" [level=4]:
+                - generic "Medium complexity":
+                - generic "Modified file; +57 -26": M
+                - generic: overview.mdx
+              - treeitem "Modified file; +7 -4 setup.mdx" [level=4]:
+                - generic "Low complexity":
+                - generic "Modified file; +7 -4": M
+                - generic: setup.mdx
+    - separator
+    - button "Previous file" [disabled]:
+    - button "Next file":
+  - group "Review controls":
+    - button "View settings":
+    - button "Mark all files in this layer viewed":
+    - button "Collapse all files":
+    - button "Enter focus mode":
+  - button "Hide review controls" [expanded]:
+  - separator "Resize old and new code panes"
+  - button "Collapse apps/web/modules/auth/lib/oauth-urls.ts" [expanded]:
+    - generic "Modified"
+    - generic: apps/web/modules/auth/lib/oauth-urls.ts
+    - button "Copy file path apps/web/modules/auth/lib/oauth-urls.ts":
+    - img "8 additions and 1 deletions":
+      - generic: "-1"
+      - generic: "+8"
+    - button "Add file comment on apps/web/modules/auth/lib/oauth-urls.ts":
+    - button "Semantic outline with 2 changed entities":
+      - generic: "2"
+    - button "Compact semantic diff":
+    - button "Semantic diff with context" [pressed]:
+    - button "Mark file as viewed in this layer":
+  - code:
+    - button "Expand hidden lines below":
+    - generic: 46 unmodified lines
+    - generic: "47"
+    - generic: "48"
+    - generic: "49"
+    - generic: "50"
+    - generic: "51"
+    - generic: "52"
+    - generic: "53"
+    - generic: "54"
+    - generic: "55"
+    - button "Expand hidden lines above":
+    - generic: 7 unmodified lines
+    - generic: "\"offline_access\","
+    - generic: "\"surveys:read\","
+    - generic: "\"surveys:write\","
+    - generic: "] as const;"
+    - text: export const MCP_RESOURCE_SCOPES = [
+    - generic: "\"surveys:read\", \"surveys:write\"] as const;"
+    - generic: // Scopes advertised in the RFC 9728 protected-resource metadata. MCP clients derive their
+    - generic: // Dynamic Client Registration + authorize scopes from this list (NOT from the AS metadata),
+  - code:
+    - generic: "47"
+    - generic: "48"
+    - generic: "49"
+    - generic: "50"
+    - generic: "51"
+    - generic: "52"
+    - generic: "53"
+    - generic: "54"
+    - generic: "55"
+    - generic: "56"
+    - generic: "57"
+    - generic: "58"
+    - generic: "59"
+    - generic: "60"
+    - generic: "61"
+    - generic: "62"
+    - generic: "\"offline_access\","
+    - generic: "\"surveys:read\","
+    - generic: "\"surveys:write\","
+    - button "Blame Tiago Farto, Jul 27, L50-51":
+      - generic: Tiago Farto
+      - generic: Jul 27
+      - generic: L50-51
+    - generic: "\"feedbackRecords:read\","
+    - generic: "\"feedbackRecords:write\","
+    - generic: "] as const;"
+    - button "Blame Tiago Farto, Jul 27, L54-59":
+      - generic: Tiago Farto
+      - generic: Jul 27
+      - generic: L54-59
+    - 'generic "constant MCP_RESOURCE_SCOPES: structural - 52-52 -> 54-59"':
+      - generic: Delta
+      - generic: constant MCP_RESOURCE_SCOPES
+      - generic: structural - 52-52 -> 54-59
+      - generic: 52-52 -> 54-59
+    - generic: export const MCP_RESOURCE_SCOPES = [
+    - generic: "\"surveys:read\","
+    - generic: "\"surveys:write\","
+    - generic: "\"feedbackRecords:read\","
+    - generic: "\"feedbackRecords:write\","
+    - generic: "] as const;"
+    - generic: // Scopes advertised in the RFC 9728 protected-resource metadata. MCP clients derive their
+    - generic: // Dynamic Client Registration + authorize scopes from this list (NOT from the AS metadata),
+  - button "Collapse apps/web/modules/auth/lib/mcp-oauth-provider-options.ts" [expanded]:
+    - generic "Modified"
+    - generic: apps/web/modules/auth/lib/mcp-oauth-provider-options.ts
+    - button "Copy file path apps/web/modules/auth/lib/mcp-oauth-provider-options.ts":
+    - img "3 additions and 0 deletions":
+      - generic: "+3"
+    - button "Add file comment on apps/web/modules/auth/lib/mcp-oauth-provider-options.ts":
+    - button "Mark file as viewed in this layer":
+  - code
+  - code
+- complementary:
+  - button "Collapse right sidebar" [expanded]:
+    - generic: Collapse right sidebar
+  - generic: Layer context
+  - complementary:
+    - button "Summaries 26" [pressed]:
+      - generic: Summaries 26
+    - button "Comments 4":
+      - generic: Comments 4
+    - generic "Summary 1 of 26, 1 of 26 summaries seen":
+      - generic "Summary 1 of 26": 1/26
+      - generic: ·
+      - generic "1 of 26 summaries seen":
+        - generic: 1/26
+    - button "Reset progress and return to top":
+    - button "Pause following code" [pressed]:
+    - generic: Complexity
+    - group "Summary complexity filters":
+      - button "Show all complexity summaries" [pressed]:
+        - generic: All
+      - button "Show high complexity summaries":
+        - generic: High
+      - button "Show medium complexity summaries":
+        - generic: Medium
+      - button "Show low complexity summaries":
+        - generic: Low
+    - button "Collapse all visible summaries":
+    - generic "apps/web/modules/auth/lib/oauth-urls.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: MCP_OAUTH_SCOPES gains new advertised scopes (feedbackRecords:read, feedbackRecords:write), and MCP_RESOURCE_SCOPES changes from a two-scope export…
+      - generic "Low complexity": Low
+    - generic "apps/web/modules/auth/lib/mcp-oauth-provider-options.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "The oauth provider options configuration is extended: clientRegistrationDefaultScopes now includes feedbackRecords:read and feedbackRecords:write, and…"
+      - generic "Low complexity": Low
+    - generic "apps/web/modules/auth/lib/oauth-client-metadata.test.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Added new test assertions ensuring getOAuthScopeLabel returns localized strings for the feedbackRecords:read and feedbackRecords:write scope keys (using the…
+      - generic "Low complexity": Low
+    - generic "apps/web/modules/auth/lib/oauth-client-metadata.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: getOAuthScopeLabel’s switch gained explicit cases for feedbackRecords:read and feedbackRecords:write, mapping them to dedicated i18n translation keys instead…
+      - generic "Low complexity": Low
+    - generic "apps/web/modules/ee/audit-logs/types/audit-log.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Added the "feedbackRecord" member to the exported ZAuditTarget zod enum, expanding the allowed target.type values for audit log events.
+      - generic "Low complexity": Low
+    - generic "apps/web/app/.well-known/oauth-protected-resource/route.test.ts"
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 46–52
+      - generic: ·
+      - generic: 7 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Updated the asserted
+          - code: scopes_supported
+          - text: payload in the “advertising offline_access for DCR clients” test from a compact single-line array to an explicit multi-line array listing additional scopes (surveys and feedbackRecords) while retaining
+          - code: offline_access
+          - text: .
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/app/api/mcp/route.test.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: The mocked MCP_RESOURCE_SCOPES list is expanded from surveys-only scopes to also include feedbackRecords:read and feedbackRecords:write.
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: The expected WWW-Authenticate header value for a 401-before-MCP-handling response is updated so the scope="..." portion includes the new feedbackRecords scopes.
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: The tools/list response expectations are extended to include additional feedback-related MCP tool names (datasets/records management and…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: The expected WWW-Authenticate header value for a 401 rejection due to invalid OAuth is updated so the scope="..." portion includes the feedbackRecords scopes.
+      - generic "Low complexity": Low
+    - generic "docs/development/technical-handbook/mcp-server.mdx"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: The OAuth-support note text is reformatted within a <Note> block (content remains the same) to improve line wrapping for the “supported as a…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 69–115
+      - generic: ·
+      - generic: 47 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph: The OAuth 2.1 section’s discovery endpoint and supported-scope tables are updated/expanded, including additional RFC 8414 alias rows and explicit scope/grouping guidance. It also adds/expands a warning describing how changing advertised resource scopes breaks existing connected OAuth clients and requires re-registration/removal steps.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 135–156
+      - generic: ·
+      - generic: 22 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph: The API-key fallback minimum-workspace-permission table is expanded beyond survey tools to cover feedback-record MCP tools, and the related environment/secrets warning wording is adjusted as the table grows.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: A new local-setup note is added stating that the dev server must be restarted after tool registration changes because the MCP handler is built once at module…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 200–211
+      - generic: ·
+      - generic: 12 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: The Dynamic Client Registration smoke-test example is updated to include the expanded set of OAuth scopes (now including feedback-record scopes) and the explanatory note is updated to clarify that passing
+          - code: scope
+          - text: explicitly may not reproduce real client behavior; it recommends omitting
+          - code: scope
+          - text: or matching exactly the server-advertised metadata scopes to avoid
+          - code: invalid_scope
+          - text: .
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 249–262
+      - generic: ·
+      - generic: 14 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph: Codex OAuth login examples are updated to request feedback-record scopes in addition to survey scopes, and the surrounding guidance is updated to explain independent resource-scope groups (a token needs at least one resource scope, not all).
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 324–326
+      - generic: ·
+      - generic: 3 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph: The Claude OAuth section’s described requested scope set is updated to include the feedback-record scopes (not just surveys/offline access), while maintaining the same overall explanation of dynamic registration and browser-based consent.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 695–1068
+      - generic: ·
+      - generic: 374 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph: A large new documentation block is added covering feedback-record MCP tools, including datasets listing, feedback-record listing with optional/required dataset selection, filtering semantics and constraints, count behavior, record retrieval, creation (single and batch) with validation/all-or-nothing rules and batch/submission warnings, update behavior including provenance immutability and overwrite/destroy hints, delete behavior and authorization/error guarantees, and semantic search/similarity tools with embedding/dependency/error behavior.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 1086–1131
+      - generic: ·
+      - generic: 46 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph: A new “Feedback Records And The Hub” section is added describing how feedback-record tools resolve tenant/dataset via Hub service calls and enforce entitlements/ownership checks, including generic authorization error behavior and search-vs-record-level handling. The limitations section is updated/extended to reflect these feedback-record mechanics (including embedding requirements and the surface area exposed).
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: The “Implementation Files” list is expanded to include the new MCP tool modules for workspaces and feedback records, plus additional v3 feedback-record…
+      - generic "Low complexity": Low
+    - generic "docs/platform/mcp/overview.mdx"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: The page frontmatter/intro and “The MCP server URL” section were updated to emphasize that the MCP server supports both survey and feedback-record operations,…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 39–78
+      - generic: ·
+      - generic: 40 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: "The “What the agent can do” section was substantially rewritten: it replaces the prior survey-tools-only description with a new tools-by-scope table covering both survey tools ("
+          - code: surveys:read
+          - text: /
+          - code: surveys:write
+          - text: ) and Unify Feedback record tools (
+          - code: feedbackRecords:read
+          - text: /
+          - code: feedbackRecords:write
+          - text: ). Additional scope/permission guidance was added (independent scope groups; workspace-role bounding), plus new operational notes/warnings about Enterprise entitlement and dataset configuration for feedback tools, irreversibility of feedback record deletion/corrections, and the semantics/availability of filtering and meaning-based search (including embedding-model dependency and timing/record-text constraints).
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "The self-hosting guidance and “Next steps” text were updated: the self-hosting note was refined/relocated within the prerequisites flow, and the concluding…"
+      - generic "Low complexity": Low
+    - generic "docs/platform/mcp/setup.mdx"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: In the “Codex” setup instructions, the example codex mcp login command’s scope list is expanded/adjusted, and added explanatory text states that scope groups…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: In “Manage and revoke access,” the guidance after revocation is updated to explicitly call out that re-approval re-confirms the write scopes surveys:write and…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: In “Troubleshooting” for “invalid_scope during sign-in,” the documentation is expanded to enumerate the exact scopes the server advertises, including both…
+      - generic "Low complexity": Low
+- separator "Resize panel"
+- button "Open command palette":
+  - generic "Command": ⌘
+  - generic: K
+- region "Notifications":
+  - status:
+    - list

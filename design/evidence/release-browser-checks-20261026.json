@@ -1,0 +1,67 @@
+{
+  "layers": [
+    {
+      "file": "access.ts",
+      "layer": "0",
+      "progress": "Viewed 0 of 52 files",
+      "scroll": 64
+    },
+    {
+      "file": "operations.ts",
+      "layer": "1",
+      "progress": "Viewed 0 of 52 files",
+      "scroll": 29399.5
+    },
+    {
+      "file": "types.ts",
+      "layer": "2",
+      "progress": "Viewed 0 of 52 files",
+      "scroll": 85021.5
+    },
+    {
+      "file": "schemas.ts",
+      "layer": "3",
+      "progress": "Viewed 0 of 52 files",
+      "scroll": 103611.5
+    },
+    {
+      "file": "auth.ts",
+      "layer": "4",
+      "progress": "Viewed 0 of 52 files",
+      "scroll": 129921
+    },
+    {
+      "file": "oauth-urls.ts",
+      "layer": "5",
+      "progress": "Viewed 0 of 52 files",
+      "scroll": 153983
+    },
+    {
+      "file": "i18n.lock",
+      "layer": "6",
+      "progress": "Viewed 0 of 52 files",
+      "scroll": 189725
+    }
+  ],
+  "boundary": [
+    {
+      "file": "operations.ts",
+      "focus": "stream",
+      "layer": "1",
+      "scroll": 29444
+    }
+  ],
+  "overview": {
+    "before": 24716,
+    "after": 24716
+  },
+  "theme": {
+    "before": 32919.5,
+    "after": 32919.5,
+    "draftPreserved": true
+  },
+  "focus": {
+    "before": 64,
+    "after": 64
+  }
+}

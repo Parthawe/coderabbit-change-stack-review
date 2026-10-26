@@ -1,30 +1,34 @@
-# CodeRabbit Change Stack — continuous review working draft
+# CodeRabbit Change Stack · Final iteration
 
-Design exercise by Parth Pawar, using Formbricks #8650 at commit `23cdac2d791cf1a0f25d80d82bc02a1f3922793c`.
+Design exercise by Parth Pawar. The prototype uses Formbricks #8650 at commit `23cdac2d791cf1a0f25d80d82bc02a1f3922793c`.
 
-This branch is a local revision responding to a developer’s exploration. It has not replaced the public submission. The source review is rate limited; the release gate deliberately fails until the remaining source checks are complete.
+- [Interactive prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
+- [Paper design and decisions](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0), sign-in required
+- [One-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
 
-The existing submission links are unchanged:
+The four Paper pages cover the problem, design decisions, final review states and next checks. The site opens directly into the review. Previous presentation URLs redirect to it.
 
-- [Public prototype](https://parthawe.github.io/coderabbit-change-stack-review/)
-- [Public Paper file](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0), sign-in required
-- [Public one-page rationale](https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf)
+The review contains all 52 pinned diffs in seven verified layers, compact change and finding signals, explicit summary-to-code links, Inspect/Return, Viewed/Undo, multiline local notes, Overview and Light/Dark/System themes. Modified files use equal Before/After panes; added files use the full width, as in the original. The original scrolls continuously within a layer; this prototype extends the stream across layers.
 
-Working revision:
+## Source verification
 
-- [Paper working draft](https://app.paper.design/file/01M5W961Q440DVSB0QZ7E48E14/p-1-0/5FN-0), sign-in required. It retains four pages.
-- Run `python3 -m http.server 4318 --bind 127.0.0.1 --directory dist`, then open `http://127.0.0.1:4318/`.
-- The local rationale is `dist/rationale.pdf`. Affected 2× Paper exports are in `design/continuous-review`.
+The pinned live review was accessible on October 26. All 52 layer memberships and guided file order were checked. Source content keys confirmed comparison base `e54641b01c838a57c9794807e76e0fc893f491a9`. All 52 GitHub patches reconstruct their before/after content at that base, totalling +5,722 / −127. The 24 source patches available for direct export matched their changed content. Live Split wrapping, gutters, shared scrolling and added-file behavior were inspected. See `design/evidence/continuous-source-verification.json` for evidence and limits.
 
-The draft includes all 52 pinned GitHub diffs and one vertical code stream, equal-width Split and Unified, expandable unchanged context, a direct Overview screen, stable Inspect/Return and Focus, explicit file-viewed progress with Undo, and range-based local notes. Severity and resolution remain adjacent. Source message counts include replies; missing thread bodies remain labelled.
+## Run and check
 
-Nine file assignments to layer 1 are verified. The other 43 diffs are accessible under “Layer assignment pending”; their source layer order is not invented. The comparison base and live CodeRabbit Split wrapping/scrolling still need verification. Matching +5,722 / −127 totals is insufficient proof of semantic parity.
+Serve `dist` with `python3 -m http.server 4318 --bind 127.0.0.1 --directory dist`.
 
-Run `python3 scripts/verify-continuous.py` to reconstruct every before/after file from the captured hunks. Run `python3 scripts/verify-continuous.py --release` before publishing. GitHub Pages deployment now runs that release check too. Do not bypass it.
+Run:
 
-There is no backend or runtime GitHub dependency. Notes, drafts and progress stay in browser storage, keyed to the pinned commit. The PR is merged, so submission is disabled. No completed usability comparison or measured review-time improvement is claimed. The work exceeded the assignment’s original 1–2 hour scope.
+```sh
+python3 scripts/reconcile-live-source.py
+python3 scripts/verify-continuous.py --release
+node scripts/verify-signals-theme.cjs
+node --check dist/app.js
+```
 
-See `docs/continuous-review-status.txt` for checks, limitations and the next developer task. Earlier explorations remain recoverable in Git and the unchanged public Paper file. They are excluded from the working-draft ZIP. No video is included.
+GitHub Pages runs the release gate before deployment. The prototype has no backend or runtime dependency on GitHub. Notes, drafts and progress stay in browser storage. The source PR is merged, so review submission is disabled.
 
+Summary and thread coverage is partial. Semantic outlines, blame and other secondary tools remain previews. Dark colors are derived from the product palette. Developer feedback came from exploration; no completed usability comparison or measured improvement is claimed. The revisions exceeded the original 1–2 hour assignment scope.
 
-Latest working-draft pass: review signals, Overview and Light/Dark/System themes. See docs/signals-theme-status.txt. Run `node scripts/verify-signals-theme.cjs` alongside the fixture verifier. Public release remains gated.
+The 2× Paper exports are in `design/continuous-review`. Earlier explorations remain recoverable in Git and the separate working Paper file. The submission pack contains no video. Nothing has been sent to CodeRabbit.

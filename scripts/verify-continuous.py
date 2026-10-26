@@ -29,7 +29,7 @@ print('PASS: 52 complete before/after reconstructions; every hunk line; +5722/-1
 if '--release' in sys.argv:
  missing=[k for k,v in d['releaseGate'].items() if not v]
  if missing or any(not f['layerVerified'] for f in d['files']):
-  print('RELEASE BLOCKED:',', '.join(missing),'| 43 assignments pending');sys.exit(2)
+  print('RELEASE BLOCKED:',', '.join(missing),'|',sum(not f['layerVerified'] for f in d['files']),'assignments pending');sys.exit(2)
  for i,layer in enumerate(d['layers']):
   members=[f for f in d['files'] if f['layerId']==i]
   assert len(members)==layer['files'],('layer file count',i)

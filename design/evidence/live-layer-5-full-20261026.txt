@@ -1,0 +1,516 @@
+- status
+- banner:
+  - link "Back to triage":
+    - /url: /triage
+    - generic: Triage
+  - status
+  - paragraph: Feedback records MCP integration
+  - 'link "formbricks #8650: View pull request on GitHub"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+    - generic: formbricks
+    - generic: "#8650"
+  - generic: ·
+  - generic: 52 files
+  - button "Continue with GitHub":
+    - generic: Continue with GitHub
+  - status
+  - button "Submit review":
+    - generic: Submit review
+- complementary "Layer navigation":
+  - separator "Collapse sidebar"
+  - radiogroup "Rail mode":
+    - radio "Layers" [checked]:
+      - generic: Layers
+    - radio "Files":
+      - generic: Files
+  - button "About Layers and Files":
+  - button "Search pull request":
+  - button "Collapse sidebar" [expanded]:
+    - generic: Collapse sidebar
+  - button "Pull request overview":
+    - generic: Overview
+  - button "Security blast radius" [disabled]:
+    - generic: Security blast radius isn’t available for this repository yet.
+    - generic: Security blast radius
+  - button "Security architecture impact":
+    - generic: Security architecture impact
+  - 'button "Layer 1: API contracts and access controls. 9 files touched. 3 findings. 1120 lines added, 11 removed. 1 major finding, 1 minor finding"':
+    - generic: "1"
+    - paragraph: API contracts and access controls
+    - generic: 9 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-11"
+    - generic: "+1120"
+  - 'button "Layer 2: Feedback record operations. 2 files touched. 1 finding. 2446 lines added, 0 removed. 1 major finding"':
+    - generic: "2"
+    - paragraph: Feedback record operations
+    - generic: 2 files touched
+    - generic: "1"
+    - generic: "+2446"
+  - 'button "Layer 3: Hub feedback-record support. 5 files touched. 342 lines added, 13 removed"':
+    - generic: "3"
+    - paragraph: Hub feedback-record support
+    - generic: 5 files touched
+    - generic: "-13"
+    - generic: "+342"
+  - 'button "Layer 4: MCP feedback-record tools. 3 files touched. 1 finding. 1034 lines added, 0 removed. 1 trivial finding"':
+    - generic: "4"
+    - paragraph: MCP feedback-record tools
+    - generic: 3 files touched
+    - generic: "1"
+    - generic: "+1034"
+  - 'button "Layer 5: MCP authorization and registration. 7 files touched. 138 lines added, 22 removed" [active]':
+    - generic: "5"
+    - paragraph: MCP authorization and registration
+    - generic: 7 files touched
+    - generic: "-22"
+    - generic: "+138"
+  - 'button "Layer 6: OAuth metadata and documentation. 10 files touched. 2 findings. 610 lines added, 81 removed. 1 minor finding, 1 trivial finding"':
+    - generic: "6"
+    - paragraph: OAuth metadata and documentation
+    - generic: 10 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-81"
+    - generic: "+610"
+  - 'button "Layer 7: Additional changes. 16 files touched. 32 lines added, 0 removed"':
+    - generic: "7"
+    - paragraph: Additional changes
+    - generic: 16 files touched
+    - generic: "+32"
+  - button "Scroll up":
+    - text: View more
+  - generic: Review Tools
+  - 'button "Review history. Latest review: Feedback records MCP integration · Out of date. Commit 23cdac2. Select review snapshot"':
+    - generic: Review history
+    - text: Stale ·
+    - code: 23cdac2
+  - button "Settings. Display settings":
+    - generic: Settings
+- main:
+  - 'button "Layer details: MCP authorization and registration"'
+  - generic: MCP authorization and registration
+  - separator
+  - generic: Expands MCP authentication scope behavior, workspace discovery authorization, server registration, and MCP suite metadata.
+  - group "Content view":
+    - button "Files" [pressed]:
+      - generic: Files
+    - button "Diagrams" [disabled]:
+      - generic: Diagram
+  - group "File navigation":
+    - button "Show files in this layer (7 files, 7 not viewed)":
+      - text: 1 of 7
+      - generic: 7 left
+    - separator
+    - button "Previous file" [disabled]:
+    - button "Next file":
+  - group "Review controls":
+    - button "View settings":
+    - button "Mark all files in this layer viewed":
+    - button "Collapse all files":
+    - button "Enter focus mode":
+  - button "Hide review controls" [expanded]:
+  - separator "Resize old and new code panes"
+  - button "Collapse apps/web/modules/mcp/auth.ts" [expanded]:
+    - generic "Modified"
+    - generic: apps/web/modules/mcp/auth.ts
+    - button "Copy file path apps/web/modules/mcp/auth.ts":
+    - img "16 additions and 6 deletions":
+      - generic: "-6"
+      - generic: "+16"
+    - button "Add file comment on apps/web/modules/mcp/auth.ts":
+    - button "Semantic outline with 6 changed entities":
+      - generic: "6"
+    - button "Compact semantic diff":
+    - button "Semantic diff with context" [pressed]:
+    - button "Mark file as viewed in this layer":
+  - code:
+    - button "Expand hidden lines below":
+    - generic: 36 unmodified lines
+    - generic: "37"
+    - generic: "38"
+    - generic: "39"
+    - generic: "40"
+    - generic: "41"
+    - button "Expand hidden lines above":
+    - button "Expand hidden lines below":
+    - generic: 50 unmodified lines
+    - generic: "92"
+    - generic: "93"
+    - generic: "94"
+    - generic: "95"
+    - generic: "96"
+    - generic: "97"
+    - generic: "98"
+    - generic: "99"
+    - generic: "100"
+    - generic: "101"
+    - generic: "\"authorization\","
+    - generic: "]);"
+    - button "Blame Tiago, Jul 13, L40":
+      - generic: Tiago
+      - generic: Jul 13
+      - generic: L40
+    - text: // Minimum
+    - generic: scope
+    - text: required to authenticate against the MCP server at all.
+    - button "Blame Bhagya Amarasinghe, Jul 2, L41":
+      - generic: Bhagya Amarasinghe
+      - generic: Jul 2
+      - generic: L41
+    - 'generic "constant DEFAULT_OAUTH_SCOPE: deleted - 41-41"':
+      - generic: "-"
+      - generic: constant DEFAULT_OAUTH_SCOPE
+      - generic: deleted - 41-41
+      - generic: 41-41
+    - text: const
+    - generic: DEFAULT_OAUTH_SCOPE
+    - text: =
+    - generic: "\"surveys:read\""
+    - text: ;
+    - generic: "}"
+    - generic: "function getMcpScopes(authentication: TAuthenticationApiKey): string[] {"
+    - button "Blame Bhagya Amarasinghe, Jun 2, L95":
+      - generic: Bhagya Amarasinghe
+      - generic: Jun 2
+      - generic: L95
+    - generic: const scopes = new Set(["surveys:read"]);
+    - generic: if (
+    - generic: authentication.workspacePermissions.some(
+    - generic: (permission) => permission.permission === "write" || permission.permission === "manage"
+    - generic: )
+    - generic: ") {"
+    - generic: scopes.add("surveys:write");
+  - code:
+    - generic: "37"
+    - generic: "38"
+    - generic: "39"
+    - generic: "40"
+    - generic: "41"
+    - generic: "42"
+    - generic: "43"
+    - generic: "44"
+    - generic: "95"
+    - generic: "96"
+    - generic: "97"
+    - generic: "98"
+    - generic: "99"
+    - generic: "100"
+    - generic: "101"
+    - generic: "102"
+    - generic: "103"
+    - generic: "104"
+    - generic: "\"authorization\","
+    - generic: "]);"
+    - button "Blame Tiago Farto, Jul 27, L40-44":
+      - generic: Tiago Farto
+      - generic: Jul 27
+      - generic: L40-44
+    - text: // Minimum
+    - generic: grant
+    - text: required to authenticate against the MCP server at all
+    - generic: ": at least ONE resource scope"
+    - text: .
+    - generic: "// Any single one is enough — a token granted only `feedbackRecords:read` is a legitimate MCP client and"
+    - generic: "// must not be rejected here for lacking `surveys:read`. Which tools it can actually call is enforced"
+    - generic: // per-tool by guardMcpScopes at call time.
+    - 'generic "constant MCP_MINIMUM_SCOPES: added - 44-44"':
+      - generic: +
+      - generic: constant MCP_MINIMUM_SCOPES
+      - generic: added - 44-44
+      - generic: 44-44
+    - text: const
+    - generic: MCP_MINIMUM_SCOPES
+    - text: =
+    - generic: MCP_RESOURCE_SCOPES
+    - text: ;
+    - generic: "}"
+    - 'generic "function getMcpScopes: structural - 94-105 -> 97-109"':
+      - generic: Delta
+      - generic: function getMcpScopes
+      - generic: structural - 94-105 -> 97-109
+      - generic: 94-105 -> 97-109
+    - generic: "function getMcpScopes(authentication: TAuthenticationApiKey): string[] {"
+    - button "Blame Tiago Farto, Jul 27, L98":
+      - generic: Tiago Farto
+      - generic: Jul 27
+      - generic: L98
+    - text: const scopes = new Set(["surveys:read"
+    - generic: ", \"feedbackRecords:read\""
+    - text: "]);"
+    - generic: if (
+    - generic: authentication.workspacePermissions.some(
+    - generic: (permission) => permission.permission === "write" || permission.permission === "manage"
+    - generic: )
+    - generic: ") {"
+    - generic: scopes.add("surveys:write");
+    - button "Blame Tiago Farto, Jul 27, L105":
+      - generic: Tiago Farto
+      - generic: Jul 27
+      - generic: L105
+- complementary:
+  - button "Collapse right sidebar" [expanded]:
+    - generic: Collapse right sidebar
+  - generic: Layer context
+  - complementary:
+    - button "Summaries 20" [pressed]:
+      - generic: Summaries 20
+    - button "Comments":
+      - generic: Comments
+    - generic "Summary 1 of 20, 2 of 20 summaries seen":
+      - generic "Summary 1 of 20": 1/20
+      - generic: ·
+      - generic "2 of 20 summaries seen":
+        - generic: 2/20
+    - button "Reset progress and return to top":
+    - button "Pause following code" [pressed]:
+    - generic: Complexity
+    - group "Summary complexity filters":
+      - button "Show all complexity summaries" [pressed]:
+        - generic: All
+      - button "Show high complexity summaries":
+        - generic: High
+      - button "Show medium complexity summaries":
+        - generic: Medium
+      - button "Show low complexity summaries":
+        - generic: Low
+    - button "Collapse all visible summaries":
+    - generic "apps/web/modules/mcp/auth.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Introduces MCP_MINIMUM_SCOPES as the new OAuth “minimum scopes” set by aliasing MCP_RESOURCE_SCOPES, replacing the prior single-scope constant used for minimum…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 98–105
+      - generic: ·
+      - generic: 8 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as unseen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Updates
+          - code: getMcpScopes
+          - text: for API-key authentication to start from
+          - code: surveys:read
+          - text: and
+          - code: feedbackRecords:read
+          - text: ", and to grant both"
+          - code: surveys:write
+          - text: and
+          - code: feedbackRecords:write
+          - text: when the user has write/manage workspace permissions; previously it only managed
+          - code: surveys
+          - text: scopes.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 372–379
+      - generic: ·
+      - generic: 8 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Changes the OAuth-authentication scope gate from requiring a specific read scope to requiring the token to include at least one scope in the minimum set; on failure it logs a “missing every MCP scope” message and returns a 403 insufficient-scope challenge built from the entire
+          - code: MCP_MINIMUM_SCOPES
+          - text: list.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds a new exported hasAnyMcpScope helper that checks whether authInfo.scopes contains at least one scope from a provided allowed-scope list (any-of semantics).
+      - generic "Low complexity": Low
+    - generic "apps/web/modules/mcp/tools/guard-scopes.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: The module’s auth imports were adjusted to include hasAnyMcpScope, enabling the new “any-of scopes” guard logic.
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 24–44
+      - generic: ·
+      - generic: 21 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Introduced a new exported
+          - code: guardMcpAnyScope
+          - text: helper with a documented “any-of” semantics contract. The function checks
+          - code: hasAnyMcpScope
+          - text: and returns
+          - code: "null"
+          - text: when the caller matches at least one allowed scope; otherwise it builds and returns an insufficient-scope
+          - code: CallToolResult
+          - text: using the provided
+          - code: requestId
+          - text: and allowed scope list.
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/modules/mcp/tools/workspaces.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Replaces the imported scope-guard helper used by this module (guardMcpScopes) with guardMcpAnyScope.
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Updates the list_workspaces tool description text to include workspace discovery for feedback-record tools (in addition to survey-related discovery).
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 26–33
+      - generic: ·
+      - generic: 8 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Changes the authorization gate for
+          - code: list_workspaces
+          - text: from requiring
+          - code: surveys:read
+          - text: (via
+          - code: guardMcpScopes
+          - text: ) to accepting either
+          - code: surveys:read
+          - text: or
+          - code: feedbackRecords:read
+          - text: (via
+          - code: guardMcpAnyScope
+          - text: ), with the accompanying comment updated to reflect the broader read-prerequisite behavior.
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/modules/mcp/tools/workspaces.test.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds a new feedbackReadAuthInfo test fixture derived from readAuthInfo, with scopes limited to feedbackRecords:read.
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Updates the wording of the existing “insufficient scope” test to refer to missing “any read scope” rather than specifically surveys:read.
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 88–101
+      - generic: ·
+      - generic: 14 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds a new test verifying that a token with only
+          - code: feedbackRecords:read
+          - text: can use the
+          - code: list_workspaces
+          - text: "tool: it mocks"
+          - code: listV3Workspaces
+          - text: to resolve successfully, calls the tool handler with
+          - code: feedbackReadAuthInfo
+          - text: ", asserts the operation was called, and asserts the result is not an error."
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/modules/mcp/server.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds a new import for registerFeedbackRecordTools alongside the existing tool registration imports.
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 8–12
+      - generic: ·
+      - generic: 5 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Updates the
+          - code: createMcpHandler
+          - text: setup callback to include an additional tool registration call for feedback records, placing it after survey and workspace tool registrations.
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/modules/mcp/constants.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Changed the exported MCP suite identity metadata by updating MCP_SERVER_NAME and MCP_SERVER_VERSION, replacing the previous name/version constants.
+      - generic "Low complexity": Low
+    - generic "apps/web/modules/mcp/auth.test.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "Updates the mocked MCP scope configuration used by the tests: MCP_OAUTH_SCOPES and MCP_RESOURCE_SCOPES now include both surveys and feedbackRecords read/write…"
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 117–121
+      - generic: ·
+      - generic: 5 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Changes the “no API key authenticates” test expectation so the
+          - code: WWW-Authenticate
+          - text: challenge advertises the complete MCP resource scope set (surveys read/write + feedbackRecords read/write) instead of only the surveys scopes.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 227–257
+      - generic: ·
+      - generic: 31 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Extends the API-key success assertions to require all four MCP resource scopes (
+          - code: surveys:read/write
+          - text: and
+          - code: feedbackRecords:read/write
+          - text: ) for the write-capable key, and adds a new test that verifies read-only API keys produce only the read scopes for both tool groups.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 355–359
+      - generic: ·
+      - generic: 5 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: "Reworks the OAuth negative test for insufficient MCP resource scope: the mocked access token now uses an “no MCP resource scope at all” shape ("
+          - code: scope
+          - text: set to
+          - code: openid profile email
+          - text: ), with the test updated accordingly from the prior “without the read scope” scenario.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 372–398
+      - generic: ·
+      - generic: 27 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Updates the OAuth insufficient-scope challenge assertion to expect the full resource-scope set in the
+          - code: WWW-Authenticate
+          - text: header, and adds a
+          - code: test.each
+          - text: table confirming MCP authentication succeeds when the OAuth token contains only a single allowed MCP resource scope (
+          - code: feedbackRecords:read
+          - text: or
+          - code: surveys:write
+          - text: ).
+        - button "Comment":
+          - generic: Comment
+- separator "Resize panel"
+- button "Open command palette":
+  - generic "Command": ⌘
+  - generic: K
+- region "Notifications":
+  - status:
+    - list

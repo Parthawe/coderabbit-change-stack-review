@@ -1,0 +1,195 @@
+{
+  "panes": [
+    {
+      "attrs": [
+        [
+          "data-diff",
+          ""
+        ],
+        [
+          "data-indicators",
+          "bars"
+        ],
+        [
+          "data-background",
+          ""
+        ],
+        [
+          "data-diff-type",
+          "split"
+        ],
+        [
+          "data-overflow",
+          "wrap"
+        ],
+        [
+          "data-custom-styles",
+          ""
+        ],
+        [
+          "data-interactive-line-numbers",
+          ""
+        ],
+        [
+          "style",
+          "--diffs-min-number-column-width-default: 2ch;"
+        ]
+      ],
+      "fontSize": "14px",
+      "height": 1898,
+      "lineHeight": "20px",
+      "tag": "PRE",
+      "whiteSpace": "pre",
+      "width": 676,
+      "x": 260
+    },
+    {
+      "attrs": [
+        [
+          "data-code",
+          ""
+        ],
+        [
+          "data-deletions",
+          ""
+        ],
+        [
+          "data-container-size",
+          ""
+        ],
+        [
+          "style",
+          "grid-row: span 44;"
+        ]
+      ],
+      "fontSize": "14px",
+      "height": 0,
+      "lineHeight": "20px",
+      "tag": "CODE",
+      "whiteSpace": "pre",
+      "width": 0,
+      "x": 0
+    },
+    {
+      "attrs": [
+        [
+          "data-gutter",
+          ""
+        ],
+        [
+          "style",
+          "grid-row: span 44;"
+        ]
+      ],
+      "fontSize": "14px",
+      "height": 1890,
+      "lineHeight": "20px",
+      "tag": "DIV",
+      "whiteSpace": "pre",
+      "width": 44.1328125,
+      "x": 260
+    },
+    {
+      "attrs": [
+        [
+          "data-line",
+          "2"
+        ],
+        [
+          "data-line-type",
+          "change-deletion"
+        ],
+        [
+          "data-line-index",
+          "1,1"
+        ]
+      ],
+      "fontSize": "14px",
+      "height": 100,
+      "lineHeight": "20px",
+      "tag": "DIV",
+      "whiteSpace": "pre-wrap",
+      "width": 292.3671875,
+      "x": 304.1328125
+    },
+    {
+      "attrs": [
+        [
+          "data-code",
+          ""
+        ],
+        [
+          "data-additions",
+          ""
+        ],
+        [
+          "data-container-size",
+          ""
+        ],
+        [
+          "style",
+          "grid-row: span 44;"
+        ]
+      ],
+      "fontSize": "14px",
+      "height": 0,
+      "lineHeight": "20px",
+      "tag": "CODE",
+      "whiteSpace": "pre",
+      "width": 0,
+      "x": 0
+    },
+    {
+      "attrs": [
+        [
+          "data-gutter",
+          ""
+        ],
+        [
+          "style",
+          "grid-row: span 44;"
+        ]
+      ],
+      "fontSize": "14px",
+      "height": 1890,
+      "lineHeight": "20px",
+      "tag": "DIV",
+      "whiteSpace": "pre",
+      "width": 45.1328125,
+      "x": 597.5
+    },
+    {
+      "attrs": [
+        [
+          "data-line",
+          "2"
+        ],
+        [
+          "data-line-type",
+          "change-addition"
+        ],
+        [
+          "data-line-index",
+          "2,1"
+        ]
+      ],
+      "fontSize": "14px",
+      "height": 100,
+      "lineHeight": "20px",
+      "tag": "DIV",
+      "whiteSpace": "pre-wrap",
+      "width": 293.3671875,
+      "x": 642.6328125
+    }
+  ],
+  "scroll": {
+    "clientHeight": 578,
+    "overflowY": "auto",
+    "scrollHeight": 26269,
+    "top": 21465
+  },
+  "viewport": [
+    1280,
+    720
+  ]
+}

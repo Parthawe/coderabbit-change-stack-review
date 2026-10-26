@@ -1,0 +1,667 @@
+- status
+- banner:
+  - link "Back to triage":
+    - /url: /triage
+    - generic: Triage
+  - status
+  - paragraph: Feedback records MCP integration
+  - 'link "formbricks #8650: View pull request on GitHub"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+    - generic: formbricks
+    - generic: "#8650"
+  - generic: ·
+  - generic: 52 files
+  - button "Continue with GitHub":
+    - generic: Continue with GitHub
+  - status
+  - button "Submit review":
+    - generic: Submit review
+- complementary "Layer navigation":
+  - separator "Collapse sidebar"
+  - radiogroup "Rail mode":
+    - radio "Layers" [checked]:
+      - generic: Layers
+    - radio "Files":
+      - generic: Files
+  - button "About Layers and Files":
+  - button "Search pull request":
+  - button "Collapse sidebar" [expanded]:
+    - generic: Collapse sidebar
+  - button "Pull request overview":
+    - generic: Overview
+  - button "Security blast radius" [disabled]:
+    - generic: Security blast radius isn’t available for this repository yet.
+    - generic: Security blast radius
+  - button "Security architecture impact":
+    - generic: Security architecture impact
+  - 'button "Layer 1: API contracts and access controls. 9 files touched. 3 findings. 1120 lines added, 11 removed. 1 major finding, 1 minor finding"':
+    - generic: "1"
+    - paragraph: API contracts and access controls
+    - generic: 9 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-11"
+    - generic: "+1120"
+  - 'button "Layer 2: Feedback record operations. 2 files touched. 1 finding. 2446 lines added, 0 removed. 1 major finding"':
+    - generic: "2"
+    - paragraph: Feedback record operations
+    - generic: 2 files touched
+    - generic: "1"
+    - generic: "+2446"
+  - 'button "Layer 3: Hub feedback-record support. 5 files touched. 342 lines added, 13 removed"':
+    - generic: "3"
+    - paragraph: Hub feedback-record support
+    - generic: 5 files touched
+    - generic: "-13"
+    - generic: "+342"
+  - 'button "Layer 4: MCP feedback-record tools. 3 files touched. 1 finding. 1034 lines added, 0 removed. 1 trivial finding"':
+    - generic: "4"
+    - paragraph: MCP feedback-record tools
+    - generic: 3 files touched
+    - generic: "1"
+    - generic: "+1034"
+  - 'button "Layer 5: MCP authorization and registration. 7 files touched. 138 lines added, 22 removed"':
+    - generic: "5"
+    - paragraph: MCP authorization and registration
+    - generic: 7 files touched
+    - generic: "-22"
+    - generic: "+138"
+  - 'button "Layer 6: OAuth metadata and documentation. 10 files touched. 2 findings. 610 lines added, 81 removed. 1 minor finding, 1 trivial finding"':
+    - generic: "6"
+    - paragraph: OAuth metadata and documentation
+    - generic: 10 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-81"
+    - generic: "+610"
+  - 'button "Layer 7: Additional changes. 16 files touched. 32 lines added, 0 removed"':
+    - generic: "7"
+    - paragraph: Additional changes
+    - generic: 16 files touched
+    - generic: "+32"
+  - button "Scroll down":
+    - text: View more
+  - generic: Review Tools
+  - 'button "Review history. Latest review: Feedback records MCP integration · Out of date. Commit 23cdac2. Select review snapshot"':
+    - generic: Review history
+    - text: Stale ·
+    - code: 23cdac2
+  - button "Settings. Display settings":
+    - generic: Settings
+- main:
+  - 'button "Layer details: API contracts and access controls"'
+  - generic: API contracts and access controls
+  - separator
+  - generic: Defines feedback-record schemas, serializers, entitlement checks, tenant ownership guards, and controlled problem responses.
+  - group "Content view":
+    - button "Files" [pressed]:
+      - generic: Files
+    - button "Diagrams" [disabled]:
+      - generic: Diagram
+  - group "File navigation":
+    - button "Show files in this layer (9 files, 9 not viewed)":
+      - text: 1 of 9
+      - generic: 9 left
+    - separator
+    - button "Previous file" [disabled]:
+    - button "Next file":
+  - group "Review controls":
+    - button "View settings" [active]:
+    - button "Mark all files in this layer viewed":
+    - button "Collapse all files":
+    - button "Enter focus mode":
+  - button "Hide review controls" [expanded]:
+  - button "Collapse apps/web/app/api/v3/feedbackRecords/lib/access.ts" [expanded]:
+    - generic "Added"
+    - generic: apps/web/app/api/v3/feedbackRecords/lib/access.ts
+    - button "Copy file path apps/web/app/api/v3/feedbackRecords/lib/access.ts":
+    - img "194 additions and 0 deletions":
+      - generic: "+194"
+    - button "Add file comment on apps/web/app/api/v3/feedbackRecords/lib/access.ts":
+    - button "Semantic outline with 6 changed entities":
+      - generic: "6"
+    - button "Mark file as viewed in this layer":
+  - generic: This added file has more lines outside this layer.
+  - button "Show full added file":
+    - generic: Full file
+  - code:
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "10"
+    - generic: "11"
+    - generic: "12"
+    - generic: "13"
+    - generic: "14"
+    - generic: "15"
+    - generic: "16"
+    - generic: "17"
+    - generic: "18"
+    - generic: "19"
+    - generic: "20"
+    - generic: "21"
+    - generic: "22"
+    - generic: "23"
+    - generic: "24"
+    - generic: "25"
+    - generic: "26"
+    - generic: "27"
+    - generic: "28"
+    - generic: "29"
+    - generic: "30"
+    - generic: "31"
+    - button "Blame Tiago Farto, Jul 27 2026, L1-194":
+      - generic: Tiago Farto
+      - generic: Jul 27 2026
+      - generic: L1-194
+    - generic: import "server-only";
+    - generic: "import type { logger } from \"@formbricks/logger\";"
+    - generic: "import { requireUnifyFeedbackWorkspaceAccess } from \"@/app/api/v3/lib/feedback-access\";"
+    - generic: "import { problemBadRequest, problemForbidden, problemUnprocessableContent } from \"@/app/api/v3/lib/response\";"
+    - generic: "import type { TV3Authentication } from \"@/app/api/v3/lib/types\";"
+    - generic: "import { getFeedbackDirectoriesByWorkspaceId } from \"@/modules/ee/feedback-directory/lib/feedback-directory\";"
+    - generic: "import { retrieveFeedbackRecord } from \"@/modules/hub/service\";"
+    - generic: "import type { FeedbackRecordData } from \"@/modules/hub/types\";"
+    - generic: "import { hubErrorToProblemResponse } from \"./errors\";"
+    - generic: /**
+    - generic: "* Tenant isolation for the feedback-records surface. Two guards live here, and every operation goes"
+    - generic: "* through at least one of them:"
+    - generic: "*"
+    - generic: "* - `resolveWorkspaceFeedbackTenant` — the workspace → dataset → Hub tenant choke point."
+    - generic: "* - `requireOwnedFeedbackRecord` — the per-record ownership check for the Hub endpoints that take a bare"
+    - generic: "* record id and derive the tenant from the record itself."
+    - generic: "*"
+    - generic: "* Kept in its own module (mirroring `unify-feedback/taxonomy/lib/access.ts`) so the authorization rules"
+    - generic: "* are reviewable in one place instead of being spread across the operations."
+    - generic: "*/"
+    - 'generic "type TResolveParams: added - 23-30"':
+      - generic: +
+      - generic: type TResolveParams
+      - generic: added - 23-30
+      - generic: 23-30
+    - generic: "type TResolveParams = {"
+    - generic: "authentication: TV3Authentication;"
+    - generic: "workspaceId: string;"
+    - generic: "minPermission: \"read\" | \"readWrite\";"
+    - generic: "requestId: string;"
+    - generic: "instance: string;"
+    - generic: "datasetId?: string;"
+    - generic: "};"
+    - 'generic "type TResolvedFeedbackTenant: added - 32-39"':
+      - generic: +
+      - generic: type TResolvedFeedbackTenant
+      - generic: added - 32-39
+      - generic: 32-39
+- complementary:
+  - button "Collapse right sidebar" [expanded]:
+    - generic: Collapse right sidebar
+  - generic: Layer context
+  - complementary:
+    - button "Summaries 37" [pressed]:
+      - generic: Summaries 37
+    - button "Comments 15":
+      - generic: Comments 15
+    - generic "Summary 1 of 37, 2 of 37 summaries seen":
+      - generic "Summary 1 of 37": 1/37
+      - generic: ·
+      - generic "2 of 37 summaries seen":
+        - generic: 2/37
+    - button "Reset progress and return to top":
+    - button "Pause following code" [pressed]:
+    - generic: Complexity
+    - group "Summary complexity filters":
+      - button "Show all complexity summaries" [pressed]:
+        - generic: All
+      - button "Show high complexity summaries":
+        - generic: High
+      - button "Show medium complexity summaries":
+        - generic: Medium
+      - button "Show low complexity summaries":
+        - generic: Low
+    - button "Collapse all visible summaries":
+    - generic "apps/web/app/api/v3/feedbackRecords/lib/access.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Introduces a server-only access-control module and wires in required dependencies for workspace access resolution, feedback-directory lookup, Hub record…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Defines the exported resolved-tenant contract (TResolvedFeedbackTenant) plus internal resolve parameter/result types used by the tenant-resolution guard.
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 49–130
+      - generic: ·
+      - generic: 82 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: resolveWorkspaceFeedbackTenant
+          - text: ", which:"
+        - list:
+          - text: requires workspace access via
+          - code: requireUnifyFeedbackWorkspaceAccess
+          - text: ","
+          - listitem: loads feedback directories for the workspace,
+          - text: trims directory IDs to normalize Hub
+          - code: tenant_id
+          - text: matching,
+          - text: optionally enforces access to a specific dataset (
+          - code: datasetId
+          - text: ) with a forbidden response when not permitted,
+          - text: rejects misconfiguration states (no datasets assigned; multiple datasets without an explicit
+          - code: datasetId
+          - text: ),
+          - listitem: returns a single resolved tenant/dataset context plus the full allowed tenant set.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Defines the internal parameter/result shapes for the per-record ownership guard, including required logging/context and optional pinned dataset enforcement.
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 156–186
+      - generic: ·
+      - generic: 31 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: requireOwnedFeedbackRecord
+          - text: ", which:"
+        - list:
+          - listitem: retrieves the record by ID from the Hub,
+          - listitem: handles Hub errors/missing records by returning a generic forbidden response for 404 (with explicit logging),
+          - text: otherwise converts Hub failures via
+          - code: hubErrorToProblemResponse
+          - text: ","
+          - text: enforces tenant ownership by checking the record’s stored
+          - code: tenant_id
+          - text: against either the pinned dataset tenant or the workspace’s allowed tenant set,
+          - listitem: returns the record on success.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Exports forbidFeedbackRecord, a single helper that produces the standardized forbidden response body used by the ownership and missing-record paths.
+      - generic "Low complexity": Low
+    - generic "apps/web/app/api/v3/feedbackRecords/lib/errors.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds server-only error-mapping utilities’ dependencies and defines disclosure bounds used to truncate relayed Hub details (max invalid-params count and max…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Exports embedding-related static detail strings and declares the set of Hub HTTP statuses allowed to contribute relayable problemDetail content to v3 responses.
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Introduces relayableHubDetail, which conditionally selects between a provided fallback message and a truncated Hub problemDetail based on status eligibility…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 79–128
+      - generic: ·
+      - generic: 50 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: hubErrorToProblemResponse
+          - text: "with explicit branching by Hub HTTP status: maps 429/409/413/503 to corresponding v3 problems, maps 400/422 to bad request vs unprocessable content while translating and truncating"
+          - code: invalidParams
+          - text: ", relays bounded Hub detail text, and defaults all other cases to a generic bad gateway response."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 130–146
+      - generic: ·
+      - generic: 17 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: handleUnexpectedError
+          - text: to map
+          - code: ResourceNotFoundError
+          - text: to forbidden and
+          - code: DatabaseError
+          - text: /other unknowns to internal-error responses, with corresponding warning/error logging including status codes and the caught error object.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Exports toInvalidParams to convert zod issues into the shared InvalidParam[] format using the issue path joined by dots and the issue message as the reason.
+      - generic "Low complexity": Low
+    - generic "apps/web/app/api/v3/feedbackRecords/lib/schemas.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds the core v3 filter schema for listing/counting feedback records, including shared optional equality filters (source/sourceId/fieldType/fieldId/etc.) plus…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Extends the shared filter schema with list-specific keyset pagination parameters (limit with 1–1000 bounds and cursor), and defines…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 81–138
+      - generic: ·
+      - generic: 58 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: "Defines similarity search parameterization: exported defaults/maxima for limit and minimum score, a similarity filters schema ("
+          - code: limit
+          - text: ","
+          - code: cursor
+          - text: ","
+          - code: minScore
+          - text: ), and a search-text schema that adds a bounded
+          - code: query
+          - text: string; defines corresponding inferred types.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Introduces the internal mapping (VALUE_FIELD_BY_TYPE) that specifies which value_ field(s) are acceptable/required for each field_type.
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 163–235
+      - generic: ·
+      - generic: 73 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: "Adds the create-body field schema and its refined variant: enforces bounds for provenance identifiers and response fields; constrains"
+          - code: metadata
+          - text: by UTF-8 byte-length via
+          - code: refine
+          - text: ; and adds a
+          - code: superRefine
+          - text: rule requiring that at least one of the
+          - code: value_*
+          - text: fields implied by
+          - code: field_type
+          - text: is present (with a targeted issue path/message).
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 238–274
+      - generic: ·
+      - generic: 37 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Defines the update-body schemas as a mutable subset of the create fields (picked fields only), adds a refinement requiring at least one updatable field to be present, and provides both a refined update schema and a plain “raw fields” shape for
+          - code: inputSchema
+          - text: use.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 275–294
+      - generic: ·
+      - generic: 20 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: "Introduces batch-create constraints: exports"
+          - code: MAX_FEEDBACK_RECORDS_PER_BATCH = 50
+          - text: and defines a batch body schema containing a bounded
+          - code: records
+          - text: array of validated create bodies, plus the inferred batch type.
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/app/api/v3/feedbackRecords/lib/serializers.ts"
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 1–99
+      - generic: ·
+      - generic: 99 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Introduces
+          - code: TV3FeedbackRecord
+          - text: plus the core serializer
+          - code: serializeV3FeedbackRecord
+          - text: . The serializer builds a DTO starting with
+          - code: id
+          - text: ", renames Hub"
+          - code: tenant_id
+          - text: to outward
+          - code: dataset_id
+          - text: only when
+          - code: tenant_id
+          - text: is defined, and then copies a fixed allowlist of optional fields from the source (including explicit null values) into the DTO, ensuring the output shape is restricted to documented fields.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds TV3FeedbackRecordMatch and serializeV3FeedbackRecordMatch, mapping a similarity-search “hit” row into a minimal match DTO containing feedback_record_id,…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "Adds TV3FeedbackDataset and serializeV3FeedbackDataset, mapping an input { id, name } object into the dataset DTO."
+      - generic "Low complexity": Low
+    - generic "apps/web/app/api/v3/feedbackRecords/lib/serializers.test.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Introduces the new Vitest test module, importing serializer functions and asserting/constructing a full FeedbackRecordData fixture used to validate complete…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 43–115
+      - generic: ·
+      - generic: 73 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds a test suite for
+          - code: serializeV3FeedbackRecord
+          - text: that pins the exact emitted field set, verifies tenant-to-
+          - code: dataset_id
+          - text: renaming while never emitting
+          - code: tenant_id
+          - text: ", ensures extras outside the allowlist are dropped, confirms absent fields are omitted (but explicit"
+          - code: "null"
+          - text: values are retained), and checks
+          - code: dataset_id
+          - text: is omitted when the input contains no tenant.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 117–145
+      - generic: ·
+      - generic: 29 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds tests for
+          - code: serializeV3FeedbackRecordMatch
+          - text: confirming it emits exactly the four specified match fields and excludes any additional properties provided by the input.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds a test for serializeV3FeedbackDataset verifying the output is limited to only id and name.
+      - generic "Low complexity": Low
+    - generic "apps/web/app/api/v3/lib/feedback-access.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Introduces server-only access gating module imports, including the feedback entitlement checker, workspace/team permission types, the v3 workspace access…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds documentation describing that this gate combines v3 workspace access (via requireV3WorkspaceAccess) with the feedbackDirectories entitlement requirement…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 20–49
+      - generic: ·
+      - generic: 30 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: requireUnifyFeedbackWorkspaceAccess
+          - text: ": resolves workspace access using"
+          - code: requireV3WorkspaceAccess
+          - text: ", short-circuits by returning a"
+          - code: Response
+          - text: if access fails, then checks
+          - code: getIsFeedbackDirectoriesEnabled
+          - text: and returns a standardized forbidden
+          - code: Response
+          - text: when the entitlement is missing; otherwise returns the resolved
+          - code: V3WorkspaceContext
+          - text: .
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/app/api/v3/lib/response.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "Adds the exported problemConflict helper, returning a 409 Problem Details response with title: \"Conflict\" and code: \"conflict\", passing through detail,…"
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "Repositions the existing exported problemBadGateway helper in the file; its signature and problemResponse(502, ..., code: \"bad_gateway\") behavior remain the…"
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "Adds documentation and the exported problemServiceUnavailable helper, returning a 503 Problem Details response with title: \"Service Unavailable\" and code:…"
+      - generic "Low complexity": Low
+    - generic "apps/web/app/api/v3/unify-feedback/taxonomy/lib/access.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Reworked imports and the function’s documentation/legacy-guard description to switch from requireV3WorkspaceAccess to requireUnifyFeedbackWorkspaceAccess, and…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 27–27
+      - generic: ·
+      - generic: 1 line
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: In
+          - code: requireUnifyDirectoryAccess
+          - text: ", replaced the authorization call from"
+          - code: requireV3WorkspaceAccess(...)
+          - text: to
+          - code: requireUnifyFeedbackWorkspaceAccess(...)
+          - text: ", with the same parameter wiring."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 37–38
+      - generic: ·
+      - generic: 2 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Removed the explicit organization “feedback directories enabled” check (
+          - code: getIsFeedbackDirectoriesEnabled(...)
+          - text: +
+          - code: problemForbidden(...)
+          - text: ) so execution flows directly from the workspace access result to fetching directories and validating directory membership.
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/app/api/v3/feedbackRecords/lib/errors.test.ts"
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 1–94
+      - generic: ·
+      - generic: 94 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: hubErrorToProblemResponse
+          - text: "test coverage verifying status mapping and strict response-body constraints: truncation of relayed 4xx details, capping and truncating"
+          - code: invalid_params
+          - text: ", never relaying upstream 5xx details, suppressing sensitive details for Hub 401/403/404, mapping"
+          - code: "null"
+          - text: to a generic 502 with a fixed message, and mapping 503 to a specific actionable configuration message rather than the generic unavailable behavior.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 96–123
+      - generic: ·
+      - generic: 28 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: handleUnexpectedError
+          - text: "tests verifying exception-to-response mapping:"
+          - code: ResourceNotFoundError
+          - text: becomes 403 without leaking the resource type/id,
+          - code: DatabaseError
+          - text: becomes a generic 500 with a fixed detail string, and an unknown
+          - code: Error
+          - text: becomes a generic 500 without echoing the original message.
+        - button "Comment":
+          - generic: Comment
+- separator "Resize panel"
+- button "Open command palette":
+  - generic "Command": ⌘
+  - generic: K
+- region "Notifications":
+  - status:
+    - list
+- dialog "View settings":
+  - generic: Diff layout
+  - button "Unified":
+    - generic: Unified
+  - button "Split" [pressed]:
+    - generic: Split
+  - button "Semantic":
+    - generic: Semantic
+  - group "Inline change highlighting":
+    - generic: Inline change highlighting
+    - button "Word" [pressed]:
+      - generic: Word
+    - button "Character":
+      - generic: Character
+    - button "None":
+      - generic: None
+  - generic: Content
+  - button "Word wrap" [pressed]:
+    - generic: Word wrap
+  - button "Hide whitespace-only edits":
+    - generic: Hide whitespace-only edits
+  - button "Show blame" [pressed]:
+    - generic: Show blame
+  - button "Show entity headers" [pressed]:
+    - generic: Show entity headers

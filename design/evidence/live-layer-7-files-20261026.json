@@ -1,0 +1,66 @@
+[
+  {
+    "path": "apps/web/locales/de-DE.json",
+    "text": "M\nde-DE.json"
+  },
+  {
+    "path": "apps/web/locales/en-US.json",
+    "text": "M\nen-US.json"
+  },
+  {
+    "path": "apps/web/locales/es-ES.json",
+    "text": "M\nes-ES.json"
+  },
+  {
+    "path": "apps/web/locales/fr-FR.json",
+    "text": "M\nfr-FR.json"
+  },
+  {
+    "path": "apps/web/locales/hu-HU.json",
+    "text": "M\nhu-HU.json"
+  },
+  {
+    "path": "apps/web/locales/ja-JP.json",
+    "text": "M\nja-JP.json"
+  },
+  {
+    "path": "apps/web/locales/nl-NL.json",
+    "text": "M\nnl-NL.json"
+  },
+  {
+    "path": "apps/web/locales/pt-BR.json",
+    "text": "M\npt-BR.json"
+  },
+  {
+    "path": "apps/web/locales/pt-PT.json",
+    "text": "M\npt-PT.json"
+  },
+  {
+    "path": "apps/web/locales/ro-RO.json",
+    "text": "M\nro-RO.json"
+  },
+  {
+    "path": "apps/web/locales/ru-RU.json",
+    "text": "M\nru-RU.json"
+  },
+  {
+    "path": "apps/web/locales/sv-SE.json",
+    "text": "M\nsv-SE.json"
+  },
+  {
+    "path": "apps/web/locales/tr-TR.json",
+    "text": "M\ntr-TR.json"
+  },
+  {
+    "path": "apps/web/locales/zh-Hans-CN.json",
+    "text": "M\nzh-Hans-CN.json"
+  },
+  {
+    "path": "apps/web/locales/zh-Hant-TW.json",
+    "text": "M\nzh-Hant-TW.json"
+  },
+  {
+    "path": "apps/web/i18n.lock",
+    "text": "M\ni18n.lock"
+  }
+]

@@ -1,30 +1,19 @@
 # Paper submission
 
-[Final iteration](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/1-0) · [Challenge and developer](https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0). Paper requires sign-in.
+The four pages cover the problem and source evidence, the design decisions, the final review states, and tradeoffs and next checks. The final page of review states includes Overview, range comments and an optional dark theme. Source screenshots remain authentic; captions sit outside the interface.
 
-Four Paper pages, with related boards kept at full size:
+All 52 pinned diffs and seven layer assignments are now verified. The live original already has continuous scrolling within a layer. This design extends it across layers, separates summary reading from navigation, restores compact review signals and keeps file progress explicit.
 
-1. **Problem & evidence.** Challenge and assumed developer, followed by three groups of annotated original captures: 1–3, Finding the right code; 4–6, Keeping your place and progress; and 7, Reading comment status. Each point keeps its numbered orange pointer and explanation. Points 1 and 2 share one summary capture. Overview filtering appears only as a future-work sentence on page 4.
-2. **Design decisions.** Three core decisions lead the opening and the decision canvas: read before navigating, inspect and return, and mark progress deliberately. Five studies explain these choices and two supporting refinements: separate reading from navigation; nest files and preserve the return trip; and make viewed progress explicit with Undo. Control placement and context scope follow as supporting refinements. Each explains a choice, alternatives and a cost. Status-first comment ordering stays in the final example and next checks because one captured thread is too narrow to make it a headline argument.
-3. **Final iteration.** One editable 1440 × 960 screen on its own board, with eight separate before/after details around it on the canvas. Pointers 1–6 identify file controls, summary expansion, nested files, progress, statement links and Inspect/Return. A shared 7–8 marker points to the Comments tab; the two details below show scope and resolved history. Each comparison gives a reason and expected impact. A linked collapsed/expanded thread example sits below change 8. Expansion preserves code position; the separate line link navigates to L75–90. The canvas also shows the open Tools dialog. These are refinements of the selected decisions, not eight research findings.
-4. **Tradeoffs & next steps.** Three choices to test: space for context, narrow code highlights and status-first comments. Each pairs a question with a possible revision. The next steps are observing a real review, trying a more complex PR and revising from what I learn. Summary-link updates and viewed-state resets need discussion with the team.
+The current 2× exports and manifest are in `design/continuous-review`. Earlier designs in other folders are historical and are not in the submission ZIP. No video is included.
 
-Each decision study uses the captured task content and labels the sketches as current explorations. They are not A/B-test results. The original already supports summary navigation, complexity filters, comment severity/resolved filters and Focus. The changes refine those relationships and actions.
+Paper design and decisions (sign-in required)
+https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-1-0/5FN-0
 
-The final screen retains the compact source header. The added wordmark is removed. Sample progress lives in navigation. Gray indicates navigation, display and summary selection; orange highlights the linked code, and red/green retain diff meaning.
+Final iteration in Paper
+https://app.paper.design/file/01M5MWMDHE2E77VV689SCNHGV7/p-4-0/6UY-0
 
-Current 2× PNG and editable JSX exports are in design/clean-submission. The authentic source screenshots are 2560 × 1440 browser captures at a 1280 × 720 CSS viewport. The revised after sections are editable Paper components exported at 2×. Evidence sections 1–6 use enlarged, clipped details from that same source capture; annotations remain separate editable layers. No AI image enhancement is used. The manifest maps 22 top-level boards across four Paper pages. Its 22 image exports keep the final screen and each comparison separate. Canvas connectors have an exact JSX/style export. The previous combined map is archived outside the submission pack. Previous exports are recoverable from Git history. Earlier exploratory Paper work remains in the archive file 01M5AQACJZP42ZGTRX7GF9ERE7 and is not part of the submission route.
+Interactive prototype
+https://parthawe.github.io/coderabbit-change-stack-review/
 
-Layout references came from [Chronicle’s gallery](https://chroniclehq.com/gallery), particularly the [Lovable case study](https://chroniclehq.com/gallery/lovable-case-study) and the [FlowOS sample proposal](https://chroniclehq.com/gallery/how-flowos-helps-openai-collaborate-faster). The opening uses a connected review flow; decision pages use diagrams suited to the choice; interaction descriptions place each action beside its result. These are layout references only. No reference images, claims or branding were copied into the submission.
-
-Line icons connect related sections across all four pages: summary, code, Return, file viewed, controls, comments, Focus and comparison. Tradeoffs and the next developer check have distinct symbols. Every icon sits beside a text label; orange remains reserved for pointers and code emphasis. Original screenshots and the product interface retain their existing iconography.
-
-The site remains the prototype. The submission links are Paper, prototype and one-page rationale.
-
-The redundant observation list and full guard/Focus screens are archived in archive/paper-supporting-states. The submission now explains three core decisions and two supporting refinements in first-person reasoning. The underlying review flow remains; summary wording and comment metadata now stay visible.
-
-The previous text-only change-note board and Overview evidence section are recoverable in archive/paper-final-cuts. Submission ZIPs include current exports and prototype source; recording scripts, videos and earlier explorations are excluded.
-
-The comparison review restored source information we had over-simplified: layer change counts and finding labels, full summary wording and comment metadata. Detail 4 separates existing summary-seen and file-viewed controls from the new file-progress/Undo sequence. Detail 7 compares identical layer totals. Detail 8 keeps source metadata and collapses the discussion, rather than stripping the finding down to a title. These choices remain hypotheses, especially resolution-first ordering based on one captured thread.
-
-Browse summaries stays above the scrolling explanations. Choosing an item expands and focuses its heading without moving the diff, changing files or marking progress. Its options follow the current scope and complexity filter. Counts describe captured content, not completed review.
+One-page rationale
+https://parthawe.github.io/coderabbit-change-stack-review/rationale.pdf

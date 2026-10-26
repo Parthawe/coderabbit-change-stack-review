@@ -1012,3 +1012,7 @@
   width: var(--no-wrap-width);
   min-width: 100%;
 }
+
+/* The original uses full-width code for added/deleted files, even in Split. */
+.single-sided .diff-row,.single-sided .side-labels{grid-template-columns:minmax(0,1fr)}
+.no-wrap .single-sided .diff-rows,.no-wrap .single-sided .side-labels{width:var(--no-wrap-width);min-width:100%}

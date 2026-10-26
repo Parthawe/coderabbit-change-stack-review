@@ -1,5 +1,5 @@
 (
-    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', position: 'relative', WebkitFontSmoothing: 'antialiased' }}>
+    <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', position: 'relative', WebkitFontSmoothing: 'antialiased' }}>
       <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', height: '960px', left: '0px', overflow: 'clip', position: 'absolute', top: '0px', width: '1440px' }}>
         <div style={{ alignItems: 'center', backgroundColor: '#FDFDFE', borderBottomColor: '#E3E0E7', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '12px', height: '48px', paddingLeft: '20px', paddingRight: '12px', width: '1440px' }}>
           <div style={{ alignContent: 'center', boxSizing: 'border-box', color: '#65616A', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '16px', width: '72px' }}>
@@ -430,272 +430,233 @@
             <div style={{ backgroundColor: '#FFFFFF', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', height: '784px', overflow: 'clip', width: '880px' }}>
               <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', flexShrink: '0', width: '880px' }}>
                 <div style={{ alignItems: 'center', backgroundColor: '#F3F0F6', borderBottomColor: '#DCD6E2', borderBottomStyle: 'solid', borderBottomWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '36px', paddingBlock: '6px', paddingInline: '12px', width: '880px' }}>
-                  <div style={{ boxSizing: 'border-box', color: '#4B4057', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#4B4057', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
                     ▧ apps/web/app/api/v3/feedbackRecords/lib/access.ts
                   </div>
                 </div>
                 <div style={{ backgroundColor: '#FAF9FB', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '28px', width: '880px' }}>
-                  <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', paddingBlock: '5px', paddingInline: '12px', width: '440px' }}>
-                    <div style={{ boxSizing: 'border-box', color: '#716879', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                      Before · file added
-                    </div>
-                  </div>
-                  <div style={{ borderLeftColor: '#DDD6E4', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', paddingBlock: '5px', paddingInline: '12px', width: '440px' }}>
-                    <div style={{ boxSizing: 'border-box', color: '#716879', display: 'flex', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                      After
+                  <div style={{ borderLeftColor: '#DDD6E4', borderLeftStyle: 'solid', borderLeftWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', paddingBlock: '5px', paddingInline: '12px', width: '880px' }}>
+                    <div style={{ boxSizing: 'border-box', color: '#716879', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
+                      After · added file
                     </div>
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     49
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', width: '816px' }}>
                     export async function resolveWorkspaceFeedbackTenant({
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     50
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}authentication,
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     51
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}workspaceId,
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     52
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}minPermission,
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     53
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}requestId,
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     54
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}instance,
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     55
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}datasetId,
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     56
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', width: '816px' }}>
                     }: TResolveParams): Promise<TResolveResult> {
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     57
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}const authResult = await requireUnifyFeedbackWorkspaceAccess(
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     58
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'    '}authentication,
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     59
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'    '}workspaceId,
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     60
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'    '}minPermission,
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     61
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'    '}requestId,
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     62
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'    '}instance
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     63
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '});
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     64
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}if (authResult instanceof Response) {
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F2E8', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     65
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'    '}return { ok: false, response: authResult };
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     66
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}}
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     67
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', width: '376px' }}>
-
-                  </div>
+                  <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '816px' }} />
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     68
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}const { workspaceId: resolvedWorkspaceId, organizationId } = authResult;
                   </div>
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     69
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', width: '376px' }}>
-
-                  </div>
+                  <div style={{ boxSizing: 'border-box', flexShrink: '0', width: '816px' }} />
                 </div>
               </div>
-              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', width: '880px' }}>
-                <div style={{ background: 'repeating-linear-gradient(135deg, rgb(250, 249, 251), rgb(250, 249, 251) 3px, rgb(237, 235, 239) 3px, rgb(237, 235, 239) 4px) 0% 0%', borderRightColor: '#D5D2D8', borderRightStyle: 'solid', borderRightWidth: '1px', boxSizing: 'border-box', flexShrink: '0', width: '440px' }} />
-                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '440px' }}>
+              <div style={{ boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: 'fit-content', width: '880px' }}>
+                <div style={{ backgroundColor: '#E5F0E5', boxSizing: 'border-box', display: 'flex', flexShrink: '0', gap: '8px', paddingBlock: '2px', paddingInline: '10px', width: '880px' }}>
                   <div style={{ boxSizing: 'border-box', color: '#397548', display: 'flex', flexShrink: '0', flexWrap: 'wrap', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', justifyContent: 'end', lineHeight: '22px', textAlign: 'right', width: '26px' }}>
                     70
                   </div>
-                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '376px' }}>
+                  <div style={{ boxSizing: 'border-box', color: '#000000', flexShrink: '0', fontFamily: '"Hack-Regular", "Hack", system-ui, sans-serif', fontSize: '13px', lineHeight: '22px', overflowWrap: 'anywhere', whiteSpace: 'pre-wrap', width: '816px' }}>
                     {'  '}const directories = await getFeedbackDirectoriesByWorkspaceId(resolvedWorkspaceId);
                   </div>
                 </div>
-              </div>
-            </div>
-            <div style={{ backgroundColor: '#FAF8FB', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'none', flexShrink: '0', paddingBlock: '8px', paddingInline: '24px' }}>
-              <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '12px', lineHeight: '18px' }}>
-                Full added file · 194 lines · layer-only semantic diff is not reproduced
-              </div>
-              <div style={{ boxSizing: 'border-box', color: '#211F24', display: 'none', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '13px', lineHeight: '18px' }}>
-                The source run is out of date. Resolved historical findings do not establish a current defect.
               </div>
             </div>
           </div>
@@ -812,7 +773,7 @@
         </div>
         <div style={{ alignItems: 'center', backgroundColor: '#EEF1F5', borderTopColor: '#E3E0E7', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', flexShrink: '0', height: '36px', justifyContent: 'space-between', minHeight: '36px', paddingInline: '20px', width: '1440px' }}>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px' }}>
-            Working draft · source verification pending · local notes only
+            Interactive prototype · notes stay in this browser
           </div>
           <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '11px', lineHeight: '14px', whiteSpace: 'pre-wrap' }}>
             Paper{'  '}·{'  '}Rationale{'  '}·{'  '}About

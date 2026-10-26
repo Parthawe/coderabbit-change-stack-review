@@ -1,0 +1,7 @@
+[
+  "apps/web/modules/hub/types.ts",
+  "apps/web/modules/hub/utils.ts",
+  "apps/web/modules/hub/service.ts",
+  "apps/web/modules/hub/utils.test.ts",
+  "apps/web/modules/hub/service.test.ts"
+]

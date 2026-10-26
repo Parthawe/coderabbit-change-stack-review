@@ -1,0 +1,502 @@
+- status
+- banner:
+  - link "Back to triage":
+    - /url: /triage
+    - generic: Triage
+  - status
+  - paragraph: Feedback records MCP integration
+  - 'link "formbricks #8650: View pull request on GitHub"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+    - generic: formbricks
+    - generic: "#8650"
+  - generic: ·
+  - generic: 52 files
+  - button "Continue with GitHub":
+    - generic: Continue with GitHub
+  - status
+  - button "Submit review":
+    - generic: Submit review
+- complementary "Layer navigation":
+  - separator "Collapse sidebar"
+  - radiogroup "Rail mode":
+    - radio "Layers" [checked]:
+      - generic: Layers
+    - radio "Files":
+      - generic: Files
+  - button "About Layers and Files":
+  - button "Search pull request":
+  - button "Collapse sidebar" [expanded]:
+    - generic: Collapse sidebar
+  - button "Pull request overview":
+    - generic: Overview
+  - button "Security blast radius" [disabled]:
+    - generic: Security blast radius isn’t available for this repository yet.
+    - generic: Security blast radius
+  - button "Security architecture impact":
+    - generic: Security architecture impact
+  - 'button "Layer 1: API contracts and access controls. 9 files touched. 3 findings. 1120 lines added, 11 removed. 1 major finding, 1 minor finding"':
+    - generic: "1"
+    - paragraph: API contracts and access controls
+    - generic: 9 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-11"
+    - generic: "+1120"
+  - 'button "Layer 2: Feedback record operations. 2 files touched. 1 finding. 2446 lines added, 0 removed. 1 major finding"':
+    - generic: "2"
+    - paragraph: Feedback record operations
+    - generic: 2 files touched
+    - generic: "1"
+    - generic: "+2446"
+  - 'button "Layer 3: Hub feedback-record support. 5 files touched. 342 lines added, 13 removed"':
+    - generic: "3"
+    - paragraph: Hub feedback-record support
+    - generic: 5 files touched
+    - generic: "-13"
+    - generic: "+342"
+  - 'button "Layer 4: MCP feedback-record tools. 3 files touched. 1 finding. 1034 lines added, 0 removed. 1 trivial finding"':
+    - generic: "4"
+    - paragraph: MCP feedback-record tools
+    - generic: 3 files touched
+    - generic: "1"
+    - generic: "+1034"
+  - 'button "Layer 5: MCP authorization and registration. 7 files touched. 138 lines added, 22 removed"':
+    - generic: "5"
+    - paragraph: MCP authorization and registration
+    - generic: 7 files touched
+    - generic: "-22"
+    - generic: "+138"
+  - 'button "Layer 6: OAuth metadata and documentation. 10 files touched. 2 findings. 610 lines added, 81 removed. 1 minor finding, 1 trivial finding"':
+    - generic: "6"
+    - paragraph: OAuth metadata and documentation
+    - generic: 10 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-81"
+    - generic: "+610"
+  - 'button "Layer 7: Additional changes. 16 files touched. 32 lines added, 0 removed"':
+    - generic: "7"
+    - paragraph: Additional changes
+    - generic: 16 files touched
+    - generic: "+32"
+  - button "Scroll up":
+    - text: View more
+  - generic: Review Tools
+  - 'button "Review history. Latest review: Feedback records MCP integration · Out of date. Commit 23cdac2. Select review snapshot"':
+    - generic: Review history
+    - text: Stale ·
+    - code: 23cdac2
+  - button "Settings. Display settings":
+    - generic: Settings
+- main:
+  - 'button "Layer details: MCP feedback-record tools"'
+  - generic: MCP feedback-record tools
+  - separator
+  - generic: Registers ten feedback-record MCP tools with input schemas, read/write scope guards, response conversion, and mutation audit-log handling.
+  - generic: Depends on
+  - button "Feedback record operations":
+    - generic: Feedback record operations
+  - group "Content view":
+    - button "Files" [pressed]:
+      - generic: Files
+    - button "Diagrams":
+      - generic: Diagram
+  - group "File navigation":
+    - button "Show files in this layer (3 files, 3 not viewed)" [expanded]:
+      - text: 1 of 3
+      - generic: 3 left
+    - dialog:
+      - tree "Layer file tree":
+        - treeitem "apps" [expanded] [level=1]:
+          - generic: apps
+          - treeitem "web" [expanded] [level=2]:
+            - generic: web
+            - treeitem "modules" [expanded] [level=3]:
+              - generic: modules
+              - treeitem "mcp" [expanded] [level=4]:
+                - generic: mcp
+                - treeitem "tools" [expanded] [level=5]:
+                  - generic: tools
+                  - 'treeitem "Added file; +521 -0 feedback-records.test.ts 3 comments, 3 resolved, highest severity: trivial, 1 trivial finding" [level=6]':
+                    - generic "Medium complexity":
+                    - generic "Added file; +521 -0": A
+                    - generic: feedback-records.test.ts
+                    - 'generic "3 comments, 3 resolved, highest severity: trivial, 1 trivial finding"':
+                      - text: "3"
+                  - treeitem "Added file; +419 -0 feedback-records.ts" [level=6]:
+                    - generic "High complexity":
+                    - generic "Added file; +419 -0": A
+                    - generic: feedback-records.ts
+                  - treeitem "Modified file; +94 -0 schemas.ts" [active] [level=6] [selected]:
+                    - generic "Medium complexity":
+                    - generic "Modified file; +94 -0": M
+                    - generic: schemas.ts
+    - separator
+    - button "Previous file" [disabled]:
+    - button "Next file":
+  - group "Review controls":
+    - button "View settings":
+    - button "Mark all files in this layer viewed":
+    - button "Collapse all files":
+    - button "Enter focus mode":
+  - button "Hide review controls" [expanded]:
+  - separator "Resize old and new code panes"
+  - button "Collapse apps/web/modules/mcp/tools/schemas.ts" [expanded]:
+    - generic "Modified"
+    - generic: apps/web/modules/mcp/tools/schemas.ts
+    - button "Copy file path apps/web/modules/mcp/tools/schemas.ts":
+    - img "94 additions and 0 deletions":
+      - generic: "+94"
+    - button "Add file comment on apps/web/modules/mcp/tools/schemas.ts":
+    - button "Semantic outline with 21 changed entities":
+      - generic: "21"
+    - button "Compact semantic diff":
+    - button "Semantic diff with context" [pressed]:
+    - button "Mark file as viewed in this layer":
+  - code:
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - button "Expand hidden lines above":
+    - button "Expand hidden lines below":
+    - generic: 117 unmodified lines
+    - generic: "121"
+    - generic: "122"
+    - generic: "123"
+    - generic: "import { z } from \"zod\";"
+    - generic: "import { ZId } from \"@formbricks/types/common\";"
+    - generic: "import { ZSurveyFilters, ZSurveyStatus, ZSurveyType } from \"@formbricks/types/surveys/types\";"
+    - generic: // list_workspaces takes no arguments — it returns the workspaces the authenticated caller can access.
+    - generic: "export const ZMcpListWorkspacesInput = z.object({});"
+  - code:
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "10"
+    - generic: "11"
+    - generic: "12"
+    - generic: "13"
+    - generic: "131"
+    - generic: "132"
+    - generic: "133"
+    - generic: "134"
+    - generic: "135"
+    - generic: "136"
+    - generic: "import { z } from \"zod\";"
+    - generic: "import { ZId } from \"@formbricks/types/common\";"
+    - generic: "import { ZSurveyFilters, ZSurveyStatus, ZSurveyType } from \"@formbricks/types/surveys/types\";"
+    - button "Blame Tiago Farto, Jul 27 2026, L4-13":
+      - generic: Tiago Farto
+      - generic: Jul 27 2026
+      - generic: L4-13
+    - generic: "import {"
+    - generic: MAX_FEEDBACK_RECORDS_PER_BATCH,
+    - generic: ZV3FeedbackRecordCreateBody,
+    - generic: ZV3FeedbackRecordCreateBodyFields,
+    - generic: ZV3FeedbackRecordFilters,
+    - generic: ZV3FeedbackRecordListFilters,
+    - generic: ZV3FeedbackRecordSearchFilters,
+    - generic: ZV3FeedbackRecordSimilarityFilters,
+    - generic: ZV3FeedbackRecordUpdateBodyFields,
+    - generic: "} from \"@/app/api/v3/feedbackRecords/lib/schemas\";"
+    - generic: // list_workspaces takes no arguments — it returns the workspaces the authenticated caller can access.
+    - generic: "export const ZMcpListWorkspacesInput = z.object({});"
+    - button "Blame 17 commits, Jul 20 2026 - Jul 27 2026, L134-207":
+      - generic: 17 commits
+      - generic: Jul 20 2026 - Jul 27 2026
+      - generic: L134-207
+    - generic: // Feedback records live in the Hub, addressed by a tenant that is always resolved server-side from the
+    - generic: "// caller's workspace + feedback dataset. No schema here accepts a tenant_id; the Hub's `tenant_id` is"
+- complementary:
+  - button "Collapse right sidebar" [expanded]:
+    - generic: Collapse right sidebar
+  - generic: Layer context
+  - complementary:
+    - button "Summaries 24" [pressed]:
+      - generic: Summaries 24
+    - button "Comments 3":
+      - generic: Comments 3
+    - generic "Summary 1 of 24, 1 of 24 summaries seen":
+      - generic "Summary 1 of 24": 1/24
+      - generic: ·
+      - generic "1 of 24 summaries seen":
+        - generic: 1/24
+    - button "Reset progress and return to top":
+    - button "Pause following code" [pressed]:
+    - generic: Complexity
+    - group "Summary complexity filters":
+      - button "Show all complexity summaries" [pressed]:
+        - generic: All
+      - button "Show high complexity summaries":
+        - generic: High
+      - button "Show medium complexity summaries":
+        - generic: Medium
+      - button "Show low complexity summaries":
+        - generic: Low
+    - button "Collapse all visible summaries":
+    - generic "apps/web/modules/mcp/tools/schemas.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Replaced the initial imports with a new consolidated import from the feedback-records v3 schemas module, bringing in constants and Zod schema building blocks…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 135–208
+      - generic: ·
+      - generic: 74 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Introduced feedback-dataset and feedback-record MCP input schemas, including a shared optional
+          - code: datasetId
+          - text: field and multiple exported
+          - code: ZMcp*Input
+          - text: Zod objects built via
+          - code: z.object
+          - text: and
+          - code: extend
+          - text: over the imported v3 feedback-record schemas (covering list/get/create/count/update/delete/search/similarity operations, including a batched create input bounded by
+          - code: MAX_FEEDBACK_RECORDS_PER_BATCH
+          - text: ).
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Extended the exported TMcpInput TypeScript inference aliases to include the newly added feedback-related input types, replacing the prior block that only…
+      - generic "Low complexity": Low
+    - generic "apps/web/modules/mcp/tools/feedback-records.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Introduces the module and pulls in the required MCP server/types plus the feedback-record v3 operation functions, audit-log helpers, scope/auth utilities, and…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Defines the MCP authorization scope constants for feedback-record read and write operations.
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds a reusable readOnlyHandler wrapper that derives the MCP request id, guards feedbackRecords:read scope, invokes a provided v3 operation, and converts its…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 73–115
+      - generic: ·
+      - generic: 43 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds a reusable
+          - code: writeHandler
+          - text: wrapper that guards
+          - code: feedbackRecords:write
+          - text: scope, builds an audit log for the mutation type, stamps audit status based on whether the mutation response is OK, queues the audit log on both success and exceptions, and rethrows errors after ensuring audit logging.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 117–207
+      - generic: ·
+      - generic: 91 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: registerFeedbackRecordTools
+          - text: "registrations for the read-only tools: listing feedback datasets, listing feedback records (spread input into the operation’s filter contract), counting feedback records, and getting a single feedback record by ids, each wired through"
+          - code: readOnlyHandler
+          - text: with the relevant v3 operation parameters and
+          - code: MCP_API_ROUTE
+          - text: .
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 208–234
+      - generic: ·
+      - generic: 27 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Registers the
+          - code: create_feedback_record
+          - text: write tool with its schema and metadata, wiring it through
+          - code: writeHandler
+          - text: so the created record mutation uses the shared audit-log lifecycle.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 235–303
+      - generic: ·
+      - generic: 69 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Registers the
+          - code: create_feedback_records
+          - text: write tool with custom async logic that computes an audit-log array per record, queues stamped per-record audit logs on success, and also queues an audit entry even when no audit logs are stamped; on failure it still queues via the same outcome mechanism before rethrowing.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 305–360
+      - generic: ·
+      - generic: 56 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Registers the
+          - code: update_feedback_record
+          - text: and
+          - code: delete_feedback_record
+          - text: write tools, each wired through
+          - code: writeHandler
+          - text: with their respective v3 update/delete operations and audit-log lifecycle.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Registers the search_feedback_records read-only tool, wiring query/pagination inputs into the v3 search operation via readOnlyHandler, returning only scored…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Registers the find_similar_feedback_records read-only tool, wiring the similarity search inputs into the v3 “find similar” operation via readOnlyHandler.
+      - generic "Low complexity": Low
+    - generic "apps/web/modules/mcp/tools/feedback-records.test.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds Vitest imports and module/function imports used by the test suite, and sets up vi.mock for the feedback-record operations, audit-log helpers, and logger…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 47–143
+      - generic: ·
+      - generic: 97 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Defines shared identifiers/auth fixtures and a
+          - code: createToolServer()
+          - text: helper that captures registered MCP tools; includes tests asserting the ten tools register in a fixed order and that read-only/idempotency/destructive annotations are set correctly for list/count/search vs create/update/delete.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Tests list_feedback_datasets handler delegation to listV3FeedbackDatasets and verifies structured content mapping from the operations-layer response.
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 167–203
+      - generic: ·
+      - generic: 37 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Tests
+          - code: list_feedback_records
+          - text: handler filter passthrough to
+          - code: listV3FeedbackRecords
+          - text: ", and validates insufficient-scope behavior (returns an error and does not call the operations function)."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Tests get_feedback_record handler calls getV3FeedbackRecord with the workspaceId and feedback record id.
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 221–275
+      - generic: ·
+      - generic: 55 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Tests
+          - code: create_feedback_record
+          - text: "handler: (a) delegates to"
+          - code: createV3FeedbackRecord
+          - text: ", (b) builds/queues an audit log for the “created” event and updates"
+          - code: auditLog.status
+          - text: to success on success, (c) enforces write-scope requirement, and (d) on failure, keeps failure status, ensures
+          - code: auditLog.eventId
+          - text: is set for correlation, and queues the failure audit log.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 277–329
+      - generic: ·
+      - generic: 53 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Tests
+          - code: delete_feedback_record
+          - text: "handler: (a) delegates to"
+          - code: deleteV3FeedbackRecord
+          - text: and treats a 204/no-content response as success without error, (b) builds/queues an audit log for “deleted” and updates status to success, (c) enforces write-scope restriction (prevents reaching the operation), and (d) on failure, keeps failure status, sets
+          - code: auditLog.eventId
+          - text: ", and queues the failure audit log."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 331–400
+      - generic: ·
+      - generic: 70 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Tests
+          - code: search_feedback_records
+          - text: and
+          - code: find_similar_feedback_records
+          - text: "handlers: verifies query/params passthrough and structured data mapping for success, and enforces read-scope requirement by asserting no operations call when scopes are missing."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "Tests count_feedback_records handler: verifies filters and instance injection are passed to countV3FeedbackRecords, asserts returned count in structured…"
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 433–491
+      - generic: ·
+      - generic: 59 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Tests
+          - code: create_feedback_records
+          - text: "batch handler: (a) enforces write-scope requirement, (b) verifies audit-event generation semantics for multiple record creations (one audit log per created record with differing statuses), and (c) verifies a single failure audit event is queued when the batch results in no successful creations."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "Tests update_feedback_record handler: verifies it passes the full input body to updateV3FeedbackRecord, builds/queues an “updated” audit log and marks…"
+      - generic "Low complexity": Low
+- separator "Resize panel"
+- button "Open command palette":
+  - generic "Command": ⌘
+  - generic: K
+- region "Notifications":
+  - status:
+    - list

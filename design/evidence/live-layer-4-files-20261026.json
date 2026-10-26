@@ -1,0 +1,14 @@
+[
+  {
+    "path": "apps/web/modules/mcp/tools/feedback-records.test.ts",
+    "text": "A\nfeedback-records.test.ts\n3"
+  },
+  {
+    "path": "apps/web/modules/mcp/tools/feedback-records.ts",
+    "text": "A\nfeedback-records.ts"
+  },
+  {
+    "path": "apps/web/modules/mcp/tools/schemas.ts",
+    "text": "M\nschemas.ts"
+  }
+]

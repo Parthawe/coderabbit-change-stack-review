@@ -1,0 +1,565 @@
+- status
+- banner:
+  - link "Back to triage":
+    - /url: /triage
+    - generic: Triage
+  - status
+  - paragraph: Feedback records MCP integration
+  - 'link "formbricks #8650: View pull request on GitHub"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+    - generic: formbricks
+    - generic: "#8650"
+  - generic: ·
+  - generic: 52 files
+  - button "Continue with GitHub":
+    - generic: Continue with GitHub
+  - status
+  - button "Submit review":
+    - generic: Submit review
+- complementary "Layer navigation":
+  - separator "Collapse sidebar"
+  - radiogroup "Rail mode":
+    - radio "Layers" [checked]:
+      - generic: Layers
+    - radio "Files":
+      - generic: Files
+  - button "About Layers and Files":
+  - button "Search pull request":
+  - button "Collapse sidebar" [expanded]:
+    - generic: Collapse sidebar
+  - button "Pull request overview":
+    - generic: Overview
+  - button "Security blast radius" [disabled]:
+    - generic: Security blast radius isn’t available for this repository yet.
+    - generic: Security blast radius
+  - button "Security architecture impact":
+    - generic: Security architecture impact
+  - 'button "Layer 1: API contracts and access controls. 9 files touched. 3 findings. 1120 lines added, 11 removed. 1 major finding, 1 minor finding"':
+    - generic: "1"
+    - paragraph: API contracts and access controls
+    - generic: 9 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-11"
+    - generic: "+1120"
+  - 'button "Layer 2: Feedback record operations. 2 files touched. 1 finding. 2446 lines added, 0 removed. 1 major finding"':
+    - generic: "2"
+    - paragraph: Feedback record operations
+    - generic: 2 files touched
+    - generic: "1"
+    - generic: "+2446"
+  - 'button "Layer 3: Hub feedback-record support. 5 files touched. 342 lines added, 13 removed"':
+    - generic: "3"
+    - paragraph: Hub feedback-record support
+    - generic: 5 files touched
+    - generic: "-13"
+    - generic: "+342"
+  - 'button "Layer 4: MCP feedback-record tools. 3 files touched. 1 finding. 1034 lines added, 0 removed. 1 trivial finding"':
+    - generic: "4"
+    - paragraph: MCP feedback-record tools
+    - generic: 3 files touched
+    - generic: "1"
+    - generic: "+1034"
+  - 'button "Layer 5: MCP authorization and registration. 7 files touched. 138 lines added, 22 removed"':
+    - generic: "5"
+    - paragraph: MCP authorization and registration
+    - generic: 7 files touched
+    - generic: "-22"
+    - generic: "+138"
+  - 'button "Layer 6: OAuth metadata and documentation. 10 files touched. 2 findings. 610 lines added, 81 removed. 1 minor finding, 1 trivial finding"':
+    - generic: "6"
+    - paragraph: OAuth metadata and documentation
+    - generic: 10 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-81"
+    - generic: "+610"
+  - 'button "Layer 7: Additional changes. 16 files touched. 32 lines added, 0 removed"':
+    - generic: "7"
+    - paragraph: Additional changes
+    - generic: 16 files touched
+    - generic: "+32"
+  - button "Scroll up":
+    - text: View more
+  - button "Scroll down":
+    - text: View more
+  - generic: Review Tools
+  - 'button "Review history. Latest review: Feedback records MCP integration · Out of date. Commit 23cdac2. Select review snapshot"':
+    - generic: Review history
+    - text: Stale ·
+    - code: 23cdac2
+  - button "Settings. Display settings":
+    - generic: Settings
+- main:
+  - 'button "Layer details: Hub feedback-record support"'
+  - generic: Hub feedback-record support
+  - separator
+  - generic: Adds Hub endpoint type bridges, count and similarity APIs, RFC 9457 error extraction, and structured error propagation.
+  - generic: Depends on
+  - button "API contracts and access controls":
+    - generic: API contracts and access controls
+  - group "Content view":
+    - button "Files" [pressed]:
+      - generic: Files
+    - button "Diagrams" [disabled]:
+      - generic: Diagram
+  - group "File navigation":
+    - button "Show files in this layer (5 files, 5 not viewed)":
+      - text: 4 of 5
+      - generic: 5 left
+    - separator
+    - button "Previous file":
+    - button "Next file" [active]:
+  - group "Review controls":
+    - button "View settings":
+    - button "Mark all files in this layer viewed":
+    - button "Collapse all files":
+    - button "Enter focus mode":
+  - button "Hide review controls" [expanded]:
+  - button "Collapse apps/web/modules/hub/service.ts" [expanded]:
+    - generic "Modified"
+    - generic: apps/web/modules/hub/service.ts
+    - button "Copy file path apps/web/modules/hub/service.ts":
+    - img "82 additions and 9 deletions":
+      - generic: "-9"
+      - generic: "+82"
+    - button "Add file comment on apps/web/modules/hub/service.ts":
+    - button "Semantic outline with 7 changed entities":
+      - generic: "7"
+    - button "Compact semantic diff":
+    - button "Semantic diff with context" [pressed]:
+    - button "Mark file as viewed in this layer":
+  - code:
+    - generic: "231"
+    - generic: "232"
+    - generic: "233"
+    - button "Expand hidden lines above":
+    - generic: 238 unmodified lines
+    - generic: "export const getFeedbackRecordTenant = async (recordId: string): Promise<FeedbackRecordTenantResult> => {"
+    - generic: const client = getHubClient();
+  - code:
+    - generic: "297"
+    - generic: "298"
+    - generic: "299"
+    - generic: "300"
+    - generic: "301"
+    - generic: "302"
+    - generic: "303"
+    - generic: "304"
+    - generic: "305"
+    - generic: "306"
+    - generic: "logger.debug({ id }, \"Hub: no embedding for feedback record yet\");"
+    - generic: "} else {"
+    - generic: "logger.warn({ err, id }, \"Hub: findSimilarFeedbackRecords failed\");"
+    - generic: "}"
+    - generic: return createHubResultFromError(err);
+    - button "Blame Dhruwang Jariwala, May 15, L302-303":
+      - generic: Dhruwang Jariwala
+      - generic: May 15
+      - generic: L302-303
+    - generic: "}"
+    - generic: "};"
+    - generic: "export const getFeedbackRecordTenant = async (recordId: string): Promise<FeedbackRecordTenantResult> => {"
+    - generic: const client = getHubClient();
+  - button "Collapse apps/web/modules/hub/utils.test.ts" [expanded]:
+    - generic "Added"
+    - generic: apps/web/modules/hub/utils.test.ts
+    - button "Copy file path apps/web/modules/hub/utils.test.ts":
+    - img "67 additions and 0 deletions":
+      - generic: "+67"
+    - button "Add file comment on apps/web/modules/hub/utils.test.ts":
+    - button "Compact semantic diff":
+    - button "Semantic diff with context" [pressed]:
+    - button "Mark file as viewed in this layer":
+  - code
+  - code:
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "10"
+    - generic: "11"
+    - generic: "12"
+    - generic: "13"
+    - generic: "14"
+    - generic: "15"
+    - generic: "16"
+    - generic: "17"
+    - generic: "18"
+    - generic: "19"
+    - generic: "20"
+    - generic: "21"
+    - generic: "22"
+    - generic: "23"
+    - generic: "24"
+    - generic: "25"
+    - generic: "26"
+    - generic: "27"
+    - generic: "28"
+    - generic: "29"
+    - generic: "30"
+    - generic: "31"
+    - generic: "32"
+    - generic: "33"
+    - generic: "34"
+    - generic: "35"
+    - generic: "36"
+    - generic: "37"
+    - generic: "38"
+    - generic: "39"
+    - generic: "40"
+    - generic: "41"
+    - generic: "42"
+    - generic: "43"
+    - generic: "44"
+    - generic: "45"
+    - generic: "46"
+    - generic: "47"
+    - generic: "48"
+    - generic: "49"
+    - generic: "50"
+    - generic: "51"
+    - generic: "52"
+    - generic: "53"
+    - generic: "import { describe, expect, test } from \"vitest\";"
+    - generic: "import { createHubResultFromError, getErrorProblem } from \"./utils\";"
+    - generic: /**
+    - generic: "* The Hub SDK exposes the parsed problem body as `error` on its API errors. These cover the duck-typed"
+    - generic: "* read of that shape, including the malformed variants a remote service can legitimately return."
+    - generic: "*/"
+    - generic: "describe(\"getErrorProblem\", () => {"
+    - generic: "test(\"extracts code, detail, and invalid_params from a Hub problem body\", () => {"
+    - generic: "const err = {"
+    - generic: "status: 422,"
+    - generic: "error: {"
+    - generic: "code: \"validation\","
+    - generic: "detail: \"One or more request parameters are invalid\","
+    - generic: "invalid_params: [{ name: \"field_type\", reason: \"must be one of: text, nps\" }],"
+    - generic: "},"
+    - generic: "};"
+    - generic: "expect(getErrorProblem(err)).toEqual({"
+    - generic: "code: \"validation\","
+    - generic: "problemDetail: \"One or more request parameters are invalid\","
+    - generic: "invalidParams: [{ name: \"field_type\", reason: \"must be one of: text, nps\" }],"
+    - generic: "});"
+    - generic: "});"
+    - generic: "test(\"returns an empty object when there is no problem body\", () => {"
+    - generic: "expect(getErrorProblem(new Error(\"connection refused\"))).toEqual({});"
+    - generic: "expect(getErrorProblem(undefined)).toEqual({});"
+    - generic: "expect(getErrorProblem(\"string error\")).toEqual({});"
+    - generic: "expect(getErrorProblem({ status: 500, error: \"not an object\" })).toEqual({});"
+    - generic: "});"
+    - generic: "test(\"drops malformed invalid_params entries instead of surfacing partial ones\", () => {"
+    - generic: "const err = {"
+    - generic: "error: {"
+    - generic: "invalid_params: [{ name: \"ok\", reason: \"valid\" }, { name: 42 }, null, { reason: \"no name\" }],"
+    - generic: "},"
+    - generic: "};"
+    - generic: "expect(getErrorProblem(err).invalidParams).toEqual([{ name: \"ok\", reason: \"valid\" }]);"
+    - generic: "});"
+    - generic: "test(\"omits invalid_params entirely when none survive validation\", () => {"
+    - generic: "expect(getErrorProblem({ error: { invalid_params: [{ bogus: true }] } })).toEqual({});"
+    - generic: "});"
+    - generic: "});"
+    - generic: "describe(\"createHubResultFromError\", () => {"
+    - generic: "test(\"keeps message/detail semantics and adds the problem members\", () => {"
+    - generic: "// Shaped like a real SDK APIError: an Error subclass carrying status + the parsed problem body."
+    - generic: "const err = Object.assign(new Error(\"400 Bad Request\"), {"
+    - generic: "status: 400,"
+    - generic: "error: { code: \"bad_request\", detail: \"cursor is not valid\" },"
+- complementary:
+  - button "Collapse right sidebar" [expanded]:
+    - generic: Collapse right sidebar
+  - generic: Layer context
+  - complementary:
+    - button "Summaries 17" [pressed]:
+      - generic: Summaries 17
+    - button "Comments":
+      - generic: Comments
+    - generic "Summary 10 of 17, 10 of 17 summaries seen":
+      - generic "Summary 10 of 17": 10/17
+      - generic: ·
+      - generic "10 of 17 summaries seen":
+        - generic: 10/17
+    - button "Reset progress and return to top":
+    - button "Pause following code" [pressed]:
+    - generic: Complexity
+    - group "Summary complexity filters":
+      - button "Show all complexity summaries" [pressed]:
+        - generic: All
+      - button "Show high complexity summaries":
+        - generic: High
+      - button "Show medium complexity summaries":
+        - generic: Medium
+      - button "Show low complexity summaries":
+        - generic: Low
+    - button "Collapse all visible summaries":
+    - generic "apps/web/modules/hub/types.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Added exported type aliases for the feedback-records count endpoint (FeedbackRecordCountParams and FeedbackRecordCountResponse) as direct bridges to the…
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Reintroduced the semantic search exported type aliases (SemanticSearchInput, SemanticSearchResponse, SemanticSearchResultItem) in a new position and added…
+      - generic "Low complexity": Low
+    - generic "apps/web/modules/hub/utils.ts"
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 1–18
+      - generic: ·
+      - generic: 18 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as unseen":
+      - region "Collapse summary":
+        - paragraph:
+          - code: HubError
+          - text: is redesigned from a single-line required-only type into a structured type with documentation and new optional RFC 9457 fields (
+          - code: code
+          - text: ","
+          - code: problemDetail
+          - text: ","
+          - code: invalidParams
+          - text: ), plus a new exported
+          - code: HubInvalidParam
+          - text: type to represent individual field-level validation failures.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 44–75
+      - generic: ·
+      - generic: 32 lines
+      - generic "High complexity": High
+      - button "Mark summary as unseen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: asRecord
+          - text: and a new exported
+          - code: getErrorProblem
+          - text: parser that extracts RFC 9457 problem members from a duck-typed Hub SDK error payload, mapping
+          - code: invalid_params
+          - text: entries into validated
+          - code: "{ name, reason }"
+          - text: objects and conditionally returning
+          - code: code
+          - text: /
+          - code: problemDetail
+          - text: /
+          - code: invalidParams
+          - text: . Updates
+          - code: createHubResultFromError
+          - text: to merge these parsed fields into
+          - code: HubResult.error
+          - text: via object spread, extending the error payload returned to callers.
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/modules/hub/service.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Expanded the imported Hub service types to include FeedbackRecordCountParams and FeedbackRecordCountResponse.
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Expanded the imported Hub service types to include SimilarRecordsParams and SimilarRecordsResponse.
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 125–127
+      - generic: ·
+      - generic: 3 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as unseen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Changed
+          - code: deleteFeedbackRecord
+          - text: ’s error catch block from manually mapping error status/message/detail to returning the shared
+          - code: createHubResultFromError(err)
+          - text: result.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 212–249
+      - generic: ·
+      - generic: 38 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as unseen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Updated
+          - code: listFeedbackRecords
+          - text: ’s error catch block to return
+          - code: createHubResultFromError(err)
+          - text: ", then added the exported"
+          - code: CountFeedbackRecordsResult
+          - text: type and the new
+          - code: countFeedbackRecords
+          - text: function (with the same helper-based error handling). Also introduced the documentation header for semantic search immediately after the new count API.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 262–301
+      - generic: ·
+      - generic: 40 lines
+      - generic "High complexity": High
+      - button "Mark summary as unseen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adjusted semantic-search-related error handling to use
+          - code: createHubResultFromError(err)
+          - text: ; introduced the exported
+          - code: SimilarFeedbackRecordsResult
+          - text: type and the new
+          - code: findSimilarFeedbackRecords
+          - text: function.
+          - code: findSimilarFeedbackRecords
+          - text: "now branches on error status: it logs HTTP 404 as an expected “no embedding yet” case at debug level, otherwise logs a warning, and returns"
+          - code: createHubResultFromError(err)
+          - text: for both paths.
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/modules/hub/utils.test.ts"
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 1–46
+      - generic: ·
+      - generic: 46 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as unseen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Introduces
+          - code: getErrorProblem
+          - text: tests that validate problem-body extraction (
+          - code: code
+          - text: ","
+          - code: detail
+          - text: ", and"
+          - code: invalid_params
+          - text: →
+          - code: invalidParams
+          - text: ), define
+          - code: "{}"
+          - text: as the fallback for missing/invalid problem bodies, and enforce filtering/omission behavior for malformed
+          - code: invalid_params
+          - text: entries.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "Introduces createHubResultFromError test coverage for mapping an Error carrying status and a problem error body into an API result shape with data: null and an…"
+      - generic "Low complexity": Low
+    - generic "apps/web/modules/hub/service.test.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: The Vitest import line in the test file changed by removing beforeEach from the imported symbols (leaving describe, expect, test, and vi).
+      - generic "Low complexity": Low
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "The @formbricks/logger mock was updated so the mocked logger object now also provides a debug: vi.fn() spy (in addition to existing warn, error, info)."
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 214–251
+      - generic: ·
+      - generic: 38 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: A new
+          - code: describe("countFeedbackRecords")
+          - text: "block was added with three tests: (1) returns a config error when"
+          - code: getHubClient
+          - text: is
+          - code: "null"
+          - text: ", (2) verifies filter forwarding to the Hub"
+          - code: feedbackRecords.count
+          - text: call and returns
+          - code: "{ count }"
+          - text: ", and (3) validates that a Hub rejection containing structured problem detail is mapped into an error with"
+          - code: status
+          - text: and
+          - code: problemDetail
+          - text: .
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 333–352
+      - generic: ·
+      - generic: 20 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Within
+          - code: semanticSearchFeedbackRecords
+          - text: tests, a new case asserts that when the Hub rejects with an
+          - code: APIError
+          - text: containing RFC 9457 problem members, the resulting error preserves the Hub
+          - code: code
+          - text: and
+          - code: problemDetail
+          - text: (not just
+          - code: status/message
+          - text: ).
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 354–404
+      - generic: ·
+      - generic: 51 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: A new
+          - code: findSimilarFeedbackRecords
+          - text: test was added to ensure a 404 error preserves
+          - code: "status: 404"
+          - text: and triggers
+          - code: logger.debug
+          - text: ", while explicitly not calling"
+          - code: logger.warn
+          - text: .
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 480–498
+      - generic: ·
+      - generic: 19 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: A new
+          - code: deleteFeedbackRecord
+          - text: test was added to ensure a 409 conflict preserves RFC 9457 problem members from the Hub rejection, mapping to an error containing
+          - code: "status: 409"
+          - text: ","
+          - code: code
+          - text: ", and"
+          - code: problemDetail
+          - text: .
+        - button "Comment":
+          - generic: Comment
+- separator "Resize panel"
+- button "Open command palette":
+  - generic "Command": ⌘
+  - generic: K
+- region "Notifications":
+  - status:
+    - list
+- generic: Next file

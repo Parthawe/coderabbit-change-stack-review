@@ -1,0 +1,571 @@
+- status
+- banner:
+  - link "Back to triage":
+    - /url: /triage
+    - generic: Triage
+  - status
+  - paragraph: Feedback records MCP integration
+  - 'link "formbricks #8650: View pull request on GitHub"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+    - generic: formbricks
+    - generic: "#8650"
+  - generic: ·
+  - generic: 52 files
+  - button "Continue with GitHub":
+    - generic: Continue with GitHub
+  - status
+  - button "Submit review":
+    - generic: Submit review
+- complementary "Layer navigation":
+  - separator "Collapse sidebar"
+  - radiogroup "Rail mode":
+    - radio "Layers" [checked]:
+      - generic: Layers
+    - radio "Files":
+      - generic: Files
+  - button "About Layers and Files":
+  - button "Search pull request":
+  - button "Collapse sidebar" [expanded]:
+    - generic: Collapse sidebar
+  - button "Pull request overview":
+    - generic: Overview
+  - button "Security blast radius" [disabled]:
+    - generic: Security blast radius isn’t available for this repository yet.
+    - generic: Security blast radius
+  - button "Security architecture impact":
+    - generic: Security architecture impact
+  - 'button "Layer 1: API contracts and access controls. 9 files touched. 3 findings. 1120 lines added, 11 removed. 1 major finding, 1 minor finding"':
+    - generic: "1"
+    - paragraph: API contracts and access controls
+    - generic: 9 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-11"
+    - generic: "+1120"
+  - 'button "Layer 2: Feedback record operations. 2 files touched. 1 finding. 2446 lines added, 0 removed. 1 major finding" [active]':
+    - generic: "2"
+    - paragraph: Feedback record operations
+    - generic: 2 files touched
+    - generic: "1"
+    - generic: "+2446"
+  - 'button "Layer 3: Hub feedback-record support. 5 files touched. 342 lines added, 13 removed"':
+    - generic: "3"
+    - paragraph: Hub feedback-record support
+    - generic: 5 files touched
+    - generic: "-13"
+    - generic: "+342"
+  - 'button "Layer 4: MCP feedback-record tools. 3 files touched. 1 finding. 1034 lines added, 0 removed. 1 trivial finding"':
+    - generic: "4"
+    - paragraph: MCP feedback-record tools
+    - generic: 3 files touched
+    - generic: "1"
+    - generic: "+1034"
+  - 'button "Layer 5: MCP authorization and registration. 7 files touched. 138 lines added, 22 removed"':
+    - generic: "5"
+    - paragraph: MCP authorization and registration
+    - generic: 7 files touched
+    - generic: "-22"
+    - generic: "+138"
+  - 'button "Layer 6: OAuth metadata and documentation. 10 files touched. 2 findings. 610 lines added, 81 removed. 1 minor finding, 1 trivial finding"':
+    - generic: "6"
+    - paragraph: OAuth metadata and documentation
+    - generic: 10 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-81"
+    - generic: "+610"
+  - 'button "Layer 7: Additional changes. 16 files touched. 32 lines added, 0 removed"':
+    - generic: "7"
+    - paragraph: Additional changes
+    - generic: 16 files touched
+    - generic: "+32"
+  - button "Scroll down":
+    - text: View more
+  - generic: Review Tools
+  - 'button "Review history. Latest review: Feedback records MCP integration · Out of date. Commit 23cdac2. Select review snapshot"':
+    - generic: Review history
+    - text: Stale ·
+    - code: 23cdac2
+  - button "Settings. Display settings":
+    - generic: Settings
+- main:
+  - 'button "Layer details: Feedback record operations"'
+  - generic: Feedback record operations
+  - separator
+  - generic: Implements dataset resolution, listing, counting, CRUD, batch creation, semantic search, similarity lookup, auditing, and Hub error translation.
+  - generic: Depends on
+  - button "API contracts and access controls":
+    - generic: API contracts and access controls
+  - group "Content view":
+    - button "Files" [pressed]:
+      - generic: Files
+    - button "Diagrams":
+      - generic: Diagram
+  - group "File navigation":
+    - button "Show files in this layer (2 files, 2 not viewed)":
+      - text: 1 of 2
+      - generic: 2 left
+    - separator
+    - button "Previous file" [disabled]:
+    - button "Next file":
+  - group "Review controls":
+    - button "View settings":
+    - button "Mark all files in this layer viewed":
+    - button "Collapse all files":
+    - button "Enter focus mode":
+  - button "Hide review controls" [expanded]:
+  - button "Collapse apps/web/app/api/v3/feedbackRecords/lib/operations.ts" [expanded]:
+    - generic "Added"
+    - generic: apps/web/app/api/v3/feedbackRecords/lib/operations.ts
+    - button "Copy file path apps/web/app/api/v3/feedbackRecords/lib/operations.ts":
+    - img "1019 additions and 0 deletions":
+      - generic: "+1019"
+    - button "Add file comment on apps/web/app/api/v3/feedbackRecords/lib/operations.ts":
+    - button "Semantic outline with 28 changed entities":
+      - generic: "28"
+    - button "Compact semantic diff":
+    - button "Semantic diff with context" [pressed]:
+    - button "Mark file as viewed in this layer":
+  - code
+  - code:
+    - generic: "1"
+    - generic: "2"
+    - generic: "3"
+    - generic: "4"
+    - generic: "5"
+    - generic: "6"
+    - generic: "7"
+    - generic: "8"
+    - generic: "9"
+    - generic: "10"
+    - generic: "11"
+    - generic: "12"
+    - generic: "13"
+    - generic: "14"
+    - generic: "15"
+    - generic: "16"
+    - generic: "17"
+    - generic: "18"
+    - generic: "19"
+    - generic: "20"
+    - generic: "21"
+    - generic: "22"
+    - generic: "23"
+    - generic: "24"
+    - generic: "25"
+    - generic: "26"
+    - generic: "27"
+    - generic: "28"
+    - generic: "29"
+    - generic: "30"
+    - generic: import "server-only";
+    - generic: "import { randomUUID } from \"node:crypto\";"
+    - generic: "import type { z } from \"zod\";"
+    - generic: "import { logger } from \"@formbricks/logger\";"
+    - generic: "import { requireUnifyFeedbackWorkspaceAccess } from \"@/app/api/v3/lib/feedback-access\";"
+    - generic: "import {"
+    - generic: noContentResponse,
+    - generic: problemConflict,
+    - generic: problemUnprocessableContent,
+    - generic: successListResponse,
+    - generic: successResponse,
+    - generic: "} from \"@/app/api/v3/lib/response\";"
+    - generic: "import type { TV3AuditLog, TV3Authentication } from \"@/app/api/v3/lib/types\";"
+    - generic: "import { getFeedbackDirectoriesByWorkspaceId } from \"@/modules/ee/feedback-directory/lib/feedback-directory\";"
+    - generic: "import {"
+    - generic: countFeedbackRecords,
+    - generic: createFeedbackRecord,
+    - generic: createFeedbackRecordsBatch,
+    - generic: deleteFeedbackRecord,
+    - generic: findSimilarFeedbackRecords,
+    - generic: listFeedbackRecords,
+    - generic: semanticSearchFeedbackRecords,
+    - generic: updateFeedbackRecord,
+    - generic: "} from \"@/modules/hub/service\";"
+    - generic: "import type {"
+    - generic: FeedbackRecordCountParams,
+    - generic: FeedbackRecordCreateParams,
+    - generic: FeedbackRecordListParams,
+    - generic: FeedbackRecordUpdateParams,
+    - generic: SemanticSearchResultItem,
+- complementary:
+  - button "Collapse right sidebar" [expanded]:
+    - generic: Collapse right sidebar
+  - generic: Layer context
+  - complementary:
+    - button "Summaries 25" [pressed]:
+      - generic: Summaries 25
+    - button "Comments 5":
+      - generic: Comments 5
+    - generic "Summary 1 of 25, 1 of 25 summaries seen":
+      - generic "Summary 1 of 25": 1/25
+      - generic: ·
+      - generic "1 of 25 summaries seen":
+        - generic: 1/25
+    - button "Reset progress and return to top":
+    - button "Pause following code" [pressed]:
+    - generic: Complexity
+    - group "Summary complexity filters":
+      - button "Show all complexity summaries" [pressed]:
+        - generic: All
+      - button "Show high complexity summaries":
+        - generic: High
+      - button "Show medium complexity summaries":
+        - generic: Medium
+      - button "Show low complexity summaries":
+        - generic: Low
+    - button "Collapse all visible summaries":
+    - generic "apps/web/app/api/v3/feedbackRecords/lib/operations.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Introduces the new server-only operations module with imports for logging, auth/access helpers, Hub service functions, v3 response builders, zod typing, and…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 67–130
+      - generic: ·
+      - generic: 64 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds helper builders for Hub create and update payloads using explicit allowlists; create injects
+          - code: tenant_id
+          - text: and generates
+          - code: submission_id
+          - text: when omitted, while update only forwards mutable fields that were actually provided.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 132–232
+      - generic: ·
+      - generic: 101 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph: Defines pagination/default similarity helpers and similarity parameter validation/error mapping; adds the shared response envelope builder for paged similarity match results (including dataset echoing and cursor/minScore normalization).
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 233–271
+      - generic: ·
+      - generic: 39 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: listV3FeedbackDatasets
+          - text: ": authorizes workspace access, loads feedback directories for the accessible workspace, and returns a serialized dataset list with totalCount; maps unexpected failures to a generic problem response."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 273–347
+      - generic: ·
+      - generic: 75 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: listV3FeedbackRecords
+          - text: ": resolves the effective tenant/dataset for read permission, builds Hub filter params plus limit/cursor, calls"
+          - code: listFeedbackRecords
+          - text: ", serializes records to v3, and returns a cursor-based success list; Hub failures are logged and converted via"
+          - code: hubErrorToProblemResponse
+          - text: .
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "Implements countV3FeedbackRecords: resolves tenant context for read, calls Hub count with the same filter semantics used by list (ensuring count/list…"
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 405–457
+      - generic: ·
+      - generic: 53 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: getV3FeedbackRecord
+          - text: ": resolves tenant for read permission, enforces record ownership via"
+          - code: requireOwnedFeedbackRecord
+          - text: ", and returns the serialized record; unexpected errors are handled via the shared error mapper."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 459–527
+      - generic: ·
+      - generic: 69 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: createV3FeedbackRecord
+          - text: ": resolves tenant for readWrite, validates request body with"
+          - code: ZV3FeedbackRecordCreateBody
+          - text: ", builds an allowlisted Hub create payload, calls"
+          - code: createFeedbackRecord
+          - text: ", serializes the stored record, and optionally populates audit log fields (organizationId/targetId/newObject); returns success with HTTP status 201."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 529–652
+      - generic: ·
+      - generic: 124 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: createV3FeedbackRecords
+          - text: ": resolves tenant for readWrite, validates the batch body with"
+          - code: ZV3FeedbackRecordBatchCreateBody
+          - text: ", fans out creates via"
+          - code: createFeedbackRecordsBatch
+          - text: using allowlisted create payloads, collects created records, and records per-index failures with relayable detail text; returns a partial-success list response (created + indexed failures) when any succeeded, or an upstream error when none were created; supports audit logs indexed by record position.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 654–760
+      - generic: ·
+      - generic: 107 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: updateV3FeedbackRecord
+          - text: ": resolves tenant for readWrite, validates with"
+          - code: ZV3FeedbackRecordUpdateBody
+          - text: ", enforces ownership via"
+          - code: requireOwnedFeedbackRecord
+          - text: ", updates via"
+          - code: updateFeedbackRecord
+          - text: with allowlisted field updates, serializes the updated record, and (optionally) populates audit log with oldObject/newObject; treats Hub 404 during the update window as a forbid-style response rather than a service outage.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 762–843
+      - generic: ·
+      - generic: 82 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: deleteV3FeedbackRecord
+          - text: ": resolves tenant for readWrite, enforces ownership via"
+          - code: requireOwnedFeedbackRecord
+          - text: ", calls"
+          - code: deleteFeedbackRecord
+          - text: ", treats Hub 404 (deleted between checks) as successful completion, optionally populates audit log oldObject, emits a log entry, and returns a"
+          - code: noContentResponse
+          - text: (204 convention).
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 845–923
+      - generic: ·
+      - generic: 79 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: searchV3FeedbackRecords
+          - text: ": resolves tenant for read, validates semantic search inputs via"
+          - code: parseSimilarityFilters
+          - text: (query text, pagination, minScore), calls Hub
+          - code: semanticSearchFeedbackRecords
+          - text: with injected
+          - code: tenant_id
+          - text: and normalized similarity params, and returns the shared similarity-matches response; unexpected errors are handled consistently.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 925–1019
+      - generic: ·
+      - generic: 95 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Implements
+          - code: findSimilarV3FeedbackRecords
+          - text: ": resolves tenant for read, validates similarity inputs (limit/cursor/minScore), enforces ownership via"
+          - code: requireOwnedFeedbackRecord
+          - text: ", calls Hub"
+          - code: findSimilarFeedbackRecords
+          - text: ", and returns similarity matches; if the target record has no embedding (Hub 404), returns a conflict problem with embedding-pending detail rather than treating it as authorization failure."
+        - button "Comment":
+          - generic: Comment
+    - generic "apps/web/app/api/v3/feedbackRecords/lib/operations.test.ts"
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: "Adds the test module setup: imports Vitest helpers, v3 auth/workspace context/types, feedback-dataset resolution/licensing utilities, Hub service function…"
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 55–135
+      - generic: ·
+      - generic: 81 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Introduces “shared authorization + tenant resolution” tests for
+          - code: listV3FeedbackRecords
+          - text: ", covering early returns when access is denied, 403 when the feature is unlicensed, actionable 422 when no datasets are assigned, 400 when multiple datasets exist without a specified dataset, and 403 when an explicit datasetId doesn’t belong to the workspace; also asserts that downstream Hub calls are skipped on these gate failures."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 137–177
+      - generic: ·
+      - generic: 41 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: listV3FeedbackDatasets
+          - text: tests asserting successful dataset listing (200 with dataset data and pagination metadata), correct auth denial short-circuiting (403 without tenant resolution), 403 when unlicensed, and an empty dataset list (200 with zero counts) when the workspace has no datasets.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 179–278
+      - generic: ·
+      - generic: 100 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: listV3FeedbackRecords
+          - text: tests verifying single-dataset auto-resolution to the Hub tenant (tenant_id injected, datasetId/datasetName surfaced in response meta), correct naming of the resolved dataset even for empty results, datasetId/datasetName behavior when datasetId is explicitly provided, strict response-shape rules that expose dataset_id without leaking tenant_id, and error mapping from Hub responses (429 for rate limits, 502 for unreachable/server errors without leaking internal details).
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 280–359
+      - generic: ·
+      - generic: 80 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: getV3FeedbackRecord
+          - text: "tests enforcing cross-tenant and not-found indistinguishability: 403 when record tenant differs, 403 when Hub reports 404, and identical response bodies for cross-tenant vs not-found (“no existence oracle”); also verifies 502 for non-404 Hub failures and ownership-guard refusal when a named datasetId doesn’t match the record’s tenant."
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 593–694
+      - generic: ·
+      - generic: 102 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: deleteV3FeedbackRecord
+          - text: tests asserting readWrite access enforcement, 204 success when the record belongs to the workspace, 403 refusal (and no Hub delete call) for cross-tenant records, and the same cross-tenant/not-found “identical 403 body” rule; verifies audit log stamping with targetId and oldObject (using outward dataset vocabulary, not tenant_id), correct handling of concurrent deletes (Hub 404 mapped to 204), and mapping tenant purge conflicts to retryable 409 with preserved detail.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 696–797
+      - generic: ·
+      - generic: 102 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: searchV3FeedbackRecords
+          - text: tests verifying tenant injection with dataset defaults, Hub call parameter defaults (min_score), response meta including datasetId/name and pagination, trimming of untrimmed tenant values before sending to Hub, pass-through of explicit limit/cursor/minScore, local rejection of out-of-range filters with 422 (and no Hub call), and mapping Hub 503 into actionable embedding configuration messaging; also verifies empty-search returns an empty dataset-matched result rather than an error.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 799–897
+      - generic: ·
+      - generic: 99 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: findSimilarV3FeedbackRecords
+          - text: tests covering owned-record neighbor search (Hub call arguments include record id plus defaults), 403 refusal and no Hub neighbor call when anchor record is cross-tenant with safe response content, identical 403 bodies for cross-tenant vs not-found anchors, mapping post-ownership Hub 404 into a retryable 409 embedding-pending conflict with message constraints, mapping Hub 503 to embedding configuration messaging, and local minScore out-of-range rejection prior to retrieving the anchor record.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 899–971
+      - generic: ·
+      - generic: 73 lines
+      - generic "Medium complexity": Medium
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: countV3FeedbackRecords
+          - text: tests verifying count response includes dataset_id/dataset_name while suppressing record-content fields, correct Hub call with tenant_id, passing through filter parameters under Hub names, prevention of cross-workspace dataset targeting (403 without Hub call), and error mapping to 502 with upstream detail not leaked.
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Expand summary and jump to code"
+      - generic: Adds listV3FeedbackRecords filter tests ensuring all provided filter fields (besides pagination) are sent to the Hub with the expected Hub parameter naming and…
+      - generic "Low complexity": Low
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 1016–1238
+      - generic: ·
+      - generic: 223 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: createV3FeedbackRecords
+          - text: (batch) tests verifying readWrite access enforcement, per-record tenant_id injection across batch entries, all-or-nothing validation behavior (422 before any Hub batch call for an invalid record), rejection for empty batches and batches over cap (422 without Hub call), submission_id behavior (auto-generate distinct submission_id per record when omitted, and preserve a shared submission_id if provided), ignoring any tenant_id smuggled in input records, partial failure reporting by index while returning created records, tight-lipped per-record error detail for 5xx and auth failures (with user-facing generic messages), upstream failure propagation when nothing was created (503), and audit-log behavior with one audit per successfully created record (failed ones left unstamped).
+        - button "Comment":
+          - generic: Comment
+    - article:
+      - button "Collapse summary" [expanded]
+      - generic: 1240–1427
+      - generic: ·
+      - generic: 188 lines
+      - generic "High complexity": High
+      - button "Mark summary as seen":
+      - region "Collapse summary":
+        - paragraph:
+          - text: Adds
+          - code: updateV3FeedbackRecord
+          - text: tests enforcing readWrite access, patching only caller-provided fields, dropping immutable provenance fields and derived enrichment fields from the update payload, rejecting empty patches with 422 before Hub update, inheriting create-time validation caps (text cap and byte-based metadata cap), and ensuring invalid-body responses are identical regardless of record ownership. It also verifies cross-tenant/unknown record 403 equivalence and that unauthorized updates never call the Hub; asserts audit logging includes both oldObject and newObject; maps concurrent delete (Hub 404 on update) to 403 indistinguishable from no-access; and relays Hub field-level validation rejections (400 with invalid_params) with the expected response shape.
+        - button "Comment":
+          - generic: Comment
+- separator "Resize panel"
+- button "Open command palette":
+  - generic "Command": ⌘
+  - generic: K
+- region "Notifications":
+  - status:
+    - list

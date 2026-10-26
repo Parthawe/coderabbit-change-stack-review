@@ -1,0 +1,241 @@
+- status
+- banner:
+  - link "Back to triage":
+    - /url: /triage
+    - generic: Triage
+  - status
+  - paragraph: Feedback records MCP integration
+  - 'link "formbricks #8650: View pull request on GitHub"':
+    - /url: https://github.com/formbricks/formbricks/pull/8650
+    - generic: formbricks
+    - generic: "#8650"
+  - generic: ·
+  - generic: 52 files
+  - button "Continue with GitHub":
+    - generic: Continue with GitHub
+  - status
+  - button "Submit review":
+    - generic: Submit review
+- complementary "Layer navigation":
+  - separator "Collapse sidebar"
+  - radiogroup "Rail mode":
+    - radio "Layers" [checked]:
+      - generic: Layers
+    - radio "Files":
+      - generic: Files
+  - button "About Layers and Files":
+  - button "Search pull request":
+  - button "Collapse sidebar" [expanded]:
+    - generic: Collapse sidebar
+  - button "Pull request overview":
+    - generic: Overview
+  - button "Security blast radius" [disabled]:
+    - generic: Security blast radius isn’t available for this repository yet.
+    - generic: Security blast radius
+  - button "Security architecture impact":
+    - generic: Security architecture impact
+  - 'button "Layer 1: API contracts and access controls. 9 files touched. 3 findings. 1120 lines added, 11 removed. 1 major finding, 1 minor finding"':
+    - generic: "1"
+    - paragraph: API contracts and access controls
+    - generic: 9 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-11"
+    - generic: "+1120"
+  - 'button "Layer 2: Feedback record operations. 2 files touched. 1 finding. 2446 lines added, 0 removed. 1 major finding"':
+    - generic: "2"
+    - paragraph: Feedback record operations
+    - generic: 2 files touched
+    - generic: "1"
+    - generic: "+2446"
+  - 'button "Layer 3: Hub feedback-record support. 5 files touched. 342 lines added, 13 removed"':
+    - generic: "3"
+    - paragraph: Hub feedback-record support
+    - generic: 5 files touched
+    - generic: "-13"
+    - generic: "+342"
+  - 'button "Layer 4: MCP feedback-record tools. 3 files touched. 1 finding. 1034 lines added, 0 removed. 1 trivial finding"':
+    - generic: "4"
+    - paragraph: MCP feedback-record tools
+    - generic: 3 files touched
+    - generic: "1"
+    - generic: "+1034"
+  - 'button "Layer 5: MCP authorization and registration. 7 files touched. 138 lines added, 22 removed"':
+    - generic: "5"
+    - paragraph: MCP authorization and registration
+    - generic: 7 files touched
+    - generic: "-22"
+    - generic: "+138"
+  - 'button "Layer 6: OAuth metadata and documentation. 10 files touched. 2 findings. 610 lines added, 81 removed. 1 minor finding, 1 trivial finding"':
+    - generic: "6"
+    - paragraph: OAuth metadata and documentation
+    - generic: 10 files touched
+    - generic: "1"
+    - generic: "1"
+    - generic: "-81"
+    - generic: "+610"
+  - 'button "Layer 7: Additional changes. 16 files touched. 32 lines added, 0 removed"':
+    - generic: "7"
+    - paragraph: Additional changes
+    - generic: 16 files touched
+    - generic: "+32"
+  - button "Scroll up":
+    - text: View more
+  - generic: Review Tools
+  - 'button "Review history. Latest review: Feedback records MCP integration · Out of date. Commit 23cdac2. Select review snapshot"':
+    - generic: Review history
+    - text: Stale ·
+    - code: 23cdac2
+  - button "Settings. Display settings":
+    - generic: Settings
+- main:
+  - 'button "Layer details: Additional changes"'
+  - generic: Additional changes
+  - separator
+  - generic: Path-filtered files and unassigned summarized ranges are shown here for full diff coverage.
+  - group "Content view":
+    - button "Files" [pressed]:
+      - generic: Files
+    - button "Diagrams" [disabled]:
+      - generic: Diagram
+  - group "File navigation":
+    - button "Show files in this layer (16 files, 16 not viewed)" [expanded]:
+      - text: 1 of 16
+      - generic: 16 left
+    - dialog:
+      - tree "Layer file tree":
+        - treeitem "apps" [expanded] [level=1]:
+          - generic: apps
+          - treeitem "web" [expanded] [level=2]:
+            - generic: web
+            - treeitem "locales" [expanded] [level=3]:
+              - generic: locales
+              - treeitem "Modified file; +2 -0 de-DE.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: de-DE.json
+              - treeitem "Modified file; +2 -0 en-US.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: en-US.json
+              - treeitem "Modified file; +2 -0 es-ES.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: es-ES.json
+              - treeitem "Modified file; +2 -0 fr-FR.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: fr-FR.json
+              - treeitem "Modified file; +2 -0 hu-HU.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: hu-HU.json
+              - treeitem "Modified file; +2 -0 ja-JP.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: ja-JP.json
+              - treeitem "Modified file; +2 -0 nl-NL.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: nl-NL.json
+              - treeitem "Modified file; +2 -0 pt-BR.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: pt-BR.json
+              - treeitem "Modified file; +2 -0 pt-PT.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: pt-PT.json
+              - treeitem "Modified file; +2 -0 ro-RO.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: ro-RO.json
+              - treeitem "Modified file; +2 -0 ru-RU.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: ru-RU.json
+              - treeitem "Modified file; +2 -0 sv-SE.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: sv-SE.json
+              - treeitem "Modified file; +2 -0 tr-TR.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: tr-TR.json
+              - treeitem "Modified file; +2 -0 zh-Hans-CN.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: zh-Hans-CN.json
+              - treeitem "Modified file; +2 -0 zh-Hant-TW.json" [level=4]:
+                - generic "Modified file; +2 -0": M
+                - generic: zh-Hant-TW.json
+            - treeitem "Modified file; +2 -0 i18n.lock" [active] [level=3] [selected]:
+              - generic "Modified file; +2 -0": M
+              - generic: i18n.lock
+    - separator
+    - button "Previous file" [disabled]:
+    - button "Next file":
+  - group "Review controls":
+    - button "View settings":
+    - button "Mark all files in this layer viewed":
+    - button "Collapse all files":
+    - button "Enter focus mode":
+  - button "Hide review controls" [expanded]:
+  - separator "Resize old and new code panes"
+  - button "Collapse apps/web/i18n.lock" [expanded]:
+    - generic "Modified"
+    - generic: apps/web/i18n.lock
+    - button "Copy file path apps/web/i18n.lock":
+    - img "2 additions and 0 deletions":
+      - generic: "+2"
+    - button "Add file comment on apps/web/i18n.lock":
+    - button "Mark file as viewed in this layer":
+  - generic: Ignored by !**/*.lock
+  - code:
+    - button "Expand hidden lines below":
+    - generic: 75 unmodified lines
+    - generic: "76"
+    - generic: "77"
+    - generic: "78"
+    - generic: "79"
+    - generic: "80"
+    - generic: "81"
+    - generic: "82"
+    - generic: "83"
+    - button "Expand hidden lines above":
+    - generic: 3864 unmodified lines
+    - generic: "auth/oauth/requested_permissions: 7cd285529a4e57f46975b2623ec87681"
+    - generic: "auth/oauth/revoke: be57685a85b6dfeaeb6eab4e9560b520"
+    - generic: "auth/oauth/revoke_confirmation: 9f2ef40fac22fe48e39d81de2b677345"
+    - generic: "auth/oauth/scopes/email: c28cf6b6c6221b0045539a5f7712230f"
+    - generic: "auth/oauth/scopes/offline_access: 5086c8bd3685a21f691d81d50dc0a4e0"
+    - generic: "auth/oauth/scopes/openid: 557e91a8b41497cf95b1434aefcb72ea"
+    - generic: "auth/oauth/scopes/profile: ea073dc28851ee1a00365047be103d50"
+    - generic: "auth/oauth/scopes/surveys_read: 8280264457fe7c3b759c82422052aed2"
+  - code:
+    - generic: "76"
+    - generic: "77"
+    - generic: "78"
+    - generic: "79"
+    - generic: "80"
+    - generic: "81"
+    - generic: "82"
+    - generic: "83"
+    - generic: "84"
+    - generic: "85"
+    - generic: "auth/oauth/requested_permissions: 7cd285529a4e57f46975b2623ec87681"
+    - generic: "auth/oauth/revoke: be57685a85b6dfeaeb6eab4e9560b520"
+    - generic: "auth/oauth/revoke_confirmation: 9f2ef40fac22fe48e39d81de2b677345"
+    - generic: "auth/oauth/scopes/email: c28cf6b6c6221b0045539a5f7712230f"
+    - generic: "auth/oauth/scopes/feedback_records_read: 720898c950af227bb3be529a64e3bc38"
+    - generic: "auth/oauth/scopes/feedback_records_write: 2c620b5bfeaef1580d27e30a971a93a8"
+    - generic: "auth/oauth/scopes/offline_access: 5086c8bd3685a21f691d81d50dc0a4e0"
+    - generic: "auth/oauth/scopes/openid: 557e91a8b41497cf95b1434aefcb72ea"
+    - generic: "auth/oauth/scopes/profile: ea073dc28851ee1a00365047be103d50"
+    - generic: "auth/oauth/scopes/surveys_read: 8280264457fe7c3b759c82422052aed2"
+- complementary:
+  - button "Collapse right sidebar" [expanded]:
+    - generic: Collapse right sidebar
+  - generic: Layer context
+  - complementary:
+    - button "Summaries" [pressed]:
+      - generic: Summaries
+    - button "Comments":
+      - generic: Comments
+    - generic "No summaries in current selection"
+    - button "Reset progress and return to top" [disabled]:
+    - generic: No summaries here
+    - generic: This selection does not have Change Stack summaries yet.
+- separator "Resize panel"
+- button "Open command palette":
+  - generic "Command": ⌘
+  - generic: K
+- region "Notifications":
+  - status:
+    - list
