@@ -251,7 +251,7 @@
     {
       "nodeId": "6UY-0",
       "filePath": "design/continuous-review/03-review-2x.png",
-      "exportMethod": "Rendered from current Paper JSX at 2\u00d7; checked against Paper captures",
+      "exportMethod": "Native Paper PNG export at 2\u00d7",
       "pixelWidth": 2880,
       "pixelHeight": 1920
     },
@@ -312,5 +312,5 @@
       "filePath": "design/continuous-review/04-next-checks-2x.png"
     }
   ],
-  "updated": "2026-10-26"
+  "updated": "2026-11-03"
 }
