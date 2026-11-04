@@ -22,7 +22,12 @@ test("returns an authorized workspace record", async () => {
 
 for (const [label, changes] of [
   ["anonymous actor", { actor: null }],
-  ["different workspace", { actor: { id: "other", memberships: [] } }],
+  ["different workspace", {
+    actor: {
+      id: "other",
+      memberships: [{ workspaceId: "workspace-b", permissions: ["feedback:read"] }],
+    },
+  }],
   ["missing read permission", { actor: { id: "other", memberships: [{ workspaceId: workspace.id, permissions: [] }] } }],
   ["disabled feedback", { workspace: { ...workspace, feedbackEnabled: false } }],
 ]) {
