@@ -19,6 +19,6 @@
       "I compressed the reviewing controls to 92 px and made Overview a direct destination, with Return to review. Its layer table keeps source order; severity filters narrow the table only. A curated permission-check path offers a starting point. Light, Dark and System are optional preferences. Theme changes preserve position and drafts; dark colors are derived from the product palette."
     ]
   ],
-  "limits": "All 52 pinned diffs, layer membership and the comparison base are verified. Summary and thread coverage is partial; statement links are manually mapped. The captured access finding has two unavailable reply bodies. Secondary tools remain previews. This revision extends the Saturday submission and exceeded the original 1–2 hour brief.",
+  "limits": "All 52 pinned diffs, layer membership and the comparison base are verified. Summary and thread coverage is partial; statement links are manually mapped. The captured access finding has two unavailable reply bodies. Secondary tools remain previews.",
   "next": "Next I’d compare the same permission-review task in both versions: explain the checks, inspect the guard, return and leave a range note. I’d vary which version comes first and record missed checks, lost position and help needed."
 }
