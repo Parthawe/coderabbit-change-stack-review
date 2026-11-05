@@ -96,6 +96,7 @@ function announce(s) {
 }
 function toast(s, undo) {
   clearTimeout(toastTimer);
+  const returnTarget = document.activeElement;
   const el = $("#toast");
   el.innerHTML = `<span>${esc(s)}</span>${undo ? '<button type="button">Undo</button>' : ""}`;
   el.hidden = false;
@@ -103,6 +104,9 @@ function toast(s, undo) {
     el.querySelector("button").onclick = () => {
       undo();
       el.hidden = true;
+      const target = returnTarget?.isConnected && returnTarget !== document.body && returnTarget.getClientRects().length
+        ? returnTarget : stream();
+      target.focus({ preventScroll: true });
     };
   toastTimer = setTimeout(() => (el.hidden = true), 8000);
 }
@@ -905,9 +909,11 @@ document.addEventListener("click", (e) => {
       state.returns.push({
         position: readingPosition(),
         linked: state.linked ? { ...state.linked } : null,
+        summary: b.closest("details[data-summary]")?.dataset.summary,
       });
       $("#return-context").hidden = false;
       jump(target.id, "after", 20, 49);
+      stream().focus({ preventScroll: true });
       break;
     }
     case "return-composer":
@@ -938,6 +944,7 @@ document.addEventListener("click", (e) => {
       renderContext();
       paintRanges();
       toast("Local note saved in this browser");
+      $("#comments-tab").focus({ preventScroll: true });
       break;
     }
     case "cancel-note":
@@ -949,6 +956,7 @@ document.addEventListener("click", (e) => {
       state.range = null;
       renderContext();
       paintRanges();
+      $("#comments-tab").focus({ preventScroll: true });
       break;
     case "wrap": {
       const p = readingPosition();
@@ -1031,6 +1039,11 @@ $("#return-context").onclick = () => {
     restorePosition(saved.position);
   }
   $("#return-context").hidden = !state.returns.length;
+  if (saved) {
+    const trigger = saved.summary && $(`details[data-summary="${saved.summary}"] [data-action="inspect"]`);
+    (trigger?.getClientRects().length ? trigger : stream()).focus({ preventScroll: true });
+    announce(`Returned to ${files.get(saved.position.file).name}. Reading position restored.`);
+  }
 };
 $("#comment-selection").onclick = openComposer;
 $("#clear-selection").onclick = () => {

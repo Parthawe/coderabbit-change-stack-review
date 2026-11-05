@@ -173,7 +173,7 @@
                       +2,446
                     </div>
                     <div style={{ boxSizing: 'border-box', color: '#CA244D', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                      −0
+                      &nbsp;
                     </div>
                   </div>
                   <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
@@ -227,7 +227,7 @@
                       +1,034
                     </div>
                     <div style={{ boxSizing: 'border-box', color: '#CA244D', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                      −0
+                      &nbsp;
                     </div>
                   </div>
                   <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
@@ -308,7 +308,7 @@
                       +32
                     </div>
                     <div style={{ boxSizing: 'border-box', color: '#CA244D', display: 'inline-block', fontFamily: 'system-ui, sans-serif', fontSize: '12px', lineHeight: '16px' }}>
-                      −0
+                      &nbsp;
                     </div>
                   </div>
                   <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '11px', lineHeight: '16px' }}>
