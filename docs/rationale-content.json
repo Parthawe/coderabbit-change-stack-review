@@ -4,7 +4,7 @@
   "sections": [
     [
       "Read before navigating",
-      "In the original, summary points shared a broad code range and expanding the summary also moved the diff. I separated those actions: expand to read, then follow a statement link. Full source wording and the whole function remain available. A precise highlight can hide surrounding logic, so I would check whether reviewers miss a branch."
+      "In the original, summary points shared a broad code range and expanding the summary also moved the diff. I separated those actions: expand to read, then follow a statement link. The rest of the code stays visible. I’d check whether the highlight draws attention away from another branch. Summary complexity filters help reviewers choose what to read; they do not show finding severity or affected features."
     ],
     [
       "Follow the change and return",
@@ -12,13 +12,13 @@
     ],
     [
       "Make progress deliberate",
-      "Feedback exposed too many competing counts. Viewed is now the main progress measure, with Undo; navigation and summary Seen remain separate. Findings retain severity beside resolution, so Major · Resolved reads as history. Message counts include replies. Range notes keep their file, side and lines. These states describe actions and captured history, not review quality."
+      "Feedback exposed too many competing counts. Viewed is now the main progress measure, with Undo. It records a file check, not approval; submission remains a separate PR action. Summary Seen stays separate. Findings show severity beside resolution, and message counts include replies. Range notes retain their file, side and lines."
     ],
     [
       "Keep supporting tools useful",
-      "I compressed the reviewing controls to 92 px and made Overview a direct destination, with Return to review. Its layer table keeps source order; severity filters narrow the table only. A curated permission-check path offers a starting point. Light, Dark and System are optional preferences. Theme changes preserve position and drafts; dark colors are derived from the product palette."
+      "I kept the familiar Split / Unified comparison and now remember that choice and wrapping in this browser. Files lists the 52 changed files, not the whole repository. Tools explains unchanged context, wrapping and copy path. Overview offers a suggested route through this PR’s permission checks. Light, Dark and System remain optional preferences."
     ]
   ],
-  "limits": "All 52 pinned diffs, layer membership and the comparison base are verified. Summary and thread coverage is partial; statement links are manually mapped. The captured access finding has two unavailable reply bodies. Secondary tools remain previews.",
-  "next": "Next I’d compare the same permission-review task in both versions: explain the checks, inspect the guard, return and leave a range note. I’d vary which version comes first and record missed checks, lost position and help needed."
+  "limits": "All 52 pinned diffs and layer assignments are verified. Only selected source summaries and comments are included. The captured access finding has two replies whose text was not saved. Statement links are manually mapped. Security blast radius, Architecture impact, Verify and other secondary workflows link back to the source review; they are not implemented here.",
+  "next": "Next I’d compare the same permission-review task in both versions, varying which comes first and recording missed checks, lost position and help needed. I’d also test collapsing viewed files without losing position and investigate how the security and verification views connect claims back to evidence."
 }

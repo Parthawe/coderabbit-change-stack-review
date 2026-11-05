@@ -267,6 +267,18 @@
 .continuous #summary-browser {
   order: 0;
 }
+.continuous .summary-filters {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 12px 0;
+  font-size: 13px;
+  line-height: 18px;
+}
+.summary-filters [role="group"] { display: flex; gap: 4px; flex-wrap: wrap; }
+.continuous .summary-filters button { padding: 4px 10px; min-height: 30px; border-color: transparent; background: transparent; }
+.continuous .summary-filters [aria-pressed="true"] { background: var(--selected); }
+.continuous .nav-file-scope { margin: 8px 12px; font-size: 12px; color: var(--muted); }
 .continuous #overview-screen {
   padding: 28px 36px;
 }

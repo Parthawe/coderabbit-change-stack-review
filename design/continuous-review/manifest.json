@@ -227,7 +227,10 @@
     },
     {
       "nodeId": "62A-0",
-      "filePath": "design/continuous-review/02-reading-2x.png"
+      "filePath": "design/continuous-review/02-reading-2x.png",
+      "exportMethod": "Native Paper PNG export at 2\u00d7",
+      "pixelWidth": 3200,
+      "pixelHeight": 2706
     },
     {
       "nodeId": "62Q-0",
@@ -235,7 +238,10 @@
     },
     {
       "nodeId": "634-0",
-      "filePath": "design/continuous-review/02-controls-2x.png"
+      "filePath": "design/continuous-review/02-controls-2x.png",
+      "exportMethod": "Native Paper PNG export at 2\u00d7",
+      "pixelWidth": 3200,
+      "pixelHeight": 2418
     },
     {
       "nodeId": "63I-0",
@@ -258,7 +264,7 @@
     {
       "nodeId": "7J7-0",
       "filePath": "design/continuous-review/03-review-dark-2x.png",
-      "exportMethod": "Rendered from current Paper JSX at 2\u00d7; checked against Paper captures",
+      "exportMethod": "Native Paper PNG export at 2\u00d7",
       "pixelWidth": 2880,
       "pixelHeight": 1920
     },
@@ -309,8 +315,11 @@
     },
     {
       "nodeId": "5LH-0",
-      "filePath": "design/continuous-review/04-next-checks-2x.png"
+      "filePath": "design/continuous-review/04-next-checks-2x.png",
+      "exportMethod": "Native Paper PNG export at 2\u00d7",
+      "pixelWidth": 3200,
+      "pixelHeight": 2758
     }
   ],
-  "updated": "2026-11-03"
+  "updated": "2026-11-04"
 }

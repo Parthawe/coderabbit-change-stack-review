@@ -39,7 +39,23 @@ const state = {
   expanded: new Set(),
   expandedLayers: new Set(),
   severityFilter: "All",
+  summaryComplexity: "All",
 };
+const displayPreferenceKey = "coderabbit-review-display";
+function saveDisplayPreferences() {
+  try {
+    localStorage.setItem(displayPreferenceKey, JSON.stringify({ mode: state.mode, wrap: state.wrap }));
+  } catch {
+    announce("Display preferences could not be saved. They remain active in this tab.");
+  }
+}
+function restoreDisplayPreferences() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(displayPreferenceKey) || "{}");
+    if (["split", "unified"].includes(saved.mode)) state.mode = saved.mode;
+    if (typeof saved.wrap === "boolean") state.wrap = saved.wrap;
+  } catch {}
+}
 const anchors = {
   "0-49": [
     ["Require workspace access", 57, 65],
@@ -108,7 +124,7 @@ function pending() {
 function about() {
   dialog(
     "About this prototype",
-    `<p>Formbricks #8650 · commit <code>${esc(data.source.commit.slice(0, 12))}</code>. This merged, out-of-date review is retained as the assignment’s source.</p><p>52 GitHub patches, their before/after blobs and every changed line have been checked: +5,722 / −127. The comparison base is <code>${data.comparison.base.slice(0, 12)}</code>. Matching totals do not prove CodeRabbit uses the same semantic ranges.</p><p>All 52 layer assignments and guided file order were checked in the live pinned review on October 26. Source content keys confirm the comparison base; 24 exported source patches match directly, and all 52 GitHub patches reconstruct the before/after content at that base. Live Split wrapping and scrolling were checked.</p><p>The original scrolls continuously within a layer. This version continues across layers. Modified files use equal Before/After panes; added files use the full width, as in the source. Semantic outlines, blame and other secondary tools remain previews.</p><p>Layer 1 has 37 source summaries; 14 excerpts are captured across nine files. Access.ts has 3 source messages: one resolved finding and two replies whose bodies were not captured. Other missing thread bodies are labelled, never counted as zero.</p><p>The source overview records 7 historical findings: 2 Major, 2 Minor and 3 Trivial. Layer 1 uses Nitpick rather than Trivial; those labels stay separate. Access.ts Major and errors.ts Minor are explicitly resolved in the captured source. Other individual statuses are not inferred.</p><p>Dark colors are derived from the source’s mauve palette, not verified product dark tokens.</p><p>Statement links are manually mapped. Notes, drafts, Seen and Viewed stay in this browser. Nothing is sent. Secondary workflows are previews. Paper needs sign-in.</p><p>I reviewed the design with three developers through a mix of hands-on tasks and open feedback. Their feedback helped me revise the review flow. I haven’t completed a controlled comparison or measured improvements.</p>`,
+    `<p>Formbricks #8650 · commit <code>${esc(data.source.commit.slice(0, 12))}</code>. This merged, out-of-date review is retained as the assignment’s source.</p><p>52 GitHub patches, their before/after blobs and every changed line have been checked: +5,722 / −127. The comparison base is <code>${data.comparison.base.slice(0, 12)}</code>. Matching totals do not prove CodeRabbit uses the same semantic ranges.</p><p>All 52 layer assignments and guided file order were checked in the live pinned review on October 26. Source content keys confirm the comparison base; 24 exported source patches match directly, and all 52 GitHub patches reconstruct the before/after content at that base. Live Split wrapping and scrolling were checked.</p><p>The original scrolls continuously within a layer. This version continues across layers. Modified files use equal Before/After panes; added files use the full width, as in the source. Semantic outlines, blame and other secondary workflows are not implemented here.</p><p>Layer 1 has 37 source summaries; 14 excerpts are captured across nine files. Access.ts has 3 source messages: one resolved finding and two replies whose bodies were not captured. Other missing thread bodies are labelled, never counted as zero.</p><p>The source overview records 7 historical findings: 2 Major, 2 Minor and 3 Trivial. Layer 1 uses Nitpick rather than Trivial; those labels stay separate. Access.ts Major and errors.ts Minor are explicitly resolved in the captured source. Other individual statuses are not inferred.</p><p>Dark colors are derived from the source’s mauve palette, not verified product dark tokens.</p><p>Statement links are manually mapped. Notes, drafts, Seen and Viewed stay in this browser. Nothing is sent. Secondary tools explain their scope and link to the original review. Paper needs sign-in.</p><p>I reviewed the design with three developers through a mix of hands-on tasks and open feedback. Their feedback helped me revise the review flow. I haven’t completed a controlled comparison or measured improvements.</p>`,
   );
 }
 function delta(f) {
@@ -135,7 +151,7 @@ function renderNav() {
     top = el.scrollTop;
   el.innerHTML =
     state.nav === "files"
-      ? data.files.map(navFile).join("")
+      ? '<p class="nav-file-scope">Changed files · 52</p>' + data.files.map(navFile).join("")
       : data.layers
           .map((l, i) => {
             const open = state.expandedLayers.has(i);
@@ -521,6 +537,12 @@ function summaryHTML(s, f) {
   const links = anchors[s.id] || [];
   return `<details class="summary-item" data-summary="${s.id}" ${state.expanded.has(s.id) ? "open" : ""}><summary><small>Lines ${esc(s.range)} · ${esc(s.complexity)} complexity</small><strong>${esc(s.title)}</strong></summary><div class="summary-body">${esc(s.body)}</div>${links.map((a, i) => `<button class="statement-link" data-link-file="${f.id}" data-start="${a[1]}" data-end="${a[2]}"><span>${esc(a[0])}</span><span>${lineLabel(a[1], a[2])}</span></button>${s.id === "0-49" && i === 0 ? '<button class="text-action" data-action="inspect">Inspect guard in feedback-access.ts</button>' : ""}`).join("")}${s.sourceDetails ? `<details class="summary-wording"><summary>Full source wording</summary><p>${esc(s.sourceDetails.intro)}</p><ul>${s.sourceDetails.points.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>` : ""}<button class="text-action" data-link-file="${f.id}" data-start="${s.start}" data-end="${s.end}">Whole range · L${esc(s.range)}</button><br><button class="text-action" data-seen="${s.id}" aria-pressed="${state.seen.has(s.id)}">${state.seen.has(s.id) ? "Seen · undo" : "Mark seen"}</button></details>`;
 }
+function matchesSummaryComplexity(s) {
+  return state.summaryComplexity === "All" || s.complexity === state.summaryComplexity;
+}
+function summaryFiltersHTML() {
+  return `<div class="summary-filters"><span title="Source summary complexity, not finding severity or affected-feature coverage">Summary complexity</span><div role="group" aria-label="Filter summaries by complexity">${["All", "High", "Medium", "Low"].map((value) => `<button type="button" data-complexity="${value}" aria-pressed="${state.summaryComplexity === value}">${value}</button>`).join("")}</div></div>`;
+}
 function noteKey(r) {
   return `${data.source.commit}:${r.file}:${r.side}:${r.start}:${r.end}`;
 }
@@ -585,24 +607,23 @@ function renderContext() {
     (x) => x.summaries.length === x.summaryCount,
   )
     ? "Captured summaries"
-    : "Partial summaries · details in About";
+    : "Some summaries aren’t included · About";
   $("#browse-summaries").innerHTML =
     '<option value="">Browse summaries</option>' +
     fs
       .flatMap((x) =>
-        x.summaries.map(
+        x.summaries.filter(matchesSummaryComplexity).map(
           (s) => `<option value="${s.id}">${esc(s.title)}</option>`,
         ),
       )
       .join("");
-  $("#summaries-panel").innerHTML =
-    contextIntro(f) +
-    fs
-      .map(
-        (x) =>
-          `${fs.length > 1 ? `<h3>${esc(x.name)}</h3>` : ""}${x.summaries.length ? x.summaries.map((s) => summaryHTML(s, x)).join("") : '<p class="muted">Summary content wasn’t captured for this file. The full pinned diff is available.</p>'}`,
-      )
-      .join("");
+  const summaryGroups = fs.map((x) => {
+    const visible = x.summaries.filter(matchesSummaryComplexity);
+    if (!visible.length && state.summaryComplexity !== "All") return "";
+    return `${fs.length > 1 ? `<h3>${esc(x.name)}</h3>` : ""}${visible.length ? visible.map((s) => summaryHTML(s, x)).join("") : '<p class="muted">This file’s summaries aren’t included in the prototype. Its full pinned diff is available.</p>'}`;
+  }).join("");
+  $("#summaries-panel").innerHTML = contextIntro(f) + summaryFiltersHTML() +
+    (summaryGroups || `<p class="muted">No ${esc(state.summaryComplexity.toLowerCase())}-complexity summaries are included for this scope. This does not mean the code has no risks.</p><button class="text-action" data-complexity="All" data-clear-complexity>Show all summaries</button>`);
   $("#comments-panel").innerHTML =
     composerHTML() +
     fs
@@ -668,7 +689,7 @@ function overviewRows() {
 function renderOverview() {
   const s = data.source;
   $("#overview-screen").innerHTML =
-    `<div class="overview-heading"><div><small>${esc(s.repository)} #${s.pr} · Merged</small><h1 id="overview-title">${esc(s.prTitle || s.title)}</h1><p class="muted">Pinned review · <code>${s.commit.slice(0, 12)}</code> · Out of date</p></div><button data-action="return-review">Return to review</button></div><p class="overview-description">${esc(s.changeSummary)}</p><div class="overview-totals"><span>52 files</span><span class="add-stat">+5,722</span><span class="del-stat">−127</span><span>7 recorded findings across 4 layers</span></div><p class="history-note">Review history · 2 Major · 2 Minor · 3 Trivial <span class="muted">· Individual status coverage is incomplete</span></p><div class="severity-filters" role="group" aria-label="Filter layers by recorded severity">${["All", "Major", "Minor", "Trivial", "Nitpick"].map((x) => `<button data-severity-filter="${x}" aria-pressed="${x === state.severityFilter}">${x === "All" ? "All layers" : findingIcon + esc(x)}</button>`).join("")}</div><div class="overview-table-wrap"><table class="overview-table"><caption class="sr-only">Layers in source order; findings are review history</caption><thead><tr><th>Layer</th><th scope="col">Change</th><th scope="col">Files</th><th scope="col">Lines</th><th scope="col">Recorded findings</th></tr></thead><tbody>${overviewRows()}</tbody></table></div><p class="muted label-note">The PR overview uses Trivial; layer 1 uses Nitpick. Filters keep those source labels separate.</p><section class="permission-path"><h2>Permission checks in this example</h2><p class="muted">A curated path through the captured code. These are checks to inspect, not new findings.</p><ol>${data.permissionPath.map((x) => `<li><span>${esc(x.title)}</span><button class="text-action" data-link-file="${x.file}" data-start="${x.start}" data-end="${x.end}">${esc(files.get(x.file).name)} · ${lineLabel(x.start, x.end)} →</button></li>`).join("")}</ol></section><div class="dialog-actions"><button data-action="review-tools">More review tools</button><button data-action="about">About this prototype</button></div>`;
+    `<div class="overview-heading"><div><small>${esc(s.repository)} #${s.pr} · Merged</small><h1 id="overview-title">${esc(s.prTitle || s.title)}</h1><p class="muted">Pinned review · <code>${s.commit.slice(0, 12)}</code> · Out of date</p></div><button data-action="return-review">Return to review</button></div><p class="overview-description">${esc(s.changeSummary)}</p><div class="overview-totals"><span>52 files</span><span class="add-stat">+5,722</span><span class="del-stat">−127</span><span>7 recorded findings across 4 layers</span></div><p class="history-note">Review history · 2 Major · 2 Minor · 3 Trivial <span class="muted">· Individual status coverage is incomplete</span></p><div class="severity-filters" role="group" aria-label="Filter layers by recorded severity">${["All", "Major", "Minor", "Trivial", "Nitpick"].map((x) => `<button data-severity-filter="${x}" aria-pressed="${x === state.severityFilter}">${x === "All" ? "All layers" : findingIcon + esc(x)}</button>`).join("")}</div><div class="overview-table-wrap"><table class="overview-table"><caption class="sr-only">Layers in source order; findings are review history</caption><thead><tr><th>Layer</th><th scope="col">Change</th><th scope="col">Files</th><th scope="col">Lines</th><th scope="col">Recorded findings</th></tr></thead><tbody>${overviewRows()}</tbody></table></div><p class="muted label-note">The PR overview uses Trivial; layer 1 uses Nitpick. Filters keep those source labels separate.</p><section class="permission-path"><h2>Permission checks in this example</h2><p class="muted">A suggested route through the permission checks in this PR. These links are not new findings.</p><ol>${data.permissionPath.map((x) => `<li><span>${esc(x.title)}</span><button class="text-action" data-link-file="${x.file}" data-start="${x.start}" data-end="${x.end}">${esc(files.get(x.file).name)} · ${lineLabel(x.start, x.end)} →</button></li>`).join("")}</ol></section><div class="dialog-actions"><button data-action="review-tools">More review tools</button><button data-action="about">About this prototype</button></div>`;
 }
 function showOverview() {
   if (!document.body.classList.contains("overview-mode"))
@@ -694,6 +715,7 @@ function showReview(restore = true) {
 function changeMode(mode) {
   const p = readingPosition();
   state.mode = mode;
+  saveDisplayPreferences();
   $("#split").setAttribute("aria-pressed", String(mode === "split"));
   $("#unified").setAttribute("aria-pressed", String(mode === "unified"));
   renderStream();
@@ -719,13 +741,13 @@ function focusMode() {
 function toolsMenu() {
   dialog(
     "File tools",
-    `<p>${esc(current().path)}</p><div class="dialog-actions"><button type="button" data-action="wrap">${state.wrap ? "Turn wrapping off" : "Wrap long lines"}</button><button type="button" data-action="full-context">Show unchanged context</button><button type="button" data-action="changed-context">Collapse unchanged context</button><button type="button" data-action="copy-path">Copy path</button><button type="button" data-action="outline">File outline</button></div><p class="muted">Split uses equal Before and After panes. Its live source scrolling and wrapping behavior still needs verification.</p>`,
+    `<p>${esc(current().path)}</p><div class="dialog-actions"><button type="button" data-action="wrap">${state.wrap ? "Turn wrapping off" : "Wrap long lines"}</button><button type="button" data-action="full-context">Show unchanged context</button><button type="button" data-action="changed-context">Collapse unchanged context</button><button type="button" data-action="copy-path">Copy path</button><button type="button" data-action="outline">File outline</button></div><p class="muted">Wrapping changes how long lines fit. Unchanged context expands or folds unchanged lines in the current file; it does not collapse other files. Copy path copies the current filename and folders.</p><p class="muted">Split / Unified and wrapping are remembered in this browser. Modified files use equal Before / After panes in Split; added files use the full width.</p>`,
   );
 }
 function reviewTools() {
   dialog(
     "Review tools",
-    `<div class="dialog-actions">${["Blast radius", "Architecture impact", "Diagrams", "History", "Ask agent", "Activity filters"].map((x) => `<button type="button" data-preview="${x}">${x}</button>`).join("")}</div><p class="muted">These destinations are reachable previews. This pass covers reading diffs, navigation, progress and local notes.</p>`,
+    `<div class="dialog-actions">${["Security blast radius", "Architecture impact", "Verify", "Diagrams", "History", "Ask agent", "Activity filters"].map((x) => `<button type="button" data-preview="${x}">${x}</button>`).join("")}</div><p class="muted">These tools are not implemented here. Each opens a scope note with a link to the original CodeRabbit review. This prototype focuses on reviewing code and leaving local notes.</p>`,
   );
 }
 document.addEventListener("click", (e) => {
@@ -741,6 +763,17 @@ document.addEventListener("click", (e) => {
     return;
   }
   if (!data) return;
+  if (d.complexity) {
+    if (!["All", "High", "Medium", "Low"].includes(d.complexity)) return;
+    const contextTop = $("#context-scroll").scrollTop;
+    const cleared = b.hasAttribute("data-clear-complexity");
+    state.summaryComplexity = d.complexity;
+    renderContext();
+    $("#context-scroll").scrollTop = contextTop;
+    $(`.summary-filters [data-complexity="${d.complexity}"]`).focus({ preventScroll: true });
+    announce(cleared || d.complexity === "All" ? "Showing all captured summaries." : `Showing ${d.complexity.toLowerCase()} complexity summaries. Code position and Viewed progress are unchanged.`);
+    return;
+  }
   if (d.discloseLayer != null) {
     const i = +d.discloseLayer,
       open = !state.expandedLayers.has(i);
@@ -920,6 +953,7 @@ document.addEventListener("click", (e) => {
     case "wrap": {
       const p = readingPosition();
       state.wrap = !state.wrap;
+      saveDisplayPreferences();
       stream().classList.toggle("no-wrap", !state.wrap);
       $("#dialog").close();
       restorePosition(p);
@@ -1124,6 +1158,9 @@ $(".overview-entry").addEventListener("click", (e) => {
   if (!data) e.preventDefault();
 });
 async function load() {
+  restoreDisplayPreferences();
+  $("#split").setAttribute("aria-pressed", String(state.mode === "split"));
+  $("#unified").setAttribute("aria-pressed", String(state.mode === "unified"));
   loadingControls(true);
   stream().innerHTML =
     '<div class="loading" role="status">Loading pinned diffs…</div>';

@@ -2,7 +2,7 @@
     <div style={{ backgroundColor: '#FAF8FB', boxSizing: 'border-box', display: 'flex', flexDirection: 'column', fontSize: '12px', fontSynthesis: 'none', fontSynthesisSmallCaps: 'none', fontSynthesisStyle: 'none', fontSynthesisWeight: 'none', gap: '40px', height: 'fit-content', lineHeight: '16px', MozOsxFontSmoothing: 'grayscale', overflow: 'clip', overflowWrap: 'anywhere', paddingBlock: '72px', paddingInline: '80px', WebkitFontSmoothing: 'antialiased', width: '1600px' }}>
       <div style={{ boxSizing: 'border-box', display: 'flex', flexDirection: 'column', gap: '18px' }}>
         <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', lineHeight: '26px' }}>
-          04 / Tradeoffs & next steps
+          04 / Tradeoffs &amp; next steps
         </div>
         <div style={{ boxSizing: 'border-box', color: '#211F24', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '44px', fontWeight: 600, letterSpacing: '-1.2px', lineHeight: '52px' }}>
           Where I’d take this next.
@@ -56,7 +56,7 @@
               </div>
             </div>
             <div style={{ boxSizing: 'border-box', color: '#65616A', fontFamily: 'system-ui, sans-serif', fontSize: '20px', lineHeight: '29px' }}>
-              One highlighted statement could make the surrounding branch easier to miss.
+              The rest of the code stays visible. My concern is that the highlight may draw attention away from another branch.
             </div>
           </div>
           <div style={{ boxSizing: 'border-box', display: 'flex', flexBasis: '0%', flexDirection: 'column', flexGrow: '1', gap: '12px' }}>
@@ -141,10 +141,10 @@
       </div>
       <div style={{ borderTopColor: '#D5D2D8', borderTopStyle: 'solid', borderTopWidth: '1px', boxSizing: 'border-box', display: 'flex', gap: '32px', paddingTop: '24px' }}>
         <div style={{ boxSizing: 'border-box', color: '#211F24', flexShrink: '0', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '18px', fontWeight: 600, lineHeight: '28px', width: '180px' }}>
-          With the team
+          Beyond this flow
         </div>
         <div style={{ boxSizing: 'border-box', color: '#65616A', flexBasis: '0%', flexGrow: '1', fontFamily: '"Geist", system-ui, sans-serif', fontSize: '20px', lineHeight: '29px' }}>
-          I’d also check how summaries stay linked after a new commit, and when file-viewed progress should reset.
+          I’d explore collapsing viewed files without losing position. With the team, I’d also examine how Blast radius, Architecture impact and Verify connect back to evidence. Those workflows are outside this prototype.
         </div>
       </div>
     </div>

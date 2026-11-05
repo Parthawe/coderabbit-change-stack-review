@@ -19,3 +19,5 @@ Keep viewport, theme, pinned commit, file, range and diff mode equivalent. The s
 Untested alternatives are explorations. No reduced review time, successful comparison or measured improvement is claimed.
 
 Next: explain the permission checks, inspect the guard, return and leave a range note in both versions. Vary presentation order. Record missed checks, lost position and help needed, including whether precise links hide important context.
+
+Follow-up refinements from developer feedback: restore summary-complexity filtering without changing code position; remember Split / Unified and wrapping; label the file list as changed files; explain unchanged context and distinguish highlights from hidden code. Complexity is not finding severity or affected-feature coverage. Collapsing viewed files and the security/verification workflows remain next checks.

@@ -11,6 +11,8 @@ I reviewed the design with three developers through a mix of hands-on tasks and 
 
 All 52 pinned diffs, seven layer assignments and the comparison base are verified. CodeRabbit already scrolls continuously within a layer; this design extends that flow across layers. Summary and thread coverage remains partial.
 
+The latest refinements restore summary-complexity filters, remember Split / Unified and wrapping, label the changed-file list, and explain the file tools. Highlighted code stays visible alongside surrounding lines. Collapsing viewed files and investigating security and verification workflows remain next checks.
+
 The current 22 artboard exports at 2×, editable JSX and manifest are in design/continuous-review. Earlier folders are historical and excluded from the submission ZIP. No video is included.
 
 Paper design and decisions (sign-in required)
